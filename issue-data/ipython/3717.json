@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/256744155",
+    "html_url": "https://github.com/ipython/ipython/issues/3717#issuecomment-256744155",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3717",
+    "id": 256744155,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1Njc0NDE1NQ==",
+    "user": {
+      "login": "ivanov",
+      "id": 118211,
+      "node_id": "MDQ6VXNlcjExODIxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/118211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivanov",
+      "html_url": "https://github.com/ivanov",
+      "followers_url": "https://api.github.com/users/ivanov/followers",
+      "following_url": "https://api.github.com/users/ivanov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivanov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivanov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivanov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivanov/orgs",
+      "repos_url": "https://api.github.com/users/ivanov/repos",
+      "events_url": "https://api.github.com/users/ivanov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivanov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-27T19:25:25Z",
+    "updated_at": "2016-10-27T19:25:25Z",
+    "author_association": "MEMBER",
+    "body": "Hi David, thank you for your suggestion. I'm going through and closing old issues where it makes sense, and I think it makes sense to close this one.  This feature is available in [JupyterLab](/jupyterlab/jupyterlab).\n\nHappy hacking! :bowtie: \n"
+  }
+]

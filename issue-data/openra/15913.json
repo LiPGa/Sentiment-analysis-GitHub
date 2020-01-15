@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/449391725",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/15913#issuecomment-449391725",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15913",
+    "id": 449391725,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0OTM5MTcyNQ==",
+    "user": {
+      "login": "skruw",
+      "id": 45815045,
+      "node_id": "MDQ6VXNlcjQ1ODE1MDQ1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/45815045?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/skruw",
+      "html_url": "https://github.com/skruw",
+      "followers_url": "https://api.github.com/users/skruw/followers",
+      "following_url": "https://api.github.com/users/skruw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/skruw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/skruw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/skruw/subscriptions",
+      "organizations_url": "https://api.github.com/users/skruw/orgs",
+      "repos_url": "https://api.github.com/users/skruw/repos",
+      "events_url": "https://api.github.com/users/skruw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/skruw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-21T13:43:03Z",
+    "updated_at": "2018-12-21T13:43:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hey. I'll try doing this as my first contribution :)."
+  }
+]

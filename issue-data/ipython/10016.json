@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/255678244",
+    "html_url": "https://github.com/ipython/ipython/issues/10016#issuecomment-255678244",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10016",
+    "id": 255678244,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NTY3ODI0NA==",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-24T08:26:20Z",
+    "updated_at": "2016-10-24T08:26:20Z",
+    "author_association": "MEMBER",
+    "body": "This doesn't appear to happen with MPL 1.5.1. Usually the source of differences between calling savefig manually and inline is the use of `bbox_inches='tight'`, if that puts someone on the right track.\n"
+  }
+]

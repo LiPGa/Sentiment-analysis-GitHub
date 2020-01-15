@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/70248026",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9265#issuecomment-70248026",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9265",
+    "id": 70248026,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwMjQ4MDI2",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-16T12:36:22Z",
+    "updated_at": "2015-01-16T12:36:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "you can directly implement `clip` I believe. I eg. you apply the clipper to the actual non-missing values, the return a new structure. This will be efficient. This is simply inheriting existing behavior (which is not correct).\n\nSo would love for:\n- implement this soln\n- mark methods which don't 'work' as `NotImplemented` (e.g. have tests for these systematically). If you'd like to attempt this, create another issue for this (and can put up a list)\n"
+  }
+]

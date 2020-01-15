@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/8667725",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1929#issuecomment-8667725",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1929",
+    "id": 8667725,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg2Njc3MjU=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-09-18T19:47:31Z",
+    "updated_at": "2012-09-18T19:47:31Z",
+    "author_association": "MEMBER",
+    "body": "Looking pretty good now:\n\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>exp</th>\n      <th>A</th>\n      <th>B</th>\n      <th>C</th>\n    </tr>\n    <tr>\n      <th>first</th>\n      <th>second</th>\n      <th></th>\n      <th></th>\n      <th></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td rowspan=\"3\" valign=\"top\"><strong>foo</strong></td>\n      <td><strong>one</strong></td>\n      <td>-1.159321</td>\n      <td>-0.131931</td>\n      <td> 0.818024</td>\n    </tr>\n    <tr>\n      <td><strong>two</strong></td>\n      <td>-1.318878</td>\n      <td> 0.285172</td>\n      <td> 0.551480</td>\n    </tr>\n    <tr>\n      <td><strong>three</strong></td>\n      <td> 0.340577</td>\n      <td> 0.376841</td>\n      <td> 0.050759</td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\" valign=\"top\"><strong>bar</strong></td>\n      <td><strong>one</strong></td>\n      <td> 1.300129</td>\n      <td>-1.733227</td>\n      <td>-0.746667</td>\n    </tr>\n    <tr>\n      <td><strong>two</strong></td>\n      <td> 0.178495</td>\n      <td>-0.286725</td>\n      <td> 0.011206</td>\n    </tr>\n    <tr>\n      <td rowspan=\"2\" valign=\"top\"><strong>baz</strong></td>\n      <td><strong>two</strong></td>\n      <td> 0.764214</td>\n      <td> 0.702831</td>\n      <td> 0.080559</td>\n    </tr>\n    <tr>\n      <td><strong>three</strong></td>\n      <td>-0.299611</td>\n      <td>-0.505831</td>\n      <td>-0.319067</td>\n    </tr>\n    <tr>\n      <td rowspan=\"3\" valign=\"top\"><strong>qux</strong></td>\n      <td><strong>one</strong></td>\n      <td>-0.413753</td>\n      <td> 1.213659</td>\n      <td>-0.234424</td>\n    </tr>\n    <tr>\n      <td><strong>two</strong></td>\n      <td>-1.029432</td>\n      <td>-1.984151</td>\n      <td>-0.047421</td>\n    </tr>\n    <tr>\n      <td><strong>three</strong></td>\n      <td> 0.645149</td>\n      <td>-0.683223</td>\n      <td>-0.544720</td>\n    </tr>\n  </tbody>\n</table>\n"
+  }
+]

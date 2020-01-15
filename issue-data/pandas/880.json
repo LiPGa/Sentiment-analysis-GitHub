@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/4397678",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/880#issuecomment-4397678",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/880",
+    "id": 4397678,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzOTc2Nzg=",
+    "user": {
+      "login": "adamklein",
+      "id": 869232,
+      "node_id": "MDQ6VXNlcjg2OTIzMg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/869232?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamklein",
+      "html_url": "https://github.com/adamklein",
+      "followers_url": "https://api.github.com/users/adamklein/followers",
+      "following_url": "https://api.github.com/users/adamklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamklein/orgs",
+      "repos_url": "https://api.github.com/users/adamklein/repos",
+      "events_url": "https://api.github.com/users/adamklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-03-08T18:15:50Z",
+    "updated_at": "2012-03-08T18:15:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Closing this, but in general need to hash out all the missing slicing features on panel.\n"
+  }
+]

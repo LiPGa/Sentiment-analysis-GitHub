@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/326665296",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17416#issuecomment-326665296",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17416",
+    "id": 326665296,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjY2NTI5Ng==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-01T19:28:48Z",
+    "updated_at": "2017-09-01T19:29:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "[13] and [14] are identical; these are binary operations; you can certainly fill *while* adding [12] if you want.\r\n\r\n[11] is a general reducer, which has the ``skipna=True`` default.\r\n\r\nI agree that these are slightly inconsistent, but would argue that these are different in purpose and thus deserve different defaults.\r\n\r\nThe binary operations are nan propogating, which makes it obvious if things get nan-ed out, and you do generally want the nans to propagate. While the aggregators you can very easily accidently include a nan, thus making everything nans out, *not* generally what one would expect.\r\n\r\n```\r\nIn [11]: test_frame.sum(axis=1)\r\nOut[11]: \r\n0    2.0\r\n1    4.0\r\n2    3.0\r\ndtype: float64\r\n\r\nIn [12]: test_frame.a.add(test_frame.b, fill_value=0)\r\nOut[12]: \r\n0    2.0\r\n1    4.0\r\n2    3.0\r\ndtype: float64\r\n\r\n\r\nIn [13]: test_frame.a.add(test_frame.b)\r\nOut[13]: \r\n0    2.0\r\n1    4.0\r\n2    NaN\r\ndtype: float64\r\n\r\n\r\nIn [14]: test_frame.a + test_frame.b\r\nOut[14]: \r\n0    2.0\r\n1    4.0\r\n2    NaN\r\ndtype: float64\r\n```\r\n\r\nsee #9422 for more discussion. This is an opionated design and not a bug (pandas is being practical here)."
+  }
+]

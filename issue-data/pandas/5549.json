@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/28801127",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5549#issuecomment-28801127",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5549",
+    "id": 28801127,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4ODAxMTI3",
+    "user": {
+      "login": "jonblunt",
+      "id": 3467317,
+      "node_id": "MDQ6VXNlcjM0NjczMTc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3467317?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonblunt",
+      "html_url": "https://github.com/jonblunt",
+      "followers_url": "https://api.github.com/users/jonblunt/followers",
+      "following_url": "https://api.github.com/users/jonblunt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonblunt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonblunt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonblunt/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonblunt/orgs",
+      "repos_url": "https://api.github.com/users/jonblunt/repos",
+      "events_url": "https://api.github.com/users/jonblunt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonblunt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-11-19T15:51:24Z",
+    "updated_at": "2013-11-19T15:51:24Z",
+    "author_association": "NONE",
+    "body": "found issue #3136 .Closing\n"
+  }
+]

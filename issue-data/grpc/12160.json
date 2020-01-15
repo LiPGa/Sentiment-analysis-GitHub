@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/323960836",
+    "html_url": "https://github.com/grpc/grpc/issues/12160#issuecomment-323960836",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12160",
+    "id": 323960836,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMzk2MDgzNg==",
+    "user": {
+      "login": "manuthomasmathew",
+      "id": 30921380,
+      "node_id": "MDQ6VXNlcjMwOTIxMzgw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30921380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/manuthomasmathew",
+      "html_url": "https://github.com/manuthomasmathew",
+      "followers_url": "https://api.github.com/users/manuthomasmathew/followers",
+      "following_url": "https://api.github.com/users/manuthomasmathew/following{/other_user}",
+      "gists_url": "https://api.github.com/users/manuthomasmathew/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/manuthomasmathew/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/manuthomasmathew/subscriptions",
+      "organizations_url": "https://api.github.com/users/manuthomasmathew/orgs",
+      "repos_url": "https://api.github.com/users/manuthomasmathew/repos",
+      "events_url": "https://api.github.com/users/manuthomasmathew/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/manuthomasmathew/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-22T08:46:18Z",
+    "updated_at": "2017-08-22T08:46:18Z",
+    "author_association": "NONE",
+    "body": "This issue seems to be due to malloc's behavior of creating arena's per thread.\r\nEach arena had a memory allocated about 64 MB. \r\nSince the process had a lot of threads, the virtual memory was seen as high.\r\nThis is not an issue"
+  }
+]

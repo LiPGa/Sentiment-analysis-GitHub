@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/233501525",
+    "html_url": "https://github.com/grpc/grpc/issues/7458#issuecomment-233501525",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7458",
+    "id": 233501525,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMzUwMTUyNQ==",
+    "user": {
+      "login": "dgquintas",
+      "id": 120217,
+      "node_id": "MDQ6VXNlcjEyMDIxNw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/120217?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dgquintas",
+      "html_url": "https://github.com/dgquintas",
+      "followers_url": "https://api.github.com/users/dgquintas/followers",
+      "following_url": "https://api.github.com/users/dgquintas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dgquintas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dgquintas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dgquintas/subscriptions",
+      "organizations_url": "https://api.github.com/users/dgquintas/orgs",
+      "repos_url": "https://api.github.com/users/dgquintas/repos",
+      "events_url": "https://api.github.com/users/dgquintas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dgquintas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-19T00:51:44Z",
+    "updated_at": "2016-07-19T00:51:44Z",
+    "author_association": "NONE",
+    "body": "The list is basically here: https://github.com/grpc/grpc/blob/master/include/grpc/impl/codegen/grpc_types.h#L115\n\nOn top of the two methods in `ChannelArguments`, `SetCompressionAlgorithm` and `SetUserAgentPrefix`, already doxygen-documented at https://github.com/grpc/grpc/blob/master/include/grpc++/support/channel_arguments.h\n\nIf the comments from grpc_types.h look good enough, I can put together a small PR updating the comments on the  `grpc_channel_args` struct to reference them.\n"
+  }
+]

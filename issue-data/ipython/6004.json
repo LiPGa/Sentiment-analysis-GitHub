@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/46745436",
+    "html_url": "https://github.com/ipython/ipython/issues/6004#issuecomment-46745436",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6004",
+    "id": 46745436,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NzQ1NDM2",
+    "user": {
+      "login": "ivanov",
+      "id": 118211,
+      "node_id": "MDQ6VXNlcjExODIxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/118211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivanov",
+      "html_url": "https://github.com/ivanov",
+      "followers_url": "https://api.github.com/users/ivanov/followers",
+      "following_url": "https://api.github.com/users/ivanov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivanov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivanov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivanov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivanov/orgs",
+      "repos_url": "https://api.github.com/users/ivanov/repos",
+      "events_url": "https://api.github.com/users/ivanov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivanov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-21T05:48:34Z",
+    "updated_at": "2014-06-21T05:48:34Z",
+    "author_association": "MEMBER",
+    "body": "I'd argue that this is a bug with pdb++, because it calls itself pdb, and aims to be a drop-in replacement, but isn't. For example, if someone made an os++ module, or a sys++ module that aimed to be like the standard library counterparts, but actually also clobbered the standard libary names, it wouldn't be ipython's job to make sure they are supported.\n"
+  }
+]

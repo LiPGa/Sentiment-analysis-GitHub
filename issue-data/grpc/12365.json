@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/326603933",
+    "html_url": "https://github.com/grpc/grpc/issues/12365#issuecomment-326603933",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12365",
+    "id": 326603933,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjYwMzkzMw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-01T15:01:05Z",
+    "updated_at": "2017-09-01T15:01:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I has some partial success with gemspec changes from  https://github.com/gds-operations/vcloud-core/pull/189/files#diff-3019d21ddaeb5517843392a0f60eb64f, but they will also require some ruby style fixes it seems.\r\nhttps://sponge.corp.google.com/target?id=2491af25-5d38-4e58-969a-1a973be276ea&target=github/grpc/ruby_macos_dbg_native&searchFor=&show=ALL&sortBy=STATUS"
+  }
+]

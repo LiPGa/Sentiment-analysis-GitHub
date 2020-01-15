@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/135141053",
+    "html_url": "https://github.com/grpc/grpc/issues/2600#issuecomment-135141053",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2600",
+    "id": 135141053,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNTE0MTA1Mw==",
+    "user": {
+      "login": "dustinboswell",
+      "id": 1885227,
+      "node_id": "MDQ6VXNlcjE4ODUyMjc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1885227?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dustinboswell",
+      "html_url": "https://github.com/dustinboswell",
+      "followers_url": "https://api.github.com/users/dustinboswell/followers",
+      "following_url": "https://api.github.com/users/dustinboswell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dustinboswell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dustinboswell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dustinboswell/subscriptions",
+      "organizations_url": "https://api.github.com/users/dustinboswell/orgs",
+      "repos_url": "https://api.github.com/users/dustinboswell/repos",
+      "events_url": "https://api.github.com/users/dustinboswell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dustinboswell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-26T19:03:08Z",
+    "updated_at": "2015-08-26T19:03:08Z",
+    "author_association": "NONE",
+    "body": "I still sometimes get this behavior: on Linux w/ c++, I get \" on_writable failed during connect\" sometimes (sometimes not).  But the hello world client always takes 8 seconds (about) for the request/reply to finish.\n\nSniffing the data going across that port, I see \"write error to stdout\" being sent by the client (strange) on that port.\n\nMaybe this is a different issue, not sure.\n"
+  }
+]

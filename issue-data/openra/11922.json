@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/243474177",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11922#issuecomment-243474177",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11922",
+    "id": 243474177,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MzQ3NDE3Nw==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-30T15:14:50Z",
+    "updated_at": "2016-08-30T15:14:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'm not 100% sure, but this might be related to #11721.\n\nThe replay doesn't help with investigating, because for some reason, the map hash doesn't match:\n\n```\n$ git status\nHEAD detached at abcdefg30/crash-mission\nnothing to commit, working directory clean\n$ git rev-parse HEAD\ndaa4150ca2100264d60cb1ad8110039ec9245302\n$ ./OpenRA.Utility.exe ra --map-hash mods/ra/maps/infiltration/\n5ffcb8bea5467f716c5c74fd9a9522c920a890d8\n$ ./OpenRA.Utility.exe ra --replay-metadata crash-mission.orarep \ncrash-mission.orarep: \n    Mod: ra\n    Version: {DEV_VERSION}\n    MapUid: fc07e13e80de569874bfa533198258d126962762\n    MapTitle: Infiltration\n```\n"
+  }
+]

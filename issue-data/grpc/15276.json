@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/387959976",
+    "html_url": "https://github.com/grpc/grpc/issues/15276#issuecomment-387959976",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15276",
+    "id": 387959976,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4Nzk1OTk3Ng==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-10T05:57:25Z",
+    "updated_at": "2018-05-10T05:57:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "What is your `go` version? I had a similar problem (even for upstream/master and v1.12.x branch) and the tools/buildget/generate_build_additions.sh was getting stuck forever.\r\n\r\nIn my case, `go run third_party/boringssl/crypto/err/err_data_generate.go` was the root cause (go runtime was sometimes getting stuck and sometimes segfaulting which seems to be a bug in go runtime) - you can try it for yourself.\r\n\r\nThe solution is to updated your go runtime (mine was at go1.5 AFAIR) and the problem goes away - I'm reasonably sure you're seeing the same issue."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/133757918",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9135#issuecomment-133757918",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9135",
+    "id": 133757918,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzMzc1NzkxOA==",
+    "user": {
+      "login": "ihptru",
+      "id": 791864,
+      "node_id": "MDQ6VXNlcjc5MTg2NA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/791864?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ihptru",
+      "html_url": "https://github.com/ihptru",
+      "followers_url": "https://api.github.com/users/ihptru/followers",
+      "following_url": "https://api.github.com/users/ihptru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ihptru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ihptru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ihptru/subscriptions",
+      "organizations_url": "https://api.github.com/users/ihptru/orgs",
+      "repos_url": "https://api.github.com/users/ihptru/repos",
+      "events_url": "https://api.github.com/users/ihptru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ihptru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-22T22:05:15Z",
+    "updated_at": "2015-08-22T22:05:15Z",
+    "author_association": "MEMBER",
+    "body": "Took screenshot of bug. Removed that revision from site.\nI'll close issue in this repository as Resource Site bug reports should go to https://github.com/OpenRA/OpenRA-Resources/issues\nI'll need the same revision of that map to try to reproduce.\n"
+  }
+]

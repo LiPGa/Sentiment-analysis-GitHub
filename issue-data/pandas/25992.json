@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/480048998",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/25992#issuecomment-480048998",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25992",
+    "id": 480048998,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDA0ODk5OA==",
+    "user": {
+      "login": "swt2c",
+      "id": 971544,
+      "node_id": "MDQ6VXNlcjk3MTU0NA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/971544?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/swt2c",
+      "html_url": "https://github.com/swt2c",
+      "followers_url": "https://api.github.com/users/swt2c/followers",
+      "following_url": "https://api.github.com/users/swt2c/following{/other_user}",
+      "gists_url": "https://api.github.com/users/swt2c/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/swt2c/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/swt2c/subscriptions",
+      "organizations_url": "https://api.github.com/users/swt2c/orgs",
+      "repos_url": "https://api.github.com/users/swt2c/repos",
+      "events_url": "https://api.github.com/users/swt2c/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/swt2c/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-04T20:21:22Z",
+    "updated_at": "2019-04-04T20:21:22Z",
+    "author_association": "NONE",
+    "body": "I believe the CI failures are due to my added test, which is causing s3fs to be imported due to importing the `_strip_schema` function from `pandas.io.s3`.  This was really the only way I could see to add a test for this fix, other than try to load something from an actual S3 bucket.  Is it okay to add s3fs as a test dependency, and if so, how do I do that?"
+  }
+]

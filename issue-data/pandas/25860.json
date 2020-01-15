@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/476338582",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25860#issuecomment-476338582",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25860",
+    "id": 476338582,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NjMzODU4Mg==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-25T19:12:46Z",
+    "updated_at": "2019-03-25T19:13:29Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, I can confirm this behavior on master.\r\n\r\nFor what it's worth, I've been rewriting the `IntervalIndex` indexing methods as part of #16316 and this issue is not present in my new implementation:\r\n\r\n```python\r\nIn [2]: intv1 = pd.IntervalIndex.from_arrays([1, 3, 5], [2, 4, 6])\r\n\r\nIn [3]: intv1.get_loc(intv1[0])\r\nOut[3]: 0\r\n\r\nIn [4]: intv2 = pd.IntervalIndex.from_arrays([4, 2, 1], [5, 3, 2])\r\n\r\nIn [5]: intv2.get_loc(intv2[0])\r\nOut[5]: 0\r\n```\r\nOverall that branch is still a WIP and going somewhat slowly but I should have it ready in time for 0.25.0.  Would still take a fix in the meantime but be aware that it might get overwritten shortly thereafter."
+  }
+]

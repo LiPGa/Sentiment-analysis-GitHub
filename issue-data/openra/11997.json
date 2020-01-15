@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/251396417",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/11997#issuecomment-251396417",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11997",
+    "id": 251396417,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MTM5NjQxNw==",
+    "user": {
+      "login": "abc013",
+      "id": 21260178,
+      "node_id": "MDQ6VXNlcjIxMjYwMTc4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21260178?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abc013",
+      "html_url": "https://github.com/abc013",
+      "followers_url": "https://api.github.com/users/abc013/followers",
+      "following_url": "https://api.github.com/users/abc013/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abc013/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abc013/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abc013/subscriptions",
+      "organizations_url": "https://api.github.com/users/abc013/orgs",
+      "repos_url": "https://api.github.com/users/abc013/repos",
+      "events_url": "https://api.github.com/users/abc013/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abc013/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-04T14:01:25Z",
+    "updated_at": "2016-10-04T14:01:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This has to be resolved in the master-server code.\n"
+  }
+]

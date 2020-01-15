@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/328416895",
+    "html_url": "https://github.com/grpc/grpc/issues/12443#issuecomment-328416895",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12443",
+    "id": 328416895,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyODQxNjg5NQ==",
+    "user": {
+      "login": "sullerandras",
+      "id": 394358,
+      "node_id": "MDQ6VXNlcjM5NDM1OA==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/394358?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sullerandras",
+      "html_url": "https://github.com/sullerandras",
+      "followers_url": "https://api.github.com/users/sullerandras/followers",
+      "following_url": "https://api.github.com/users/sullerandras/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sullerandras/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sullerandras/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sullerandras/subscriptions",
+      "organizations_url": "https://api.github.com/users/sullerandras/orgs",
+      "repos_url": "https://api.github.com/users/sullerandras/repos",
+      "events_url": "https://api.github.com/users/sullerandras/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sullerandras/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-11T05:12:19Z",
+    "updated_at": "2017-09-11T05:12:19Z",
+    "author_association": "NONE",
+    "body": "It seems like the leak is [coming from here](https://github.com/grpc/grpc/blob/c7520d0d8f1c3833f9a1c04c953e272a120f31c4/src/ruby/ext/grpc/rb_call.c#L1048).\r\nIf i declare a `static grpc_rb_call static_wrapper;` outside of that function and change `wrapper = ALLOC(grpc_rb_call);` to `wrapper = &static_wrapper;` then there is no memory leak.\r\n\r\nAny idea where that `ALLOC` should be freed and why it doesn't work?"
+  }
+]

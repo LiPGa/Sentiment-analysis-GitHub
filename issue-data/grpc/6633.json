@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/220169518",
+    "html_url": "https://github.com/grpc/grpc/issues/6633#issuecomment-220169518",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6633",
+    "id": 220169518,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMDE2OTUxOA==",
+    "user": {
+      "login": "jcanizales",
+      "id": 5120183,
+      "node_id": "MDQ6VXNlcjUxMjAxODM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5120183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jcanizales",
+      "html_url": "https://github.com/jcanizales",
+      "followers_url": "https://api.github.com/users/jcanizales/followers",
+      "following_url": "https://api.github.com/users/jcanizales/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jcanizales/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jcanizales/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jcanizales/subscriptions",
+      "organizations_url": "https://api.github.com/users/jcanizales/orgs",
+      "repos_url": "https://api.github.com/users/jcanizales/repos",
+      "events_url": "https://api.github.com/users/jcanizales/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jcanizales/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-18T21:52:49Z",
+    "updated_at": "2016-05-18T21:52:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "To clarify: this is in the context of this error https://github.com/grpc/grpc/blob/master/src/objective-c/RxLibrary/GRXWriteable.m#L60\n\nThe error condition it detects could be the server's fault. But for teams that develop both the app and the server, it's useful to make the distinction between \"the server says error\" and \"there's something wrong in the server response, even though the server says it's fine\".\n\nOne way to make that distinction is to add a field to the `userInfo` dictionary.\n"
+  }
+]

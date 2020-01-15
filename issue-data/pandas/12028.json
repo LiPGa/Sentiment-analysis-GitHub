@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/171321912",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12028#issuecomment-171321912",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12028",
+    "id": 171321912,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MTMyMTkxMg==",
+    "user": {
+      "login": "RolandRitt",
+      "id": 16588610,
+      "node_id": "MDQ6VXNlcjE2NTg4NjEw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16588610?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RolandRitt",
+      "html_url": "https://github.com/RolandRitt",
+      "followers_url": "https://api.github.com/users/RolandRitt/followers",
+      "following_url": "https://api.github.com/users/RolandRitt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RolandRitt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RolandRitt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RolandRitt/subscriptions",
+      "organizations_url": "https://api.github.com/users/RolandRitt/orgs",
+      "repos_url": "https://api.github.com/users/RolandRitt/repos",
+      "events_url": "https://api.github.com/users/RolandRitt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RolandRitt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-13T15:02:55Z",
+    "updated_at": "2016-01-13T15:06:14Z",
+    "author_association": "NONE",
+    "body": "After digging a bit into it, found out, that it has to do with 'minor' and 'major' xticks.\nI think, the default behaviour of matplotlib is, that it does not plot minor gridlines.\nAdding:\n\n``` python\nmatplotlib.rcParams['axes.grid'] = True\nmatplotlib.rcParams['axes.grid.which'] = 'both'\nmatplotlib.rcParams['xtick.minor.visible'] = True\n```\n\nafter the imports, solves the problem for me\n"
+  }
+]

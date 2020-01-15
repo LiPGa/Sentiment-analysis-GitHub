@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/390123241",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5212#issuecomment-390123241",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5212",
+    "id": 390123241,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDEyMzI0MQ==",
+    "user": {
+      "login": "toobaz",
+      "id": 1224492,
+      "node_id": "MDQ6VXNlcjEyMjQ0OTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1224492?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toobaz",
+      "html_url": "https://github.com/toobaz",
+      "followers_url": "https://api.github.com/users/toobaz/followers",
+      "following_url": "https://api.github.com/users/toobaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toobaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toobaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toobaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/toobaz/orgs",
+      "repos_url": "https://api.github.com/users/toobaz/repos",
+      "events_url": "https://api.github.com/users/toobaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toobaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-18T07:41:35Z",
+    "updated_at": "2018-05-18T07:41:35Z",
+    "author_association": "MEMBER",
+    "body": "@jtratner does #19074 change anything?"
+  }
+]

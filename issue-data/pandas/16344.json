@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/301123685",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16344#issuecomment-301123685",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16344",
+    "id": 301123685,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMTEyMzY4NQ==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-12T16:28:48Z",
+    "updated_at": "2017-05-12T16:28:48Z",
+    "author_association": "MEMBER",
+    "body": "One question is whether we should also deprecate 'W' for week (see https://github.com/pandas-dev/pandas/issues/14024#issuecomment-240680919).\r\n\r\nGiven that this can be easily represented as 7 days, it would be easier/clearer to just have 'D' as the highest allowed unit. \r\nOn the other hand, 'W' currently gives a sensible output (as opposed to M/Y), so less reason to remove this behaviour:\r\n\r\n```\r\nIn [15]: pd.to_timedelta(1, unit='W')\r\nOut[15]: Timedelta('7 days 00:00:00')\r\n```"
+  }
+]

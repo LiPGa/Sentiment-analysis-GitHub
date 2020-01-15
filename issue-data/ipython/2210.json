@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/12451504",
+    "html_url": "https://github.com/ipython/ipython/issues/2210#issuecomment-12451504",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2210",
+    "id": 12451504,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNDUxNTA0",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-19T07:01:10Z",
+    "updated_at": "2013-01-19T07:01:10Z",
+    "author_association": "MEMBER",
+    "body": "I believe this is actually a matplotlib `bbox_inches=tight` bug that is fixed in matplotlib 1.2 (maybe 1.1).  In any case, it is a matplotlib issue.\n"
+  }
+]

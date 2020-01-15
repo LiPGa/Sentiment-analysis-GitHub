@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/372597733",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20317#issuecomment-372597733",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20317",
+    "id": 372597733,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MjU5NzczMw==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-13T09:17:32Z",
+    "updated_at": "2018-03-13T09:17:32Z",
+    "author_association": "MEMBER",
+    "body": "@ymhiri For questions how to use pandas, it's better to ask those at for example Stack Overflow or the mailing list (the github issues are for bug reports or enhancement proposals).\r\n\r\nIf you ask your question in of those other forums, you should also try to provide a self-contained, reproducible example (runnable code that shows the problem).\r\n\r\nIn this case, your problem is that you are calling `groupby` and the result of `groupby` (like `poll_df.groupby(['Start Date'],as_index=False).groupby(..)`. You should only do it once. You can read the docs about groupby here: https://pandas.pydata.org/pandas-docs/stable/10min.html#grouping"
+  }
+]

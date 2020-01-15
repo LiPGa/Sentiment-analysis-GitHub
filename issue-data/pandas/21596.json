@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/399546636",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21596#issuecomment-399546636",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21596",
+    "id": 399546636,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5OTU0NjYzNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-22T18:56:53Z",
+    "updated_at": "2018-06-22T18:56:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Comparing pandas' behavior vs. a List isn't really apples to apples. The better comparison is to NumPy\r\n\r\n```python\r\nIn [40]: set(np.array([np.nan, np.nan]))\r\nOut[40]: {nan, nan}\r\n```\r\n\r\nIn general, you can't rely on `np.nan` being a singleton, which is what `set` is relying on.\r\n\r\nIf you want unique values, you can use `pd.factorize`, which knows how to handle NaNs`."
+  }
+]

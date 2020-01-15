@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/77519254",
+    "html_url": "https://github.com/ipython/ipython/issues/7737#issuecomment-77519254",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7737",
+    "id": 77519254,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3NTE5MjU0",
+    "user": {
+      "login": "mathieu1",
+      "id": 7703352,
+      "node_id": "MDQ6VXNlcjc3MDMzNTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7703352?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mathieu1",
+      "html_url": "https://github.com/mathieu1",
+      "followers_url": "https://api.github.com/users/mathieu1/followers",
+      "following_url": "https://api.github.com/users/mathieu1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mathieu1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mathieu1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mathieu1/subscriptions",
+      "organizations_url": "https://api.github.com/users/mathieu1/orgs",
+      "repos_url": "https://api.github.com/users/mathieu1/repos",
+      "events_url": "https://api.github.com/users/mathieu1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mathieu1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-06T07:45:10Z",
+    "updated_at": "2015-03-06T07:45:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Fixed by merging #7681\n"
+  }
+]

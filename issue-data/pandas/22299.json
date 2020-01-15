@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/412388153",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22299#issuecomment-412388153",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22299",
+    "id": 412388153,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjM4ODE1Mw==",
+    "user": {
+      "login": "QuinRiva",
+      "id": 6433951,
+      "node_id": "MDQ6VXNlcjY0MzM5NTE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6433951?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/QuinRiva",
+      "html_url": "https://github.com/QuinRiva",
+      "followers_url": "https://api.github.com/users/QuinRiva/followers",
+      "following_url": "https://api.github.com/users/QuinRiva/following{/other_user}",
+      "gists_url": "https://api.github.com/users/QuinRiva/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/QuinRiva/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/QuinRiva/subscriptions",
+      "organizations_url": "https://api.github.com/users/QuinRiva/orgs",
+      "repos_url": "https://api.github.com/users/QuinRiva/repos",
+      "events_url": "https://api.github.com/users/QuinRiva/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/QuinRiva/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-13T01:39:15Z",
+    "updated_at": "2018-08-13T01:39:58Z",
+    "author_association": "NONE",
+    "body": "I'm an idiot, I missed a set of brackets and misinterpreted the comments in the error message. Please delete issue."
+  }
+]

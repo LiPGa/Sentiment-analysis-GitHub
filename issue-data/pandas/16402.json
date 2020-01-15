@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/302890666",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16402#issuecomment-302890666",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16402",
+    "id": 302890666,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMjg5MDY2Ng==",
+    "user": {
+      "login": "ResidentMario",
+      "id": 3466341,
+      "node_id": "MDQ6VXNlcjM0NjYzNDE=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3466341?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ResidentMario",
+      "html_url": "https://github.com/ResidentMario",
+      "followers_url": "https://api.github.com/users/ResidentMario/followers",
+      "following_url": "https://api.github.com/users/ResidentMario/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ResidentMario/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ResidentMario/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ResidentMario/subscriptions",
+      "organizations_url": "https://api.github.com/users/ResidentMario/orgs",
+      "repos_url": "https://api.github.com/users/ResidentMario/repos",
+      "events_url": "https://api.github.com/users/ResidentMario/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ResidentMario/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-20T18:32:58Z",
+    "updated_at": "2017-05-20T18:32:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I didn't quite finish the `fillna` error-mode patch because I got distracted elsewhere (and my GitHub activity has really dropped off the cliff). Should get back around to it relatively soon, though.\r\n\r\nI was aware that this was the change that was planned for 2 but I'm still not sure an aggressive approach is best in 1. Interested in hearing what others have to say. "
+  }
+]

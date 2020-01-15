@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/224648924",
+    "html_url": "https://github.com/grpc/grpc/issues/6746#issuecomment-224648924",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6746",
+    "id": 224648924,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNDY0ODkyNA==",
+    "user": {
+      "login": "makdharma",
+      "id": 17325098,
+      "node_id": "MDQ6VXNlcjE3MzI1MDk4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17325098?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/makdharma",
+      "html_url": "https://github.com/makdharma",
+      "followers_url": "https://api.github.com/users/makdharma/followers",
+      "following_url": "https://api.github.com/users/makdharma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/makdharma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/makdharma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/makdharma/subscriptions",
+      "organizations_url": "https://api.github.com/users/makdharma/orgs",
+      "repos_url": "https://api.github.com/users/makdharma/repos",
+      "events_url": "https://api.github.com/users/makdharma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/makdharma/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-08T16:34:27Z",
+    "updated_at": "2016-06-08T16:34:27Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@jcanizales - Where is the corresponding functionality implemented in ObjC? I don't see how this fix maps in ObjC.\n"
+  }
+]

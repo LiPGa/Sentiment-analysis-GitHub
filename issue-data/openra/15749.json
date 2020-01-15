@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/435535858",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/15749#issuecomment-435535858",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15749",
+    "id": 435535858,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTUzNTg1OA==",
+    "user": {
+      "login": "Smittytron",
+      "id": 23546299,
+      "node_id": "MDQ6VXNlcjIzNTQ2Mjk5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/23546299?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Smittytron",
+      "html_url": "https://github.com/Smittytron",
+      "followers_url": "https://api.github.com/users/Smittytron/followers",
+      "following_url": "https://api.github.com/users/Smittytron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Smittytron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Smittytron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Smittytron/subscriptions",
+      "organizations_url": "https://api.github.com/users/Smittytron/orgs",
+      "repos_url": "https://api.github.com/users/Smittytron/repos",
+      "events_url": "https://api.github.com/users/Smittytron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Smittytron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-02T23:14:29Z",
+    "updated_at": "2018-11-02T23:14:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Updated: Renamed waypoints per IRC request @abcdefg30 "
+  }
+]

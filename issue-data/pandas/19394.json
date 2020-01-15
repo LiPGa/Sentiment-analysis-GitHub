@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/360552755",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19394#issuecomment-360552755",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19394",
+    "id": 360552755,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MDU1Mjc1NQ==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-25T18:15:39Z",
+    "updated_at": "2018-01-25T18:15:39Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I sort of like it - maybe as option turned off by default? (could reconsider)\r\n\r\nSort of bike-shed issue, but would have to figure out exactly how the types are shown.  I like the 3-4 char abbreviations R uses as it keeps the repr compact, in pandas would have to contemplate things like 8 / 32 / 64 bit integers., categorical, etc.\r\n\r\n```python\r\ndf = pd.DataFrame({'a': [1,2,3], \r\n                   'b': [1.1, 2.2, 3.3],\r\n                   'c': pd.to_datetime(['2014-12-11', '2014-12-11', '2014-12-11']),\r\n                    'd': pd.Categorical(['j', 'k', 'l']),\r\n                   'e': ['m', 'n', 'p']})\r\n\r\ndf.dtypes\r\nOut[39]: \r\na             int64\r\nb           float64\r\nc    datetime64[ns]\r\nd          category\r\ne            object\r\n```\r\n"
+  }
+]

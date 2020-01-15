@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/459910837",
+    "html_url": "https://github.com/ipython/ipython/issues/11587#issuecomment-459910837",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11587",
+    "id": 459910837,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1OTkxMDgzNw==",
+    "user": {
+      "login": "rmorshea",
+      "id": 4041990,
+      "node_id": "MDQ6VXNlcjQwNDE5OTA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4041990?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rmorshea",
+      "html_url": "https://github.com/rmorshea",
+      "followers_url": "https://api.github.com/users/rmorshea/followers",
+      "following_url": "https://api.github.com/users/rmorshea/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rmorshea/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rmorshea/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rmorshea/subscriptions",
+      "organizations_url": "https://api.github.com/users/rmorshea/orgs",
+      "repos_url": "https://api.github.com/users/rmorshea/repos",
+      "events_url": "https://api.github.com/users/rmorshea/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rmorshea/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-02T00:11:21Z",
+    "updated_at": "2019-02-02T00:13:45Z",
+    "author_association": "NONE",
+    "body": "Not an issue with IPython or Jupyter.\r\n\r\nI was registering a callback function with the library that was getting garbage collected because I wasn't keeping a reference to it. The difference I experienced between the notebook and the shell was that depending on how I split up cells of execution garbage collection occurred sooner or later. If it occurred sooner the C library attempted to call a non-existent function and crashed.\r\n\r\nSolution: keep a reference to the callback."
+  }
+]

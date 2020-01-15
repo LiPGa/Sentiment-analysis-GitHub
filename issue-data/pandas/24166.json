@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/445532561",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24166#issuecomment-445532561",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24166",
+    "id": 445532561,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NTUzMjU2MQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-09T12:17:01Z",
+    "updated_at": "2018-12-09T12:17:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is fixed on master. We're doing the next release in a couple weeks.\r\n\r\n> I'm new to reporting bugs, so if there is anything you'd recommend I do differently next time please let me know. thanks!\r\n\r\n\r\nThe short example was perfect. I see that your on pandas 0.22. You could try updating to the latests release (0.23.4) to see if it's already been fixed. And if it isn't fixed there, you could try building master from source, but that's a bit of a hassle."
+  }
+]

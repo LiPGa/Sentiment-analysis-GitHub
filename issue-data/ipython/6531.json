@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/56713894",
+    "html_url": "https://github.com/ipython/ipython/issues/6531#issuecomment-56713894",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6531",
+    "id": 56713894,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2NzEzODk0",
+    "user": {
+      "login": "ccordoba12",
+      "id": 365293,
+      "node_id": "MDQ6VXNlcjM2NTI5Mw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/365293?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ccordoba12",
+      "html_url": "https://github.com/ccordoba12",
+      "followers_url": "https://api.github.com/users/ccordoba12/followers",
+      "following_url": "https://api.github.com/users/ccordoba12/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ccordoba12/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ccordoba12/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ccordoba12/subscriptions",
+      "organizations_url": "https://api.github.com/users/ccordoba12/orgs",
+      "repos_url": "https://api.github.com/users/ccordoba12/repos",
+      "events_url": "https://api.github.com/users/ccordoba12/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ccordoba12/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-24T18:11:16Z",
+    "updated_at": "2014-09-24T18:11:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You could use some of the css here\n\nhttp://getbootstrap.com/examples/non-responsive/non-responsive.css\n\nto disable responsiveness just for the navbar. It worked for me :-)\n"
+  }
+]

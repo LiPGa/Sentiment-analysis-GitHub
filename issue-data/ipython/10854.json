@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/342854470",
+    "html_url": "https://github.com/ipython/ipython/issues/10854#issuecomment-342854470",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10854",
+    "id": 342854470,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0Mjg1NDQ3MA==",
+    "user": {
+      "login": "blaiseli",
+      "id": 3380503,
+      "node_id": "MDQ6VXNlcjMzODA1MDM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3380503?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/blaiseli",
+      "html_url": "https://github.com/blaiseli",
+      "followers_url": "https://api.github.com/users/blaiseli/followers",
+      "following_url": "https://api.github.com/users/blaiseli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/blaiseli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/blaiseli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/blaiseli/subscriptions",
+      "organizations_url": "https://api.github.com/users/blaiseli/orgs",
+      "repos_url": "https://api.github.com/users/blaiseli/repos",
+      "events_url": "https://api.github.com/users/blaiseli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/blaiseli/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-08T15:34:25Z",
+    "updated_at": "2017-11-08T15:34:25Z",
+    "author_association": "NONE",
+    "body": "I don't know if this is related, but I just upgraded from version 5.something to 6.2.1, and tab-completion has become much less useful when typing a file path.\r\n\r\nBefore the upgrade, I got only proposals for file paths when pressing tab with my cursor at the end of the string representing a path.\r\nIn 6.2.1, the path-completion proposals are lost in a whole list of python functions and objects.\r\n\r\nAs I had the habit to rely on tab-completion to explore my filesystem, this is a bit annoying."
+  }
+]

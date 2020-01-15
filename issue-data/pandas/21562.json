@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/398837107",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21562#issuecomment-398837107",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21562",
+    "id": 398837107,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5ODgzNzEwNw==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-20T17:43:51Z",
+    "updated_at": "2018-06-20T17:43:51Z",
+    "author_association": "MEMBER",
+    "body": "More options:\r\n\r\n- use \"DataFrame objects\" if you really want the plural and code-formatted \"DataFrame\"\r\n- don't quote it at all, see https://github.com/pandas-dev/pandas/issues/19750"
+  }
+]

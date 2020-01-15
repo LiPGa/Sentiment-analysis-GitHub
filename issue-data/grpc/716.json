@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/75675712",
+    "html_url": "https://github.com/grpc/grpc/issues/716#issuecomment-75675712",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/716",
+    "id": 75675712,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1Njc1NzEy",
+    "user": {
+      "login": "donnadionne",
+      "id": 10470658,
+      "node_id": "MDQ6VXNlcjEwNDcwNjU4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10470658?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/donnadionne",
+      "html_url": "https://github.com/donnadionne",
+      "followers_url": "https://api.github.com/users/donnadionne/followers",
+      "following_url": "https://api.github.com/users/donnadionne/following{/other_user}",
+      "gists_url": "https://api.github.com/users/donnadionne/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/donnadionne/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/donnadionne/subscriptions",
+      "organizations_url": "https://api.github.com/users/donnadionne/orgs",
+      "repos_url": "https://api.github.com/users/donnadionne/repos",
+      "events_url": "https://api.github.com/users/donnadionne/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/donnadionne/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-24T00:46:37Z",
+    "updated_at": "2015-02-24T02:15:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The latest images the following pass: ruby-ruby, ruby-node, and node-node\n\nThe failure is node-ruby\n\n```\ndonnadionne@donnadionne0:~/grpc-git/grpc/tools/gce_setup$ grpc_interop_test large_unary grpc-docker-testclients node grpc-docker-server ruby\nwill run:\n  bash -l -c \"sudo docker run grpc/node /usr/bin/nodejs /var/local/git/grpc/src/node/interop/interop_client.js --use_tls=true --use_test_ca=true --server_host_override=foo.test.google.fr --server_host=10.240.248.89 --server_port=8060 --test_case=large_unary\"\non grpc-docker-testclients\nWarning: Permanently added '130.211.252.68' (ECDSA) to the list of known hosts.\nI0224 00:45:44.754979711       1 census_init.c:41] Initialize census library.\nI0224 00:45:44.755241967       1 census_tracing.c:157] Initialize census trace store.\nI0224 00:45:44.755989625       1 census_rpc_stats.c:225] Initialize census stats store.\nI0224 00:45:44.799402391      10 resolve_address.c:186] logspam: getaddrinfo(10.240.248.89, 8060) resolved 1 addrs in 0ms:\nI0224 00:45:44.799544516      10 resolve_address.c:192] logspam:   [0] 10.240.248.89:8060\nI0224 00:45:44.857738342       8 ssl_transport_security.c:166]      HANDSHAKE START -  before/connect initialization  - UNKWN \nI0224 00:45:44.857836663       8 ssl_transport_security.c:166]                 LOOP -  before/connect initialization  - UNKWN \nI0224 00:45:44.858359194       8 ssl_transport_security.c:166]                 LOOP -     SSLv3 write client hello A  - 3WCH_A\nI0224 00:45:44.957785784       8 ssl_transport_security.c:166]                 LOOP -      SSLv3 read server hello A  - 3RSH_A\nI0224 00:45:44.958382559       8 ssl_transport_security.c:166]                 LOOP - SSLv3 read server certificate   - 3RSC_A\nI0224 00:45:44.958681199       8 ssl_transport_security.c:166]                 LOOP - SSLv3 read server key exchange  - 3RSKEA\nI0224 00:45:44.958754971       8 ssl_transport_security.c:166]                 LOOP -       SSLv3 read server done A  - 3RSD_A\nI0224 00:45:44.959222296       8 ssl_transport_security.c:166]                 LOOP - SSLv3 write client key exchang  - 3WCKEA\nI0224 00:45:44.959323159       8 ssl_transport_security.c:166]                 LOOP - SSLv3 write change cipher spec  - 3WCCSA\nI0224 00:45:44.959577979       8 ssl_transport_security.c:166]                 LOOP -         SSLv3 write finished A  - 3WFINA\nI0224 00:45:44.959641754       8 ssl_transport_security.c:166]                 LOOP -               SSLv3 flush data  - 3FLUSH\nI0224 00:45:45.057731769       8 ssl_transport_security.c:166]                 LOOP - SSLv3 read server session tick  - UNKWN \nI0224 00:45:45.057858395       8 ssl_transport_security.c:166]                 LOOP -          SSLv3 read finished A  - 3RFINA\nI0224 00:45:45.058155427       8 ssl_transport_security.c:166]       HANDSHAKE DONE - SSL negotiation finished succe  - SSLOK \nD0224 00:45:45.061781560      13 frame_settings.c:219] CHTTP2: got setting 4 = 65535\n\nassert.js:326\nassert.ifError = function(err) { if (err) {throw err;}};\n                                                 ^\nAssertionError: null === 0\n    at /var/local/git/grpc/src/node/interop/interop_client.js:86:12\n    at GrpcClientStream.forwardData (/var/local/git/grpc/src/node/src/surface_client.js:177:9)\n    at GrpcClientStream.emit (events.js:95:17)\n    at GrpcClientStream.<anonymous> (_stream_readable.js:765:14)\n    at GrpcClientStream.emit (events.js:92:17)\n    at emitReadable_ (_stream_readable.js:427:10)\n    at emitReadable (_stream_readable.js:423:5)\n    at readableAddChunk (_stream_readable.js:166:9)\n    at GrpcClientStream.Readable.push (_stream_readable.js:128:10)\n    at readCallback (/var/local/git/grpc/src/node/src/client.js:108:14)\nERROR: (gcloud.compute.ssh) [/usr/bin/ssh] exited with return code [8].\n```\n"
+  }
+]

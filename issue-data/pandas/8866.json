@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/65432569",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8866#issuecomment-65432569",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8866",
+    "id": 65432569,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY1NDMyNTY5",
+    "user": {
+      "login": "springcoil",
+      "id": 983944,
+      "node_id": "MDQ6VXNlcjk4Mzk0NA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/983944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/springcoil",
+      "html_url": "https://github.com/springcoil",
+      "followers_url": "https://api.github.com/users/springcoil/followers",
+      "following_url": "https://api.github.com/users/springcoil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/springcoil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/springcoil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/springcoil/subscriptions",
+      "organizations_url": "https://api.github.com/users/springcoil/orgs",
+      "repos_url": "https://api.github.com/users/springcoil/repos",
+      "events_url": "https://api.github.com/users/springcoil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/springcoil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-03T15:55:59Z",
+    "updated_at": "2014-12-03T15:55:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hmm this seems a similar error to some other groupby errors I've looked at. I'll have a look.\n"
+  }
+]

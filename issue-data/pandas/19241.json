@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/357565834",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19241#issuecomment-357565834",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19241",
+    "id": 357565834,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NzU2NTgzNA==",
+    "user": {
+      "login": "jnothman",
+      "id": 78827,
+      "node_id": "MDQ6VXNlcjc4ODI3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/78827?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jnothman",
+      "html_url": "https://github.com/jnothman",
+      "followers_url": "https://api.github.com/users/jnothman/followers",
+      "following_url": "https://api.github.com/users/jnothman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jnothman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jnothman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jnothman/subscriptions",
+      "organizations_url": "https://api.github.com/users/jnothman/orgs",
+      "repos_url": "https://api.github.com/users/jnothman/repos",
+      "events_url": "https://api.github.com/users/jnothman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jnothman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-15T02:12:58Z",
+    "updated_at": "2018-01-15T02:12:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Somehow I managed to not see #14493, which is a duplicate"
+  }
+]

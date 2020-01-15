@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/371229738",
+    "html_url": "https://github.com/ipython/ipython/issues/6796#issuecomment-371229738",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6796",
+    "id": 371229738,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MTIyOTczOA==",
+    "user": {
+      "login": "davidlowryduda",
+      "id": 3103787,
+      "node_id": "MDQ6VXNlcjMxMDM3ODc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3103787?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davidlowryduda",
+      "html_url": "https://github.com/davidlowryduda",
+      "followers_url": "https://api.github.com/users/davidlowryduda/followers",
+      "following_url": "https://api.github.com/users/davidlowryduda/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davidlowryduda/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davidlowryduda/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davidlowryduda/subscriptions",
+      "organizations_url": "https://api.github.com/users/davidlowryduda/orgs",
+      "repos_url": "https://api.github.com/users/davidlowryduda/repos",
+      "events_url": "https://api.github.com/users/davidlowryduda/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davidlowryduda/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-07T18:08:43Z",
+    "updated_at": "2018-03-07T18:08:43Z",
+    "author_association": "NONE",
+    "body": "is this still an issue, or can this now be closed?"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/184928986",
+    "html_url": "https://github.com/grpc/grpc/issues/5243#issuecomment-184928986",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/5243",
+    "id": 184928986,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NDkyODk4Ng==",
+    "user": {
+      "login": "zinuga",
+      "id": 3805761,
+      "node_id": "MDQ6VXNlcjM4MDU3NjE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3805761?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zinuga",
+      "html_url": "https://github.com/zinuga",
+      "followers_url": "https://api.github.com/users/zinuga/followers",
+      "following_url": "https://api.github.com/users/zinuga/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zinuga/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zinuga/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zinuga/subscriptions",
+      "organizations_url": "https://api.github.com/users/zinuga/orgs",
+      "repos_url": "https://api.github.com/users/zinuga/repos",
+      "events_url": "https://api.github.com/users/zinuga/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zinuga/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-16T23:51:24Z",
+    "updated_at": "2016-02-16T23:51:24Z",
+    "author_association": "NONE",
+    "body": "Yes, and lets clean it up so this clearly says that this file has instructions to build from source and organize the rest of the file by OS. (linux, windows and mac). \"If you are in a hurry\" can point back to grpc.io or replicate the same instructions (clearly stating them for installation and use)\n"
+  }
+]

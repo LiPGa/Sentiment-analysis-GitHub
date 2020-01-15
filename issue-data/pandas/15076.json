@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/270904529",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15076#issuecomment-270904529",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15076",
+    "id": 270904529,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MDkwNDUyOQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-06T13:37:06Z",
+    "updated_at": "2017-01-06T13:37:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "looks ok to me.\r\n\r\n```\r\nIn [22]: df = tm.makeDataFrame()\r\n\r\nIn [23]: store = pd.HDFStore('foo.h5')\r\n\r\nIn [24]: store.append('df', df)\r\n\r\nIn [25]: store.close()\r\n\r\nIn [26]: del store\r\n\r\nIn [27]: !dir foo*\r\n Volume in drive C has no label.\r\n Volume Serial Number is EAE0-116E\r\n\r\n Directory of C:\\dev\\pandas\r\n\r\n01/06/2017  08:36 AM            84,305 foo.h5\r\n               1 File(s)         84,305 bytes\r\n               0 Dir(s)  487,259,361,280 bytes free\r\n\r\nIn [28]: !move foo.h5 foo2.h5\r\n        1 file(s) moved.\r\n\r\nIn [29]: !dir foo*\r\n Volume in drive C has no label.\r\n Volume Serial Number is EAE0-116E\r\n\r\n Directory of C:\\dev\\pandas\r\n\r\n01/06/2017  08:36 AM            84,305 foo2.h5\r\n               1 File(s)         84,305 bytes\r\n               0 Dir(s)  487,259,361,280 bytes free\r\n\r\n```"
+  }
+]

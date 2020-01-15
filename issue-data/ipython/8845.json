@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/143913821",
+    "html_url": "https://github.com/ipython/ipython/issues/8845#issuecomment-143913821",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8845",
+    "id": 143913821,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0MzkxMzgyMQ==",
+    "user": {
+      "login": "eneskemalergin",
+      "id": 7672473,
+      "node_id": "MDQ6VXNlcjc2NzI0NzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7672473?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eneskemalergin",
+      "html_url": "https://github.com/eneskemalergin",
+      "followers_url": "https://api.github.com/users/eneskemalergin/followers",
+      "following_url": "https://api.github.com/users/eneskemalergin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eneskemalergin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eneskemalergin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eneskemalergin/subscriptions",
+      "organizations_url": "https://api.github.com/users/eneskemalergin/orgs",
+      "repos_url": "https://api.github.com/users/eneskemalergin/repos",
+      "events_url": "https://api.github.com/users/eneskemalergin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eneskemalergin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-29T00:57:05Z",
+    "updated_at": "2015-09-29T00:57:05Z",
+    "author_association": "NONE",
+    "body": "I solved the problem. For those of you who had the same problem you should erase everything about ipython/jupyter from pip and conda. You should open terminal with administrative permissions `sudo -s` Then you should erase them manually with `rm -R <folderName>`. Then i installed anaconda distribution again and installed jupyter with conda\n"
+  }
+]

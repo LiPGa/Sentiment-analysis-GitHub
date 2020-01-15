@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/462392187",
+    "html_url": "https://github.com/grpc/grpc/issues/14207#issuecomment-462392187",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14207",
+    "id": 462392187,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MjM5MjE4Nw==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-11T16:24:28Z",
+    "updated_at": "2019-02-11T16:24:28Z",
+    "author_association": "MEMBER",
+    "body": "I suspect this is not really an issue.  It's true that we can't differentiate between a GOAWAY and (e.g.) the TCP connection unexpectedly failing, but I'm not sure we really need to, because we can treat those cases the same way.  We *can* differentiate between those two cases and the case where a connection attempt fails, and that's what's really important."
+  }
+]

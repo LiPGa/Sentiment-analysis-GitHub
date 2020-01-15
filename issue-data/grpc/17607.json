@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/451093463",
+    "html_url": "https://github.com/grpc/grpc/pull/17607#issuecomment-451093463",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17607",
+    "id": 451093463,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MTA5MzQ2Mw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-03T09:36:57Z",
+    "updated_at": "2019-01-03T09:36:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@jtattermusch I've made several updates since approval, mind taking one more look?\r\n\r\nSummary of changes in this PR: \r\n1) Add ruby 2.6-compatible binaries to binary packages\r\n2) Remove 2.1 and 2.0-compatible binaries\r\n3) Update linux unit and interop tests to ruby 2.5 (they were previously on ruby 2.1, which is a old, though macos was on ruby 2.5). Note I would update all tests to 2.6, but they don't actually pass yet because of https://bugs.ruby-lang.org/issues/15499 - but by adding support for 2.6 now, the bug can be fixed as soon as it's fixed upstream in ruby.\r\n4) Update distrib tests to no longer use ruby 2.0 and 2.1; and use at least 2.2"
+  }
+]

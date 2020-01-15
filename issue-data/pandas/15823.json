@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/289756541",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15823#issuecomment-289756541",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15823",
+    "id": 289756541,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4OTc1NjU0MQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-28T12:39:56Z",
+    "updated_at": "2017-03-28T12:39:56Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is the same as #15777 and linked issues. \r\n\r\nHowever, you should really localize these times.\r\n\r\n```\r\nIn [9]: pd.Timestamp('2017-03-26 01:00').tz_localize('Europe/Paris')\r\nOut[9]: Timestamp('2017-03-26 01:00:00+0100', tz='Europe/Paris')\r\n\r\nIn [10]: pd.Timestamp('2017-03-26 03:00').tz_localize('Europe/Paris')\r\nOut[10]: Timestamp('2017-03-26 03:00:00+0200', tz='Europe/Paris')\r\n```\r\n\r\nnote that [5] is not valid\r\n```\r\nIn [19]: pd.Timestamp('2017-03-26 02:00').tz_localize('Europe/Paris')\r\nNonExistentTimeError: 2017-03-26 02:00:00\r\n```"
+  }
+]

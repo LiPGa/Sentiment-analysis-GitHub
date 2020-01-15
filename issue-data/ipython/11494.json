@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/438791403",
+    "html_url": "https://github.com/ipython/ipython/issues/11494#issuecomment-438791403",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11494",
+    "id": 438791403,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzODc5MTQwMw==",
+    "user": {
+      "login": "jheiv",
+      "id": 1411138,
+      "node_id": "MDQ6VXNlcjE0MTExMzg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1411138?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jheiv",
+      "html_url": "https://github.com/jheiv",
+      "followers_url": "https://api.github.com/users/jheiv/followers",
+      "following_url": "https://api.github.com/users/jheiv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jheiv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jheiv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jheiv/subscriptions",
+      "organizations_url": "https://api.github.com/users/jheiv/orgs",
+      "repos_url": "https://api.github.com/users/jheiv/repos",
+      "events_url": "https://api.github.com/users/jheiv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jheiv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-14T19:39:14Z",
+    "updated_at": "2018-11-14T19:39:14Z",
+    "author_association": "NONE",
+    "body": "The container had an old version of ipython kernel installed (5.3).  Upgrading it solved the issue."
+  }
+]

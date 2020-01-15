@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/203586844",
+    "html_url": "https://github.com/grpc/grpc/issues/5026#issuecomment-203586844",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/5026",
+    "id": 203586844,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMzU4Njg0NA==",
+    "user": {
+      "login": "ahedberg",
+      "id": 5367112,
+      "node_id": "MDQ6VXNlcjUzNjcxMTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5367112?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ahedberg",
+      "html_url": "https://github.com/ahedberg",
+      "followers_url": "https://api.github.com/users/ahedberg/followers",
+      "following_url": "https://api.github.com/users/ahedberg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ahedberg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ahedberg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ahedberg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ahedberg/orgs",
+      "repos_url": "https://api.github.com/users/ahedberg/repos",
+      "events_url": "https://api.github.com/users/ahedberg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ahedberg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-30T19:05:36Z",
+    "updated_at": "2016-03-30T19:05:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "sendmsg and recvmsg will be implemented in nacl_io of the Native Client SDK (https://chromium.googlesource.com/chromium/src/+/master/native_client_sdk/src/libraries/nacl_io/), so additional changes to gRPC shouldn't be necessary.\n"
+  }
+]

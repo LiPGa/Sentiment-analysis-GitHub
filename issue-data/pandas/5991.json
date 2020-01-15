@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/32706041",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5991#issuecomment-32706041",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5991",
+    "id": 32706041,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNzA2MDQx",
+    "user": {
+      "login": "phaebz",
+      "id": 952406,
+      "node_id": "MDQ6VXNlcjk1MjQwNg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/952406?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/phaebz",
+      "html_url": "https://github.com/phaebz",
+      "followers_url": "https://api.github.com/users/phaebz/followers",
+      "following_url": "https://api.github.com/users/phaebz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/phaebz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/phaebz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/phaebz/subscriptions",
+      "organizations_url": "https://api.github.com/users/phaebz/orgs",
+      "repos_url": "https://api.github.com/users/phaebz/repos",
+      "events_url": "https://api.github.com/users/phaebz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/phaebz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-01-19T11:25:08Z",
+    "updated_at": "2014-01-19T11:27:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is discussed in #5530 as it was reopened after this issue was opened.\n"
+  }
+]

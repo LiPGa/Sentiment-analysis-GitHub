@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/409593935",
+    "html_url": "https://github.com/grpc/grpc/issues/16206#issuecomment-409593935",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16206",
+    "id": 409593935,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwOTU5MzkzNQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-01T14:26:13Z",
+    "updated_at": "2018-08-01T14:26:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@vbisbest  you are probably missing some dependencies. Crosscompiling for android is non-trivial,\r\nbut here's the Dockerfile we are using:\r\nhttps://github.com/grpc/grpc/blob/master/tools/dockerfile/grpc_artifact_android_ndk/Dockerfile\r\n(it has all the prerequisites installed).\r\nAlso the cross-compiled libraries for android are now part of the daily builds of the Grpc.Core nuget, you can download from https://packages.grpc.io/"
+  }
+]

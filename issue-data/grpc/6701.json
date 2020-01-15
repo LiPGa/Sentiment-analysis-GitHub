@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/261524789",
+    "html_url": "https://github.com/grpc/grpc/issues/6701#issuecomment-261524789",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6701",
+    "id": 261524789,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2MTUyNDc4OQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-18T12:51:35Z",
+    "updated_at": "2016-11-18T12:51:35Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Well, yes, if you have an older version of protobuf installed on your system and it's major version is 3.0.0-X or anything higher, makefile will pick it up and it's really hard to autodetect which version is acceptable / which is not anymore.\n\nThe way to avoid this is to never `make install` protobuf on the machine where you are developing/building gRPC. (actually, make install is problematic thing in general as there is no easy way to uninstall once a new version of protobuf in released - which is at least several times a year).\n\nNo action planned here.\n"
+  }
+]

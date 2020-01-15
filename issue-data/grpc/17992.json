@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/463582758",
+    "html_url": "https://github.com/grpc/grpc/issues/17992#issuecomment-463582758",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17992",
+    "id": 463582758,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MzU4Mjc1OA==",
+    "user": {
+      "login": "vertextao",
+      "id": 980728,
+      "node_id": "MDQ6VXNlcjk4MDcyOA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/980728?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vertextao",
+      "html_url": "https://github.com/vertextao",
+      "followers_url": "https://api.github.com/users/vertextao/followers",
+      "following_url": "https://api.github.com/users/vertextao/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vertextao/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vertextao/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vertextao/subscriptions",
+      "organizations_url": "https://api.github.com/users/vertextao/orgs",
+      "repos_url": "https://api.github.com/users/vertextao/repos",
+      "events_url": "https://api.github.com/users/vertextao/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vertextao/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-14T10:50:46Z",
+    "updated_at": "2019-02-14T10:50:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I've figured out when I run one of the tests with `ASAN_OPTIONS` defined, it failed.\r\n\r\nSo, the issue is caused by my environment mentioned [here](https://github.com/google/sanitizers/issues/1026).\r\n\r\n```\r\n$ ASAN_OPTIONS=detect_leaks=1 bins/asan/time_change_test --gtest_filter=TimespecTest.GrpcNegativeMillisToTimespec  GRPC_POLL_STRATEGY=poll\r\n==39220==AddressSanitizer: detect_leaks is not supported on this platform.\r\nAbort trap: 6\r\n```\r\n\r\nI'll going to close this issue.\r\n "
+  }
+]

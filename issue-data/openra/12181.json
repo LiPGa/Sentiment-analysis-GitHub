@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/251782088",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/12181#issuecomment-251782088",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12181",
+    "id": 251782088,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MTc4MjA4OA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-05T19:59:23Z",
+    "updated_at": "2016-10-05T19:59:23Z",
+    "author_association": "MEMBER",
+    "body": "Looks like this was a false alarm, I had forgotten that we now explicitly pass the sdk flag from travis, instead of having it in the default makefile.  Building on mono 4.6 explicitly specifying the 4.5 sdk works fine for me locally.\n"
+  }
+]

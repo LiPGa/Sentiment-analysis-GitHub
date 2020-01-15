@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/444178648",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24094#issuecomment-444178648",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24094",
+    "id": 444178648,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NDE3ODY0OA==",
+    "user": {
+      "login": "jbrockmendel",
+      "id": 8078968,
+      "node_id": "MDQ6VXNlcjgwNzg5Njg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8078968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbrockmendel",
+      "html_url": "https://github.com/jbrockmendel",
+      "followers_url": "https://api.github.com/users/jbrockmendel/followers",
+      "following_url": "https://api.github.com/users/jbrockmendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbrockmendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbrockmendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbrockmendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbrockmendel/orgs",
+      "repos_url": "https://api.github.com/users/jbrockmendel/repos",
+      "events_url": "https://api.github.com/users/jbrockmendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbrockmendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-04T17:09:25Z",
+    "updated_at": "2018-12-04T17:09:25Z",
+    "author_association": "MEMBER",
+    "body": "This is fixed in master.  Closing."
+  }
+]

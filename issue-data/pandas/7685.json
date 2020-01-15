@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/48273861",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/7685#issuecomment-48273861",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/7685",
+    "id": 48273861,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MjczODYx",
+    "user": {
+      "login": "davidastephens",
+      "id": 5957850,
+      "node_id": "MDQ6VXNlcjU5NTc4NTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5957850?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davidastephens",
+      "html_url": "https://github.com/davidastephens",
+      "followers_url": "https://api.github.com/users/davidastephens/followers",
+      "following_url": "https://api.github.com/users/davidastephens/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davidastephens/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davidastephens/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davidastephens/subscriptions",
+      "organizations_url": "https://api.github.com/users/davidastephens/orgs",
+      "repos_url": "https://api.github.com/users/davidastephens/repos",
+      "events_url": "https://api.github.com/users/davidastephens/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davidastephens/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-08T05:35:32Z",
+    "updated_at": "2014-07-08T05:35:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The pull request fixes the first one.. I have no idea what the problem is on the second one.  \n"
+  }
+]

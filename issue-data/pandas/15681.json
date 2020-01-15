@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/286398680",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15681#issuecomment-286398680",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15681",
+    "id": 286398680,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NjM5ODY4MA==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-14T11:51:44Z",
+    "updated_at": "2017-03-14T11:51:44Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks for the report - this is corrected on master, was fixed as part of #15245\r\n\r\n```\r\nIn [36]: pd.__version__\r\nOut[36]: '0.19.0+566.g54e71a7'\r\n\r\nIn [37]: data.index.get_level_values?\r\nSignature: data.index.get_level_values(level)\r\nDocstring:\r\nReturn vector of label values for requested level,\r\nequal to the length of the index\r\n\r\nParameters\r\n----------\r\nlevel : int or level name\r\n\r\nReturns\r\n-------\r\nvalues : Index\r\n```"
+  }
+]

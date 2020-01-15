@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/1362818",
+    "html_url": "https://github.com/ipython/ipython/issues/519#issuecomment-1362818",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/519",
+    "id": 1362818,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNjI4MTg=",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-06-14T00:02:00Z",
+    "updated_at": "2011-06-14T00:02:00Z",
+    "author_association": "MEMBER",
+    "body": "No, this is not new.  It is related to #516 in that the FrontendWidget assumes that messages come from IPython object inspection, and not the reduced reply given by the pure Python kernel.  If you confirm that #521 fixes this and #516 for you, I will go ahead and merge it.\n"
+  }
+]

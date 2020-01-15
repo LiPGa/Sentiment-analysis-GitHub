@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/25507491",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/5079#issuecomment-25507491",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5079",
+    "id": 25507491,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NTA3NDkx",
+    "user": {
+      "login": "jtratner",
+      "id": 1598379,
+      "node_id": "MDQ6VXNlcjE1OTgzNzk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1598379?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtratner",
+      "html_url": "https://github.com/jtratner",
+      "followers_url": "https://api.github.com/users/jtratner/followers",
+      "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtratner/orgs",
+      "repos_url": "https://api.github.com/users/jtratner/repos",
+      "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtratner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-10-02T01:30:08Z",
+    "updated_at": "2013-10-02T01:30:08Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Woah, this causes a segmentation fault? It must be because you can't override those properties without messing up numpy.\n\nI'm going to push this to 0.14 when MI won't be a subclass of ndarray.\n"
+  }
+]

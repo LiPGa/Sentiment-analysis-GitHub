@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5576287",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1207#issuecomment-5576287",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1207",
+    "id": 5576287,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NzYyODc=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-08T14:44:07Z",
+    "updated_at": "2012-05-08T14:44:07Z",
+    "author_association": "MEMBER",
+    "body": "Benchmarked without the `K == 1` special case and saw 15-20% performance hit:\n\n```\nIn [2]: lib.group_add_bin(result, counts, values, bins)\n\nIn [3]: timeit lib.group_add_bin(result, counts, values, bins)\n1000 loops, best of 3: 560 us per loop\n\nIn [4]: timeit lib.group_add_bin2(result, counts, values, bins)\n1000 loops, best of 3: 668 us per loop\n```\n"
+  }
+]

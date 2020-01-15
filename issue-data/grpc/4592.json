@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/174760808",
+    "html_url": "https://github.com/grpc/grpc/issues/4592#issuecomment-174760808",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/4592",
+    "id": 174760808,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NDc2MDgwOA==",
+    "user": {
+      "login": "michael-berlin",
+      "id": 3919251,
+      "node_id": "MDQ6VXNlcjM5MTkyNTE=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3919251?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/michael-berlin",
+      "html_url": "https://github.com/michael-berlin",
+      "followers_url": "https://api.github.com/users/michael-berlin/followers",
+      "following_url": "https://api.github.com/users/michael-berlin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/michael-berlin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/michael-berlin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/michael-berlin/subscriptions",
+      "organizations_url": "https://api.github.com/users/michael-berlin/orgs",
+      "repos_url": "https://api.github.com/users/michael-berlin/repos",
+      "events_url": "https://api.github.com/users/michael-berlin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/michael-berlin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T01:34:26Z",
+    "updated_at": "2016-01-26T01:34:26Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "tox as dependency is mentioned now: https://github.com/grpc/grpc/blob/master/src/python/README.md\n\nBut what's missing is the required version number and that is currently 1.6.1 because tox.ini contains the [\"-rrequirements.txt\"](http://tox.readthedocs.org/en/latest/example/basic.html#depending-on-requirements-txt) directive. (Unfortunately, Ubuntu Trusty ships with tox 1.6.0.)\n\n@soltanmm told me over Hangouts he plans to replace tox anyway for building Python gRPC and keep it only for running the tests.\n"
+  }
+]

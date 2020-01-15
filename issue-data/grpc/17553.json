@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/448652264",
+    "html_url": "https://github.com/grpc/grpc/issues/17553#issuecomment-448652264",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17553",
+    "id": 448652264,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0ODY1MjI2NA==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-19T16:14:15Z",
+    "updated_at": "2018-12-19T16:14:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Same failure as https://github.com/grpc/grpc/issues/15308, although this is the first time seeing it with Python 3."
+  }
+]

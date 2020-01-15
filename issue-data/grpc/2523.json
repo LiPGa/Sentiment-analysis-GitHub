@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/122695293",
+    "html_url": "https://github.com/grpc/grpc/issues/2523#issuecomment-122695293",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2523",
+    "id": 122695293,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMjY5NTI5Mw==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-19T18:56:35Z",
+    "updated_at": "2015-07-19T18:56:35Z",
+    "author_association": "MEMBER",
+    "body": "Implementations would be encouraged to ensure that the version string does not need to be set in many different places.\n"
+  }
+]

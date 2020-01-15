@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/437993522",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23644#issuecomment-437993522",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23644",
+    "id": 437993522,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNzk5MzUyMg==",
+    "user": {
+      "login": "dat-boris",
+      "id": 1215939,
+      "node_id": "MDQ6VXNlcjEyMTU5Mzk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1215939?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dat-boris",
+      "html_url": "https://github.com/dat-boris",
+      "followers_url": "https://api.github.com/users/dat-boris/followers",
+      "following_url": "https://api.github.com/users/dat-boris/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dat-boris/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dat-boris/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dat-boris/subscriptions",
+      "organizations_url": "https://api.github.com/users/dat-boris/orgs",
+      "repos_url": "https://api.github.com/users/dat-boris/repos",
+      "events_url": "https://api.github.com/users/dat-boris/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dat-boris/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-12T19:03:25Z",
+    "updated_at": "2018-11-12T19:03:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "👋 working on this one as Pycon CA sprint."
+  }
+]

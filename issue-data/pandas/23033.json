@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/427700835",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23033#issuecomment-427700835",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23033",
+    "id": 427700835,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNzcwMDgzNQ==",
+    "user": {
+      "login": "KristianHolsheimer",
+      "id": 8200332,
+      "node_id": "MDQ6VXNlcjgyMDAzMzI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8200332?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KristianHolsheimer",
+      "html_url": "https://github.com/KristianHolsheimer",
+      "followers_url": "https://api.github.com/users/KristianHolsheimer/followers",
+      "following_url": "https://api.github.com/users/KristianHolsheimer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KristianHolsheimer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KristianHolsheimer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KristianHolsheimer/subscriptions",
+      "organizations_url": "https://api.github.com/users/KristianHolsheimer/orgs",
+      "repos_url": "https://api.github.com/users/KristianHolsheimer/repos",
+      "events_url": "https://api.github.com/users/KristianHolsheimer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KristianHolsheimer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-08T00:45:50Z",
+    "updated_at": "2018-10-08T00:45:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is solved in PR #23034"
+  }
+]

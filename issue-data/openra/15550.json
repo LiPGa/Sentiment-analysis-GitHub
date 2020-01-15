@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/415224996",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/15550#issuecomment-415224996",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15550",
+    "id": 415224996,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNTIyNDk5Ng==",
+    "user": {
+      "login": "abcdefg30",
+      "id": 7704140,
+      "node_id": "MDQ6VXNlcjc3MDQxNDA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7704140?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abcdefg30",
+      "html_url": "https://github.com/abcdefg30",
+      "followers_url": "https://api.github.com/users/abcdefg30/followers",
+      "following_url": "https://api.github.com/users/abcdefg30/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abcdefg30/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abcdefg30/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abcdefg30/subscriptions",
+      "organizations_url": "https://api.github.com/users/abcdefg30/orgs",
+      "repos_url": "https://api.github.com/users/abcdefg30/repos",
+      "events_url": "https://api.github.com/users/abcdefg30/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abcdefg30/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-22T23:52:01Z",
+    "updated_at": "2018-08-22T23:52:01Z",
+    "author_association": "MEMBER",
+    "body": "[Changelog](https://github.com/OpenRA/OpenRA/wiki/Changelog/_compare/153a3582c8a4f1823e4a19436a940f98b226e2b3...aa6a172d4e406dd942dd2fd5be68fa0ae68680d6)\r\n\r\nhttps://github.com/OpenRA/OpenRA/commit/8c173dc870f6e77400d1af6cb0bf518bc126c75a"
+  }
+]

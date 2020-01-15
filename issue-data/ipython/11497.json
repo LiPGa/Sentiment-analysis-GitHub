@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/439650909",
+    "html_url": "https://github.com/ipython/ipython/issues/11497#issuecomment-439650909",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11497",
+    "id": 439650909,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzOTY1MDkwOQ==",
+    "user": {
+      "login": "kevhess",
+      "id": 5865430,
+      "node_id": "MDQ6VXNlcjU4NjU0MzA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5865430?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kevhess",
+      "html_url": "https://github.com/kevhess",
+      "followers_url": "https://api.github.com/users/kevhess/followers",
+      "following_url": "https://api.github.com/users/kevhess/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kevhess/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kevhess/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kevhess/subscriptions",
+      "organizations_url": "https://api.github.com/users/kevhess/orgs",
+      "repos_url": "https://api.github.com/users/kevhess/repos",
+      "events_url": "https://api.github.com/users/kevhess/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kevhess/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-17T22:04:30Z",
+    "updated_at": "2018-11-17T22:04:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Proposed fix: https://github.com/ipython/ipython/pull/11498"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/329679744",
+    "html_url": "https://github.com/grpc/grpc/issues/12302#issuecomment-329679744",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12302",
+    "id": 329679744,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyOTY3OTc0NA==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-15T04:41:50Z",
+    "updated_at": "2017-09-15T04:41:50Z",
+    "author_association": "MEMBER",
+    "body": "Looks like some spaces have been erroneously entered into your `grpc_tools.protoc` invocation. Does changing\r\n```\r\npython -m grpc_tools.protoc -I . --python_out= . --grpc_python_out=. test.proto\r\n```\r\nto\r\n```\r\npython -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. test.proto\r\n```\r\nhelp at all?"
+  }
+]

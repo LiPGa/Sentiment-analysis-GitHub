@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/427934721",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23006#issuecomment-427934721",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23006",
+    "id": 427934721,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNzkzNDcyMQ==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-08T18:28:25Z",
+    "updated_at": "2018-10-08T18:28:25Z",
+    "author_association": "MEMBER",
+    "body": "Please refer to the contributing guide on effective bug reports:\r\n\r\nhttps://pandas.pydata.org/pandas-docs/stable/contributing.html#bug-reports-and-enhancement-requests\r\n\r\nThere isn't enough info here to debug (mainly missing `pd.show_version()` but my assumption is that you are using openpyxl <= 2.4 which will hit the branch in code with the call to `remove_sheet`.\r\n\r\nIf that's not the case please reopen with the information per the contributing guideline.\r\n\r\nRelated to #15090"
+  }
+]

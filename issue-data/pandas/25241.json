@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/462060528",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25241#issuecomment-462060528",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25241",
+    "id": 462060528,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MjA2MDUyOA==",
+    "user": {
+      "login": "mroeschke",
+      "id": 10647082,
+      "node_id": "MDQ6VXNlcjEwNjQ3MDgy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10647082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mroeschke",
+      "html_url": "https://github.com/mroeschke",
+      "followers_url": "https://api.github.com/users/mroeschke/followers",
+      "following_url": "https://api.github.com/users/mroeschke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mroeschke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mroeschke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mroeschke/subscriptions",
+      "organizations_url": "https://api.github.com/users/mroeschke/orgs",
+      "repos_url": "https://api.github.com/users/mroeschke/repos",
+      "events_url": "https://api.github.com/users/mroeschke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mroeschke/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-09T16:56:32Z",
+    "updated_at": "2019-02-09T16:56:32Z",
+    "author_association": "MEMBER",
+    "body": "`self.tz` needs to be passed in these places. Agreed with you opinion on freq. PR's welcome!\r\n\r\nhttps://github.com/pandas-dev/pandas/blob/d7a0964b359d37ef92045f24a570aa92a78568dd/pandas/_libs/tslibs/timestamps.pyx#L1190\r\n\r\nhttps://github.com/pandas-dev/pandas/blob/d7a0964b359d37ef92045f24a570aa92a78568dd/pandas/_libs/tslibs/timestamps.pyx#L1195\r\n\r\nhttps://github.com/pandas-dev/pandas/blob/d7a0964b359d37ef92045f24a570aa92a78568dd/pandas/_libs/tslibs/timestamps.pyx#L1225"
+  }
+]

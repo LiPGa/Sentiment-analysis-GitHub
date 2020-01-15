@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/264715144",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14795#issuecomment-264715144",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14795",
+    "id": 264715144,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NDcxNTE0NA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-04T16:50:12Z",
+    "updated_at": "2016-12-04T16:50:12Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Appending *different* timezones and coercing to UTC loses information. It is up to the user to explicitly coerce to the *same* timezone if you don't want this behavior. Having mixed timezones within a single object is only supported with boxed objects, hence the ``object`` dtype.\r\n\r\nThis what fixed in #13360 / xref issue was #7795 \r\n\r\n```\r\nIn [16]: result.tolist()\r\nOut[16]: \r\n[Timestamp('1990-02-01 09:00:00-0500', tz='America/New_York', freq='T'),\r\n Timestamp('1990-02-01 09:01:00-0500', tz='America/New_York', freq='T'),\r\n Timestamp('1990-02-01 09:02:00-0500', tz='America/New_York', freq='T'),\r\n Timestamp('1990-02-01 08:03:00-0600', tz='America/Chicago', freq='T'),\r\n Timestamp('1990-02-01 08:04:00-0600', tz='America/Chicago', freq='T'),\r\n Timestamp('1990-02-01 08:05:00-0600', tz='America/Chicago', freq='T')]\r\n```\r\n\r\nfrom above."
+  }
+]

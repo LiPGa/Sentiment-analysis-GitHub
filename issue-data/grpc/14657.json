@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/372797090",
+    "html_url": "https://github.com/grpc/grpc/pull/14657#issuecomment-372797090",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14657",
+    "id": 372797090,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3Mjc5NzA5MA==",
+    "user": {
+      "login": "ghostwriternr",
+      "id": 10023615,
+      "node_id": "MDQ6VXNlcjEwMDIzNjE1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10023615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghostwriternr",
+      "html_url": "https://github.com/ghostwriternr",
+      "followers_url": "https://api.github.com/users/ghostwriternr/followers",
+      "following_url": "https://api.github.com/users/ghostwriternr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghostwriternr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghostwriternr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghostwriternr/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghostwriternr/orgs",
+      "repos_url": "https://api.github.com/users/ghostwriternr/repos",
+      "events_url": "https://api.github.com/users/ghostwriternr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghostwriternr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-13T19:54:21Z",
+    "updated_at": "2018-03-13T19:54:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@nathanielmanistaatgoogle I've updated the commit message to include the removal of warning.\r\n\r\nChris Beams' blog post on good commit messages is indeed a great guide to keep in mind :)"
+  }
+]

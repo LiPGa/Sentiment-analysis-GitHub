@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/435643730",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/15782#issuecomment-435643730",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15782",
+    "id": 435643730,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTY0MzczMA==",
+    "user": {
+      "login": "reaperrr",
+      "id": 2857877,
+      "node_id": "MDQ6VXNlcjI4NTc4Nzc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2857877?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reaperrr",
+      "html_url": "https://github.com/reaperrr",
+      "followers_url": "https://api.github.com/users/reaperrr/followers",
+      "following_url": "https://api.github.com/users/reaperrr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reaperrr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reaperrr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reaperrr/subscriptions",
+      "organizations_url": "https://api.github.com/users/reaperrr/orgs",
+      "repos_url": "https://api.github.com/users/reaperrr/repos",
+      "events_url": "https://api.github.com/users/reaperrr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reaperrr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-04T05:36:36Z",
+    "updated_at": "2018-11-04T05:36:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "[changelog](https://github.com/OpenRA/OpenRA/wiki/Changelog-(bleed)/_compare/d6c7eb64eb99784934f55544b1614ea1dce69721...bf5148a12e28380a2690088b0ebab8d0b45a15b7)"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/399957577",
+    "html_url": "https://github.com/grpc/grpc/issues/15858#issuecomment-399957577",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15858",
+    "id": 399957577,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5OTk1NzU3Nw==",
+    "user": {
+      "login": "shark0119",
+      "id": 17493206,
+      "node_id": "MDQ6VXNlcjE3NDkzMjA2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17493206?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shark0119",
+      "html_url": "https://github.com/shark0119",
+      "followers_url": "https://api.github.com/users/shark0119/followers",
+      "following_url": "https://api.github.com/users/shark0119/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shark0119/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shark0119/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shark0119/subscriptions",
+      "organizations_url": "https://api.github.com/users/shark0119/orgs",
+      "repos_url": "https://api.github.com/users/shark0119/repos",
+      "events_url": "https://api.github.com/users/shark0119/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shark0119/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-25T13:47:27Z",
+    "updated_at": "2018-06-25T13:47:27Z",
+    "author_association": "NONE",
+    "body": "After deleting the string at the end of the 2612 line and the string at the beginning of the 2613 line. I built the solution again without any compile error."
+  }
+]

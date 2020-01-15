@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/155326247",
+    "html_url": "https://github.com/ipython/ipython/issues/8973#issuecomment-155326247",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8973",
+    "id": 155326247,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NTMyNjI0Nw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-10T06:50:28Z",
+    "updated_at": "2015-11-10T06:50:28Z",
+    "author_association": "MEMBER",
+    "body": "Oh Gosh, `_x_changed` callbacks allows various signature depending on the number of arguments...\n\nI'm not sure I'm gonna sleep tonight. \n"
+  }
+]

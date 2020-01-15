@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/480656844",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/16394#issuecomment-480656844",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16394",
+    "id": 480656844,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDY1Njg0NA==",
+    "user": {
+      "login": "cookgreen",
+      "id": 21171007,
+      "node_id": "MDQ6VXNlcjIxMTcxMDA3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21171007?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cookgreen",
+      "html_url": "https://github.com/cookgreen",
+      "followers_url": "https://api.github.com/users/cookgreen/followers",
+      "following_url": "https://api.github.com/users/cookgreen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cookgreen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cookgreen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cookgreen/subscriptions",
+      "organizations_url": "https://api.github.com/users/cookgreen/orgs",
+      "repos_url": "https://api.github.com/users/cookgreen/repos",
+      "events_url": "https://api.github.com/users/cookgreen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cookgreen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-08T01:54:56Z",
+    "updated_at": "2019-04-08T01:54:56Z",
+    "author_association": "NONE",
+    "body": "And `WithMuzzleOverlay` trait can render every muzzle sequence for each weapon"
+  }
+]

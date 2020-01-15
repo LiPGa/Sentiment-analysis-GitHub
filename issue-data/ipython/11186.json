@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/397021255",
+    "html_url": "https://github.com/ipython/ipython/issues/11186#issuecomment-397021255",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11186",
+    "id": 397021255,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NzAyMTI1NQ==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-13T17:31:29Z",
+    "updated_at": "2018-06-13T17:31:29Z",
+    "author_association": "MEMBER",
+    "body": "Hi there, \r\n\r\nThanks for your question. This is usually a development issue tracker so issues there are more about IPython itself than other libraries. If you are learning Python, forums like https://www.reddit.com/r/learnpython/, or stackoverflow have better resources, and are more adequat.\r\n\r\nIn GitHub you can put code in between Triple Backtick fences ` ``` ` to render better (see how I edited your comment). \r\n\r\nIt is also good idea to give the snippet of code that fails instead of just the error, and usually give a self contain example that errors. In you case I can infer you did \r\n\r\n```\r\nData=pd.read_csv('docs.csv')\r\n```\r\n\r\nI'm going to assume you did `import pandas as pd` before.\r\n\r\nThe error looks (to me) like ``docs.csv`` is an invalid (utf-8?) CSV file. But I don't have access to the file, so cant' tell you. \r\n\r\nSide note, in `Data=pd.read_csv('docs.csv')` , `data` should be [by convention](https://www.python.org/dev/peps/pep-0008/#function-and-variable-names) lowercase. Gettings good habits at the beginning will help you better read code.\r\n\r\nHope that helps !\r\n\r\n"
+  }
+]

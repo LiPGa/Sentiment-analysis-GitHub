@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/384532357",
+    "html_url": "https://github.com/grpc/grpc/issues/15187#issuecomment-384532357",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15187",
+    "id": 384532357,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NDUzMjM1Nw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-26T06:49:58Z",
+    "updated_at": "2018-04-26T06:49:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@coolguru you can you grpc with `google-protobuf` 3.5.x.\r\n\r\ngrpc has a dependency on `google-protobuf ~> 3.1`, allowing it to pick up any `google-protobuf` package from 3.1 and up to but not including the (not yet present) 4.0.\r\n\r\nClosing since I believe there's no issue, please reopen if the problem is something different."
+  }
+]

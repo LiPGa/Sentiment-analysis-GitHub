@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/296170580",
+    "html_url": "https://github.com/ipython/ipython/issues/10473#issuecomment-296170580",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10473",
+    "id": 296170580,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NjE3MDU4MA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-21T11:50:13Z",
+    "updated_at": "2017-04-21T11:50:13Z",
+    "author_association": "MEMBER",
+    "body": "Do we not already ensure that subclasses with their own `__repr__` have priority over our pretty-repr functions registered for base types?\r\n\r\nI'd be more concerned about Mapping types where it doesn't make sense to show them as a dictionary. E.g. could you have a lazy mapping that represents an infinite set, something like this?\r\n\r\n```python\r\nfrom collections.abc import Mapping\r\nfrom itertools import count\r\n\r\nclass Squares(Mapping):\r\n    def __getitem__(self, n):\r\n        return n ** 2\r\n\r\n    def keys(self):\r\n        return count()\r\n```\r\n"
+  }
+]

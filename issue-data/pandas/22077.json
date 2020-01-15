@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/410993208",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22077#issuecomment-410993208",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22077",
+    "id": 410993208,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMDk5MzIwOA==",
+    "user": {
+      "login": "Evfro",
+      "id": 5283394,
+      "node_id": "MDQ6VXNlcjUyODMzOTQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5283394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Evfro",
+      "html_url": "https://github.com/Evfro",
+      "followers_url": "https://api.github.com/users/Evfro/followers",
+      "following_url": "https://api.github.com/users/Evfro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Evfro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Evfro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Evfro/subscriptions",
+      "organizations_url": "https://api.github.com/users/Evfro/orgs",
+      "repos_url": "https://api.github.com/users/Evfro/repos",
+      "events_url": "https://api.github.com/users/Evfro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Evfro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-07T09:23:49Z",
+    "updated_at": "2018-08-07T09:23:49Z",
+    "author_association": "NONE",
+    "body": "having the same problem"
+  }
+]

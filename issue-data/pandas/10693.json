@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/142950855",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10693#issuecomment-142950855",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10693",
+    "id": 142950855,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0Mjk1MDg1NQ==",
+    "user": {
+      "login": "zirmite",
+      "id": 3244875,
+      "node_id": "MDQ6VXNlcjMyNDQ4NzU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3244875?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zirmite",
+      "html_url": "https://github.com/zirmite",
+      "followers_url": "https://api.github.com/users/zirmite/followers",
+      "following_url": "https://api.github.com/users/zirmite/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zirmite/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zirmite/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zirmite/subscriptions",
+      "organizations_url": "https://api.github.com/users/zirmite/orgs",
+      "repos_url": "https://api.github.com/users/zirmite/repos",
+      "events_url": "https://api.github.com/users/zirmite/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zirmite/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-24T14:46:33Z",
+    "updated_at": "2015-09-24T14:46:33Z",
+    "author_association": "NONE",
+    "body": "It _should_ give you memory improvement if the db api/engine is hooked up correctly, right?\n\nUsing it with sqlalchemy+psycopg2 it needs to make sure that `sqlengine.dialect.server_side_cursors == True` for the `sqlengine.execute` call to be separate from the `results.fetchmany` call. This seems to be a postgres-only issue and engine option because of how it handles cursors (perhaps?).\n\nHowever, sqlalchemy's [`engine.execution_options`](http://docs.sqlalchemy.org/en/rel_1_0/core/connections.html#sqlalchemy.engine.Connection.execution_options) API provides `stream_results` which will try to execute without pre-buffering. \n\n> stream_results – Available on: Connection, statement. Indicate to the dialect that results should be “streamed” and not pre-buffered, if possible. This is a limitation of many DBAPIs. The flag is currently understood only by the psycopg2 dialect.\n\nMaybe pandas could try and set that flag if `chunksize is not None`?\n"
+  }
+]

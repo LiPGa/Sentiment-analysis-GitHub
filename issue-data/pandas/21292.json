@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/394060244",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21292#issuecomment-394060244",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21292",
+    "id": 394060244,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDA2MDI0NA==",
+    "user": {
+      "login": "uds5501",
+      "id": 21087061,
+      "node_id": "MDQ6VXNlcjIxMDg3MDYx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/21087061?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/uds5501",
+      "html_url": "https://github.com/uds5501",
+      "followers_url": "https://api.github.com/users/uds5501/followers",
+      "following_url": "https://api.github.com/users/uds5501/following{/other_user}",
+      "gists_url": "https://api.github.com/users/uds5501/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/uds5501/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/uds5501/subscriptions",
+      "organizations_url": "https://api.github.com/users/uds5501/orgs",
+      "repos_url": "https://api.github.com/users/uds5501/repos",
+      "events_url": "https://api.github.com/users/uds5501/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/uds5501/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-02T05:31:13Z",
+    "updated_at": "2018-06-02T05:31:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@peterpanmj  Well, it looks like series.quantile and numpy.percentile offer something similar. I don't know what the 'a la' means but to the best of my knowledge, I have submitted the PR to update the docs for now."
+  }
+]

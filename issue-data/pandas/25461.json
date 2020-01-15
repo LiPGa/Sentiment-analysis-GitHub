@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/474446605",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25461#issuecomment-474446605",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25461",
+    "id": 474446605,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NDQ0NjYwNQ==",
+    "user": {
+      "login": "gwrome",
+      "id": 1430066,
+      "node_id": "MDQ6VXNlcjE0MzAwNjY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1430066?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gwrome",
+      "html_url": "https://github.com/gwrome",
+      "followers_url": "https://api.github.com/users/gwrome/followers",
+      "following_url": "https://api.github.com/users/gwrome/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gwrome/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gwrome/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gwrome/subscriptions",
+      "organizations_url": "https://api.github.com/users/gwrome/orgs",
+      "repos_url": "https://api.github.com/users/gwrome/repos",
+      "events_url": "https://api.github.com/users/gwrome/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gwrome/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-19T16:07:20Z",
+    "updated_at": "2019-03-19T16:07:20Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This could be as simple as removing two lines from the validator:\r\n```\r\nif doc.parameter_desc(param)[-1] != '.':\r\n  errs.append(error('PR09', param_name=param))\r\n```\r\n\r\nThis solution is effectively the same as removing error code PR09.\r\n\r\nIs this the outcome you're looking for? Or are there cases in which you want the validator to complain about bullets not ending in periods?"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/280770448",
+    "html_url": "https://github.com/grpc/grpc/pull/9766#issuecomment-280770448",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9766",
+    "id": 280770448,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MDc3MDQ0OA==",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-17T21:24:43Z",
+    "updated_at": "2017-02-17T21:24:43Z",
+    "author_association": "MEMBER",
+    "body": "This also seems to fix #9668. That test is passing in this PR, at least. The test that was failing in #9726 also passes here."
+  }
+]

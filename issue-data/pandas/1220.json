@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5591649",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1220#issuecomment-5591649",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1220",
+    "id": 5591649,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTE2NDk=",
+    "user": {
+      "login": "johnmyleswhite",
+      "id": 22064,
+      "node_id": "MDQ6VXNlcjIyMDY0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22064?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnmyleswhite",
+      "html_url": "https://github.com/johnmyleswhite",
+      "followers_url": "https://api.github.com/users/johnmyleswhite/followers",
+      "following_url": "https://api.github.com/users/johnmyleswhite/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnmyleswhite/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnmyleswhite/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnmyleswhite/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnmyleswhite/orgs",
+      "repos_url": "https://api.github.com/users/johnmyleswhite/repos",
+      "events_url": "https://api.github.com/users/johnmyleswhite/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnmyleswhite/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-09T02:49:57Z",
+    "updated_at": "2012-05-09T02:49:57Z",
+    "author_association": "NONE",
+    "body": "Thanks for the heads up on this. Will be interested to see what approach you take, since the R code I have for doing this is abysmally inefficient.\n"
+  }
+]

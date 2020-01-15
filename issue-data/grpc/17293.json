@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/441563313",
+    "html_url": "https://github.com/grpc/grpc/issues/17293#issuecomment-441563313",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17293",
+    "id": 441563313,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MTU2MzMxMw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-26T08:56:30Z",
+    "updated_at": "2018-11-26T08:56:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is more of a protobuf question (https://github.com/protocolbuffers/protobuf) rather than gRPC question. \r\n\r\nAd usage:\r\n1. just take a copy of money.proto and make your .proto files import it. Then make sure you also generate C# code for the money.proto. After that, you should be able to use the Money message in your C# code no problem.\r\n2. (alternative) import the googleapis repository as a git submodule and use the steps above."
+  }
+]

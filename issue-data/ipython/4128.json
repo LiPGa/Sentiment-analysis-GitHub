@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/23459393",
+    "html_url": "https://github.com/ipython/ipython/pull/4128#issuecomment-23459393",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4128",
+    "id": 23459393,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNDU5Mzkz",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-08-29T00:32:17Z",
+    "updated_at": "2013-08-29T00:32:17Z",
+    "author_association": "MEMBER",
+    "body": "I think we do want something similar to this - it will definitely not be accepted as a backport to 1.x, though - only master (2.0), so please do re-open the PR against master and we can continue the discussion there.\n"
+  }
+]

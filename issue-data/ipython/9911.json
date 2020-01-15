@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/242505111",
+    "html_url": "https://github.com/ipython/ipython/issues/9911#issuecomment-242505111",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9911",
+    "id": 242505111,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MjUwNTExMQ==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-25T19:14:31Z",
+    "updated_at": "2016-08-25T19:14:31Z",
+    "author_association": "MEMBER",
+    "body": "Hi there, \n\nThat seem like a https://github.com/jupyter/notebook question, not an IPython one as IPython is \"just\" the kernel.\n\n> I'm not sure where the code should be added, but the \"Home\" of the running notebook instance should probably be a location which allows for navigation across different volumes.\n\nFor security reasons the notebook cannot navigate higher than where it was started. \nThere are also practical reason why cross-drive is hard as wewould have to map to URLs, which means that we would have to change the URL scheme, and this not that easy. Also trying to add `..` in URL often have them stripped from the actual request so we can't go above the root where the server is started.\n\nWe are really lacking windows experience, as unfortunately almost none of the core dev are regular windows user. You seem to have quite a bit knowledge in this area, so any help would be welcome. In above cited repository I would look for `ContentsManager` this is the class that maps URL to actual resources, the default one (`FileContentsManager`) does not understand multiple volumes; but I guess it should be possible to modify it.\n\nOne other thing we want to improve is to allow for multiple content manager to be instantiated in order for user to access both local drive(s) and notebook stored on databases. I guess if we do that, then we \"just\" need to mount one FileNotebookManager/drive.\n\nDoes that help ? If so I think opening a similar issue there will likely a good thing to do. \n\nThanks !\n"
+  }
+]

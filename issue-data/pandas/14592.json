@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/258605350",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14592#issuecomment-258605350",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14592",
+    "id": 258605350,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1ODYwNTM1MA==",
+    "user": {
+      "login": "toobaz",
+      "id": 1224492,
+      "node_id": "MDQ6VXNlcjEyMjQ0OTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1224492?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toobaz",
+      "html_url": "https://github.com/toobaz",
+      "followers_url": "https://api.github.com/users/toobaz/followers",
+      "following_url": "https://api.github.com/users/toobaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toobaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toobaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toobaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/toobaz/orgs",
+      "repos_url": "https://api.github.com/users/toobaz/repos",
+      "events_url": "https://api.github.com/users/toobaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toobaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-05T11:17:17Z",
+    "updated_at": "2016-11-05T11:17:17Z",
+    "author_association": "MEMBER",
+    "body": "Actually, I think the \"numbers only\" case has problems too. Take\n\n```\nt = pd.DataFrame(3, index=range(2),columns=pd.MultiIndex.from_product([range(2), range(2)]))\n```\n\nThen the following works fine:\n\n```\nIn [3]: t.loc[0, [(0,1), (1,1)]] = [5,6]\n```\n\nwhile...\n\n```\nIn [4]: t.loc[0, [(0,0)]] = [7]\n---------------------------------------------------------------------------\nValueError                                Traceback (most recent call last)\n<ipython-input-4-57ac0089af6c> in <module>()\n----> 1 t.loc[0, [(0,0)]] = [7]\n\n/home/nobackup/repo/pandas/pandas/core/indexing.py in __setitem__(self, key, value)\n    138             key = com._apply_if_callable(key, self.obj)\n    139         indexer = self._get_setitem_indexer(key)\n--> 140         self._setitem_with_indexer(indexer, value)\n    141 \n    142     def _has_valid_type(self, k, axis):\n\n/home/nobackup/repo/pandas/pandas/core/indexing.py in _setitem_with_indexer(self, indexer, value)\n    530                 # we have an equal len list/ndarray\n    531                 elif can_do_equal_len():\n--> 532                     setter(labels[0], value)\n    533 \n    534                 # per label values\n\n/home/nobackup/repo/pandas/pandas/core/indexing.py in setter(item, v)\n    470                     s._consolidate_inplace()\n    471                     s = s.copy()\n--> 472                     s._data = s._data.setitem(indexer=pi, value=v)\n    473                     s._maybe_update_cacher(clear=True)\n    474 \n\n/home/nobackup/repo/pandas/pandas/core/internals.py in setitem(self, **kwargs)\n   3167 \n   3168     def setitem(self, **kwargs):\n-> 3169         return self.apply('setitem', **kwargs)\n   3170 \n   3171     def putmask(self, **kwargs):\n\n/home/nobackup/repo/pandas/pandas/core/internals.py in apply(self, f, axes, filter, do_integrity_check, consolidate, **kwargs)\n   3055 \n   3056             kwargs['mgr'] = self\n-> 3057             applied = getattr(b, f)(**kwargs)\n   3058             result_blocks = _extend_blocks(applied, result_blocks)\n   3059 \n\n/home/nobackup/repo/pandas/pandas/core/internals.py in setitem(self, indexer, value, mgr)\n    727             # GH 6043\n    728             elif _is_scalar_indexer(indexer):\n--> 729                 values[indexer] = value\n    730 \n    731             # if we are an exact match (ex-broadcasting),\n\nValueError: setting an array element with a sequence.\n\n```\n"
+  }
+]

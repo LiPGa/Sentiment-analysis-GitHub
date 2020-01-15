@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/360832154",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19402#issuecomment-360832154",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19402",
+    "id": 360832154,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MDgzMjE1NA==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-26T16:25:06Z",
+    "updated_at": "2018-01-26T16:25:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks for the report, this is same issue as #12585 - the fundamental problem is that were are calling out to the `dateutil` and there isn't a way to enforce or even capture strictness there - see https://github.com/dateutil/dateutil/issues/214.\r\n\r\nSo we are all for changing this, I think some work has been going on within dateutil to maybe make this possible, but I haven't followed that closely - any kind of PR to help would be welcome!\r\n"
+  }
+]

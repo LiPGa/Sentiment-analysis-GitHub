@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/9230334",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1795#issuecomment-9230334",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1795",
+    "id": 9230334,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkyMzAzMzQ=",
+    "user": {
+      "login": "changhiskhan",
+      "id": 759245,
+      "node_id": "MDQ6VXNlcjc1OTI0NQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/759245?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/changhiskhan",
+      "html_url": "https://github.com/changhiskhan",
+      "followers_url": "https://api.github.com/users/changhiskhan/followers",
+      "following_url": "https://api.github.com/users/changhiskhan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/changhiskhan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/changhiskhan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/changhiskhan/subscriptions",
+      "organizations_url": "https://api.github.com/users/changhiskhan/orgs",
+      "repos_url": "https://api.github.com/users/changhiskhan/repos",
+      "events_url": "https://api.github.com/users/changhiskhan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/changhiskhan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-10-08T15:54:37Z",
+    "updated_at": "2012-10-08T15:54:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Not sure exactly how you want which columns to be parsed into timedeltas but I think I know what you're getting at.\n\nNow you can use the `date_parser` for this:\n\n```\nIn [22]: data = \"\"\"\\                                                            \ntime,a,b,c                                                  \n0,1,1,1\n1,2,2,2\n2,3,3,3\n\"\"\"\n\nIn [23]: pd.read_csv(StringIO(data), header=0, index_col='time', parse_dates=True, \n                                     date_parser=lambda x: timedelta(seconds=int(x)))\nOut[23]: \n         a  b  c\ntime            \n0:00:00  1  1  1\n0:00:01  2  2  2\n0:00:02  3  3  3\n```\n"
+  }
+]

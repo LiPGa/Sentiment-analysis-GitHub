@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/477605925",
+    "html_url": "https://github.com/grpc/grpc/pull/18280#issuecomment-477605925",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18280",
+    "id": 477605925,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NzYwNTkyNQ==",
+    "user": {
+      "login": "nlopezgi",
+      "id": 4062751,
+      "node_id": "MDQ6VXNlcjQwNjI3NTE=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4062751?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nlopezgi",
+      "html_url": "https://github.com/nlopezgi",
+      "followers_url": "https://api.github.com/users/nlopezgi/followers",
+      "following_url": "https://api.github.com/users/nlopezgi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nlopezgi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nlopezgi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nlopezgi/subscriptions",
+      "organizations_url": "https://api.github.com/users/nlopezgi/orgs",
+      "repos_url": "https://api.github.com/users/nlopezgi/repos",
+      "events_url": "https://api.github.com/users/nlopezgi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nlopezgi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-28T13:57:46Z",
+    "updated_at": "2019-03-28T13:57:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi @jtattermusch \r\nThis PR is now ready to review.\r\nLatest CI run failures do not seem to be related to these changes.\r\nBasic Tests Windows is failing with a timeout:\r\n`TIMEOUT: py35_gevent.test.unit._invocation_defects_test.InvocationDefectsTest [pid=1996, time=300.1sec]`\r\n Distribution Tests Linux is failing in a cmake build:\r\n` FAILED: distribtest.cpp_linux_x64_jessie_cmake [ret=1, pid=7148, time=95.7sec]`\r\n\r\nRebased onto master to see if errors are solved."
+  }
+]

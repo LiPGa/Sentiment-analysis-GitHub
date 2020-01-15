@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/450970807",
+    "html_url": "https://github.com/grpc/grpc/issues/17497#issuecomment-450970807",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17497",
+    "id": 450970807,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MDk3MDgwNw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-02T20:09:29Z",
+    "updated_at": "2019-01-02T20:09:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'm not sure how useful it is to measure the time until the response gets sent out by the server to the client (what does it mean exactly? Until all the bytes are sent to the write() syscall?). This metric also doesn't tell you much about how quickly the client actually gets the response. It seems you should just measure on the client (start stopwatch before sending the request and stop after receiving the response). Alternatively, you want to use a tracing solution (put the client and server  in a service mesh and the proxies can trace the requests and give you some good statistics about how long does it take to process a single request etc.).\r\nA few thoughts:\r\n- if you want to measure time until the response gets sent, you probably want to measure also the time from the moment the first bytes of the request reach the server (which is difficult).\r\n- if you really want to measure some approximation of the time including the time to send the response, you can use a bidi-streaming RPC, which has the MoveNext() and WriteAsync() methods exposed explicitly (and you can time time them, if that's useful)."
+  }
+]

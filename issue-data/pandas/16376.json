@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/302062189",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16376#issuecomment-302062189",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16376",
+    "id": 302062189,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMjA2MjE4OQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-17T11:28:05Z",
+    "updated_at": "2017-05-17T11:28:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I believe it can be saved directly to HDF5: http://pandas-docs.github.io/pandas-docs-travis/io.html#hdf5-pytables\r\n\r\nFYI, Panel is deprecated and is being removed in a future version: http://pandas.pydata.org/pandas-docs/version/0.20/whatsnew.html#whatsnew-0200-api-breaking-deprecate-panel"
+  }
+]

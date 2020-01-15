@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/407125667",
+    "html_url": "https://github.com/ipython/ipython/issues/11236#issuecomment-407125667",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11236",
+    "id": 407125667,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNzEyNTY2Nw==",
+    "user": {
+      "login": "axil",
+      "id": 170910,
+      "node_id": "MDQ6VXNlcjE3MDkxMA==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/170910?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/axil",
+      "html_url": "https://github.com/axil",
+      "followers_url": "https://api.github.com/users/axil/followers",
+      "following_url": "https://api.github.com/users/axil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/axil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/axil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/axil/subscriptions",
+      "organizations_url": "https://api.github.com/users/axil/orgs",
+      "repos_url": "https://api.github.com/users/axil/repos",
+      "events_url": "https://api.github.com/users/axil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/axil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-23T16:51:14Z",
+    "updated_at": "2018-07-23T16:51:45Z",
+    "author_association": "NONE",
+    "body": "Steps to workaround this problem (to enable debugging for embedded bokeh notebooks):\r\n```\r\npip install -e git+https://github.com/minrk/ipython.git@aedb5d6d3a441dcdb7180ac9b5cc03f91329117b#egg=ipython\r\npip install -e git+https://github.com/minrk/ipykernel.git@d08f120988cfadeeedb25434101f86c51d382e35#egg=ipykernel\r\npip install tornado==5.0.2\r\n```\r\n\r\n* `ipykernel` is necessary for the this branch of ipython to work.\r\n* `tornado` should be 5.0.2. Version 5.1 still shows this error even with the proper branches of ipython and ipykernel.\r\n\r\nResult:\r\n\r\n![image](https://user-images.githubusercontent.com/170910/43091012-368fb16e-8ed3-11e8-9d06-4c189e0cebae.png)\r\n"
+  }
+]

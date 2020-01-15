@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/340969130",
+    "html_url": "https://github.com/grpc/grpc/pull/13203#issuecomment-340969130",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13203",
+    "id": 340969130,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MDk2OTEzMA==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-01T03:33:25Z",
+    "updated_at": "2017-11-01T03:33:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "basic tests c++ failure looks like a transient kokoro failures (cc @matt-kwong if this has a possibility of being a kokoro bug)\r\n\r\nhttps://sponge.corp.google.com/target?id=c921f5b0-1c1c-47ea-a2a7-767ffc22d09e&target=grpc%2Fubuntu%2Fpull_request%2Fgrpc_basictests_cpp_dbg&searchFor=\r\n```\r\n  Running setup.py bdist_wheel for wrapt: started\r\n  Running setup.py bdist_wheel for wrapt: finished with status 'done'\r\n  Stored in directory: /tmp/xdg-cache-home/pip/wheels/56/e1/0f/f7ccf1ed8ceaabccc2a93ce0481f73e589814cbbc439291345\r\nSuccessfully built coverage configparser lazy-object-proxy wrapt\r\nInstalling collected packages: coverage, lazy-object-proxy, wrapt, astroid, isort, mccabe, backports.functools-lru-cache, configparser, pylint\r\nSuccessfully installed astroid-1.4.9 backports.functools-lru-cache-1.4 configparser-3.5.0 coverage-4.4 isort-4.2.15 lazy-object-proxy-1.3.1 mccabe-0.6.1 pylint-1.6.5 wrapt-1.10.11\r\n++ export DOCKERHUB_ORGANIZATION=grpctesting\r\n++ DOCKERHUB_ORGANIZATION=grpctesting\r\n++ '[' -n 13203 ']'\r\n++ '[' -n '-f basictests linux c++ dbg --inner_jobs 16 -j 1 --internal_ci --max_time=3600' ']'\r\n++ sudo apt-get install -y jq\r\nE: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)\r\nE: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?\r\nI1031 16:46:04.663371  795564 util.py:305] \r\n\r\n[ID: 7692807] Build finished after 13 secs, exit value: 100\r\n```\r\n\r\n\r\ninterop tests didn't run because of kokoro config exception which seems due to this branch being 1.7.x\r\n"
+  }
+]

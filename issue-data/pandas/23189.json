@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/431436212",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23189#issuecomment-431436212",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23189",
+    "id": 431436212,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMTQzNjIxMg==",
+    "user": {
+      "login": "randomgambit",
+      "id": 8282510,
+      "node_id": "MDQ6VXNlcjgyODI1MTA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8282510?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/randomgambit",
+      "html_url": "https://github.com/randomgambit",
+      "followers_url": "https://api.github.com/users/randomgambit/followers",
+      "following_url": "https://api.github.com/users/randomgambit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/randomgambit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/randomgambit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/randomgambit/subscriptions",
+      "organizations_url": "https://api.github.com/users/randomgambit/orgs",
+      "repos_url": "https://api.github.com/users/randomgambit/repos",
+      "events_url": "https://api.github.com/users/randomgambit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/randomgambit/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-19T17:22:34Z",
+    "updated_at": "2018-10-19T17:22:34Z",
+    "author_association": "NONE",
+    "body": "ha funny I got this same error this morning and was scratching my head the same. glad to know this is due to nulls"
+  }
+]

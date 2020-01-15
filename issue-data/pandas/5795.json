@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/31352207",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5795#issuecomment-31352207",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5795",
+    "id": 31352207,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMzUyMjA3",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-12-30T16:00:02Z",
+    "updated_at": "2013-12-30T16:00:02Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "These all work and are correct in master/0.13.\n\nFYI, you should set like this (your 2nd example). What you are doing will work in a integer/float frame, but not if you are in a mixed-dtype frame\n\n```\nIn [16]: df.loc[df.index>2,'C'] = df.A / df.B.sum()\n\nIn [17]: df\nOut[17]: \n   A  B         C\n0  0  0  0.000000\n1  1  1  0.000000\n2  2  2  0.000000\n3  3  3  0.200000\n4  4  4  0.266667\n5  5  5  0.333333\n\n[6 rows x 3 columns]\n```\n"
+  }
+]

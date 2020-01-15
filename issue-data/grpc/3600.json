@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/144996420",
+    "html_url": "https://github.com/grpc/grpc/issues/3600#issuecomment-144996420",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/3600",
+    "id": 144996420,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0NDk5NjQyMA==",
+    "user": {
+      "login": "pavel-odintsov",
+      "id": 2744166,
+      "node_id": "MDQ6VXNlcjI3NDQxNjY=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2744166?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pavel-odintsov",
+      "html_url": "https://github.com/pavel-odintsov",
+      "followers_url": "https://api.github.com/users/pavel-odintsov/followers",
+      "following_url": "https://api.github.com/users/pavel-odintsov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pavel-odintsov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pavel-odintsov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pavel-odintsov/subscriptions",
+      "organizations_url": "https://api.github.com/users/pavel-odintsov/orgs",
+      "repos_url": "https://api.github.com/users/pavel-odintsov/repos",
+      "events_url": "https://api.github.com/users/pavel-odintsov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pavel-odintsov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-02T11:42:43Z",
+    "updated_at": "2015-10-02T11:42:43Z",
+    "author_association": "NONE",
+    "body": "Looks like it was fixed in master. Could not reproduce with recent commit. \n"
+  }
+]

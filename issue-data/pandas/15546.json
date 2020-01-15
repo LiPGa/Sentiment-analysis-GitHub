@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/283572708",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/15546#issuecomment-283572708",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15546",
+    "id": 283572708,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MzU3MjcwOA==",
+    "user": {
+      "login": "codecov-io",
+      "id": 8655789,
+      "node_id": "MDQ6VXNlcjg2NTU3ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8655789?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codecov-io",
+      "html_url": "https://github.com/codecov-io",
+      "followers_url": "https://api.github.com/users/codecov-io/followers",
+      "following_url": "https://api.github.com/users/codecov-io/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codecov-io/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codecov-io/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codecov-io/subscriptions",
+      "organizations_url": "https://api.github.com/users/codecov-io/orgs",
+      "repos_url": "https://api.github.com/users/codecov-io/repos",
+      "events_url": "https://api.github.com/users/codecov-io/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codecov-io/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-02T06:57:32Z",
+    "updated_at": "2017-03-02T07:20:11Z",
+    "author_association": "NONE",
+    "body": "# [Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/15546?src=pr&el=h1) Report\n> Merging [#15546](https://codecov.io/gh/pandas-dev/pandas/pull/15546?src=pr&el=desc) into [master](https://codecov.io/gh/pandas-dev/pandas/commit/29d81f3df81eb0a4d077ae1317df74d509cdc446?src=pr&el=desc) will **decrease** coverage by `-0.03%`.\n> The diff coverage is `n/a`.\n\n\n```diff\n@@            Coverage Diff             @@\n##           master   #15546      +/-   ##\n==========================================\n- Coverage   91.06%   91.04%   -0.03%     \n==========================================\n  Files         136      136              \n  Lines       49104    49104              \n==========================================\n- Hits        44718    44706      -12     \n- Misses       4386     4398      +12\n```\n\n\n| [Impacted Files](https://codecov.io/gh/pandas-dev/pandas/pull/15546?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [pandas/io/gbq.py](https://codecov.io/gh/pandas-dev/pandas/compare/29d81f3df81eb0a4d077ae1317df74d509cdc446...4c5ef4cfa0556d1680a9c9163aa347a13a9d6590?src=pr&el=tree#diff-cGFuZGFzL2lvL2dicS5weQ==) | `40% <0%> (-46.67%)` | :x: |\n| [pandas/util/decorators.py](https://codecov.io/gh/pandas-dev/pandas/compare/29d81f3df81eb0a4d077ae1317df74d509cdc446...4c5ef4cfa0556d1680a9c9163aa347a13a9d6590?src=pr&el=tree#diff-cGFuZGFzL3V0aWwvZGVjb3JhdG9ycy5weQ==) | `67.92% <0%> (-0.95%)` | :x: |\n| [pandas/tools/merge.py](https://codecov.io/gh/pandas-dev/pandas/compare/29d81f3df81eb0a4d077ae1317df74d509cdc446...4c5ef4cfa0556d1680a9c9163aa347a13a9d6590?src=pr&el=tree#diff-cGFuZGFzL3Rvb2xzL21lcmdlLnB5) | `91.78% <0%> (-0.35%)` | :x: |\n| [pandas/core/frame.py](https://codecov.io/gh/pandas-dev/pandas/compare/29d81f3df81eb0a4d077ae1317df74d509cdc446...4c5ef4cfa0556d1680a9c9163aa347a13a9d6590?src=pr&el=tree#diff-cGFuZGFzL2NvcmUvZnJhbWUucHk=) | `97.74% <0%> (-0.1%)` | :x: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/15546?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/15546?src=pr&el=footer). Last update [29d81f3...4c5ef4c](https://codecov.io/gh/pandas-dev/pandas/compare/29d81f3df81eb0a4d077ae1317df74d509cdc446...4c5ef4cfa0556d1680a9c9163aa347a13a9d6590?src=pr&el=footer&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments)."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/359656856",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19261#issuecomment-359656856",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19261",
+    "id": 359656856,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1OTY1Njg1Ng==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-23T02:50:51Z",
+    "updated_at": "2018-01-23T02:50:51Z",
+    "author_association": "MEMBER",
+    "body": "So are you thinking of porting some of the code from arrow over into pandas to accomplish this? Haven't used parquet before but I see that the below point in the `pandas_compat` module is where the index names you mentioned are appearing.\r\n\r\nhttps://github.com/apache/arrow/blob/422efd9635ea6f249adec7e1fda4834f6ac46cc4/python/pyarrow/pandas_compat.py#L182"
+  }
+]

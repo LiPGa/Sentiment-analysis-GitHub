@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/355510534",
+    "html_url": "https://github.com/grpc/grpc/issues/13841#issuecomment-355510534",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13841",
+    "id": 355510534,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NTUxMDUzNA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-05T09:31:08Z",
+    "updated_at": "2018-01-05T09:31:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "What's happening:\r\nBecause of some limitations of our current CMakeLists.txt, the install targets (see gRPC_INSTALL option) will only be generated if you are building using a pre-installed version of our dependencies (gRPC_CARES_PROVIDER in your case needs to be set to `package`).\r\n\r\nThe warning you saw `gRPC_INSTALL will be forced to FALSE because gRPC_CARES_PROVIDER is\r\n\"module\"` basically tells you that even though gRPC_INSTALL was set to ON by you, we're setting it back to OFF because your gRPC_CARES_PROVIDER is set to use c-ares from git submodule (which wouldn't work well with the current CMakeLists.txt) - so you shouldn't expect anything to be installed (not even `grpc_cpp_plugin`.\r\n\r\nWe are working on improving the CMakeLists.txt to get around this limitation, but so far your best bet if you want to install gRPC using cmake is to follow the script from our distribtest: \r\nhttps://github.com/grpc/grpc/blob/2b0ab320c12cb807cf05b3295b7017d0ccbf66f5/test/distrib/cpp/run_distrib_test_cmake.sh#L56\r\n\r\n\r\n  "
+  }
+]

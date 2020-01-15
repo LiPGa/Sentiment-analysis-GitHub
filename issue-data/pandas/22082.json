@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/408429634",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22082#issuecomment-408429634",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22082",
+    "id": 408429634,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwODQyOTYzNA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-27T14:08:25Z",
+    "updated_at": "2018-07-27T14:08:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> I've tried to go through the source code and the memory leak occurs in the class AppendableFrameTable in pytables.py of pandas.\r\n\r\nCan you post why you think that's to blame? (in case someone else comes along to work on this)\r\n\r\n> Is there any plan to fix this serious memory leak?\r\n\r\nWe'd gladly take fixes for this. I'm not sure about pandas manually calling `gc.collect` makes sense or not. I'd prefer to see a proper fix for the cause of the problem."
+  }
+]

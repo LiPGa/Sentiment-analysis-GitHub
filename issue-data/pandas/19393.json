@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/360451357",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19393#issuecomment-360451357",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19393",
+    "id": 360451357,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MDQ1MTM1Nw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-25T12:21:51Z",
+    "updated_at": "2018-01-25T12:21:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is probably some old copy-paste text.\r\n\r\nWould you do a PR to update and add a test to validate this\r\n\r\n```\r\nIn [8]:         left = DataFrame({'key': ['a', 'c', 'e', 'a', 'c', 'e'],\r\n   ...:                                'lvalue': [1, 2, 3, 1, 2, 3], 'group': list('aaabbb')})\r\n   ...: \r\n   ...:         right = DataFrame({'key': ['b', 'c', 'd'],\r\n   ...:                                 'rvalue': [1, 2, 3]}\r\n   ...:                        \r\n   ...:                        )\r\n   ...: \r\n\r\nIn [9]: \r\n\r\nIn [9]: pd.merge_ordered(left, right, fill_method='ffill', left_by='group')\r\nOut[9]: \r\n  group key  lvalue  rvalue\r\n0     a   a       1     NaN\r\n1     a   b       1     1.0\r\n2     a   c       2     2.0\r\n3     a   d       2     3.0\r\n4     a   e       3     3.0\r\n5     b   a       1     NaN\r\n6     b   b       1     1.0\r\n7     b   c       2     2.0\r\n8     b   d       2     3.0\r\n9     b   e       3     3.0\r\n```"
+  }
+]

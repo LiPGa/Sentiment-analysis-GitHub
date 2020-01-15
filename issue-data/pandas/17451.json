@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/327564251",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17451#issuecomment-327564251",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17451",
+    "id": 327564251,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNzU2NDI1MQ==",
+    "user": {
+      "login": "Joao-M-Almeida",
+      "id": 10222245,
+      "node_id": "MDQ6VXNlcjEwMjIyMjQ1",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10222245?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Joao-M-Almeida",
+      "html_url": "https://github.com/Joao-M-Almeida",
+      "followers_url": "https://api.github.com/users/Joao-M-Almeida/followers",
+      "following_url": "https://api.github.com/users/Joao-M-Almeida/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Joao-M-Almeida/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Joao-M-Almeida/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Joao-M-Almeida/subscriptions",
+      "organizations_url": "https://api.github.com/users/Joao-M-Almeida/orgs",
+      "repos_url": "https://api.github.com/users/Joao-M-Almeida/repos",
+      "events_url": "https://api.github.com/users/Joao-M-Almeida/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Joao-M-Almeida/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-06T17:57:29Z",
+    "updated_at": "2017-09-06T17:57:29Z",
+    "author_association": "NONE",
+    "body": "Please close this issue, my brain must have been frozen. "
+  }
+]

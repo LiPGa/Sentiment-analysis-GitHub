@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/246205759",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12017#issuecomment-246205759",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12017",
+    "id": 246205759,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NjIwNTc1OQ==",
+    "user": {
+      "login": "SoScared",
+      "id": 2715583,
+      "node_id": "MDQ6VXNlcjI3MTU1ODM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2715583?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SoScared",
+      "html_url": "https://github.com/SoScared",
+      "followers_url": "https://api.github.com/users/SoScared/followers",
+      "following_url": "https://api.github.com/users/SoScared/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SoScared/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SoScared/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SoScared/subscriptions",
+      "organizations_url": "https://api.github.com/users/SoScared/orgs",
+      "repos_url": "https://api.github.com/users/SoScared/repos",
+      "events_url": "https://api.github.com/users/SoScared/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SoScared/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-11T21:25:42Z",
+    "updated_at": "2016-09-11T21:25:42Z",
+    "author_association": "MEMBER",
+    "body": "That would be great for game casting as well.\n"
+  }
+]

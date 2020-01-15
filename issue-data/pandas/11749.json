@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/161483895",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11749#issuecomment-161483895",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11749",
+    "id": 161483895,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MTQ4Mzg5NQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-03T01:07:22Z",
+    "updated_at": "2015-12-03T01:07:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "why are you using `slice_locs` directly?\n\nyou pretty much have only 1 option which is boolean indexing as your index is duplicated and non-monotonic\n\n```\nIn [41]: df_bad.loc[(df_bad.index>=s_t_b)&(df_bad.index<=s_e_b)]\nOut[41]: \n                       usr    sys\ndatetime                         \n2015-04-23 02:44:50  0.031  0.000\n2015-04-23 02:44:51  0.031  0.031\n2015-04-23 02:44:52  0.000  0.031\n2015-04-23 02:44:53  0.031  0.000\n2015-04-23 02:44:54  0.031  0.000\n2015-04-23 02:44:55  0.031  0.000\n...                    ...    ...\n2015-04-23 03:44:47  0.031  0.094\n2015-04-23 03:44:48  0.000  0.000\n2015-04-23 03:44:49  0.031  0.063\n2015-04-23 03:44:50  0.031  0.031\n2015-04-23 03:44:51  0.031  0.031\n2015-04-23 03:44:52  0.031  0.063\n\n[3799 rows x 2 columns]\n\nIn [42]: s_t_b in df_bad.index\nOut[42]: False\n\nIn [43]: s_e_b in df_bad.index\nOut[43]: False\n```\n"
+  }
+]

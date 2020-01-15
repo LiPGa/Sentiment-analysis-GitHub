@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/446405907",
+    "html_url": "https://github.com/grpc/grpc/issues/16570#issuecomment-446405907",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16570",
+    "id": 446405907,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NjQwNTkwNw==",
+    "user": {
+      "login": "JimHume",
+      "id": 17392609,
+      "node_id": "MDQ6VXNlcjE3MzkyNjA5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17392609?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JimHume",
+      "html_url": "https://github.com/JimHume",
+      "followers_url": "https://api.github.com/users/JimHume/followers",
+      "following_url": "https://api.github.com/users/JimHume/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JimHume/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JimHume/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JimHume/subscriptions",
+      "organizations_url": "https://api.github.com/users/JimHume/orgs",
+      "repos_url": "https://api.github.com/users/JimHume/repos",
+      "events_url": "https://api.github.com/users/JimHume/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JimHume/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-11T23:43:55Z",
+    "updated_at": "2018-12-11T23:44:27Z",
+    "author_association": "NONE",
+    "body": "I'm experiencing the same type of exception when attempting to use the auth context:\r\n```\r\nSystem.ObjectDisposedException: Safe handle has been closed\r\n   at void System.Runtime.InteropServices.SafeHandle.DangerousAddRef(ref bool success)\r\n   at IntPtr System.StubHelpers.StubHelpers.SafeHandleAddRef(SafeHandle pHandle, ref bool success)\r\n   at AuthContextSafeHandle Grpc.Core.Internal.CallSafeHandle.GetAuthContext() in T:/src/github/grpc/src/csharp/Grpc.Core/Internal/CallSafeHandle.cs:line 199\r\n   at AuthContext Grpc.Core.ServerCallContext.GetAuthContextEager() in T:/src/github/grpc/src/csharp/Grpc.Core/ServerCallContext.cs:line 217\r\n   at Boxed System.Lazy<T>.CreateValue()\r\n   at T System.Lazy<T>.LazyInitValue()\r\n   at T System.Lazy<T>.get_Value()\r\n   at AuthContext Grpc.Core.ServerCallContext.get_AuthContext() in T:/src/github/grpc/src/csharp/Grpc.Core/ServerCallContext.cs:line 211\r\n```\r\n\r\nand:\r\n\r\n```\r\nSystem.ObjectDisposedException: Safe handle has been closed\r\n   at System.Runtime.InteropServices.SafeHandle.DangerousAddRef(Boolean& success)\r\n   at System.StubHelpers.StubHelpers.SafeHandleAddRef(SafeHandle pHandle, Boolean& success)\r\n   at Grpc.Core.Internal.CallSafeHandle.GetAuthContext()\r\n   at Grpc.Core.ServerCallContext.GetAuthContextEager()\r\n   at System.Lazy`1.CreateValue()\r\n   at System.Lazy`1.LazyInitValue()\r\n   at System.Lazy`1.get_Value()\r\n   at Grpc.Core.ServerCallContext.get_AuthContext()\r\n   at My.Grpc.Utils.Interceptors.Transient.ServerCallContextValidator.CustomAuthContextMethod(ServerCallContext context)\r\n   at My.Grpc.Utils.Interceptors.Transient.GrpcServerAuthInterceptor.<CustomAuthContextMethod>d__7.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()\r\n   at My.Grpc.Utils.Interceptors.Transient.GrpcServerAuthInterceptor.<UnaryServerHandler>d__3`2.MoveNext()\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)\r\n   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)\r\n   at Grpc.Core.Internal.UnaryServerCallHandler`2.<HandleCall>d__4.MoveNext()\r\n```\r\n\r\nThe server is C# with the client coming from dart."
+  }
+]

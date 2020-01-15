@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/109091556",
+    "html_url": "https://github.com/grpc/grpc/pull/1946#issuecomment-109091556",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1946",
+    "id": 109091556,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwOTA5MTU1Ng==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-04T23:27:07Z",
+    "updated_at": "2015-06-04T23:27:07Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "For now, the grpc_jenkins_slave  needs to be rebuilt manually on the worker machine, so I just did that.\n"
+  }
+]

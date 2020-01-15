@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/289501481",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8900#issuecomment-289501481",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8900",
+    "id": 289501481,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4OTUwMTQ4MQ==",
+    "user": {
+      "login": "StormWingDelta",
+      "id": 2048775,
+      "node_id": "MDQ6VXNlcjIwNDg3NzU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2048775?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/StormWingDelta",
+      "html_url": "https://github.com/StormWingDelta",
+      "followers_url": "https://api.github.com/users/StormWingDelta/followers",
+      "following_url": "https://api.github.com/users/StormWingDelta/following{/other_user}",
+      "gists_url": "https://api.github.com/users/StormWingDelta/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/StormWingDelta/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/StormWingDelta/subscriptions",
+      "organizations_url": "https://api.github.com/users/StormWingDelta/orgs",
+      "repos_url": "https://api.github.com/users/StormWingDelta/repos",
+      "events_url": "https://api.github.com/users/StormWingDelta/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/StormWingDelta/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-27T16:07:53Z",
+    "updated_at": "2017-03-27T16:07:53Z",
+    "author_association": "NONE",
+    "body": "Doesn't do this for their super weapons either."
+  }
+]

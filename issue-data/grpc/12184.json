@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/322897895",
+    "html_url": "https://github.com/grpc/grpc/pull/12184#issuecomment-322897895",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12184",
+    "id": 322897895,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMjg5Nzg5NQ==",
+    "user": {
+      "login": "matt-kwong",
+      "id": 22083734,
+      "node_id": "MDQ6VXNlcjIyMDgzNzM0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22083734?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matt-kwong",
+      "html_url": "https://github.com/matt-kwong",
+      "followers_url": "https://api.github.com/users/matt-kwong/followers",
+      "following_url": "https://api.github.com/users/matt-kwong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matt-kwong/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matt-kwong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matt-kwong/subscriptions",
+      "organizations_url": "https://api.github.com/users/matt-kwong/orgs",
+      "repos_url": "https://api.github.com/users/matt-kwong/repos",
+      "events_url": "https://api.github.com/users/matt-kwong/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matt-kwong/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-16T21:00:37Z",
+    "updated_at": "2017-08-16T21:00:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You can ignore the Kokoro failures for this PR, the files required to run Kokoro tests weren't merged in v1.4.x"
+  }
+]

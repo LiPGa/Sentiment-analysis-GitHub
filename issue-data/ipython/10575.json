@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/302508509",
+    "html_url": "https://github.com/ipython/ipython/issues/10575#issuecomment-302508509",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10575",
+    "id": 302508509,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMjUwODUwOQ==",
+    "user": {
+      "login": "mpacer",
+      "id": 2482408,
+      "node_id": "MDQ6VXNlcjI0ODI0MDg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2482408?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mpacer",
+      "html_url": "https://github.com/mpacer",
+      "followers_url": "https://api.github.com/users/mpacer/followers",
+      "following_url": "https://api.github.com/users/mpacer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mpacer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mpacer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mpacer/subscriptions",
+      "organizations_url": "https://api.github.com/users/mpacer/orgs",
+      "repos_url": "https://api.github.com/users/mpacer/repos",
+      "events_url": "https://api.github.com/users/mpacer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mpacer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-18T18:51:59Z",
+    "updated_at": "2017-05-18T18:51:59Z",
+    "author_association": "MEMBER",
+    "body": "**N.B.**: This relates to a more general aim around supporting proper figures in export. \r\n\r\ncc @minrk @Carreau "
+  }
+]

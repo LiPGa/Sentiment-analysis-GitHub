@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/154049046",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11523#issuecomment-154049046",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11523",
+    "id": 154049046,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NDA0OTA0Ng==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-05T12:46:22Z",
+    "updated_at": "2015-11-05T12:46:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\nIn [3]: df = DataFrame(np.random.randn(5,5))\n\nIn [4]: df.to_csv('test.csv',mode='w')\n\nIn [6]: !ln -s test.csv test2.csv\n\nIn [7]: !ls -ltr *.csv\n-rw-rw-r--  1 jreback  staff  402 Nov  5 07:45 test.csv\nlrwxrwxr-x  1 jreback  staff    8 Nov  5 07:45 test2.csv -> test.csv\n\nIn [9]: pd.read_csv('test.csv',index_col=0)\nOut[9]: \n          0         1         2         3         4\n0  0.374406 -0.963625 -1.640425  1.227618 -2.282998\n1  0.631971 -0.915808 -1.792995  0.952393  0.709391\n2  0.738525 -2.196856  1.600180 -0.751301 -0.926468\n3 -2.185574 -0.091669 -1.712271  0.943839 -0.148508\n4 -0.606274  0.646721  0.755271 -0.857622 -0.732984\n\nIn [10]: pd.read_csv('test2.csv',index_col=0)\nOut[10]: \n          0         1         2         3         4\n0  0.374406 -0.963625 -1.640425  1.227618 -2.282998\n1  0.631971 -0.915808 -1.792995  0.952393  0.709391\n2  0.738525 -2.196856  1.600180 -0.751301 -0.926468\n3 -2.185574 -0.091669 -1.712271  0.943839 -0.148508\n4 -0.606274  0.646721  0.755271 -0.857622 -0.732984\n```\n\nthis is on 0.17.0. if you have a repro example, pls show it and `pd.show_versions()`\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/385484301",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20883#issuecomment-385484301",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20883",
+    "id": 385484301,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NTQ4NDMwMQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-30T18:18:41Z",
+    "updated_at": "2018-04-30T18:18:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I have a different output:\r\n\r\n```python\r\nIn [7]: df.content.isin(v)\r\n---------------------------------------------------------------------------\r\nTypeError                                 Traceback (most recent call last)\r\nTypeError: unhashable type: 'list'\r\n\r\nThe above exception was the direct cause of the following exception:\r\n\r\nSystemError                               Traceback (most recent call last)\r\n<ipython-input-7-5a60788e7bc7> in <module>()\r\n----> 1 df.content.isin(v)\r\n\r\n~/sandbox/pandas/pandas/core/series.py in isin(self, values)\r\n   3576         Name: animal, dtype: bool\r\n   3577         \"\"\"\r\n-> 3578         result = algorithms.isin(self, values)\r\n   3579         return self._constructor(result, index=self.index).__finalize__(self)\r\n   3580\r\n\r\n~/sandbox/pandas/pandas/core/algorithms.py in isin(comps, values)\r\n    444             comps = comps.astype(object)\r\n    445\r\n--> 446     return f(comps, values)\r\n    447\r\n    448\r\n\r\n~/sandbox/pandas/pandas/core/algorithms.py in <lambda>(x, y)\r\n    419\r\n    420     # faster for larger cases to use np.in1d\r\n--> 421     f = lambda x, y: htable.ismember_object(x, values)\r\n    422\r\n    423     # GH16012\r\n\r\n~/sandbox/pandas/pandas/_libs/hashtable_func_helper.pxi in pandas._libs.hashtable.ismember_object()\r\n    470\r\n    471     kh_destroy_pymap(table)\r\n--> 472     return result.view(np.bool_)\r\n    473\r\n    474\r\n\r\nSystemError: <built-in method view of numpy.ndarray object at 0x1078a93f0> returned a result with an error set\r\n```\r\n\r\nIn general, nested data like this aren't well supported at the moment. The upcoming 0.23 release is laying some groundwork to better-support this, but it'll take some time."
+  }
+]

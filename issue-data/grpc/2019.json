@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/110962121",
+    "html_url": "https://github.com/grpc/grpc/issues/2019#issuecomment-110962121",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2019",
+    "id": 110962121,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMDk2MjEyMQ==",
+    "user": {
+      "login": "soltanmm",
+      "id": 4889063,
+      "node_id": "MDQ6VXNlcjQ4ODkwNjM=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4889063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soltanmm",
+      "html_url": "https://github.com/soltanmm",
+      "followers_url": "https://api.github.com/users/soltanmm/followers",
+      "following_url": "https://api.github.com/users/soltanmm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soltanmm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soltanmm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soltanmm/subscriptions",
+      "organizations_url": "https://api.github.com/users/soltanmm/orgs",
+      "repos_url": "https://api.github.com/users/soltanmm/repos",
+      "events_url": "https://api.github.com/users/soltanmm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soltanmm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-11T01:24:47Z",
+    "updated_at": "2015-06-11T01:24:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Underlying cause of this is the same as in #2021, closing this as a duplicate.\n"
+  }
+]

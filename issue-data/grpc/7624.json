@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/237458545",
+    "html_url": "https://github.com/grpc/grpc/issues/7624#issuecomment-237458545",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7624",
+    "id": 237458545,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNzQ1ODU0NQ==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-04T05:47:54Z",
+    "updated_at": "2016-08-04T05:47:54Z",
+    "author_association": "MEMBER",
+    "body": "I have a fix somewhere. We'd need significant work to get the code correct\nunder that sanitizer, and I'm not convinced it's worth a concentrated\neffort just yet.\n\nOn Wed, Aug 3, 2016, 10:52 AM Nicolas Noble notifications@github.com\nwrote:\n\n> Defining GRPC_EXECUTION_CONTEXT_SANITIZER won't compile exec_ctx.c\n> anymore, as enough changed in the closure structure that it won't compile\n> anymore.\n> \n> Suggest moving that define to CONFIG=dbg so we can make sure this code\n> isn't left dead.\n> \n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> https://github.com/grpc/grpc/issues/7624, or mute the thread\n> https://github.com/notifications/unsubscribe-auth/AJpudaN0ChzK9-nO2lFqX6n__tWJhLDkks5qcNRZgaJpZM4Jb5T3\n> .\n"
+  }
+]

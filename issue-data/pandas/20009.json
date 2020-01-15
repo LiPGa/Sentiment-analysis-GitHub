@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/370666275",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20009#issuecomment-370666275",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20009",
+    "id": 370666275,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MDY2NjI3NQ==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-06T05:19:14Z",
+    "updated_at": "2018-03-06T05:27:36Z",
+    "author_association": "MEMBER",
+    "body": "Looks like this was fixed on master by #19717:\r\n```python\r\nIn [2]: pd.__version__\r\nOut[2]: '0.23.0.dev0+428.gaedbd94'\r\n\r\nIn [3]: dtype = pd.api.types.CategoricalDtype(categories=[\"A\",\"B\"])\r\n\r\nIn [4]: ds1 = pd.Series(data=\"A\", index=[1,2], dtype=dtype)\r\n\r\nIn [5]: ds1.dtype\r\nOut[5]: CategoricalDtype(categories=['A', 'B'], ordered=False)\r\n\r\nIn [6]: ds1\r\nOut[6]:\r\n1    A\r\n2    A\r\ndtype: category\r\nCategories (2, object): [A, B]\r\n```"
+  }
+]

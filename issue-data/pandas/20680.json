@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/381107276",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20680#issuecomment-381107276",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20680",
+    "id": 381107276,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4MTEwNzI3Ng==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-13T11:29:03Z",
+    "updated_at": "2018-04-13T11:29:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is to prevent user error. Starting with an empty frame rarely makes sense (and is non-performant to add rows like this). The issue is that if you are assigning to a row a non-labeled list-like (e.g. a list or np.array, not a Series), then it is ambiguous to what you are actually trying to do, meaning are you wanting to create *columns* or assign to a single new column. So this must be explicit by the user."
+  }
+]

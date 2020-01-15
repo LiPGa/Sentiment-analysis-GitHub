@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/226594758",
+    "html_url": "https://github.com/grpc/grpc/issues/6936#issuecomment-226594758",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6936",
+    "id": 226594758,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNjU5NDc1OA==",
+    "user": {
+      "login": "yusefnapora",
+      "id": 678715,
+      "node_id": "MDQ6VXNlcjY3ODcxNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/678715?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yusefnapora",
+      "html_url": "https://github.com/yusefnapora",
+      "followers_url": "https://api.github.com/users/yusefnapora/followers",
+      "following_url": "https://api.github.com/users/yusefnapora/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yusefnapora/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yusefnapora/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yusefnapora/subscriptions",
+      "organizations_url": "https://api.github.com/users/yusefnapora/orgs",
+      "repos_url": "https://api.github.com/users/yusefnapora/repos",
+      "events_url": "https://api.github.com/users/yusefnapora/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yusefnapora/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T19:53:23Z",
+    "updated_at": "2016-06-16T20:09:04Z",
+    "author_association": "NONE",
+    "body": "I added some log statements to try to figure out the order of events here.\nI put an info log statement here (when sending the ACK): https://github.com/grpc/grpc/blob/master/src/core/ext/transport/chttp2/transport/frame_settings.c#L165\n\nand one here, when sending the SETTINGS frame without ACK: https://github.com/grpc/grpc/blob/master/src/core/ext/transport/chttp2/transport/writing.c#L65\n\nJust before the crash, the ACK frame is indeed sent before the SETTINGS frame:\n\n```\n...\n\nsaying hello...\nI0616 19:49:04.503060801   22620 writing.c:65]               sending SETTINGS frame\nI0616 19:49:04.503685210   22620 frame_settings.c:165]       sending SETTINGS ACK frame\nresponse: Hello world\nsaying hello...\nI0616 19:49:04.506613656   22620 writing.c:65]               sending SETTINGS frame\nI0616 19:49:04.507124852   22620 frame_settings.c:165]       sending SETTINGS ACK frame\nresponse: Hello world\nsaying hello...\nI0616 19:49:04.509950066   22620 frame_settings.c:165]       sending SETTINGS ACK frame\nI0616 19:49:04.510115226   22620 writing.c:65]               sending SETTINGS frame\nfailed after 146 attempts with error: AbortionError(code=StatusCode.UNAVAILABLE, details=\"\")\n```\n\nThe above is with the patch from #6931 applied, btw.\n"
+  }
+]

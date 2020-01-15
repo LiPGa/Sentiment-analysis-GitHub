@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5973803",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/969#issuecomment-5973803",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/969",
+    "id": 5973803,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU5NzM4MDM=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-29T00:20:09Z",
+    "updated_at": "2012-05-29T00:20:09Z",
+    "author_association": "MEMBER",
+    "body": "hi Iain,\n\nin upcoming pandas 0.8.0 all of the time zone handling has been completely overhauled, so this all works with no problems now:\n\n```\nIn [1]: rng = date_range('4/13/2010', '3/6/2012', freq='W-TUE')\n\nIn [2]: rng_eastern = rng.tz_localize('US/Eastern')\n\nIn [3]: rng_eastern\nOut[3]: \n<class 'pandas.tseries.index.DatetimeIndex'>\n[2010-04-13 00:00:00, ..., 2012-03-06 00:00:00]\nLength: 100, Freq: W-TUE, Timezone: US/Eastern\n\nIn [4]: rng_eastern.tz_convert('utc')\nOut[4]: \n<class 'pandas.tseries.index.DatetimeIndex'>\n[2010-04-13 04:00:00, ..., 2012-03-06 05:00:00]\nLength: 100, Freq: W-TUE, Timezone: UTC\n```\n"
+  }
+]

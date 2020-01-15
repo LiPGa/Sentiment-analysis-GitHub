@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/317447839",
+    "html_url": "https://github.com/grpc/grpc/issues/10647#issuecomment-317447839",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10647",
+    "id": 317447839,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzQ0NzgzOQ==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-24T14:51:38Z",
+    "updated_at": "2017-07-24T14:51:38Z",
+    "author_association": "MEMBER",
+    "body": "Similar problem seen here:\r\n\r\nhttps://grpc-testing.appspot.com/job/gRPC_pull_requests_msan_c/6115/testReport/junit/(root)/c_linux_msan_native/bins_msan_h2_proxy_nosec_test_no_logging_GRPC_POLL_STRATEGY_poll_cv/\r\n\r\nOutput:\r\n\r\n```\r\nD0722 00:11:28.835415639   16990 test_config.c:388]          test slowdown factor: sanitizer=4, fixture=1, poller=5, total=20\r\nD0722 00:11:28.836412070   16990 ev_posix.c:111]             Using polling engine: poll-cv\r\nD0722 00:11:28.836575207   16990 dns_resolver.c:301]         Using native dns resolver\r\nI0722 00:11:28.836780839   16990 no_logging.c:68]            Running test: test_no_logging_in_last_request/chttp2/fullstack+proxy\r\nD0722 00:11:28.864966573   16990 proxy.c:89]                 PROXY ADDR:localhost:25082 BACKEND:localhost:2427\r\nD0722 00:11:29.373252171   16990 chttp2_transport.c:1587]    Unwanted log: PING strike\r\n\r\n\r\n\r\n*******************************\r\nCaught signal SIGABRT\r\nbins/msan/h2_proxy_nosec_test(backtrace+0xa3)[0x7e0000050303]\r\nbins/msan/h2_proxy_nosec_test[0x7e0000e01061]\r\nbins/msan/h2_proxy_nosec_test[0x7e0000041149]\r\n/lib/x86_64-linux-gnu/libpthread.so.0(+0xf890)[0x7f5c4be05890]\r\n/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7f5c4b55f067]\r\n/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7f5c4b560448]\r\nbins/msan/h2_proxy_nosec_test[0x7e00001f6776]\r\nbins/msan/h2_proxy_nosec_test[0x7e00001f00cd]\r\nbins/msan/h2_proxy_nosec_test[0x7e000067aa09]\r\nbins/msan/h2_proxy_nosec_test[0x7e000067c955]\r\nbins/msan/h2_proxy_nosec_test[0x7e000084d131]\r\nbins/msan/h2_proxy_nosec_test[0x7e0000589896]\r\nbins/msan/h2_proxy_nosec_test[0x7e00009659ef]\r\nbins/msan/h2_proxy_nosec_test[0x7e000096153e]\r\nbins/msan/h2_proxy_nosec_test[0x7e00008992ab]\r\nbins/msan/h2_proxy_nosec_test[0x7e0000340e02]\r\nbins/msan/h2_proxy_nosec_test[0x7e00003764cd]\r\nbins/msan/h2_proxy_nosec_test[0x7e00007b9c76]\r\nbins/msan/h2_proxy_nosec_test[0x7e000037070d]\r\nbins/msan/h2_proxy_nosec_test[0x7e00004caa2b]\r\nbins/msan/h2_proxy_nosec_test[0x7e00004c00e3]\r\nbins/msan/h2_proxy_nosec_test[0x7e00002ad6d7]\r\nbins/msan/h2_proxy_nosec_test[0x7e00001f3fd6]\r\nbins/msan/h2_proxy_nosec_test[0x7e00001f07b5]\r\nbins/msan/h2_proxy_nosec_test[0x7e00001efcae]\r\nbins/msan/h2_proxy_nosec_test[0x7e00000b8678]\r\nbins/msan/h2_proxy_nosec_test[0x7e00000b0476]\r\n/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5)[0x7f5c4b54bb45]\r\nbins/msan/h2_proxy_nosec_test[0x7e000002dcdf]\r\n```"
+  }
+]

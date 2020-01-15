@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/480283700",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/26001#issuecomment-480283700",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/26001",
+    "id": 480283700,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDI4MzcwMA==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-05T13:53:52Z",
+    "updated_at": "2019-04-05T13:53:52Z",
+    "author_association": "MEMBER",
+    "body": "@Lay4U the github issues are meant for reporting potential bugs / enhancement requests, and not for general questions for help (but of course, the line between both is not always clear). For general usage questions, a Q&A forum like [StackOverflow](https://stackoverflow.com/questions/tagged/pandas) or the [pydata mailing list](https://groups.google.com/forum/#!forum/pydata) is a better place to ask.\r\n\r\nFurther, I also recommend you to provide a minimal, reproducible example (see http://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports for more explanation), also if you ask the question in one of the other fora."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/357075979",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19193#issuecomment-357075979",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19193",
+    "id": 357075979,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NzA3NTk3OQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-11T22:03:34Z",
+    "updated_at": "2018-01-11T22:03:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Ahh, my bad is it just the `how` keyword? So we go to the end of the window, which shifts us 1 to the right?"
+  }
+]

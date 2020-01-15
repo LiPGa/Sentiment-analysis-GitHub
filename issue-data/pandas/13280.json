@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/221550101",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13280#issuecomment-221550101",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13280",
+    "id": 221550101,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMTU1MDEwMQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-25T11:50:10Z",
+    "updated_at": "2016-05-25T11:50:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is as expected. `np.nan` is the missing value indicator, not `None`. We very rarely allow native `None`;  non-performant as its a python object.\n\ndocs are [here](http://pandas.pydata.org/pandas-docs/stable/missing_data.html#values-considered-missing)\n\n```\nIn [1]: x = pd.DataFrame({\"a\":[\"james\"], \"b\":[True], \"c\":[\"john\"]})\n\nIn [2]: x\nOut[2]: \n       a     b     c\n0  james  True  john\n\nIn [3]: x.dtypes\nOut[3]: \na    object\nb      bool\nc    object\ndtype: object\n\nIn [4]: x.loc[1] = None\n\nIn [5]: x\nOut[5]: \n       a    b     c\n0  james  1.0  john\n1    NaN  NaN   NaN\n\nIn [6]: x.dtypes\nOut[6]: \na     object\nb    float64\nc     object\ndtype: object\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/469321697",
+    "html_url": "https://github.com/grpc/grpc/issues/18232#issuecomment-469321697",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18232",
+    "id": 469321697,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2OTMyMTY5Nw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-04T16:38:15Z",
+    "updated_at": "2019-03-04T16:38:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You can definitely use a single completion queue for multiple connections (both on client side and the server side). Completions queues used with async C++ API are supposed to be long-lived - lost of applications you should just create completions queues (in a thread pool) when they start and destroy them when they shut down."
+  }
+]

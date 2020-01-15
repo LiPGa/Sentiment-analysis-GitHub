@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/330004638",
+    "html_url": "https://github.com/grpc/grpc/pull/12602#issuecomment-330004638",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12602",
+    "id": 330004638,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMDAwNDYzOA==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-17T00:48:30Z",
+    "updated_at": "2017-09-17T00:48:30Z",
+    "author_association": "MEMBER",
+    "body": "Please consider taking an extra look - I had to make some adjustments to distinguish between `import \"split_messages/messages.proto\";` in the text of the `services.proto` files and the `messages.proto` path being `split_messages\\messages.proto` on Windows.\r\n\r\n... and then once I had done that I felt like adding another subdirectory, so I did that."
+  }
+]

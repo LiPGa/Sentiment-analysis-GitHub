@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/271202775",
+    "html_url": "https://github.com/grpc/grpc/issues/9277#issuecomment-271202775",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9277",
+    "id": 271202775,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MTIwMjc3NQ==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-09T02:49:21Z",
+    "updated_at": "2017-01-09T02:49:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "yes the 1.0.1 release supports .net core - it has a `netstandard1.5` target. It also supports the previously supported .NET 4.5. (see https://www.nuget.org/packages/Grpc.Core/)"
+  }
+]

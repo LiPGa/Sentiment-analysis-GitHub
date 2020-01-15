@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/139927650",
+    "html_url": "https://github.com/ipython/ipython/issues/8579#issuecomment-139927650",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8579",
+    "id": 139927650,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzOTkyNzY1MA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-13T23:12:57Z",
+    "updated_at": "2015-09-13T23:12:57Z",
+    "author_association": "MEMBER",
+    "body": "That's not a tempfile specific thing, it just that the interpreter print the value of the last statement ofwhat you entered. \n\nPython itself consider the last statement of  the context manager as the thing it should print, not IPython:\n\n```\nIn [1]: with open('./README.rst'):\n   ...:     36\n\n(...)\nbash-3.2$ python\n>>> with open('./README.rst'):\n...     72\n72\n```\n\n@takluyver ?\n"
+  }
+]

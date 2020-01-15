@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/436588138",
+    "html_url": "https://github.com/grpc/grpc/issues/13827#issuecomment-436588138",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13827",
+    "id": 436588138,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNjU4ODEzOA==",
+    "user": {
+      "login": "AnaitBI",
+      "id": 39155784,
+      "node_id": "MDQ6VXNlcjM5MTU1Nzg0",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39155784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AnaitBI",
+      "html_url": "https://github.com/AnaitBI",
+      "followers_url": "https://api.github.com/users/AnaitBI/followers",
+      "following_url": "https://api.github.com/users/AnaitBI/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AnaitBI/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AnaitBI/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AnaitBI/subscriptions",
+      "organizations_url": "https://api.github.com/users/AnaitBI/orgs",
+      "repos_url": "https://api.github.com/users/AnaitBI/repos",
+      "events_url": "https://api.github.com/users/AnaitBI/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AnaitBI/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-07T11:05:30Z",
+    "updated_at": "2018-11-07T11:05:30Z",
+    "author_association": "NONE",
+    "body": "I experiencing some troubles with response stream: 'Response stream is already completed',\r\nwhen it is just starting.\r\nThe scenario is hen the await responseStream.WriteAsync() is inside a Task.Run(),\r\nIf not all work fine.\r\n\r\nPlease help\r\n"
+  }
+]

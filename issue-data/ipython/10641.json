@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/306485465",
+    "html_url": "https://github.com/ipython/ipython/issues/10641#issuecomment-306485465",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10641",
+    "id": 306485465,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjQ4NTQ2NQ==",
+    "user": {
+      "login": "adityausathe",
+      "id": 13662536,
+      "node_id": "MDQ6VXNlcjEzNjYyNTM2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13662536?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adityausathe",
+      "html_url": "https://github.com/adityausathe",
+      "followers_url": "https://api.github.com/users/adityausathe/followers",
+      "following_url": "https://api.github.com/users/adityausathe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adityausathe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adityausathe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adityausathe/subscriptions",
+      "organizations_url": "https://api.github.com/users/adityausathe/orgs",
+      "repos_url": "https://api.github.com/users/adityausathe/repos",
+      "events_url": "https://api.github.com/users/adityausathe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adityausathe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-06T13:26:39Z",
+    "updated_at": "2017-06-06T13:26:39Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I figured it out, it has something to do with `stack_depth` and the problem incurred due to nested function calls."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/303214108",
+    "html_url": "https://github.com/grpc/grpc/issues/11242#issuecomment-303214108",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11242",
+    "id": 303214108,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMzIxNDEwOA==",
+    "user": {
+      "login": "matt-kwong",
+      "id": 22083734,
+      "node_id": "MDQ6VXNlcjIyMDgzNzM0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22083734?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matt-kwong",
+      "html_url": "https://github.com/matt-kwong",
+      "followers_url": "https://api.github.com/users/matt-kwong/followers",
+      "following_url": "https://api.github.com/users/matt-kwong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matt-kwong/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matt-kwong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matt-kwong/subscriptions",
+      "organizations_url": "https://api.github.com/users/matt-kwong/orgs",
+      "repos_url": "https://api.github.com/users/matt-kwong/repos",
+      "events_url": "https://api.github.com/users/matt-kwong/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matt-kwong/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-22T20:41:18Z",
+    "updated_at": "2017-05-22T20:41:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "That specific VM running the interop test needed to be cleaned up; builds on that VM are looking good now."
+  }
+]

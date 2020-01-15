@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/120681046",
+    "html_url": "https://github.com/ipython/ipython/issues/8630#issuecomment-120681046",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8630",
+    "id": 120681046,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMDY4MTA0Ng==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-12T02:41:25Z",
+    "updated_at": "2015-07-12T02:41:25Z",
+    "author_association": "MEMBER",
+    "body": "This definitively **is not** the latest version. cf screenshot. You have an old version. \nApt-repository of ubuntu are not up to date (complain to ubuntu that takes package to packages things). \nThe version you have is a year and a half old, and do not support filesystem browsing. \n\nYou can use conda or pip, and install latest as user. \n\n<img width=\"828\" alt=\"screen shot 2015-07-11 at 21 37 46\" src=\"https://cloud.githubusercontent.com/assets/335567/8636104/49e3640e-2815-11e5-84af-8fd1a5c1537c.png\">\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/225237433",
+    "html_url": "https://github.com/ipython/ipython/pull/9601#issuecomment-225237433",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9601",
+    "id": 225237433,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNTIzNzQzMw==",
+    "user": {
+      "login": "asmeurer",
+      "id": 71486,
+      "node_id": "MDQ6VXNlcjcxNDg2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/71486?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/asmeurer",
+      "html_url": "https://github.com/asmeurer",
+      "followers_url": "https://api.github.com/users/asmeurer/followers",
+      "following_url": "https://api.github.com/users/asmeurer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asmeurer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/asmeurer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asmeurer/subscriptions",
+      "organizations_url": "https://api.github.com/users/asmeurer/orgs",
+      "repos_url": "https://api.github.com/users/asmeurer/repos",
+      "events_url": "https://api.github.com/users/asmeurer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/asmeurer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-10T16:57:43Z",
+    "updated_at": "2016-06-10T16:57:43Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Seems to fix the SymPy test failure. \n"
+  }
+]

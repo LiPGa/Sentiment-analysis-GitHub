@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/298494898",
+    "html_url": "https://github.com/grpc/grpc/issues/10941#issuecomment-298494898",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10941",
+    "id": 298494898,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5ODQ5NDg5OA==",
+    "user": {
+      "login": "Jay2645",
+      "id": 2058763,
+      "node_id": "MDQ6VXNlcjIwNTg3NjM=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2058763?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Jay2645",
+      "html_url": "https://github.com/Jay2645",
+      "followers_url": "https://api.github.com/users/Jay2645/followers",
+      "following_url": "https://api.github.com/users/Jay2645/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Jay2645/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Jay2645/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Jay2645/subscriptions",
+      "organizations_url": "https://api.github.com/users/Jay2645/orgs",
+      "repos_url": "https://api.github.com/users/Jay2645/repos",
+      "events_url": "https://api.github.com/users/Jay2645/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Jay2645/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-02T04:31:28Z",
+    "updated_at": "2017-05-02T04:31:28Z",
+    "author_association": "NONE",
+    "body": "Fixed it -- there was an old protobuf 3.0 installation from a few months ago that was inside /usr/lib/ for some reason. Removing that file allowed the installation to complete."
+  }
+]

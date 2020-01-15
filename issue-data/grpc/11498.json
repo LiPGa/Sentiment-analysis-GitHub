@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/325515829",
+    "html_url": "https://github.com/grpc/grpc/issues/11498#issuecomment-325515829",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11498",
+    "id": 325515829,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNTUxNTgyOQ==",
+    "user": {
+      "login": "jboeuf",
+      "id": 6262765,
+      "node_id": "MDQ6VXNlcjYyNjI3NjU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6262765?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jboeuf",
+      "html_url": "https://github.com/jboeuf",
+      "followers_url": "https://api.github.com/users/jboeuf/followers",
+      "following_url": "https://api.github.com/users/jboeuf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jboeuf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jboeuf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jboeuf/subscriptions",
+      "organizations_url": "https://api.github.com/users/jboeuf/orgs",
+      "repos_url": "https://api.github.com/users/jboeuf/repos",
+      "events_url": "https://api.github.com/users/jboeuf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jboeuf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-29T00:01:06Z",
+    "updated_at": "2017-08-29T00:01:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@justinburke, can you have a look at the issue since you are looking at the TLS stack? I don't really understand why I cannot assign this issue directly to you... oh well...\r\n\r\nHere's the relevant part of the spec: https://tools.ietf.org/html/rfc5280#section-4.2.1.6\r\n\r\n> Note that while uppercase and lowercase letters are allowed in domain names, no significance is attached to the case."
+  }
+]

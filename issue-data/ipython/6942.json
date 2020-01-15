@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/63146509",
+    "html_url": "https://github.com/ipython/ipython/pull/6942#issuecomment-63146509",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6942",
+    "id": 63146509,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYzMTQ2NTA5",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-14T23:37:34Z",
+    "updated_at": "2014-11-14T23:37:34Z",
+    "author_association": "MEMBER",
+    "body": "To verify that I didn't do that this time, the test output from my Windows VM:\n\n```\nVM@WIN-M2I02U69SAU ~/src/ipython/tools (editorhooks-typo)\n$ iptest IPython.lib.tests.test_editorhooks\n\nTest group: IPython.lib.tests.test_editorhooks\n.\n----------------------------------------------------------------------\nRan 1 test in 0.000s\n\nOK\nwake up\n______________________________________________________________________\nTest suite completed for system with the following information:\nIPython version: 3.0.0-dev\nIPython commit : 8cb6a80 (repository)\nIPython package: c:\\users\\vm\\src\\ipython\\IPython\nPython version : 2.7.8 (default, Jun 30 2014, 16:03:49) [MSC v.1500 32 bit (Inte\nl)]\nsys.executable : c:\\python27\\python.exe\nPlatform       : Windows-7-6.1.7601-SP1\n\nTools and libraries available at test time:\n   jinja2 jsonschema pygments requests sphinx sqlite3 zmq\n\nTools and libraries NOT available at test time:\n   casperjs curses matplotlib mistune numpy pexpect phantomjs pymongo qt slimerj\ns terminado tornado\n\nStatus: OK (1 test groups). Took 0.864s.\n```\n"
+  }
+]

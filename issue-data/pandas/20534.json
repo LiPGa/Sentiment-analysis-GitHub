@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/453236538",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/20534#issuecomment-453236538",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20534",
+    "id": 453236538,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzIzNjUzOA==",
+    "user": {
+      "login": "JacekPliszka",
+      "id": 1254407,
+      "node_id": "MDQ6VXNlcjEyNTQ0MDc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1254407?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JacekPliszka",
+      "html_url": "https://github.com/JacekPliszka",
+      "followers_url": "https://api.github.com/users/JacekPliszka/followers",
+      "following_url": "https://api.github.com/users/JacekPliszka/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JacekPliszka/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JacekPliszka/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JacekPliszka/subscriptions",
+      "organizations_url": "https://api.github.com/users/JacekPliszka/orgs",
+      "repos_url": "https://api.github.com/users/JacekPliszka/repos",
+      "events_url": "https://api.github.com/users/JacekPliszka/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JacekPliszka/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-10T20:10:45Z",
+    "updated_at": "2019-01-10T20:11:14Z",
+    "author_association": "NONE",
+    "body": "Summing up:  pyarrow/pandas handling of file level parquet metadata is ugly and at some point of time should be rewritten but looks like it is a larger task than I can afford to do.\r\n\r\nThe above simple hack can be implemented by anyone interested on his/her own just instead of df.to_parquet\r\nuse function like this:\r\n```\r\nimport pyarrow.parquet\r\ndef to_parquet_with_updated_metadata(filename, df, metadata_update):\r\n    table = pyarrow.Table.from_pandas(df)\r\n    updated_metadata = dict(table.schema.metadata or {}, **metadata_update)\r\n    table = table.replace_schema_metadata(updated_metadata)\r\n    pyarrow.parquet.write_table(table, filename)\r\n\r\nto_parquet_with_updated_metadata('test.parquet', df, {'test key ': 'test value'})\r\n```\r\nShould be usable enough until proper solution with access to all metadatas in parquet file is developed.\r\nThis is why I closed this PR"
+  }
+]

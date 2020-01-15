@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/207818547",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12838#issuecomment-207818547",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12838",
+    "id": 207818547,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNzgxODU0Nw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-09T17:09:06Z",
+    "updated_at": "2016-04-09T17:09:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "well this is actually doing what its supposed to, but you don't have a reference to the copy that is created when you select columns in the first place\n\n```\nIn [10]: id(df.loc[:, ['one', 'two', 'three']].values)\nOut[10]: 4674915184\n\nIn [11]: id(df.values)\nOut[11]: 4674915264\n\n```\n\nAside from being completely non-idomatic, this is very hard to detect that this is going on (otherwise we could show a `SettingWIthCopyWarning`.\n"
+  }
+]

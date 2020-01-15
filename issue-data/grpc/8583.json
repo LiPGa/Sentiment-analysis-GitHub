@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/257471668",
+    "html_url": "https://github.com/grpc/grpc/pull/8583#issuecomment-257471668",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8583",
+    "id": 257471668,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NzQ3MTY2OA==",
+    "user": {
+      "login": "sreecha",
+      "id": 2754995,
+      "node_id": "MDQ6VXNlcjI3NTQ5OTU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2754995?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sreecha",
+      "html_url": "https://github.com/sreecha",
+      "followers_url": "https://api.github.com/users/sreecha/followers",
+      "following_url": "https://api.github.com/users/sreecha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sreecha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sreecha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sreecha/subscriptions",
+      "organizations_url": "https://api.github.com/users/sreecha/orgs",
+      "repos_url": "https://api.github.com/users/sreecha/repos",
+      "events_url": "https://api.github.com/users/sreecha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sreecha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-01T01:56:29Z",
+    "updated_at": "2016-11-01T01:56:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "<cc/ @jtattermusch who is most familiar with this code>\n\n@ctiller , unfortunately looks like this still didn't fix the issue. I noticed that the new field is inside 'clientStats' column group (i.e which is a column in the \"middle of the schema\") and as per the documentation here: https://cloud.google.com/bigquery/docs/tables#updateschema, new columns can only be added at the end of the table.\n\nFor now to unblock the tests, I suggest you delete the key i.e `del stats['requestResults']` inside the loop at: https://github.com/grpc/grpc/blob/master/tools/run_tests/performance/bq_upload_result.py#L119\nWe will figure out a way to add these to the schema later.\n"
+  }
+]

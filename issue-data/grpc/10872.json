@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/336216757",
+    "html_url": "https://github.com/grpc/grpc/issues/10872#issuecomment-336216757",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10872",
+    "id": 336216757,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjIxNjc1Nw==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-12T17:57:19Z",
+    "updated_at": "2017-10-12T17:57:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Sounds like it is unclear what this actually is and this is the only language-specific branch of the original issue. I'm closing this as it is best tracked under the root issue, at least until the actual task gets clearer."
+  }
+]

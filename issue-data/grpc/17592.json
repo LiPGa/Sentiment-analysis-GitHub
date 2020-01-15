@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/449950073",
+    "html_url": "https://github.com/grpc/grpc/issues/17592#issuecomment-449950073",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17592",
+    "id": 449950073,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0OTk1MDA3Mw==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-26T11:01:09Z",
+    "updated_at": "2018-12-26T11:01:09Z",
+    "author_association": "MEMBER",
+    "body": "The question received an absolute and categoric \"no\". That \"no\" is even more emphatic today. We will not accept 2.6-compatibility-adding pulls request because we do not accept changes that we cannot test, and we cannot test Python 2.6 without running Python 2.6, and running Python 2.6 in 2018 (or 2019!) is irresponsible on a pretty fundamental level (2.6 hasn't gotten security patches in _how long?_).\r\n\r\nIf you missed it over in [issue 757](https://github.com/grpc/grpc/issues/757), see [this (now-three-years-old!) guidance about dropping 2.6](https://snarky.ca/stop-using-python-2-6/).\r\n\r\n**You should stop using Python 2.6.** [You should also stop using Python 2.7](https://pythonclock.org/)."
+  }
+]

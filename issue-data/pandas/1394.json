@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/6128274",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1394#issuecomment-6128274",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1394",
+    "id": 6128274,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYxMjgyNzQ=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-06-05T15:42:46Z",
+    "updated_at": "2012-06-05T15:42:46Z",
+    "author_association": "MEMBER",
+    "body": "I changed the default behavior of `Series.append` and `DataFrame.append` to not check for duplicates by default. Also, the display of duplicates in a DatetimeIndex will not be as above (caused by bugs in the `__repr__` of `datetime64[ns]` dtype NumPy arrays in NumPy 1.6.1)\n"
+  }
+]

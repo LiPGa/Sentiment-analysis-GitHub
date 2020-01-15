@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/185479705",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12373#issuecomment-185479705",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12373",
+    "id": 185479705,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NTQ3OTcwNQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-18T00:39:54Z",
+    "updated_at": "2016-02-18T00:39:54Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I think I forgot the casting (these should really have dtype specific functions, e.g. float32/float64), but that's your other issue.\n\n```\n> /Users/jreback/pandas/pandas/core/window.py(460)func()\n    458                 def func(arg, window, min_periods=None):\n    459                     minp = check_minp(min_periods, window)\n--> 460                     return cfunc(arg, window, minp, **kwargs)\n    461 \n    462             # calculation function\n\nipdb> p arg\narray([ 0.,  1.,  2.,  3.,  4.], dtype=float32)\nipdb> p cfunc\n<built-in function roll_max>\nipdb> p cfunc(com._ensure_float64(arg), window, minp, **kwargs)\narray([ nan,  nan,   2.,   3.,   4.])\n```\n\nwant to do a PR to fix?\n"
+  }
+]

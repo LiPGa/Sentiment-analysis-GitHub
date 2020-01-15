@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/251937632",
+    "html_url": "https://github.com/grpc/grpc/issues/8298#issuecomment-251937632",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8298",
+    "id": 251937632,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MTkzNzYzMg==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-06T11:37:35Z",
+    "updated_at": "2016-10-06T11:37:35Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The performance tests also seem broken:\n\n```\n[LD]      Linking /home/jenkins/workspace/gRPC_performance_master/libs/opt/libgrpc_unsecure.so.1.1.0-dev\nsrc/core/ext/transport/cronet/transport/cronet_transport.c: In function ‘execute_from_storage’:\nsrc/core/ext/transport/cronet/transport/cronet_transport.c:792:5: error: ‘method’ may be used uninitialized in this function [-Werror=maybe-uninitialized]\n     cronet_bidirectional_stream_start(s->cbs, url, 0, method, &s->header_array,\n     ^\nsrc/core/ext/transport/cronet/transport/cronet_transport.c:784:17: note: ‘method’ was declared here\n     const char *method;\n                 ^\ncc1: all warnings being treated as errors\nMakefile:2171: recipe for target '/home/jenkins/workspace/gRPC_performance_master/objs/opt/src/core/ext/transport/cronet/transport/cronet_transport.o' failed\nmake: *** [/home/jenkins/workspace/gRPC_performance_master/objs/opt/src/core/ext/transport/cronet/transport/cronet_transport.o] Error 1\nmake: *** Waiting for unfinished jobs....\n\nFAILED: make [ret=2, pid=2340]\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/245516536",
+    "html_url": "https://github.com/grpc/grpc/issues/8016#issuecomment-245516536",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8016",
+    "id": 245516536,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NTUxNjUzNg==",
+    "user": {
+      "login": "ysiw",
+      "id": 18527938,
+      "node_id": "MDQ6VXNlcjE4NTI3OTM4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18527938?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ysiw",
+      "html_url": "https://github.com/ysiw",
+      "followers_url": "https://api.github.com/users/ysiw/followers",
+      "following_url": "https://api.github.com/users/ysiw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ysiw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ysiw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ysiw/subscriptions",
+      "organizations_url": "https://api.github.com/users/ysiw/orgs",
+      "repos_url": "https://api.github.com/users/ysiw/repos",
+      "events_url": "https://api.github.com/users/ysiw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ysiw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-08T07:31:09Z",
+    "updated_at": "2016-09-08T07:31:09Z",
+    "author_association": "NONE",
+    "body": "System.Runtime.Loader.AssemblyLoadContext has an event named Unloading. Please visit https://github.com/dotnet/corefx/issues/5205 for more information\n"
+  }
+]

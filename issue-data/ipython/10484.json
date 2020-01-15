@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/297729317",
+    "html_url": "https://github.com/ipython/ipython/issues/10484#issuecomment-297729317",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10484",
+    "id": 297729317,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NzcyOTMxNw==",
+    "user": {
+      "login": "abitgen",
+      "id": 10978904,
+      "node_id": "MDQ6VXNlcjEwOTc4OTA0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10978904?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abitgen",
+      "html_url": "https://github.com/abitgen",
+      "followers_url": "https://api.github.com/users/abitgen/followers",
+      "following_url": "https://api.github.com/users/abitgen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abitgen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abitgen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abitgen/subscriptions",
+      "organizations_url": "https://api.github.com/users/abitgen/orgs",
+      "repos_url": "https://api.github.com/users/abitgen/repos",
+      "events_url": "https://api.github.com/users/abitgen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abitgen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-27T14:26:19Z",
+    "updated_at": "2017-04-27T14:26:19Z",
+    "author_association": "NONE",
+    "body": "Updating Ipython to 6.0.0 resolved the issue.\r\nuse `conda update ipython`"
+  }
+]

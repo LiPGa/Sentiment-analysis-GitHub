@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/407165314",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22029#issuecomment-407165314",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22029",
+    "id": 407165314,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNzE2NTMxNA==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-23T18:59:25Z",
+    "updated_at": "2018-07-23T18:59:25Z",
+    "author_association": "MEMBER",
+    "body": "Please refer to our contributing guide on how to open bug reports:\r\n\r\nhttps://pandas.pydata.org/pandas-docs/stable/contributing.html#bug-reports-and-enhancement-requests\r\n\r\nUnfortunately there is no information to work off of here so closing for now, but feel free to reopen after going through the above and providing the appropriate information. The `AttributeError` being raised makes sense, though there's not much context to what's going on - if you are running a sample script from TF's repository then maybe that sample script is wrong?"
+  }
+]

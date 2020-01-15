@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/114643751",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10417#issuecomment-114643751",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10417",
+    "id": 114643751,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNDY0Mzc1MQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-23T21:16:04Z",
+    "updated_at": "2015-06-23T21:16:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "yep, looks a little buggy. As the following gives the expected output.\n\n```\nIn [5]: y.reset_index().groupby(['level_0','level_1']).sum()\nOut[5]: \n                  0\nlevel_0 level_1    \n11      x         2\n        y         6\n12      x         6\n        y        10\n```\n"
+  }
+]

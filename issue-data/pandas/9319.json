@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/70771947",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9319#issuecomment-70771947",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9319",
+    "id": 70771947,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwNzcxOTQ3",
+    "user": {
+      "login": "shoyer",
+      "id": 1217238,
+      "node_id": "MDQ6VXNlcjEyMTcyMzg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1217238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shoyer",
+      "html_url": "https://github.com/shoyer",
+      "followers_url": "https://api.github.com/users/shoyer/followers",
+      "following_url": "https://api.github.com/users/shoyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shoyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shoyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shoyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/shoyer/orgs",
+      "repos_url": "https://api.github.com/users/shoyer/repos",
+      "events_url": "https://api.github.com/users/shoyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shoyer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-21T02:00:36Z",
+    "updated_at": "2015-01-21T02:00:36Z",
+    "author_association": "MEMBER",
+    "body": "This is a numpy bug. `np.dtype(int) == int`, but they have different hash values -- which explains why this fails with the set:\n\n```\nIn [1]: import numpy as np\n\nIn [2]: np.dtype(int) == int\nOut[2]: True\n\nIn [3]: hash(np.dtype(int))\nOut[3]: 4044443258250913453\n\nIn [4]: hash(int)\nOut[4]: 268532012\n```\n\nworse, there's some non-commutative equality with `np.int64`:\n\n```\nIn [5]: np.dtype(int) == np.int64\nOut[5]: True\n\nIn [6]: np.int64 == int\nOut[6]: False\n```\n\nThe work around here would be use to use the numpy dtype in the set, e.g., `{np.dtype(int)}`. But this really needs to be fixed upstream.\n"
+  }
+]

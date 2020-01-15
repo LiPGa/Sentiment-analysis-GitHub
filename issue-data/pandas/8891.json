@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/64289571",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8891#issuecomment-64289571",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8891",
+    "id": 64289571,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0Mjg5NTcx",
+    "user": {
+      "login": "dacoex",
+      "id": 8660305,
+      "node_id": "MDQ6VXNlcjg2NjAzMDU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8660305?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dacoex",
+      "html_url": "https://github.com/dacoex",
+      "followers_url": "https://api.github.com/users/dacoex/followers",
+      "following_url": "https://api.github.com/users/dacoex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dacoex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dacoex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dacoex/subscriptions",
+      "organizations_url": "https://api.github.com/users/dacoex/orgs",
+      "repos_url": "https://api.github.com/users/dacoex/repos",
+      "events_url": "https://api.github.com/users/dacoex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dacoex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-25T00:18:36Z",
+    "updated_at": "2014-11-25T00:18:48Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "See also:\n\nhttps://github.com/pydata/pandas/issues/4332\n\nhttps://github.com/pydata/pandas/pull/6934\n"
+  }
+]

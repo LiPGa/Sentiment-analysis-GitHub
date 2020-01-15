@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/189017337",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12447#issuecomment-189017337",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12447",
+    "id": 189017337,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4OTAxNzMzNw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-25T22:45:30Z",
+    "updated_at": "2016-02-25T22:45:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "the webinar was showing python 3 (and as was the environment.yaml file). \n\nIn py2 its a bit tricker as you have to encode the columns. You _could_ also save a `table='fixed'` (which emit a warning as it is pickled)\n\n```\nIn [16]: df = DataFrame({'A' : tm.makeUnicodeIndex(5)})\n\nIn [17]: df\nOut[17]: \n            A\n0  ךהאפל4רלשן\n1  גמרי58ףן5ו\n2  4זכאךט9ןדמ\n3  ב999שגשלכם\n4  שאךיםפקבה8\n\nIn [18]: df.A.values\nOut[18]: \narray([u'\\u05da\\u05d4\\u05d0\\u05e4\\u05dc4\\u05e8\\u05dc\\u05e9\\u05df',\n       u'\\u05d2\\u05de\\u05e8\\u05d958\\u05e3\\u05df5\\u05d5',\n       u'4\\u05d6\\u05db\\u05d0\\u05da\\u05d89\\u05df\\u05d3\\u05de',\n       u'\\u05d1999\\u05e9\\u05d2\\u05e9\\u05dc\\u05db\\u05dd',\n       u'\\u05e9\\u05d0\\u05da\\u05d9\\u05dd\\u05e4\\u05e7\\u05d1\\u05d48'], dtype=object)\n\nIn [19]: df['A'] = df.A.str.encode('utf-8')\n\nIn [20]: df.A.values\nOut[20]: \narray([ '\\xd7\\x9a\\xd7\\x94\\xd7\\x90\\xd7\\xa4\\xd7\\x9c4\\xd7\\xa8\\xd7\\x9c\\xd7\\xa9\\xd7\\x9f',\n       '\\xd7\\x92\\xd7\\x9e\\xd7\\xa8\\xd7\\x9958\\xd7\\xa3\\xd7\\x9f5\\xd7\\x95',\n       '4\\xd7\\x96\\xd7\\x9b\\xd7\\x90\\xd7\\x9a\\xd7\\x989\\xd7\\x9f\\xd7\\x93\\xd7\\x9e',\n       '\\xd7\\x91999\\xd7\\xa9\\xd7\\x92\\xd7\\xa9\\xd7\\x9c\\xd7\\x9b\\xd7\\x9d',\n       '\\xd7\\xa9\\xd7\\x90\\xd7\\x9a\\xd7\\x99\\xd7\\x9d\\xd7\\xa4\\xd7\\xa7\\xd7\\x91\\xd7\\x948'], dtype=object)\n\nIn [21]: df.to_hdf('test.h5','df',format='table')\n\nIn [22]: pd.read_hdf('test.h5','df'\n   ....: )\nOut[22]: \n            A\n0  ךהאפל4רלשן\n1  גמרי58ףן5ו\n2  4זכאךט9ןדמ\n3  ב999שגשלכם\n4  שאךיםפקבה8\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/317764808",
+    "html_url": "https://github.com/grpc/grpc/issues/11880#issuecomment-317764808",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11880",
+    "id": 317764808,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzc2NDgwOA==",
+    "user": {
+      "login": "Disturbing",
+      "id": 2367167,
+      "node_id": "MDQ6VXNlcjIzNjcxNjc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2367167?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Disturbing",
+      "html_url": "https://github.com/Disturbing",
+      "followers_url": "https://api.github.com/users/Disturbing/followers",
+      "following_url": "https://api.github.com/users/Disturbing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Disturbing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Disturbing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Disturbing/subscriptions",
+      "organizations_url": "https://api.github.com/users/Disturbing/orgs",
+      "repos_url": "https://api.github.com/users/Disturbing/repos",
+      "events_url": "https://api.github.com/users/Disturbing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Disturbing/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-25T14:57:29Z",
+    "updated_at": "2017-07-25T14:57:29Z",
+    "author_association": "NONE",
+    "body": "Well, I'm using AsyncLocal + CallInvoker for context creation. It just feels a bit off for having ServerCallContext and then Context.Get<> for call contexts. I'll think on this more, but for now will close the issue."
+  }
+]

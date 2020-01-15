@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/8244975",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1824#issuecomment-8244975",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1824",
+    "id": 8244975,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgyNDQ5NzU=",
+    "user": {
+      "login": "John-Colvin",
+      "id": 1867189,
+      "node_id": "MDQ6VXNlcjE4NjcxODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1867189?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/John-Colvin",
+      "html_url": "https://github.com/John-Colvin",
+      "followers_url": "https://api.github.com/users/John-Colvin/followers",
+      "following_url": "https://api.github.com/users/John-Colvin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/John-Colvin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/John-Colvin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/John-Colvin/subscriptions",
+      "organizations_url": "https://api.github.com/users/John-Colvin/orgs",
+      "repos_url": "https://api.github.com/users/John-Colvin/repos",
+      "events_url": "https://api.github.com/users/John-Colvin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/John-Colvin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-09-03T18:58:06Z",
+    "updated_at": "2012-09-03T18:58:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I've submitted a pull request with a possible solution for this: https://github.com/pydata/pandas/pull/1834\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/193341413",
+    "html_url": "https://github.com/grpc/grpc/issues/5559#issuecomment-193341413",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/5559",
+    "id": 193341413,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MzM0MTQxMw==",
+    "user": {
+      "login": "LisaFC",
+      "id": 10744406,
+      "node_id": "MDQ6VXNlcjEwNzQ0NDA2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10744406?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LisaFC",
+      "html_url": "https://github.com/LisaFC",
+      "followers_url": "https://api.github.com/users/LisaFC/followers",
+      "following_url": "https://api.github.com/users/LisaFC/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LisaFC/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LisaFC/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LisaFC/subscriptions",
+      "organizations_url": "https://api.github.com/users/LisaFC/orgs",
+      "repos_url": "https://api.github.com/users/LisaFC/repos",
+      "events_url": "https://api.github.com/users/LisaFC/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LisaFC/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-07T16:51:19Z",
+    "updated_at": "2016-03-07T16:51:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I think I'd remove it, given that it doesn't add anything useful for the user to do, and the relevant information (the actual command to invoke protoc) is in the tutorial.\n"
+  }
+]

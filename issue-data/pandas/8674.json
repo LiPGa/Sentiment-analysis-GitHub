@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/61002206",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8674#issuecomment-61002206",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8674",
+    "id": 61002206,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYxMDAyMjA2",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-29T20:48:47Z",
+    "updated_at": "2014-10-29T21:56:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "actually this is a bug\nthis line: https://github.com/pydata/pandas/blob/master/pandas/core/common.py#L1351 is wrong\nit should be startswith `__r`\n\nreverse ops are passed to pandas (so in this example it is passed as `(Series(j),k)`\nwith the name being `__rtruediv__`\nthis is done so pandas handles these kind of things\n\nso zeros can be filled correctly (as number does integer division and things like that so u get weird results at times)\n\nso if u would like to do a or with your test cases and make that small change should work \n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/460777302",
+    "html_url": "https://github.com/grpc/grpc/issues/17695#issuecomment-460777302",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17695",
+    "id": 460777302,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MDc3NzMwMg==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-05T19:46:11Z",
+    "updated_at": "2019-02-05T19:46:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> 1. Support fork in ev_epollex_linux.cc like ev_epoll1_linux.cc?\r\n\r\nNo current plans to add this; we aren't opposed to it, but epoll1 is the default in our python distribution and seems sufficient for current use. For locally compiled versions of gRPC, you can choose epoll1 via the [`GRPC_POLL_STRATEGY`](https://github.com/grpc/grpc/blob/master/doc/environment_variables.md) environment variable.\r\n\r\n> 2\\. make GRPC_POSIX_FORK_ALLOW_PTHREAD_ATFORK configurable when compiling c++ client?\r\n\r\nNo, we do not support fork() without exec() for C++ clients. C++ does not have the same threading limitations that encourages Python clients to fork, so you are better off using threads, or fork() followed by an exec(). gRPC C++ clients do not have a channel close API nor any easy means of ensuring gRPC core shuts down in the child post-fork, which is a requirement for fork support. You can set this already via the `EXTRA_DEFINES` environment variable using make, but it will not work in the same way as with our Python/PHP clients unless you manually ensure gRPC Core shuts down in the child process (which is not trivial), and is not a supported use case."
+  }
+]

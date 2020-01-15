@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/70375842",
+    "html_url": "https://github.com/grpc/grpc/issues/101#issuecomment-70375842",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/101",
+    "id": 70375842,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwMzc1ODQy",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-17T17:37:22Z",
+    "updated_at": "2015-01-17T17:37:22Z",
+    "author_association": "MEMBER",
+    "body": "Agree. Had been thinking about this but hadn't gotten there yet. Might be\nnice to also support building the various wrappers from the make file too\nto simplify the logic in runtests\n\nOn Sat, Jan 17, 2015, 01:48 Nicolas Noble notifications@github.com wrote:\n\n> The run_tests.py script's CLanguage should load build.json and parse the\n> list of the tests to run.\n> \n> In build.json, the array targets can have objects with the following\n> properties:\n> \n> \"c++\" set to true or false; if not set, default to false.\n> \"run\" set to true or false; if not set, default to true.\n> \n> So, the code should select the appropriate tests to run, based on the\n> language tag, and based on the fact it's a test that needs to be run.\n> \n> Note that we will probably need to extend the build.json file to include\n> the notion of complex tests - aka, tests that run off a shell script or\n> something similar, and that execute several binaries with arguments.\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/google/grpc/issues/101.\n"
+  }
+]

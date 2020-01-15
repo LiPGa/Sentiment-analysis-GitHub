@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/478678430",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25948#issuecomment-478678430",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25948",
+    "id": 478678430,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODY3ODQzMA==",
+    "user": {
+      "login": "vaibhavhrt",
+      "id": 22582828,
+      "node_id": "MDQ6VXNlcjIyNTgyODI4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/22582828?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vaibhavhrt",
+      "html_url": "https://github.com/vaibhavhrt",
+      "followers_url": "https://api.github.com/users/vaibhavhrt/followers",
+      "following_url": "https://api.github.com/users/vaibhavhrt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vaibhavhrt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vaibhavhrt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vaibhavhrt/subscriptions",
+      "organizations_url": "https://api.github.com/users/vaibhavhrt/orgs",
+      "repos_url": "https://api.github.com/users/vaibhavhrt/repos",
+      "events_url": "https://api.github.com/users/vaibhavhrt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vaibhavhrt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-01T17:50:31Z",
+    "updated_at": "2019-04-01T17:52:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@WillAyd I have decided to start from top in mypy.ini so here is the first one. please tag label, project and milestone for it because I don't have access to it."
+  }
+]

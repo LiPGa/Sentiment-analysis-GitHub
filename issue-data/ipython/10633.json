@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/305745715",
+    "html_url": "https://github.com/ipython/ipython/issues/10633#issuecomment-305745715",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10633",
+    "id": 305745715,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNTc0NTcxNQ==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-02T10:04:59Z",
+    "updated_at": "2017-06-02T10:04:59Z",
+    "author_association": "MEMBER",
+    "body": "It's possible, and not that unusual, for something like `a.foo` to be a property which calls code on access. That's not necessarily a problem for an opt-in feature, but we should keep it in mind."
+  }
+]

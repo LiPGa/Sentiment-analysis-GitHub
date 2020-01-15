@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/176248507",
+    "html_url": "https://github.com/grpc/grpc/issues/4938#issuecomment-176248507",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/4938",
+    "id": 176248507,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NjI0ODUwNw==",
+    "user": {
+      "login": "soltanmm",
+      "id": 4889063,
+      "node_id": "MDQ6VXNlcjQ4ODkwNjM=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4889063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soltanmm",
+      "html_url": "https://github.com/soltanmm",
+      "followers_url": "https://api.github.com/users/soltanmm/followers",
+      "following_url": "https://api.github.com/users/soltanmm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soltanmm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soltanmm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soltanmm/subscriptions",
+      "organizations_url": "https://api.github.com/users/soltanmm/orgs",
+      "repos_url": "https://api.github.com/users/soltanmm/repos",
+      "events_url": "https://api.github.com/users/soltanmm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soltanmm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-28T16:02:11Z",
+    "updated_at": "2016-01-28T16:02:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "So, two problems:\n1) Windows support isn't quite here yet for Python; it should land next version.\n2) The gRPC `protoc` plugin and `protoc` aren't packaged in Python PyPI. If you've installed the core and plugin packages and cannot run them some other way, then we need information on how you've acquired them. It seems that you've provided that in #4937, so I'm closing this as a duplicate of that bug for now. Feel free to reopen if that's not the case!\n"
+  }
+]

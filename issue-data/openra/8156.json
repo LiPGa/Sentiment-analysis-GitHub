@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/103970896",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8156#issuecomment-103970896",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8156",
+    "id": 103970896,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMzk3MDg5Ng==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-20T17:40:16Z",
+    "updated_at": "2015-05-20T17:40:16Z",
+    "author_association": "MEMBER",
+    "body": "I filled https://github.com/OpenRA/OpenRA/issues/8198 for you as we definitely want to support the modding community and get this fixed in the next release.\n"
+  }
+]

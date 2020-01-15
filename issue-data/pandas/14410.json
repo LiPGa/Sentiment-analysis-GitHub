@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/253373215",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14410#issuecomment-253373215",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14410",
+    "id": 253373215,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MzM3MzIxNQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-12T23:57:12Z",
+    "updated_at": "2016-10-12T23:57:12Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This requires an explict inclusion, as bool is generally a categorical (and not a numeric). \n\n```\nIn [4]: df.describe(include=['bool'])\nOut[4]: \n          c2\ncount      6\nunique     2\ntop     True\nfreq       3\n\n```\n\nDoing this generically is very easy.\n\n```\nIn [6]: f.select_dtypes(include=['bool']).astype('int').describe()\nOut[6]: \n             c2\ncount  6.000000\nmean   0.500000\nstd    0.547723\nmin    0.000000\n25%    0.000000\n50%    0.500000\n75%    1.000000\nmax    1.000000\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/327302480",
+    "html_url": "https://github.com/grpc/grpc/issues/12389#issuecomment-327302480",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12389",
+    "id": 327302480,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNzMwMjQ4MA==",
+    "user": {
+      "login": "nicolasnoble",
+      "id": 7281574,
+      "node_id": "MDQ6VXNlcjcyODE1NzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7281574?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicolasnoble",
+      "html_url": "https://github.com/nicolasnoble",
+      "followers_url": "https://api.github.com/users/nicolasnoble/followers",
+      "following_url": "https://api.github.com/users/nicolasnoble/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicolasnoble/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicolasnoble/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicolasnoble/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicolasnoble/orgs",
+      "repos_url": "https://api.github.com/users/nicolasnoble/repos",
+      "events_url": "https://api.github.com/users/nicolasnoble/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicolasnoble/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-05T21:02:49Z",
+    "updated_at": "2017-09-05T21:02:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You can't use gRPC to communicate with APN services. Even if we'd be to provide an example to use gRPC with JSON payloads instead of protobuf, it'd still wouldn't work. It's not because both APN and gRPC work on top of HTTP/2 that they are compatible protocols. They're not."
+  }
+]

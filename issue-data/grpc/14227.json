@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/361455247",
+    "html_url": "https://github.com/grpc/grpc/issues/14227#issuecomment-361455247",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14227",
+    "id": 361455247,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MTQ1NTI0Nw==",
+    "user": {
+      "login": "nddipiazza",
+      "id": 2238777,
+      "node_id": "MDQ6VXNlcjIyMzg3Nzc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2238777?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nddipiazza",
+      "html_url": "https://github.com/nddipiazza",
+      "followers_url": "https://api.github.com/users/nddipiazza/followers",
+      "following_url": "https://api.github.com/users/nddipiazza/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nddipiazza/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nddipiazza/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nddipiazza/subscriptions",
+      "organizations_url": "https://api.github.com/users/nddipiazza/orgs",
+      "repos_url": "https://api.github.com/users/nddipiazza/repos",
+      "events_url": "https://api.github.com/users/nddipiazza/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nddipiazza/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-30T02:20:59Z",
+    "updated_at": "2018-01-30T02:20:59Z",
+    "author_association": "NONE",
+    "body": "issue was versions\r\n\r\ncan't use grpc 1.6.1 on server side with grpc 1.8 on c# side. causes this error."
+  }
+]

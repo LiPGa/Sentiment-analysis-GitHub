@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/98109798",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10039#issuecomment-98109798",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10039",
+    "id": 98109798,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk4MTA5Nzk4",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-01T11:37:29Z",
+    "updated_at": "2015-05-01T11:37:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "yep, these are not defined so they get behavior from super-class. Ok, will whip something up. I agree `TypeError` is correct\n"
+  }
+]

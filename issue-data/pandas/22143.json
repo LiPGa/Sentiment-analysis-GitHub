@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/409101657",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22143#issuecomment-409101657",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22143",
+    "id": 409101657,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwOTEwMTY1Nw==",
+    "user": {
+      "login": "rhjmoore",
+      "id": 7656391,
+      "node_id": "MDQ6VXNlcjc2NTYzOTE=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7656391?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rhjmoore",
+      "html_url": "https://github.com/rhjmoore",
+      "followers_url": "https://api.github.com/users/rhjmoore/followers",
+      "following_url": "https://api.github.com/users/rhjmoore/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rhjmoore/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rhjmoore/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rhjmoore/subscriptions",
+      "organizations_url": "https://api.github.com/users/rhjmoore/orgs",
+      "repos_url": "https://api.github.com/users/rhjmoore/repos",
+      "events_url": "https://api.github.com/users/rhjmoore/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rhjmoore/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-31T05:42:35Z",
+    "updated_at": "2018-07-31T05:42:35Z",
+    "author_association": "NONE",
+    "body": "Apologies, I think this was fixed somewhere between pandas 0.22 and 0.23.3."
+  }
+]

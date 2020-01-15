@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/68069070",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9147#issuecomment-68069070",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9147",
+    "id": 68069070,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4MDY5MDcw",
+    "user": {
+      "login": "cpcloud",
+      "id": 417981,
+      "node_id": "MDQ6VXNlcjQxNzk4MQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/417981?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cpcloud",
+      "html_url": "https://github.com/cpcloud",
+      "followers_url": "https://api.github.com/users/cpcloud/followers",
+      "following_url": "https://api.github.com/users/cpcloud/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cpcloud/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cpcloud/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cpcloud/subscriptions",
+      "organizations_url": "https://api.github.com/users/cpcloud/orgs",
+      "repos_url": "https://api.github.com/users/cpcloud/repos",
+      "events_url": "https://api.github.com/users/cpcloud/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cpcloud/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-24T18:45:37Z",
+    "updated_at": "2014-12-24T18:45:37Z",
+    "author_association": "MEMBER",
+    "body": "the reason this is nice is because i don't want to be embed dataframe json strings in other json, i want to have proper json with my dataframe and read it too :)\n"
+  }
+]

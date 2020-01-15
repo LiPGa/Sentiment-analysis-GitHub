@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/73733345",
+    "html_url": "https://github.com/ipython/ipython/issues/7722#issuecomment-73733345",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7722",
+    "id": 73733345,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDczNzMzMzQ1",
+    "user": {
+      "login": "jasongrout",
+      "id": 192614,
+      "node_id": "MDQ6VXNlcjE5MjYxNA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/192614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasongrout",
+      "html_url": "https://github.com/jasongrout",
+      "followers_url": "https://api.github.com/users/jasongrout/followers",
+      "following_url": "https://api.github.com/users/jasongrout/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasongrout/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasongrout/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasongrout/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasongrout/orgs",
+      "repos_url": "https://api.github.com/users/jasongrout/repos",
+      "events_url": "https://api.github.com/users/jasongrout/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasongrout/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-10T16:40:02Z",
+    "updated_at": "2015-02-10T16:40:02Z",
+    "author_association": "MEMBER",
+    "body": "See also #7729 \n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/455204515",
+    "html_url": "https://github.com/grpc/grpc/pull/17682#issuecomment-455204515",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17682",
+    "id": 455204515,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NTIwNDUxNQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-17T15:07:03Z",
+    "updated_at": "2019-01-17T15:07:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "(btw, I found out why things weren't failing on PRs: there's a `brew update` command in a code path that only gets executed if the script is running on a pull request https://github.com/grpc/grpc/blob/eebfcd7e11230bd0f0e094022ea5b71c0a7c046d/tools/internal_ci/helper_scripts/prepare_build_macos_rc#L29)"
+  }
+]

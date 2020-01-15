@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/305246276",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/13370#issuecomment-305246276",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/13370",
+    "id": 305246276,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNTI0NjI3Ng==",
+    "user": {
+      "login": "rob-v",
+      "id": 16348750,
+      "node_id": "MDQ6VXNlcjE2MzQ4NzUw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16348750?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rob-v",
+      "html_url": "https://github.com/rob-v",
+      "followers_url": "https://api.github.com/users/rob-v/followers",
+      "following_url": "https://api.github.com/users/rob-v/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rob-v/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rob-v/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rob-v/subscriptions",
+      "organizations_url": "https://api.github.com/users/rob-v/orgs",
+      "repos_url": "https://api.github.com/users/rob-v/repos",
+      "events_url": "https://api.github.com/users/rob-v/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rob-v/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-31T16:43:12Z",
+    "updated_at": "2017-05-31T16:43:12Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Fixed by #13413"
+  }
+]

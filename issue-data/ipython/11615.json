@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/466870786",
+    "html_url": "https://github.com/ipython/ipython/issues/11615#issuecomment-466870786",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11615",
+    "id": 466870786,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2Njg3MDc4Ng==",
+    "user": {
+      "login": "ppmfloss",
+      "id": 24601455,
+      "node_id": "MDQ6VXNlcjI0NjAxNDU1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/24601455?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ppmfloss",
+      "html_url": "https://github.com/ppmfloss",
+      "followers_url": "https://api.github.com/users/ppmfloss/followers",
+      "following_url": "https://api.github.com/users/ppmfloss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ppmfloss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ppmfloss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ppmfloss/subscriptions",
+      "organizations_url": "https://api.github.com/users/ppmfloss/orgs",
+      "repos_url": "https://api.github.com/users/ppmfloss/repos",
+      "events_url": "https://api.github.com/users/ppmfloss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ppmfloss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-25T04:46:47Z",
+    "updated_at": "2019-02-25T04:48:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi @arekkusu, thats because in function `def _should_be_async(cell: str) -> bool:` (IPython/core/async_helpers.py) we only handle SyntaxError exceptions. When I added UnicodeEncodeError exception then IPython does not crash.\r\n\r\n```python\r\n    except UnicodeEncodeError:\r\n        return False\r\n```\r\n@Carreau Now we have to decide whats the best way to handle this.\r\n"
+  }
+]

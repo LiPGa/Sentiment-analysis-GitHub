@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/10448354",
+    "html_url": "https://github.com/ipython/ipython/issues/2590#issuecomment-10448354",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2590",
+    "id": 10448354,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNDQ4MzU0",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-11-16T14:25:35Z",
+    "updated_at": "2012-11-16T14:25:35Z",
+    "author_association": "MEMBER",
+    "body": "I would add it as part of #547, since 0.11, pysh does almost nothing.\nIt also does not seem to be on the priority list.\nSorry about that. \n\nClosing as duplicate. \n"
+  }
+]

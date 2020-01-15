@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/13603174",
+    "html_url": "https://github.com/ipython/ipython/issues/2936#issuecomment-13603174",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2936",
+    "id": 13603174,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNjAzMTc0",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-02-15T11:47:51Z",
+    "updated_at": "2013-02-15T11:47:51Z",
+    "author_association": "MEMBER",
+    "body": "We did support Python 3.1 up to our 0.13 release, I think. But if there's a bug in Tornado, you'll need to contact them. It looks like they don't support 3.1 ([here's a previous PR](https://github.com/facebook/tornado/pull/500)), but if you want to try, that's up to you.\n\nBut really, I think you're better off just upgrading Python. Support for Python 3 is improving fast, but all the projects I've seen take 3.2 as the minimum.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/325384950",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17359#issuecomment-325384950",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17359",
+    "id": 325384950,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNTM4NDk1MA==",
+    "user": {
+      "login": "gfyoung",
+      "id": 9273653,
+      "node_id": "MDQ6VXNlcjkyNzM2NTM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9273653?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gfyoung",
+      "html_url": "https://github.com/gfyoung",
+      "followers_url": "https://api.github.com/users/gfyoung/followers",
+      "following_url": "https://api.github.com/users/gfyoung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gfyoung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gfyoung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gfyoung/subscriptions",
+      "organizations_url": "https://api.github.com/users/gfyoung/orgs",
+      "repos_url": "https://api.github.com/users/gfyoung/repos",
+      "events_url": "https://api.github.com/users/gfyoung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gfyoung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-28T15:22:23Z",
+    "updated_at": "2017-08-28T15:22:54Z",
+    "author_association": "MEMBER",
+    "body": "@prcastro : Thanks for reporting this!  We just added a section to the issues template about checking the docs on `master` at https://pandas-docs.github.io/pandas-docs-travis.\r\n\r\nIf you look at the corresponding links for <a href=\"https://pandas-docs.github.io/pandas-docs-travis/generated/pandas.DataFrame.astype.html\">DataFrame</a> and <a href=\"https://pandas-docs.github.io/pandas-docs-travis/generated/pandas.Series.astype.html\">Series</a>, you will see that we have addressed your issue already 👍 \r\n\r\nSee #17203 for the changes.  Closing since this issue has already been resolved.  Will re-open if you have any other concerns related to the `copy` parameter."
+  }
+]

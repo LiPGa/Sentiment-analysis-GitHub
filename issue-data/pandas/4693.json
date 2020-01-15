@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/23429871",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4693#issuecomment-23429871",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4693",
+    "id": 23429871,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNDI5ODcx",
+    "user": {
+      "login": "sk8asd123",
+      "id": 2342995,
+      "node_id": "MDQ6VXNlcjIzNDI5OTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2342995?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sk8asd123",
+      "html_url": "https://github.com/sk8asd123",
+      "followers_url": "https://api.github.com/users/sk8asd123/followers",
+      "following_url": "https://api.github.com/users/sk8asd123/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sk8asd123/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sk8asd123/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sk8asd123/subscriptions",
+      "organizations_url": "https://api.github.com/users/sk8asd123/orgs",
+      "repos_url": "https://api.github.com/users/sk8asd123/repos",
+      "events_url": "https://api.github.com/users/sk8asd123/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sk8asd123/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-08-28T16:49:33Z",
+    "updated_at": "2013-08-28T16:49:33Z",
+    "author_association": "NONE",
+    "body": "segment id doesn't need ''.  \n\n```\nfrom pandas.io.ga import GAnalytics\ngAnalytics = GAnalytics()\ngAnalytics.create_query('web_id', 'pageviews', '2013-08-12','2013-08-14', 'date', segment=1234).execute().get('containsSampledData')\n```\n"
+  }
+]

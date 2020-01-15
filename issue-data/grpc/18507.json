@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/478427773",
+    "html_url": "https://github.com/grpc/grpc/issues/18507#issuecomment-478427773",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18507",
+    "id": 478427773,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODQyNzc3Mw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-01T04:03:14Z",
+    "updated_at": "2019-04-01T04:03:14Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The problem seems to be \"libgrpc_csharp_ext.a, missing required architecture armv7\".\r\n\r\nDid you try the native libraries present in the 1.20.0-dev201903221005 nuget or later (see https://packages.grpc.io)? #18324 added armv7 support for the C# iOS native libraries.\r\n\r\nThis issue seems to be the same as https://github.com/grpc/grpc/issues/18412 (also about missing armv7 support)"
+  }
+]

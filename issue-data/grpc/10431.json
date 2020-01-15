@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/291067448",
+    "html_url": "https://github.com/grpc/grpc/issues/10431#issuecomment-291067448",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10431",
+    "id": 291067448,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MTA2NzQ0OA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-03T07:25:27Z",
+    "updated_at": "2017-04-03T07:25:27Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@amitwaisel   thanks for noticing. This is exactly the fix that was added a few days ago to v1.2.x branch: https://github.com/grpc/grpc/pull/10270. Good to know we are on the same page.\r\n\r\nI'll probably release new nugets with this patch soon."
+  }
+]

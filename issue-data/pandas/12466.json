@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/189450806",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12466#issuecomment-189450806",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12466",
+    "id": 189450806,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4OTQ1MDgwNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-26T19:48:03Z",
+    "updated_at": "2016-02-26T19:48:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Dupe of https://github.com/pydata/pandas/issues/8244\n\nBasically we've punted on it for now since picking the appropriate size is a bit difficult. You can pass the array in directly with `plt.scatter(x=df['x'], y=df['y'], s=df['s'].values)`\n\nIf you've got any thoughts, feel free to post in #8244.\n"
+  }
+]

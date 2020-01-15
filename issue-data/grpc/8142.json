@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/389652344",
+    "html_url": "https://github.com/grpc/grpc/issues/8142#issuecomment-389652344",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8142",
+    "id": 389652344,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTY1MjM0NA==",
+    "user": {
+      "login": "jiangtaoli2016",
+      "id": 19913700,
+      "node_id": "MDQ6VXNlcjE5OTEzNzAw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19913700?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jiangtaoli2016",
+      "html_url": "https://github.com/jiangtaoli2016",
+      "followers_url": "https://api.github.com/users/jiangtaoli2016/followers",
+      "following_url": "https://api.github.com/users/jiangtaoli2016/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jiangtaoli2016/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jiangtaoli2016/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jiangtaoli2016/subscriptions",
+      "organizations_url": "https://api.github.com/users/jiangtaoli2016/orgs",
+      "repos_url": "https://api.github.com/users/jiangtaoli2016/repos",
+      "events_url": "https://api.github.com/users/jiangtaoli2016/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jiangtaoli2016/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-16T20:20:16Z",
+    "updated_at": "2018-05-16T20:20:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We have discussed this internally. Currently grpc core cannot use call credential on an insecure channel. In the future, we may let developer choose whether call credentials can be sent over insecure channel."
+  }
+]

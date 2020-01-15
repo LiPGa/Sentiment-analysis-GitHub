@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/385484946",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20887#issuecomment-385484946",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20887",
+    "id": 385484946,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NTQ4NDk0Ng==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-30T18:20:57Z",
+    "updated_at": "2018-04-30T18:20:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This raises on master.  Looks like https://github.com/pandas-dev/pandas/pull/19730 implemented. It'll be in 0.23 (hopefully 1 week away).\r\n\r\n```\r\nimport pandas as pd\r\n\r\ndat = pd.DataFrame([\r\n    {'a':1,'b':2,'c':3},\r\n    {'a':1,'b':2,'c':3}\r\n])\r\n\r\ndat.drop_duplicates(subset=['a','d'])\r\n\r\n## -- End pasted text --\r\n---------------------------------------------------------------------------\r\nKeyError                                  Traceback (most recent call last)\r\n<ipython-input-13-2414fa1d4159> in <module>()\r\n      6 ])\r\n      7\r\n----> 8 dat.drop_duplicates(subset=['a','d'])\r\n\r\n~/sandbox/pandas/pandas/core/frame.py in drop_duplicates(self, subset, keep, inplace)\r\n   4287         \"\"\"\r\n   4288         inplace = validate_bool_kwarg(inplace, 'inplace')\r\n-> 4289         duplicated = self.duplicated(subset, keep=keep)\r\n   4290\r\n   4291         if inplace:\r\n\r\n~/sandbox/pandas/pandas/core/frame.py in duplicated(self, subset, keep)\r\n   4337         diff = Index(subset).difference(self.columns)\r\n   4338         if not diff.empty:\r\n-> 4339             raise KeyError(diff)\r\n   4340\r\n   4341         vals = (col.values for name, col in self.iteritems()\r\n\r\nKeyError: Index(['d'], dtype='object')\r\n\r\n```\r\n\r\nThe error message could be a little friendlier, but this is an improvement."
+  }
+]

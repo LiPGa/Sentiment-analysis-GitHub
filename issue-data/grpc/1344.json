@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/96777707",
+    "html_url": "https://github.com/grpc/grpc/issues/1344#issuecomment-96777707",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1344",
+    "id": 96777707,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk2Nzc3NzA3",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-27T18:49:22Z",
+    "updated_at": "2015-04-27T18:49:22Z",
+    "author_association": "MEMBER",
+    "body": "I'm not sure whether this event should be emitted in the cases where the server is not streaming (unary and client streaming calls). On one hand, there is already a callback that gets passed an error with the status information when there is a non-OK status, so it seems unreasonable to expect people to handle error events on top of that. On the other hand, it might be confusing to have the error event only on some streams.\n\nThe problem is that unhandled 'error' events on Node.js `EventEmitters` throw the error by default, so there are consequences to emitting it.\n"
+  }
+]

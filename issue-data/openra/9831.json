@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/153142147",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9831#issuecomment-153142147",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9831",
+    "id": 153142147,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MzE0MjE0Nw==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-02T20:06:51Z",
+    "updated_at": "2015-11-02T20:06:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Confirmed. The reason this happens is that [crushing doesn't use a warhead](https://github.com/OpenRA/OpenRA/blob/bleed/OpenRA.Mods.Common/Traits/Crushable.cs#L64), so [this check](https://github.com/OpenRA/OpenRA/blob/bleed/OpenRA.Mods.RA/Traits/SpawnActorOnDeath.cs#L76) does not work as expected and the viceroid is spawned anyway.\n"
+  }
+]

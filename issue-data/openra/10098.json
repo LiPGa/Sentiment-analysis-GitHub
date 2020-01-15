@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/412290163",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10098#issuecomment-412290163",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10098",
+    "id": 412290163,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjI5MDE2Mw==",
+    "user": {
+      "login": "FrameLimiter",
+      "id": 22008761,
+      "node_id": "MDQ6VXNlcjIyMDA4NzYx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22008761?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FrameLimiter",
+      "html_url": "https://github.com/FrameLimiter",
+      "followers_url": "https://api.github.com/users/FrameLimiter/followers",
+      "following_url": "https://api.github.com/users/FrameLimiter/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FrameLimiter/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FrameLimiter/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FrameLimiter/subscriptions",
+      "organizations_url": "https://api.github.com/users/FrameLimiter/orgs",
+      "repos_url": "https://api.github.com/users/FrameLimiter/repos",
+      "events_url": "https://api.github.com/users/FrameLimiter/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FrameLimiter/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-11T17:31:22Z",
+    "updated_at": "2018-08-11T17:31:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This was fixed by #10939"
+  }
+]

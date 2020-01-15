@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/432609912",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/6942#issuecomment-432609912",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6942",
+    "id": 432609912,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMjYwOTkxMg==",
+    "user": {
+      "login": "heaven00",
+      "id": 1822197,
+      "node_id": "MDQ6VXNlcjE4MjIxOTc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1822197?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/heaven00",
+      "html_url": "https://github.com/heaven00",
+      "followers_url": "https://api.github.com/users/heaven00/followers",
+      "following_url": "https://api.github.com/users/heaven00/following{/other_user}",
+      "gists_url": "https://api.github.com/users/heaven00/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/heaven00/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/heaven00/subscriptions",
+      "organizations_url": "https://api.github.com/users/heaven00/orgs",
+      "repos_url": "https://api.github.com/users/heaven00/repos",
+      "events_url": "https://api.github.com/users/heaven00/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/heaven00/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-24T10:55:14Z",
+    "updated_at": "2018-10-24T11:14:50Z",
+    "author_association": "NONE",
+    "body": "Hey, I am gonna give it a shot 👍 \r\n\r\nEDIT1: The behaviour on the StackOverflow link isn't replicated with the current build\r\n\r\n```python\r\nIn [1]: import pandas as pd\r\n\r\nIn [2]: from datetime import datetime\r\n\r\nIn [3]: start = pd.to_datetime('20140401')\r\n\r\nIn [4]: df = pd.DataFrame(index=pd.date_range(start,periods=1), columns=['timenow','Live'])\r\n\r\nIn [5]: df.at[start,'timenow'] = datetime.today() # initial value\r\n\r\nIn [6]: df\r\nOut[6]: \r\n                               timenow Live\r\n2014-04-01  2018-10-24 16:39:27.734368  NaN\r\n\r\nIn [7]: df.at[start,'timenow'] = datetime.today() # this works\r\n\r\nIn [8]: df\r\nOut[8]: \r\n                               timenow Live\r\n2014-04-01  2018-10-24 16:39:36.485698  NaN\r\n\r\nIn [9]: df.Live = True\r\n\r\nIn [10]: df.at[start,'timenow'] = datetime.today() # this doesn't work - nothing changes\r\n\r\nIn [11]: df\r\nOut[11]: \r\n                               timenow  Live\r\n2014-04-01  2018-10-24 16:39:55.149644  True\r\n\r\n\r\n```\r\n\r\nAlso can you elaborate on the dtype not infered correctly?\r\n\r\n"
+  }
+]

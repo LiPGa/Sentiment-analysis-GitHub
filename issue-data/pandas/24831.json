@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/456312632",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24831#issuecomment-456312632",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24831",
+    "id": 456312632,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NjMxMjYzMg==",
+    "user": {
+      "login": "mroeschke",
+      "id": 10647082,
+      "node_id": "MDQ6VXNlcjEwNjQ3MDgy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10647082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mroeschke",
+      "html_url": "https://github.com/mroeschke",
+      "followers_url": "https://api.github.com/users/mroeschke/followers",
+      "following_url": "https://api.github.com/users/mroeschke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mroeschke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mroeschke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mroeschke/subscriptions",
+      "organizations_url": "https://api.github.com/users/mroeschke/orgs",
+      "repos_url": "https://api.github.com/users/mroeschke/repos",
+      "events_url": "https://api.github.com/users/mroeschke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mroeschke/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-22T08:31:21Z",
+    "updated_at": "2019-01-22T08:31:21Z",
+    "author_association": "MEMBER",
+    "body": "The relevant section where this happens is here:\r\n\r\nhttps://github.com/pandas-dev/pandas/blob/12bb6d0536b947f74b66ebe18b5f451bfdd7453f/pandas/core/reshape/melt.py#L455-L459\r\n\r\nIMO I think `stacked2` is correct and `stacked1` is incorrect as the docstrings demonstrate that the `i` keys should be the at the top of the hierarchy."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/438577131",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23679#issuecomment-438577131",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23679",
+    "id": 438577131,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzODU3NzEzMQ==",
+    "user": {
+      "login": "toobaz",
+      "id": 1224492,
+      "node_id": "MDQ6VXNlcjEyMjQ0OTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1224492?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toobaz",
+      "html_url": "https://github.com/toobaz",
+      "followers_url": "https://api.github.com/users/toobaz/followers",
+      "following_url": "https://api.github.com/users/toobaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toobaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toobaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toobaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/toobaz/orgs",
+      "repos_url": "https://api.github.com/users/toobaz/repos",
+      "events_url": "https://api.github.com/users/toobaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toobaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-14T08:22:52Z",
+    "updated_at": "2018-11-14T08:23:13Z",
+    "author_association": "MEMBER",
+    "body": "> should the `.str`-accessor be enabled for `MultiIndex` at all?\r\n\r\nAs mentioned on the other issue, I think that we need to clearly decide among one of the following policies:\r\n1. ``Index`` and 1-level ``MultiIndex`` are different implementations of precisely the same thing - and so behave identically, including with the ``.str`` accessor\r\n2. ``Index`` and 1-level ``MultiIndex`` are different by design because they achieve different purposes (and by \"different\" I don't mean \"one has a subset of features of the other\")\r\n3. we deprecate 1-level ``MultiIndex``es and immediately stop producing them in our code\r\n\r\nI think there is no evidence/support for 2. So it is just a matter of understanding if 1. is feasible. I always thought it is (and it might have the advantage of avoiding some conversions), but if it is not (e.g. we do not want to implement ``.str`` for 1-level ``MultiIndex``) then I think we should go with 3.\r\n\r\n> if yes, should it return an `Index` or a 1-level `MultiIndex`?\r\n\r\nAssuming we follow policy 1., ``Index`` I think: simpler to implement, and I see no advantage for the alternative."
+  }
+]

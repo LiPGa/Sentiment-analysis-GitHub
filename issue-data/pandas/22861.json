@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/425431604",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22861#issuecomment-425431604",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22861",
+    "id": 425431604,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNTQzMTYwNA==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-28T13:14:19Z",
+    "updated_at": "2018-09-28T13:14:19Z",
+    "author_association": "MEMBER",
+    "body": "Given that we already have / will have several example (CategoricalIndex, IntervalIndex, DatetimeIndex, ...) that actually do this, I think it shouldn't be too hard to distil some common things out of those to have an ExtensionIndex?\r\n\r\n(maybe could even give some base class for them)\r\n\r\nIt's true that our \"index as container\" model indeed doesn't necessarily need the specific classes (similar as Series does not have several classes). But I think that boat has sailed for pandas itself. The main difference is that on Index subclasses, we allow several type-specific methods, something I personally actually like."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/367292631",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19809#issuecomment-367292631",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19809",
+    "id": 367292631,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NzI5MjYzMQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-21T11:08:18Z",
+    "updated_at": "2018-02-21T11:08:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "aligned causes a shift to float64. We don't upcast automatically on fillna, becuase of perf (it can be non-cheap). So this is an unavoidable side affect of lack of good NA support in numpy.\r\n\r\n```\r\nIn [1]: pd.Series([1,2,3]).align(pd.Series([100]))\r\nOut[1]: \r\n(0    1\r\n 1    2\r\n 2    3\r\n dtype: int64, 0    100.0\r\n 1      NaN\r\n 2      NaN\r\n dtype: float64)\r\n```"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/481980419",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/16396#issuecomment-481980419",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16396",
+    "id": 481980419,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MTk4MDQxOQ==",
+    "user": {
+      "login": "KanoYugoro",
+      "id": 13139987,
+      "node_id": "MDQ6VXNlcjEzMTM5OTg3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13139987?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KanoYugoro",
+      "html_url": "https://github.com/KanoYugoro",
+      "followers_url": "https://api.github.com/users/KanoYugoro/followers",
+      "following_url": "https://api.github.com/users/KanoYugoro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KanoYugoro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KanoYugoro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KanoYugoro/subscriptions",
+      "organizations_url": "https://api.github.com/users/KanoYugoro/orgs",
+      "repos_url": "https://api.github.com/users/KanoYugoro/repos",
+      "events_url": "https://api.github.com/users/KanoYugoro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KanoYugoro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-11T06:15:47Z",
+    "updated_at": "2019-04-11T06:15:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thank you for the review, I appreciate the feedback.  I tried to address everything you raised in that last commit."
+  }
+]

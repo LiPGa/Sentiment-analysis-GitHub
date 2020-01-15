@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/282085118",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15488#issuecomment-282085118",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15488",
+    "id": 282085118,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MjA4NTExOA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-23T18:54:40Z",
+    "updated_at": "2017-02-23T18:54:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "These are not implemented, so not sure that \r\n\r\n```\r\nIn [3]: sdf.loc[0,0] = 1\r\n---------------------------------------------------------------------------\r\nNotImplementedError                       Traceback (most recent call last)\r\n```\r\n\r\nthis should even work"
+  }
+]

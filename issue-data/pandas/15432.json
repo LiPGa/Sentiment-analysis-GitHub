@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/280650797",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15432#issuecomment-280650797",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15432",
+    "id": 280650797,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MDY1MDc5Nw==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-17T13:35:41Z",
+    "updated_at": "2017-02-17T13:35:41Z",
+    "author_association": "MEMBER",
+    "body": "This biggest problem with the `convention` keyword is that is completely undocumented (also mentioned in https://github.com/pandas-dev/pandas/issues/5023 as the general issue about resample's docs).\r\n\r\nAs a result, I am also not sure what the `convention` keyword should actually do, but I think it is meant for the case when you upsample a period-based timeseries (based on some tests we have). Eg, in the following case you can see the effect:\r\n\r\n```\r\nIn [140]: pts = pd.Series([1, 2], index=pd.period_range('2012-01-01', freq='A', periods=2))\r\n\r\nIn [142]: pts.resample('M', convention='start').asfreq()\r\nOut[142]: \r\n2012-01    1.0\r\n2012-02    NaN\r\n2012-03    NaN\r\n2012-04    NaN\r\n2012-05    NaN\r\n2012-06    NaN\r\n2012-07    NaN\r\n2012-08    NaN\r\n2012-09    NaN\r\n2012-10    NaN\r\n2012-11    NaN\r\n2012-12    NaN\r\n2013-01    2.0\r\n2013-02    NaN\r\n2013-03    NaN\r\n2013-04    NaN\r\n2013-05    NaN\r\n2013-06    NaN\r\n2013-07    NaN\r\n2013-08    NaN\r\n2013-09    NaN\r\n2013-10    NaN\r\n2013-11    NaN\r\n2013-12    NaN\r\nFreq: M, dtype: float64\r\n\r\nIn [143]: pts.resample('M', convention='end').asfreq()\r\nOut[143]: \r\n2012-12    1.0\r\n2013-01    NaN\r\n2013-02    NaN\r\n2013-03    NaN\r\n2013-04    NaN\r\n2013-05    NaN\r\n2013-06    NaN\r\n2013-07    NaN\r\n2013-08    NaN\r\n2013-09    NaN\r\n2013-10    NaN\r\n2013-11    NaN\r\n2013-12    2.0\r\nFreq: M, dtype: float64\r\n\r\n```"
+  }
+]

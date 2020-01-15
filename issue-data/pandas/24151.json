@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/445379006",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24151#issuecomment-445379006",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24151",
+    "id": 445379006,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NTM3OTAwNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-07T21:59:42Z",
+    "updated_at": "2018-12-07T21:59:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Can you reproduce this outside of rolling?\r\n\r\n```python\r\nIn [16]: index = DatetimeIndex(['2018-07-01 00:01:25.746187', '2018-07-01 00:01:26.349274',\r\n    ...:                '2018-07-01 00:01:26.746187', '2018-07-01 00:01:27.319575',\r\n    ...:                '2018-07-01 00:01:29.679575'],\r\n    ...:               dtype='datetime64[ns]', name='timestamp', freq=None)\r\n    ...: s = pd.Series(1, index=index)\r\n\r\nIn [17]: s.idxmin()\r\nOut[17]: Timestamp('2018-07-01 00:01:25.746187')\r\n\r\n```\r\n\r\nlooks fine on master."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/357440375",
+    "html_url": "https://github.com/ipython/ipython/issues/10979#issuecomment-357440375",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10979",
+    "id": 357440375,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NzQ0MDM3NQ==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-13T14:44:14Z",
+    "updated_at": "2018-01-13T14:44:14Z",
+    "author_association": "MEMBER",
+    "body": "I would start by looking at related project has you are not the only one who are interested in it ; for example : \r\n- https://multithreaded.stitchfix.com/blog/2017/07/26/nodebook/\r\n\r\nI know there are more around. It is a complex enough problem that a team of interested people are more change to do something that work.\r\n\r\nI've recently learn about http://gittup.org/tup/, which seem to be able to intercept IO operation (which is one of the reason why dependency tracking is hard). \r\n\r\nAs you guessed, this is likely both a backend and frontend extension, though if you \"tag\" manually, it should be doable only as frontend-only extension. You'll have to play with the `Cell.prototype.execute`method and make it submit dependent cells if these have not been executed.\r\n\r\nHope that give you something to start with. \r\n"
+  }
+]

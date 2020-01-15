@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/263742589",
+    "html_url": "https://github.com/grpc/grpc/issues/8886#issuecomment-263742589",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8886",
+    "id": 263742589,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2Mzc0MjU4OQ==",
+    "user": {
+      "login": "vjpai",
+      "id": 8864912,
+      "node_id": "MDQ6VXNlcjg4NjQ5MTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8864912?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vjpai",
+      "html_url": "https://github.com/vjpai",
+      "followers_url": "https://api.github.com/users/vjpai/followers",
+      "following_url": "https://api.github.com/users/vjpai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vjpai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vjpai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vjpai/subscriptions",
+      "organizations_url": "https://api.github.com/users/vjpai/orgs",
+      "repos_url": "https://api.github.com/users/vjpai/repos",
+      "events_url": "https://api.github.com/users/vjpai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vjpai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-30T00:14:57Z",
+    "updated_at": "2016-11-30T00:14:57Z",
+    "author_association": "MEMBER",
+    "body": "We don't officially support cross-compiling but we do have many users doing cross compilation.  If you see https://github.com/grpc/grpc/pull/7476/files , you'll see a list of instructions for how to do your cross compilation. In the near future, there will be a better solution - once #7631 is merged. In the meanwhile, please follow the instructions in templates/Makefile.template\r\n"
+  }
+]

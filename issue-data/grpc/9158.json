@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/268363473",
+    "html_url": "https://github.com/grpc/grpc/pull/9158#issuecomment-268363473",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9158",
+    "id": 268363473,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2ODM2MzQ3Mw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-20T21:23:32Z",
+    "updated_at": "2016-12-20T21:23:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@adelez, I merged the PR before I received the comment from you.\r\n\r\nCurrently I am not planning to introduce this for interop tests because it will take more work to make use of changes this PR (and that's what I am planning to work on in the nearest future). We might try to introduce a similar change for interop tests later (but on the other hand, running multiple instances of interop tests is in fact what stress tests are doing)."
+  }
+]

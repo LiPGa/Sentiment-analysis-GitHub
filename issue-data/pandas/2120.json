@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/9782132",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2120#issuecomment-9782132",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2120",
+    "id": 9782132,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk3ODIxMzI=",
+    "user": {
+      "login": "nicktp",
+      "id": 2543316,
+      "node_id": "MDQ6VXNlcjI1NDMzMTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2543316?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicktp",
+      "html_url": "https://github.com/nicktp",
+      "followers_url": "https://api.github.com/users/nicktp/followers",
+      "following_url": "https://api.github.com/users/nicktp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicktp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicktp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicktp/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicktp/orgs",
+      "repos_url": "https://api.github.com/users/nicktp/repos",
+      "events_url": "https://api.github.com/users/nicktp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicktp/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-10-25T15:34:25Z",
+    "updated_at": "2012-10-25T15:34:25Z",
+    "author_association": "NONE",
+    "body": "The problem appears to be in pandas/core/format.py in the function _trim_zeros().  This function, as I understand it, checks whether it can safely remove a zero from the end of all the non-na elements and if it can, does so.  That process is repeated until it can no longer safely remove a zero from the end of any string.\n\nIn order to make it work correctly with numbers such as '123.45e+100' we can just check fro the presence of an 'e' in any of the strings.  This can be done with:\n\n``` python\nany(['e' in x for x in non_na])\n```\n\nie it can just be added to the function _cond(values):\n\n``` python\ndef _cond(values):\n    non_na = [x for x in values if x != na_rep]\n    return len(non_na) > 0 and all([x.endswith('0') for x in non_na]) and \\\n         not(any(['e' in x for x in non_na]))\n```\n"
+  }
+]

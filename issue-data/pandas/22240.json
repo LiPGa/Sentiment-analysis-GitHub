@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/411260147",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22240#issuecomment-411260147",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22240",
+    "id": 411260147,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTI2MDE0Nw==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-08T02:08:16Z",
+    "updated_at": "2018-08-08T02:08:16Z",
+    "author_association": "MEMBER",
+    "body": "This shouldn't have to do with any of the algorithms as much as the limitations of floating point precision. To illustrate, here's your code run on my computer; note the variance appears in other calculations:\r\n\r\n```sh\r\nnumpy mean                : nan\r\nnumpy nanmean             : 0.50050915620060021372\r\nnumpy isfinite            : 0.50050915620060032474\r\nnumpy masked              : 0.50050915620060021372\r\npd mean                   : 0.50050915620060454359\r\npd groupby agg np.nanmean : 0.50050915620060021372\r\npd groupby agg np.mean    : 0.50050915620060454359\r\npd groupby mean           : 0.50050915620060454359\r\n```\r\n\r\nAccuracy of floats in less than 16 digits, which is confirmed by your example"
+  }
+]

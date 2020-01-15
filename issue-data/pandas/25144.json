@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/460328974",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25144#issuecomment-460328974",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25144",
+    "id": 460328974,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MDMyODk3NA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-04T17:07:15Z",
+    "updated_at": "2019-02-04T17:07:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "As you’ve noticed, the behavior affects both concat and append. I believe the stacklevel is targeted for concat. If not, that’s a bug.\r\n\r\nIf you’re interested, a PR passing through the desired stacklevel, to ensure the correct line for both, is welcome. \r\n\r\n\r\nYou can add a warning filter to elevate warnings to errors, and run under pdb to find the exact lines with issues."
+  }
+]

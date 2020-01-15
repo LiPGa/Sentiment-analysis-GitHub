@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/427989169",
+    "html_url": "https://github.com/ipython/ipython/issues/11324#issuecomment-427989169",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11324",
+    "id": 427989169,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNzk4OTE2OQ==",
+    "user": {
+      "login": "tonyfast",
+      "id": 4236275,
+      "node_id": "MDQ6VXNlcjQyMzYyNzU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4236275?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tonyfast",
+      "html_url": "https://github.com/tonyfast",
+      "followers_url": "https://api.github.com/users/tonyfast/followers",
+      "following_url": "https://api.github.com/users/tonyfast/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tonyfast/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tonyfast/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tonyfast/subscriptions",
+      "organizations_url": "https://api.github.com/users/tonyfast/orgs",
+      "repos_url": "https://api.github.com/users/tonyfast/repos",
+      "events_url": "https://api.github.com/users/tonyfast/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tonyfast/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-08T21:44:12Z",
+    "updated_at": "2018-10-08T21:44:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It looks like this is specific to the `/` operator.  The [`DELIMS`](https://github.com/ipython/ipython/blob/master/IPython/core/completer.py#L508) in the completer do not include `/` because it conflicts with path completion."
+  }
+]

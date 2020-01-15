@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/241826521",
+    "html_url": "https://github.com/grpc/grpc/issues/7835#issuecomment-241826521",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7835",
+    "id": 241826521,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MTgyNjUyMQ==",
+    "user": {
+      "login": "bdnett",
+      "id": 15917028,
+      "node_id": "MDQ6VXNlcjE1OTE3MDI4",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15917028?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bdnett",
+      "html_url": "https://github.com/bdnett",
+      "followers_url": "https://api.github.com/users/bdnett/followers",
+      "following_url": "https://api.github.com/users/bdnett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bdnett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bdnett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bdnett/subscriptions",
+      "organizations_url": "https://api.github.com/users/bdnett/orgs",
+      "repos_url": "https://api.github.com/users/bdnett/repos",
+      "events_url": "https://api.github.com/users/bdnett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bdnett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-23T18:21:20Z",
+    "updated_at": "2016-08-23T18:21:20Z",
+    "author_association": "NONE",
+    "body": "Argh!  I found that I do have an older copy of google/protobufs installed on my machine in /usr/local/include.  \n"
+  }
+]

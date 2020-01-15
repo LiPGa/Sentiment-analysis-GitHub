@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/426313123",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5020#issuecomment-426313123",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5020",
+    "id": 426313123,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNjMxMzEyMw==",
+    "user": {
+      "login": "kokes",
+      "id": 8451755,
+      "node_id": "MDQ6VXNlcjg0NTE3NTU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8451755?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kokes",
+      "html_url": "https://github.com/kokes",
+      "followers_url": "https://api.github.com/users/kokes/followers",
+      "following_url": "https://api.github.com/users/kokes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kokes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kokes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kokes/subscriptions",
+      "organizations_url": "https://api.github.com/users/kokes/orgs",
+      "repos_url": "https://api.github.com/users/kokes/repos",
+      "events_url": "https://api.github.com/users/kokes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kokes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-02T15:15:22Z",
+    "updated_at": "2018-10-02T15:15:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Given the imminent Python 2 support deprecation, can we drop this issue? Or at least give it a \"2/3 compat\" label, so that we have it categorised?"
+  }
+]

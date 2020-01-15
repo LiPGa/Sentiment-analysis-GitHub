@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/145462739",
+    "html_url": "https://github.com/ipython/ipython/issues/7380#issuecomment-145462739",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7380",
+    "id": 145462739,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0NTQ2MjczOQ==",
+    "user": {
+      "login": "flying-sheep",
+      "id": 291575,
+      "node_id": "MDQ6VXNlcjI5MTU3NQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/291575?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/flying-sheep",
+      "html_url": "https://github.com/flying-sheep",
+      "followers_url": "https://api.github.com/users/flying-sheep/followers",
+      "following_url": "https://api.github.com/users/flying-sheep/following{/other_user}",
+      "gists_url": "https://api.github.com/users/flying-sheep/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/flying-sheep/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/flying-sheep/subscriptions",
+      "organizations_url": "https://api.github.com/users/flying-sheep/orgs",
+      "repos_url": "https://api.github.com/users/flying-sheep/repos",
+      "events_url": "https://api.github.com/users/flying-sheep/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/flying-sheep/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-05T08:32:03Z",
+    "updated_at": "2015-10-05T08:34:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "i also need this to fully fix IRkernel/IRkernel#153\n\nthere needs to be some language-agnostic way to shut down the thing without asking\n"
+  }
+]

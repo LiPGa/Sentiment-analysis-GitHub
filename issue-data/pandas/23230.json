@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/431178026",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23230#issuecomment-431178026",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23230",
+    "id": 431178026,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMTE3ODAyNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-18T21:57:42Z",
+    "updated_at": "2018-10-18T21:57:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "As the docstring says,\r\n\r\n> Objects passed to the function are Series objects whose index is\r\neither the DataFrame's index (``axis=0``) or the DataFrame's columns\r\n(``axis=1``). \r\n\r\nso your lambda is getting a row like\r\n\r\n```\r\nIn [10]: df.loc[0]\r\nOut[10]:\r\na    1.0\r\nb    0.0\r\nName: 0, dtype: float64\r\n```\r\n\r\nwhich has float dtype (float is the common dtype of int and float)."
+  }
+]

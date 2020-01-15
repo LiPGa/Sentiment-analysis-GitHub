@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5702135",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/642#issuecomment-5702135",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/642",
+    "id": 5702135,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU3MDIxMzU=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-14T21:08:26Z",
+    "updated_at": "2012-05-14T21:08:26Z",
+    "author_association": "MEMBER",
+    "body": "Here's the outcome:\n\n```\nIn [5]: df\nOut[5]: \n     A      B         C         D\n0  foo    one  0.727964  0.406402\n1  bar    one  1.653679  0.266521\n2  foo    two -1.677686 -1.143690\n3  bar  three -0.591334 -0.594644\n4  foo    two -0.839865  0.153575\n5  bar    two -0.857455 -0.054324\n6  foo    one -0.148167  1.080535\n7  foo  three  0.118469  0.715423\n\nIn [6]: grouped = df.groupby('A')\n\nIn [7]: result = grouped.aggregate({'C' : [np.mean, np.std],\n   ...:                                     'D' : [np.mean, np.std]})\n\nIn [8]: result\nOut[8]: \n            C                   D          \n         mean       std      mean       std\nA                                          \nbar  0.068297  1.379414 -0.127482  0.435219\nfoo -0.363857  0.925198  0.242449  0.848860\n\nIn [9]: grouped.aggregate({'C' : np.mean, 'D' : [np.mean, np.std]})\nOut[9]: \n            C         D          \n         mean      mean       std\nA                                \nbar  0.068297 -0.127482  0.435219\nfoo -0.363857  0.242449  0.848860\n\nIn [10]: paste\n        result = grouped.aggregate({'C' : np.mean,\n                                    'D' : {'foo': np.mean,\n                                           'bar': np.std}})\n## -- End pasted text --\n\nIn [11]: result\nOut[11]: \n            C         D          \n         mean       foo       bar\nA                                \nbar  0.068297 -0.127482  0.435219\nfoo -0.363857  0.242449  0.848860\n```\n"
+  }
+]

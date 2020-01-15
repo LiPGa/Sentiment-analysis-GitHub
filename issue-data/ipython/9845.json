@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/238250567",
+    "html_url": "https://github.com/ipython/ipython/pull/9845#issuecomment-238250567",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9845",
+    "id": 238250567,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzODI1MDU2Nw==",
+    "user": {
+      "login": "memeplex",
+      "id": 2845433,
+      "node_id": "MDQ6VXNlcjI4NDU0MzM=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2845433?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/memeplex",
+      "html_url": "https://github.com/memeplex",
+      "followers_url": "https://api.github.com/users/memeplex/followers",
+      "following_url": "https://api.github.com/users/memeplex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/memeplex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/memeplex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/memeplex/subscriptions",
+      "organizations_url": "https://api.github.com/users/memeplex/orgs",
+      "repos_url": "https://api.github.com/users/memeplex/repos",
+      "events_url": "https://api.github.com/users/memeplex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/memeplex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-08T14:13:58Z",
+    "updated_at": "2016-08-08T14:13:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Closed in favor of #9848. Just changed the source branch from master to highclass.\n"
+  }
+]

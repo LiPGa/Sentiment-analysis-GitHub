@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/287609929",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12934#issuecomment-287609929",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12934",
+    "id": 287609929,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NzYwOTkyOQ==",
+    "user": {
+      "login": "Wobling",
+      "id": 15089188,
+      "node_id": "MDQ6VXNlcjE1MDg5MTg4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15089188?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Wobling",
+      "html_url": "https://github.com/Wobling",
+      "followers_url": "https://api.github.com/users/Wobling/followers",
+      "following_url": "https://api.github.com/users/Wobling/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Wobling/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Wobling/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Wobling/subscriptions",
+      "organizations_url": "https://api.github.com/users/Wobling/orgs",
+      "repos_url": "https://api.github.com/users/Wobling/repos",
+      "events_url": "https://api.github.com/users/Wobling/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Wobling/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-19T11:25:47Z",
+    "updated_at": "2017-03-19T11:25:47Z",
+    "author_association": "NONE",
+    "body": "I've been looking into this and got the harvester to identify when the tiberum is on a layer it shouldn't reach.\r\n\r\nShould the logic for this check reside in HarvestResource or elsewhere? and how does one go about issuing a new harvest order.\r\n"
+  }
+]

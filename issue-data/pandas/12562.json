@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/193946653",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12562#issuecomment-193946653",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12562",
+    "id": 193946653,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5Mzk0NjY1Mw==",
+    "user": {
+      "login": "jankatins",
+      "id": 890156,
+      "node_id": "MDQ6VXNlcjg5MDE1Ng==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/890156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jankatins",
+      "html_url": "https://github.com/jankatins",
+      "followers_url": "https://api.github.com/users/jankatins/followers",
+      "following_url": "https://api.github.com/users/jankatins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jankatins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jankatins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jankatins/subscriptions",
+      "organizations_url": "https://api.github.com/users/jankatins/orgs",
+      "repos_url": "https://api.github.com/users/jankatins/repos",
+      "events_url": "https://api.github.com/users/jankatins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jankatins/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-08T20:07:33Z",
+    "updated_at": "2016-03-08T20:07:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I think one nice thing would be to a) warn when using to_csv with encoding and a large df and b) drop the encoding if it is not necessary.\n\nFor reference, here are the two profile runs:\n\n```\n%prun df_result.head(1000000).to_csv('intermediary_results\\\\test_delete.csv', encoding='utf8')\n         29166544 function calls (29166533 primitive calls) in 16.451 seconds\n\n   Ordered by: internal time\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n 12000000    4.391    0.000    6.279    0.000 common.py:453(_check_as_is)\n    10011    3.947    0.000   13.774    0.001 common.py:452(writerows)\n 13003502    2.085    0.000    2.088    0.000 {isinstance}\n      444    1.532    0.003    1.532    0.003 {method 'astype' of 'numpy.ndarray' objects}\n    10011    1.267    0.000    2.949    0.000 {method 'writerows' of '_csv.writer' objects}\n  1000001    1.238    0.000    1.682    0.000 StringIO.py:208(write)\n      111    0.974    0.009   14.748    0.133 {pandas.lib.write_csv_rows}\n    10012    0.308    0.000    0.308    0.000 {method 'write' of 'file' objects}\n  1030037    0.101    0.000    0.101    0.000 StringIO.py:38(_complain_ifclosed)\n  1000010    0.094    0.000    0.094    0.000 {method 'append' of 'list' objects}\n    10012    0.083    0.000    0.083    0.000 {_codecs.utf_8_decode}\n    10012    0.078    0.000    0.078    0.000 {_codecs.utf_8_encode}\n1000180/1000169    0.060    0.000    0.060    0.000 {len}\n      445    0.048    0.000    0.057    0.000 common.py:230(_isnull_ndarraylike)\n      111    0.032    0.000   16.391    0.148 format.py:1608(_save_chunk)\n```\n\n```\n      145830124 function calls (145830113 primitive calls) in 82.364 seconds\n\n   Ordered by: internal time\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n 60000000   22.042    0.000   31.577    0.000 common.py:453(_check_as_is)\n    50055   19.802    0.000   69.056    0.001 common.py:452(writerows)\n 65017142   10.504    0.000   10.519    0.000 {isinstance}\n     2204    7.694    0.003    7.694    0.003 {method 'astype' of 'numpy.ndarray' objects}\n    50055    6.374    0.000   14.710    0.000 {method 'writerows' of '_csv.writer' objects}\n  5000001    6.114    0.000    8.336    0.000 StringIO.py:208(write)\n      551    4.863    0.009   73.919    0.134 {pandas.lib.write_csv_rows}\n    50056    1.531    0.000    1.531    0.000 {method 'write' of 'file' objects}\n  5150169    0.511    0.000    0.511    0.000 StringIO.py:38(_complain_ifclosed)\n  5000010    0.473    0.000    0.473    0.000 {method 'append' of 'list' objects}\n    50056    0.412    0.000    0.412    0.000 {_codecs.utf_8_decode}\n    50056    0.393    0.000    0.393    0.000 {_codecs.utf_8_encode}\n5000620/5000609    0.305    0.000    0.305    0.000 {len}\n      551    0.164    0.000   82.088    0.149 format.py:1608(_save_chunk)\n     2205    0.160    0.000    0.203    0.000 common.py:230(_isnull_ndarraylike)\n   100112    0.157    0.000    0.302    0.000 StringIO.py:258(getvalue)\n    50056    0.133    0.000    0.133    0.000 {method 'join' of 'str' objects}\n        4    0.120    0.030    0.120    0.030 {numpy.core.multiarray.concatenate}\n    50056    0.114    0.000    0.157    0.000 StringIO.py:187(truncate)\n    50056    0.113    0.000    0.569    0.000 {method 'decode' of 'str' objects}\n```\n"
+  }
+]

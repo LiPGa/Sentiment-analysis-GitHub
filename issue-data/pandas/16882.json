@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/314533790",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16882#issuecomment-314533790",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16882",
+    "id": 314533790,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNDUzMzc5MA==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-11T18:35:23Z",
+    "updated_at": "2017-07-11T18:35:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We are falling back to the [dateutil](https://github.com/dateutil/dateutil) parser here.  It interprets the `-10` as a tz offset, which I suppose makes some sense although can see why it is surprising.  Closing as not pandas, xref #12585 - general dateutil compat issue.\r\n\r\n```python\r\nIn [20]: from dateutil.parser import parse\r\n\r\nIn [21]: parse(\"2017-07-04 16-51-10\")\r\nOut[21]: datetime.datetime(2017, 7, 4, 16, 0, tzinfo=tzoffset(None, -36000))\r\n```"
+  }
+]

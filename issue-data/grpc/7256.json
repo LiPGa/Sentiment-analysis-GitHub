@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/232827147",
+    "html_url": "https://github.com/grpc/grpc/issues/7256#issuecomment-232827147",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7256",
+    "id": 232827147,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMjgyNzE0Nw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-15T00:07:18Z",
+    "updated_at": "2016-07-15T00:07:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looked into this, but unfortunately didn't see any significant or non-random-looking difference between the two methods, at least when comparing their latency and qps by running the performance tests locally. \n\nAlso, this change would be breaking since GenericService needs to be changed form a module to a class. If not using the generated proto code and just the GenericService directly, then one would have to switch from including to inheriting, which would only be possible if not already inheriting from their own class.\n\nExperimental code for this is on this branch: https://github.com/apolcyn/grpc/tree/extend_service_perf_trial\n"
+  }
+]

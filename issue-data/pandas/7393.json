@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/45427088",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/7393#issuecomment-45427088",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/7393",
+    "id": 45427088,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NDI3MDg4",
+    "user": {
+      "login": "hayd",
+      "id": 1931852,
+      "node_id": "MDQ6VXNlcjE5MzE4NTI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1931852?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hayd",
+      "html_url": "https://github.com/hayd",
+      "followers_url": "https://api.github.com/users/hayd/followers",
+      "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+      "organizations_url": "https://api.github.com/users/hayd/orgs",
+      "repos_url": "https://api.github.com/users/hayd/repos",
+      "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hayd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-08T03:02:22Z",
+    "updated_at": "2014-06-08T03:02:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "great!\n"
+  }
+]

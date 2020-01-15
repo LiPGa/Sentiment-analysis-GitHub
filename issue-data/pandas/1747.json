@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/10278149",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1747#issuecomment-10278149",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1747",
+    "id": 10278149,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMjc4MTQ5",
+    "user": {
+      "login": "sglyon",
+      "id": 1001948,
+      "node_id": "MDQ6VXNlcjEwMDE5NDg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1001948?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sglyon",
+      "html_url": "https://github.com/sglyon",
+      "followers_url": "https://api.github.com/users/sglyon/followers",
+      "following_url": "https://api.github.com/users/sglyon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sglyon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sglyon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sglyon/subscriptions",
+      "organizations_url": "https://api.github.com/users/sglyon/orgs",
+      "repos_url": "https://api.github.com/users/sglyon/repos",
+      "events_url": "https://api.github.com/users/sglyon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sglyon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-11-12T06:08:57Z",
+    "updated_at": "2012-11-12T06:08:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Better issue to work on in stats models\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/284271566",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15578#issuecomment-284271566",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15578",
+    "id": 284271566,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NDI3MTU2Ng==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-05T23:12:46Z",
+    "updated_at": "2017-03-05T23:20:52Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "so actually this is 'easy'; I think for values of round < 1us (e.g. ns values), you can simply do something like this.\r\n\r\nsimulating ``.round('10ns')``\r\n```\r\nIn [48]: i\r\nOut[48]: DatetimeIndex(['2016-10-17 12:00:00.001501031'], dtype='datetime64[ns]', freq=None)\r\n\r\nIn [49]: DatetimeIndex(1000000 * (i.asi8 // 1000000) + 10*(np.round((i.asi8 % 1000000)/float(10))).astype('i8'))\r\nOut[49]: DatetimeIndex(['2016-10-17 12:00:00.001501030'], dtype='datetime64[ns]', freq=None)\r\n\r\n```\r\nIOW, we avoid the float precision problem by only working with the last 6 digits, then adding back the original  portion.\r\n\r\ncc @mroeschke "
+  }
+]

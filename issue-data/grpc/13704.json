@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/351319595",
+    "html_url": "https://github.com/grpc/grpc/issues/13704#issuecomment-351319595",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13704",
+    "id": 351319595,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1MTMxOTU5NQ==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-13T08:30:50Z",
+    "updated_at": "2017-12-13T08:33:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Python interceptor facility was just shipped with the 1.8.0 release. I think this should basically handle your use case. In fact there is an example that adds a header to every call (it adds a constant header, but it should be trivial to modify it to call a callback and append a context-sensitive header value):\r\n\r\nhttps://github.com/grpc/grpc/blob/master/examples/python/interceptors/headers/greeter_client.py#L26\r\n\r\nI'm closing this issue, but please let me know if the interceptor solution is not satisfactory to you and I'll reopen. Cheers!"
+  }
+]

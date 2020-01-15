@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/440610771",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/23831#issuecomment-440610771",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23831",
+    "id": 440610771,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MDYxMDc3MQ==",
+    "user": {
+      "login": "datapythonista",
+      "id": 10058240,
+      "node_id": "MDQ6VXNlcjEwMDU4MjQw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10058240?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/datapythonista",
+      "html_url": "https://github.com/datapythonista",
+      "followers_url": "https://api.github.com/users/datapythonista/followers",
+      "following_url": "https://api.github.com/users/datapythonista/following{/other_user}",
+      "gists_url": "https://api.github.com/users/datapythonista/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/datapythonista/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/datapythonista/subscriptions",
+      "organizations_url": "https://api.github.com/users/datapythonista/orgs",
+      "repos_url": "https://api.github.com/users/datapythonista/repos",
+      "events_url": "https://api.github.com/users/datapythonista/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/datapythonista/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-21T10:18:57Z",
+    "updated_at": "2018-11-21T10:18:57Z",
+    "author_association": "MEMBER",
+    "body": "@saurav2608 what is the reason to close this? the changes look good"
+  }
+]

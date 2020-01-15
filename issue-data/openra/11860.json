@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/241349085",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11860#issuecomment-241349085",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11860",
+    "id": 241349085,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MTM0OTA4NQ==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-22T08:44:08Z",
+    "updated_at": "2016-08-22T08:44:08Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Rewinding replays is a very difficult problem. It may be become possible to jump back to a number of checkpoints once savegame support is added (which in itself is a just as difficult problem to solve), but don't hold your breath.\n\nA restart button exists, even in the current stable release.\n"
+  }
+]

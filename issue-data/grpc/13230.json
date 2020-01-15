@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/341528860",
+    "html_url": "https://github.com/grpc/grpc/issues/13230#issuecomment-341528860",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13230",
+    "id": 341528860,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTUyODg2MA==",
+    "user": {
+      "login": "adelez",
+      "id": 14932100,
+      "node_id": "MDQ6VXNlcjE0OTMyMTAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14932100?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adelez",
+      "html_url": "https://github.com/adelez",
+      "followers_url": "https://api.github.com/users/adelez/followers",
+      "following_url": "https://api.github.com/users/adelez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adelez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adelez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adelez/subscriptions",
+      "organizations_url": "https://api.github.com/users/adelez/orgs",
+      "repos_url": "https://api.github.com/users/adelez/repos",
+      "events_url": "https://api.github.com/users/adelez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adelez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-02T19:14:06Z",
+    "updated_at": "2017-11-02T20:56:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Docker image:\r\nhttps://pantheon.corp.google.com/gcr/images/grpc-testing/GLOBAL/grpc_interop_python@sha256:cdc3aea8e297f85eb593f7ccee3959dbab0c481a14175d4f14ad91194719c50f/details/info?project=grpc-testing\r\n\r\nDocker command to run the image:\r\ndocker run -i --rm=true -e PYTHONPATH=/var/local/git/grpc/src/python/gens -e LD_LIBRARY_PATH=/var/local/git/grpc/libs/opt -w /var/local/git/grpc --net=host --name interop_client_python_95c06f76-cc4a-4b80-9fa5-e2f03dc27722 $docker_image bash -l -c \"py27/bin/python src/python/grpcio_tests/setup.py run_interop --client --args=\"--server_host=grpc-test.sandbox.googleapis.com --server_host_override=grpc-test.sandbox.googleapis.com --server_port=443 --use_tls=true --test_case=large_unary\"\"\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/103924050",
+    "html_url": "https://github.com/grpc/grpc/issues/1404#issuecomment-103924050",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1404",
+    "id": 103924050,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMzkyNDA1MA==",
+    "user": {
+      "login": "ngauthier",
+      "id": 13654,
+      "node_id": "MDQ6VXNlcjEzNjU0",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13654?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ngauthier",
+      "html_url": "https://github.com/ngauthier",
+      "followers_url": "https://api.github.com/users/ngauthier/followers",
+      "following_url": "https://api.github.com/users/ngauthier/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ngauthier/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ngauthier/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ngauthier/subscriptions",
+      "organizations_url": "https://api.github.com/users/ngauthier/orgs",
+      "repos_url": "https://api.github.com/users/ngauthier/repos",
+      "events_url": "https://api.github.com/users/ngauthier/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ngauthier/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-20T15:21:13Z",
+    "updated_at": "2015-05-20T15:21:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks for the fix! Any chance we could get a 0.6.2 patch release?\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/202044755",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10980#issuecomment-202044755",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10980",
+    "id": 202044755,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMjA0NDc1NQ==",
+    "user": {
+      "login": "epicelite",
+      "id": 2596563,
+      "node_id": "MDQ6VXNlcjI1OTY1NjM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2596563?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/epicelite",
+      "html_url": "https://github.com/epicelite",
+      "followers_url": "https://api.github.com/users/epicelite/followers",
+      "following_url": "https://api.github.com/users/epicelite/following{/other_user}",
+      "gists_url": "https://api.github.com/users/epicelite/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/epicelite/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/epicelite/subscriptions",
+      "organizations_url": "https://api.github.com/users/epicelite/orgs",
+      "repos_url": "https://api.github.com/users/epicelite/repos",
+      "events_url": "https://api.github.com/users/epicelite/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/epicelite/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-27T11:35:05Z",
+    "updated_at": "2016-03-27T11:35:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Booo! I want muh hilltops back! Where do you expect me to chrono my MCV to now?\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/395106479",
+    "html_url": "https://github.com/grpc/grpc/issues/15661#issuecomment-395106479",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15661",
+    "id": 395106479,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NTEwNjQ3OQ==",
+    "user": {
+      "login": "dalebrubaker",
+      "id": 1030679,
+      "node_id": "MDQ6VXNlcjEwMzA2Nzk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1030679?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dalebrubaker",
+      "html_url": "https://github.com/dalebrubaker",
+      "followers_url": "https://api.github.com/users/dalebrubaker/followers",
+      "following_url": "https://api.github.com/users/dalebrubaker/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dalebrubaker/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dalebrubaker/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dalebrubaker/subscriptions",
+      "organizations_url": "https://api.github.com/users/dalebrubaker/orgs",
+      "repos_url": "https://api.github.com/users/dalebrubaker/repos",
+      "events_url": "https://api.github.com/users/dalebrubaker/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dalebrubaker/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-06T15:16:47Z",
+    "updated_at": "2018-06-06T15:16:47Z",
+    "author_association": "NONE",
+    "body": "This failure doesn't occur in the project directory where associated files are available. Closing this issue until I do some more research."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/295166009",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16053#issuecomment-295166009",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16053",
+    "id": 295166009,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NTE2NjAwOQ==",
+    "user": {
+      "login": "arnau126",
+      "id": 7932044,
+      "node_id": "MDQ6VXNlcjc5MzIwNDQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7932044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arnau126",
+      "html_url": "https://github.com/arnau126",
+      "followers_url": "https://api.github.com/users/arnau126/followers",
+      "following_url": "https://api.github.com/users/arnau126/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arnau126/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arnau126/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arnau126/subscriptions",
+      "organizations_url": "https://api.github.com/users/arnau126/orgs",
+      "repos_url": "https://api.github.com/users/arnau126/repos",
+      "events_url": "https://api.github.com/users/arnau126/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arnau126/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-19T08:39:49Z",
+    "updated_at": "2017-04-19T08:39:49Z",
+    "author_association": "NONE",
+    "body": "okay, I see that's already fixed: #14653"
+  }
+]

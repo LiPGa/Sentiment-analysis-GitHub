@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/338079007",
+    "html_url": "https://github.com/grpc/grpc/pull/13077#issuecomment-338079007",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13077",
+    "id": 338079007,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzODA3OTAwNw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-20T01:10:57Z",
+    "updated_at": "2017-10-20T01:10:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "test failures appear to be infrastructure failures due to this not being master\r\n* mac failures failed with: `Homebrew must be run under Ruby 2.3! You're running 2.0.0. (RuntimeError)`\r\n* interop cloud to cloud/prod failed with a kokoro configuration exception"
+  }
+]

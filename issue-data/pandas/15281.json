@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/276686234",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15281#issuecomment-276686234",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15281",
+    "id": 276686234,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NjY4NjIzNA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-01T15:24:53Z",
+    "updated_at": "2017-02-01T15:24:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "has been fixed in more recent versions (maybe this https://github.com/pandas-dev/pandas/commit/d8cd33b148daba78f1450c19c69cfe4896cfb98c) fixed.\r\n```\r\nIn [1]: df = pd.DataFrame({\r\n   ...:         'dates_1' : pd.date_range(start='2015-01-01', periods=5),\r\n   ...:         'dates_2' : pd.date_range(start='2016-01-01', periods=5)\r\n   ...: })\r\n   ...: \r\n   ...: df.dates_2 - df.dates_1\r\n   ...: df_2 = df.drop(df.index)\r\n   ...: df_2.dates_2 - df_2.dates_1\r\n   ...: \r\nOut[1]: Series([], dtype: timedelta64[ns])\r\n\r\nIn [2]: pd.__version__\r\nOut[2]: '0.19.2'\r\n```"
+  }
+]

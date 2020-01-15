@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/38049439",
+    "html_url": "https://github.com/ipython/ipython/pull/5383#issuecomment-38049439",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5383",
+    "id": 38049439,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4MDQ5NDM5",
+    "user": {
+      "login": "pyarnold",
+      "id": 6995324,
+      "node_id": "MDQ6VXNlcjY5OTUzMjQ=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6995324?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pyarnold",
+      "html_url": "https://github.com/pyarnold",
+      "followers_url": "https://api.github.com/users/pyarnold/followers",
+      "following_url": "https://api.github.com/users/pyarnold/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pyarnold/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pyarnold/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pyarnold/subscriptions",
+      "organizations_url": "https://api.github.com/users/pyarnold/orgs",
+      "repos_url": "https://api.github.com/users/pyarnold/repos",
+      "events_url": "https://api.github.com/users/pyarnold/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pyarnold/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-19T13:22:57Z",
+    "updated_at": "2014-03-19T13:22:57Z",
+    "author_association": "NONE",
+    "body": "Argh! My build broke, I will crush this between my glutes!\n"
+  }
+]

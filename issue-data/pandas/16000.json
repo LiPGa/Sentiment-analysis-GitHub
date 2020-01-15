@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/294216828",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16000#issuecomment-294216828",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16000",
+    "id": 294216828,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NDIxNjgyOA==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-14T19:10:47Z",
+    "updated_at": "2017-04-14T19:10:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Nested lists aren't a first-class type in `pandas` - they can sometimes be used, but not as groupby keys, because, as the error message says, they aren't hashable.\r\n\r\nIf possible, it's better to use a `MultiIndex` or some other multi-dim structure to store nested data.  If necessary, you could also convert the list to a tuple, which is hashable.\r\n\r\n```python\r\nIn [16]: df['a'] = df['a'].apply(tuple)\r\n\r\nIn [17]: df.groupby('a').groups\r\nOut[17]: {(1, 2, 3): Int64Index([0], dtype='int64')}\r\n```\r\n\r\n\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/64960849",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8732#issuecomment-64960849",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8732",
+    "id": 64960849,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0OTYwODQ5",
+    "user": {
+      "login": "vikram",
+      "id": 15446,
+      "node_id": "MDQ6VXNlcjE1NDQ2",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15446?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vikram",
+      "html_url": "https://github.com/vikram",
+      "followers_url": "https://api.github.com/users/vikram/followers",
+      "following_url": "https://api.github.com/users/vikram/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vikram/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vikram/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vikram/subscriptions",
+      "organizations_url": "https://api.github.com/users/vikram/orgs",
+      "repos_url": "https://api.github.com/users/vikram/repos",
+      "events_url": "https://api.github.com/users/vikram/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vikram/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-29T18:32:25Z",
+    "updated_at": "2014-11-29T18:32:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The time is actually not in checking for nulls. \nBut in ensuring that every element returned is a string.\n\nIf you did s.values.astype(str) what you get back is an object holding int. This is numpy doing the conversion, where as pandas iterates over each item and calls str(item) on it.\nSo if you do s.astype(str) you be an object holding str. \n\nhttps://github.com/pydata/pandas/blob/master/pandas/lib.pyx#L866\n\nSo I don't think it can be fixed if we still want to returns object holding str.\n\nPotentially https://github.com/pydata/pandas/blob/master/pandas/lib.pyx#L843\ncan be improved. If the array doesn't have nulls and we don't have the is_datelike\nthen instead of iterating, we can just return arr.astype(new_dtype)\n\nI can sort out a pull request if there is interest.\n"
+  }
+]

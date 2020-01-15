@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/175634559",
+    "html_url": "https://github.com/grpc/grpc/issues/4912#issuecomment-175634559",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/4912",
+    "id": 175634559,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NTYzNDU1OQ==",
+    "user": {
+      "login": "pszemus",
+      "id": 13220781,
+      "node_id": "MDQ6VXNlcjEzMjIwNzgx",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13220781?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pszemus",
+      "html_url": "https://github.com/pszemus",
+      "followers_url": "https://api.github.com/users/pszemus/followers",
+      "following_url": "https://api.github.com/users/pszemus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pszemus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pszemus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pszemus/subscriptions",
+      "organizations_url": "https://api.github.com/users/pszemus/orgs",
+      "repos_url": "https://api.github.com/users/pszemus/repos",
+      "events_url": "https://api.github.com/users/pszemus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pszemus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-27T13:46:38Z",
+    "updated_at": "2016-01-27T13:46:38Z",
+    "author_association": "NONE",
+    "body": "Closed. Building failed because of installed old grpc include files.\n"
+  }
+]

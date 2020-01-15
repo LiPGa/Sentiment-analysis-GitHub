@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/10351410",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2240#issuecomment-10351410",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2240",
+    "id": 10351410,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMzUxNDEw",
+    "user": {
+      "login": "changhiskhan",
+      "id": 759245,
+      "node_id": "MDQ6VXNlcjc1OTI0NQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/759245?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/changhiskhan",
+      "html_url": "https://github.com/changhiskhan",
+      "followers_url": "https://api.github.com/users/changhiskhan/followers",
+      "following_url": "https://api.github.com/users/changhiskhan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/changhiskhan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/changhiskhan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/changhiskhan/subscriptions",
+      "organizations_url": "https://api.github.com/users/changhiskhan/orgs",
+      "repos_url": "https://api.github.com/users/changhiskhan/repos",
+      "events_url": "https://api.github.com/users/changhiskhan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/changhiskhan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-11-14T01:16:50Z",
+    "updated_at": "2012-11-14T01:16:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "That's because xlwt and openpyxl do not know how to handle Period objects from pandas. We'll put in a fix. Thanks for the bug report.\n"
+  }
+]

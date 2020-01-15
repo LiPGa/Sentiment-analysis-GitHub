@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/480033465",
+    "html_url": "https://github.com/grpc/grpc/pull/18636#issuecomment-480033465",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18636",
+    "id": 480033465,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDAzMzQ2NQ==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-04T19:33:27Z",
+    "updated_at": "2019-04-04T19:33:27Z",
+    "author_association": "MEMBER",
+    "body": "> But I don't know how this can fix the internal reported bug that the subchannel call is null when `StartTransportStreamOpBatch()` is called. Will `call_.reset()` here somehow invoke `StartTransportStreamOpBatch()`?\r\n\r\nI think this was caused by a race condition in cancellation.  Note that cancellation is invoked from two places (`Orphan()` and `DoneReadingRecvMessage()`), so there can be two cancellations in flight at the same time in different threads.\r\n\r\nWhen you call `HealthCheckClient::CallState::Cancel()`, it hops into the call combiner to run `StartCancel()`, which starts a cancellation batch by calling `StartTransportStreamOpBatch()`.  When that batch is complete, it calls `OnCancelComplete()`, which resets `call_`.\r\n\r\nPrior to this PR, `Cancel()` was attempting to handle this race condition by checking whether `call_` was null before starting the cancellation.  However, this was inadequate: if a cancellation was started in one of the two places, but it didn't finish and reset `call_` by the time the second cancellation was started, then `call_` could wind up being reset while the second cancellation was still in flight.\r\n\r\nThis PR fixes the problem by adding the `cancelled_` atomic to ensure that we only have one cancellation in flight at a time."
+  }
+]

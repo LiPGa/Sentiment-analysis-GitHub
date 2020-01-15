@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/388012914",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20993#issuecomment-388012914",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20993",
+    "id": 388012914,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4ODAxMjkxNA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-10T10:13:16Z",
+    "updated_at": "2018-05-10T10:13:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The uncertainty looks *almost* but not quite like a float, in this place it is testing whether it is actually a float scalar. I would say the interface to uncertainty is slightly odd here as its a function that is not duck-like enough. (compare this to say a ``decimal.Decimal`` which actually would be coerced to a float). So is pandas wrong here, well its trying its best to deal with things.\r\n```\r\nipdb> l\r\n   2036 \r\n   2037 class FloatBlock(FloatOrComplexBlock):\r\n   2038     __slots__ = ()\r\n   2039     is_float = True\r\n   2040 \r\n   2041     def _can_hold_element(self, element):\r\n   2042         tipo = maybe_infer_dtype_type(element)\r\n   2043         if tipo is not None:\r\n-> 2044             return (issubclass(tipo.type, (np.floating, np.integer)) and\r\n   2045                     not issubclass(tipo.type, (np.datetime64, np.timedelta64)))\r\n   2046         return (\r\n\r\nipdb> p tipo.type\r\n<function AffineScalarFunc.dtype.<lambda> at 0x1120b0158>\r\n\r\n```\r\n\r\nIn any event, you need to hold these in object dtypes columns.\r\n\r\n```\r\nIn [1]: from uncertainties import ufloat, UFloat\r\n   ...: import pandas as pd\r\n   ...: \r\n   ...: def test(name, key, value):\r\n   ...:     dframe = pd.DataFrame()\r\n   ...:     dframe[key] = pd.Series([value], [name], dtype=object)\r\n   ...:     return dframe\r\n   ...: \r\n   ...: test('000_osci', 'laser_%', ufloat(99, 4))\r\n   ...: \r\nOut[1]: \r\n         laser_%\r\n000_osci  99+/-4\r\n```\r\n\r\nbetter yet would be to write and ExtensionArray to have first class support in pandas."
+  }
+]

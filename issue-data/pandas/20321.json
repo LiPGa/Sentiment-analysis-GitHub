@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/372585743",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/20321#issuecomment-372585743",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20321",
+    "id": 372585743,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MjU4NTc0Mw==",
+    "user": {
+      "login": "csfarkas",
+      "id": 10338677,
+      "node_id": "MDQ6VXNlcjEwMzM4Njc3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10338677?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/csfarkas",
+      "html_url": "https://github.com/csfarkas",
+      "followers_url": "https://api.github.com/users/csfarkas/followers",
+      "following_url": "https://api.github.com/users/csfarkas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/csfarkas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/csfarkas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/csfarkas/subscriptions",
+      "organizations_url": "https://api.github.com/users/csfarkas/orgs",
+      "repos_url": "https://api.github.com/users/csfarkas/repos",
+      "events_url": "https://api.github.com/users/csfarkas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/csfarkas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-13T08:32:13Z",
+    "updated_at": "2018-03-13T08:32:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Closed for conflict. See new PR: DOC: update the Index.get duplicates docstring #20322"
+  }
+]

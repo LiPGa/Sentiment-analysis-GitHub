@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/423332843",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22794#issuecomment-423332843",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22794",
+    "id": 423332843,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMzMzMjg0Mw==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-20T21:04:38Z",
+    "updated_at": "2018-09-20T21:04:38Z",
+    "author_association": "MEMBER",
+    "body": "Hmm seems kind of strange. If I had to guess the `float` type may just need to be sized like the `int` types in the `join_func_helper.pxi.in` template:\r\n\r\nhttps://github.com/pandas-dev/pandas/blob/0480f4c183a95712cb8ceaf5682c5b8dd02e0f21/pandas/_libs/join_func_helper.pxi.in#L23\r\n\r\nWelcome to take a look and submit a PR if you can get it to work"
+  }
+]

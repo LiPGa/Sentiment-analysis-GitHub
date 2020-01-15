@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/306260770",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16604#issuecomment-306260770",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16604",
+    "id": 306260770,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjI2MDc3MA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-05T18:07:29Z",
+    "updated_at": "2017-06-05T18:07:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Fixed in https://github.com/pandas-dev/pandas/pull/16305 I believe (0.20.2 was released today, so you can try upgrading). Let me know if that doesn't fix it for you."
+  }
+]

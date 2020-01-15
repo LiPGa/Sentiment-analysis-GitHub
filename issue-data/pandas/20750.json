@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/383341163",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20750#issuecomment-383341163",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20750",
+    "id": 383341163,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4MzM0MTE2Mw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-21T23:30:23Z",
+    "updated_at": "2018-04-21T23:30:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": " so in prior to 0.23.0, apply is somewhat inconsistent in its result type, IOW whether you get a Series or a DataFrame. in 0.23.0 this will be controlled by the ``result_type`` kw.\r\n\r\n```\r\nIn [28]: df[['sum', 'difference']] = df.apply(lambda row: add_subtract_list(row['a'], row['b']), axis=1, result_type='expand')\r\n\r\nIn [29]: df\r\nOut[29]: \r\n   a  b  sum  difference\r\n0  1  4    5          -3\r\n1  2  5    7          -3\r\n2  3  6    9          -3\r\n\r\nIn [30]: df[['sum2', 'difference2']] = df.apply(lambda row: add_subtract_list(row['a'], row['b']), axis=1, result_type='expand')\r\n\r\nIn [31]: \r\n\r\nIn [31]: df\r\nOut[31]: \r\n   a  b  sum  difference  sum2  difference2\r\n0  1  4    5          -3     5           -3\r\n1  2  5    7          -3     7           -3\r\n2  3  6    9          -3     9           -3\r\n```"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/429621150",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23146#issuecomment-429621150",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23146",
+    "id": 429621150,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyOTYyMTE1MA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-14T12:09:24Z",
+    "updated_at": "2018-10-14T12:09:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We dropped support for 3.4 in pandas 0.21.0. The usage numbers didn't seem to warrant the maintenance burden."
+  }
+]

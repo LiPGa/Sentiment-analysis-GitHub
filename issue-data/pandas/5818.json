@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/31439885",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5818#issuecomment-31439885",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5818",
+    "id": 31439885,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNDM5ODg1",
+    "user": {
+      "login": "jtratner",
+      "id": 1598379,
+      "node_id": "MDQ6VXNlcjE1OTgzNzk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1598379?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtratner",
+      "html_url": "https://github.com/jtratner",
+      "followers_url": "https://api.github.com/users/jtratner/followers",
+      "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtratner/orgs",
+      "repos_url": "https://api.github.com/users/jtratner/repos",
+      "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtratner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-01-02T07:06:15Z",
+    "updated_at": "2014-01-02T07:06:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "easy fix - DatetimeIndex's insert method wasn't handling non-datetimes correctly. I'll have a PR up shortly.\n"
+  }
+]

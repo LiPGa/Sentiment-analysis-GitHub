@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/385244284",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/20861#issuecomment-385244284",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20861",
+    "id": 385244284,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NTI0NDI4NA==",
+    "user": {
+      "login": "owlas",
+      "id": 11660098,
+      "node_id": "MDQ6VXNlcjExNjYwMDk4",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11660098?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/owlas",
+      "html_url": "https://github.com/owlas",
+      "followers_url": "https://api.github.com/users/owlas/followers",
+      "following_url": "https://api.github.com/users/owlas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/owlas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/owlas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/owlas/subscriptions",
+      "organizations_url": "https://api.github.com/users/owlas/orgs",
+      "repos_url": "https://api.github.com/users/owlas/repos",
+      "events_url": "https://api.github.com/users/owlas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/owlas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-29T11:28:05Z",
+    "updated_at": "2018-04-29T11:28:05Z",
+    "author_association": "NONE",
+    "body": "See #20864"
+  }
+]

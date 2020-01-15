@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/456977068",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10220#issuecomment-456977068",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10220",
+    "id": 456977068,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1Njk3NzA2OA==",
+    "user": {
+      "login": "matjaeck",
+      "id": 37185497,
+      "node_id": "MDQ6VXNlcjM3MTg1NDk3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37185497?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matjaeck",
+      "html_url": "https://github.com/matjaeck",
+      "followers_url": "https://api.github.com/users/matjaeck/followers",
+      "following_url": "https://api.github.com/users/matjaeck/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matjaeck/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matjaeck/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matjaeck/subscriptions",
+      "organizations_url": "https://api.github.com/users/matjaeck/orgs",
+      "repos_url": "https://api.github.com/users/matjaeck/repos",
+      "events_url": "https://api.github.com/users/matjaeck/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matjaeck/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-23T21:40:59Z",
+    "updated_at": "2019-01-23T21:40:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> the additional \"targeted units\" boxes (red) do not appear.\r\n\r\nThis is fixed,  they are all red no matter if you had the units selected before."
+  }
+]

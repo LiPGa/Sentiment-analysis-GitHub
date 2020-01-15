@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/397430105",
+    "html_url": "https://github.com/grpc/grpc/issues/15338#issuecomment-397430105",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15338",
+    "id": 397430105,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NzQzMDEwNQ==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-14T20:36:33Z",
+    "updated_at": "2018-06-14T20:39:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Let me detangle two things here:\r\n\r\n- Being able to register a **gRPC handler** to get invoked as a fall back: you can already accomplish this via a server-side interceptor or a `generic_rpc_handler` in gRPC Python.\r\n- Being able to fall back on a **\"plain HTTP\" handler**.  This is going to be tricky and requires support from gRPC C Core, and I don't anticipate this happening in the short term. I'm going to leave this bug open to serve as the canonical place where similar requests, which we do get, can be consolidated here.\r\n\r\nFor the time being, I think the best course of action for folks wanting to serve gRPC/\"plain HTTP web servers\" hybrid on a single endpoint is to proxy it via `nginx`. Recent `nginx` releases support `grpc_pass` directives to route some paths to a gRPC backend and other paths to other backends, including HTTP 1.0 servers."
+  }
+]

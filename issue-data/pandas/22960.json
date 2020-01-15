@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/426634211",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22960#issuecomment-426634211",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22960",
+    "id": 426634211,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNjYzNDIxMQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-03T13:19:03Z",
+    "updated_at": "2018-10-03T13:19:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I can reproduce locally now. Not sure what was going on earlier.\r\n\r\nhttps://github.com/pandas-dev/pandas/pull/22901 was the commit that introduced the failure, but we didn't catch it there since numpydev is in the \"allowed failure\" section. I think we should move it up to the non-allowed section.\r\n\r\nI think the root cause is calling `CategoricalDtype.construct_from_string(dtype)` on a DataFrame. We used to do that in a bare `except:`, but now it's `except TypeError`. Ideally we wouldn't be calling that on data in the first place, since the results are unpredictable.\r\n\r\n\r\n```\r\nipdb> pp string\r\n   A  A\r\n0  0  2\r\n1  2  4\r\n2  0  4\r\n```\r\n\r\nWe do\r\n\r\n```\r\nipdb> string == 'category'\r\n*** FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison\r\n```\r\n\r\nThat FutureWarning is elevated to an error. I didn't realize this, but you can catch warnings, so the very simple fix is to also catch `FutureWarning` here, but that feels fragile. I'll investigate a better fix..."
+  }
+]

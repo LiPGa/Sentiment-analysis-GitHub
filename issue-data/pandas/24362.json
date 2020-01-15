@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/450177922",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24362#issuecomment-450177922",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24362",
+    "id": 450177922,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MDE3NzkyMg==",
+    "user": {
+      "login": "cbertinato",
+      "id": 20772838,
+      "node_id": "MDQ6VXNlcjIwNzcyODM4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20772838?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cbertinato",
+      "html_url": "https://github.com/cbertinato",
+      "followers_url": "https://api.github.com/users/cbertinato/followers",
+      "following_url": "https://api.github.com/users/cbertinato/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cbertinato/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cbertinato/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cbertinato/subscriptions",
+      "organizations_url": "https://api.github.com/users/cbertinato/orgs",
+      "repos_url": "https://api.github.com/users/cbertinato/repos",
+      "events_url": "https://api.github.com/users/cbertinato/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cbertinato/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-27T15:57:15Z",
+    "updated_at": "2018-12-27T16:01:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It looks like the issue here is that, initially, the DTIs are not equal nor are their dtypes because of the different timezones, so they both converted to `Index`.\r\n\r\nhttps://github.com/pandas-dev/pandas/blob/08c920eab602dac261b8fe55ffe439593c095e12/pandas/core/indexes/base.py#L2388\r\n\r\nThis actually starts in the intersection method for DTI, but gets dropped into the `Index` intersection method when it is determined that they're not equal.\r\n\r\nIs the expected behavior that, in this case of the intersection, the DTIs are considered equal if the underlying indices are equal, regardless of timezone?\r\n\r\nIf so, then we can make a change to the equality check in the DTI intersection method.\r\n\r\nThe other option I see is to return an `Index` rather than a DTI in the case that they're equal and avoid or modify the offending shallow copy."
+  }
+]

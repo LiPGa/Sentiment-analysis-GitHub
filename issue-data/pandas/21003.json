@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/388162561",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21003#issuecomment-388162561",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21003",
+    "id": 388162561,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4ODE2MjU2MQ==",
+    "user": {
+      "login": "Austrianguy",
+      "id": 28363225,
+      "node_id": "MDQ6VXNlcjI4MzYzMjI1",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/28363225?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Austrianguy",
+      "html_url": "https://github.com/Austrianguy",
+      "followers_url": "https://api.github.com/users/Austrianguy/followers",
+      "following_url": "https://api.github.com/users/Austrianguy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Austrianguy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Austrianguy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Austrianguy/subscriptions",
+      "organizations_url": "https://api.github.com/users/Austrianguy/orgs",
+      "repos_url": "https://api.github.com/users/Austrianguy/repos",
+      "events_url": "https://api.github.com/users/Austrianguy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Austrianguy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-10T19:39:55Z",
+    "updated_at": "2018-05-10T19:39:55Z",
+    "author_association": "NONE",
+    "body": "I think this can be solved by changing the regex at `_core.py` line 213 and line 670 to `'^[bgrcmykw]'` or perhaps pulling the valid color letters directly from `matplotlib.colors.BASE_COLORS`."
+  }
+]

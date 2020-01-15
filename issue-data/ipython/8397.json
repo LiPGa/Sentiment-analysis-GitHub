@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/98357212",
+    "html_url": "https://github.com/ipython/ipython/issues/8397#issuecomment-98357212",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8397",
+    "id": 98357212,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk4MzU3MjEy",
+    "user": {
+      "login": "justinlent",
+      "id": 6541022,
+      "node_id": "MDQ6VXNlcjY1NDEwMjI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6541022?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/justinlent",
+      "html_url": "https://github.com/justinlent",
+      "followers_url": "https://api.github.com/users/justinlent/followers",
+      "following_url": "https://api.github.com/users/justinlent/following{/other_user}",
+      "gists_url": "https://api.github.com/users/justinlent/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/justinlent/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/justinlent/subscriptions",
+      "organizations_url": "https://api.github.com/users/justinlent/orgs",
+      "repos_url": "https://api.github.com/users/justinlent/repos",
+      "events_url": "https://api.github.com/users/justinlent/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/justinlent/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-02T13:26:00Z",
+    "updated_at": "2015-05-02T13:26:00Z",
+    "author_association": "NONE",
+    "body": "closing this.   when I used the [newer] 'options=' parameter instead of values it started working again.  possibly when i upgraded pandas, under the hood, it upgraded other dependencies i suppose\n"
+  }
+]

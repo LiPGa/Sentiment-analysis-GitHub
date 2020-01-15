@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/32778750",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/6013#issuecomment-32778750",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6013",
+    "id": 32778750,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNzc4NzUw",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-01-20T17:17:24Z",
+    "updated_at": "2014-01-20T17:39:14Z",
+    "author_association": "NONE",
+    "body": "Good catch, this might be another case of a known regression in the perf of `apply` in 0.13.\n\n```\nIn [4]: %load_ext cythonmagic\n\nIn [10]: %%cython\n   ...:    ....: cdef double f_typed(double x) except? -2:\n   ...:    ....:     return x * (x - 1)\n   ...:    ....: cpdef double integrate_f_typed(double a, double b, int N):\n   ...:    ....:     cdef int i\n   ...:    ....:     cdef double s, dx\n   ...:    ....:     s = 0\n   ...:    ....:     dx = (b - a) / N\n   ...:    ....:     for i in range(N):\n   ...:    ....:         s += f_typed(a + i * dx)\n   ...:    ....:     return s * dx\n   ...: \n```\n\nin 0.13.0-246-g1e1907c:\n\n```\nIn [7]: df = DataFrame({'a': randn(1000), 'b': randn(1000),'N': randint(100, 1000, (1000)), 'x': 'x'})\nIn [8]: %timeit df.apply(lambda x: integrate_f_typed(x['a'], x['b'], x['N']), axis=1)\n10 loops, best of 3: 116 ms per loop\n```\n\nBut in 0.12:\n\n```\nIn [5]: df = DataFrame({'a': randn(1000), 'b': randn(1000),'N': randint(100, 1000, (1000)), 'x': 'x'})\nIn [6]: %timeit df.apply(lambda x: integrate_f_typed(x['a'], x['b'], x['N']), axis=1)\n10 loops, best of 3: 19.6 ms per loop\n```\n\n@jreback , is that `apply` perf hit here to stay?\n\nrelated #5654, #5656 ?\n"
+  }
+]

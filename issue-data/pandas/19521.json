@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/363454717",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19521#issuecomment-363454717",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19521",
+    "id": 363454717,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MzQ1NDcxNw==",
+    "user": {
+      "login": "hexgnu",
+      "id": 138510,
+      "node_id": "MDQ6VXNlcjEzODUxMA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/138510?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hexgnu",
+      "html_url": "https://github.com/hexgnu",
+      "followers_url": "https://api.github.com/users/hexgnu/followers",
+      "following_url": "https://api.github.com/users/hexgnu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hexgnu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hexgnu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hexgnu/subscriptions",
+      "organizations_url": "https://api.github.com/users/hexgnu/orgs",
+      "repos_url": "https://api.github.com/users/hexgnu/repos",
+      "events_url": "https://api.github.com/users/hexgnu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hexgnu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-06T15:20:05Z",
+    "updated_at": "2018-02-06T15:20:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I took a crack at this using the deque. "
+  }
+]

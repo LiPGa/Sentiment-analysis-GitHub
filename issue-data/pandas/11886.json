@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/172012517",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11886#issuecomment-172012517",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11886",
+    "id": 172012517,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MjAxMjUxNw==",
+    "user": {
+      "login": "RahulHP",
+      "id": 4871132,
+      "node_id": "MDQ6VXNlcjQ4NzExMzI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4871132?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RahulHP",
+      "html_url": "https://github.com/RahulHP",
+      "followers_url": "https://api.github.com/users/RahulHP/followers",
+      "following_url": "https://api.github.com/users/RahulHP/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RahulHP/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RahulHP/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RahulHP/subscriptions",
+      "organizations_url": "https://api.github.com/users/RahulHP/orgs",
+      "repos_url": "https://api.github.com/users/RahulHP/repos",
+      "events_url": "https://api.github.com/users/RahulHP/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RahulHP/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-15T16:48:26Z",
+    "updated_at": "2016-01-15T16:48:26Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Will it be alright if I:\n1. First check if the dtype passed in is an instance of dict.\n2. If Not, create a dictionary the same was as above ie. `{col_name: sqlalchemy.types.NVARCHAR for col_name in df}`\n3. Pass this new dictionary onwards.\n"
+  }
+]

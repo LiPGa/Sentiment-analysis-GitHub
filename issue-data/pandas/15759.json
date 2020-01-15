@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/288019612",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15759#issuecomment-288019612",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15759",
+    "id": 288019612,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4ODAxOTYxMg==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-21T09:18:05Z",
+    "updated_at": "2017-03-21T09:18:05Z",
+    "author_association": "MEMBER",
+    "body": "You get the \"No numeric types to aggregate\" error, which indicates you are trying to aggregate non-numerical data (which is not possible). If you look at the data types of `df`, you will indeed see that the columns you try to aggregate are not numerical:\r\n\r\n```\r\nIn [10]: df.dtypes\r\nOut[10]: \r\namount            object\r\ndate      datetime64[ns]\r\nprice             object\r\ntid                int64\r\ntype               int64\r\ndtype: object\r\n```\r\n\r\nYou can convert those first to numerical using `pd.to_numeric`.\r\n\r\nFurther, for these type of questions, something like StackOverflow or the mailing list is a better place to ask.\r\n\r\n"
+  }
+]

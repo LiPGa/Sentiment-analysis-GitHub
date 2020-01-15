@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/361619543",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19285#issuecomment-361619543",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19285",
+    "id": 361619543,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MTYxOTU0Mw==",
+    "user": {
+      "login": "tdpetrou",
+      "id": 7226751,
+      "node_id": "MDQ6VXNlcjcyMjY3NTE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7226751?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tdpetrou",
+      "html_url": "https://github.com/tdpetrou",
+      "followers_url": "https://api.github.com/users/tdpetrou/followers",
+      "following_url": "https://api.github.com/users/tdpetrou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tdpetrou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tdpetrou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tdpetrou/subscriptions",
+      "organizations_url": "https://api.github.com/users/tdpetrou/orgs",
+      "repos_url": "https://api.github.com/users/tdpetrou/repos",
+      "events_url": "https://api.github.com/users/tdpetrou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tdpetrou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-30T15:00:25Z",
+    "updated_at": "2018-01-30T15:03:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Also very closely related is accumulation with missing values.\r\n```\r\n>>> df = pd.DataFrame({'a': [1, np.nan, 5]})\r\n>>> df.cumsum()\r\n     a\r\n0  1.0\r\n1  NaN\r\n2  6.0\r\n```\r\n\r\nCouldn't this be:\r\n\r\n```\r\n>>> df.cumsum()\r\n     a\r\n0  1.0\r\n1  1.0\r\n2  6.0\r\n```\r\n\r\nAlso, would cumsum of all nan column be 0 for all values?"
+  }
+]

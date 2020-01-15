@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/107546118",
+    "html_url": "https://github.com/ipython/ipython/issues/8496#issuecomment-107546118",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8496",
+    "id": 107546118,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNzU0NjExOA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-01T14:50:55Z",
+    "updated_at": "2015-06-01T14:51:07Z",
+    "author_association": "MEMBER",
+    "body": "if `foo` prints it, or return it and is the last statement of the cell it might. But then you would saw it in the notebook. \n\nHere is what is stored, you can see that only dots are stored in the notebook itself. \n\n```\n{\n   \"cell_type\": \"code\",\n   \"source\": [\n    \"import getpass\\n\",\n    \"getpass.getpass()\\n\",\n    \"pass\"\n   ],\n   \"outputs\": [\n    {\n     \"name\": \"stdout\",\n     \"output_type\": \"stream\",\n     \"text\": [\n      \"········\\n\"\n     ]\n    }\n   ]\n  }\n```\n"
+  }
+]

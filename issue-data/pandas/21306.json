@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/394235665",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21306#issuecomment-394235665",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21306",
+    "id": 394235665,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDIzNTY2NQ==",
+    "user": {
+      "login": "tomascassidy",
+      "id": 301402,
+      "node_id": "MDQ6VXNlcjMwMTQwMg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/301402?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tomascassidy",
+      "html_url": "https://github.com/tomascassidy",
+      "followers_url": "https://api.github.com/users/tomascassidy/followers",
+      "following_url": "https://api.github.com/users/tomascassidy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tomascassidy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tomascassidy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tomascassidy/subscriptions",
+      "organizations_url": "https://api.github.com/users/tomascassidy/orgs",
+      "repos_url": "https://api.github.com/users/tomascassidy/repos",
+      "events_url": "https://api.github.com/users/tomascassidy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tomascassidy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-04T05:09:31Z",
+    "updated_at": "2018-06-04T05:09:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I noticed this appearing in lintian warning output while packaging a python application with dh-virtualenv."
+  }
+]

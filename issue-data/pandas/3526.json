@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/17500107",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/3526#issuecomment-17500107",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/3526",
+    "id": 17500107,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NTAwMTA3",
+    "user": {
+      "login": "lodagro",
+      "id": 1094464,
+      "node_id": "MDQ6VXNlcjEwOTQ0NjQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1094464?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lodagro",
+      "html_url": "https://github.com/lodagro",
+      "followers_url": "https://api.github.com/users/lodagro/followers",
+      "following_url": "https://api.github.com/users/lodagro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lodagro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lodagro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lodagro/subscriptions",
+      "organizations_url": "https://api.github.com/users/lodagro/orgs",
+      "repos_url": "https://api.github.com/users/lodagro/repos",
+      "events_url": "https://api.github.com/users/lodagro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lodagro/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-05-06T18:45:27Z",
+    "updated_at": "2013-05-06T18:45:27Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "close, duplicate of #3435\n"
+  }
+]

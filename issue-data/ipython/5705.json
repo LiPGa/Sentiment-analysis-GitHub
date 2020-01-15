@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/41190487",
+    "html_url": "https://github.com/ipython/ipython/issues/5705#issuecomment-41190487",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5705",
+    "id": 41190487,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTkwNDg3",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-23T17:30:53Z",
+    "updated_at": "2014-04-23T17:30:53Z",
+    "author_association": "MEMBER",
+    "body": "Hi, \n\nSure it's ok to aks here, though you might have more answers/help on the mailing list. \n\nYou should be able to inject custom javascript into the notebook by modifying `.ipython/profile_default/static/custom/custom.js` and add a custom button to the to toolbar.\n\nIt will require digging a litte into availlable function.\nYou can also use the keyboard shortcut (`a` in command mode) to add a cell `a`bove.\n"
+  }
+]

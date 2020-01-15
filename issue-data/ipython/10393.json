@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/285977049",
+    "html_url": "https://github.com/ipython/ipython/issues/10393#issuecomment-285977049",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10393",
+    "id": 285977049,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NTk3NzA0OQ==",
+    "user": {
+      "login": "krichter722",
+      "id": 4369372,
+      "node_id": "MDQ6VXNlcjQzNjkzNzI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4369372?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/krichter722",
+      "html_url": "https://github.com/krichter722",
+      "followers_url": "https://api.github.com/users/krichter722/followers",
+      "following_url": "https://api.github.com/users/krichter722/following{/other_user}",
+      "gists_url": "https://api.github.com/users/krichter722/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/krichter722/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/krichter722/subscriptions",
+      "organizations_url": "https://api.github.com/users/krichter722/orgs",
+      "repos_url": "https://api.github.com/users/krichter722/repos",
+      "events_url": "https://api.github.com/users/krichter722/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/krichter722/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-12T21:12:38Z",
+    "updated_at": "2017-03-12T21:12:38Z",
+    "author_association": "NONE",
+    "body": "Sorry, this was supposed to be for ipdb, see gotcha/ipdb#126."
+  }
+]

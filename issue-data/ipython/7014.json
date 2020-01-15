@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/64084387",
+    "html_url": "https://github.com/ipython/ipython/issues/7014#issuecomment-64084387",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7014",
+    "id": 64084387,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0MDg0Mzg3",
+    "user": {
+      "login": "zsrinivas",
+      "id": 6435796,
+      "node_id": "MDQ6VXNlcjY0MzU3OTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6435796?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zsrinivas",
+      "html_url": "https://github.com/zsrinivas",
+      "followers_url": "https://api.github.com/users/zsrinivas/followers",
+      "following_url": "https://api.github.com/users/zsrinivas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zsrinivas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zsrinivas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zsrinivas/subscriptions",
+      "organizations_url": "https://api.github.com/users/zsrinivas/orgs",
+      "repos_url": "https://api.github.com/users/zsrinivas/repos",
+      "events_url": "https://api.github.com/users/zsrinivas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zsrinivas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-22T15:48:50Z",
+    "updated_at": "2014-11-22T15:48:50Z",
+    "author_association": "NONE",
+    "body": "sorry i tried to open it in the cpython/Lib directory of recent version, that's why i got this syntax error.\n"
+  }
+]

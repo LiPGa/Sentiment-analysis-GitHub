@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/408953653",
+    "html_url": "https://github.com/grpc/grpc/issues/16160#issuecomment-408953653",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16160",
+    "id": 408953653,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwODk1MzY1Mw==",
+    "user": {
+      "login": "sreecha",
+      "id": 2754995,
+      "node_id": "MDQ6VXNlcjI3NTQ5OTU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2754995?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sreecha",
+      "html_url": "https://github.com/sreecha",
+      "followers_url": "https://api.github.com/users/sreecha/followers",
+      "following_url": "https://api.github.com/users/sreecha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sreecha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sreecha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sreecha/subscriptions",
+      "organizations_url": "https://api.github.com/users/sreecha/orgs",
+      "repos_url": "https://api.github.com/users/sreecha/repos",
+      "events_url": "https://api.github.com/users/sreecha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sreecha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-30T17:56:09Z",
+    "updated_at": "2018-07-30T17:56:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Can you clarify the following  ?\r\n>By the time delete is called on the object. I have shut down the stream with Finish( or the client context with TryCancel() and completion queue with Shutdown()\r\n\r\nI am assuming you finished the bidi stream (from client side) by calling `Finish()`,  called `Shutdown()` on the completion queue and `TryCancel()` on the `ClientContext` object . Is that correct?\r\n\r\n- Did the `ClientAsyncReaderWriter::Finish(Status* status, void *tag)` operation complete ? (i.e did the `tag` you passed return out of the completion queue? also, what is the returned `status` value ?) . \r\n- After you called `CompletionQueue::Shutdown()`, did you wait until `CompletionQueue::Next()` returned `false`? (to make sure that the queue was actually shutdown?)\r\n- Approximately how many seconds is it taking for the `ClientContext` destruction to fully complete?\r\n\r\n---\r\n\r\nI do agree that It is a bit strange that it is taking several seconds but from the traces you posted, it seems like this is also calling `grpc_shutdown` (i.e you no longer have any active grpc calls or channels open. Hence the grpc library is 'shutting down') and this can sometimes take a few seconds to do a clean-shutdown.\r\n\r\nIn addition to doing `export GRPC_VERBOSITY=DEBUG`, if you also turn on tracing as mentioned [here](https://github.com/grpc/grpc/blob/master/doc/environment_variables.md)  \r\nPerhaps `export GRPC_TRACE=all,-tcp`  (all traces except `tcp` which tend to be very verbose)\r\n"
+  }
+]

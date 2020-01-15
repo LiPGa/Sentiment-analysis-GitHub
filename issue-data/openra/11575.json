@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/230342772",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11575#issuecomment-230342772",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11575",
+    "id": 230342772,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMDM0Mjc3Mg==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-04T19:05:20Z",
+    "updated_at": "2016-07-04T19:05:20Z",
+    "author_association": "MEMBER",
+    "body": "I just checked different maps and noticed that the `[Header]` was missing. Other maps define not just the `[Preview]` section, but the following as well:\n\n``` ini\n[Header]\nWidth=95\nHeight=95\nStartX=208\nStartY=55\n```\n\n...\n\n``` ini\n[Preview]\nSize=0,0,200,100\n```\n"
+  }
+]

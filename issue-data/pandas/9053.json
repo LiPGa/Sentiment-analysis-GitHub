@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/346850436",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9053#issuecomment-346850436",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9053",
+    "id": 346850436,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0Njg1MDQzNg==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-24T15:18:30Z",
+    "updated_at": "2017-11-24T15:18:30Z",
+    "author_association": "MEMBER",
+    "body": "OK, I thought this was an easy fix (https://github.com/pandas-dev/pandas/pull/18468), but apparently it is not because matplotlib does not respect the `ax.xaxis.converter`.\r\n\r\nSo the first `s.plot(ax=ax)` sets  `ax.xaxis.converter` to `PeriodConverter`. I thought that letting `PeriodConverter` handle datetime64 data this would solve the above issue, but when doing a `ax.plot(..)` apparenlty does not use the set converter, but overwrites it with a new converter:\r\n\r\n```\r\nIn [16]: s = pd.Series(np.random.randn(100), index=pd.date_range('1970-01-02', periods=100, freq='T'))\r\n    ...: fig, ax = plt.subplots()\r\n    ...: s.plot(ax=ax)\r\nOut[16]: <matplotlib.axes._subplots.AxesSubplot at 0x7f326f52def0>\r\n\r\nIn [17]: ax.xaxis.converter\r\nOut[17]: <pandas.plotting._converter.PeriodConverter at 0x7f3275a03c88>\r\n\r\nIn [19]: ax.plot(s.index, s.values, color='g')\r\nOut[19]: [<matplotlib.lines.Line2D at 0x7f326bca04a8>]\r\n\r\nIn [20]: ax.xaxis.converter\r\nOut[20]: <pandas.plotting._converter.DatetimeConverter at 0x7f3275a03c50>   <--- changed !!\r\n```\r\n\r\nGiven that, this is not something we can solve in pandas.\r\n\r\nI opened a PR with the small fix and xfailing test, as the actual fix is useful anyway IMO (https://github.com/pandas-dev/pandas/pull/18468)"
+  }
+]

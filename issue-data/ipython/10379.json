@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/284214346",
+    "html_url": "https://github.com/ipython/ipython/issues/10379#issuecomment-284214346",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10379",
+    "id": 284214346,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NDIxNDM0Ng==",
+    "user": {
+      "login": "dumpling001",
+      "id": 14249297,
+      "node_id": "MDQ6VXNlcjE0MjQ5Mjk3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14249297?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dumpling001",
+      "html_url": "https://github.com/dumpling001",
+      "followers_url": "https://api.github.com/users/dumpling001/followers",
+      "following_url": "https://api.github.com/users/dumpling001/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dumpling001/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dumpling001/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dumpling001/subscriptions",
+      "organizations_url": "https://api.github.com/users/dumpling001/orgs",
+      "repos_url": "https://api.github.com/users/dumpling001/repos",
+      "events_url": "https://api.github.com/users/dumpling001/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dumpling001/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-05T08:48:48Z",
+    "updated_at": "2017-03-05T08:50:07Z",
+    "author_association": "NONE",
+    "body": "The reason is that, an url function is out of date, like this:\r\n> return doc('div[class=\"wx-rb bg-blue wx-rb_v1 _item\"]').attr('href')      \r\n\r\nand there is no problem after updating it by:\r\n>return doc('a[uigs=\"account_name_0\"]').attr('href')\r\n\r\n"
+  }
+]

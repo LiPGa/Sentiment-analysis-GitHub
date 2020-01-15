@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5286317",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/865#issuecomment-5286317",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/865",
+    "id": 5286317,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUyODYzMTc=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-23T17:15:53Z",
+    "updated_at": "2012-04-23T17:15:53Z",
+    "author_association": "MEMBER",
+    "body": "Need to kick the tires here / write tests a bit more. Some ambiguities about how the anchored offsets work (e.g. MonthEnd, BusinessMonthEnd)\n"
+  }
+]

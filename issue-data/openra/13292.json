@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/301304446",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/13292#issuecomment-301304446",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/13292",
+    "id": 301304446,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMTMwNDQ0Ng==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-14T10:51:38Z",
+    "updated_at": "2017-05-14T10:51:38Z",
+    "author_association": "MEMBER",
+    "body": "https://github.com/OpenRA/OpenRA/wiki/Changelog-(bleed)/_compare/ac6add094c03d22cbf311567e9c223e8205e071c"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/2531265",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/295#issuecomment-2531265",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/295",
+    "id": 2531265,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MzEyNjU=",
+    "user": {
+      "login": "hammer",
+      "id": 15233,
+      "node_id": "MDQ6VXNlcjE1MjMz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15233?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hammer",
+      "html_url": "https://github.com/hammer",
+      "followers_url": "https://api.github.com/users/hammer/followers",
+      "following_url": "https://api.github.com/users/hammer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hammer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hammer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hammer/subscriptions",
+      "organizations_url": "https://api.github.com/users/hammer/orgs",
+      "repos_url": "https://api.github.com/users/hammer/repos",
+      "events_url": "https://api.github.com/users/hammer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hammer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-10-26T14:54:07Z",
+    "updated_at": "2011-10-26T14:54:07Z",
+    "author_association": "NONE",
+    "body": "Messed up the pull request. Closing. See #296 for actual issue.\n"
+  }
+]

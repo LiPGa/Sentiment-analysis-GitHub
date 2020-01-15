@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/405838730",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21950#issuecomment-405838730",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21950",
+    "id": 405838730,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNTgzODczMA==",
+    "user": {
+      "login": "h-vetinari",
+      "id": 33685575,
+      "node_id": "MDQ6VXNlcjMzNjg1NTc1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33685575?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/h-vetinari",
+      "html_url": "https://github.com/h-vetinari",
+      "followers_url": "https://api.github.com/users/h-vetinari/followers",
+      "following_url": "https://api.github.com/users/h-vetinari/following{/other_user}",
+      "gists_url": "https://api.github.com/users/h-vetinari/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/h-vetinari/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/h-vetinari/subscriptions",
+      "organizations_url": "https://api.github.com/users/h-vetinari/orgs",
+      "repos_url": "https://api.github.com/users/h-vetinari/repos",
+      "events_url": "https://api.github.com/users/h-vetinari/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/h-vetinari/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-18T07:36:01Z",
+    "updated_at": "2018-07-18T07:37:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "To check for myself, and as a little \"advert\" for this proposal, I wanted to see what `_get_series_list` would look like with the above deprecation (and removal of the `FutureWarning`, once `str.cat` aligns by default). This is to be compared with https://github.com/pandas-dev/pandas/blob/v0.23.3/pandas/core/strings.py#L2089\r\n\r\n```\r\ndef _get_series_list(self, others):\r\n    \"\"\"\r\n    Auxiliary function for :meth:`str.cat`. Turn potentially mixed input\r\n    into a list of Series (elements without an index must match the length\r\n    of the calling Series/Index).\r\n\r\n    Parameters\r\n    ----------\r\n    others : Series, DataFrame, np.ndarray, list-like or list-like of\r\n        objects that are either Series, Index or np.ndarray (1-dim)\r\n\r\n    Returns\r\n    -------\r\n    list : others transformed into list of Series\r\n    \"\"\"\r\n    from pandas import Index, Series, DataFrame\r\n\r\n    # self._orig is either Series or Index\r\n    idx = self._orig if isinstance(self._orig, Index) else self._orig.index\r\n\r\n    # Generally speaking, all objects without an index inherit the index\r\n    # `idx` of the calling Series/Index - i.e. must have matching length.\r\n    # Objects with an index (i.e. Series/Index/DataFrame) keep their own.\r\n    if isinstance(others, Series):\r\n        return [others]\r\n    elif isinstance(others, Index):\r\n        return [Series(others.values, index=others)]\r\n    elif isinstance(others, DataFrame):\r\n        return [others[x] for x in others]\r\n    elif isinstance(others, np.ndarray) and others.ndim == 2:\r\n        others = DataFrame(others, index=idx)\r\n        return [others[x] for x in others]\r\n    elif is_list_like(others):\r\n        others = list(others)  # ensure iterators do not get read twice etc\r\n\r\n        # in case of list-like `others`, all elements must be\r\n        # either Series/Index/np.ndarray (1-dim)...\r\n        if all(isinstance(x, (Series, Index))\r\n               or (isinstance(x, np.ndarray) and x.ndim == 1) for x in others):\r\n            los = []\r\n            while others:  # iterate through list and append each element\r\n                los = los + self._get_series_list(others.pop(0))\r\n            return los\r\n        # ... or just strings\r\n        elif all(not is_list_like(x) for x in others):\r\n            return [Series(others, index=idx)]\r\n    raise TypeError('others must be Series, Index, DataFrame, np.ndarrary or '\r\n                    'list-like (either containing only strings or containing '\r\n                    'only objects of type Series/Index/np.ndarray[1-dim])')\r\n```"
+  }
+]

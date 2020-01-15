@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/356745238",
+    "html_url": "https://github.com/ipython/ipython/issues/10976#issuecomment-356745238",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10976",
+    "id": 356745238,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1Njc0NTIzOA==",
+    "user": {
+      "login": "CJ-Wright",
+      "id": 6740689,
+      "node_id": "MDQ6VXNlcjY3NDA2ODk=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6740689?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CJ-Wright",
+      "html_url": "https://github.com/CJ-Wright",
+      "followers_url": "https://api.github.com/users/CJ-Wright/followers",
+      "following_url": "https://api.github.com/users/CJ-Wright/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CJ-Wright/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CJ-Wright/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CJ-Wright/subscriptions",
+      "organizations_url": "https://api.github.com/users/CJ-Wright/orgs",
+      "repos_url": "https://api.github.com/users/CJ-Wright/repos",
+      "events_url": "https://api.github.com/users/CJ-Wright/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CJ-Wright/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-10T21:39:09Z",
+    "updated_at": "2018-01-10T21:39:09Z",
+    "author_association": "NONE",
+    "body": "```\r\nipython                   6.2.1                    py35_0    conda-forge\r\nmatplotlib                2.1.1                    py35_0    conda-forge\r\npython                    3.5.4                         0    conda-forge\r\n```\r\n```\r\n{'commit_hash': 'ca5443062',\r\n 'commit_source': 'installation',\r\n 'default_encoding': 'UTF-8',\r\n 'ipython_path': '/home/christopher/mc/envs/dp_dev/lib/python3.5/site-packages/IPython',\r\n 'ipython_version': '6.2.1',\r\n 'os_name': 'posix',\r\n 'platform': 'Linux-4.4.0-108-generic-x86_64-with-debian-stretch-sid',\r\n 'sys_executable': '/home/christopher/mc/envs/dp_dev/bin/python',\r\n 'sys_platform': 'linux',\r\n 'sys_version': '3.5.4 | packaged by conda-forge | (default, Aug 10 2017, '\r\n                '01:38:41) \\n'\r\n                '[GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]'}\r\n```"
+  }
+]

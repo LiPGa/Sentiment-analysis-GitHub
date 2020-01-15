@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/455652772",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11583#issuecomment-455652772",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11583",
+    "id": 455652772,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NTY1Mjc3Mg==",
+    "user": {
+      "login": "d6tdev",
+      "id": 36798466,
+      "node_id": "MDQ6VXNlcjM2Nzk4NDY2",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36798466?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/d6tdev",
+      "html_url": "https://github.com/d6tdev",
+      "followers_url": "https://api.github.com/users/d6tdev/followers",
+      "following_url": "https://api.github.com/users/d6tdev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/d6tdev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/d6tdev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/d6tdev/subscriptions",
+      "organizations_url": "https://api.github.com/users/d6tdev/orgs",
+      "repos_url": "https://api.github.com/users/d6tdev/repos",
+      "events_url": "https://api.github.com/users/d6tdev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/d6tdev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-18T19:02:26Z",
+    "updated_at": "2019-01-18T19:02:26Z",
+    "author_association": "NONE",
+    "body": "This is implemented in https://github.com/d6t/d6tjoin, see example https://github.com/d6t/d6tjoin/blob/master/examples-top1.ipynb"
+  }
+]

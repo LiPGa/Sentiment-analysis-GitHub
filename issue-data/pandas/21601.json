@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/399616665",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/21601#issuecomment-399616665",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21601",
+    "id": 399616665,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5OTYxNjY2NQ==",
+    "user": {
+      "login": "ryankarlos",
+      "id": 16509490,
+      "node_id": "MDQ6VXNlcjE2NTA5NDkw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16509490?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ryankarlos",
+      "html_url": "https://github.com/ryankarlos",
+      "followers_url": "https://api.github.com/users/ryankarlos/followers",
+      "following_url": "https://api.github.com/users/ryankarlos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ryankarlos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ryankarlos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ryankarlos/subscriptions",
+      "organizations_url": "https://api.github.com/users/ryankarlos/orgs",
+      "repos_url": "https://api.github.com/users/ryankarlos/repos",
+      "events_url": "https://api.github.com/users/ryankarlos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ryankarlos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-23T00:41:28Z",
+    "updated_at": "2018-06-23T00:43:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Sorry, please ignore this PR - error on my part. "
+  }
+]

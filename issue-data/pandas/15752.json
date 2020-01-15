@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/339198577",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15752#issuecomment-339198577",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15752",
+    "id": 339198577,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzOTE5ODU3Nw==",
+    "user": {
+      "login": "tmnhat2001",
+      "id": 15841903,
+      "node_id": "MDQ6VXNlcjE1ODQxOTAz",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15841903?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tmnhat2001",
+      "html_url": "https://github.com/tmnhat2001",
+      "followers_url": "https://api.github.com/users/tmnhat2001/followers",
+      "following_url": "https://api.github.com/users/tmnhat2001/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tmnhat2001/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tmnhat2001/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tmnhat2001/subscriptions",
+      "organizations_url": "https://api.github.com/users/tmnhat2001/orgs",
+      "repos_url": "https://api.github.com/users/tmnhat2001/repos",
+      "events_url": "https://api.github.com/users/tmnhat2001/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tmnhat2001/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-25T02:55:29Z",
+    "updated_at": "2017-10-25T02:55:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi, could someone take a look at the test cases added in PR 17974? The test cases are for Series. If they are OK, I'll do the same to the remaining tests.\r\n#17974 "
+  }
+]

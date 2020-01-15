@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/446802232",
+    "html_url": "https://github.com/ipython/ipython/issues/11526#issuecomment-446802232",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11526",
+    "id": 446802232,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NjgwMjIzMg==",
+    "user": {
+      "login": "petobens",
+      "id": 2583971,
+      "node_id": "MDQ6VXNlcjI1ODM5NzE=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2583971?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/petobens",
+      "html_url": "https://github.com/petobens",
+      "followers_url": "https://api.github.com/users/petobens/followers",
+      "following_url": "https://api.github.com/users/petobens/following{/other_user}",
+      "gists_url": "https://api.github.com/users/petobens/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/petobens/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/petobens/subscriptions",
+      "organizations_url": "https://api.github.com/users/petobens/orgs",
+      "repos_url": "https://api.github.com/users/petobens/repos",
+      "events_url": "https://api.github.com/users/petobens/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/petobens/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-13T00:56:39Z",
+    "updated_at": "2018-12-13T00:56:39Z",
+    "author_association": "NONE",
+    "body": "Applying the following patch:\r\n```patch\r\n--- pygments.py 2018-12-12 21:52:06.765154645 -0300\r\n+++ pygments_mod.py      2018-12-12 21:54:27.775161086 -0300\r\n@@ -45,7 +45,10 @@\r\n     pygments_style = []\r\n\r\n     for token, style in pygments_dict.items():\r\n-        pygments_style.append((pygments_token_to_classname(token), style))\r\n+        if isinstance(token, str):\r\n+            pygments_style.append((token, style))\r\n+        else:\r\n+            pygments_style.append((pygments_token_to_classname(token), style))\r\n\r\n     return Style(pygments_style)\r\n```\r\nand using prompt tookit syles as per https://github.com/prompt-toolkit/python-prompt-toolkit/blob/master/prompt_toolkit/styles/defaults.py#L74 fixes it for me. \r\n\r\nI'm pretty sure there is a better way of doing this but I can create a PR if necessary. @jonathanslenders "
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/447595420",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24295#issuecomment-447595420",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24295",
+    "id": 447595420,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NzU5NTQyMA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-15T20:23:49Z",
+    "updated_at": "2018-12-15T20:23:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "IIUC, an API to get values for the `i`th window would suite your needs? This would be analgous to `get_group` from groupby.\r\n\r\nI'm not sure if that information is available. You could look through the `pandas/core/window.py` source code to see if it's doable."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/276134949",
+    "html_url": "https://github.com/grpc/grpc/issues/9496#issuecomment-276134949",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9496",
+    "id": 276134949,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NjEzNDk0OQ==",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-30T17:50:00Z",
+    "updated_at": "2017-01-30T17:50:00Z",
+    "author_association": "MEMBER",
+    "body": "This looks like an issue with how google-cloud-node is propagating errors. I suggest posting an issue on that repo."
+  }
+]

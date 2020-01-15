@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/357495309",
+    "html_url": "https://github.com/grpc/grpc/issues/14018#issuecomment-357495309",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14018",
+    "id": 357495309,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NzQ5NTMwOQ==",
+    "user": {
+      "login": "mandelmonkey",
+      "id": 6570295,
+      "node_id": "MDQ6VXNlcjY1NzAyOTU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6570295?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mandelmonkey",
+      "html_url": "https://github.com/mandelmonkey",
+      "followers_url": "https://api.github.com/users/mandelmonkey/followers",
+      "following_url": "https://api.github.com/users/mandelmonkey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mandelmonkey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mandelmonkey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mandelmonkey/subscriptions",
+      "organizations_url": "https://api.github.com/users/mandelmonkey/orgs",
+      "repos_url": "https://api.github.com/users/mandelmonkey/repos",
+      "events_url": "https://api.github.com/users/mandelmonkey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mandelmonkey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-14T08:08:39Z",
+    "updated_at": "2018-01-14T08:08:44Z",
+    "author_association": "NONE",
+    "body": "simple reinstall of libtool worked, \r\n\r\nalso the github install guides mentions \r\n\r\n> Tip: when building, you may want to explicitly set the LIBTOOL and LIBTOOLIZE environment variables when running make to ensure the version installed by brew is being used:"
+  }
+]

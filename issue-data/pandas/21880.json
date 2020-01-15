@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/404657527",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21880#issuecomment-404657527",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21880",
+    "id": 404657527,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNDY1NzUyNw==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-12T21:32:40Z",
+    "updated_at": "2018-07-12T21:32:40Z",
+    "author_association": "MEMBER",
+    "body": "Hmm OK - it's not immediately apparent from your example if the difference would be a result of pandas or numpy (leaning towards the latter since that's what changes between your examples) but investigation and PRs are always welcome! \r\n\r\nAt the very least looks like we don't have an ASV for `to_records` so would take that if you want to add"
+  }
+]

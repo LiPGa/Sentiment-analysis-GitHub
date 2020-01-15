@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/201909729",
+    "html_url": "https://github.com/ipython/ipython/issues/9358#issuecomment-201909729",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9358",
+    "id": 201909729,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMTkwOTcyOQ==",
+    "user": {
+      "login": "DavePActian",
+      "id": 11870350,
+      "node_id": "MDQ6VXNlcjExODcwMzUw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11870350?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DavePActian",
+      "html_url": "https://github.com/DavePActian",
+      "followers_url": "https://api.github.com/users/DavePActian/followers",
+      "following_url": "https://api.github.com/users/DavePActian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DavePActian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DavePActian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DavePActian/subscriptions",
+      "organizations_url": "https://api.github.com/users/DavePActian/orgs",
+      "repos_url": "https://api.github.com/users/DavePActian/repos",
+      "events_url": "https://api.github.com/users/DavePActian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DavePActian/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-26T18:33:19Z",
+    "updated_at": "2016-03-26T18:33:19Z",
+    "author_association": "NONE",
+    "body": "Looks like the Chrome update and a restart of Jupyter fixed the problem.\n"
+  }
+]

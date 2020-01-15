@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/410753403",
+    "html_url": "https://github.com/ipython/ipython/pull/11256#issuecomment-410753403",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11256",
+    "id": 410753403,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMDc1MzQwMw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-06T15:44:06Z",
+    "updated_at": "2018-08-06T15:44:06Z",
+    "author_association": "MEMBER",
+    "body": "> he original code in modules_path.py indicates that we want to ignore bytecode: Return full path of module or None if module is missing or does not have .py or .pyw extension. We are not interested in running bytecode.. However, there was an existing unit test that explicitly checked that .pyc filepaths were returned, rather than returning None. Is it correct to assume that we want to ignore filepaths that lead to .pyc files? This assumption has been made in this PR.\r\n\r\nI believe ignoring pyc is the right thing. This appear to be use in `deepreload` and `%run`, which you likely want to run on modified `.py`  files. So that seem the right call. \r\n\r\nIt also seem to be used _only_ there, so at some point we may want to move that somewhere else. \r\n\r\nAwesome work, that looks good to me, so merging and we'll see if we get complaints :-) "
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/361174486",
+    "html_url": "https://github.com/grpc/grpc/issues/14213#issuecomment-361174486",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14213",
+    "id": 361174486,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MTE3NDQ4Ng==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-29T08:37:17Z",
+    "updated_at": "2018-01-29T08:37:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@Horusiath  we actually used to generate interfaces, but deliberately changed to abstract classes, because interfaces aren't backward compatible when new methods are added - and that's one of the most common changes we anticipate with .proto service definitions (the problem with interfaces is that they don't allow providing default implementation, so regenerating a .proto file with new service methods added will result in breaking the build - as the user-written implementations don't implement the new methods).\r\nThe change from interfaces has been done here: https://github.com/grpc/grpc/pull/5928 (and there are links to the original issue).\r\nClosing this issue as \"working is intended\"."
+  }
+]

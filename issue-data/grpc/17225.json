@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/461190235",
+    "html_url": "https://github.com/grpc/grpc/issues/17225#issuecomment-461190235",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17225",
+    "id": 461190235,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MTE5MDIzNQ==",
+    "user": {
+      "login": "mhaidrygoog",
+      "id": 42048362,
+      "node_id": "MDQ6VXNlcjQyMDQ4MzYy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42048362?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mhaidrygoog",
+      "html_url": "https://github.com/mhaidrygoog",
+      "followers_url": "https://api.github.com/users/mhaidrygoog/followers",
+      "following_url": "https://api.github.com/users/mhaidrygoog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhaidrygoog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhaidrygoog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhaidrygoog/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhaidrygoog/orgs",
+      "repos_url": "https://api.github.com/users/mhaidrygoog/repos",
+      "events_url": "https://api.github.com/users/mhaidrygoog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhaidrygoog/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-06T21:15:38Z",
+    "updated_at": "2019-02-06T21:15:38Z",
+    "author_association": "MEMBER",
+    "body": "I think this may be achieved by implementing a grpc_socket_mutator and set the appropriate option in the mutate callback.\r\n@apolcyn Could you please confirm?"
+  }
+]

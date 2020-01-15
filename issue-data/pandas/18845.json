@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/355156377",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18845#issuecomment-355156377",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18845",
+    "id": 355156377,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NTE1NjM3Nw==",
+    "user": {
+      "login": "kylekeppler",
+      "id": 14239619,
+      "node_id": "MDQ6VXNlcjE0MjM5NjE5",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14239619?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kylekeppler",
+      "html_url": "https://github.com/kylekeppler",
+      "followers_url": "https://api.github.com/users/kylekeppler/followers",
+      "following_url": "https://api.github.com/users/kylekeppler/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kylekeppler/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kylekeppler/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kylekeppler/subscriptions",
+      "organizations_url": "https://api.github.com/users/kylekeppler/orgs",
+      "repos_url": "https://api.github.com/users/kylekeppler/repos",
+      "events_url": "https://api.github.com/users/kylekeppler/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kylekeppler/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-03T23:24:17Z",
+    "updated_at": "2018-01-03T23:24:17Z",
+    "author_association": "NONE",
+    "body": "Seconded. Seeing the same thing when I create a custom dialect."
+  }
+]

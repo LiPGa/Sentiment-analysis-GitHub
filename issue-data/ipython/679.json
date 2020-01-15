@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/1734059",
+    "html_url": "https://github.com/ipython/ipython/pull/679#issuecomment-1734059",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/679",
+    "id": 1734059,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MzQwNTk=",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-08-05T09:37:00Z",
+    "updated_at": "2011-08-05T09:37:00Z",
+    "author_association": "MEMBER",
+    "body": "This seems sensible. I'm planning, when I have time, to pull out the methods for reading history into a `HistoryAccessor` class which can be instantiated without an `InteractiveShell`, so it can be used by tools for browsing or dumping history. `HistoryManager` will then subclass that, and add the methods for storing history from the shell.\n"
+  }
+]

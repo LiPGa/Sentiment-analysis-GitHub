@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/277540618",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8758#issuecomment-277540618",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8758",
+    "id": 277540618,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NzU0MDYxOA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-05T19:01:07Z",
+    "updated_at": "2017-02-05T19:01:07Z",
+    "author_association": "MEMBER",
+    "body": "This was fixed by #11862.  The beacon poster is now shown on top of the health bar unless you actively mouse over the actor."
+  }
+]

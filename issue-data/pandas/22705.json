@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/423974831",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22705#issuecomment-423974831",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22705",
+    "id": 423974831,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMzk3NDgzMQ==",
+    "user": {
+      "login": "PatrickDRusk",
+      "id": 17709454,
+      "node_id": "MDQ6VXNlcjE3NzA5NDU0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/17709454?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/PatrickDRusk",
+      "html_url": "https://github.com/PatrickDRusk",
+      "followers_url": "https://api.github.com/users/PatrickDRusk/followers",
+      "following_url": "https://api.github.com/users/PatrickDRusk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/PatrickDRusk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/PatrickDRusk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/PatrickDRusk/subscriptions",
+      "organizations_url": "https://api.github.com/users/PatrickDRusk/orgs",
+      "repos_url": "https://api.github.com/users/PatrickDRusk/repos",
+      "events_url": "https://api.github.com/users/PatrickDRusk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/PatrickDRusk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-24T13:30:16Z",
+    "updated_at": "2018-09-24T13:31:32Z",
+    "author_association": "NONE",
+    "body": "If this deprecation is going to happen, the warning message should probably change its recommendation to something more reliable. I believe this would work:\r\n```python\r\npandas.DataFrame([i[1] for i in items], index=[i[0] for i in items], columns=columns)\r\n```"
+  }
+]

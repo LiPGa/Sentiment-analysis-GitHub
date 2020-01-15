@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/441480828",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/15858#issuecomment-441480828",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15858",
+    "id": 441480828,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MTQ4MDgyOA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-25T22:45:22Z",
+    "updated_at": "2018-11-25T22:45:22Z",
+    "author_association": "MEMBER",
+    "body": "Simplest approach is probably to pass a `shouldCheckSync` parameter into `CheckSyncUnchanged` instead of hardcoding `Game.Settings.Debug.SanityCheckUnsyncedCode` internally."
+  }
+]

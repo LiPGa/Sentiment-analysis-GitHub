@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/92038315",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7929#issuecomment-92038315",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7929",
+    "id": 92038315,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkyMDM4MzE1",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-12T11:23:24Z",
+    "updated_at": "2015-04-12T11:24:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Indeed. This broke Fort Lonestar on bleed. :/\n\n```\nException of type `System.ArgumentNullException`: Argument cannot be null.\nParameter name: key\n  at System.Collections.Generic.Dictionary`2[System.String,OpenRA.Graphics.MappedImage].TryGetValue (System.String key, OpenRA.Graphics.MappedImage& value) [0x00000] in <filename unknown>:0 \n  at OpenRA.Graphics.ChromeProvider.GetImage (System.String collectionName, System.String imageName) [0x00065] in /home/oliver/devel/openra/git/OpenRA.Game/Graphics/ChromeProvider.cs:100 \n  at OpenRA.Mods.Common.Widgets.ImageWidget.Draw () [0x0001b] in /home/oliver/devel/openra/git/OpenRA.Mods.Common/Widgets/ImageWidget.cs:48 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00013] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:410 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Mods.Common.Widgets.ScrollPanelWidget.DrawOuter () [0x003f7] in /home/oliver/devel/openra/git/OpenRA.Mods.Common/Widgets/ScrollPanelWidget.cs:162 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Widget.DrawOuter () [0x00033] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:412 \n  at OpenRA.Widgets.Ui.Draw () [0x00006] in /home/oliver/devel/openra/git/OpenRA.Game/Widgets/Widget.cs:77 \n  at OpenRA.Game.RenderTick () [0x000b0] in /home/oliver/devel/openra/git/OpenRA.Game/Game.cs:507 \n  at OpenRA.Game.Loop () [0x0013e] in /home/oliver/devel/openra/git/OpenRA.Game/Game.cs:620 \n  at OpenRA.Game.Run () [0x00042] in /home/oliver/devel/openra/git/OpenRA.Game/Game.cs:638 \n  at OpenRA.Program.Run (System.String[] args) [0x00011] in /home/oliver/devel/openra/git/OpenRA.Game/Support/Program.cs:111 \n  at OpenRA.Program.Main (System.String[] args) [0x00050] in /home/oliver/devel/openra/git/OpenRA.Game/Support/Program.cs:39 \n```\n"
+  }
+]

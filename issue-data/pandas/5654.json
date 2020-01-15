@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/30018078",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5654#issuecomment-30018078",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5654",
+    "id": 30018078,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMDE4MDc4",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-12-06T18:42:08Z",
+    "updated_at": "2013-12-06T18:43:43Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This was a missed case, thanks!\n0.13 underwent a large internal refactoring so easy to miss some things.\n\nNote that in general you don't want to use apply if you can vectorize the calculation (in this case you can't of course),\n\nBest way (unchanged by this PR)\n\n```\nIn [6]: %timeit df.corrwith(df,axis=0)\n1 loops, best of 3: 703 ms per loop\n```\n\n#5656\n\n```\nIn [1]: s = Series(np.arange(4096.))\n\nIn [2]: df = DataFrame({ i:s for i in range(4096) })\n\nIn [3]: %timeit -n 3 df.apply(lambda x: np.corrcoef(x,s)[0,1])\n3 loops, best of 3: 1.13 s per loop\n\nIn [4]: %timeit -n 3 df.apply(lambda x: np.corrcoef(x.values,s.values)[0,1])\n3 loops, best of 3: 938 ms per loop\n```\n\nbefore this PR\n\n```\nIn [3]: %timeit -n 3 df.apply(lambda x: np.corrcoef(x,s)[0,1])\n3 loops, best of 3: 1.53 s per loop\n```\n\n0.12\n\n```\nIn [3]: %timeit -n 3 df.apply(lambda x: np.corrcoef(x,s)[0,1])\n3 loops, best of 3: 793 ms per loop\n\nIn [4]: %timeit -n 3 df.apply(lambda x: np.corrcoef(x.values,s.values)[0,1])\n3 loops, best of 3: 812 ms per loop\n```\n"
+  }
+]

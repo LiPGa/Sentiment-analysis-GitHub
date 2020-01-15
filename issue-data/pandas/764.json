@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/3870478",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/764#issuecomment-3870478",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/764",
+    "id": 3870478,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NzA0Nzg=",
+    "user": {
+      "login": "adamklein",
+      "id": 869232,
+      "node_id": "MDQ6VXNlcjg2OTIzMg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/869232?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamklein",
+      "html_url": "https://github.com/adamklein",
+      "followers_url": "https://api.github.com/users/adamklein/followers",
+      "following_url": "https://api.github.com/users/adamklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamklein/orgs",
+      "repos_url": "https://api.github.com/users/adamklein/repos",
+      "events_url": "https://api.github.com/users/adamklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-02-08T16:28:40Z",
+    "updated_at": "2012-02-08T16:28:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Code to construct df:\n\n```\narrays = [[  'a',   'b',   'c',    'top',    'top', 'routine1', 'routine1', 'routine2'],\n        [   '',    '',    '',     'OD',     'OD', 'result1',   'result2', 'result1'],\n        [   '',    '',    '',     'wx',     'wy',        '',          '',        '']]\n\ntuples = zip(*arrays)\ntuples.sort()\nindex = MultiIndex.from_tuples(tuples)\n\ndf = DataFrame(randn(3,8), columns=index)\n```\n"
+  }
+]

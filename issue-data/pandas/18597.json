@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/348572349",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18597#issuecomment-348572349",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18597",
+    "id": 348572349,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0ODU3MjM0OQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-01T18:32:34Z",
+    "updated_at": "2017-12-01T18:33:26Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> Dict initialization shouldn't copy input ndarrays.\r\n\r\nthis is *only* true for a single 1-d array passed in, passing in multiple items will copy them into the internal structures. You can try not copying in this specific case if you want."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/89722001",
+    "html_url": "https://github.com/grpc/grpc/issues/1197#issuecomment-89722001",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1197",
+    "id": 89722001,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg5NzIyMDAx",
+    "user": {
+      "login": "atombender",
+      "id": 50314,
+      "node_id": "MDQ6VXNlcjUwMzE0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50314?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/atombender",
+      "html_url": "https://github.com/atombender",
+      "followers_url": "https://api.github.com/users/atombender/followers",
+      "following_url": "https://api.github.com/users/atombender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/atombender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/atombender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/atombender/subscriptions",
+      "organizations_url": "https://api.github.com/users/atombender/orgs",
+      "repos_url": "https://api.github.com/users/atombender/repos",
+      "events_url": "https://api.github.com/users/atombender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/atombender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-05T05:48:46Z",
+    "updated_at": "2015-04-05T05:48:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I was able to get further by editing `~/.node-gyp/0.10.33/common.gypi` from:\n\n```\n          'MACOSX_DEPLOYMENT_TARGET': '10.5',       # -mmacosx-version-min=10.5\n          'USE_HEADERMAP': 'NO',\n          'OTHER_CFLAGS': [\n            '-fno-strict-aliasing'\n          ],\n```\n\nto:\n\n```\n          'MACOSX_DEPLOYMENT_TARGET': '10.7',       # -mmacosx-version-min=10.5\n          'USE_HEADERMAP': 'NO',\n          'OTHER_CFLAGS': [\n            '-fno-strict-aliasing',\n            '-std=c++11',\n            '-stdlib=libc++'\n          ],\n```\n\nAs far as I can see, this is an [open issue](https://github.com/TooTallNate/node-gyp/issues/469) with node-gyp, but it can be solved locally by adding the following to: `binding.gyp`:\n\n```\n      \"conditions\": [\n        ['OS==\"mac\"', {\n          'xcode_settings': {\n            'MACOSX_DEPLOYMENT_TARGET': '10.9',\n            'OTHER_CFLAGS': [\n              '-fno-strict-aliasing',\n              '-std=c++11',\n              '-stdlib=libc++'\n            ]\n          }\n        }]\n      ],\n```\n\nHowever, it now fails with:\n\n`ld: library not found for -lrt`\n\n`librt` is not included with OS X, so we need a conditional for this, too.\n\nI will do a pull request with these changes.\n"
+  }
+]

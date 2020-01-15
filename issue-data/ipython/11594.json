@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/461481976",
+    "html_url": "https://github.com/ipython/ipython/issues/11594#issuecomment-461481976",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11594",
+    "id": 461481976,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MTQ4MTk3Ng==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-07T15:54:02Z",
+    "updated_at": "2019-02-07T15:54:02Z",
+    "author_association": "MEMBER",
+    "body": "Yes, the IPython machinery is attempting to detect leading indent and remove them. This is to handle text that might be copy-pasted from other source (like the web) that may include leading indent. \r\n\r\nIt will also automatically strip leading `>>>`, `...`, `... :` and `In [x]` prompt. "
+  }
+]

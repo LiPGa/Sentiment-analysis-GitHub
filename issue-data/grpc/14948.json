@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/378843189",
+    "html_url": "https://github.com/grpc/grpc/issues/14948#issuecomment-378843189",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14948",
+    "id": 378843189,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3ODg0MzE4OQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-05T07:20:22Z",
+    "updated_at": "2018-04-05T07:20:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\r\nstart client\r\n\"run default\"\r\nstart client\r\n\"run gc stress\"\r\nstart client\r\n\"run concurrency stress\"\r\n/var/local/git/grpc/src/ruby/end2end/grpc_class_init_client.rb:57:in `run_concurrency_stress_test': (expected) exception thrown while child thread initing class (RuntimeError)\r\n\tfrom /var/local/git/grpc/src/ruby/end2end/grpc_class_init_client.rb:119:in `main'\r\n\tfrom /var/local/git/grpc/src/ruby/end2end/grpc_class_init_client.rb:128:in `<main>'\r\nstart client\r\n\"run default\"\r\nstart client\r\n\"run gc stress\"\r\nstart client\r\n\"run concurrency stress\"\r\n/var/local/git/grpc/src/ruby/end2end/grpc_class_init_client.rb:57:in `run_concurrency_stress_test': (expected) exception thrown while child thread initing class (RuntimeError)\r\n\tfrom /var/local/git/grpc/src/ruby/end2end/grpc_class_init_client.rb:119:in `main'\r\n\tfrom /var/local/git/grpc/src/ruby/end2end/grpc_class_init_client.rb:128:in `<main>'\r\n+ ruby src/ruby/end2end/multiple_killed_watching_threads_driver.rb\r\nruby: src/core/lib/gpr/sync.cc:93: void gpr_ref_non_zero(gpr_refcount*): Assertion `prior > 0' failed.\r\ntools/run_tests/helper_scripts/run_ruby_end2end_tests.sh: line 29: 17798 Aborted                 (core dumped) ruby src/ruby/end2end/multiple_killed_watching_threads_driver.rb\r\n+ EXIT_CODE=1\r\n+ ruby src/ruby/end2end/load_grpc_with_gc_stress_driver.rb\r\n+ ruby src/ruby/end2end/client_memory_usage_driver.rb\r\nstart server\r\nstart client\r\nclient_control_port ignored\r\nSucceeded in getting memory usage for 200 times\r\n+ exit 1\r\nCommand exited with non-zero status 1\r\nreal 49.52\r\nuser 37.76\r\nsys 1.10\r\n\r\n2018-04-03 16:03:45,617 FAILED: tools/run_tests/helper_scripts/run_ruby_end2end_tests.sh [ret=1, pid=10271, time=49.5sec]\r\n```"
+  }
+]

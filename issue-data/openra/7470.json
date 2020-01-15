@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/74327805",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7470#issuecomment-74327805",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7470",
+    "id": 74327805,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc0MzI3ODA1",
+    "user": {
+      "login": "xan2622",
+      "id": 1732773,
+      "node_id": "MDQ6VXNlcjE3MzI3NzM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1732773?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xan2622",
+      "html_url": "https://github.com/xan2622",
+      "followers_url": "https://api.github.com/users/xan2622/followers",
+      "following_url": "https://api.github.com/users/xan2622/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xan2622/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xan2622/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xan2622/subscriptions",
+      "organizations_url": "https://api.github.com/users/xan2622/orgs",
+      "repos_url": "https://api.github.com/users/xan2622/repos",
+      "events_url": "https://api.github.com/users/xan2622/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xan2622/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-13T21:13:42Z",
+    "updated_at": "2015-02-13T22:06:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The glyphs are in the chrome.png file (so it's not a problem with missing artwork): \nhttps://raw.githubusercontent.com/OpenRA/OpenRA/bleed/mods/d2k/uibits/chrome.png\n\nPR pending...\n"
+  }
+]

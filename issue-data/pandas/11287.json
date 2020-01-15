@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/147208330",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11287#issuecomment-147208330",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11287",
+    "id": 147208330,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0NzIwODMzMA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-11T15:06:17Z",
+    "updated_at": "2015-10-11T15:06:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is the same issue I noted here: https://github.com/pydata/pandas/issues/10822\n\nit fails on windows (so is skipped), but cannot repro on travis/macosx. Its supposed to fail parsing and a raise a `ValueError` instead in raises a `TypeError`; note that this is actually hits `dateutil`. If you'd like to dig in and see where it is failing then we can modify the test.\n"
+  }
+]

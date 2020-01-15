@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/4038073",
+    "html_url": "https://github.com/ipython/ipython/issues/1412#issuecomment-4038073",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1412",
+    "id": 4038073,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMzgwNzM=",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-02-18T22:55:33Z",
+    "updated_at": "2012-02-18T22:57:48Z",
+    "author_association": "MEMBER",
+    "body": "git bisect reveals f5687fc7e0d0c5d373f8e6e26d7908716e7ec9fb as the offender.\n\nThe issue is the new var_expand, which uses a DollarFormatter, rather than ItplNS. Formerly, `$` was the only expansion, but since we now use string formatting, the `{name}` syntax is acceptable, and the magic is trying to format the string.  This wasn't an issue, because variables wer unambiguous, as they were not Python syntax, but they are now.\n\nThe magic argument transform is proving itself to be in irredeemable mess, and needs to be reconsidered in a much cleaner way.  For instance, this var_expand call should never be made on magics that aren't shell-ish.\n\nTemporary workaround to just disable variable expansion, if you need it:\n\n``` python\nget_ipython().var_expand = lambda s, *args, **kwargs: s\n```\n"
+  }
+]

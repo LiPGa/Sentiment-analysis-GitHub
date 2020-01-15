@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/413074336",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22352#issuecomment-413074336",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22352",
+    "id": 413074336,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMzA3NDMzNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-15T02:22:02Z",
+    "updated_at": "2018-08-15T02:22:02Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looks like a dupe of https://github.com/pandas-dev/pandas/issues/21360 (which has a couple comments, so we'll consolidate there).\r\n\r\nA PR would be *very* welcome for these.\r\n\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/354623800",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19020#issuecomment-354623800",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19020",
+    "id": 354623800,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NDYyMzgwMA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-31T21:05:40Z",
+    "updated_at": "2017-12-31T21:05:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "doc-string is dict or list of dicts, so what you are doing is not supported. what you *could* do is check for ``is_dict_like`` and if not do ``dict(obj)``. This function is not in any way aware of Series. (as you would normally NOT have embedded Series *inside* a dataframe, just lists and dicts. You would have to work very hard to get it there in the first place.\r\n\r\nIf you want to push a PR to fix, ok\r\n\r\n```\r\nSignature: json_normalize(data, record_path=None, meta=None, meta_prefix=None, record_prefix=None, errors='raise', sep='.')\r\nDocstring:\r\n\"Normalize\" semi-structured JSON data into a flat table\r\n\r\nParameters\r\n----------\r\ndata : dict or list of dicts\r\n    Unserialized JSON objects\r\n```"
+  }
+]

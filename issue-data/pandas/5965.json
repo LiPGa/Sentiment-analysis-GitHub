@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/32459719",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5965#issuecomment-32459719",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5965",
+    "id": 32459719,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNDU5NzE5",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-01-16T11:05:06Z",
+    "updated_at": "2014-01-16T11:13:58Z",
+    "author_association": "NONE",
+    "body": "Thanks for reporting this, it has already been fixed (#5844) and will be part of the \nnext 0.13.1 release. I've uploaded a corrected tarball to github releases, so you can immediately:\n\n`pip install https://github.com/pydata/pandas/releases/download/v0.13.0/pandas-0.13.0.tar.gz`\n\nI'll send the word out to get the fixed version uploaded to pypi as well, that might\ntake a few days though.\n\nIn the future, it would be a great help if you pitch in and test the RC release when we\nannounce it and help us catch these problems earlier. Thanks.\n"
+  }
+]

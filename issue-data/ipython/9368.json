@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/205761499",
+    "html_url": "https://github.com/ipython/ipython/issues/9368#issuecomment-205761499",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9368",
+    "id": 205761499,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNTc2MTQ5OQ==",
+    "user": {
+      "login": "lesteve",
+      "id": 1680079,
+      "node_id": "MDQ6VXNlcjE2ODAwNzk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1680079?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lesteve",
+      "html_url": "https://github.com/lesteve",
+      "followers_url": "https://api.github.com/users/lesteve/followers",
+      "following_url": "https://api.github.com/users/lesteve/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lesteve/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lesteve/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lesteve/subscriptions",
+      "organizations_url": "https://api.github.com/users/lesteve/orgs",
+      "repos_url": "https://api.github.com/users/lesteve/repos",
+      "events_url": "https://api.github.com/users/lesteve/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lesteve/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-05T11:21:13Z",
+    "updated_at": "2016-04-05T11:21:13Z",
+    "author_association": "NONE",
+    "body": "git bisect tells me 1404412 is the commit where the behaviour changed.\n\nThe script I used in `git bisect run`:\n\n``` python\nimport sys\nimport subprocess\nimport threading\n\n\ndef check_subprocess_call(cmd, timeout=1):\n    \"\"\"Runs a command in a subprocess with timeout in seconds.\n\n    Exits with 0 if the timeout was reached, 1 otherwise.\n    \"\"\"\n    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE,\n                            stderr=subprocess.PIPE)\n\n    def kill_process():\n        proc.kill()\n\n    timer = threading.Timer(timeout, kill_process)\n    try:\n        timer.start()\n        proc.wait()\n        # process was not killed\n        if proc.returncode != -9:\n            sys.exit(1)\n    finally:\n        timer.cancel()\n\ncheck_subprocess_call('ipython /tmp/test.py'.split(), timeout=3)\n```\n\nIn `tmp/test.py`:\n\n``` python\nx = 0\n1/x\n```\n\nBut actually looking at it in more details, it looks like this has been fixed in master since https://github.com/ipython/ipython/commit/e697dfcf32df11132f4a17fba7302e3980f4c00f, sorry for the noise ... For the record the fix hasn't made it in any released version.\n"
+  }
+]

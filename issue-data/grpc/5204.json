@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/183074921",
+    "html_url": "https://github.com/grpc/grpc/issues/5204#issuecomment-183074921",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/5204",
+    "id": 183074921,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4MzA3NDkyMQ==",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-11T21:55:51Z",
+    "updated_at": "2016-02-11T21:55:51Z",
+    "author_association": "MEMBER",
+    "body": "I attempted to run this on a clean Windows VM. The gem install command worked without a problem. The command to run the server fails with this error:\n\n```\nbundler: not executable: ./greeter_server.rb\n```\n\nIf git is not installed, the command instead fails attempting to read the gemspec.\n\nIf I instead attempt to just run `ruby ./greeter_server`, I get the following output:\n\n```\nC:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require': cannot load such file -- google/protobuf_c\n (LoadError)\n        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'\n        from C:/Ruby22/lib/ruby/gems/2.2.0/gems/google-protobuf-3.0.0.alpha.5.0.3-x86-mingw32/lib/google/protobuf.rb:50:\nin `rescue in <top (required)>'\n        from C:/Ruby22/lib/ruby/gems/2.2.0/gems/google-protobuf-3.0.0.alpha.5.0.3-x86-mingw32/lib/google/protobuf.rb:47:\nin `<top (required)>'\n        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'\n        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'\n        from C:/Users/mlumish/grpc/examples/ruby/lib/helloworld.rb:4:in `<top (required)>'\n        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'\n        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'\n        from C:/Users/mlumish/grpc/examples/ruby/lib/helloworld_services.rb:5:in `<top (required)>'\n        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'\n        from C:/Ruby22/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'\n        from ./greeter_server.rb:41:in `<main>'\u0000\n```\n\nI can run `irb`, do `require \"grpc\"`, and create a server with `GRPC::RpcServer::new`.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/255069410",
+    "html_url": "https://github.com/grpc/grpc/issues/8434#issuecomment-255069410",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8434",
+    "id": 255069410,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NTA2OTQxMA==",
+    "user": {
+      "login": "syzh",
+      "id": 9971735,
+      "node_id": "MDQ6VXNlcjk5NzE3MzU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9971735?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/syzh",
+      "html_url": "https://github.com/syzh",
+      "followers_url": "https://api.github.com/users/syzh/followers",
+      "following_url": "https://api.github.com/users/syzh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/syzh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/syzh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/syzh/subscriptions",
+      "organizations_url": "https://api.github.com/users/syzh/orgs",
+      "repos_url": "https://api.github.com/users/syzh/repos",
+      "events_url": "https://api.github.com/users/syzh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/syzh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-20T10:29:35Z",
+    "updated_at": "2016-10-20T10:30:24Z",
+    "author_association": "NONE",
+    "body": "fixed:\n\n``` bash\n$diff node_modules/grpc/src/node/src/server.js node_modules/grpc/src/node/src/newserver.js\n120a121\n>   var message = serialize(value);\n130d130\n<   var message = serialize(value);\n```\n"
+  }
+]

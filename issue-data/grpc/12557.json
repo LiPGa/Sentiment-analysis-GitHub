@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/329546863",
+    "html_url": "https://github.com/grpc/grpc/pull/12557#issuecomment-329546863",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12557",
+    "id": 329546863,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyOTU0Njg2Mw==",
+    "user": {
+      "login": "AspirinSJL",
+      "id": 3314176,
+      "node_id": "MDQ6VXNlcjMzMTQxNzY=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3314176?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AspirinSJL",
+      "html_url": "https://github.com/AspirinSJL",
+      "followers_url": "https://api.github.com/users/AspirinSJL/followers",
+      "following_url": "https://api.github.com/users/AspirinSJL/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AspirinSJL/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AspirinSJL/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AspirinSJL/subscriptions",
+      "organizations_url": "https://api.github.com/users/AspirinSJL/orgs",
+      "repos_url": "https://api.github.com/users/AspirinSJL/repos",
+      "events_url": "https://api.github.com/users/AspirinSJL/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AspirinSJL/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-14T17:05:31Z",
+    "updated_at": "2017-09-14T17:05:31Z",
+    "author_association": "MEMBER",
+    "body": "Know issues:\r\n\r\n- Basic Tests MacOS [dbg] (internal CI) : #12138 \r\n- Basic Tests MacOS [opt] (internal CI): #12138\r\n- Interop Cloud-to-Cloud Tests (internal CI): ?\r\n- Portability Tests Windows [Build Only] (internal CI): ?\r\n- gRPC_interop_pull_requests: #12575, #12576\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/5339104",
+    "html_url": "https://github.com/ipython/ipython/issues/1512#issuecomment-5339104",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1512",
+    "id": 5339104,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzMzkxMDQ=",
+    "user": {
+      "login": "bfroehle",
+      "id": 204333,
+      "node_id": "MDQ6VXNlcjIwNDMzMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/204333?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bfroehle",
+      "html_url": "https://github.com/bfroehle",
+      "followers_url": "https://api.github.com/users/bfroehle/followers",
+      "following_url": "https://api.github.com/users/bfroehle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bfroehle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bfroehle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bfroehle/subscriptions",
+      "organizations_url": "https://api.github.com/users/bfroehle/orgs",
+      "repos_url": "https://api.github.com/users/bfroehle/repos",
+      "events_url": "https://api.github.com/users/bfroehle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bfroehle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-25T18:53:04Z",
+    "updated_at": "2012-04-25T18:53:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The problem, of course, lies with `InteractiveShell.run_code`...\n\n```\nIn [118]: cpaste\nPasting code; enter '--' alone on the line to stop or use Ctrl-D.\n: import ast\n: code_ast = compile(\"print 1,; print 2\", \"<unknown>\", \"exec\", ast.PyCF_ONLY_AST, 1)\n: p1, p2 = code_ast.body\n: c1 = compile(ast.Module([p1]), \"<unknown>\", \"exec\", 0, 1)\n: c2 = compile(ast.Module([p2]), \"<unknown>\", \"exec\", 0, 1)\n:\n: print \"exec:\"\n: exec 'exec c1; exec c2'\n:\n: print\n: print \"ip.run_code:\"\n: ip = get_ipython()\n: exec \"ip.run_code(c1); ip.run_code(c2)\"\n:<EOF>\nexec:\n1 2\n\nip.run_code:\n1\n2\n```\n\nIn particular, it arises from the softspace handling:\n\n```\n    def run_code(self, code_obj):\n        # ...\n        exec code_obj in self.user_global_ns, self.user_ns\n        # ...\n        if softspace(sys.stdout, 0):\n                print\n```\n\nPerhaps we need a `flush_softspace` option, which can control whether we flush the softspace and print the new line?  It should default to True, but we could force it to be False when running lines with multiple commands.\n"
+  }
+]

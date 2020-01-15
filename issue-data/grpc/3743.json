@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/151710351",
+    "html_url": "https://github.com/grpc/grpc/issues/3743#issuecomment-151710351",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/3743",
+    "id": 151710351,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MTcxMDM1MQ==",
+    "user": {
+      "login": "stableShip",
+      "id": 2979404,
+      "node_id": "MDQ6VXNlcjI5Nzk0MDQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2979404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stableShip",
+      "html_url": "https://github.com/stableShip",
+      "followers_url": "https://api.github.com/users/stableShip/followers",
+      "following_url": "https://api.github.com/users/stableShip/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stableShip/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stableShip/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stableShip/subscriptions",
+      "organizations_url": "https://api.github.com/users/stableShip/orgs",
+      "repos_url": "https://api.github.com/users/stableShip/repos",
+      "events_url": "https://api.github.com/users/stableShip/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stableShip/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-28T03:26:07Z",
+    "updated_at": "2015-10-28T03:26:42Z",
+    "author_association": "NONE",
+    "body": "git clone the lastest version,same error happen.\nnode version:0.10.40. system:centos 6.6\n![image](https://cloud.githubusercontent.com/assets/2979404/10779042/c0d5fa4e-7d66-11e5-9784-69261d49efc5.png)\n"
+  }
+]

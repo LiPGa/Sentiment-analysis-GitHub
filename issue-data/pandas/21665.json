@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/401166946",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21665#issuecomment-401166946",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21665",
+    "id": 401166946,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMTE2Njk0Ng==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-28T20:42:34Z",
+    "updated_at": "2018-06-28T20:42:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Whats `mo`? Is it necessary to reproduce?\r\n\r\nIIUC, `mo.universe.datedata` is a Series. Series are [dict-like](http://pandas-docs.github.io/pandas-docs-travis/dsintro.html#series-is-dict-like) (and array-like), so `in` operates on the *index*\r\n\r\n```python\r\nIn [8]: 1 in pd.Series([1, 2], index=['a', 'b'])\r\nOut[8]: False\r\n\r\nIn [9]: 'a' in pd.Series([1, 2], index=['a', 'b'])\r\nOut[9]: True\r\n```\r\n\r\nIf you have to do scalar lookups like `thing in series`, I'd recommend converting the series \r\n\r\n```python\r\ndate in pd.DatetimeIndex(series)\r\n```\r\n\r\nbut people usually vectorize these operations.\r\n\r\nLMK if I misunderstood."
+  }
+]

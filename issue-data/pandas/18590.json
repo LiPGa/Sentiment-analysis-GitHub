@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/348567278",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18590#issuecomment-348567278",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18590",
+    "id": 348567278,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0ODU2NzI3OA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-01T18:12:07Z",
+    "updated_at": "2017-12-01T18:12:07Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "``df2`` is a Resampler, which is part of a resample operation. Calling ``.info()`` is just for backward compat (and will be removed in 0.22.0 anyhow).\r\n\r\nYou actually need to perform an operation. The operations determinate dtype preservation, most often they are in fact converted to float; ``.sum()`` does try to preserve.\r\n\r\n```\r\nIn [26]: df.resample('5s').sum().info()\r\n<class 'pandas.core.frame.DataFrame'>\r\nDatetimeIndex: 2 entries, 1970-01-01 00:00:00 to 1970-01-01 00:00:05\r\nFreq: 5S\r\nData columns (total 2 columns):\r\na    2 non-null int64\r\nb    2 non-null uint64\r\ndtypes: int64(1), uint64(1)\r\nmemory usage: 48.0 bytes\r\n\r\n```"
+  }
+]

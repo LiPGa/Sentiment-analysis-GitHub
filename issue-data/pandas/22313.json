@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/412728534",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22313#issuecomment-412728534",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22313",
+    "id": 412728534,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjcyODUzNA==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-14T02:03:45Z",
+    "updated_at": "2018-08-14T02:03:45Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, it looks like this happens for all arithmetic operations:\r\n\r\n```python\r\nIn [2]: iv = pd.Interval(-1, 2, closed='both')\r\n\r\nIn [3]: iv + 2\r\nOut[3]: Interval(1, 4, closed='right')\r\n\r\nIn [4]: iv - 2\r\nOut[4]: Interval(-3, 0, closed='right')\r\n\r\nIn [5]: iv * 2\r\nOut[5]: Interval(-2, 4, closed='right')\r\n\r\nIn [6]: iv / 2\r\nOut[6]: Interval(-0.5, 1.0, closed='right')\r\n\r\nIn [7]: iv // 2\r\nOut[7]: Interval(-1, 1, closed='right')\r\n```"
+  }
+]

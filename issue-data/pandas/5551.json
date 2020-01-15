@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/28837211",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5551#issuecomment-28837211",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5551",
+    "id": 28837211,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4ODM3MjEx",
+    "user": {
+      "login": "bluefir",
+      "id": 1903683,
+      "node_id": "MDQ6VXNlcjE5MDM2ODM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1903683?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bluefir",
+      "html_url": "https://github.com/bluefir",
+      "followers_url": "https://api.github.com/users/bluefir/followers",
+      "following_url": "https://api.github.com/users/bluefir/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bluefir/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bluefir/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bluefir/subscriptions",
+      "organizations_url": "https://api.github.com/users/bluefir/orgs",
+      "repos_url": "https://api.github.com/users/bluefir/repos",
+      "events_url": "https://api.github.com/users/bluefir/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bluefir/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-11-19T21:25:57Z",
+    "updated_at": "2013-11-19T21:25:57Z",
+    "author_association": "NONE",
+    "body": "Never mind: duplicate values in the index:\n\n```\nSeries(test.index).value_counts()\n```\n\n> B17BBQ      2\n> 84265V10    2\n> 318987      2\n> B5W3ND      2\n> 015008      2\n> B1R9YB      2\n> 91820410    1\n"
+  }
+]

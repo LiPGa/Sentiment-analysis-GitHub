@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/389346658",
+    "html_url": "https://github.com/grpc/grpc/issues/11050#issuecomment-389346658",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11050",
+    "id": 389346658,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTM0NjY1OA==",
+    "user": {
+      "login": "muxi",
+      "id": 1054404,
+      "node_id": "MDQ6VXNlcjEwNTQ0MDQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1054404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muxi",
+      "html_url": "https://github.com/muxi",
+      "followers_url": "https://api.github.com/users/muxi/followers",
+      "following_url": "https://api.github.com/users/muxi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muxi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muxi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muxi/subscriptions",
+      "organizations_url": "https://api.github.com/users/muxi/orgs",
+      "repos_url": "https://api.github.com/users/muxi/repos",
+      "events_url": "https://api.github.com/users/muxi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muxi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-15T23:30:20Z",
+    "updated_at": "2018-05-15T23:30:20Z",
+    "author_association": "MEMBER",
+    "body": "As to the issue, I tried with a clean repo and the `prepare_command` trick did work. I think you should probably not check in your `Podfile.lock`.\r\n\r\nI do agree that this is not an ideal way of doing this. However we do think this fit a lot of people's need. A user may elect to check in their compiled proto if they want to, but using `prepare_command` helps guarantee the sanity (e.g. proto version mismatch issues)."
+  }
+]

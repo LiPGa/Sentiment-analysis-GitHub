@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/127032881",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8889#issuecomment-127032881",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8889",
+    "id": 127032881,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNzAzMjg4MQ==",
+    "user": {
+      "login": "reaperrr",
+      "id": 2857877,
+      "node_id": "MDQ6VXNlcjI4NTc4Nzc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2857877?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reaperrr",
+      "html_url": "https://github.com/reaperrr",
+      "followers_url": "https://api.github.com/users/reaperrr/followers",
+      "following_url": "https://api.github.com/users/reaperrr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reaperrr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reaperrr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reaperrr/subscriptions",
+      "organizations_url": "https://api.github.com/users/reaperrr/orgs",
+      "repos_url": "https://api.github.com/users/reaperrr/repos",
+      "events_url": "https://api.github.com/users/reaperrr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reaperrr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-02T15:00:41Z",
+    "updated_at": "2015-08-02T15:00:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I've made some fair progress on this, but I need to tie up some loose ends first and would prefer #8848 to go in before I file a PR, too.\n"
+  }
+]

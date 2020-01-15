@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/439532326",
+    "html_url": "https://github.com/grpc/grpc/issues/16941#issuecomment-439532326",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16941",
+    "id": 439532326,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzOTUzMjMyNg==",
+    "user": {
+      "login": "yashykt",
+      "id": 4181124,
+      "node_id": "MDQ6VXNlcjQxODExMjQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4181124?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yashykt",
+      "html_url": "https://github.com/yashykt",
+      "followers_url": "https://api.github.com/users/yashykt/followers",
+      "following_url": "https://api.github.com/users/yashykt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yashykt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yashykt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yashykt/subscriptions",
+      "organizations_url": "https://api.github.com/users/yashykt/orgs",
+      "repos_url": "https://api.github.com/users/yashykt/repos",
+      "events_url": "https://api.github.com/users/yashykt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yashykt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-16T21:23:18Z",
+    "updated_at": "2018-11-16T21:23:36Z",
+    "author_association": "MEMBER",
+    "body": "Same test but different error \r\n```\r\nD1116 11:57:20.126872000 123145532248064 call.cc:1054]                 Received trailing metadata with no error and no status\r\nD1116 11:57:20.126882000 123145532248064 call.cc:1054]                 Received trailing metadata with no error and no status\r\nE1116 11:57:20.126896000 123145532248064 stream_lists.cc:59]           assertion failed: s->included[id]\r\n*******************************\r\nCaught signal SIGABRT\r\n0   h2_full_nosec_test                  0x000000010c7d7763 _ZL13crash_handleriP9__siginfoPv + 291\r\n1   libsystem_platform.dylib            0x00007fffa520cb3a _sigtramp + 26\r\n2   ???                                 0x000000010dd3f551 0x0 + 4526962001\r\n3   libsystem_c.dylib                   0x00007fffa5091420 abort + 129\r\n4   h2_full_nosec_test                  0x000000010c7a826c _ZL15stream_list_popP21grpc_chttp2_transportPP18grpc_chttp2_stream26grpc_chttp2_stream_list_id + 316\r\n5   h2_full_nosec_test                  0x000000010c7a963c _Z23grpc_chttp2_begin_writeP21grpc_chttp2_transport + 1820\r\n6   h2_full_nosec_test                  0x000000010c7953b6 _ZL25write_action_begin_lockedPvP10grpc_error + 38\r\n7   h2_full_nosec_test                  0x000000010c74a9a4 _Z31grpc_combiner_continue_exec_ctxv + 292\r\n8   h2_full_nosec_test                  0x000000010c75164d _ZN9grpc_core7ExecCtx5FlushEv + 45\r\n9   h2_full_nosec_test                  0x000000010c74e855 _ZL12pollset_workP12grpc_pollsetPP19grpc_pollset_workerx + 2277\r\n10  h2_full_nosec_test                  0x000000010c75a4ab _ZL10run_pollerPvP10grpc_error + 107\r\n11  h2_full_nosec_test                  0x000000010c751f91 _ZN12GrpcExecutor10ThreadMainEPv + 353\r\n12  h2_full_nosec_test                  0x000000010c7cd13d _ZZN9grpc_core12_GLOBAL__N_120ThreadInternalsPosixC1EPKcPFvPvES4_PbENUlS4_E_8__invokeES4_ + 125\r\n13  libsystem_pthread.dylib             0x00007fffa521693b _pthread_body + 180\r\n14  libsystem_pthread.dylib             0x00007fffa5216887 _pthread_body + 0\r\n15  libsystem_pthread.dylib             0x00007fffa521608d thread_start + 13\r\n```\r\n\r\nseen on #17232 "
+  }
+]

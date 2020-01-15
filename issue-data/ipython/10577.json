@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/317216953",
+    "html_url": "https://github.com/ipython/ipython/issues/10577#issuecomment-317216953",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10577",
+    "id": 317216953,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzIxNjk1Mw==",
+    "user": {
+      "login": "dmcooke",
+      "id": 70837,
+      "node_id": "MDQ6VXNlcjcwODM3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/70837?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dmcooke",
+      "html_url": "https://github.com/dmcooke",
+      "followers_url": "https://api.github.com/users/dmcooke/followers",
+      "following_url": "https://api.github.com/users/dmcooke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dmcooke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dmcooke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dmcooke/subscriptions",
+      "organizations_url": "https://api.github.com/users/dmcooke/orgs",
+      "repos_url": "https://api.github.com/users/dmcooke/repos",
+      "events_url": "https://api.github.com/users/dmcooke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dmcooke/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-22T23:22:38Z",
+    "updated_at": "2017-07-22T23:22:38Z",
+    "author_association": "NONE",
+    "body": "I just ran into a similar error trying to use `IPython.terminal.debugger` with `pytest`. I've triaged it down to\r\n\r\n    cat | python -c 'from IPython.terminal.debugger import set_trace; set_trace()'\r\n\r\n(basically, running the debugger without a tty, forcing simple prompt mode). This fails with\r\n\r\n```\r\nTraceback (most recent call last):\r\n  File \"<string>\", line 1, in <module>\r\n  File \"/opt/local/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/IPython/terminal/debugger.py\", line 112, in set_trace\r\n    TerminalPdb().set_trace(frame or sys._getframe().f_back)\r\n  File \"/opt/local/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/IPython/terminal/debugger.py\", line 26, in __init__\r\n    self.pt_init()\r\n  File \"/opt/local/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/IPython/terminal/debugger.py\", line 66, in pt_init\r\n    style=self.shell.style\r\nAttributeError: 'TerminalInteractiveShell' object has no attribute 'style'\r\n```\r\n\r\nIn both cases, `TerminalPdb` is attempting to use attributes of `self.shell` that don't exist when the shell is created in simple prompt mode. (I suspect that the OP is using a version before the fix for #10478 was added, otherwise he would fail at the `self.shell.style` line also.)\r\n\r\n`IPython.terminal.interactiveshell.TerminalShell:init_prompt_toolkit` should set the same attributes for simple prompt mode as for not; at the least, I see `_style`, `style`, `_pt_app`, `_eventloop` and `pt_cli`. It would appear that simple prompt mode would trigger other bugs, as the `_pt_app` and `pt_cli` attributes are used in some other methods of `TerminalShell`.\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/130084768",
+    "html_url": "https://github.com/ipython/ipython/issues/8715#issuecomment-130084768",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8715",
+    "id": 130084768,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzMDA4NDc2OA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-11T21:34:42Z",
+    "updated_at": "2015-08-11T21:34:42Z",
+    "author_association": "MEMBER",
+    "body": "The `--script` has been deprecated in 2.x , that is to say since February stable release. It has been removed since long before. It is still present, but will be removed. We cannot not-deprecate as it is already deprecated in a stable version. \n\nThe post-save-hook is strictly more-powerful that `--script`, and if you have your own package that do whatever you can use `ipython notebook --FileContentsManager.post_save_hook='your.own.module.with.post.save.hook'`\n\nIt take less than 5 minutes to create a local package that get the functionality, and shouldn't take more than 5 to make a module that does that on PyPI. \n\nThen you just ask your users to pip-install it. And you can even programatically set up the post-save in the json config file. \n\nSo we will most likely not un-deprecate. \n\nIf you want to have your own package with a post save-hook, we can help you to set it up though. \n"
+  }
+]

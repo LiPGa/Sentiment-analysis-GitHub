@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/191384348",
+    "html_url": "https://github.com/grpc/grpc/issues/5533#issuecomment-191384348",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/5533",
+    "id": 191384348,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MTM4NDM0OA==",
+    "user": {
+      "login": "vjpai",
+      "id": 8864912,
+      "node_id": "MDQ6VXNlcjg4NjQ5MTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8864912?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vjpai",
+      "html_url": "https://github.com/vjpai",
+      "followers_url": "https://api.github.com/users/vjpai/followers",
+      "following_url": "https://api.github.com/users/vjpai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vjpai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vjpai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vjpai/subscriptions",
+      "organizations_url": "https://api.github.com/users/vjpai/orgs",
+      "repos_url": "https://api.github.com/users/vjpai/repos",
+      "events_url": "https://api.github.com/users/vjpai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vjpai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-02T19:24:30Z",
+    "updated_at": "2016-03-02T19:24:30Z",
+    "author_association": "MEMBER",
+    "body": "This is an excellent point; it's a question of a lot of interest based on\nthe community meetup yesterday.\n\nOn Wed, Mar 2, 2016 at 10:14 AM Carl Mastrangelo notifications@github.com\nwrote:\n\n> In grpc/grpc-java#1505 https://github.com/grpc/grpc-java/pull/1505 I\n> changed java to use the json formatted protobuf rather than plain old JSON.\n> This cleans up a dependency (and shows off our cool protobuf json\n> formatting!)\n> \n> grpc core should make a similiar change to stay in sync. I believe the\n> files that need to be updated are\n> - grpc/examples/cpp/route_guide/route_guide_db.json\n> - grpc/examples/csharp/route_guide/RouteGuide/route_guide_db.json\n> - grpc/examples/node/route_guide/route_guide_db.json\n> - grpc/examples/objective-c/route_guide/route_guide_db.json\n> - grpc/examples/python/route_guide/route_guide_db.json\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/grpc/grpc/issues/5533.\n"
+  }
+]

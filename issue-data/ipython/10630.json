@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/305483044",
+    "html_url": "https://github.com/ipython/ipython/pull/10630#issuecomment-305483044",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10630",
+    "id": 305483044,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNTQ4MzA0NA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-01T12:48:42Z",
+    "updated_at": "2017-06-01T12:48:42Z",
+    "author_association": "MEMBER",
+    "body": "We've actually already got a way to check this - it's `InteractiveShell.initialized()`.\r\n\r\nCan we also ask you to make the changes with your editor configured not to strip trailing whitespace? The changes on lots of empty lines can cause merge conflicts, and they make tools like `git blame` less useful."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/451128615",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24586#issuecomment-451128615",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24586",
+    "id": 451128615,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MTEyODYxNQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-03T12:22:33Z",
+    "updated_at": "2019-01-03T12:22:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "When you create the empty data frame in the first line all the columns are object dtype\r\n\r\n```python\r\nIn [53]: exp_data.dtypes\r\nOut[53]:\r\na    object\r\nb    object\r\nc    object\r\ndtype: object\r\n```\r\n\r\nPass empty ndarrays or series if you want column-specific dtypes."
+  }
+]

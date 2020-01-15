@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/296872738",
+    "html_url": "https://github.com/grpc/grpc/issues/10837#issuecomment-296872738",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10837",
+    "id": 296872738,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5Njg3MjczOA==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-25T02:19:03Z",
+    "updated_at": "2017-04-25T02:19:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "same failure seen in https://grpc-testing.appspot.com/job/gRPC_master_tsan_cpp/1341/testReport/junit/(root)/c++_linux_tsan_native/bins_tsan_client_crash_test___gtest_filter_CrashTest_KillBeforeWrite__GRPC_POLL_STRATEGY_poll_cv/\r\n\r\n```\r\ntest/cpp/end2end/client_crash_test.cc:107: Failure\r\nValue of: stream->Read(&response)\r\n  Actual: true\r\nExpected: false\r\n```"
+  }
+]

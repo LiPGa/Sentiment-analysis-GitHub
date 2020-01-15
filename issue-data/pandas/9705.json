@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/84910364",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/9705#issuecomment-84910364",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9705",
+    "id": 84910364,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg0OTEwMzY0",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-23T09:26:38Z",
+    "updated_at": "2015-03-23T09:26:38Z",
+    "author_association": "MEMBER",
+    "body": "yep, will do when I do an update of the docs (planned to do that anyway one of the coming days when I fix the Accessor thing, so there are several things I have to include)\n"
+  }
+]

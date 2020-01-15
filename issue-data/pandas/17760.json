@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/333801008",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/17760#issuecomment-333801008",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17760",
+    "id": 333801008,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMzgwMTAwOA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-03T10:23:09Z",
+    "updated_at": "2017-10-03T10:23:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "not sure what is going on at conda-forge but\r\n```\r\n                            3.4.2               np112py27_1  conda-forge     \r\n                             3.4.2               np112py35_1  conda-forge     \r\n                             3.4.2               np112py36_1  conda-forge     \r\n                             3.4.2               np113py27_1  conda-forge     \r\n                             3.4.2               np113py35_1  conda-forge     \r\n                             3.4.2               np113py36_1  conda-forge     \r\n                             3.4.2                    py27_2  conda-forge     \r\n                             3.4.2                    py35_2  conda-forge     \r\n                             3.4.2                    py36_2  conda-forge     \r\n```\r\nThese latest builds, the _2 are completely bogus. They must be built against a version of numpy.\r\n"
+  }
+]

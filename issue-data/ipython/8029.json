@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/78592158",
+    "html_url": "https://github.com/ipython/ipython/issues/8029#issuecomment-78592158",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8029",
+    "id": 78592158,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc4NTkyMTU4",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-12T19:55:18Z",
+    "updated_at": "2015-03-12T19:55:18Z",
+    "author_association": "MEMBER",
+    "body": "Brew does not want to deals with python install. You can create a tap yourself and or ask them to do it if you like. But I doubt any of us want to take the time to learn ruby and try to convince brew maintainer. \n"
+  }
+]

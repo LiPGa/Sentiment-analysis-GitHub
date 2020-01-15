@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/7845606",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1780#issuecomment-7845606",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1780",
+    "id": 7845606,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc4NDU2MDY=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-08-18T15:54:24Z",
+    "updated_at": "2012-08-18T15:54:24Z",
+    "author_association": "MEMBER",
+    "body": "Try setting `min_periods` to be less than the window size\n\n```\nIn [4]: rolling_corr(df.a, df.b, window=5, min_periods=3)\nOut[4]: \n0          NaN\n1          NaN\n2    -0.563745\n3    -0.371548\n4    -0.198359\n5     0.527596\n6     0.713242\n7     0.732354\n8     0.812555\n9     0.928619\n10    0.961839\n11    0.741116\n12    0.801705\n13    0.440958\n14   -0.072187\n15   -0.995306\n16   -0.588253\n17   -0.495292\n18   -0.599904\n19   -0.507077\n```\n"
+  }
+]

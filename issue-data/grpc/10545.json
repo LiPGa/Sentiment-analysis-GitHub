@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/298868001",
+    "html_url": "https://github.com/grpc/grpc/issues/10545#issuecomment-298868001",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10545",
+    "id": 298868001,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5ODg2ODAwMQ==",
+    "user": {
+      "login": "cybersquib",
+      "id": 27208659,
+      "node_id": "MDQ6VXNlcjI3MjA4NjU5",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27208659?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cybersquib",
+      "html_url": "https://github.com/cybersquib",
+      "followers_url": "https://api.github.com/users/cybersquib/followers",
+      "following_url": "https://api.github.com/users/cybersquib/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cybersquib/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cybersquib/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cybersquib/subscriptions",
+      "organizations_url": "https://api.github.com/users/cybersquib/orgs",
+      "repos_url": "https://api.github.com/users/cybersquib/repos",
+      "events_url": "https://api.github.com/users/cybersquib/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cybersquib/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-03T09:52:46Z",
+    "updated_at": "2017-05-03T09:52:46Z",
+    "author_association": "NONE",
+    "body": "quick fix is:\r\nexport CPPFLAGS=\"-Wno-error\"\r\nexport CFLAGS=\"-Wno-error\"\r\n"
+  }
+]

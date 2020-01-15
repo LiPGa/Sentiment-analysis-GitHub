@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/466503081",
+    "html_url": "https://github.com/grpc/grpc/issues/18139#issuecomment-466503081",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18139",
+    "id": 466503081,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NjUwMzA4MQ==",
+    "user": {
+      "login": "lidizheng",
+      "id": 7394928,
+      "node_id": "MDQ6VXNlcjczOTQ5Mjg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7394928?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lidizheng",
+      "html_url": "https://github.com/lidizheng",
+      "followers_url": "https://api.github.com/users/lidizheng/followers",
+      "following_url": "https://api.github.com/users/lidizheng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lidizheng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lidizheng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lidizheng/subscriptions",
+      "organizations_url": "https://api.github.com/users/lidizheng/orgs",
+      "repos_url": "https://api.github.com/users/lidizheng/repos",
+      "events_url": "https://api.github.com/users/lidizheng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lidizheng/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-22T18:44:32Z",
+    "updated_at": "2019-02-22T18:44:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Normally, if you use `grpcio-tools` to generate `*_pb2_grpc.py` file, the servicer method will be bound with the serialization and deserialization method of `*_pb2.py` file. It will work fine if you try to compare proto message that sent to the method or instantiated from the imported `*_pb2.py` file.\r\n\r\nYour `type(msg2)` seems instantiated by the imported `*_pb2.py` , but `type(msg)` is constructed through reflection API. Unfortunately, the even with reflection ProtoBuf can not transmit accurate message type information.\r\n\r\nIt is a feature that ProtoBuf message only transmit content of message but no type information, which means same bytes can potentially be transformed into different message types. That's why the ProtoBuf message type is enforced in the gRPC layer, so you can be certain that a servicer method will always receive the specified type of ProtoBuf message.\r\n\r\nBack to your case, there is no way to use `isinstance` for two message type that come from different module. Please consider using the content of the message in flow control, for example, if you would to identify different type of `Pid`, you can use add an enum field in `ActorPidRequest`.\r\n\r\nIf this doesn't solve your problem, please post more detail about your use case."
+  }
+]

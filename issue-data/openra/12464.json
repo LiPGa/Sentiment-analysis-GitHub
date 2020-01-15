@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/267370994",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12464#issuecomment-267370994",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12464",
+    "id": 267370994,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NzM3MDk5NA==",
+    "user": {
+      "login": "CH4Code",
+      "id": 16046997,
+      "node_id": "MDQ6VXNlcjE2MDQ2OTk3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16046997?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/CH4Code",
+      "html_url": "https://github.com/CH4Code",
+      "followers_url": "https://api.github.com/users/CH4Code/followers",
+      "following_url": "https://api.github.com/users/CH4Code/following{/other_user}",
+      "gists_url": "https://api.github.com/users/CH4Code/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/CH4Code/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/CH4Code/subscriptions",
+      "organizations_url": "https://api.github.com/users/CH4Code/orgs",
+      "repos_url": "https://api.github.com/users/CH4Code/repos",
+      "events_url": "https://api.github.com/users/CH4Code/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/CH4Code/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-15T16:22:37Z",
+    "updated_at": "2016-12-15T16:22:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Other Issues:\r\n* Rules:\r\n\tcarryall.reinforce:\r\n\t\tCargo:\r\n\t\t\tMaxWeight: 10\r\nneeds to be implemented by a map using ReinforceWithTransport, or the carryall can't transport anything (lifts off without deploying troops)\r\n* Rules:\r\n\tcarryall.reinforce:\r\n\t\tAircraft:\r\n\t\t\tMinAirborneAltitude: 100\r\nis useful and (mostly) prevents units from shooting the carryall instead of deployed units.\r\n\r\nI think this could be fixed easily by modifying the core d2k rules."
+  }
+]

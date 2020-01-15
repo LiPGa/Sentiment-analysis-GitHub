@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/294294378",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16008#issuecomment-294294378",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16008",
+    "id": 294294378,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NDI5NDM3OA==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-15T13:46:51Z",
+    "updated_at": "2017-04-15T13:46:51Z",
+    "author_association": "MEMBER",
+    "body": "@gregsifr Thanks for the report. \r\nThis is currently a known limitation of rename, see https://github.com/pandas-dev/pandas/issues/4160 (therefore closing this issue as a duplicate).\r\n\r\nAfter https://github.com/pandas-dev/pandas/issues/13766 it will be possible to rename values in a specific level only, but that is of course not yet what is raised here.\r\n\r\nCurrenlty `rename` works by trying to rename individual labels of the different levels, hence the dict with tuples (as in your example) have no effect as they are not found. \r\nIf we want to add this, we have to think about how the API could look like, or if there would be ambiguous cases if we try to infer that tuples are passed when having a MutliIndex.\r\n"
+  }
+]

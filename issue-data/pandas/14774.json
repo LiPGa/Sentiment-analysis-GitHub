@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/347585910",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14774#issuecomment-347585910",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14774",
+    "id": 347585910,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0NzU4NTkxMA==",
+    "user": {
+      "login": "jbrockmendel",
+      "id": 8078968,
+      "node_id": "MDQ6VXNlcjgwNzg5Njg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8078968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbrockmendel",
+      "html_url": "https://github.com/jbrockmendel",
+      "followers_url": "https://api.github.com/users/jbrockmendel/followers",
+      "following_url": "https://api.github.com/users/jbrockmendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbrockmendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbrockmendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbrockmendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbrockmendel/orgs",
+      "repos_url": "https://api.github.com/users/jbrockmendel/repos",
+      "events_url": "https://api.github.com/users/jbrockmendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbrockmendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-28T16:46:12Z",
+    "updated_at": "2017-11-28T16:46:12Z",
+    "author_association": "MEMBER",
+    "body": "@ronif I've got a bugfix that handles the example you gave.  Do you happen to have an example that fails on `rollforward`?  I think there may be a symmetric bug."
+  }
+]

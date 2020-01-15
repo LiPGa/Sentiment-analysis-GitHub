@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/93875252",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7965#issuecomment-93875252",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7965",
+    "id": 93875252,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkzODc1MjUy",
+    "user": {
+      "login": "ScottNZ",
+      "id": 1712619,
+      "node_id": "MDQ6VXNlcjE3MTI2MTk=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1712619?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ScottNZ",
+      "html_url": "https://github.com/ScottNZ",
+      "followers_url": "https://api.github.com/users/ScottNZ/followers",
+      "following_url": "https://api.github.com/users/ScottNZ/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ScottNZ/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ScottNZ/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ScottNZ/subscriptions",
+      "organizations_url": "https://api.github.com/users/ScottNZ/orgs",
+      "repos_url": "https://api.github.com/users/ScottNZ/repos",
+      "events_url": "https://api.github.com/users/ScottNZ/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ScottNZ/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-17T01:37:32Z",
+    "updated_at": "2015-04-17T01:37:32Z",
+    "author_association": "MEMBER",
+    "body": "Duplicate of #7927\n"
+  }
+]

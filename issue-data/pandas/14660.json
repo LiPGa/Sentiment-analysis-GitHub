@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/260476335",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14660#issuecomment-260476335",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14660",
+    "id": 260476335,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2MDQ3NjMzNQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-14T21:58:17Z",
+    "updated_at": "2016-11-14T21:58:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "its called map (on `Series`) as well\n\n```\nIn [3]: pd.Index(['foo', 'bar']).map(lambda x: {'foo':1, 'bar':2}[x])\nOut[3]: array([1, 2], dtype=int64)\n```\n"
+  }
+]

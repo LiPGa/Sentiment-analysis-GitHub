@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/416719084",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/15575#issuecomment-416719084",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15575",
+    "id": 416719084,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNjcxOTA4NA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-28T19:55:11Z",
+    "updated_at": "2018-08-28T19:55:11Z",
+    "author_association": "MEMBER",
+    "body": "Closing as a duplicate of #15526, but this is very interesting because it confirms that this was not a new bug like as previously thought.  Thanks for the report!"
+  }
+]

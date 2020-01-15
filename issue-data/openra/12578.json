@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/272657320",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12578#issuecomment-272657320",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12578",
+    "id": 272657320,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjY1NzMyMA==",
+    "user": {
+      "login": "FrameLimiter",
+      "id": 22008761,
+      "node_id": "MDQ6VXNlcjIyMDA4NzYx",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22008761?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/FrameLimiter",
+      "html_url": "https://github.com/FrameLimiter",
+      "followers_url": "https://api.github.com/users/FrameLimiter/followers",
+      "following_url": "https://api.github.com/users/FrameLimiter/following{/other_user}",
+      "gists_url": "https://api.github.com/users/FrameLimiter/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/FrameLimiter/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/FrameLimiter/subscriptions",
+      "organizations_url": "https://api.github.com/users/FrameLimiter/orgs",
+      "repos_url": "https://api.github.com/users/FrameLimiter/repos",
+      "events_url": "https://api.github.com/users/FrameLimiter/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/FrameLimiter/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-14T22:17:40Z",
+    "updated_at": "2017-01-14T22:17:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I think you're looking at the E3's AA weapon the RedEye.  The E3's ground weapon is the \"Dragon\" which has:\r\nbase damage of 50.\r\nNone: 10\r\nWood: 75\r\nLight: 35\r\nConcrete: 50"
+  }
+]

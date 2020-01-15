@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/465626424",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25387#issuecomment-465626424",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25387",
+    "id": 465626424,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NTYyNjQyNA==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-20T15:30:56Z",
+    "updated_at": "2019-02-20T15:30:56Z",
+    "author_association": "MEMBER",
+    "body": "Thanks for the issue! So I would say there are one of two routes here:\r\n\r\n  1. If you have actual updates you'd like to make to the documentation then a PR to update would always be welcome!\r\n  2. If you are unclear on the usage of the feature your best bet is to ask on StackOverflow\r\n\r\nI *think* this falls into the second categorization so going to close as this board is mostly reserved for actual bug and enhancement requests; SO's Q&A format is much better for usage questions and helps others with the same question in the future"
+  }
+]

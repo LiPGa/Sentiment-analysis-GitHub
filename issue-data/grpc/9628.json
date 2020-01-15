@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/278143766",
+    "html_url": "https://github.com/grpc/grpc/issues/9628#issuecomment-278143766",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9628",
+    "id": 278143766,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3ODE0Mzc2Ng==",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-07T21:20:50Z",
+    "updated_at": "2017-02-07T21:20:50Z",
+    "author_association": "MEMBER",
+    "body": "In Node, the method to send header metadata is called `sendMetadata`. For trailers, it's a little more complicated. For unary responses, the callback takes an optional third argument for trailing metadata. For streaming responses, the stream's `end` method takes an optional argument for trailing metadata.\r\n\r\nNote that in each case, the arguments should be instances of the class `grpc.Metadata`."
+  }
+]

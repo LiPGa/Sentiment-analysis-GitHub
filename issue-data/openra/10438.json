@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/169471776",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10438#issuecomment-169471776",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10438",
+    "id": 169471776,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2OTQ3MTc3Ng==",
+    "user": {
+      "login": "Unit158",
+      "id": 706008,
+      "node_id": "MDQ6VXNlcjcwNjAwOA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/706008?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Unit158",
+      "html_url": "https://github.com/Unit158",
+      "followers_url": "https://api.github.com/users/Unit158/followers",
+      "following_url": "https://api.github.com/users/Unit158/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Unit158/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Unit158/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Unit158/subscriptions",
+      "organizations_url": "https://api.github.com/users/Unit158/orgs",
+      "repos_url": "https://api.github.com/users/Unit158/repos",
+      "events_url": "https://api.github.com/users/Unit158/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Unit158/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-06T21:41:37Z",
+    "updated_at": "2016-01-06T21:41:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is a regression.\n"
+  }
+]

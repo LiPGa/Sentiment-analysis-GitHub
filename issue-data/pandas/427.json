@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/2984658",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/427#issuecomment-2984658",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/427",
+    "id": 2984658,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5ODQ2NTg=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-12-02T00:48:12Z",
+    "updated_at": "2011-12-02T00:48:12Z",
+    "author_association": "MEMBER",
+    "body": "thanks, ralph. i cherry-picked that last commit and add all `*.cpp` files to the .gitignore. you'll want to revert to before your changes above and then pull wesm/master so you don't have that merge commit...annoyances of maintaining a clean repo in git. alternately make a pull request next time out of a branch \n"
+  }
+]

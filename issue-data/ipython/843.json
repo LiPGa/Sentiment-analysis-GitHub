@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/2324328",
+    "html_url": "https://github.com/ipython/ipython/issues/843#issuecomment-2324328",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/843",
+    "id": 2324328,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMjQzMjg=",
+    "user": {
+      "login": "fperez",
+      "id": 57394,
+      "node_id": "MDQ6VXNlcjU3Mzk0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fperez",
+      "html_url": "https://github.com/fperez",
+      "followers_url": "https://api.github.com/users/fperez/followers",
+      "following_url": "https://api.github.com/users/fperez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fperez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fperez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fperez/subscriptions",
+      "organizations_url": "https://api.github.com/users/fperez/orgs",
+      "repos_url": "https://api.github.com/users/fperez/repos",
+      "events_url": "https://api.github.com/users/fperez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fperez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-10-07T17:34:16Z",
+    "updated_at": "2011-10-07T17:34:16Z",
+    "author_association": "MEMBER",
+    "body": "Thanks for your report!  I can confirm the problem existed on 0.11, but fortunately it's already fixed on trunk, so you can either update to running from git master, or wait for the 0.12 release:\n\n<pre>\nIPython 0.12.dev -- An enhanced Interactive Python.\n?         -> Introduction and overview of IPython's features.\n%quickref -> Quick reference.\nhelp      -> Python's own help system.\nobject?   -> Details about 'object', use 'object??' for extra details.\n\nIn [1]: from __future__ import  braces\nSyntaxError: not a chance (<ipython-input-1-142bb74c1af7>, line 1)\n</pre>\n"
+  }
+]

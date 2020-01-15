@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/357578495",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19242#issuecomment-357578495",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19242",
+    "id": 357578495,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NzU3ODQ5NQ==",
+    "user": {
+      "login": "cbertinato",
+      "id": 20772838,
+      "node_id": "MDQ6VXNlcjIwNzcyODM4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20772838?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cbertinato",
+      "html_url": "https://github.com/cbertinato",
+      "followers_url": "https://api.github.com/users/cbertinato/followers",
+      "following_url": "https://api.github.com/users/cbertinato/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cbertinato/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cbertinato/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cbertinato/subscriptions",
+      "organizations_url": "https://api.github.com/users/cbertinato/orgs",
+      "repos_url": "https://api.github.com/users/cbertinato/repos",
+      "events_url": "https://api.github.com/users/cbertinato/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cbertinato/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-15T04:07:10Z",
+    "updated_at": "2018-01-15T04:07:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The Interval type was introduced in 0.20.  Before then, it was just a string.  The upcoming PR should fix it, but a quick fix is:\r\n```\r\ndf['new'] = pd.cut(df[0], 10).astype(str)\r\n```\r\nthough not desirable if one wants to keep the Interval type in the data frame.  Note that this exception comes up only when labels are not assigned.  So:\r\n```\r\ndf['new'] = pd.cut(df[0], 10, labels=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'])\r\n```\r\nshould also work."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/449989271",
+    "html_url": "https://github.com/grpc/grpc/issues/17576#issuecomment-449989271",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17576",
+    "id": 449989271,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0OTk4OTI3MQ==",
+    "user": {
+      "login": "dsazonoff",
+      "id": 4137208,
+      "node_id": "MDQ6VXNlcjQxMzcyMDg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4137208?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dsazonoff",
+      "html_url": "https://github.com/dsazonoff",
+      "followers_url": "https://api.github.com/users/dsazonoff/followers",
+      "following_url": "https://api.github.com/users/dsazonoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dsazonoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dsazonoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dsazonoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/dsazonoff/orgs",
+      "repos_url": "https://api.github.com/users/dsazonoff/repos",
+      "events_url": "https://api.github.com/users/dsazonoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dsazonoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-26T16:25:07Z",
+    "updated_at": "2018-12-26T16:25:07Z",
+    "author_association": "NONE",
+    "body": "Everything is OK, when building with OpenSSL instead of boringssl.\r\nCould someone fix `helloworld/cmake_externalproject` to be compilable with boringssl?"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5162366",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1026#issuecomment-5162366",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1026",
+    "id": 5162366,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxNjIzNjY=",
+    "user": {
+      "login": "dtcaciuc",
+      "id": 847299,
+      "node_id": "MDQ6VXNlcjg0NzI5OQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/847299?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dtcaciuc",
+      "html_url": "https://github.com/dtcaciuc",
+      "followers_url": "https://api.github.com/users/dtcaciuc/followers",
+      "following_url": "https://api.github.com/users/dtcaciuc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dtcaciuc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dtcaciuc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dtcaciuc/subscriptions",
+      "organizations_url": "https://api.github.com/users/dtcaciuc/orgs",
+      "repos_url": "https://api.github.com/users/dtcaciuc/repos",
+      "events_url": "https://api.github.com/users/dtcaciuc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dtcaciuc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-16T21:02:19Z",
+    "updated_at": "2012-04-16T21:02:19Z",
+    "author_association": "NONE",
+    "body": "The issue looks a bit more complicated now...\n\nFirst of all, we realized the above test is reporting false positive because of #1069\n\nSecondly, an additional problem lies [here](https://github.com/pydata/pandas/blob/master/pandas/core/indexing.py#L168). In particular, `_is_list_like` prevents using any iterable object as an `Index` key.\n\nAt this point, it's a question of where you want to go with the indexing interface. I think might be reasonable to limit the types (aside from `Index` itself) used for supplying index sequences to, say, `tuple`, `list` and `numpy.array`. The upside is not having to think about adding more exceptions (currently there's `basestring`, plus, in our case, a tuple subclass); the downside is not supporting arbitrary iterables such as generators. I would personally be in favour of the former because it is the simplest of the two (internal logic and behaviour-wise) in the long run.\n"
+  }
+]

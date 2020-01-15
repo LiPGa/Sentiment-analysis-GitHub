@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/42348690",
+    "html_url": "https://github.com/ipython/ipython/issues/5793#issuecomment-42348690",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5793",
+    "id": 42348690,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMzQ4Njkw",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-06T19:38:01Z",
+    "updated_at": "2014-05-06T19:38:01Z",
+    "author_association": "MEMBER",
+    "body": "I think this is a [pyrepl](https://bitbucket.org/pypy/pyrepl/src/6ccf74d8d7c17bd9ff81b0a225372175a9a7ed07/TODO?at=default#cl-5 issue). PyPy doesn't use gnu-readline, it uses pyrepl, a Python implementation of a subset of the readline API. It may be that there are analogous calls to be made, but it doesn't read inputrc.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/472839557",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25727#issuecomment-472839557",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25727",
+    "id": 472839557,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MjgzOTU1Nw==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-14T12:52:19Z",
+    "updated_at": "2019-03-14T12:52:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Slight adjustment to your expected error message, I would phrase it as \"a callable\", since the function / type `callable` isn't valid."
+  }
+]

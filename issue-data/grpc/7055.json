@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/233519944",
+    "html_url": "https://github.com/grpc/grpc/issues/7055#issuecomment-233519944",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7055",
+    "id": 233519944,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMzUxOTk0NA==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-19T03:21:04Z",
+    "updated_at": "2016-07-19T03:21:04Z",
+    "author_association": "MEMBER",
+    "body": "Now that I take a good serious look at it (and again review the API feedback), I don't think there's any action to be taken here. Most of what was confusing about the security elements in the Beta API has been addressed in the GA API, and what remains is forced on us by the shape of the Core API.\n"
+  }
+]

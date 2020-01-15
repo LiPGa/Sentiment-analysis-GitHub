@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/320269373",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17170#issuecomment-320269373",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17170",
+    "id": 320269373,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDI2OTM3Mw==",
+    "user": {
+      "login": "gfyoung",
+      "id": 9273653,
+      "node_id": "MDQ6VXNlcjkyNzM2NTM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9273653?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gfyoung",
+      "html_url": "https://github.com/gfyoung",
+      "followers_url": "https://api.github.com/users/gfyoung/followers",
+      "following_url": "https://api.github.com/users/gfyoung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gfyoung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gfyoung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gfyoung/subscriptions",
+      "organizations_url": "https://api.github.com/users/gfyoung/orgs",
+      "repos_url": "https://api.github.com/users/gfyoung/repos",
+      "events_url": "https://api.github.com/users/gfyoung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gfyoung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-04T14:52:00Z",
+    "updated_at": "2017-08-04T14:52:00Z",
+    "author_association": "MEMBER",
+    "body": "@sinowood : Thanks for the issue!  This regression appears to have reverted itself on `master`, as I can replicate your issue on `0.20.3` but not on `master`.\r\n\r\nWould you like to submit a PR where you add your code example as a test?  We can then close this issue with the comfort knowing that your example works now."
+  }
+]

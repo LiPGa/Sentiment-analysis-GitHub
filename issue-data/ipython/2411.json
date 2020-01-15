@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/11476742",
+    "html_url": "https://github.com/ipython/ipython/issues/2411#issuecomment-11476742",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2411",
+    "id": 11476742,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNDc2NzQy",
+    "user": {
+      "login": "ellisonbg",
+      "id": 27600,
+      "node_id": "MDQ6VXNlcjI3NjAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ellisonbg",
+      "html_url": "https://github.com/ellisonbg",
+      "followers_url": "https://api.github.com/users/ellisonbg/followers",
+      "following_url": "https://api.github.com/users/ellisonbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ellisonbg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ellisonbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ellisonbg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ellisonbg/orgs",
+      "repos_url": "https://api.github.com/users/ellisonbg/repos",
+      "events_url": "https://api.github.com/users/ellisonbg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ellisonbg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-12-18T07:47:43Z",
+    "updated_at": "2012-12-18T07:47:43Z",
+    "author_association": "MEMBER",
+    "body": "Ohh, this is awesome, we should definitely do this.  BUT let's keep in mind that we have developer docs spread all over the place already.  Towards the end of the summer we had talked about consolidating our development related docs/wiki stuff to the github wiki.  I think we even took an informal poll, but I don't recall if we actually concluded it.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/130301394",
+    "html_url": "https://github.com/ipython/ipython/pull/8719#issuecomment-130301394",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8719",
+    "id": 130301394,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzMDMwMTM5NA==",
+    "user": {
+      "login": "blink1073",
+      "id": 2096628,
+      "node_id": "MDQ6VXNlcjIwOTY2Mjg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2096628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/blink1073",
+      "html_url": "https://github.com/blink1073",
+      "followers_url": "https://api.github.com/users/blink1073/followers",
+      "following_url": "https://api.github.com/users/blink1073/following{/other_user}",
+      "gists_url": "https://api.github.com/users/blink1073/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/blink1073/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/blink1073/subscriptions",
+      "organizations_url": "https://api.github.com/users/blink1073/orgs",
+      "repos_url": "https://api.github.com/users/blink1073/repos",
+      "events_url": "https://api.github.com/users/blink1073/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/blink1073/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-12T13:28:31Z",
+    "updated_at": "2015-08-12T13:28:31Z",
+    "author_association": "MEMBER",
+    "body": "Removing all traces of ipython\\* from my site-packages and reinstalling did the trick. \n"
+  }
+]

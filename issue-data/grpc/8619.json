@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/258218637",
+    "html_url": "https://github.com/grpc/grpc/pull/8619#issuecomment-258218637",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8619",
+    "id": 258218637,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1ODIxODYzNw==",
+    "user": {
+      "login": "jskeet",
+      "id": 17011,
+      "node_id": "MDQ6VXNlcjE3MDEx",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jskeet",
+      "html_url": "https://github.com/jskeet",
+      "followers_url": "https://api.github.com/users/jskeet/followers",
+      "following_url": "https://api.github.com/users/jskeet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jskeet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jskeet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jskeet/subscriptions",
+      "organizations_url": "https://api.github.com/users/jskeet/orgs",
+      "repos_url": "https://api.github.com/users/jskeet/repos",
+      "events_url": "https://api.github.com/users/jskeet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jskeet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-03T17:42:05Z",
+    "updated_at": "2016-11-03T17:42:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "That's all I specifically need; it could potentially be worth making the server-side base class (e.g. `GreeterBase`) partial as well, as much for consistency as anything else.\n"
+  }
+]

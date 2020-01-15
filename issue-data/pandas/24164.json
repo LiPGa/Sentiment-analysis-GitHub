@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/445479324",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24164#issuecomment-445479324",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24164",
+    "id": 445479324,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NTQ3OTMyNA==",
+    "user": {
+      "login": "YuechengWu",
+      "id": 25010571,
+      "node_id": "MDQ6VXNlcjI1MDEwNTcx",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25010571?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/YuechengWu",
+      "html_url": "https://github.com/YuechengWu",
+      "followers_url": "https://api.github.com/users/YuechengWu/followers",
+      "following_url": "https://api.github.com/users/YuechengWu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/YuechengWu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/YuechengWu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/YuechengWu/subscriptions",
+      "organizations_url": "https://api.github.com/users/YuechengWu/orgs",
+      "repos_url": "https://api.github.com/users/YuechengWu/repos",
+      "events_url": "https://api.github.com/users/YuechengWu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/YuechengWu/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-08T18:22:13Z",
+    "updated_at": "2018-12-08T18:22:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Not only in generic.py, some other files too, I will be fixing them all together."
+  }
+]

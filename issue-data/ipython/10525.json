@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/300751293",
+    "html_url": "https://github.com/ipython/ipython/issues/10525#issuecomment-300751293",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10525",
+    "id": 300751293,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMDc1MTI5Mw==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-11T10:37:17Z",
+    "updated_at": "2017-05-11T10:37:17Z",
+    "author_association": "MEMBER",
+    "body": "Thanks Martin :smiley: \r\n\r\nI'm taking an interest in the new Linux application packaging systems, Snap & Flatpak, and I've had a go at building packages for both. Traditional Linux distro packaging has been problematic for us, especially with Jupyter moving fast and relying on a range of Javascript packages; versions available from `apt` in particular are usually out of date, and on occasion the changes made by packagers have introduced bugs. We no longer recommend that anyone install IPython/Jupyter from Linux distro repositories.\r\n\r\nMy questions about making a Snap package would be:\r\n\r\n1. **Sandboxing**: My understanding of both Snap & Flatpak is that they're centred around sandboxing applications for security. I'm definitely :+1: to this in general, but an interactive shell that runs code entered by the user needs to be able to do whatever the user wants. Is it practical to distribute an application without sandboxing?\r\n2. **Composition**: Particularly for Jupyter, there are parts which can be added to give the system new capabilities, such as kernels for different languages. This doesn't fit neatly with the model of installing a standalone application. How do snaps deal with such composition, both with components in other snaps and components that may be installed by other methods?\r\n3. **Advantages**: If we're not using the sandboxing, in what situation would a user want to install IPython/Jupyter via snap rather than the options we current recommend (pip or conda)? A user running Python code is highly likely to want one of those tools to install Python packages anyway. They're both cross platform, and we can do a decent job of keeping the packages of our software up to date. To recommend an installation option specific to one operating system, I think we'd need a fairly clear advantage. There are enough packaging systems around now that I don't think we should support a system just because it's there. Obviously this doesn't stop people building third-party packages of our code, though."
+  }
+]

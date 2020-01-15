@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/269510738",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12519#issuecomment-269510738",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12519",
+    "id": 269510738,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2OTUxMDczOA==",
+    "user": {
+      "login": "GraionDilach",
+      "id": 1136302,
+      "node_id": "MDQ6VXNlcjExMzYzMDI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1136302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GraionDilach",
+      "html_url": "https://github.com/GraionDilach",
+      "followers_url": "https://api.github.com/users/GraionDilach/followers",
+      "following_url": "https://api.github.com/users/GraionDilach/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GraionDilach/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GraionDilach/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GraionDilach/subscriptions",
+      "organizations_url": "https://api.github.com/users/GraionDilach/orgs",
+      "repos_url": "https://api.github.com/users/GraionDilach/repos",
+      "events_url": "https://api.github.com/users/GraionDilach/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GraionDilach/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-28T17:31:56Z",
+    "updated_at": "2016-12-28T17:31:56Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It must be map. I simulate RA2 arcing cluster behavior by firing inacc invisible silent weapons along with the main weapon using the following setup since weapon inheritance introduction and I never seen the dummy projectiles.\r\n\r\n```\r\nVolkovGun:\r\n\tInherits: ^140mmProjectile\r\n\tReloadDelay: 70\r\n\tRange: 6c256\r\n\tReport: volkfir1.wav\r\n\tWarhead@1Dam: SpreadDamage\r\n\t\tSpread: 256\r\n\t\tFalloff: 100, 50, 0\r\n\t\tDamage: 100000\r\n\t\tVersus:\r\n\t\t\tNone: 80\r\n\t\t\tPlate: 50\r\n\t\t\tHero: 20\r\n\t\t\tLight: 150\r\n\t\t\tMedium: 110\r\n\t\t\tHarvester: 90\r\n\t\t\tWood: 45\r\n\t\t\tConcrete: 21\r\n\t\t\tCYArmor: 33\r\n\t\t\tTechArmor: 10\r\n\t\t\tInAir: 133\r\n\t\t\tShipArmor: 66\r\n\t\t\tBomb: 85\r\n\t\t\tBomb50: 50\r\n\t\tDamageTypes: DefaultDeath, GrantsBounty, ExplosionDeath\r\n\tWarhead@2Eff: CreateEffect\r\n\t\tExplosions: volkovexp\r\n\t\tExplosionPalette: rookieapolexp\r\n\t\tImpactSounds: schthit1.wav\r\n\t\tInvalidImpactTypes: Water\r\n\tWarhead@3EffWater: CreateEffect\r\n\t\tExplosions: small_watersplash\r\n\t\tImpactSounds: gexpwasa.wav\r\n\t\tValidImpactTypes: Water\r\n\tWarhead@4Smu: LeaveSmudge\r\n\t\tSmudgeType: MediumCrater\r\n\r\nVolkovInaccGun:\r\n\tInherits: VolkovGun\r\n\tProjectile: Bullet\r\n\t\t-Image:\r\n\t\tInaccuracy: 2c512\r\n```"
+  }
+]

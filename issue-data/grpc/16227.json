@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/457052134",
+    "html_url": "https://github.com/grpc/grpc/issues/16227#issuecomment-457052134",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16227",
+    "id": 457052134,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NzA1MjEzNA==",
+    "user": {
+      "login": "bvinodkumar2008",
+      "id": 12564419,
+      "node_id": "MDQ6VXNlcjEyNTY0NDE5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12564419?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bvinodkumar2008",
+      "html_url": "https://github.com/bvinodkumar2008",
+      "followers_url": "https://api.github.com/users/bvinodkumar2008/followers",
+      "following_url": "https://api.github.com/users/bvinodkumar2008/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bvinodkumar2008/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bvinodkumar2008/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bvinodkumar2008/subscriptions",
+      "organizations_url": "https://api.github.com/users/bvinodkumar2008/orgs",
+      "repos_url": "https://api.github.com/users/bvinodkumar2008/repos",
+      "events_url": "https://api.github.com/users/bvinodkumar2008/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bvinodkumar2008/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-24T03:19:40Z",
+    "updated_at": "2019-01-24T03:19:40Z",
+    "author_association": "NONE",
+    "body": "Hello,\r\nEven we were interested in this feature from the security standpoint. Any plans to enable this in near future? Also, any idea, if this is available in the grpc-go stack already?\r\n\r\nRegards,\r\nVinod"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/78076401",
+    "html_url": "https://github.com/ipython/ipython/issues/8010#issuecomment-78076401",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8010",
+    "id": 78076401,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc4MDc2NDAx",
+    "user": {
+      "login": "Michaelizm",
+      "id": 10254172,
+      "node_id": "MDQ6VXNlcjEwMjU0MTcy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10254172?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Michaelizm",
+      "html_url": "https://github.com/Michaelizm",
+      "followers_url": "https://api.github.com/users/Michaelizm/followers",
+      "following_url": "https://api.github.com/users/Michaelizm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Michaelizm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Michaelizm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Michaelizm/subscriptions",
+      "organizations_url": "https://api.github.com/users/Michaelizm/orgs",
+      "repos_url": "https://api.github.com/users/Michaelizm/repos",
+      "events_url": "https://api.github.com/users/Michaelizm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Michaelizm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-10T15:21:22Z",
+    "updated_at": "2015-03-10T15:21:22Z",
+    "author_association": "NONE",
+    "body": "Sorry, I just find out the problem:\n\nAdd export EDITOR=\"/usr/local/bin/vim\" to your .bashrc or .zshrc (I use homebrew with my Mac)\n\nI'am going to close this issue, thanks.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/429224050",
+    "html_url": "https://github.com/grpc/grpc/issues/16847#issuecomment-429224050",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16847",
+    "id": 429224050,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyOTIyNDA1MA==",
+    "user": {
+      "login": "Troncek",
+      "id": 33618802,
+      "node_id": "MDQ6VXNlcjMzNjE4ODAy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/33618802?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Troncek",
+      "html_url": "https://github.com/Troncek",
+      "followers_url": "https://api.github.com/users/Troncek/followers",
+      "following_url": "https://api.github.com/users/Troncek/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Troncek/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Troncek/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Troncek/subscriptions",
+      "organizations_url": "https://api.github.com/users/Troncek/orgs",
+      "repos_url": "https://api.github.com/users/Troncek/repos",
+      "events_url": "https://api.github.com/users/Troncek/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Troncek/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-12T06:54:51Z",
+    "updated_at": "2018-10-12T06:54:51Z",
+    "author_association": "NONE",
+    "body": "Never mind. You can just create a ChannelOption with the setting needed from grpc_types.h.\r\n\r\n```\r\n          List<ChannelOption> channelOptions = new List<ChannelOption>\r\n          {\r\n            new ChannelOption(\"grpc.initial_reconnect_backoff_ms\", 1000),\r\n            new ChannelOption(\"grpc.max_reconnect_backoff_ms\", 60000)\r\n          };\r\n```"
+  }
+]

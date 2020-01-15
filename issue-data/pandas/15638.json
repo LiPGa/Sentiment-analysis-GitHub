@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/285544650",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/15638#issuecomment-285544650",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15638",
+    "id": 285544650,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NTU0NDY1MA==",
+    "user": {
+      "login": "codecov-io",
+      "id": 8655789,
+      "node_id": "MDQ6VXNlcjg2NTU3ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8655789?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codecov-io",
+      "html_url": "https://github.com/codecov-io",
+      "followers_url": "https://api.github.com/users/codecov-io/followers",
+      "following_url": "https://api.github.com/users/codecov-io/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codecov-io/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codecov-io/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codecov-io/subscriptions",
+      "organizations_url": "https://api.github.com/users/codecov-io/orgs",
+      "repos_url": "https://api.github.com/users/codecov-io/repos",
+      "events_url": "https://api.github.com/users/codecov-io/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codecov-io/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-10T01:23:09Z",
+    "updated_at": "2017-03-10T11:21:18Z",
+    "author_association": "NONE",
+    "body": "# [Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/15638?src=pr&el=h1) Report\n> Merging [#15638](https://codecov.io/gh/pandas-dev/pandas/pull/15638?src=pr&el=desc) into [master](https://codecov.io/gh/pandas-dev/pandas/commit/470c3276479925a198f38f9c0aacd745ef3a64bd?src=pr&el=desc) will **decrease** coverage by `0.02%`.\n> The diff coverage is `n/a`.\n\n\n```diff\n@@            Coverage Diff             @@\n##           master   #15638      +/-   ##\n==========================================\n- Coverage   91.02%   90.99%   -0.03%     \n==========================================\n  Files         143      143              \n  Lines       49324    49324              \n==========================================\n- Hits        44898    44884      -14     \n- Misses       4426     4440      +14\n```\n\n\n| [Impacted Files](https://codecov.io/gh/pandas-dev/pandas/pull/15638?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [pandas/io/gbq.py](https://codecov.io/gh/pandas-dev/pandas/compare/470c3276479925a198f38f9c0aacd745ef3a64bd...8b82bd6e65288e03de8cbc92d7d5d1d998dfe10c?src=pr&el=tree#diff-cGFuZGFzL2lvL2dicS5weQ==) | `25% <0%> (-58.34%)` | :x: |\n| [pandas/tools/merge.py](https://codecov.io/gh/pandas-dev/pandas/compare/470c3276479925a198f38f9c0aacd745ef3a64bd...8b82bd6e65288e03de8cbc92d7d5d1d998dfe10c?src=pr&el=tree#diff-cGFuZGFzL3Rvb2xzL21lcmdlLnB5) | `91.76% <0%> (-0.35%)` | :x: |\n| [pandas/core/common.py](https://codecov.io/gh/pandas-dev/pandas/compare/470c3276479925a198f38f9c0aacd745ef3a64bd...8b82bd6e65288e03de8cbc92d7d5d1d998dfe10c?src=pr&el=tree#diff-cGFuZGFzL2NvcmUvY29tbW9uLnB5) | `90.96% <0%> (-0.34%)` | :x: |\n| [pandas/indexes/base.py](https://codecov.io/gh/pandas-dev/pandas/compare/470c3276479925a198f38f9c0aacd745ef3a64bd...8b82bd6e65288e03de8cbc92d7d5d1d998dfe10c?src=pr&el=tree#diff-cGFuZGFzL2luZGV4ZXMvYmFzZS5weQ==) | `96.1% <0%> (-0.12%)` | :x: |\n| [pandas/core/frame.py](https://codecov.io/gh/pandas-dev/pandas/compare/470c3276479925a198f38f9c0aacd745ef3a64bd...8b82bd6e65288e03de8cbc92d7d5d1d998dfe10c?src=pr&el=tree#diff-cGFuZGFzL2NvcmUvZnJhbWUucHk=) | `97.87% <0%> (-0.1%)` | :x: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/15638?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/15638?src=pr&el=footer). Last update [470c327...8b82bd6](https://codecov.io/gh/pandas-dev/pandas/compare/470c3276479925a198f38f9c0aacd745ef3a64bd...8b82bd6e65288e03de8cbc92d7d5d1d998dfe10c?el=footer&src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments)."
+  }
+]

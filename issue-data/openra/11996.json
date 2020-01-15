@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/245688448",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11996#issuecomment-245688448",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11996",
+    "id": 245688448,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NTY4ODQ0OA==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-08T18:13:13Z",
+    "updated_at": "2016-09-08T18:13:13Z",
+    "author_association": "MEMBER",
+    "body": "List of my previous (failed or incomplete/rejected) attempts to fix it:\n- https://github.com/OpenRA/OpenRA/pull/11702#discussion-diff-71988587\n- https://github.com/OpenRA/OpenRA/pull/11702#discussion_r71991197\n- https://github.com/OpenRA/OpenRA/pull/11702#discussion_r71991238\n"
+  }
+]

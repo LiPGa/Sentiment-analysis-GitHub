@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/288799243",
+    "html_url": "https://github.com/grpc/grpc/pull/10230#issuecomment-288799243",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10230",
+    "id": 288799243,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4ODc5OTI0Mw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-23T17:32:52Z",
+    "updated_at": "2017-03-23T17:32:52Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "test failures:\r\n- tsan linux pr: https://github.com/grpc/grpc/issues/6097\r\n- performance pr: https://github.com/grpc/grpc/issues/9462\r\n- tsan pr: https://github.com/grpc/grpc/issues/6097\r\n- linux portability: `aggregate_tests.run_tests_c_linux_dbg_native_x64_gcc4.6` failed, looks like existing issue: https://github.com/grpc/grpc/issues/10051\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/302183866",
+    "html_url": "https://github.com/grpc/grpc/issues/11131#issuecomment-302183866",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11131",
+    "id": 302183866,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMjE4Mzg2Ng==",
+    "user": {
+      "login": "yang-g",
+      "id": 10122250,
+      "node_id": "MDQ6VXNlcjEwMTIyMjUw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10122250?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yang-g",
+      "html_url": "https://github.com/yang-g",
+      "followers_url": "https://api.github.com/users/yang-g/followers",
+      "following_url": "https://api.github.com/users/yang-g/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yang-g/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yang-g/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yang-g/subscriptions",
+      "organizations_url": "https://api.github.com/users/yang-g/orgs",
+      "repos_url": "https://api.github.com/users/yang-g/repos",
+      "events_url": "https://api.github.com/users/yang-g/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yang-g/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-17T18:23:17Z",
+    "updated_at": "2017-05-17T18:23:17Z",
+    "author_association": "MEMBER",
+    "body": "Duplicate of: #10653"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/73094260",
+    "html_url": "https://github.com/ipython/ipython/issues/7691#issuecomment-73094260",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7691",
+    "id": 73094260,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDczMDk0MjYw",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-05T18:00:19Z",
+    "updated_at": "2015-02-05T18:00:19Z",
+    "author_association": "MEMBER",
+    "body": "IPython doesn't do syntax highlighting in the terminal - you need to take control of the terminal at a lower level than we do to highlight input like that. If you want that, try [bpython](http://bpython-interpreter.org/), or [bipython](http://bipython.org/) to combine that with the goodness of IPython.\n\nThere isn't a `%color_info` magic - for some reason, our help output says that there is. We'll remove it from the help.\n"
+  }
+]

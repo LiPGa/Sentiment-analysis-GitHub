@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/2409797",
+    "html_url": "https://github.com/ipython/ipython/issues/874#issuecomment-2409797",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/874",
+    "id": 2409797,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MDk3OTc=",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-10-14T18:27:14Z",
+    "updated_at": "2011-10-14T18:28:07Z",
+    "author_association": "MEMBER",
+    "body": "Thanks. It's already fixed in trunk. In the meantime, you'll need to force the installation of pyzmq 2.1.9, or comment out these lines in `IPython/zmq/__init__.py`:\n\n```\nif pyzmq_version < minimum_pyzmq_version:\n   raise ImportError(\"IPython.zmq requires pyzmq >= %s, but you have %s\"%(\n                   minimum_pyzmq_version, pyzmq_version))\n```\n"
+  }
+]

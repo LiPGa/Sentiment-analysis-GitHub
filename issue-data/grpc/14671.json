@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/372268844",
+    "html_url": "https://github.com/grpc/grpc/issues/14671#issuecomment-372268844",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14671",
+    "id": 372268844,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MjI2ODg0NA==",
+    "user": {
+      "login": "typhoonzero",
+      "id": 13348433,
+      "node_id": "MDQ6VXNlcjEzMzQ4NDMz",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13348433?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/typhoonzero",
+      "html_url": "https://github.com/typhoonzero",
+      "followers_url": "https://api.github.com/users/typhoonzero/followers",
+      "following_url": "https://api.github.com/users/typhoonzero/following{/other_user}",
+      "gists_url": "https://api.github.com/users/typhoonzero/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/typhoonzero/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/typhoonzero/subscriptions",
+      "organizations_url": "https://api.github.com/users/typhoonzero/orgs",
+      "repos_url": "https://api.github.com/users/typhoonzero/repos",
+      "events_url": "https://api.github.com/users/typhoonzero/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/typhoonzero/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-12T10:55:09Z",
+    "updated_at": "2018-03-12T10:55:09Z",
+    "author_association": "NONE",
+    "body": "Closing, this is my bad, should not return `*std::string` as `void*` in gcc."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/464747736",
+    "html_url": "https://github.com/grpc/grpc/issues/15913#issuecomment-464747736",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15913",
+    "id": 464747736,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NDc0NzczNg==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-18T14:19:42Z",
+    "updated_at": "2019-02-18T14:19:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We now have these:\r\nhttps://github.com/grpc/grpc/blob/master/src/csharp/Grpc.Core.Api/ServiceBinderBase.cs\r\nand\r\nhttps://github.com/grpc/grpc/pull/17778\r\nwhich together seems to address the issue you're having.\r\n\r\nalso,  https://github.com/grpc/grpc-dotnet is something you might be interested in.\r\n"
+  }
+]

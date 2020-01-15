@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/272026494",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15077#issuecomment-272026494",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15077",
+    "id": 272026494,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjAyNjQ5NA==",
+    "user": {
+      "login": "mralgos",
+      "id": 20139978,
+      "node_id": "MDQ6VXNlcjIwMTM5OTc4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/20139978?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mralgos",
+      "html_url": "https://github.com/mralgos",
+      "followers_url": "https://api.github.com/users/mralgos/followers",
+      "following_url": "https://api.github.com/users/mralgos/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mralgos/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mralgos/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mralgos/subscriptions",
+      "organizations_url": "https://api.github.com/users/mralgos/orgs",
+      "repos_url": "https://api.github.com/users/mralgos/repos",
+      "events_url": "https://api.github.com/users/mralgos/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mralgos/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-11T23:15:39Z",
+    "updated_at": "2017-01-11T23:15:39Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@jcrist If the dataframe is empty, the comparison methods against a constant do not perform any operation. They simply return the input dataframe. \r\n\r\nTo fix the problem it seems to be enough to remove the first if statement in `_combine_const` function in pandas/core/frame.py. I'm running the tests."
+  }
+]

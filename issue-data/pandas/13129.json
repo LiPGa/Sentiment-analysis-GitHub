@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/361765663",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13129#issuecomment-361765663",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13129",
+    "id": 361765663,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MTc2NTY2Mw==",
+    "user": {
+      "login": "Apeder",
+      "id": 7852527,
+      "node_id": "MDQ6VXNlcjc4NTI1Mjc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7852527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Apeder",
+      "html_url": "https://github.com/Apeder",
+      "followers_url": "https://api.github.com/users/Apeder/followers",
+      "following_url": "https://api.github.com/users/Apeder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Apeder/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Apeder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Apeder/subscriptions",
+      "organizations_url": "https://api.github.com/users/Apeder/orgs",
+      "repos_url": "https://api.github.com/users/Apeder/repos",
+      "events_url": "https://api.github.com/users/Apeder/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Apeder/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-30T23:07:32Z",
+    "updated_at": "2018-01-30T23:07:32Z",
+    "author_association": "NONE",
+    "body": "Think I may have encountered this bug running Pandas on GAE Flexible: \r\nhttps://stackoverflow.com/questions/48509265/pandas-on-gae-flexible-wont-subset-dataframe/48512231#48512231\r\n\r\nHowever, both dtypes were strings, so not sure exactly what's going on...."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/148971603",
+    "html_url": "https://github.com/ipython/ipython/issues/8422#issuecomment-148971603",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8422",
+    "id": 148971603,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0ODk3MTYwMw==",
+    "user": {
+      "login": "kim22",
+      "id": 12297392,
+      "node_id": "MDQ6VXNlcjEyMjk3Mzky",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12297392?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kim22",
+      "html_url": "https://github.com/kim22",
+      "followers_url": "https://api.github.com/users/kim22/followers",
+      "following_url": "https://api.github.com/users/kim22/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kim22/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kim22/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kim22/subscriptions",
+      "organizations_url": "https://api.github.com/users/kim22/orgs",
+      "repos_url": "https://api.github.com/users/kim22/repos",
+      "events_url": "https://api.github.com/users/kim22/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kim22/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-18T02:52:21Z",
+    "updated_at": "2015-10-18T02:52:21Z",
+    "author_association": "NONE",
+    "body": "It is a bug within readline and is independent of ipython.  Issue closed.\nhttp://permalink.gmane.org/gmane.comp.gnu.readline/802\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/400796920",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/21544#issuecomment-400796920",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21544",
+    "id": 400796920,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMDc5NjkyMA==",
+    "user": {
+      "login": "Liam3851",
+      "id": 546210,
+      "node_id": "MDQ6VXNlcjU0NjIxMA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/546210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Liam3851",
+      "html_url": "https://github.com/Liam3851",
+      "followers_url": "https://api.github.com/users/Liam3851/followers",
+      "following_url": "https://api.github.com/users/Liam3851/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Liam3851/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Liam3851/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Liam3851/subscriptions",
+      "organizations_url": "https://api.github.com/users/Liam3851/orgs",
+      "repos_url": "https://api.github.com/users/Liam3851/repos",
+      "events_url": "https://api.github.com/users/Liam3851/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Liam3851/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-27T19:11:45Z",
+    "updated_at": "2018-06-27T19:11:45Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Closing this PR. Will open a new one that attempts to fix #21546 in addition to #21469,"
+  }
+]

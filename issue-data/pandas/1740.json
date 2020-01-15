@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/44480721",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1740#issuecomment-44480721",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1740",
+    "id": 44480721,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NDgwNzIx",
+    "user": {
+      "login": "hayd",
+      "id": 1931852,
+      "node_id": "MDQ6VXNlcjE5MzE4NTI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1931852?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hayd",
+      "html_url": "https://github.com/hayd",
+      "followers_url": "https://api.github.com/users/hayd/followers",
+      "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+      "organizations_url": "https://api.github.com/users/hayd/orgs",
+      "repos_url": "https://api.github.com/users/hayd/repos",
+      "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hayd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-29T00:12:57Z",
+    "updated_at": "2014-05-29T00:12:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You can use multiprocessing ( although potentially worth limiting to number of cpus?):\n\n```\nfrom multiprocessing import Manager, Process\n\nd = Manager().dict()\ndef f(filename, d=d):\n    # read table from filename, parse, whatever,\n    d[filename] = dataframe\n\nprocs = [Process(pd.read_csv, (fn,)) for fn in file_names]\nfor p in procs: p.start()\nfor p in procs: p.join()\n```\n\nThis should be faster...\n"
+  }
+]

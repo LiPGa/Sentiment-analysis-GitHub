@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/448980909",
+    "html_url": "https://github.com/grpc/grpc/issues/17518#issuecomment-448980909",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17518",
+    "id": 448980909,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0ODk4MDkwOQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-20T12:21:56Z",
+    "updated_at": "2018-12-20T12:22:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It's not clear to me what it is you were trying to accomplish. Looks like you were trying to use maven to use the gRPC C# tests (which is something that we never tested and is not supported).\r\nIf you are gRPC C# contributor and you need to run gRPC C# tests, please use run_tests.py script to run them (see https://github.com/grpc/grpc/tree/master/tools/run_tests). If you are gRPC C# user, you don't need to run those, just use the nuget package.\r\n\r\nIf this is a failure in your unit tests, you need to include a code snippet that triggers the problem, otherwise we can't really do much. \r\n\r\nJust an idea: if you are hitting this assertion https://github.com/grpc/grpc/blob/a0c7ec851e099a625230b369f5de0f616ca9def7/src/csharp/Grpc.Core/Server.cs#L214, that probably means you are trying to invoke server.ShutdownAsync twice."
+  }
+]

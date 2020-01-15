@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/4977510",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/999#issuecomment-4977510",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/999",
+    "id": 4977510,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5Nzc1MTA=",
+    "user": {
+      "login": "adamklein",
+      "id": 869232,
+      "node_id": "MDQ6VXNlcjg2OTIzMg==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/869232?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamklein",
+      "html_url": "https://github.com/adamklein",
+      "followers_url": "https://api.github.com/users/adamklein/followers",
+      "following_url": "https://api.github.com/users/adamklein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamklein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamklein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamklein/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamklein/orgs",
+      "repos_url": "https://api.github.com/users/adamklein/repos",
+      "events_url": "https://api.github.com/users/adamklein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamklein/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-05T14:29:25Z",
+    "updated_at": "2012-04-05T14:44:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "NaT handling seems non-existant in 1.6. In 1.7,\n\n#define NPY_DATETIME_NAT NPY_MIN_INT64\n\nThe pandas files np_datetime.c/h and np_datetime_strings.c/h files are a bit of a mashup from the corresponding numpy files and 1.6/1.7 branches, with edits to get at non-exported numpy datetime functionality via cython.\n\nI'm not sure how much needs to change to make it NaT friendly, but there are clearly some NaT additions in the 1.7 branch that are likely to be important to add into the np_datetime\\* files.\n"
+  }
+]

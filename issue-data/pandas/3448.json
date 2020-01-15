@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/17009975",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/3448#issuecomment-17009975",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/3448",
+    "id": 17009975,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MDA5OTc1",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-04-25T14:24:13Z",
+    "updated_at": "2013-04-25T14:24:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "closed by #3452\n\nRevised using code from above\n\n```\nIn [14]: s\nOut[14]: \n2013-01-01   -0.950737\n2013-01-06    0.766329\n2013-01-02    0.234236\n2013-01-07   -1.009092\n2013-01-03    0.519744\n2013-01-09    0.736012\n2013-01-04    1.063657\n2013-01-05   -0.383949\n2013-01-08   -2.117098\n2013-01-10   -0.761778\ndtype: float64\n\nIn [15]: s['20130104':'20130105']\nOut[15]: \n2013-01-04    1.063657\n2013-01-05   -0.383949\ndtype: float64\n```\n\nOrdering is whatever it is currently (no sorting done on return index)\n\n```\nIn [16]: s['20130104':'20130107']\nOut[16]: \n2013-01-06    0.766329\n2013-01-07   -1.009092\n2013-01-04    1.063657\n2013-01-05   -0.383949\ndtype: float64\n\nIn [17]: s['20130102':'20130107']\nOut[17]: \n2013-01-06    0.766329\n2013-01-02    0.234236\n2013-01-07   -1.009092\n2013-01-03    0.519744\n2013-01-04    1.063657\n2013-01-05   -0.383949\ndtype: float64\n```\n\nThis is out of range selection!\n\n```\nIn [18]: s['20130102':'20130204']\nOut[18]: \n2013-01-06    0.766329\n2013-01-02    0.234236\n2013-01-07   -1.009092\n2013-01-03    0.519744\n2013-01-09    0.736012\n2013-01-04    1.063657\n2013-01-05   -0.383949\n2013-01-08   -2.117098\n2013-01-10   -0.761778\ndtype: float64\n```\n"
+  }
+]

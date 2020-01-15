@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/2623424",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/314#issuecomment-2623424",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/314",
+    "id": 2623424,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2MjM0MjQ=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-11-03T21:31:38Z",
+    "updated_at": "2011-11-03T21:31:38Z",
+    "author_association": "MEMBER",
+    "body": "Took care of 2 things here-- you're right Series.apply should always return a Series, and also need to override ndarray.round (though not immediately clear why), the root cause of this particular issue\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/389347143",
+    "html_url": "https://github.com/grpc/grpc/issues/7695#issuecomment-389347143",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7695",
+    "id": 389347143,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTM0NzE0Mw==",
+    "user": {
+      "login": "srini100",
+      "id": 35056280,
+      "node_id": "MDQ6VXNlcjM1MDU2Mjgw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/35056280?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/srini100",
+      "html_url": "https://github.com/srini100",
+      "followers_url": "https://api.github.com/users/srini100/followers",
+      "following_url": "https://api.github.com/users/srini100/following{/other_user}",
+      "gists_url": "https://api.github.com/users/srini100/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/srini100/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/srini100/subscriptions",
+      "organizations_url": "https://api.github.com/users/srini100/orgs",
+      "repos_url": "https://api.github.com/users/srini100/repos",
+      "events_url": "https://api.github.com/users/srini100/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/srini100/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-15T23:33:01Z",
+    "updated_at": "2018-05-15T23:33:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "gRPC already works on other transports like in-process transport. Adopting to a new transport requires good understand of gRPC transport layer abstraction. It is doable if someone is willing to put the effort."
+  }
+]

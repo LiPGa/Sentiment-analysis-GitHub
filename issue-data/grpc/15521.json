@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/391551666",
+    "html_url": "https://github.com/grpc/grpc/issues/15521#issuecomment-391551666",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15521",
+    "id": 391551666,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MTU1MTY2Ng==",
+    "user": {
+      "login": "dontsovcmc",
+      "id": 6192152,
+      "node_id": "MDQ6VXNlcjYxOTIxNTI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6192152?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dontsovcmc",
+      "html_url": "https://github.com/dontsovcmc",
+      "followers_url": "https://api.github.com/users/dontsovcmc/followers",
+      "following_url": "https://api.github.com/users/dontsovcmc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dontsovcmc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dontsovcmc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dontsovcmc/subscriptions",
+      "organizations_url": "https://api.github.com/users/dontsovcmc/orgs",
+      "repos_url": "https://api.github.com/users/dontsovcmc/repos",
+      "events_url": "https://api.github.com/users/dontsovcmc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dontsovcmc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-24T00:52:12Z",
+    "updated_at": "2018-05-24T00:52:12Z",
+    "author_association": "NONE",
+    "body": "I solve the problem: -DgRPC_MSVC_STATIC_RUNTIME=ON"
+  }
+]

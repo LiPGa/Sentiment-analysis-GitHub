@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/36222688",
+    "html_url": "https://github.com/ipython/ipython/issues/4931#issuecomment-36222688",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4931",
+    "id": 36222688,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MjIyNjg4",
+    "user": {
+      "login": "chenleo",
+      "id": 4822719,
+      "node_id": "MDQ6VXNlcjQ4MjI3MTk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4822719?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chenleo",
+      "html_url": "https://github.com/chenleo",
+      "followers_url": "https://api.github.com/users/chenleo/followers",
+      "following_url": "https://api.github.com/users/chenleo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chenleo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chenleo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chenleo/subscriptions",
+      "organizations_url": "https://api.github.com/users/chenleo/orgs",
+      "repos_url": "https://api.github.com/users/chenleo/repos",
+      "events_url": "https://api.github.com/users/chenleo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chenleo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-02-27T09:05:51Z",
+    "updated_at": "2014-02-27T09:05:51Z",
+    "author_association": "NONE",
+    "body": "My personal experience is that complicate set up for UI will increase the entrance bar, which will be useful for senior user, but may not for new members.\n\nProbably something simple & dirty & fast with real demos will help more.\n"
+  }
+]

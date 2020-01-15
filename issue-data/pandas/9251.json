@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/70064593",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9251#issuecomment-70064593",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9251",
+    "id": 70064593,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwMDY0NTkz",
+    "user": {
+      "login": "eoincondron",
+      "id": 9717992,
+      "node_id": "MDQ6VXNlcjk3MTc5OTI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9717992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eoincondron",
+      "html_url": "https://github.com/eoincondron",
+      "followers_url": "https://api.github.com/users/eoincondron/followers",
+      "following_url": "https://api.github.com/users/eoincondron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eoincondron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eoincondron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eoincondron/subscriptions",
+      "organizations_url": "https://api.github.com/users/eoincondron/orgs",
+      "repos_url": "https://api.github.com/users/eoincondron/repos",
+      "events_url": "https://api.github.com/users/eoincondron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eoincondron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-15T10:11:38Z",
+    "updated_at": "2015-01-15T10:11:38Z",
+    "author_association": "NONE",
+    "body": "Having thought about this further, I realised that passing repeated indices is actually reasonable and useful in some situations, i.e. when you want to return a view or copy with repeated rows, e.g.\n\n```\ndf = pd.DataFrame(np.arange(6).reshape(3, 2), columns = ['A', 'B'])\ndf.loc[[1, 2, 1, 2, 3], 'A']\n1     2\n2     4\n1     2\n2     4\n3   NaN\n```\n\nAssigning works as long as all indices are present:\n\n```\ndf.loc[[1, 2, 1, 2], 'A'] = 5\ndf['A']\n0    0\n1    5\n2    5\n```\n\nHowever, as the example in the original post demonstrates, when you pass repeated indices to a mulitindex you don't get repeated rows or blocks of rows and you can't assign values in that way.\n"
+  }
+]

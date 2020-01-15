@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/158699464",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8578#issuecomment-158699464",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8578",
+    "id": 158699464,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1ODY5OTQ2NA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-22T01:54:33Z",
+    "updated_at": "2015-11-22T01:54:33Z",
+    "author_association": "MEMBER",
+    "body": "We've fixed a lot of visibility, targeting, and GPS related bugs for the next release.  Unfortunately there's not enough concrete info here to go on, so there's not much benefit for keeping this open.  Please open a new ticket with screenshots or a replay if you can reproduce this on the newer playtests / winter 2015 release.\n"
+  }
+]

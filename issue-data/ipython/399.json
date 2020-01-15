@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/1046220",
+    "html_url": "https://github.com/ipython/ipython/issues/399#issuecomment-1046220",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/399",
+    "id": 1046220,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNDYyMjA=",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-04-23T00:42:44Z",
+    "updated_at": "2011-04-23T00:42:44Z",
+    "author_association": "MEMBER",
+    "body": "Indeed, this is exactly what the HWM configurable is in the TaskScheduler, and merged just yesterday in commit e6ade7a70238c0e899c082c1051bfa3f3d915be2.  The default behavior remains unlimited, which has the lowest latency on a static engine set.  You must use the Python scheduler (the default) for this to be available, as it is not possible with the pure-zmq scheduler.\n"
+  }
+]

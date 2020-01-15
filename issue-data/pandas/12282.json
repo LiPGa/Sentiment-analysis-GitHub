@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/182419035",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12282#issuecomment-182419035",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12282",
+    "id": 182419035,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4MjQxOTAzNQ==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-10T15:15:12Z",
+    "updated_at": "2016-02-10T15:15:12Z",
+    "author_association": "MEMBER",
+    "body": "This is exactly the expected behaviour of `reindex`. If you want to set a new index, you can do:\n\n```\nIn [26]: c.index = d_t_idx\n\nIn [27]: c\nOut[27]:\n2016-01-31    C\n2016-02-29    C\n2016-03-31    C\nFreq: M, dtype: object\n```\n\n`reindex` is meant to set the index but match the existing index/data combinations to the new index. Since your original index and the new indexes you want to reindex with have nothing in common, you get all NaN values.\n"
+  }
+]

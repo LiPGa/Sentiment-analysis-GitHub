@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/236653251",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11756#issuecomment-236653251",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11756",
+    "id": 236653251,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNjY1MzI1MQ==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-01T17:44:45Z",
+    "updated_at": "2016-08-01T17:44:45Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You're missing an `Armament` trait on your actor, as the error message tells you:\n\n```\nActorInfo(\"mobu\") failed to initialize because of the following:\nMissing:\nOpenRA.Mods.Common.Traits.ArmamentInfo\n```\n"
+  }
+]

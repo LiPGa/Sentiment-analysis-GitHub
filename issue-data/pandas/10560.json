@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/157135017",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10560#issuecomment-157135017",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10560",
+    "id": 157135017,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NzEzNTAxNw==",
+    "user": {
+      "login": "pocman",
+      "id": 1695808,
+      "node_id": "MDQ6VXNlcjE2OTU4MDg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1695808?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pocman",
+      "html_url": "https://github.com/pocman",
+      "followers_url": "https://api.github.com/users/pocman/followers",
+      "following_url": "https://api.github.com/users/pocman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pocman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pocman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pocman/subscriptions",
+      "organizations_url": "https://api.github.com/users/pocman/orgs",
+      "repos_url": "https://api.github.com/users/pocman/repos",
+      "events_url": "https://api.github.com/users/pocman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pocman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-16T18:55:52Z",
+    "updated_at": "2015-11-16T18:56:43Z",
+    "author_association": "NONE",
+    "body": " FIX : If you just create the SparseSeries in a script without printing, it will work.\n"
+  }
+]

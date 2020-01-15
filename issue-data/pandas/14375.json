@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/252236192",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14375#issuecomment-252236192",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14375",
+    "id": 252236192,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MjIzNjE5Mg==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T12:07:58Z",
+    "updated_at": "2016-10-07T12:07:58Z",
+    "author_association": "MEMBER",
+    "body": "I think you want to take a look at the [ibis](http://docs.ibis-project.org/) or [blaze](http://blaze.readthedocs.io/en/latest/index.html) projects, which both have a pandas-like python API that translate to an underlying storage system (decoupling expression from actual computation)\n"
+  }
+]

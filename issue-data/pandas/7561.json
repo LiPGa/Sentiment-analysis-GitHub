@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/47054316",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/7561#issuecomment-47054316",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/7561",
+    "id": 47054316,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDU0MzE2",
+    "user": {
+      "login": "davidastephens",
+      "id": 5957850,
+      "node_id": "MDQ6VXNlcjU5NTc4NTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5957850?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davidastephens",
+      "html_url": "https://github.com/davidastephens",
+      "followers_url": "https://api.github.com/users/davidastephens/followers",
+      "following_url": "https://api.github.com/users/davidastephens/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davidastephens/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davidastephens/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davidastephens/subscriptions",
+      "organizations_url": "https://api.github.com/users/davidastephens/orgs",
+      "repos_url": "https://api.github.com/users/davidastephens/repos",
+      "events_url": "https://api.github.com/users/davidastephens/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davidastephens/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-25T02:30:58Z",
+    "updated_at": "2014-06-25T02:30:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We probably don't need both an assert in the else and an assert afterwards.  I will send a pull request that cleans up the tests that has both.  Seems like a merge problem.\n\n```\ndef test_get_near_stock_price(self):\n    try:\n        options = self.aapl.get_near_stock_price(call=True, put=True,\n                                                 expiry=self.expiry)\n    except RemoteDataError as e:\n        nose.SkipTest(e)\n    else:\n        assert len(options) > 1\n\n    self.assertTrue(len(options) > 1)\n```\n"
+  }
+]

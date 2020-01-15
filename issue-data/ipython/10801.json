@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/329229500",
+    "html_url": "https://github.com/ipython/ipython/pull/10801#issuecomment-329229500",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10801",
+    "id": 329229500,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyOTIyOTUwMA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-13T16:51:40Z",
+    "updated_at": "2017-09-13T16:51:40Z",
+    "author_association": "MEMBER",
+    "body": "Thanks.\n\nOn Wed, Sep 13, 2017 at 9:43 AM, Thomas Kluyver <notifications@github.com>\nwrote:\n\n> Merged #10801 <https://github.com/ipython/ipython/pull/10801>.\n>\n> —\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ipython/ipython/pull/10801#event-1247644302>, or mute\n> the thread\n> <https://github.com/notifications/unsubscribe-auth/AAUez7zVrWRruoqPls22RJWQ87t6OZs7ks5siAYfgaJpZM4PWXKD>\n> .\n>\n"
+  }
+]

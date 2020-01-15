@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/258385556",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12329#issuecomment-258385556",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12329",
+    "id": 258385556,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1ODM4NTU1Ng==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-04T09:48:50Z",
+    "updated_at": "2016-11-04T09:51:27Z",
+    "author_association": "MEMBER",
+    "body": "This is unfortunately another regression from #11207, which dirties invalid indices in the smudge terrain layer when a building extends outside the map.  I can see at least two places in the lower level code that are missing CellLayer bounds checks.\n"
+  }
+]

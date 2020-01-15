@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/23958389",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4763#issuecomment-23958389",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4763",
+    "id": 23958389,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzOTU4Mzg5",
+    "user": {
+      "login": "cpcloud",
+      "id": 417981,
+      "node_id": "MDQ6VXNlcjQxNzk4MQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/417981?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cpcloud",
+      "html_url": "https://github.com/cpcloud",
+      "followers_url": "https://api.github.com/users/cpcloud/followers",
+      "following_url": "https://api.github.com/users/cpcloud/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cpcloud/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cpcloud/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cpcloud/subscriptions",
+      "organizations_url": "https://api.github.com/users/cpcloud/orgs",
+      "repos_url": "https://api.github.com/users/cpcloud/repos",
+      "events_url": "https://api.github.com/users/cpcloud/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cpcloud/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-09-06T18:05:17Z",
+    "updated_at": "2013-09-06T18:12:06Z",
+    "author_association": "MEMBER",
+    "body": "simple fix is to just turn single strings in to a list\n\nother option is to deprecate this \"feature\" (it isn't tested) and enforce a list-like iterable to be passed. i'm sort of on the fence about it....practically speaking single strings are useful...but from a consistency standpoint it's ... well... inconsistent with the many of pandas other funcs/methods that take iterables\n\nsomewhat related is that **not** allowing single strings adds a bit more complexity to the `eval` parser since i must deal with things like `df['a == \"b\"']`. the `==` op must eval in python space. ideally that is just a  call to `a.isin('b')` but since that doesn't work for a general string it fails a bunch of my tests\n"
+  }
+]

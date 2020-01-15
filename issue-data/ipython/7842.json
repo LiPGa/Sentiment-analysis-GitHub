@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/82347552",
+    "html_url": "https://github.com/ipython/ipython/issues/7842#issuecomment-82347552",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7842",
+    "id": 82347552,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgyMzQ3NTUy",
+    "user": {
+      "login": "bollwyvl",
+      "id": 45380,
+      "node_id": "MDQ6VXNlcjQ1Mzgw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/45380?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bollwyvl",
+      "html_url": "https://github.com/bollwyvl",
+      "followers_url": "https://api.github.com/users/bollwyvl/followers",
+      "following_url": "https://api.github.com/users/bollwyvl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bollwyvl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bollwyvl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bollwyvl/subscriptions",
+      "organizations_url": "https://api.github.com/users/bollwyvl/orgs",
+      "repos_url": "https://api.github.com/users/bollwyvl/repos",
+      "events_url": "https://api.github.com/users/bollwyvl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bollwyvl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-17T13:25:15Z",
+    "updated_at": "2015-03-17T13:25:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "One of the big things in 5.0 is the beginning of real mobile support:\n\n> Version 5.0 adds the possibility to use contentEditable rather than a hidden textarea as a way to manage input and focus. This is necessary on mobile, since it is the only way we can get the native selection interface to show up.\n\nGood stuff!\n"
+  }
+]

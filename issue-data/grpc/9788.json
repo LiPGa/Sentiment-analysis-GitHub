@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/280884797",
+    "html_url": "https://github.com/grpc/grpc/pull/9788#issuecomment-280884797",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9788",
+    "id": 280884797,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MDg4NDc5Nw==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-19T00:07:31Z",
+    "updated_at": "2017-02-19T00:07:31Z",
+    "author_association": "MEMBER",
+    "body": "*** THIS IS LIKELY TERRIBLE AND INCORRECT ***\r\n\r\nIf we pull a single element from the mpscq, then we need to ensure it's drained before looking at the thread local queue... otherwise we can reorder events from a single source, and that's going to cause all sorts of grief."
+  }
+]

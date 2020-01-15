@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/475661471",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25833#issuecomment-475661471",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25833",
+    "id": 475661471,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NTY2MTQ3MQ==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-22T15:19:18Z",
+    "updated_at": "2019-03-22T15:19:18Z",
+    "author_association": "MEMBER",
+    "body": "I wouldn't expect your output as a and b are the same object. You probably want to assign a copy of `b` so:\r\n\r\n```python\r\na['Hi'] = b.copy()\r\n```\r\n\r\nI suppose builtin containers in Python handle this slightly differently by printing a reference to the object:\r\n\r\n```python\r\nIn [440]: a = b = list('abc')\r\n\r\nIn [441]: a.append(b)\r\n\r\nIn [442]: a\r\nOut[442]: ['a', 'b', 'c', [...]]\r\n```\r\n\r\nSo maybe could do something similar here, though I can't imagine where this is actually useful"
+  }
+]

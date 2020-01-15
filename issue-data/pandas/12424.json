@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/187670081",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12424#issuecomment-187670081",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12424",
+    "id": 187670081,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NzY3MDA4MQ==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-23T11:55:10Z",
+    "updated_at": "2016-02-23T11:55:10Z",
+    "author_association": "MEMBER",
+    "body": "On master, the out of bounds error is not shown anymore, but the `AttributeError: 'float' object has no attribute 'view'` is still there.\n\nIt seems this error is only triggered when there is a NaN and the other string is not valid:\n\n```\nIn [7]: pd.to_datetime(pd.Series(['2012-01-01', np.nan]), errors='ignore')\nOut[7]:\n0   2012-01-01\n1          NaT\ndtype: datetime64[ns]\n\nIn [8]: pd.to_datetime(pd.Series([np.nan]), errors='ignore')\nOut[8]:\n0   NaT\ndtype: datetime64[ns]\n\nIn [9]: pd.to_datetime(pd.Series(['1012-01-01', np.nan]), errors='ignore')\nAttributeError: 'float' object has no attribute 'view'\n\nIn [10]: pd.to_datetime(pd.Series(['1012-01-01']), errors='ignore')\nOut[10]:\n0    1012-01-01\ndtype: object\n\nIn [11]: pd.to_datetime(pd.Series(['1012-01-01', '2012-01-01']), errors='ignore'\nOut[11]:\n0    1012-01-01\n1    2012-01-01\ndtype: object\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/94419770",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9951#issuecomment-94419770",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9951",
+    "id": 94419770,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk0NDE5Nzcw",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-20T10:45:34Z",
+    "updated_at": "2015-04-20T10:45:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "xref here: https://github.com/pydata/pandas/pull/9237\n\nThis is the defined behavior, to _reindex_ the provided input to the passed `index` and/or `columns` .\n"
+  }
+]

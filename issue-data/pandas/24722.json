@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/453563289",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24722#issuecomment-453563289",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24722",
+    "id": 453563289,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzU2MzI4OQ==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-11T15:55:46Z",
+    "updated_at": "2019-01-11T15:55:46Z",
+    "author_association": "MEMBER",
+    "body": "This is not a pandas thing as much as how floating point arithmetic is designed. Should be able to find plenty of info out there on it already - here's a good SO post as an example:\r\n\r\nhttps://stackoverflow.com/questions/1565164/what-is-the-rationale-for-all-comparisons-returning-false-for-ieee754-nan-values"
+  }
+]

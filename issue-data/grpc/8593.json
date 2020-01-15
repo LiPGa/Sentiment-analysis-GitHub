@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/257512041",
+    "html_url": "https://github.com/grpc/grpc/issues/8593#issuecomment-257512041",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8593",
+    "id": 257512041,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NzUxMjA0MQ==",
+    "user": {
+      "login": "sulliwane",
+      "id": 1733686,
+      "node_id": "MDQ6VXNlcjE3MzM2ODY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1733686?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sulliwane",
+      "html_url": "https://github.com/sulliwane",
+      "followers_url": "https://api.github.com/users/sulliwane/followers",
+      "following_url": "https://api.github.com/users/sulliwane/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sulliwane/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sulliwane/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sulliwane/subscriptions",
+      "organizations_url": "https://api.github.com/users/sulliwane/orgs",
+      "repos_url": "https://api.github.com/users/sulliwane/repos",
+      "events_url": "https://api.github.com/users/sulliwane/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sulliwane/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-01T08:22:58Z",
+    "updated_at": "2016-11-01T08:22:58Z",
+    "author_association": "NONE",
+    "body": "Actually no need to call `waitForCancel()`, directly listen for the **'cancelled'** event:\n\n``` javascript\ncall.on('cancelled', () => console.log('cancelled'));\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/283781106",
+    "html_url": "https://github.com/grpc/grpc/issues/9959#issuecomment-283781106",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9959",
+    "id": 283781106,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4Mzc4MTEwNg==",
+    "user": {
+      "login": "ncteisen",
+      "id": 6148140,
+      "node_id": "MDQ6VXNlcjYxNDgxNDA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6148140?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ncteisen",
+      "html_url": "https://github.com/ncteisen",
+      "followers_url": "https://api.github.com/users/ncteisen/followers",
+      "following_url": "https://api.github.com/users/ncteisen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ncteisen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ncteisen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ncteisen/subscriptions",
+      "organizations_url": "https://api.github.com/users/ncteisen/orgs",
+      "repos_url": "https://api.github.com/users/ncteisen/repos",
+      "events_url": "https://api.github.com/users/ncteisen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ncteisen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-02T21:10:31Z",
+    "updated_at": "2017-03-02T21:10:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Take a look at wait for ready behavior:\r\n\r\nAPI usage: [client_context.h](https://github.com/grpc/grpc/blob/46357c882df1afc28f7a5228c40fde522093fa32/include/grpc%2B%2B/impl/codegen/client_context.h#L232)\r\nDocumentation: [wait-for-ready.md](https://github.com/grpc/grpc/blob/5098508d2d41a116113f7e333c516cd9ef34a943/doc/wait-for-ready.md)"
+  }
+]

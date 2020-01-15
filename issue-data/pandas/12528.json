@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/192477887",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12528#issuecomment-192477887",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12528",
+    "id": 192477887,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MjQ3Nzg4Nw==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-04T21:34:33Z",
+    "updated_at": "2016-03-04T21:34:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Pretty sure this was reported in https://github.com/pydata/pandas/issues/12344, and is being fixed in https://github.com/pydata/pandas/pull/12498. Want to double check that they are indeed the same issue?\n"
+  }
+]

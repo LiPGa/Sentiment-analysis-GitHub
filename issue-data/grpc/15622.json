@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/394318240",
+    "html_url": "https://github.com/grpc/grpc/issues/15622#issuecomment-394318240",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15622",
+    "id": 394318240,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDMxODI0MA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-04T11:10:57Z",
+    "updated_at": "2018-06-04T11:10:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is a actually a protobuf  related question, not grpc.\r\nGenerally speaking, when exposing a list-like property in C#, sometimes the right API choice is to make the list-like object itself not settable (which is what you mean by \"read only\" I think) and providing 'Add' and 'AddRange` and other methods (implementing IList), because with that approach there are fewer moving pieces in the system and it sometimes simplifies the implementation. Protobuf happens to do that as well (as do many other popular C# APIs).\r\n\r\nBtw, our issue template clearly states that you shouldn't file question as github issue. Please follow the issue template instructions in the future."
+  }
+]

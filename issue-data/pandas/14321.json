@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/250442039",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14321#issuecomment-250442039",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14321",
+    "id": 250442039,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MDQ0MjAzOQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-29T11:36:07Z",
+    "updated_at": "2016-09-29T11:36:07Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The `.json` module itself should actually be private (and only expose _some_ API functions), so this is not likely to be exposed either. Further it is not completely API compat with the python JSON module (its pretty close in functionaility though).\n\nits based on the same underlying code here: https://pypi.python.org/pypi/ujson\n"
+  }
+]

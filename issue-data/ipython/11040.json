@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/372153333",
+    "html_url": "https://github.com/ipython/ipython/issues/11040#issuecomment-372153333",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11040",
+    "id": 372153333,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MjE1MzMzMw==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-11T21:59:25Z",
+    "updated_at": "2018-03-11T21:59:25Z",
+    "author_association": "MEMBER",
+    "body": "This looks like #10055; I'll close it and we can keep tracking it there.\r\n\r\nIt's waiting for someone to update it for the new version of wxPython. And to work out whether one hook can work for wx3 and wx4, or whether we should separate them."
+  }
+]

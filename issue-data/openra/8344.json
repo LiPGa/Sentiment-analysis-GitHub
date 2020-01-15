@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/107307581",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8344#issuecomment-107307581",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8344",
+    "id": 107307581,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNzMwNzU4MQ==",
+    "user": {
+      "login": "Snurre86",
+      "id": 7798635,
+      "node_id": "MDQ6VXNlcjc3OTg2MzU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7798635?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Snurre86",
+      "html_url": "https://github.com/Snurre86",
+      "followers_url": "https://api.github.com/users/Snurre86/followers",
+      "following_url": "https://api.github.com/users/Snurre86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Snurre86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Snurre86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Snurre86/subscriptions",
+      "organizations_url": "https://api.github.com/users/Snurre86/orgs",
+      "repos_url": "https://api.github.com/users/Snurre86/repos",
+      "events_url": "https://api.github.com/users/Snurre86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Snurre86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-01T05:04:48Z",
+    "updated_at": "2015-06-01T18:51:13Z",
+    "author_association": "NONE",
+    "body": "lua.log\n\nFatal Lua Error: [string \"BindingSupport.lua\"]:30: Unable to convert parameter 0 to Int32\n   at OpenRA.Scripting.ScriptContext.FatalError(String message)\n   at OpenRA.Mods.Common.Scripting.TriggerGlobal.<>c__DisplayClass14.<OnEnteredFootprint>b__13(Actor a)\n   at OpenRA.Traits.ActorMap.CellTrigger.Tick(ActorMap am)\n   at OpenRA.Traits.ActorMap.Tick(Actor self)\n   at OpenRA.World.<Tick>b__10(TraitPair`1 x)\n   at OpenRA.WorldUtils.DoTimed[T](IEnumerable`1 e, Action`1 a, String text)\n   at OpenRA.World.Tick()\n   at OpenRA.Game.InnerLogicTick(OrderManager orderManager)\n   at OpenRA.Game.LogicTick()\n   at OpenRA.Game.Loop()\n   at OpenRA.Game.Run()\n   at OpenRA.Program.Run(String[] args)\n   at OpenRA.Program.Main(String[] args)\n"
+  }
+]

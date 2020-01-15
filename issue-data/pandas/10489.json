@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/117938418",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10489#issuecomment-117938418",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10489",
+    "id": 117938418,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNzkzODQxOA==",
+    "user": {
+      "login": "shoyer",
+      "id": 1217238,
+      "node_id": "MDQ6VXNlcjEyMTcyMzg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1217238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shoyer",
+      "html_url": "https://github.com/shoyer",
+      "followers_url": "https://api.github.com/users/shoyer/followers",
+      "following_url": "https://api.github.com/users/shoyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shoyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shoyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shoyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/shoyer/orgs",
+      "repos_url": "https://api.github.com/users/shoyer/repos",
+      "events_url": "https://api.github.com/users/shoyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shoyer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-02T07:15:40Z",
+    "updated_at": "2015-07-02T07:15:40Z",
+    "author_association": "MEMBER",
+    "body": "Closing this as a duplicate of #10242\n\nPandas uses a correct formula for the standard deviation. However, the formula we use is not as numerically stable as the formula used by numpy. Pull requests to fix this would definitely be welcome!\n"
+  }
+]

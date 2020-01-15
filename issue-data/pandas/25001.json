@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/458544742",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25001#issuecomment-458544742",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25001",
+    "id": 458544742,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1ODU0NDc0Mg==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-29T13:45:22Z",
+    "updated_at": "2019-01-29T13:45:22Z",
+    "author_association": "MEMBER",
+    "body": "And to copy the regression case from the PR here:\r\n\r\nOne specific case that seems to be broken by this that I found, is using a categorical as the merge key:\r\n\r\n```\r\nIn [15]: left = pd.DataFrame({'a': [1, 2, 3], 'key': pd.Categorical(['a', 'a', 'b'], categories=['a', 'b', 'c'])}) \r\n    ...: right = pd.DataFrame({'b': [1, 2, 3]}, index=pd.Categorical(['a', 'b', 'c']))                                                                                                                              \r\n\r\nIn [16]: left.merge(right,  left_on='key', right_index=True, how='right')                                                                                                                                           \r\n---------------------------------------------------------------------------\r\nValueError                                Traceback (most recent call last)\r\n<ipython-input-16-e08f8fc28c75> in <module>\r\n----> 1 left.merge(right,  left_on='key', right_index=True, how='right')\r\n\r\n~/scipy/pandas/pandas/core/frame.py in merge(self, right, how, on, left_on, right_on, left_index, right_index, sort, suffixes, copy, indicator, validate)\r\n   6875                      right_on=right_on, left_index=left_index,\r\n   6876                      right_index=right_index, sort=sort, suffixes=suffixes,\r\n-> 6877                      copy=copy, indicator=indicator, validate=validate)\r\n   6878 \r\n   6879     def round(self, decimals=0, *args, **kwargs):\r\n\r\n~/scipy/pandas/pandas/core/reshape/merge.py in merge(left, right, how, on, left_on, right_on, left_index, right_index, sort, suffixes, copy, indicator, validate)\r\n     46                          copy=copy, indicator=indicator,\r\n     47                          validate=validate)\r\n---> 48     return op.get_result()\r\n     49 \r\n     50 \r\n\r\n~/scipy/pandas/pandas/core/reshape/merge.py in get_result(self)\r\n    544                 self.left, self.right)\r\n    545 \r\n--> 546         join_index, left_indexer, right_indexer = self._get_join_info()\r\n    547 \r\n    548         ldata, rdata = self.left._data, self.right._data\r\n\r\n~/scipy/pandas/pandas/core/reshape/merge.py in _get_join_info(self)\r\n    762                     join_index = self.right.index.take(right_indexer)\r\n    763                     left_indexer = np.array([-1] * len(join_index))\r\n--> 764             elif self.left_index:\r\n    765                 if len(self.right) > 0:\r\n    766                     join_index = self.right.index.take(right_indexer)\r\n\r\n~/scipy/pandas/pandas/core/reshape/merge.py in _create_join_index(self, index, other_index, indexer, other_indexer, how)\r\n    811 \r\n    812         # ugh, spaghetti re #733\r\n--> 813         if _any(self.left_on) and _any(self.right_on):\r\n    814             for lk, rk in zip(self.left_on, self.right_on):\r\n    815                 if is_lkey(lk):\r\n\r\nValueError: invalid literal for int() with base 10: 'c'\r\n```\r\n\r\nThe above is failing on master now, but works on 0.23.4 / 0.24.0."
+  }
+]

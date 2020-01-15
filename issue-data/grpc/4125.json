@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/156853707",
+    "html_url": "https://github.com/grpc/grpc/issues/4125#issuecomment-156853707",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/4125",
+    "id": 156853707,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1Njg1MzcwNw==",
+    "user": {
+      "login": "soltanmm",
+      "id": 4889063,
+      "node_id": "MDQ6VXNlcjQ4ODkwNjM=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4889063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soltanmm",
+      "html_url": "https://github.com/soltanmm",
+      "followers_url": "https://api.github.com/users/soltanmm/followers",
+      "following_url": "https://api.github.com/users/soltanmm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soltanmm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soltanmm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soltanmm/subscriptions",
+      "organizations_url": "https://api.github.com/users/soltanmm/orgs",
+      "repos_url": "https://api.github.com/users/soltanmm/repos",
+      "events_url": "https://api.github.com/users/soltanmm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soltanmm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-15T21:08:40Z",
+    "updated_at": "2015-11-15T21:09:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We're not up to Python 3 compatibility yet (sorry, you'll have to stick with Python 2.7 for now), but we will be by GA! Stay tuned...\n\n(technically a dup of #282, so closing for now)\n"
+  }
+]

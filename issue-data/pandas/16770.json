@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/311617568",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16770#issuecomment-311617568",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16770",
+    "id": 311617568,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMTYxNzU2OA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-28T10:13:03Z",
+    "updated_at": "2017-06-28T10:13:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "yeah this is an annoying numpy thing. need to test ``if len(values)`` here\r\n\r\n```\r\n> /Users/jreback/pandas/pandas/core/indexes/base.py(1806)_assert_take_fillable()\r\n   1804                 taken[mask] = na_value\r\n   1805         else:\r\n-> 1806             taken = values.take(indices)\r\n   1807         return taken\r\n   1808 \r\n\r\nipdb> l\r\n   1801             taken = values.take(indices)\r\n   1802             mask = indices == -1\r\n   1803             if mask.any():\r\n   1804                 taken[mask] = na_value\r\n   1805         else:\r\n-> 1806             taken = values.take(indices)\r\n   1807         return taken\r\n   1808 \r\n```\r\n\r\nPR's welcome."
+  }
+]

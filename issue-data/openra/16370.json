@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/478297485",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/16370#issuecomment-478297485",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16370",
+    "id": 478297485,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODI5NzQ4NQ==",
+    "user": {
+      "login": "teinarss",
+      "id": 19173272,
+      "node_id": "MDQ6VXNlcjE5MTczMjcy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19173272?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/teinarss",
+      "html_url": "https://github.com/teinarss",
+      "followers_url": "https://api.github.com/users/teinarss/followers",
+      "following_url": "https://api.github.com/users/teinarss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/teinarss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/teinarss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/teinarss/subscriptions",
+      "organizations_url": "https://api.github.com/users/teinarss/orgs",
+      "repos_url": "https://api.github.com/users/teinarss/repos",
+      "events_url": "https://api.github.com/users/teinarss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/teinarss/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-30T23:12:41Z",
+    "updated_at": "2019-03-30T23:12:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You will need to re download all the dependencies, \r\nrun \r\n```\r\nmake clean\r\nmake d\r\n```"
+  }
+]

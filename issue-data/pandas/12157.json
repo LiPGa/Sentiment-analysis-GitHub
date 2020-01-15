@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/175703432",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12157#issuecomment-175703432",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12157",
+    "id": 175703432,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NTcwMzQzMg==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-27T15:55:42Z",
+    "updated_at": "2016-01-27T15:55:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I was the culprit here -  #10967, looks like `squeeze` is untested on `read_excel`.  Probably just need a little extra logic around that name assignment, I can take a look.\n"
+  }
+]

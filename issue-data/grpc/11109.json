@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/315140551",
+    "html_url": "https://github.com/grpc/grpc/issues/11109#issuecomment-315140551",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11109",
+    "id": 315140551,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNTE0MDU1MQ==",
+    "user": {
+      "login": "adelez",
+      "id": 14932100,
+      "node_id": "MDQ6VXNlcjE0OTMyMTAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14932100?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adelez",
+      "html_url": "https://github.com/adelez",
+      "followers_url": "https://api.github.com/users/adelez/followers",
+      "following_url": "https://api.github.com/users/adelez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adelez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adelez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adelez/subscriptions",
+      "organizations_url": "https://api.github.com/users/adelez/orgs",
+      "repos_url": "https://api.github.com/users/adelez/repos",
+      "events_url": "https://api.github.com/users/adelez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adelez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-13T17:04:04Z",
+    "updated_at": "2017-07-13T17:04:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Another failure with a different assertion:\r\nheader45~aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'\r\nD0713 06:42:58.095000000  5388 dns_resolver.c:301] Using native dns resolver\r\nE0713 06:43:03.098000000  5388 bad_client.c:150] assertion failed: gpr_event_wait(&a.done_thd, grpc_timeout_seconds_to_deadline(5))\r\nAbort handler called.\r\n*** 0: 00000000010B312E  - 0000000000000000\r\n*** 1: 00000000010B341A  - 0000000000000000\r\n*** 2: 000000000110A64A  - 0000000000000000\r\n*** 3: 00000000010B19F1  - 0000000000000000\r\n*** 4: 000000000110A77B  - 0000000000000000\r\n*** 5: 0000000074B3336A BaseThreadInitThunk - 0000000074B33358\r\n*** 6: 0000000076F79902 RtlInitializeExceptionChain - 0000000076F7989F\r\n*** 7: 0000000076F798D5 RtlInitializeExceptionChain - 0000000076F7989F\r\n\r\nhttps://grpc-testing.appspot.com/job/gRPC_pr_win/6541/testReport/junit/(root)/c_windows_opt_native/vsprojects_Release_large_metadata_bad_client_test_exe/"
+  }
+]

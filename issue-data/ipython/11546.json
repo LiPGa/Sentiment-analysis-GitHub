@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/454947768",
+    "html_url": "https://github.com/ipython/ipython/issues/11546#issuecomment-454947768",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11546",
+    "id": 454947768,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NDk0Nzc2OA==",
+    "user": {
+      "login": "jlstevens",
+      "id": 890576,
+      "node_id": "MDQ6VXNlcjg5MDU3Ng==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/890576?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jlstevens",
+      "html_url": "https://github.com/jlstevens",
+      "followers_url": "https://api.github.com/users/jlstevens/followers",
+      "following_url": "https://api.github.com/users/jlstevens/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jlstevens/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jlstevens/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jlstevens/subscriptions",
+      "organizations_url": "https://api.github.com/users/jlstevens/orgs",
+      "repos_url": "https://api.github.com/users/jlstevens/repos",
+      "events_url": "https://api.github.com/users/jlstevens/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jlstevens/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-16T21:24:48Z",
+    "updated_at": "2019-01-16T21:24:48Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I am also experiencing broken tab completion in 7.2.0 for docstring defined signatures."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/414404852",
+    "html_url": "https://github.com/grpc/grpc/issues/16400#issuecomment-414404852",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16400",
+    "id": 414404852,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNDQwNDg1Mg==",
+    "user": {
+      "login": "sreecha",
+      "id": 2754995,
+      "node_id": "MDQ6VXNlcjI3NTQ5OTU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2754995?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sreecha",
+      "html_url": "https://github.com/sreecha",
+      "followers_url": "https://api.github.com/users/sreecha/followers",
+      "following_url": "https://api.github.com/users/sreecha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sreecha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sreecha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sreecha/subscriptions",
+      "organizations_url": "https://api.github.com/users/sreecha/orgs",
+      "repos_url": "https://api.github.com/users/sreecha/repos",
+      "events_url": "https://api.github.com/users/sreecha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sreecha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-20T17:50:18Z",
+    "updated_at": "2018-08-20T17:50:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Can you clarify what you mean by \r\n>> \"gives errors in greeter_client.\" \r\n\r\nWhat kind of errors?"
+  }
+]

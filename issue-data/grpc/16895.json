@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/430980931",
+    "html_url": "https://github.com/grpc/grpc/issues/16895#issuecomment-430980931",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16895",
+    "id": 430980931,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMDk4MDkzMQ==",
+    "user": {
+      "login": "AtosNicoS",
+      "id": 37442184,
+      "node_id": "MDQ6VXNlcjM3NDQyMTg0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37442184?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AtosNicoS",
+      "html_url": "https://github.com/AtosNicoS",
+      "followers_url": "https://api.github.com/users/AtosNicoS/followers",
+      "following_url": "https://api.github.com/users/AtosNicoS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AtosNicoS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AtosNicoS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AtosNicoS/subscriptions",
+      "organizations_url": "https://api.github.com/users/AtosNicoS/orgs",
+      "repos_url": "https://api.github.com/users/AtosNicoS/repos",
+      "events_url": "https://api.github.com/users/AtosNicoS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AtosNicoS/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-18T11:58:16Z",
+    "updated_at": "2018-10-18T11:58:16Z",
+    "author_association": "NONE",
+    "body": "I noticed the same behavior on a streaming request (client sends a message and receives a stream)."
+  }
+]

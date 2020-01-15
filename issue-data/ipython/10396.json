@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/286709680",
+    "html_url": "https://github.com/ipython/ipython/issues/10396#issuecomment-286709680",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10396",
+    "id": 286709680,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NjcwOTY4MA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-15T11:03:00Z",
+    "updated_at": "2017-03-15T11:03:00Z",
+    "author_association": "MEMBER",
+    "body": "I'm inclined to agree that we should be doing that, although I'm sure we'd get a complaint from someone who's using it with readline's tab completion mechanisms from their code."
+  }
+]

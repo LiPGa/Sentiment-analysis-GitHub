@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/225969866",
+    "html_url": "https://github.com/grpc/grpc/issues/6381#issuecomment-225969866",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6381",
+    "id": 225969866,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNTk2OTg2Ng==",
+    "user": {
+      "login": "makdharma",
+      "id": 17325098,
+      "node_id": "MDQ6VXNlcjE3MzI1MDk4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17325098?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/makdharma",
+      "html_url": "https://github.com/makdharma",
+      "followers_url": "https://api.github.com/users/makdharma/followers",
+      "following_url": "https://api.github.com/users/makdharma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/makdharma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/makdharma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/makdharma/subscriptions",
+      "organizations_url": "https://api.github.com/users/makdharma/orgs",
+      "repos_url": "https://api.github.com/users/makdharma/repos",
+      "events_url": "https://api.github.com/users/makdharma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/makdharma/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-14T18:18:53Z",
+    "updated_at": "2016-06-14T18:18:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Pasting the content of DEPLOY.md.\n\n## Test latest version of BoringSSL\n- Go to boringssl's repo and copy the SHA of the last commit in master: https://boringssl.googlesource.com/boringssl/+/master\n- Change BoringSSL.podspec in the gRPC repo (link!!) this way:\n- instead of :tag => '...', use:\n- :commit => 'SHA you just copied'\n- Run gRPC ObjC tests\n- In the rare case that err_data.c needs to be updated, either:\n- copy the contents of <grpc repo>/src/boringssl/err_data.c into the BoringSSL.podspec, or\n- regenerate err_data.c for your specific commit, following the instructions at the BoringSSL repo. You need to install Go.\n\n## Deploy new version of BoringSSL's pod.\n\nSo that the new release of gRPC uses the latest BoringSSL.\n- Ask Adam Langley agl@google.com (CC: Matt Braithwaite mab@google.com) to please add a new tag for Cocoapods in the BoringSSL repo.\n  Example email:\n\n```\nHi guys, we're ready for the next gRPC release.\n\nI've tested it against BoringSSL commit 232127d (Fold EC_GROUP...), and would need a version_for_cocoapods_2.0 tag to be added.\n\nThanks a lot!\n```\n- Update the podspec's version number & commit\n- pod trunk push BoringSSL.podspec --use-libraries --allow-warnings\n\n## Test gRPC.podspec\n- In your personal fork, create a branch and edit gRPC.podspec.template (link!!!!) to point to the new version number.\n- ./tools/buildgen/generate_projects.sh\n- commit and send to the release branch\n\n\"pod spec lint gRPC.podspec\" will fail now, because the podspec points to a tag that doesn't exist in the repo.\nWe don't want to add the tag until after testing, though, so:\n- Add a tag like this: git tag release-0_13_0-objectivec-0.13.0 and push it to your personal fork of the grpc repo on GitHub, pointing to the release branch\n- Temporarily modify gRPC.podspec to point to your personal fork, instead of github.com/grpc/grpc\n- pod spec lint gRPC.podspec --verbose --use-libraries\n- If linting fails, this is a way to debug:\n- enter \"script\" in your terminal, so the output of pod spec lint will be captured in a file\n- repeat the lint command with --fail-fast --no-clean, so you can open the generated projects that had the failures\n- enter \"exit\" to exit the subshell\n- After fixing any listing errors, run gRPC ObjC tests to make sure they pass (as local development might differ from what the linter checks).\n\n## Deploy gRPC.podspec\n- If any change was done to fix problems, commit and merge them into the release branch of the main repo.\n- Recreate the version tag at the latest commit in the release branch.\n- Push the version tag to the main grpc repo\n- pod trunk push gRPC.podspec --use-libraries --allow-warnings\n"
+  }
+]

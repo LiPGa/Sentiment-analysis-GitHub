@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/46095793",
+    "html_url": "https://github.com/ipython/ipython/issues/5930#issuecomment-46095793",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5930",
+    "id": 46095793,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MDk1Nzkz",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-14T18:28:49Z",
+    "updated_at": "2014-06-14T18:28:49Z",
+    "author_association": "MEMBER",
+    "body": "Please have a look at documentation on how to configure IPython: \nhttp://ipython.org/ipython-doc/dev/config/intro.html\n\nYou will probably need to set the value `c.InteractiveShellApp.pylab='inline'`\nBe aware that we recommend using `matplolib='inline'` as pylab can have unexpected side effect.\n"
+  }
+]

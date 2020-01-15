@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/6006119",
+    "html_url": "https://github.com/ipython/ipython/issues/1785#issuecomment-6006119",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1785",
+    "id": 6006119,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYwMDYxMTk=",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-30T09:52:33Z",
+    "updated_at": "2012-05-30T09:52:33Z",
+    "author_association": "MEMBER",
+    "body": "On 30 May 2012 04:57, algotr8der <reply+i-4808871-27bd1ec1342ba3405b794086f77bd3c4f61db62c-327925@reply.github.com> wrote:\n\n> AssertionError: \"'python' is not recognized as an internal or external command,\\r\\noperable program or batch file.\" != '1'\n\nThose tests assume that you've set your PATH environment variable so that you can run \"python\" at a command prompt, which isn't the default on Windows.\n\nIt shouldn't cause any problems for actually using IPython, so you needn't do anything. If you want the tests to pass, you can edit PATH - details here: http://superuser.com/a/143121\n"
+  }
+]

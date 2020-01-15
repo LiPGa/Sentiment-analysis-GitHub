@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/16622932",
+    "html_url": "https://github.com/ipython/ipython/issues/3198#issuecomment-16622932",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3198",
+    "id": 16622932,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2NjIyOTMy",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-04-19T01:26:41Z",
+    "updated_at": "2013-04-19T01:26:41Z",
+    "author_association": "MEMBER",
+    "body": "The error is being raised - the issue is simply rendering the massive traceback in javascript.  I expect it's the regular-expression operation that turns ANSI colors into css that's the culprit. It's possible that is not written in an appropriately efficient way, and we should probably also have some truncation of tracebacks to protect against this sort of thing.\n"
+  }
+]

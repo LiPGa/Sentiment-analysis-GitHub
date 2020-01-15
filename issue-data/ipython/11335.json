@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/425264413",
+    "html_url": "https://github.com/ipython/ipython/issues/11335#issuecomment-425264413",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11335",
+    "id": 425264413,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNTI2NDQxMw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-27T22:36:57Z",
+    "updated_at": "2018-09-27T22:36:57Z",
+    "author_association": "MEMBER",
+    "body": "Yes, this is [tracked](https://github.com/jupyter/jupyter_console/issues/158) on the `jupyter_console` repository. 7.0.0rc1 have the same issue, you can't have it and jupyter_console installed and have both working.\r\n\r\nClosing as it is tracked somewhere else."
+  }
+]

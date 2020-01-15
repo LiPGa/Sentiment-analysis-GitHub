@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/4587999",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/943#issuecomment-4587999",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/943",
+    "id": 4587999,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1ODc5OTk=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-03-20T02:18:49Z",
+    "updated_at": "2012-03-20T02:18:49Z",
+    "author_association": "MEMBER",
+    "body": "Surprised this never came up until now:\n\n```\nIn [9]: np.random.randn(10) == 'cmp'\nOut[9]: False\n```\n\nEasy to check for and will raise a more helpful exception\n"
+  }
+]

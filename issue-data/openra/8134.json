@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/100756270",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8134#issuecomment-100756270",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8134",
+    "id": 100756270,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDc1NjI3MA==",
+    "user": {
+      "login": "Unit158",
+      "id": 706008,
+      "node_id": "MDQ6VXNlcjcwNjAwOA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/706008?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Unit158",
+      "html_url": "https://github.com/Unit158",
+      "followers_url": "https://api.github.com/users/Unit158/followers",
+      "following_url": "https://api.github.com/users/Unit158/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Unit158/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Unit158/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Unit158/subscriptions",
+      "organizations_url": "https://api.github.com/users/Unit158/orgs",
+      "repos_url": "https://api.github.com/users/Unit158/repos",
+      "events_url": "https://api.github.com/users/Unit158/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Unit158/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-11T03:54:21Z",
+    "updated_at": "2015-05-11T03:54:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This should probably be done before the release of the cycle that contains the map editor. There's really no excuse not to have autosave in a modern editor anymore.\n\nOn 2015-05-10, at 1:35 PM, \"x-a-n-a-x\" notifications@github.com wrote:\n\n> Maybe there could be some kind of auto-save feature in OpenRA to save the current map in the background (or when the auto-restart dialog is displayed)? This way, after the auto-restart, the user could find his/her previous map like it was before.\n> \n> Something similar to what text editors do.\n> \n> ―\n> Reply to this email directly or view it on GitHub.\n"
+  }
+]

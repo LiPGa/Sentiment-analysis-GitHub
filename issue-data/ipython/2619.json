@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/10737695",
+    "html_url": "https://github.com/ipython/ipython/issues/2619#issuecomment-10737695",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2619",
+    "id": 10737695,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNzM3Njk1",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-11-26T22:45:26Z",
+    "updated_at": "2012-11-26T22:45:26Z",
+    "author_association": "MEMBER",
+    "body": "We will have to think carefully of this one, \nIf by \"the header info.\" you mean the first cell, it may add a significant overhead as you might have to fully parse each ipynbfile on the server side (and some could be huge).\n\nWe can still generate thin on save. \n\nIf you have a more precise example of what is needed...\n\nBut I agree that more information like last modif date, size....etc could be usefull.\n"
+  }
+]

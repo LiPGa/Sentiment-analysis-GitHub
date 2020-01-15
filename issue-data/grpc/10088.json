@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/358486337",
+    "html_url": "https://github.com/grpc/grpc/issues/10088#issuecomment-358486337",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10088",
+    "id": 358486337,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1ODQ4NjMzNw==",
+    "user": {
+      "login": "jboeuf",
+      "id": 6262765,
+      "node_id": "MDQ6VXNlcjYyNjI3NjU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6262765?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jboeuf",
+      "html_url": "https://github.com/jboeuf",
+      "followers_url": "https://api.github.com/users/jboeuf/followers",
+      "following_url": "https://api.github.com/users/jboeuf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jboeuf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jboeuf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jboeuf/subscriptions",
+      "organizations_url": "https://api.github.com/users/jboeuf/orgs",
+      "repos_url": "https://api.github.com/users/jboeuf/repos",
+      "events_url": "https://api.github.com/users/jboeuf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jboeuf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-17T23:37:15Z",
+    "updated_at": "2018-01-17T23:37:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "CCing @jiangtaoli2016 FYI.\r\n\r\nYou can get this information from the [auth_context](\r\nhttps://grpc.io/grpc/cpp/classgrpc_1_1_server_context.html#a2a8657d382cee53d670208d640383e8e)\r\n[GetPeerIdentity](https://grpc.io/grpc/cpp/classgrpc_1_1_auth_context.html#a56a84468c1c3814a185cb6a2a3badf99) will give you the list of SANs or the CN if the SANs are not available. You can find the complete PEM cert by looking up the [PEM cert property `GRPC_X509_PEM_CERT_PROPERTY_NAME`](https://grpc.io/grpc/cpp/grpc__security__constants_8h.html#ad46c3fd565d6a24eeb25d1fdc342cb28) [by name](https://grpc.io/grpc/cpp/classgrpc_1_1_auth_context.html#ac32b53377f8b7e44328f791f44bd6732) on the auth context.\r\n"
+  }
+]

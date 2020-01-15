@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/139417065",
+    "html_url": "https://github.com/ipython/ipython/issues/8807#issuecomment-139417065",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8807",
+    "id": 139417065,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzOTQxNzA2NQ==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-11T00:22:01Z",
+    "updated_at": "2015-09-11T00:22:01Z",
+    "author_association": "MEMBER",
+    "body": "I think this is covered in the doc of autoreload:\n\n> Reloading Python modules in a reliable way is in general\n> difficult, and unexpected things may occur.\n\nThe problem is that python imports are cached, so while we do our best to replace things\nwhere we can, you end up with 2 instances of your `base` module, that are the same (content)\nbut not the same (object id). Which to some weird case like an object not being an instance of it's class.\nYou can poke around and have [3+1 = 255](https://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/) also if you like. \n\nThese are some corner case you hit when you do things (like autoreaload) you are not supposed to do with the language. \n\nIf you find a fix, PR welcome, but this is not something we will actively work on, so I'm going to close. \n\nThanks\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/65949962",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9034#issuecomment-65949962",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9034",
+    "id": 65949962,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY1OTQ5OTYy",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-07T19:28:05Z",
+    "updated_at": "2014-12-07T19:28:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This works in >= 0.15.0 (currently version is 0.15.1, releasing 0.15.2 shortly).\n\n```\nIn [2]:  x = s.iloc[::3]\n\nIn [3]: x.ix[\"B\"]\nOut[3]: \n21    21\n24    24\n27    27\ndtype: int64\n```\n"
+  }
+]

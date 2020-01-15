@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/90778294",
+    "html_url": "https://github.com/ipython/ipython/pull/8276#issuecomment-90778294",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8276",
+    "id": 90778294,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkwNzc4Mjk0",
+    "user": {
+      "login": "jhamrick",
+      "id": 83444,
+      "node_id": "MDQ6VXNlcjgzNDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/83444?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jhamrick",
+      "html_url": "https://github.com/jhamrick",
+      "followers_url": "https://api.github.com/users/jhamrick/followers",
+      "following_url": "https://api.github.com/users/jhamrick/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jhamrick/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jhamrick/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jhamrick/subscriptions",
+      "organizations_url": "https://api.github.com/users/jhamrick/orgs",
+      "repos_url": "https://api.github.com/users/jhamrick/repos",
+      "events_url": "https://api.github.com/users/jhamrick/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jhamrick/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-08T01:56:17Z",
+    "updated_at": "2015-04-08T01:56:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": ":+1: \n"
+  }
+]

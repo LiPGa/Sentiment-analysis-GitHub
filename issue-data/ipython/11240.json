@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/408161401",
+    "html_url": "https://github.com/ipython/ipython/issues/11240#issuecomment-408161401",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11240",
+    "id": 408161401,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwODE2MTQwMQ==",
+    "user": {
+      "login": "mezaugusto",
+      "id": 8617804,
+      "node_id": "MDQ6VXNlcjg2MTc4MDQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8617804?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mezaugusto",
+      "html_url": "https://github.com/mezaugusto",
+      "followers_url": "https://api.github.com/users/mezaugusto/followers",
+      "following_url": "https://api.github.com/users/mezaugusto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mezaugusto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mezaugusto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mezaugusto/subscriptions",
+      "organizations_url": "https://api.github.com/users/mezaugusto/orgs",
+      "repos_url": "https://api.github.com/users/mezaugusto/repos",
+      "events_url": "https://api.github.com/users/mezaugusto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mezaugusto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-26T16:47:15Z",
+    "updated_at": "2018-07-26T16:47:15Z",
+    "author_association": "NONE",
+    "body": "It works if you declare them as global\r\n```python\r\ndef f():\r\n    global f1, f2\r\n    def f1():\r\n        print(\"f1\")\r\n    def f2():\r\n        print(\"f2\")\r\n    def f3():\r\n        print(\"f3\")\r\n        %time f1()\r\n        %time f2()\r\n    f3()\r\nf()\r\n```\r\nOutput:\r\n```\r\nf3  \r\nf1  \r\nCPU times: user 85 µs, sys: 25 µs, total: 110 µs  \r\nWall time: 99.7 µs  \r\nf2  \r\nCPU times: user 10 µs, sys: 9 µs, total: 19 µs  \r\nWall time: 19.1 µs\r\n```\r\nI think this is related to #9892"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/41508349",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/6986#issuecomment-41508349",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6986",
+    "id": 41508349,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNTA4MzQ5",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-27T20:42:16Z",
+    "updated_at": "2014-04-27T20:42:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@jorisvandenbossche \n\nthis https://github.com/pydata/pandas/issues/6856 might partially fix this as their was a bug in `pd.option_context` that was causing a deprecation warning (in some cases)\n\nafter I merge give a try\n"
+  }
+]

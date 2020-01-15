@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/233144823",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13674#issuecomment-233144823",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13674",
+    "id": 233144823,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMzE0NDgyMw==",
+    "user": {
+      "login": "sinhrks",
+      "id": 1696302,
+      "node_id": "MDQ6VXNlcjE2OTYzMDI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1696302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sinhrks",
+      "html_url": "https://github.com/sinhrks",
+      "followers_url": "https://api.github.com/users/sinhrks/followers",
+      "following_url": "https://api.github.com/users/sinhrks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sinhrks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sinhrks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sinhrks/subscriptions",
+      "organizations_url": "https://api.github.com/users/sinhrks/orgs",
+      "repos_url": "https://api.github.com/users/sinhrks/repos",
+      "events_url": "https://api.github.com/users/sinhrks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sinhrks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-16T18:43:07Z",
+    "updated_at": "2016-07-16T18:43:58Z",
+    "author_association": "MEMBER",
+    "body": "`error_bad_line` intends to handle the exception raised because of number of fields. On your data, the line itself is valid (not bad) and error is caused by latter dtype coercing.\n\nYour problem can be solved if you specify `thousands`.\n\n```\nbdy = u\"\"\"2016.07.03 09:43:38\\t0.01055556\\t16.146\\t26.9444444444444\n2016.07.03 09:43:43\\t0.01194444\\t16.146\\t26.9883333333333\n2016.07.03 09:43:48\\t0.01333333\\t16.105\\t27.0383333333333\n2016.07.03 09:43:53\\t0.01472222\\t16.102\\t42731,00\n2016.07.03 09:43:58\\t0.01611111\\t16.138\\t27.1822222222222\"\"\"\n\na = pd.read_csv(StringIO(bdy), sep = '\\t',\nskiprows = 2,\nheader = None, error_bad_lines = False, warn_bad_lines = True,\nparse_dates = [0], decimal = '.', thousands=',')\na.dtypes\n# 0    datetime64[ns]\n# 1           float64\n# 2           float64\n# 3           float64\n# dtype: object\n```\n"
+  }
+]

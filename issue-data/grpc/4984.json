@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/177576391",
+    "html_url": "https://github.com/grpc/grpc/issues/4984#issuecomment-177576391",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/4984",
+    "id": 177576391,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NzU3NjM5MQ==",
+    "user": {
+      "login": "Dijkstra-ru",
+      "id": 1152848,
+      "node_id": "MDQ6VXNlcjExNTI4NDg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1152848?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dijkstra-ru",
+      "html_url": "https://github.com/Dijkstra-ru",
+      "followers_url": "https://api.github.com/users/Dijkstra-ru/followers",
+      "following_url": "https://api.github.com/users/Dijkstra-ru/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Dijkstra-ru/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Dijkstra-ru/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Dijkstra-ru/subscriptions",
+      "organizations_url": "https://api.github.com/users/Dijkstra-ru/orgs",
+      "repos_url": "https://api.github.com/users/Dijkstra-ru/repos",
+      "events_url": "https://api.github.com/users/Dijkstra-ru/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Dijkstra-ru/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-31T18:36:55Z",
+    "updated_at": "2016-01-31T18:37:08Z",
+    "author_association": "NONE",
+    "body": "That's ruby: adding explicit package name solves the issue.\n"
+  }
+]

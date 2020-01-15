@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/259464551",
+    "html_url": "https://github.com/ipython/ipython/pull/10049#issuecomment-259464551",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10049",
+    "id": 259464551,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1OTQ2NDU1MQ==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-09T16:53:46Z",
+    "updated_at": "2016-11-09T16:53:46Z",
+    "author_association": "MEMBER",
+    "body": "Thanks !\n\nOn Wed, Nov 9, 2016 at 8:23 AM, Thomas Kluyver notifications@github.com\nwrote:\n\n> Merged #10049 https://github.com/ipython/ipython/pull/10049.\n> \n> —\n> You are receiving this because you authored the thread.\n> Reply to this email directly, view it on GitHub\n> https://github.com/ipython/ipython/pull/10049#event-853214599, or mute\n> the thread\n> https://github.com/notifications/unsubscribe-auth/AAUez7V3f-jJmn4dIXZYbIVzpGqghxkwks5q8fOVgaJpZM4KtAn6\n> .\n"
+  }
+]

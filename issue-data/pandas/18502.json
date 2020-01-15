@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/347014058",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18502#issuecomment-347014058",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18502",
+    "id": 347014058,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0NzAxNDA1OA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-26T14:57:15Z",
+    "updated_at": "2017-11-26T14:57:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I suppose. This would require a fair amount of work on this type of preservation as these routines are in cython. Would hold be able to work for the non-numerical filters (first,last,min,max). If you want to submit a PR would be accepted.\r\n\r\nnote 3.4 is not longer supported FYI."
+  }
+]

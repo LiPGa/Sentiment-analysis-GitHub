@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/113202014",
+    "html_url": "https://github.com/grpc/grpc/pull/2084#issuecomment-113202014",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2084",
+    "id": 113202014,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMzIwMjAxNA==",
+    "user": {
+      "login": "stanley-cheung",
+      "id": 11674202,
+      "node_id": "MDQ6VXNlcjExNjc0MjAy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11674202?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stanley-cheung",
+      "html_url": "https://github.com/stanley-cheung",
+      "followers_url": "https://api.github.com/users/stanley-cheung/followers",
+      "following_url": "https://api.github.com/users/stanley-cheung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stanley-cheung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stanley-cheung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stanley-cheung/subscriptions",
+      "organizations_url": "https://api.github.com/users/stanley-cheung/orgs",
+      "repos_url": "https://api.github.com/users/stanley-cheung/repos",
+      "events_url": "https://api.github.com/users/stanley-cheung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stanley-cheung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-18T16:01:14Z",
+    "updated_at": "2015-06-18T16:15:35Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is ready for review.\n\nSummary:\n- `sudo pecl install grpc` works on top of grpc compiled from source, or from homebrew\n- updated installation docs\n- the key addition to make this all work is the `package.xml` file, the other new files (CREDITS, LICENSE, README.md) are required by PECL.\n"
+  }
+]

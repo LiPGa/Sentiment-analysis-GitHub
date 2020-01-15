@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/262605001",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12421#issuecomment-262605001",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12421",
+    "id": 262605001,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2MjYwNTAwMQ==",
+    "user": {
+      "login": "paulvt",
+      "id": 551904,
+      "node_id": "MDQ6VXNlcjU1MTkwNA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/551904?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulvt",
+      "html_url": "https://github.com/paulvt",
+      "followers_url": "https://api.github.com/users/paulvt/followers",
+      "following_url": "https://api.github.com/users/paulvt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulvt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulvt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulvt/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulvt/orgs",
+      "repos_url": "https://api.github.com/users/paulvt/repos",
+      "events_url": "https://api.github.com/users/paulvt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulvt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-23T19:09:33Z",
+    "updated_at": "2016-11-23T19:09:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is somewhat related to #12373 too."
+  }
+]

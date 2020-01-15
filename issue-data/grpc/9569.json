@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/376977380",
+    "html_url": "https://github.com/grpc/grpc/issues/9569#issuecomment-376977380",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9569",
+    "id": 376977380,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3Njk3NzM4MA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-28T17:54:18Z",
+    "updated_at": "2018-03-28T17:54:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Building gRPC using `ExternalProject_Add` should now be possible without actually needing any submodules.\r\nIn https://github.com/grpc/grpc/pull/14822, I am adding a cmake \"superbuild\" example that demonstrates that (and there's a distribtest that verifies it works). The only difference between the superbuild example and what you are suggesting is the example takes the sources from locally-checked out working copy (but that's mostly for our convenience and making it more maintainable), but it should work equally well when URL, URL_HASH (or GIT_REPO and GIT_TAG) are being specified."
+  }
+]

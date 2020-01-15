@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/183582541",
+    "html_url": "https://github.com/grpc/grpc/issues/5200#issuecomment-183582541",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/5200",
+    "id": 183582541,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4MzU4MjU0MQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-13T04:03:05Z",
+    "updated_at": "2016-02-13T04:03:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Google.Protobuf.3.0.0-beta2 and Grpc.Tools.0.12.0 are basically incompatible.\n\nGrpc.Tools.0.12 contains grpc_csharp_plugin that is compiled against protobuf 3.0.0-alpha4 and there's been a breaking change in the API between protobuf alpha4 and beta2.\n\nI just published Grpc.Tools.0.13.0 and hour ago. You should be able to use that package together with Google.Protobuf.3.0.0-beta2 to generate your protobufs code and grpc stubs.\n\nI believe this has been resolved, so closing. Feel free to reopen if you are still having issues.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/227874412",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9479#issuecomment-227874412",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9479",
+    "id": 227874412,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNzg3NDQxMg==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-22T20:58:31Z",
+    "updated_at": "2016-06-22T20:58:31Z",
+    "author_association": "MEMBER",
+    "body": "I have a mostly finished prototype of this at https://github.com/pchote/OpenRA/tree/more-installers.\n"
+  }
+]

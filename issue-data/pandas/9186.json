@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/68542040",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9186#issuecomment-68542040",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9186",
+    "id": 68542040,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4NTQyMDQw",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-02T16:59:09Z",
+    "updated_at": "2015-01-02T16:59:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Problem is you are wanting to have columns that have `None` (the actual value), which is not a valid label. So I suspect that the empty frame that you have returned is actually wrong as well. You could raise  a `ValueError` or simply number the columns in the returned frame.\n\nPull-requests accepted\n\n```\nIn [1]: df = pd.DataFrame({'A': [2,2,3,3,2], 'id': [5,6,7,8,9], 'C':['p', 'q', 'q', 'p', 'q'], 'D':[None, None, None, None, None]})\n\nIn [4]: df['D'] = 'foo'\n\nIn [5]: df\nOut[5]: \n   A  C    D  id\n0  2  p  foo   5\n1  2  q  foo   6\n2  3  q  foo   7\n3  3  p  foo   8\n4  2  q  foo   9\n\nIn [6]: df.pivot_table(index='A', columns='D', values='id')\nOut[6]: \nD       foo\nA          \n2  6.666667\n3  7.500000\n\nIn [7]: df.pivot_table(index='A', columns='D', values='id', aggfunc=np.size)\nOut[7]: \nD  foo\nA     \n2    3\n3    2\n```\n\n```\nIn [8]: df = pd.DataFrame({'A': [2,2,3,3,2], 'id': [5,6,7,8,9], 'C':['p', 'q', 'q', 'p', 'q'], 'D':[None, None, None, None, None]})\n\nIn [9]: df.pivot_table(index='A', columns='D', values='id')\nOut[9]: \nEmpty DataFrame\nColumns: []\nIndex: []\n\nIn [10]: df.pivot_table(index='A', columns='D', values='id', aggfunc=np.size)\nKeyError: 'id'\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/382847402",
+    "html_url": "https://github.com/grpc/grpc/pull/15124#issuecomment-382847402",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15124",
+    "id": 382847402,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4Mjg0NzQwMg==",
+    "user": {
+      "login": "grpc-testing",
+      "id": 28024233,
+      "node_id": "MDQ6VXNlcjI4MDI0MjMz",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28024233?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/grpc-testing",
+      "html_url": "https://github.com/grpc-testing",
+      "followers_url": "https://api.github.com/users/grpc-testing/followers",
+      "following_url": "https://api.github.com/users/grpc-testing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/grpc-testing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/grpc-testing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/grpc-testing/subscriptions",
+      "organizations_url": "https://api.github.com/users/grpc-testing/orgs",
+      "repos_url": "https://api.github.com/users/grpc-testing/repos",
+      "events_url": "https://api.github.com/users/grpc-testing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/grpc-testing/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-19T19:06:03Z",
+    "updated_at": "2018-04-19T19:06:03Z",
+    "author_association": "NONE",
+    "body": "```\n****************************************************************\n\nlibgrpc.so\n\n     VM SIZE                                      FILE SIZE\n ++++++++++++++ GROWING                        ++++++++++++++\n\n -------------- SHRINKING                      --------------\n  -0.0%     -88 [None]                         -1.14Ki  -0.0%\n -12.7%    -112 src/core/lib/iomgr/exec_ctx.cc    -112 -12.7%\n      [DEL]    -110 exec_ctx_sched                    -110  [DEL]\n      -4.3%      -2 [Unmapped]                          -2  -4.3%\n\n  -0.0%    -200 TOTAL                          -1.25Ki  -0.0%\n\n\n****************************************************************\n\nlibgrpc++.so\n\n     VM SIZE        FILE SIZE\n ++++++++++++++  ++++++++++++++\n\n  [ = ]       0        0  [ = ]\n\n\n\n```"
+  }
+]

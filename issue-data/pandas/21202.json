@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/391963918",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21202#issuecomment-391963918",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21202",
+    "id": 391963918,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MTk2MzkxOA==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-25T07:15:21Z",
+    "updated_at": "2018-05-25T07:15:21Z",
+    "author_association": "MEMBER",
+    "body": "This is the expected behavior.  See the [Timestamp Limitations](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#timeseries-timestamp-limits) section of the documentation, as well as the [Representing Out-of-Bounds Spans](https://pandas.pydata.org/pandas-docs/stable/timeseries.html#timeseries-oob) section for a workaround using [`period_range`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.period_range.html)/[`PeriodIndex`](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.PeriodIndex.html)."
+  }
+]

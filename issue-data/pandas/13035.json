@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/215971265",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13035#issuecomment-215971265",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13035",
+    "id": 215971265,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNTk3MTI2NQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-30T14:51:29Z",
+    "updated_at": "2016-04-30T14:51:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "So the issue is you are setting non-unique levels. While technically this can work, its almost certainly not what you want (and generally defeats the purpose of a multi-index which is to provide a compound unique indexer).\n\nI put a patch below which would validate this. I don't think this would break anything else. If you'd like to submit a pull-request would be great. (would need some more tests and update doc-string to these stricture guarantees; might also need some checking in other places).\n\n```\nIn [1]: df = pd.DataFrame(data = [\"foo\",\"bar\"])\n\nIn [2]: df2 = pd.concat([df,df,df],keys = [\"a\",\"b\",\"c\"])\n\nIn [3]: newIndex = df2.index.get_level_values(0).map(lambda x:x + \"!\")\n\nIn [4]: df2.index.set_levels(newIndex, level=0)\nValueError: non-unique levels\n\n# what you probably want\nIn [5]: df2.index.set_levels(df2.index.levels[0].map(lambda x: x + '!'), level=0)\nOut[5]: \nMultiIndex(levels=[[u'a!', u'b!', u'c!'], [0, 1]],\n           labels=[[0, 0, 1, 1, 2, 2], [0, 1, 0, 1, 0, 1]])\n```\n\n```\ndiff --git a/pandas/indexes/multi.py b/pandas/indexes/multi.py\nindex dd58bb3..15a1ebe 100644\n--- a/pandas/indexes/multi.py\n+++ b/pandas/indexes/multi.py\n@@ -151,6 +151,8 @@ class MultiIndex(Index):\n             new_levels = list(self._levels)\n             for l, v in zip(level, levels):\n                 new_levels[l] = _ensure_index(v, copy=copy)._shallow_copy()\n+                if not new_levels[l].is_unique:\n+                    raise ValueError(\"non-unique levels\")\n             new_levels = FrozenList(new_levels)\n\n         names = self.names\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/24846239",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2591#issuecomment-24846239",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2591",
+    "id": 24846239,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0ODQ2MjM5",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-09-20T22:49:51Z",
+    "updated_at": "2013-09-20T22:49:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Seems to be working now.....\n\n```\nIn [8]: s = pd.Series(pd.date_range('2012-1-1 1:30', periods=3, freq='min', tz='EST'))\n\nIn [9]: s\nOut[9]: \n0   2012-01-01 06:30:00\n1   2012-01-01 06:31:00\n2   2012-01-01 06:32:00\ndtype: datetime64[ns]\n\nIn [10]: s.apply(lambda x: x.tz_localize('UTC'), convert_dtype=False)\nOut[10]: \n0    2012-01-01 06:30:00+00:00\n1    2012-01-01 06:31:00+00:00\n2    2012-01-01 06:32:00+00:00\ndtype: object\n\nIn [11]: s.apply(lambda x: x.tz_localize('UTC'))\nOut[11]: \n0    2012-01-01 06:30:00+00:00\n1    2012-01-01 06:31:00+00:00\n2    2012-01-01 06:32:00+00:00\ndtype: object\n\nIn [12]: s.apply(lambda x: x.tz_localize('UTC'))[0]\nOut[12]: Timestamp('2012-01-01 06:30:00+0000', tz='UTC')\n```\n"
+  }
+]

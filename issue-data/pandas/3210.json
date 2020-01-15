@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/15634339",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/3210#issuecomment-15634339",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/3210",
+    "id": 15634339,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NjM0MzM5",
+    "user": {
+      "login": "hayd",
+      "id": 1931852,
+      "node_id": "MDQ6VXNlcjE5MzE4NTI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1931852?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hayd",
+      "html_url": "https://github.com/hayd",
+      "followers_url": "https://api.github.com/users/hayd/followers",
+      "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+      "organizations_url": "https://api.github.com/users/hayd/orgs",
+      "repos_url": "https://api.github.com/users/hayd/repos",
+      "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hayd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-03-29T09:45:43Z",
+    "updated_at": "2013-03-29T09:45:43Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Aside but perhaps related:\n\n```\nIn [10]: dates+9\nOut[10]: <class 'pandas.tseries.index.DatetimeIndex'>\n[2012-11-09 23:00:00, ..., 2012-11-18 23:00:00]\nLength: 10, Freq: D, Timezone: US/Pacific\n\nIn [11]: dates+3\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\n  File \"pandas/tseries/index.py\", line 540, in __add__\n    return self.shift(other)\n  File \"pandas/tseries/index.py\", line 776, in shift\n    name=self.name, tz=self.tz)\n  File \"pandas/tseries/index.py\", line 187, in __new__\n    tz=tz, normalize=normalize)\n  File \"pandas/tseries/index.py\", line 311, in _generate\n    assert(inferred_tz == tz)\nAssertionError\n```\n"
+  }
+]

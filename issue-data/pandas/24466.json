@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/450397996",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24466#issuecomment-450397996",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24466",
+    "id": 450397996,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MDM5Nzk5Ng==",
+    "user": {
+      "login": "mroeschke",
+      "id": 10647082,
+      "node_id": "MDQ6VXNlcjEwNjQ3MDgy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10647082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mroeschke",
+      "html_url": "https://github.com/mroeschke",
+      "followers_url": "https://api.github.com/users/mroeschke/followers",
+      "following_url": "https://api.github.com/users/mroeschke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mroeschke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mroeschke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mroeschke/subscriptions",
+      "organizations_url": "https://api.github.com/users/mroeschke/orgs",
+      "repos_url": "https://api.github.com/users/mroeschke/repos",
+      "events_url": "https://api.github.com/users/mroeschke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mroeschke/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-28T17:39:22Z",
+    "updated_at": "2018-12-28T17:39:22Z",
+    "author_association": "MEMBER",
+    "body": "The reason why \"snap_backward\" behavior was not included was because I didn't think shifting back to `'[time]:59:59.999999999'` would be entirely useful. If it would be, it could be added along with `shift` (\"snap_forward\")\r\n\r\n 'shift_backward' / 'shift_forward' behavior could be added as well. `nonexistent` could take a timedelta-like object and the nonexistent times could be shifted by that difference instead."
+  }
+]

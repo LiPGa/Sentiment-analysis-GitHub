@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/140832662",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9353#issuecomment-140832662",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9353",
+    "id": 140832662,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0MDgzMjY2Mg==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-16T18:23:47Z",
+    "updated_at": "2015-09-18T05:17:04Z",
+    "author_association": "MEMBER",
+    "body": "I had to because we don't have https://github.com/OpenRA/OpenRA/issues/9101 yet. This will be fixed by https://github.com/OpenRA/OpenRA/pull/9358.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/269227423",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14992#issuecomment-269227423",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14992",
+    "id": 269227423,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2OTIyNzQyMw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-26T17:06:03Z",
+    "updated_at": "2016-12-26T17:06:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\r\nIn [3]: df.reindex(columns=range(7)).ffill(axis=1)\r\nOut[3]: \r\n    0     1     2     3     4     5     6\r\n1 NaN  11.0  11.0  12.0  12.0  13.0  13.0\r\n3 NaN  21.0  21.0  22.0  22.0  23.0  23.0\r\n5 NaN  31.0  31.0  32.0  32.0  33.0  33.0\r\n```\r\nis an idiomatic way to do this,\r\n\r\nbut I see that the ``method`` kwarg is not getting propogated to the reindexing methods for columns. Pull requests to fix are welcome!"
+  }
+]

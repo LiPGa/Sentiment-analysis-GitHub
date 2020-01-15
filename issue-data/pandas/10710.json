@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/126970840",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10710#issuecomment-126970840",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10710",
+    "id": 126970840,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNjk3MDg0MA==",
+    "user": {
+      "login": "gdevanla",
+      "id": 1274371,
+      "node_id": "MDQ6VXNlcjEyNzQzNzE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1274371?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gdevanla",
+      "html_url": "https://github.com/gdevanla",
+      "followers_url": "https://api.github.com/users/gdevanla/followers",
+      "following_url": "https://api.github.com/users/gdevanla/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gdevanla/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gdevanla/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gdevanla/subscriptions",
+      "organizations_url": "https://api.github.com/users/gdevanla/orgs",
+      "repos_url": "https://api.github.com/users/gdevanla/repos",
+      "events_url": "https://api.github.com/users/gdevanla/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gdevanla/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-02T01:08:38Z",
+    "updated_at": "2015-08-02T01:38:20Z",
+    "author_association": "NONE",
+    "body": "This line here calls the union() on the indexer object. The union() method in turn sorts the returned values.\nhttps://github.com/pydata/pandas/blob/master/pandas/core/index.py#L5447\n\nTherefore, we end up with array([0,1,2,3]), whereas what we need is array([2,3,0,1])\n\nOne option would be to, gather the values from union() and re-arrange after this line to align with the provided order of keys. \n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/280270486",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15420#issuecomment-280270486",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15420",
+    "id": 280270486,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MDI3MDQ4Ng==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-16T08:50:30Z",
+    "updated_at": "2017-02-16T08:50:30Z",
+    "author_association": "MEMBER",
+    "body": "@dfd Thanks for the report! That is indeed clearly a bug. \r\nFor example in `sort_values`, it takes the correct order into account, but `rank` was apparently missed.\r\n\r\n```\r\nIn [6]: a.A.sort_values()\r\nOut[6]: \r\n0     first\r\n1    second\r\n2     third\r\n3    fourth\r\n4     fifth\r\n5     sixth\r\nName: A, dtype: category\r\nCategories (6, object): [first < second < third < fourth < fifth < sixth]\r\n```\r\n\r\nI think this should be a rather easy fix (in the `pd.core.algorithms.rank`, we should need to check for categorical, and then pass the underlying integer codes). If you would be interested in trying to do a pull request with a fix, always welcome!"
+  }
+]

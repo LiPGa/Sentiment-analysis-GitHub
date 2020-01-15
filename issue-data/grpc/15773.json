@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/397457891",
+    "html_url": "https://github.com/grpc/grpc/pull/15773#issuecomment-397457891",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15773",
+    "id": 397457891,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NzQ1Nzg5MQ==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-14T22:30:26Z",
+    "updated_at": "2018-06-14T22:30:26Z",
+    "author_association": "MEMBER",
+    "body": "> LGTM—however:\r\n>\r\n> * I am a bit allergic to the term \"thread-safe\" since it's a bit underspecified, and prefer explicit descriptions of what you do across threads, like saying you can invoke RPCs on the channel on different threads, etc., but that's mostly my opinion.\r\n\r\nI'm definitely open to further improving the specification, but... show me in a later the particular wording you have in mind?\r\n\r\n> * Should we consider encouraging reusing Channels instead of just saying it's supported while we have the opportunity?\r\n\r\nIt's a fine thing to do now or later... and I can't think of the right words now.\r\n\r\n> Approving nevertheless.\r\n\r\nThanks!"
+  }
+]

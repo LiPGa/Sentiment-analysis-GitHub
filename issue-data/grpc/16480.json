@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/470341197",
+    "html_url": "https://github.com/grpc/grpc/issues/16480#issuecomment-470341197",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16480",
+    "id": 470341197,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDM0MTE5Nw==",
+    "user": {
+      "login": "clehene",
+      "id": 101597,
+      "node_id": "MDQ6VXNlcjEwMTU5Nw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/101597?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/clehene",
+      "html_url": "https://github.com/clehene",
+      "followers_url": "https://api.github.com/users/clehene/followers",
+      "following_url": "https://api.github.com/users/clehene/following{/other_user}",
+      "gists_url": "https://api.github.com/users/clehene/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/clehene/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/clehene/subscriptions",
+      "organizations_url": "https://api.github.com/users/clehene/orgs",
+      "repos_url": "https://api.github.com/users/clehene/repos",
+      "events_url": "https://api.github.com/users/clehene/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/clehene/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-07T01:06:56Z",
+    "updated_at": "2019-03-07T01:06:56Z",
+    "author_association": "NONE",
+    "body": "Dealing with gRPC errors in C# is extremely confusing. This is a well documented example."
+  }
+]

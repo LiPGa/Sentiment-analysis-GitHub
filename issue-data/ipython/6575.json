@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/57626618",
+    "html_url": "https://github.com/ipython/ipython/issues/6575#issuecomment-57626618",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6575",
+    "id": 57626618,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU3NjI2NjE4",
+    "user": {
+      "login": "pelegm",
+      "id": 3422626,
+      "node_id": "MDQ6VXNlcjM0MjI2MjY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3422626?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pelegm",
+      "html_url": "https://github.com/pelegm",
+      "followers_url": "https://api.github.com/users/pelegm/followers",
+      "following_url": "https://api.github.com/users/pelegm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pelegm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pelegm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pelegm/subscriptions",
+      "organizations_url": "https://api.github.com/users/pelegm/orgs",
+      "repos_url": "https://api.github.com/users/pelegm/repos",
+      "events_url": "https://api.github.com/users/pelegm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pelegm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-02T13:08:13Z",
+    "updated_at": "2014-10-02T13:08:13Z",
+    "author_association": "NONE",
+    "body": "It appears in the examples when running `ipython --help`, but I am never against adding more documentation.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/415064092",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22449#issuecomment-415064092",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22449",
+    "id": 415064092,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNTA2NDA5Mg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-22T15:02:05Z",
+    "updated_at": "2018-08-22T15:02:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I don't understand your expected output. As you say, `left_index` means you're joining the index `[22]` from left with the `['X']` from right, which correctly raises an error if typed like\r\n\r\n```python\r\nIn [17]: pd.merge(df_left, df_right, left_index=True, right_on=\"C\")\r\n---------------------------------------------------------------------------\r\nValueError                                Traceback (most recent call last)\r\n<ipython-input-17-b87fd30f8f6f> in <module>()\r\n----> 1 pd.merge(df_left, df_right, left_index=True, right_on=\"C\")\r\n\r\n~/sandbox/pandas/pandas/core/reshape/merge.py in merge(left, right, how, on, left_on, right_on, left_index, right_index, sort, suffixes, copy, indicator, validate)\r\n     59                          right_index=right_index, sort=sort, suffixes=suffixes,\r\n     60                          copy=copy, indicator=indicator,\r\n---> 61                          validate=validate)\r\n     62     return op.get_result()\r\n     63\r\n\r\n~/sandbox/pandas/pandas/core/reshape/merge.py in __init__(self, left, right, how, on, left_on, right_on, axis, left_index, right_index, sort, suffixes, copy, indicator, validate)\r\n    548         # validate the merge keys dtypes. We may need to coerce\r\n    549         # to avoid incompat dtypes\r\n--> 550         self._maybe_coerce_merge_keys()\r\n    551\r\n    552         # If argument passed to validate,\r\n\r\n~/sandbox/pandas/pandas/core/reshape/merge.py in _maybe_coerce_merge_keys(self)\r\n    970             elif ((is_numeric_dtype(lk) and not is_bool_dtype(lk))\r\n    971                     and not is_numeric_dtype(rk)):\r\n--> 972                 raise ValueError(msg)\r\n    973             elif (not is_numeric_dtype(lk)\r\n    974                     and (is_numeric_dtype(rk) and not is_bool_dtype(rk))):\r\n\r\nValueError: You are trying to merge on int64 and object columns. If you wish to proceed you should use pd.concat\r\n```\r\n\r\nI think the root issue is that you're specifying what you're joining on twice for the left dataframe, once with `left` and once with `left_index`.  I'm not sure what the expected behavior is, but that case should perhaps raise."
+  }
+]

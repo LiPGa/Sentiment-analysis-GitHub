@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/19637885",
+    "html_url": "https://github.com/ipython/ipython/pull/3443#issuecomment-19637885",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3443",
+    "id": 19637885,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5NjM3ODg1",
+    "user": {
+      "login": "fperez",
+      "id": 57394,
+      "node_id": "MDQ6VXNlcjU3Mzk0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fperez",
+      "html_url": "https://github.com/fperez",
+      "followers_url": "https://api.github.com/users/fperez/followers",
+      "following_url": "https://api.github.com/users/fperez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fperez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fperez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fperez/subscriptions",
+      "organizations_url": "https://api.github.com/users/fperez/orgs",
+      "repos_url": "https://api.github.com/users/fperez/repos",
+      "events_url": "https://api.github.com/users/fperez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fperez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-06-18T20:00:50Z",
+    "updated_at": "2013-06-18T20:00:50Z",
+    "author_association": "MEMBER",
+    "body": "Hey @minrk, thanks for the rebase! I really appreciate it.\n\nTo keep the discussion in one place, I've reset #3395 to this one and I'm closing it here.\n"
+  }
+]

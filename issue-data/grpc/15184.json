@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/384421007",
+    "html_url": "https://github.com/grpc/grpc/issues/15184#issuecomment-384421007",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15184",
+    "id": 384421007,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NDQyMTAwNw==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-25T20:20:28Z",
+    "updated_at": "2018-04-25T20:20:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi,\r\n\r\nFor the future, Stack Overflow is probably a better venue to answer questions as opposed to here which is better suited for reporting issues.\r\n\r\nYou can use the [Future API](https://grpc.io/grpc/python/grpc.html#grpc.Future) like the following\r\n\r\n```python\r\nstub.Method.future(arguments_to_method).add_done_callback(callback_func)\r\n```"
+  }
+]

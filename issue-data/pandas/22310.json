@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/412571581",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/22310#issuecomment-412571581",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22310",
+    "id": 412571581,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjU3MTU4MQ==",
+    "user": {
+      "login": "codecov[bot]",
+      "id": 22429695,
+      "node_id": "MDM6Qm90MjI0Mjk2OTU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/in/254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codecov%5Bbot%5D",
+      "html_url": "https://github.com/apps/codecov",
+      "followers_url": "https://api.github.com/users/codecov%5Bbot%5D/followers",
+      "following_url": "https://api.github.com/users/codecov%5Bbot%5D/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codecov%5Bbot%5D/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codecov%5Bbot%5D/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codecov%5Bbot%5D/subscriptions",
+      "organizations_url": "https://api.github.com/users/codecov%5Bbot%5D/orgs",
+      "repos_url": "https://api.github.com/users/codecov%5Bbot%5D/repos",
+      "events_url": "https://api.github.com/users/codecov%5Bbot%5D/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codecov%5Bbot%5D/received_events",
+      "type": "Bot",
+      "site_admin": false
+    },
+    "created_at": "2018-08-13T16:05:48Z",
+    "updated_at": "2018-08-13T16:08:30Z",
+    "author_association": "NONE",
+    "body": "# [Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/22310?src=pr&el=h1) Report\n> Merging [#22310](https://codecov.io/gh/pandas-dev/pandas/pull/22310?src=pr&el=desc) into [master](https://codecov.io/gh/pandas-dev/pandas/commit/188a4fc5535ea9022d086d379cbcaf562c1123f6?src=pr&el=desc) will **not change** coverage.\n> The diff coverage is `n/a`.\n\n[![Impacted file tree graph](https://codecov.io/gh/pandas-dev/pandas/pull/22310/graphs/tree.svg?height=150&src=pr&token=eZ4WkYLtcO&width=650)](https://codecov.io/gh/pandas-dev/pandas/pull/22310?src=pr&el=tree)\n\n```diff\n@@           Coverage Diff           @@\n##           master   #22310   +/-   ##\n=======================================\n  Coverage   92.08%   92.08%           \n=======================================\n  Files         169      169           \n  Lines       50691    50691           \n=======================================\n  Hits        46681    46681           \n  Misses       4010     4010\n```\n\n| Flag | Coverage Δ | |\n|---|---|---|\n| #multiple | `90.49% <ø> (ø)` | :arrow_up: |\n| #single | `42.34% <ø> (ø)` | :arrow_up: |\n\n| [Impacted Files](https://codecov.io/gh/pandas-dev/pandas/pull/22310?src=pr&el=tree) | Coverage Δ | |\n|---|---|---|\n| [pandas/core/series.py](https://codecov.io/gh/pandas-dev/pandas/pull/22310/diff?src=pr&el=tree#diff-cGFuZGFzL2NvcmUvc2VyaWVzLnB5) | `94.11% <ø> (ø)` | :arrow_up: |\n\n------\n\n[Continue to review full report at Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/22310?src=pr&el=continue).\n> **Legend** - [Click here to learn more](https://docs.codecov.io/docs/codecov-delta)\n> `Δ = absolute <relative> (impact)`, `ø = not affected`, `? = missing data`\n> Powered by [Codecov](https://codecov.io/gh/pandas-dev/pandas/pull/22310?src=pr&el=footer). Last update [188a4fc...ef31468](https://codecov.io/gh/pandas-dev/pandas/pull/22310?src=pr&el=lastupdated). Read the [comment docs](https://docs.codecov.io/docs/pull-request-comments).\n"
+  }
+]

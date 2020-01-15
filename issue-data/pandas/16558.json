@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/305330119",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16558#issuecomment-305330119",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16558",
+    "id": 305330119,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNTMzMDExOQ==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-31T21:59:44Z",
+    "updated_at": "2017-05-31T21:59:44Z",
+    "author_association": "MEMBER",
+    "body": "Looks like this is a dupe of #16554.  I initially thought they were distinct issues, as a MultiIndex isn't explicitly being used, but it looks like the IntervalIndex version of  [`is_monotonic_decreasing`](https://github.com/pandas-dev/pandas/blob/master/pandas/core/indexes/interval.py#L547-L548) just borrows the MultiIndex version though [`_multiindex`](https://github.com/pandas-dev/pandas/blob/master/pandas/core/indexes/interval.py#L437-L439)."
+  }
+]

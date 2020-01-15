@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/128809620",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10768#issuecomment-128809620",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10768",
+    "id": 128809620,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyODgwOTYyMA==",
+    "user": {
+      "login": "max-sixty",
+      "id": 5635139,
+      "node_id": "MDQ6VXNlcjU2MzUxMzk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5635139?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/max-sixty",
+      "html_url": "https://github.com/max-sixty",
+      "followers_url": "https://api.github.com/users/max-sixty/followers",
+      "following_url": "https://api.github.com/users/max-sixty/following{/other_user}",
+      "gists_url": "https://api.github.com/users/max-sixty/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/max-sixty/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/max-sixty/subscriptions",
+      "organizations_url": "https://api.github.com/users/max-sixty/orgs",
+      "repos_url": "https://api.github.com/users/max-sixty/repos",
+      "events_url": "https://api.github.com/users/max-sixty/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/max-sixty/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-07T19:48:10Z",
+    "updated_at": "2015-08-07T19:48:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You probably want to weight that contribution by time - Wes is more of a sage than a maintainer now and so those numbers are going to look very different if you look at the more recent history\n\nAlso surely winning the lottery would mean they spend more time on unpaid open source work? :)\n"
+  }
+]

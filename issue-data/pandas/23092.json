@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/429518054",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23092#issuecomment-429518054",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23092",
+    "id": 429518054,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyOTUxODA1NA==",
+    "user": {
+      "login": "GMarzinotto",
+      "id": 5233985,
+      "node_id": "MDQ6VXNlcjUyMzM5ODU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5233985?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GMarzinotto",
+      "html_url": "https://github.com/GMarzinotto",
+      "followers_url": "https://api.github.com/users/GMarzinotto/followers",
+      "following_url": "https://api.github.com/users/GMarzinotto/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GMarzinotto/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GMarzinotto/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GMarzinotto/subscriptions",
+      "organizations_url": "https://api.github.com/users/GMarzinotto/orgs",
+      "repos_url": "https://api.github.com/users/GMarzinotto/repos",
+      "events_url": "https://api.github.com/users/GMarzinotto/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GMarzinotto/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-13T07:14:52Z",
+    "updated_at": "2018-10-13T07:15:12Z",
+    "author_association": "NONE",
+    "body": "The docs for this function say\r\n\r\n```\r\ndef astype_nansafe(arr, dtype, copy=True):\r\n    \"\"\" return a view if copy is False, but\r\n        need to be very careful as the result shape could change!\r\n    Parameters\r\n    ----------\r\n    arr : ndarray\r\n    dtype : np.dtype\r\n    copy : bool, default True\r\n        If False, a view will be attempted but may fail, if\r\n        e.g. the itemsizes don't align.\r\n    \"\"\"\r\n```\r\n\r\nIf nobody is working on this issue I can give it a try !"
+  }
+]

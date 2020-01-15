@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/270780689",
+    "html_url": "https://github.com/ipython/ipython/issues/10126#issuecomment-270780689",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10126",
+    "id": 270780689,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MDc4MDY4OQ==",
+    "user": {
+      "login": "sebma",
+      "id": 4569306,
+      "node_id": "MDQ6VXNlcjQ1NjkzMDY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4569306?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sebma",
+      "html_url": "https://github.com/sebma",
+      "followers_url": "https://api.github.com/users/sebma/followers",
+      "following_url": "https://api.github.com/users/sebma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sebma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sebma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sebma/subscriptions",
+      "organizations_url": "https://api.github.com/users/sebma/orgs",
+      "repos_url": "https://api.github.com/users/sebma/repos",
+      "events_url": "https://api.github.com/users/sebma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sebma/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-05T22:49:17Z",
+    "updated_at": "2017-01-05T22:49:17Z",
+    "author_association": "NONE",
+    "body": "Solved by removing brew packages."
+  }
+]

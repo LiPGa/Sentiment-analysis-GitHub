@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/264348425",
+    "html_url": "https://github.com/grpc/grpc/pull/8775#issuecomment-264348425",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8775",
+    "id": 264348425,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NDM0ODQyNQ==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-02T01:30:40Z",
+    "updated_at": "2016-12-02T01:30:40Z",
+    "author_association": "MEMBER",
+    "body": "Since we've verified this fix internally, and it looks a lot like a failure that we're seeing with benchmarks, merging."
+  }
+]

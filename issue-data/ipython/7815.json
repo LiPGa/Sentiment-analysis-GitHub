@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/75084143",
+    "html_url": "https://github.com/ipython/ipython/issues/7815#issuecomment-75084143",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7815",
+    "id": 75084143,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1MDg0MTQz",
+    "user": {
+      "login": "aaren",
+      "id": 1364309,
+      "node_id": "MDQ6VXNlcjEzNjQzMDk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1364309?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aaren",
+      "html_url": "https://github.com/aaren",
+      "followers_url": "https://api.github.com/users/aaren/followers",
+      "following_url": "https://api.github.com/users/aaren/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aaren/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aaren/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aaren/subscriptions",
+      "organizations_url": "https://api.github.com/users/aaren/orgs",
+      "repos_url": "https://api.github.com/users/aaren/repos",
+      "events_url": "https://api.github.com/users/aaren/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aaren/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-19T16:31:55Z",
+    "updated_at": "2015-02-19T16:32:31Z",
+    "author_association": "NONE",
+    "body": "Sorry, I've realised that this is actually correct as string is meant to be a notebook!\n\n2.3.0 allowed a string to be passed (although clearly documented it was meant to be a notebook). I was passing a string as a hacky way to get at the json encoder - will have to find another workaround!\n"
+  }
+]

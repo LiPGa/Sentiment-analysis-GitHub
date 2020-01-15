@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/223815718",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13367#issuecomment-223815718",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13367",
+    "id": 223815718,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMzgxNTcxOA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-05T14:20:32Z",
+    "updated_at": "2016-06-05T14:20:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "`.apply` has a convenience signature so we can easily write `df.apply(function_for_columns)`, which means this function works on the columns themselves. Yes I guess this is a bit odd. \n\nThis is different that an operation to do something _on an axis itself_, which is what `.drop` is doing, IOW saying drop FROM THIS AXIS.\n\n```\nIn [8]: DataFrame.apply?\nSignature: DataFrame.apply(self, func, axis=0, broadcast=False, raw=False, reduce=None, args=(), **kwds)\nDocstring:\nApplies function along input axis of DataFrame.\n\nObjects passed to functions are Series objects having index\neither the DataFrame's index (axis=0) or the columns (axis=1).\nReturn type depends on whether passed function aggregates, or the\nreduce argument if the DataFrame is empty.\n\nParameters\n----------\nfunc : function\n    Function to apply to each column/row\naxis : {0 or 'index', 1 or 'columns'}, default 0\n    * 0 or 'index': apply function to each column\n    * 1 or 'columns': apply function to each row\nbroadcast : boolean, default False\n    For aggregation functions, return object of same size with values\n```\n"
+  }
+]

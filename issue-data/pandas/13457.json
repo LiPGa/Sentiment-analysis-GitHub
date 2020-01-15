@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/226459138",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13457#issuecomment-226459138",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13457",
+    "id": 226459138,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNjQ1OTEzOA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T11:29:03Z",
+    "updated_at": "2016-06-16T11:30:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is slow because this is done column by-column (that's ok), but then each column is deleted ,then added, prob with many consolidation steps in-between (each of which copy).\n\nSo a multi-assignment can be a separate case, rather than iteration and assignment; though maybe only if the rhs is in the same block (which is the case here)\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/400340622",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21641#issuecomment-400340622",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21641",
+    "id": 400340622,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMDM0MDYyMg==",
+    "user": {
+      "login": "adamhooper",
+      "id": 10812,
+      "node_id": "MDQ6VXNlcjEwODEy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10812?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adamhooper",
+      "html_url": "https://github.com/adamhooper",
+      "followers_url": "https://api.github.com/users/adamhooper/followers",
+      "following_url": "https://api.github.com/users/adamhooper/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adamhooper/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adamhooper/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adamhooper/subscriptions",
+      "organizations_url": "https://api.github.com/users/adamhooper/orgs",
+      "repos_url": "https://api.github.com/users/adamhooper/repos",
+      "events_url": "https://api.github.com/users/adamhooper/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adamhooper/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-26T14:57:53Z",
+    "updated_at": "2018-06-26T14:57:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "#21487 fixes this issue; I'm writing it here for posterity."
+  }
+]

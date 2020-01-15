@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/442204659",
+    "html_url": "https://github.com/grpc/grpc/issues/14033#issuecomment-442204659",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14033",
+    "id": 442204659,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MjIwNDY1OQ==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-27T20:26:02Z",
+    "updated_at": "2018-11-27T20:26:02Z",
+    "author_association": "MEMBER",
+    "body": "The style guide rules for this have changed since this bug was filed.  Global objects of non-POD type are now allowed as long as they are trivially destructible, as per:\r\n\r\nhttps://google.github.io/styleguide/cppguide.html#Static_and_Global_Variables\r\n\r\nI suspect that the tracer objects are trivially destructible, although we should verify this before closing this bug."
+  }
+]

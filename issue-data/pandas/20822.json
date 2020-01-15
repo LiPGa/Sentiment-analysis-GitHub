@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/384425859",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20822#issuecomment-384425859",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20822",
+    "id": 384425859,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NDQyNTg1OQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-25T20:37:12Z",
+    "updated_at": "2018-04-25T20:37:12Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```python\r\nIn [7]: print(pd.core.window.Rolling.quantile.__doc__)\r\n\r\nrolling quantile\r\n\r\nParameters\r\n----------\r\nquantile : float\r\n    0 <= quantile <= 1\r\ninterpolation : {'linear', 'lower', 'higher', 'midpoint', 'nearest'}\r\n    .. versionadded:: 0.23.0\r\n\r\n    This optional parameter specifies the interpolation method to use,\r\n    when the desired quantile lies between two data points `i` and `j`:\r\n\r\n        * linear: `i + (j - i) * fraction`, where `fraction` is the\r\n          fractional part of the index surrounded by `i` and `j`.\r\n        * lower: `i`.\r\n        * higher: `j`.\r\n        * nearest: `i` or `j` whichever is nearest.\r\n        * midpoint: (`i` + `j`) / 2.\r\n\r\nReturns\r\n-------\r\nSeries or DataFrame\r\n    Returned object type is determined by the caller of the rolling\r\n    calculation.\r\n\r\nExamples\r\n--------\r\n>>> s = Series([1, 2, 3, 4])\r\n>>> s.rolling(2).quantile(.4, interpolation='lower')\r\n0    NaN\r\n1    1.0\r\n2    2.0\r\n3    3.0\r\ndtype: float64\r\n\r\n>>> s.rolling(2).quantile(.4, interpolation='midpoint')\r\n0    NaN\r\n1    1.5\r\n2    2.5\r\n3    3.5\r\ndtype: float64\r\n\r\nSee Also\r\n--------\r\npandas.Series.quantile : Computes value at the given quantile over all data\r\n    in Series.\r\npandas.DataFrame.quantile : Computes values at the given quantile over\r\n    requested axis in DataFrame.\r\n\r\n\r\n\r\nReturns\r\n-------\r\nsame type as input\r\n\r\nSee also\r\n--------\r\npandas.Series.rolling\r\npandas.DataFrame.rolling\r\n```\r\n\r\nhttps://github.com/pandas-dev/pandas/pull/20497"
+  }
+]

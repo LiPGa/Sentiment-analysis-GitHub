@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/332371031",
+    "html_url": "https://github.com/grpc/grpc/issues/6785#issuecomment-332371031",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6785",
+    "id": 332371031,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMjM3MTAzMQ==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-27T00:10:20Z",
+    "updated_at": "2017-09-27T00:10:20Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This issue seems to be stale. I just verified that following the `INSTALL.md` on clean Debian, I was able to build the example, so I don't think addition of an explicit dependency would be necessary."
+  }
+]

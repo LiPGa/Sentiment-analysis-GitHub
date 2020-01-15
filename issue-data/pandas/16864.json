@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/314241436",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16864#issuecomment-314241436",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16864",
+    "id": 314241436,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNDI0MTQzNg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-10T21:02:59Z",
+    "updated_at": "2017-07-10T21:02:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is as expected. Putting *lists* and array-like *inside* a DataFrame cell is non-idiomatic / non-performant and has little support. \r\n\r\nI'll mark it as a bug. But would take an enterprising user to *try* to fix this w/o breaking anything else."
+  }
+]

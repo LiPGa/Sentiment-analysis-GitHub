@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/185710160",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12377#issuecomment-185710160",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12377",
+    "id": 185710160,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NTcxMDE2MA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-18T13:03:01Z",
+    "updated_at": "2016-02-18T13:03:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "well you need to provide a parse these strings and convert them to proper offsets. That is the first step. Certainly would take a PR on that limited issue. Best to fix things like this in stages and not in big PR's.\n"
+  }
+]

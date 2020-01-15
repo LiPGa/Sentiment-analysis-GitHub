@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/262822161",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12422#issuecomment-262822161",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12422",
+    "id": 262822161,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2MjgyMjE2MQ==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-24T17:28:30Z",
+    "updated_at": "2016-11-24T17:28:30Z",
+    "author_association": "MEMBER",
+    "body": "I'm sure that many of the cases in these reports could (and should) be rewritten to avoid duplication, but others are parallel implementations in format loaders or traits that we explicitly want to keep decoupled.\r\n\r\nHaving an arbitrary number that we can reduce towards zero might feel good, but doing it blindly risks doing more harm than good.  Knowing which category individual fragments fall into is not going to be an easy task for a beginner to the code base."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/230137103",
+    "html_url": "https://github.com/grpc/grpc/issues/7107#issuecomment-230137103",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7107",
+    "id": 230137103,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMDEzNzEwMw==",
+    "user": {
+      "login": "elazarl",
+      "id": 260258,
+      "node_id": "MDQ6VXNlcjI2MDI1OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/260258?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/elazarl",
+      "html_url": "https://github.com/elazarl",
+      "followers_url": "https://api.github.com/users/elazarl/followers",
+      "following_url": "https://api.github.com/users/elazarl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/elazarl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/elazarl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/elazarl/subscriptions",
+      "organizations_url": "https://api.github.com/users/elazarl/orgs",
+      "repos_url": "https://api.github.com/users/elazarl/repos",
+      "events_url": "https://api.github.com/users/elazarl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/elazarl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-03T05:50:28Z",
+    "updated_at": "2016-07-03T05:50:28Z",
+    "author_association": "NONE",
+    "body": "For future reference, zsh compatible `activate.sh` script\n\n``` bash\nif [ -n \"$ZSH_VERSION\" ]; then\n   DIR=\"$( cd \"$( dirname \"${(%):-%N}\" )\" && pwd )\"\nelif [ -n \"$BASH_VERSION\" ]; then\n   DIR=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"\nfi\nexport PATH=$PATH:$DIR/bins/opt:$DIR/bins/opt/protobuf\nexport CPATH=$DIR/include:$DIR/third_party/protobuf/src\nexport LIBRARY_PATH=$DIR/libs/opt:$DIR/libs/opt/protobuf\nexport PKG_CONFIG_PATH=$DIR/libs/opt/pkgconfig:$DIR/third_party/protobuf\nexport LD_LIBRARY_PATH=$DIR/libs/opt\n```\n"
+  }
+]

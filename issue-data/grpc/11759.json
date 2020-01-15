@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/315218873",
+    "html_url": "https://github.com/grpc/grpc/pull/11759#issuecomment-315218873",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11759",
+    "id": 315218873,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNTIxODg3Mw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-13T22:26:20Z",
+    "updated_at": "2017-07-13T22:26:20Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "test failures:\r\n\r\n* windows basic tests on kokoro: #11383,  #9562\r\n* interop PR: #10686, #10390\r\n\r\n\r\ncc @matt-kwong @jtattermusch (not sure if sanity check tests on kokoro should be stable yet).\r\nThey failed with what looks like a `tools/distrib/check_nanopb_output.sh` failure, caused by an error when downloading protobuf. (https://sponge.corp.google.com/target?id=7ae9e5ef-f854-43e1-9738-c3bda5b66069&target=grpc/ubuntu/pull_request/grpc_sanity&searchFor=&show=ALL&sortBy=STATUS)\r\n\r\nLooks like a transient build failure as `tools/distrib/check_nanopb_output.sh` passes outside of kokoro"
+  }
+]

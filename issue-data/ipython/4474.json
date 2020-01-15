@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/36815812",
+    "html_url": "https://github.com/ipython/ipython/issues/4474#issuecomment-36815812",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4474",
+    "id": 36815812,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2ODE1ODEy",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-06T01:30:18Z",
+    "updated_at": "2014-03-06T01:30:18Z",
+    "author_association": "MEMBER",
+    "body": "I've just looked into this. A BdbQuit exception will be raised when quitting the debugger if we're not in post-mortem mode. If you call the debugger's `.run()` method, it is caught for you, but if you call `set_trace()`, it cannot be caught.\n\nIPython's debugger module [sets a custom exception hook](https://github.com/ipython/ipython/blob/master/IPython/core/debugger.py#L123) to prevent it from printing the traceback for a BdbQuit exception. We could do that all the time, or encourage ipdb to do something similar in its `set_trace()` function.\n"
+  }
+]

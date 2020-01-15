@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/69515932",
+    "html_url": "https://github.com/ipython/ipython/issues/7277#issuecomment-69515932",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7277",
+    "id": 69515932,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5NTE1OTMy",
+    "user": {
+      "login": "ellisonbg",
+      "id": 27600,
+      "node_id": "MDQ6VXNlcjI3NjAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ellisonbg",
+      "html_url": "https://github.com/ellisonbg",
+      "followers_url": "https://api.github.com/users/ellisonbg/followers",
+      "following_url": "https://api.github.com/users/ellisonbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ellisonbg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ellisonbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ellisonbg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ellisonbg/orgs",
+      "repos_url": "https://api.github.com/users/ellisonbg/repos",
+      "events_url": "https://api.github.com/users/ellisonbg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ellisonbg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-11T22:50:52Z",
+    "updated_at": "2015-01-11T22:50:52Z",
+    "author_association": "MEMBER",
+    "body": "No this isn't a bug. In order to work with interact, a custom widget must have a traited `value` attribute that has a simple scalar type. That is by design. What you probably want is to use the `fixed` function in the `widgets` module:\n\n```\ninteract(myfunc, df=fixed(mydata), ...)\n```\n\nFixed will pass the df to the function as a raw DataFrame each time and you can do what ever you want. \n\nBut honestly, interact is probably not the right thing to use for complex composite data such as a `DataFrame`.\n"
+  }
+]

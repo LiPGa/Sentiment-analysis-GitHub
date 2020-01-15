@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/329043403",
+    "html_url": "https://github.com/grpc/grpc/issues/11701#issuecomment-329043403",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11701",
+    "id": 329043403,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyOTA0MzQwMw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-13T02:56:51Z",
+    "updated_at": "2017-09-13T02:56:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "saw this fail on kokoro in windows dbg configuration.\r\n\r\nhttps://kokoro.corp.google.com/job/grpc/job/windows/job/pull_request/job/grpc_basictests/2140/\r\n\r\n```\r\nTimeout\r\ntest.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testCancelledStreamRequestUnaryResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testCancelledUnaryRequestStreamResponse\r\n[92mSUCCESS       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testCancelledUnaryRequestStreamResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testCancelledUnaryRequestUnaryResponse\r\n[92mSUCCESS       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testCancelledUnaryRequestUnaryResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredStreamRequestStreamResponse\r\n[92mSUCCESS       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredStreamRequestStreamResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredStreamRequestUnaryResponse\r\n[92mSUCCESS       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredStreamRequestUnaryResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredUnaryRequestStreamResponse\r\n[92mSUCCESS       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredUnaryRequestStreamResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredUnaryRequestUnaryResponse\r\n[92mSUCCESS       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testExpiredUnaryRequestUnaryResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testFailedStreamRequestStreamResponse\r\n[92mSUCCESS       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testFailedStreamRequestStreamResponse\r\n[0mRunning       unit.beta._face_interface_test.MultiCallableInvokerFutureInvocationAsynchronousEventServiceTest.testFailedStreamRequestUnaryResponse\r\n```"
+  }
+]

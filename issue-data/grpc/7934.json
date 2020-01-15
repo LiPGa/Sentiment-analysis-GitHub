@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/252184323",
+    "html_url": "https://github.com/grpc/grpc/issues/7934#issuecomment-252184323",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7934",
+    "id": 252184323,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MjE4NDMyMw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T08:39:35Z",
+    "updated_at": "2016-10-07T08:39:35Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This has been addressed by #8141 and by changing the layout of our jenkins jobs.\nNow, you can change the configurations run in a given branch by updating https://github.com/grpc/grpc/blob/602edbba8cf03279b3dc2e027ea07660332f806e/tools/run_tests/run_tests_matrix.py#L183.\n"
+  }
+]

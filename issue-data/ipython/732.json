@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/2410670",
+    "html_url": "https://github.com/ipython/ipython/issues/732#issuecomment-2410670",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/732",
+    "id": 2410670,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MTA2NzA=",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-10-14T19:49:21Z",
+    "updated_at": "2011-10-14T19:49:21Z",
+    "author_association": "MEMBER",
+    "body": "appears to have been fixed in master, though it's not quite identical.\n\nIn terminal:\n\n``` python\nIn [1]: 234\nOut[1]: 234\nIn [2]:\nIn [2]:\n```\n\nIn QtConsole:\n\n``` python\nIn [1]: 234\nOut[1]: 234\nIn [1]:\nIn [2]:\n```\n\n(null input lines are demoted)\n\nBut the important part - adding empty lines does not increment the execution count - is correct.\n"
+  }
+]

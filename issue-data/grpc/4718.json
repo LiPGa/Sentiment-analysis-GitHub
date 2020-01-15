@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/316838451",
+    "html_url": "https://github.com/grpc/grpc/issues/4718#issuecomment-316838451",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/4718",
+    "id": 316838451,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNjgzODQ1MQ==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-20T21:42:45Z",
+    "updated_at": "2017-07-20T21:42:45Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The `pool_size` argument to `GRPC::RpcServer` constructor limits the size of the thread pool that's used to run service callbacks on, and in that way it also limits the maximum number of concurrent requests that the `RpcServer` can handle (since callbacks are ran synchronously).\r\n\r\nNit: note no child <i>processes</i> are spawned, only <i>threads</i>.\r\n\r\nA <i>guessed</i> explanation and a note on the threading model:\r\n\r\nCurrently, the `RpcServer` has one thread that accepts and initializes new calls, and then dispatches them to run their service handler synchronously on a thread-pool thread. Especially in the case that the server isn't heavily loaded, many of the thread-pool threads might be doing nothing but waiting for work.\r\n\r\nIn general, servers that need to and <i>can</i> handle more concurrent requests should probably increase the max pool size. But there's not a hard guide for fine tuning these at the moment.\r\n\r\nNote that `max_waiting_requests` still exists for backward-compatibility but no longer has any effect, as of https://github.com/grpc/grpc/pull/8632.\r\n\r\n`poll_period` only affects the amount of time to allow for server shutdown.\r\n\r\nClosing as no more action planned"
+  }
+]

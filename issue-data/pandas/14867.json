@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/266543288",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14867#issuecomment-266543288",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14867",
+    "id": 266543288,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NjU0MzI4OA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-12T20:28:34Z",
+    "updated_at": "2016-12-12T20:28:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "in master\r\n\r\n```\r\nIn [1]: pd.read_csv(StringIO(), chunksize=20, header=None, names=['a', 'b', 'c'])\r\nOut[1]: <pandas.io.parsers.TextFileReader at 0x870fa20>\r\n\r\nIn [2]: !echo \"\">data.csv\r\n\r\nIn [3]: pd.read_csv('data.csv', chunksize=20, header=None, names=['a', 'b', 'c'])\r\nOut[3]: <pandas.io.parsers.TextFileReader at 0x86ee5c0>\r\n```\r\n\r\nsuppose we could have some explict tests for this"
+  }
+]

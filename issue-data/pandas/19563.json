@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/363776062",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19563#issuecomment-363776062",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19563",
+    "id": 363776062,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2Mzc3NjA2Mg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-07T13:56:03Z",
+    "updated_at": "2018-02-07T13:56:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "`nlargest` doesn't sort the values (which is part of why it's faster).\r\n\r\nYou can sort afterwards.\r\n\r\n```python\r\nIn [32]: df.sort_values(['a', 'c'], ascending=False).head(5)\r\nOut[32]:\r\n    a  b    c\r\n5  11  f  3.0\r\n3  10  c  3.2\r\n4   8  e  NaN\r\n2   1  d  4.0\r\n6  -1  f  4.0\r\n\r\nIn [33]: df.nlargest(5, ['a', 'c']).sort_values(['a', 'c'], ascending=False)\r\nOut[33]:\r\n    a  b    c\r\n5  11  f  3.0\r\n3  10  c  3.2\r\n4   8  e  NaN\r\n2   1  d  4.0\r\n6  -1  f  4.0\r\n```"
+  }
+]

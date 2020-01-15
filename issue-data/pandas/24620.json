@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/451708383",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24620#issuecomment-451708383",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24620",
+    "id": 451708383,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MTcwODM4Mw==",
+    "user": {
+      "login": "dsaxton",
+      "id": 2658661,
+      "node_id": "MDQ6VXNlcjI2NTg2NjE=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2658661?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dsaxton",
+      "html_url": "https://github.com/dsaxton",
+      "followers_url": "https://api.github.com/users/dsaxton/followers",
+      "following_url": "https://api.github.com/users/dsaxton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dsaxton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dsaxton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dsaxton/subscriptions",
+      "organizations_url": "https://api.github.com/users/dsaxton/orgs",
+      "repos_url": "https://api.github.com/users/dsaxton/repos",
+      "events_url": "https://api.github.com/users/dsaxton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dsaxton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-06T01:56:55Z",
+    "updated_at": "2019-01-06T01:56:55Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looks like it's because of this:\r\n\r\n```\r\n            if not self.index.equals(other.index):\r\n                join_index, ilidx, iridx = self.index.join(\r\n                    other.index, how=join, level=level, return_indexers=True)\r\n```\r\n\r\nI suppose the idea is that if `self` and `other` have the same index then no join needs to be done to align the two.  Is this then normal behavior?  Is it worth pointing out in the documentation that a join only happens if the indexes differ?  Or is this such an edge case it isn't worth mentioning (particularly since it only matters when we have duplicates)?"
+  }
+]

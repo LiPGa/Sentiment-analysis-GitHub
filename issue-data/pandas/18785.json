@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/351888040",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18785#issuecomment-351888040",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18785",
+    "id": 351888040,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1MTg4ODA0MA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-15T01:35:35Z",
+    "updated_at": "2017-12-15T01:35:35Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "so this is after #18618 \r\n\r\n```\r\nIn [1]: index = pd.DatetimeIndex(pd.date_range(pd.Timestamp(2000,1,1), pd.Timestamp(2005,1,1), freq='MS', tz='Australia/Melbourne'))\r\n   ...: test = pd.DataFrame({'data':range(len(index))}, index=index)\r\n   ...: test = test.resample('Y').mean()\r\n   ...: \r\n\r\nIn [2]: test\r\nOut[2]: \r\n                           data\r\n2000-12-31 00:00:00+11:00   5.5\r\n2001-12-31 00:00:00+11:00  17.5\r\n2002-12-31 00:00:00+11:00  29.5\r\n2003-12-31 00:00:00+11:00  41.5\r\n2004-12-31 00:00:00+11:00  53.5\r\n2005-12-31 00:00:00+11:00  60.0\r\n\r\nIn [3]: test.index = pd.DatetimeIndex([x.replace(month=6, day=1) for x in test.index])\r\n   ...: print(test.index)\r\n   ...: \r\nDatetimeIndex(['2000-06-01 00:00:00+10:00', '2001-06-01 00:00:00+10:00',\r\n               '2002-06-01 00:00:00+10:00', '2003-06-01 00:00:00+10:00',\r\n               '2004-06-01 00:00:00+10:00', '2005-06-01 00:00:00+10:00'],\r\n              dtype='datetime64[ns, Australia/Melbourne]', freq=None)\r\n\r\nIn [4]: test.index = pd.DatetimeIndex([x.replace(month=6, day=1) for x in test.index])\r\n   ...: print(test.index)\r\n   ...: \r\nDatetimeIndex(['2000-06-01 00:00:00+10:00', '2001-06-01 00:00:00+10:00',\r\n               '2002-06-01 00:00:00+10:00', '2003-06-01 00:00:00+10:00',\r\n               '2004-06-01 00:00:00+10:00', '2005-06-01 00:00:00+10:00'],\r\n              dtype='datetime64[ns, Australia/Melbourne]', freq=None)\r\n```"
+  }
+]

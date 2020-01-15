@@ -1,0 +1,5 @@
+name1,name2,period,score1,score2,consist_cnt,inconsist_cnt,pos_consist_cnt,neg_consist_cnt,issue_cnt,cmt_cnt
+columW,wesm,20110,1.0,1.0,4,0,1,0,1,6
+ghost,wesm,20110,0.75,1.0,7,1,5,0,4,12
+tgefell,wesm,20110,1.0,1.0,6,0,0,0,1,5
+triplechess,wesm,20110,1.0,1.0,0,0,0,0,2,5

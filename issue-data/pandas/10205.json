@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/105128258",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10205#issuecomment-105128258",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10205",
+    "id": 105128258,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNTEyODI1OA==",
+    "user": {
+      "login": "shoyer",
+      "id": 1217238,
+      "node_id": "MDQ6VXNlcjEyMTcyMzg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1217238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shoyer",
+      "html_url": "https://github.com/shoyer",
+      "followers_url": "https://api.github.com/users/shoyer/followers",
+      "following_url": "https://api.github.com/users/shoyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shoyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shoyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shoyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/shoyer/orgs",
+      "repos_url": "https://api.github.com/users/shoyer/repos",
+      "events_url": "https://api.github.com/users/shoyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shoyer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-25T05:16:14Z",
+    "updated_at": "2015-05-25T05:16:14Z",
+    "author_association": "MEMBER",
+    "body": "I know it may seem a little strange, but pandas actually uses NaN intentionally in string arrays, as a marker for missing values. The pandas [string methods](http://pandas.pydata.org/pandas-docs/stable/text.html) will skip NaN, and likewise we use it for methods like `isnull`, `fillna` and `dropna`.\n\nIf you'd like to replace them with another value, try `df.fillna('')`.\n"
+  }
+]

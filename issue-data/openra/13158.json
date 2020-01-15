@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/295728268",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/13158#issuecomment-295728268",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/13158",
+    "id": 295728268,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NTcyODI2OA==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-20T12:57:53Z",
+    "updated_at": "2017-04-20T12:57:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You probably mean [this](https://github.com/OpenRA/OpenRA/blob/bleed/OpenRA.Mods.Common/Widgets/WorldInteractionControllerWidget.cs#L72), but I'd advise you strongly against even looking at it. Our input handling is god-awful, and should not be taken as any sort of best practice.\r\n\r\nI don't know what the state of the other open-source RTSs input handling is, but you might have better luck looking at theirs."
+  }
+]

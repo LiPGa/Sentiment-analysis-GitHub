@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/360946990",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19409#issuecomment-360946990",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19409",
+    "id": 360946990,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MDk0Njk5MA==",
+    "user": {
+      "login": "jbrockmendel",
+      "id": 8078968,
+      "node_id": "MDQ6VXNlcjgwNzg5Njg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8078968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbrockmendel",
+      "html_url": "https://github.com/jbrockmendel",
+      "followers_url": "https://api.github.com/users/jbrockmendel/followers",
+      "following_url": "https://api.github.com/users/jbrockmendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbrockmendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbrockmendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbrockmendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbrockmendel/orgs",
+      "repos_url": "https://api.github.com/users/jbrockmendel/repos",
+      "events_url": "https://api.github.com/users/jbrockmendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbrockmendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-27T01:12:31Z",
+    "updated_at": "2018-01-27T01:12:31Z",
+    "author_association": "MEMBER",
+    "body": "Should be an easy fix.  I'll make a PR after the current set clears out."
+  }
+]

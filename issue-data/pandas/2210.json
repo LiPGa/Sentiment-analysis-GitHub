@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/44495043",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2210#issuecomment-44495043",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2210",
+    "id": 44495043,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NDk1MDQz",
+    "user": {
+      "login": "hayd",
+      "id": 1931852,
+      "node_id": "MDQ6VXNlcjE5MzE4NTI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1931852?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hayd",
+      "html_url": "https://github.com/hayd",
+      "followers_url": "https://api.github.com/users/hayd/followers",
+      "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+      "organizations_url": "https://api.github.com/users/hayd/orgs",
+      "repos_url": "https://api.github.com/users/hayd/repos",
+      "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hayd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-29T05:10:08Z",
+    "updated_at": "2014-05-29T05:10:08Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I think this is now \"fixed\" with read_sql and friends.\n"
+  }
+]

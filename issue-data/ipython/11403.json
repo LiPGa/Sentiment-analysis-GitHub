@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/430658048",
+    "html_url": "https://github.com/ipython/ipython/issues/11403#issuecomment-430658048",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11403",
+    "id": 430658048,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMDY1ODA0OA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-17T14:46:09Z",
+    "updated_at": "2018-10-17T14:46:09Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, but that seem to be a Python issue, it is not limited to IPython:\r\n\r\n```\r\n$ python\r\nPython 3.6.5 | packaged by conda-forge | (default, Apr  6 2018, 13:44:09)\r\n[GCC 4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)] on darwin\r\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\r\n>>> from foo import Server\r\n>>> import inspect\r\n>>> inspect.signature(Server)\r\n<Signature (adict:Union[importlib._bootstrap.Orequest, importlib._bootstrap.Drequest]) -> None>\r\n```\r\n\r\nSo my guess is to move that to CPython. \r\n\r\nSorry for the bump across many projects, and thanks for the report, we can try to have a workaround here, but it would be nice to have a fix Upstream.\r\n"
+  }
+]

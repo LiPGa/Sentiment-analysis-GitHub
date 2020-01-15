@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/284665919",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12926#issuecomment-284665919",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12926",
+    "id": 284665919,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NDY2NTkxOQ==",
+    "user": {
+      "login": "ltem",
+      "id": 20945684,
+      "node_id": "MDQ6VXNlcjIwOTQ1Njg0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20945684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ltem",
+      "html_url": "https://github.com/ltem",
+      "followers_url": "https://api.github.com/users/ltem/followers",
+      "following_url": "https://api.github.com/users/ltem/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ltem/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ltem/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ltem/subscriptions",
+      "organizations_url": "https://api.github.com/users/ltem/orgs",
+      "repos_url": "https://api.github.com/users/ltem/repos",
+      "events_url": "https://api.github.com/users/ltem/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ltem/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-07T09:20:12Z",
+    "updated_at": "2017-03-07T09:23:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The solution for this issue, could possibly fix the turret-follow-issue (#12856).\r\n\r\nSo that if the enemy is out of weapon range and the unit cannot follow the enemy even if it is in sight (because it is a tower/structure/immobilized) or the enemy is out of sight, it will stop \"targeting\" it."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/447547374",
+    "html_url": "https://github.com/ipython/ipython/issues/11532#issuecomment-447547374",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11532",
+    "id": 447547374,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NzU0NzM3NA==",
+    "user": {
+      "login": "zhen8838",
+      "id": 26156999,
+      "node_id": "MDQ6VXNlcjI2MTU2OTk5",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26156999?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zhen8838",
+      "html_url": "https://github.com/zhen8838",
+      "followers_url": "https://api.github.com/users/zhen8838/followers",
+      "following_url": "https://api.github.com/users/zhen8838/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zhen8838/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zhen8838/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zhen8838/subscriptions",
+      "organizations_url": "https://api.github.com/users/zhen8838/orgs",
+      "repos_url": "https://api.github.com/users/zhen8838/repos",
+      "events_url": "https://api.github.com/users/zhen8838/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zhen8838/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-15T08:09:57Z",
+    "updated_at": "2018-12-15T08:09:57Z",
+    "author_association": "NONE",
+    "body": "Now I find a way to solve it. \r\n\r\nWhen the IPython running load this extension can't reload the module, So I create the profile and make the extension load when the IPython starts, then it works well.\r\n\r\nIs it bug?\r\n\r\nipython_config.py:\r\n```sh\r\n## lines of code to run at IPython startup.\r\nc.InteractiveShellApp.exec_lines = ['%autoreload 2']\r\n\r\n## A list of dotted module names of IPython extensions to load.\r\nc.InteractiveShellApp.extensions = ['autoreload']\r\n```"
+  }
+]

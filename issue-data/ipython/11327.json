@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/423720983",
+    "html_url": "https://github.com/ipython/ipython/issues/11327#issuecomment-423720983",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11327",
+    "id": 423720983,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMzcyMDk4Mw==",
+    "user": {
+      "login": "ickc",
+      "id": 10970208,
+      "node_id": "MDQ6VXNlcjEwOTcwMjA4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10970208?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ickc",
+      "html_url": "https://github.com/ickc",
+      "followers_url": "https://api.github.com/users/ickc/followers",
+      "following_url": "https://api.github.com/users/ickc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ickc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ickc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ickc/subscriptions",
+      "organizations_url": "https://api.github.com/users/ickc/orgs",
+      "repos_url": "https://api.github.com/users/ickc/repos",
+      "events_url": "https://api.github.com/users/ickc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ickc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-22T06:31:08Z",
+    "updated_at": "2018-09-22T06:31:08Z",
+    "author_association": "NONE",
+    "body": "So sorry, c.f. #10072. `{}` should be written as `{{}}`."
+  }
+]

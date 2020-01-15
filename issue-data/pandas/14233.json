@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/247539179",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14233#issuecomment-247539179",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14233",
+    "id": 247539179,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NzUzOTE3OQ==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-16T07:47:10Z",
+    "updated_at": "2016-09-16T07:47:10Z",
+    "author_association": "MEMBER",
+    "body": "Reproducible example:\n\n```\nIn [21]: df = pd.DataFrame(np.random.randn(20,3), columns=list('abc'), index=pd.date_range('2012-01-01', periods=20, freq='s'))\n\nIn [23]: df.resample('5s').median()\nOut[23]: \n                            a         b         c\n2012-01-01 00:00:00 -0.209421 -0.649436 -0.857474\n2012-01-01 00:00:05  0.304136  0.335305  0.639129\n2012-01-01 00:00:10 -0.228682 -0.803259 -0.615048\n2012-01-01 00:00:15  0.121994 -0.214258  0.520752\n\nIn [24]: df = pd.DataFrame(np.random.randn(20,3), columns=list('aaa'), index=pd.date_range('2012-01-01', periods=20, freq='s'))\n\nIn [25]: df.resample('5s').median()\n...\nKeyError: 'median'\n```\n\nSo it is caused by the duplicate column names. \nThis seems like a bug, but in any case you can for now solve for you by renaming the columns as a work-around.\n"
+  }
+]

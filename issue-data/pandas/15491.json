@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/282093253",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15491#issuecomment-282093253",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15491",
+    "id": 282093253,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MjA5MzI1Mw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-23T19:22:59Z",
+    "updated_at": "2017-02-23T19:22:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "you seem to have pasted the wrong number above.\r\n\r\n```\r\nIn [1]: df = pd.DataFrame.from_dict({'date': ['20161024', '20161025', '20161026', '20161027', '20161028'],\r\n   ...:                              'holding': [5, 10, 2, 4, 0],\r\n   ...:                              'return': [1.035,-2,3.035,4.5, 1.5]})\r\n   ...: df['return'].sum()\r\n   ...: \r\nOut[1]: 8.07\r\n\r\nIn [2]: 1.035+-2+3.035+4.5+ 1.5\r\nOut[2]: 8.07\r\n```\r\n\r\nIn any event floating point numbers can not be exactly represented and only have a finite precision.\r\n\r\nhttps://docs.python.org/3.5/tutorial/floatingpoint.html"
+  }
+]

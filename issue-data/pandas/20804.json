@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/383775146",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20804#issuecomment-383775146",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20804",
+    "id": 383775146,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4Mzc3NTE0Ng==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-24T01:38:19Z",
+    "updated_at": "2018-04-24T01:38:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is probably out of scope for pandas. We don't have anything special for any other SQL flavors, and I don't think we really want to go special case anything / try to support everything."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/62978366",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8808#issuecomment-62978366",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8808",
+    "id": 62978366,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYyOTc4MzY2",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-13T22:28:46Z",
+    "updated_at": "2014-11-13T22:28:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "These are timedeltas, not Timestamps\n\nsee [here](http://pandas.pydata.org/pandas-docs/stable/whatsnew.html#new-features) for the use of `.dt` introduced in 0.15.0\nsee [here](http://pandas.pydata.org/pandas-docs/stable/timedeltas.html#frequency-conversion) for frequency conversion\n\n```\nIn [5]: s = Series(pd.to_timedelta(np.array([ -557940000000000, -2246340000000000, -1555140000000000,\n        -557940000000000, -3628740000000000], dtype='timedelta64[ns]')))           \n\nIn [6]: s\nOut[6]: \n0    -7 days +13:01:00\n1   -26 days +00:01:00\n2   -18 days +00:01:00\n3    -7 days +13:01:00\n4   -42 days +00:01:00\ndtype: timedelta64[ns]\n\nIn [7]: s.dt.days\nOut[7]: \n0    -7\n1   -26\n2   -18\n3    -7\n4   -42\ndtype: int64\n\nIn [8]: s.astype('timedelta64[D]')\nOut[8]: \n0    -7\n1   -26\n2   -18\n3    -7\n4   -42\ndtype: float64\n\nIn [9]: s.astype('timedelta64[s]')\nOut[9]: \n0    -557940\n1   -2246340\n2   -1555140\n3    -557940\n4   -3628740\ndtype: float64\n```\n"
+  }
+]

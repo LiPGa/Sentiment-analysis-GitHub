@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/389221837",
+    "html_url": "https://github.com/ipython/ipython/issues/5028#issuecomment-389221837",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5028",
+    "id": 389221837,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTIyMTgzNw==",
+    "user": {
+      "login": "ageron",
+      "id": 76661,
+      "node_id": "MDQ6VXNlcjc2NjYx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/76661?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ageron",
+      "html_url": "https://github.com/ageron",
+      "followers_url": "https://api.github.com/users/ageron/followers",
+      "following_url": "https://api.github.com/users/ageron/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ageron/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ageron/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ageron/subscriptions",
+      "organizations_url": "https://api.github.com/users/ageron/orgs",
+      "repos_url": "https://api.github.com/users/ageron/repos",
+      "events_url": "https://api.github.com/users/ageron/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ageron/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-15T16:03:21Z",
+    "updated_at": "2018-05-15T16:03:21Z",
+    "author_association": "NONE",
+    "body": "One option is to just change the cell's type to \"raw\".\r\n\r\nI don't believe there's any nice & easy solution to skip a code cell. However, for what it's worth, since Jupyter 5.0 it is possible to add the tag `raises-exception` to a cell, and it will just display the exception and continue running the notebook as if nothing happened. So if you want Jupyter to skip a cell, one option is to add the `raises-exception` tag to the cell and raise some exception at the beginning of the cell, like this:\r\n\r\n```python\r\nraise Exception(\"Skipping this cell\")\r\n```\r\n\r\nJupyter will display an ugly stack trace, but at least it will skip the cell and keep running the following cells.\r\n\r\nThe nice thing about this solution is that you can decide whether or not to skip a cell programmatically, for example define a function like this:\r\n\r\n```python\r\ndef skip_if_linux():\r\n    import sys\r\n    if 'linux' in sys.platform:\r\n        raise Exception(\"Skipping cell because we are on Linux\")\r\n```\r\n\r\nThen any cell that needs to be skipped because it's Linux, just add:\r\n\r\n```python\r\nskip_if_linux()\r\n```\r\n\r\nPerhaps a better solution would be to add a new \"skip\" tag to Jupyter, so that the users would just have to tag the cells that must be skipped."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/141040396",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10413#issuecomment-141040396",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10413",
+    "id": 141040396,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0MTA0MDM5Ng==",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-17T10:43:12Z",
+    "updated_at": "2015-09-17T10:43:12Z",
+    "author_association": "NONE",
+    "body": "I'm having the same issue with version 0.16.2. When reading a csv file that contains only headers (no data), for example:\nfirst row: company;supplier;amount\n\nAnd using pandas read_csv function to read the file (delimiter=\";\"; skiprows=0)\n`df = pd.read_csv(file, sep=delimiter, engine=\"c\", quotechar='\"', quoting=quote, skipinitialspace=True, skiprows=skiprows, prefix=\"NX\", encoding=\"ISO-8859-1\", error_bad_lines=False, index_col=False)`\n\nIt returns the following error:\nTypeError: object of type 'bool' has no len()\n\nRemoving the option index_col=False it starts working:\n`df = pd.read_csv(file, sep=delimiter, engine=\"c\", quotechar='\"', quoting=quote, skipinitialspace=True, skiprows=skiprows, prefix=\"NX\", encoding=\"ISO-8859-1\", error_bad_lines=False)`\n"
+  }
+]

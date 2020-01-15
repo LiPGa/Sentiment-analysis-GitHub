@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/389362410",
+    "html_url": "https://github.com/grpc/grpc/issues/14094#issuecomment-389362410",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14094",
+    "id": 389362410,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTM2MjQxMA==",
+    "user": {
+      "login": "matt-kwong",
+      "id": 22083734,
+      "node_id": "MDQ6VXNlcjIyMDgzNzM0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22083734?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matt-kwong",
+      "html_url": "https://github.com/matt-kwong",
+      "followers_url": "https://api.github.com/users/matt-kwong/followers",
+      "following_url": "https://api.github.com/users/matt-kwong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matt-kwong/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matt-kwong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matt-kwong/subscriptions",
+      "organizations_url": "https://api.github.com/users/matt-kwong/orgs",
+      "repos_url": "https://api.github.com/users/matt-kwong/repos",
+      "events_url": "https://api.github.com/users/matt-kwong/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matt-kwong/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-16T01:07:39Z",
+    "updated_at": "2018-05-16T01:07:39Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\r\n+ tee /etc/apt/sources.list.d/jessie-backports.list\r\ndeb http://ftp.debian.org/debian jessie-backports main\r\n+ apt-get update\r\nGet:1 http://security.debian.org jessie/updates InRelease [94.4 kB]\r\nGet:2 http://ftp.debian.org jessie-backports InRelease [166 kB]\r\nIgn http://httpredir.debian.org jessie InRelease\r\nGet:3 http://security.debian.org jessie/updates/main amd64 Packages [650 kB]\r\nGet:4 http://httpredir.debian.org jessie-updates InRelease [145 kB]\r\nGet:5 http://httpredir.debian.org jessie Release.gpg [2434 B]\r\nGet:6 http://httpredir.debian.org jessie Release [148 kB]\r\nGet:7 http://ftp.debian.org jessie-backports/main amd64 Packages [1170 kB]\r\nGet:8 http://httpredir.debian.org jessie-updates/main amd64 Packages [23.0 kB]\r\nGet:9 http://httpredir.debian.org jessie/main amd64 Packages [9064 kB]\r\nFetched 11.5 MB in 3s (3781 kB/s)\r\nW: Failed to fetch http://ftp.debian.org/debian/dists/jessie-backports/main/binary-amd64/Packages  Hash Sum mismatch\r\n```\r\nIt looks like the backport we're using is causing issues when running `apt-get update`. I'm going to leave this as a low priority, since only one PR has referenced this issue since 1/19. "
+  }
+]

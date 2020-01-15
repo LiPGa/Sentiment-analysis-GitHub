@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/1573042",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/57#issuecomment-1573042",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/57",
+    "id": 1573042,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NzMwNDI=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-07-14T16:46:35Z",
+    "updated_at": "2011-07-14T16:46:35Z",
+    "author_association": "MEMBER",
+    "body": "thanks :) there's a numpy compatibility issue with older versions (< 1.5.1). fixed here:\n\nhttps://github.com/wesm/pandas/commit/50d9718ca11c95acd7706b50dfc748cbe0b61dc9\n"
+  }
+]

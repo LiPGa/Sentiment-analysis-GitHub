@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/415080188",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22466#issuecomment-415080188",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22466",
+    "id": 415080188,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNTA4MDE4OA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-22T15:46:43Z",
+    "updated_at": "2018-08-22T15:46:43Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Haven't looked yet, but I assume that's a result of Index.union sorting when they're not aligned.\r\n\r\n```python\r\nIn [3]: pd.Index(['b', 'a']) | pd.Index(['b', 'c'])\r\nOut[3]: Index(['a', 'b', 'c'], dtype='object')\r\n```\r\n\r\nso this is blocked by https://github.com/pandas-dev/pandas/issues/17839 at least."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/480328270",
+    "html_url": "https://github.com/grpc/grpc/pull/18496#issuecomment-480328270",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18496",
+    "id": 480328270,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDMyODI3MA==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-05T15:55:27Z",
+    "updated_at": "2019-04-05T15:55:27Z",
+    "author_association": "MEMBER",
+    "body": "TSAN is reporting a lock order inversion problem in the channelz code caused by this PR.  I haven't had time to look into that yet, but I'm going to need to figure out how to fix it before I can merge this.  It may be that we will need to change the channelz code-path to be async in order to fix this."
+  }
+]

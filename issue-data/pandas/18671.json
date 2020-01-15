@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/349784425",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18671#issuecomment-349784425",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18671",
+    "id": 349784425,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0OTc4NDQyNQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-06T21:43:16Z",
+    "updated_at": "2017-12-06T21:43:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is the line https://github.com/pandas-dev/pandas/blob/fdba133336c2ec8f1269eb15e73d48797840c48b/pandas/plotting/_core.py#L1718\r\n\r\nThat code pretty clearly assumes that `'y'` is a scalar, and that's how it's documented\r\n\r\n```python\r\nParameters\r\n----------\r\ndata : DataFrame\r\nx : label or position, default None\r\ny : label or position, default None\r\n    Allows plotting of one column versus another\r\n```\r\n\r\nSo we can either validate that `data[y]` is a Series, and raise if not, or see if we can support and document multiple values for `'y'`.\r\n\r\nbtw, here's a reproducible example\r\n\r\n```python\r\nIn [12]: df = pd.DataFrame({\"A\": [1, 2], 'B': [3, 4], 'C': [5, 6]})\r\n\r\nIn [13]: df.plot(x='A', y=['B', 'C'])\r\n```"
+  }
+]

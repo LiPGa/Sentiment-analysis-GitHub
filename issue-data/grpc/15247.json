@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/386123735",
+    "html_url": "https://github.com/grpc/grpc/issues/15247#issuecomment-386123735",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15247",
+    "id": 386123735,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NjEyMzczNQ==",
+    "user": {
+      "login": "dfawley",
+      "id": 26072277,
+      "node_id": "MDQ6VXNlcjI2MDcyMjc3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26072277?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dfawley",
+      "html_url": "https://github.com/dfawley",
+      "followers_url": "https://api.github.com/users/dfawley/followers",
+      "following_url": "https://api.github.com/users/dfawley/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dfawley/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dfawley/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dfawley/subscriptions",
+      "organizations_url": "https://api.github.com/users/dfawley/orgs",
+      "repos_url": "https://api.github.com/users/dfawley/repos",
+      "events_url": "https://api.github.com/users/dfawley/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dfawley/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-02T21:15:05Z",
+    "updated_at": "2018-05-02T21:15:05Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This will be fixed by https://github.com/grpc/grpc-go/pull/2040"
+  }
+]

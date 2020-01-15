@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/41253624",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/6854#issuecomment-41253624",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6854",
+    "id": 41253624,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjUzNjI0",
+    "user": {
+      "login": "jtratner",
+      "id": 1598379,
+      "node_id": "MDQ6VXNlcjE1OTgzNzk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1598379?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtratner",
+      "html_url": "https://github.com/jtratner",
+      "followers_url": "https://api.github.com/users/jtratner/followers",
+      "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtratner/orgs",
+      "repos_url": "https://api.github.com/users/jtratner/repos",
+      "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtratner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-24T08:04:14Z",
+    "updated_at": "2014-04-24T08:04:14Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is actually because of how xlsxwriter handles its workbook options, the constructor is literally [`Workbook(path, options)`](http://xlsxwriter.readthedocs.org/en/latest/workbook.html#Workbook) where options is a dict, so the correct call signature would be:\n\n``` python\nwriter = pd.ExcelWriter(my_path, engine='xlsxwriter', options={'constant_memory': True})\n```\n\nPlease reopen if this still doesn't resolve your issue.\n"
+  }
+]

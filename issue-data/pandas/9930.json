@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/259952634",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9930#issuecomment-259952634",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9930",
+    "id": 259952634,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1OTk1MjYzNA==",
+    "user": {
+      "login": "scls19fr",
+      "id": 109167,
+      "node_id": "MDQ6VXNlcjEwOTE2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/109167?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/scls19fr",
+      "html_url": "https://github.com/scls19fr",
+      "followers_url": "https://api.github.com/users/scls19fr/followers",
+      "following_url": "https://api.github.com/users/scls19fr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/scls19fr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/scls19fr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/scls19fr/subscriptions",
+      "organizations_url": "https://api.github.com/users/scls19fr/orgs",
+      "repos_url": "https://api.github.com/users/scls19fr/repos",
+      "events_url": "https://api.github.com/users/scls19fr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/scls19fr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-11T13:02:04Z",
+    "updated_at": "2016-11-11T13:02:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks @jorisvandenbossche for merging\n"
+  }
+]

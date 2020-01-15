@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/4037421",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/799#issuecomment-4037421",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/799",
+    "id": 4037421,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMzc0MjE=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-02-18T21:22:24Z",
+    "updated_at": "2012-02-18T21:22:24Z",
+    "author_association": "MEMBER",
+    "body": "This was a deliberate API change in 0.7.0, from the release notes\n\n```\n  - The default delimiter for ``read_csv`` is comma rather than letting\n    ``csv.Sniffer`` infer it\n```\n\nThe `Sniffer` class was actually inferring the wrong separator in some very often-occurring use cases. And most people expect `sep=','` to be the default for `read_csv` anyway. If you pass `sep=None` it will use the separator inference logic. Note that `read_table` uses `\\t` as its default separator\n"
+  }
+]

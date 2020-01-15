@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/96544395",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/9997#issuecomment-96544395",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9997",
+    "id": 96544395,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk2NTQ0Mzk1",
+    "user": {
+      "login": "shoyer",
+      "id": 1217238,
+      "node_id": "MDQ6VXNlcjEyMTcyMzg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1217238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shoyer",
+      "html_url": "https://github.com/shoyer",
+      "followers_url": "https://api.github.com/users/shoyer/followers",
+      "following_url": "https://api.github.com/users/shoyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shoyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shoyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shoyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/shoyer/orgs",
+      "repos_url": "https://api.github.com/users/shoyer/repos",
+      "events_url": "https://api.github.com/users/shoyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shoyer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-27T07:55:41Z",
+    "updated_at": "2015-04-27T07:55:41Z",
+    "author_association": "MEMBER",
+    "body": "I'm not quite sure what your idea is here, but these aren't appropriate additions to the pandas codebase.\n\nIf you're just using pandas, you should write code in your own modules instead of modifying the pandas codebase itself.\n\nIf you'd like to improve the pandas documentation with new examples, that's great, but you should make additions to the [actual documentation](https://github.com/pydata/pandas/tree/master/doc) instead of the source code for the pandas library itself.\n"
+  }
+]

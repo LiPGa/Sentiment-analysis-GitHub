@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/478427079",
+    "html_url": "https://github.com/grpc/grpc/issues/18531#issuecomment-478427079",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18531",
+    "id": 478427079,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODQyNzA3OQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-01T03:58:28Z",
+    "updated_at": "2019-04-01T03:58:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "gRPC is a standalone server and it cannot share the same port with other web servers (the implementation is a completely different stack).\r\n\r\nIf you're using ASP.NET Core, you might be interested in https://github.com/grpc/grpc-dotnet (note that the new implementation is not production-ready)."
+  }
+]

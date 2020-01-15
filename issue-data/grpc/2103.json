@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/112922395",
+    "html_url": "https://github.com/grpc/grpc/issues/2103#issuecomment-112922395",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2103",
+    "id": 112922395,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMjkyMjM5NQ==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-17T19:35:15Z",
+    "updated_at": "2015-06-17T19:35:15Z",
+    "author_association": "MEMBER",
+    "body": "Yes it's deliberate. We mutate internal state stored in that object.\n\nOn Wed, Jun 17, 2015 at 12:33 PM Jorge Canizales notifications@github.com\nwrote:\n\n> By deleting this const\n> https://github.com/grpc/grpc/blob/master/src/objective-c/GRPCClient/private/GRPCSecureChannel.m#L41.\n> Then turn warnings in the GRPCClient library\n> https://github.com/grpc/grpc/blob/master/gRPC.podspec#L77 back on.\n> \n> @jboeuf https://github.com/jboeuf @ctiller https://github.com/ctiller\n> or @nicolasnoble https://github.com/nicolasnoble : Is the non-constness\n> of the grpc_credentials argument to grpc_secure_channel_create\n> https://github.com/grpc/grpc/blob/master/include/grpc/grpc_security.h#L148\n> on purpose?\n> \n> —\n> Reply to this email directly or view it on GitHub\n> https://github.com/grpc/grpc/issues/2103.\n"
+  }
+]

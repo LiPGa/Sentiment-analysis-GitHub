@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/300867545",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16331#issuecomment-300867545",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16331",
+    "id": 300867545,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMDg2NzU0NQ==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-11T17:54:10Z",
+    "updated_at": "2017-05-11T17:54:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Currently, with a `MultiIndex`, the header and index columns must be specified when reading back in, as below.  This isn't new behavior in `0.20.1` (at least compared to `0.19.2`).\r\n\r\nxref #11292\r\n\r\n```python\r\nIn [51]: pd.read_excel('test.xlsx', header=[0,1], index_col=[0,1])\r\n\r\nfirst              bar                 baz                 foo          \r\nsecond             one       two       one       two       one       two\r\nfirst second                                                            \r\nbar   one    -1.130701  0.624430 -1.546881  1.987738  0.092758 -1.440665\r\n      two    -0.181748  0.574994  0.121410  0.723244  0.031392 -1.806494\r\nbaz   one    -1.455962  0.110831  3.149095 -1.457039 -0.966952  0.689411\r\n      two    -0.454616  1.106233  0.616380  0.290951 -0.355218  0.031521\r\nfoo   one     0.356507  1.072097  0.887365 -1.191437 -0.744719  0.434147\r\n      two    -0.850893  1.402040  0.954346 -0.709901 -0.348118  0.329914\r\n```"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/54783072",
+    "html_url": "https://github.com/ipython/ipython/issues/6433#issuecomment-54783072",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6433",
+    "id": 54783072,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NzgzMDcy",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-08T07:05:16Z",
+    "updated_at": "2014-09-08T07:05:16Z",
+    "author_association": "MEMBER",
+    "body": "IIRC reload only reload if the cluster(s) are running or not. \nNot their existence. \n\n— \nM\n\nLe 8 sept. 2014 à 05:52, K.-Michael Aye notifications@github.com a écrit :\n\n> I had a gazillion IPython profiles in my profile folder from a theme experiment that were all showing up on the Clusters tab.\n> While the IPython server was running, I deleted all these profiles.\n> When I now click on the reload icon, nothing happens. A web-browser reload also keeps showing the now non-existing profiles.\n> Version: 2.2\n> \n> —\n> Reply to this email directly or view it on GitHub.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/251814063",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14360#issuecomment-251814063",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14360",
+    "id": 251814063,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MTgxNDA2Mw==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-05T22:08:34Z",
+    "updated_at": "2016-10-05T22:14:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thank you for the report.  First, note that only the `datetools` namespace is being deprecated, you can still use month-end, just via `pd.offsets.MonthEnd(12)`\n\nI don't think this is a bug, just a leap-year issue.  A DateOffset simply rolls a date forward the specified number of months, trying to land on the same day of month, if possible, otherwise snapping to the end of month (these are also semantics of `relativedelta` from the `dateutil` module)\n\n```\nIn [11]: pd.to_datetime('2007-02-28') + pd.DateOffset(months=12)\nOut[11]: Timestamp('2008-02-28 00:00:00') # not a month end\n\nIn [13]: from dateutil import relativedelta\nIn [14]: from datetime import datetime\nIn [15]: datetime(2007,2,28) + relativedelta.relativedelta(months=12)\nOut[15]: datetime.datetime(2008, 2, 28, 0, 0)\n\n```\n\nIf you want to definitely snap to a month-end (including handling leap years), the `MonthEnd` offset is what you want.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/396962671",
+    "html_url": "https://github.com/grpc/grpc/issues/15734#issuecomment-396962671",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15734",
+    "id": 396962671,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5Njk2MjY3MQ==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-13T14:42:31Z",
+    "updated_at": "2018-06-13T14:42:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "> The diff is that the first 5 characters are missing. And I also find that the fifth character is always the integer indicating the remaining length of the payload.\r\n\r\n> Does grpc add some specific custom protocol to the result of serialization protobuf?\r\n\r\nYes, gRPC sends length-prefixed messages: see https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md, specifically the definition for `Length-Prefixed-Message`. The prefix contains a flag indicating if the message is compressed as well as the message length; keep in mind that a gRPC stream can contain multiple messages.\r\n\r\nI'm closing this issue, as there's nothing actionable on the gRPC side here. In the future, our [grpc-io mailing list](https://groups.google.com/forum/#!forum/grpc-io) is better suited for these types of questions; feel free to follow up with a new email thread there if you have any additional questions. \r\n\r\n"
+  }
+]

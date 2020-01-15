@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/41375084",
+    "html_url": "https://github.com/ipython/ipython/pull/5724#issuecomment-41375084",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5724",
+    "id": 41375084,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMzc1MDg0",
+    "user": {
+      "login": "echatelet",
+      "id": 4950269,
+      "node_id": "MDQ6VXNlcjQ5NTAyNjk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4950269?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/echatelet",
+      "html_url": "https://github.com/echatelet",
+      "followers_url": "https://api.github.com/users/echatelet/followers",
+      "following_url": "https://api.github.com/users/echatelet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/echatelet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/echatelet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/echatelet/subscriptions",
+      "organizations_url": "https://api.github.com/users/echatelet/orgs",
+      "repos_url": "https://api.github.com/users/echatelet/repos",
+      "events_url": "https://api.github.com/users/echatelet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/echatelet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-25T09:36:18Z",
+    "updated_at": "2014-04-25T09:36:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Cleanup up my local master and rebranching. \n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/479413250",
+    "html_url": "https://github.com/ipython/ipython/pull/11670#issuecomment-479413250",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11670",
+    "id": 479413250,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3OTQxMzI1MA==",
+    "user": {
+      "login": "NumesSanguis",
+      "id": 8008618,
+      "node_id": "MDQ6VXNlcjgwMDg2MTg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8008618?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/NumesSanguis",
+      "html_url": "https://github.com/NumesSanguis",
+      "followers_url": "https://api.github.com/users/NumesSanguis/followers",
+      "following_url": "https://api.github.com/users/NumesSanguis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/NumesSanguis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/NumesSanguis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/NumesSanguis/subscriptions",
+      "organizations_url": "https://api.github.com/users/NumesSanguis/orgs",
+      "repos_url": "https://api.github.com/users/NumesSanguis/repos",
+      "events_url": "https://api.github.com/users/NumesSanguis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/NumesSanguis/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-03T09:30:01Z",
+    "updated_at": "2019-04-03T09:30:01Z",
+    "author_association": "NONE",
+    "body": "To give an idea what adding this makes possible in terms of Dashboarding (plotting with HoloViews, Bokeh backend):\r\n![holoviews-interactive-audio_mouse](https://user-images.githubusercontent.com/8008618/55468228-e4046d80-563d-11e9-855f-3793d3eca8a8.png)\r\n\r\n- The green line represents where the audio currently is, which is updated through a callback in JavaScript when 'currentTime' changes, which updates a Python variable.\r\n- The blue line follows the cursor\r\n- When clicked, JavaScript code is executed to set the Audio widget's 'currentTime' based on the x-value of the cursor."
+  }
+]

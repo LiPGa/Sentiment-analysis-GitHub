@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/478011851",
+    "html_url": "https://github.com/grpc/grpc/issues/18569#issuecomment-478011851",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18569",
+    "id": 478011851,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODAxMTg1MQ==",
+    "user": {
+      "login": "nicolasnoble",
+      "id": 7281574,
+      "node_id": "MDQ6VXNlcjcyODE1NzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7281574?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicolasnoble",
+      "html_url": "https://github.com/nicolasnoble",
+      "followers_url": "https://api.github.com/users/nicolasnoble/followers",
+      "following_url": "https://api.github.com/users/nicolasnoble/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicolasnoble/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicolasnoble/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicolasnoble/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicolasnoble/orgs",
+      "repos_url": "https://api.github.com/users/nicolasnoble/repos",
+      "events_url": "https://api.github.com/users/nicolasnoble/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicolasnoble/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-29T14:11:52Z",
+    "updated_at": "2019-03-29T14:11:52Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This behavior is unfortunately consistent with the `getaddrinfo` API. In fact, in `getaddrinfo`, the `service` parameter is a whole string, which can wrap around without leaving any error:\r\n\r\n```\r\n$ cat getaddrinfo.c\r\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <sys/types.h>\r\n#include <sys/socket.h>\r\n#include <netdb.h>\r\n#include <memory.h>\r\n\r\nint main() {\r\n    struct addrinfo hints;\r\n    struct addrinfo * info = NULL;\r\n    memset(&hints, 0, sizeof hints);\r\n\r\n    hints.ai_family = AF_INET;\r\n    hints.ai_socktype = SOCK_STREAM;\r\n    hints.ai_flags =  AI_CANONNAME | AI_NUMERICSERV;\r\n\r\n    int s = getaddrinfo(\"localhost\", \"500051\", &hints, &info);\r\n    if (s != 0) {\r\n        fprintf(stderr, \"getaddrinfo: %s\\n\", gai_strerror(s));\r\n        return -1;\r\n    }\r\n\r\n    if (info->ai_addr->sa_family != AF_INET) {\r\n        fprintf(stderr, \"Wrong family\\n\");\r\n        return -1;\r\n    }\r\n\r\n    struct sockaddr_in * addr = (struct sockaddr_in *) info->ai_addr;\r\n\r\n\r\n    printf(\"port: %i\\n\", ntohs(addr->sin_port));\r\n\r\n    freeaddrinfo(info);\r\n    return 0;\r\n}\r\n$ gcc -o getaddrinfo getaddrinfo.c\r\n$ ./getaddrinfo\r\nport: 41299\r\n```\r\n\r\nTherefore, this behavior is consistent across the board in every languages, and consistent with what the operating system allows and does. Closing this one."
+  }
+]

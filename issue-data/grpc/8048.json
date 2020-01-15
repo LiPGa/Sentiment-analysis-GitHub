@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/246263537",
+    "html_url": "https://github.com/grpc/grpc/pull/8048#issuecomment-246263537",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8048",
+    "id": 246263537,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NjI2MzUzNw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-12T06:55:00Z",
+    "updated_at": "2016-09-12T06:55:00Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "LGTM.\n\nI don't think the test failures here are related, but it looks like the new coreclr interop tests are passing.\n"
+  }
+]

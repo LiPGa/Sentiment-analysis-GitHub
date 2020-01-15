@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/348299598",
+    "html_url": "https://github.com/grpc/grpc/pull/13564#issuecomment-348299598",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13564",
+    "id": 348299598,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0ODI5OTU5OA==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-30T19:46:24Z",
+    "updated_at": "2017-11-30T19:46:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Please make sure to put this in release notes with the warning of the proto behavior change in 3.5.0"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/206336803",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11060#issuecomment-206336803",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11060",
+    "id": 206336803,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNjMzNjgwMw==",
+    "user": {
+      "login": "tmsbrg",
+      "id": 3786254,
+      "node_id": "MDQ6VXNlcjM3ODYyNTQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3786254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tmsbrg",
+      "html_url": "https://github.com/tmsbrg",
+      "followers_url": "https://api.github.com/users/tmsbrg/followers",
+      "following_url": "https://api.github.com/users/tmsbrg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tmsbrg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tmsbrg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tmsbrg/subscriptions",
+      "organizations_url": "https://api.github.com/users/tmsbrg/orgs",
+      "repos_url": "https://api.github.com/users/tmsbrg/repos",
+      "events_url": "https://api.github.com/users/tmsbrg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tmsbrg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-06T11:58:06Z",
+    "updated_at": "2016-04-06T11:58:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Sorry, dupe of #11026\n"
+  }
+]

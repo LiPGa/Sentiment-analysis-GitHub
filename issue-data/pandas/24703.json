@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/453115865",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24703#issuecomment-453115865",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24703",
+    "id": 453115865,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzExNTg2NQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-10T14:33:19Z",
+    "updated_at": "2019-01-10T14:33:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "NumPy doesn't have a native tz-aware datetime.\r\n\r\nIn 0.24 we're recommending you avoid `.values` for reasons like this. Use either `.array` to get the underlying array, `.to_numpy()` to convert to M8[ns], and `to_numpy(dtype='object')` to convert to an ndarray of Timestamps, which retains the tz.\r\n\r\n```python\r\nIn [8]: df.A.array\r\nOut[8]:\r\n<DatetimeArray>\r\n['2018-03-01 14:00:00+00:00']\r\nLength: 1, dtype: datetime64[ns, UTC]\r\n\r\nIn [9]: df.A.to_numpy()\r\nOut[9]: array([Timestamp('2018-03-01 14:00:00+0000', tz='UTC')], dtype=object)\r\n\r\nIn [10]: df.A.to_numpy(dtype='object')\r\nOut[10]: array([Timestamp('2018-03-01 14:00:00+0000', tz='UTC')], dtype=object)\r\n\r\n```\r\n\r\n\r\nSee http://pandas-docs.github.io/pandas-docs-travis/whatsnew/v0.24.0.html#accessing-the-values-in-a-series-or-index and http://pandas-docs.github.io/pandas-docs-travis/whatsnew/v0.24.0.html#converting-timezone-aware-series-and-index-to-numpy-arrays"
+  }
+]

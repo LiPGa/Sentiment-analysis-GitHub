@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/401594317",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21695#issuecomment-401594317",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21695",
+    "id": 401594317,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMTU5NDMxNw==",
+    "user": {
+      "login": "tastyminerals",
+      "id": 7676160,
+      "node_id": "MDQ6VXNlcjc2NzYxNjA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7676160?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tastyminerals",
+      "html_url": "https://github.com/tastyminerals",
+      "followers_url": "https://api.github.com/users/tastyminerals/followers",
+      "following_url": "https://api.github.com/users/tastyminerals/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tastyminerals/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tastyminerals/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tastyminerals/subscriptions",
+      "organizations_url": "https://api.github.com/users/tastyminerals/orgs",
+      "repos_url": "https://api.github.com/users/tastyminerals/repos",
+      "events_url": "https://api.github.com/users/tastyminerals/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tastyminerals/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-01T09:10:49Z",
+    "updated_at": "2018-07-01T09:10:49Z",
+    "author_association": "NONE",
+    "body": "Solved by adding `quoting=csv.QUOTE_NONE, escapechar=\"\\\\\", encoding=\"utf-8\"`."
+  }
+]

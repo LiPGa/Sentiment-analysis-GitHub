@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/368134100",
+    "html_url": "https://github.com/ipython/ipython/issues/11008#issuecomment-368134100",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11008",
+    "id": 368134100,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2ODEzNDEwMA==",
+    "user": {
+      "login": "ivanov",
+      "id": 118211,
+      "node_id": "MDQ6VXNlcjExODIxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/118211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivanov",
+      "html_url": "https://github.com/ivanov",
+      "followers_url": "https://api.github.com/users/ivanov/followers",
+      "following_url": "https://api.github.com/users/ivanov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivanov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivanov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivanov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivanov/orgs",
+      "repos_url": "https://api.github.com/users/ivanov/repos",
+      "events_url": "https://api.github.com/users/ivanov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivanov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-23T20:48:05Z",
+    "updated_at": "2018-02-23T20:48:05Z",
+    "author_association": "MEMBER",
+    "body": "Sorry you're having trouble with this - I think part of the reason is that it's clear what you want to do in trivial examples (a single level of indentation for a `try:`) - but not so clear to read your intention when there are multiple `try` blocks nested. If that sounds like an infrequent case, it equally applies to `else` continuations for `if` `for` and `try` blocks. You can easily end up with arbitrary combinations of these nested, and we won't be able to infer what you mean. We tend to not transform text after you've typed it out, that way you see exactly what will get sent \r\n\r\nAs a workaround - I use `Ctrl-U` to just remove all indentation at the beginning with one key chord, and then re-indent if there are multiple levels involved.\r\n\r\nOlder versions of IPython (before 5) used to respect the `%autoindent` setting, but that does not seem to be the case anymore for newer default `prompt_toolkit` setup. It appears that [`rlipython`](https://github.com/ipython/rlipython) still honors it, but if you switch to using that you may find other edge cases (I just noticed that tabs don't get converted to spaces in rlipython, for example)."
+  }
+]

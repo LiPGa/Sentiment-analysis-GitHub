@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/262885904",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12362#issuecomment-262885904",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12362",
+    "id": 262885904,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2Mjg4NTkwNA==",
+    "user": {
+      "login": "wraezor",
+      "id": 7584869,
+      "node_id": "MDQ6VXNlcjc1ODQ4Njk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7584869?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wraezor",
+      "html_url": "https://github.com/wraezor",
+      "followers_url": "https://api.github.com/users/wraezor/followers",
+      "following_url": "https://api.github.com/users/wraezor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wraezor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wraezor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wraezor/subscriptions",
+      "organizations_url": "https://api.github.com/users/wraezor/orgs",
+      "repos_url": "https://api.github.com/users/wraezor/repos",
+      "events_url": "https://api.github.com/users/wraezor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wraezor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-25T05:56:03Z",
+    "updated_at": "2016-11-25T05:56:03Z",
+    "author_association": "NONE",
+    "body": "Also experienced the same crash.\r\n\r\nRed Alert Mod at Version release-20161019\r\non map 85e6243ee3c8d6aa7c6634a805678e30a508243b (Survival 02 by Nuke'm Bro.).\r\nDate: 2016-11-25 05:53:11Z\r\nOperating System: Windows (Microsoft Windows NT 6.2.9200.0)\r\nRuntime Version: .NET CLR 4.0.30319.42000\r\nException of type `System.InvalidOperationException`: Unit `bomblet` does not have a sequence named `open`\r\n   at OpenRA.Graphics.SequenceProvider.GetSequence(String unitName, String sequenceName)\r\n   at OpenRA.Graphics.Animation.GetSequence(String sequenceName)\r\n   at OpenRA.Graphics.Animation.PlaySequence(String sequenceName)\r\n   at OpenRA.Graphics.Animation.PlayThen(String sequenceName, Action after)\r\n   at OpenRA.Mods.Common.Projectiles.GravityBomb..ctor(GravityBombInfo info, ProjectileArgs args)\r\n   at OpenRA.Mods.Common.Projectiles.GravityBombInfo.Create(ProjectileArgs args)\r\n   at OpenRA.Mods.Common.Traits.Armament.<CheckFire>c__AnonStorey0.<>m__1()\r\n   at OpenRA.Mods.Common.Traits.Armament.ScheduleDelayedAction(Int32 t, Action a)\r\n   at OpenRA.Mods.Common.Traits.Armament.CheckFire(Actor self, IFacing facing, Target target)\r\n   at OpenRA.Mods.Common.Traits.AttackBomber.Tick(Actor self)\r\n   at OpenRA.World.<Tick>m__3(TraitPair`1 x)\r\n   at OpenRA.WorldUtils.DoTimed[T](IEnumerable`1 e, Action`1 a, String text)\r\n   at OpenRA.World.Tick()\r\n   at OpenRA.Game.InnerLogicTick(OrderManager orderManager)\r\n   at OpenRA.Game.LogicTick()\r\n   at OpenRA.Game.Loop()\r\n   at OpenRA.Game.Run()\r\n   at OpenRA.Program.Run(String[] args)\r\n   at OpenRA.Program.Main(String[] args)"
+  }
+]

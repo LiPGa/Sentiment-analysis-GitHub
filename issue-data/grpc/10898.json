@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/297907428",
+    "html_url": "https://github.com/grpc/grpc/issues/10898#issuecomment-297907428",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10898",
+    "id": 297907428,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NzkwNzQyOA==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-28T05:00:39Z",
+    "updated_at": "2017-04-28T05:00:39Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "From the c-level and ruby backtraces, it looks like this happened in protobuf, when loading a protobuf `.rb` file?\r\n\r\nI can't see any grpc-related `.rb` files in the `loaded features` of the trace, and I don't see `grpc.so` in the process memory map.\r\n\r\nGoing to close as from the trace here I don't think this is grpc-related."
+  }
+]

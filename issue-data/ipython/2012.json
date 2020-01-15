@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/6522840",
+    "html_url": "https://github.com/ipython/ipython/pull/2012#issuecomment-6522840",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2012",
+    "id": 6522840,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY1MjI4NDA=",
+    "user": {
+      "login": "fperez",
+      "id": 57394,
+      "node_id": "MDQ6VXNlcjU3Mzk0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fperez",
+      "html_url": "https://github.com/fperez",
+      "followers_url": "https://api.github.com/users/fperez/followers",
+      "following_url": "https://api.github.com/users/fperez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fperez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fperez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fperez/subscriptions",
+      "organizations_url": "https://api.github.com/users/fperez/orgs",
+      "repos_url": "https://api.github.com/users/fperez/repos",
+      "events_url": "https://api.github.com/users/fperez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fperez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-06-23T05:53:13Z",
+    "updated_at": "2012-06-23T05:53:13Z",
+    "author_association": "MEMBER",
+    "body": "The code looks clean to me, and furthermore it removes the dialog, which is another win.  Thanks!\n\nSince triggering the problem in #2005 was kind of tricky (I haven't seen it), I'm going to merge this so we can have more testing in the wild.\n\nThanks for the quick turnaround, @mcelrath!\n"
+  }
+]

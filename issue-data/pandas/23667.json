@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/438319112",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23667#issuecomment-438319112",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23667",
+    "id": 438319112,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzODMxOTExMg==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-13T15:58:41Z",
+    "updated_at": "2018-11-13T15:58:41Z",
+    "author_association": "MEMBER",
+    "body": "I'd suggest giving the documentation a look as the page for this has quite some detail, including links to further levels of detail.\r\n\r\nUsage questions are better asked on SO. If there's an actual bug that you see in the implementation feel free to come back here with more details. You would want to read up on how to open a bug request first:\r\n\r\nhttp://pandas.pydata.org/pandas-docs/stable/contributing.html#bug-reports-and-enhancement-requests\r\n"
+  }
+]

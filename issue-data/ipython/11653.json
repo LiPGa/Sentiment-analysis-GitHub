@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/474723393",
+    "html_url": "https://github.com/ipython/ipython/issues/11653#issuecomment-474723393",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11653",
+    "id": 474723393,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NDcyMzM5Mw==",
+    "user": {
+      "login": "dinya",
+      "id": 2182222,
+      "node_id": "MDQ6VXNlcjIxODIyMjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2182222?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dinya",
+      "html_url": "https://github.com/dinya",
+      "followers_url": "https://api.github.com/users/dinya/followers",
+      "following_url": "https://api.github.com/users/dinya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dinya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dinya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dinya/subscriptions",
+      "organizations_url": "https://api.github.com/users/dinya/orgs",
+      "repos_url": "https://api.github.com/users/dinya/repos",
+      "events_url": "https://api.github.com/users/dinya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dinya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-20T07:52:29Z",
+    "updated_at": "2019-03-20T07:52:29Z",
+    "author_association": "NONE",
+    "body": "The following trick works for me\r\n\r\n```python\r\ndef fix_ipython_autocomplete(enable=True):\r\n    \"\"\"Change autocomplete behavior for IPython > 6.x\r\n        \r\n    Parameter\r\n    ---------\r\n    enable : bool (default True)\r\n        Is use the trick.\r\n\r\n    Notes\r\n    -----\r\n    Since IPython > 6.x the ``jedi`` package is using for autocomplete by default.\r\n    But in some cases, the autocomplete doesn't work correctly wrong (see e.g.\r\n    `here <https://github.com/ipython/ipython/issues/11653>`_).\r\n    \r\n    To set the correct behaviour we should use in IPython environment::\r\n    \r\n        %config Completer.use_jedi = False\r\n    \r\n    or add to IPython config (``<HOME>\\.ipython\\profile_default\\ipython_config.py``)::\r\n        \r\n        c.Completer.use_jedi = False\r\n    \"\"\"\r\n    \r\n    try:\r\n        __IPYTHON__\r\n    except NameError:\r\n        pass\r\n    else:\r\n        from IPython import __version__      \r\n        major = int(__version__.split('.')[0])\r\n        if major >= 6:\r\n            from IPython import get_ipython\r\n            get_ipython().Completer.use_jedi = not enable\r\n```\r\n\r\nSee also davidhalter/jedi#1299 and jupyter/notebook#2435."
+  }
+]

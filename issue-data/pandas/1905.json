@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/9163224",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1905#issuecomment-9163224",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1905",
+    "id": 9163224,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkxNjMyMjQ=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-10-05T01:54:51Z",
+    "updated_at": "2012-10-05T01:54:51Z",
+    "author_association": "MEMBER",
+    "body": "Agree this is the right place for it. I'll have to deal with incorporating this into the c-parser branch after the release\n"
+  }
+]

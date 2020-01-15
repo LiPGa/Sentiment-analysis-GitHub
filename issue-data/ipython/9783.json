@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/233928341",
+    "html_url": "https://github.com/ipython/ipython/issues/9783#issuecomment-233928341",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9783",
+    "id": 233928341,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMzkyODM0MQ==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-20T11:55:21Z",
+    "updated_at": "2016-07-20T11:55:37Z",
+    "author_association": "MEMBER",
+    "body": "IPython 5 does not use readline, so this behaviour is expected. You can find the length of the history in the current session like this:\n\n``` python\nlen(get_ipython().history_manager.input_hist_raw) - 1\n# -1 because there's an empty first entry to make the h[1] the first real line\n```\n\nOr you can get the history we've given to prompt_toolkit, which is more closely equivalent to the old readline history, like this:\n\n``` python\nlen(get_ipython().pt_cli.application.buffer.history)\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/326752092",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9281#issuecomment-326752092",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9281",
+    "id": 326752092,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjc1MjA5Mg==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-02T15:47:42Z",
+    "updated_at": "2017-09-02T15:47:42Z",
+    "author_association": "MEMBER",
+    "body": "Duplicate of https://github.com/OpenRA/OpenRA/issues/4033 which is already resolved."
+  }
+]

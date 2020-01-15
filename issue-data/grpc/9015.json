@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/267445733",
+    "html_url": "https://github.com/grpc/grpc/issues/9015#issuecomment-267445733",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9015",
+    "id": 267445733,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NzQ0NTczMw==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-15T21:14:09Z",
+    "updated_at": "2016-12-15T21:14:09Z",
+    "author_association": "MEMBER",
+    "body": "Stealing this issue because I think it will be affected by whether or not we want to use `grpc_server_request_registered_call` as part of our performance improvement story.\r\n\r\n@yang-g, @ctiller: how likely do you think it will be that using `grpc_server_request_registered_call` rather than `grpc_server_request_call` will be part of the Python performance improvement work? @a11r indicated that he suspect it would be but I'd like to hear it from you and to hear if there would be any reason for it other than \"of course RPC method dispatch in C will be faster than RPC method dispatch in Python\"."
+  }
+]

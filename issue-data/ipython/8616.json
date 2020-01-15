@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/127436243",
+    "html_url": "https://github.com/ipython/ipython/issues/8616#issuecomment-127436243",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8616",
+    "id": 127436243,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNzQzNjI0Mw==",
+    "user": {
+      "login": "mwcraig",
+      "id": 1147167,
+      "node_id": "MDQ6VXNlcjExNDcxNjc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1147167?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mwcraig",
+      "html_url": "https://github.com/mwcraig",
+      "followers_url": "https://api.github.com/users/mwcraig/followers",
+      "following_url": "https://api.github.com/users/mwcraig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mwcraig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mwcraig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mwcraig/subscriptions",
+      "organizations_url": "https://api.github.com/users/mwcraig/orgs",
+      "repos_url": "https://api.github.com/users/mwcraig/repos",
+      "events_url": "https://api.github.com/users/mwcraig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mwcraig/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-03T23:54:52Z",
+    "updated_at": "2015-08-03T23:54:52Z",
+    "author_association": "NONE",
+    "body": "Closing -- with the changes in ipython/ipywidgets#131 the opened panel can be set via the `selected_index` attribute. Setting that attribute to `-1` (or any value outside the range 0..(number of panels-1)) closes whichever tab is opened. \n"
+  }
+]

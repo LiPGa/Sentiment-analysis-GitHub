@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/465323089",
+    "html_url": "https://github.com/grpc/grpc/pull/18095#issuecomment-465323089",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18095",
+    "id": 465323089,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NTMyMzA4OQ==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-19T21:44:20Z",
+    "updated_at": "2019-02-19T21:44:20Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@gnossen @lidizheng `unittest` doesn't have great support for parameterizing tests, as far as I could determine. Some tests in `_rpc_test.py` and `_health_servicer_test.py` needed to be parameterized, and I went with two different approaches: manually refactoring the shared behavior into helper method (`_rpc_test.py`) versus subclassing a new class (`_health_servicer_test.py`). Looking at it now, I think I prefer the `_health_servicer_test` approach; if you agree I'll update the `_rpc_test` file to use the same approach."
+  }
+]

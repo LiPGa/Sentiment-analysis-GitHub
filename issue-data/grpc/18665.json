@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/480407953",
+    "html_url": "https://github.com/grpc/grpc/pull/18665#issuecomment-480407953",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18665",
+    "id": 480407953,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDQwNzk1Mw==",
+    "user": {
+      "login": "AspirinSJL",
+      "id": 3314176,
+      "node_id": "MDQ6VXNlcjMzMTQxNzY=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3314176?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AspirinSJL",
+      "html_url": "https://github.com/AspirinSJL",
+      "followers_url": "https://api.github.com/users/AspirinSJL/followers",
+      "following_url": "https://api.github.com/users/AspirinSJL/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AspirinSJL/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AspirinSJL/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AspirinSJL/subscriptions",
+      "organizations_url": "https://api.github.com/users/AspirinSJL/orgs",
+      "repos_url": "https://api.github.com/users/AspirinSJL/repos",
+      "events_url": "https://api.github.com/users/AspirinSJL/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AspirinSJL/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-05T20:14:34Z",
+    "updated_at": "2019-04-05T20:14:34Z",
+    "author_association": "MEMBER",
+    "body": "Except for a test `IgnoreChildPolicyInFallback`, this is ready for review. Thanks!\r\n\r\nSince https://github.com/grpc/grpc/pull/18052 is in and the child policy state related methods are moved into the locality map, I am duplicating the logic in `XdsLb` for the fallback policy. "
+  }
+]

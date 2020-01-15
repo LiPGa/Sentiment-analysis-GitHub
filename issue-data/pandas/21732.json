@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/402585583",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21732#issuecomment-402585583",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21732",
+    "id": 402585583,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMjU4NTU4Mw==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-05T02:01:50Z",
+    "updated_at": "2018-07-05T02:01:50Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, this looks to be a duplicate of #21075, and is fixed on master.  The fix should be included in 0.23.2, which will be released relatively soon.\r\n\r\nYour example code does not raise on master:\r\n\r\n```python\r\nIn [2]: pd.__version__\r\nOut[2]: '0.24.0.dev0+219.g1070976'\r\n\r\nIn [3]: # Building Dataframe (reused from example, the fact that it uses datetime and numpy is probably not that important) \r\n   ...: date_range = pd.date_range(start=dt.datetime(2017,1,1), end=dt.datetime(2020,12,31), freq='W')\r\n   ...: to_concat = []\r\n   ...: for val in range(1,5):\r\n   ...:     frame_tmp = pd.DataFrame()\r\n   ...:     frame_tmp['DT'] = date_range\r\n   ...:     frame_tmp['type'] = val\r\n   ...:     frame_tmp['value'] = np.random.randint(1, 6, frame_tmp.shape[0])\r\n   ...:     to_concat.append(frame_tmp)\r\n   ...: \r\n   ...: df = pd.concat(to_concat, ignore_index=True)\r\n   ...: \r\n\r\nIn [4]: # Does not work under pandas 0.23.0 and 0.23.1 worked in 0.22 and for some versions before\r\n   ...: df.set_index('DT').groupby(level=0)['value'].expanding().mean()\r\nOut[4]: \r\nDT          DT        \r\n2017-01-01  2017-01-01    1.000000\r\n            2017-01-01    2.000000\r\n            2017-01-01    3.000000\r\n            2017-01-01    2.750000\r\n2017-01-08  2017-01-08    3.000000\r\n            2017-01-08    4.000000\r\n            2017-01-08    3.333333\r\n            2017-01-08    2.750000\r\n2017-01-15  2017-01-15    5.000000\r\n            2017-01-15    3.000000\r\n            2017-01-15    3.000000\r\n            2017-01-15    2.500000\r\n2017-01-22  2017-01-22    3.000000\r\n            2017-01-22    2.500000\r\n            2017-01-22    2.333333\r\n            2017-01-22    2.250000\r\n2017-01-29  2017-01-29    3.000000\r\n            2017-01-29    2.000000\r\n            2017-01-29    3.000000\r\n            2017-01-29    2.750000\r\n2017-02-05  2017-02-05    2.000000\r\n            2017-02-05    2.000000\r\n            2017-02-05    2.666667\r\n            2017-02-05    3.000000\r\n2017-02-12  2017-02-12    5.000000\r\n            2017-02-12    5.000000\r\n            2017-02-12    4.000000\r\n            2017-02-12    3.500000\r\n2017-02-19  2017-02-19    3.000000\r\n            2017-02-19    4.000000\r\n                            ...   \r\n2020-11-08  2020-11-08    2.333333\r\n            2020-11-08    2.500000\r\n2020-11-15  2020-11-15    5.000000\r\n            2020-11-15    4.000000\r\n            2020-11-15    3.666667\r\n            2020-11-15    4.000000\r\n2020-11-22  2020-11-22    2.000000\r\n            2020-11-22    3.500000\r\n            2020-11-22    4.000000\r\n            2020-11-22    3.750000\r\n2020-11-29  2020-11-29    2.000000\r\n            2020-11-29    2.500000\r\n            2020-11-29    3.000000\r\n            2020-11-29    3.250000\r\n2020-12-06  2020-12-06    4.000000\r\n            2020-12-06    3.000000\r\n            2020-12-06    2.666667\r\n            2020-12-06    3.250000\r\n2020-12-13  2020-12-13    5.000000\r\n            2020-12-13    5.000000\r\n            2020-12-13    4.666667\r\n            2020-12-13    3.750000\r\n2020-12-20  2020-12-20    1.000000\r\n            2020-12-20    1.000000\r\n            2020-12-20    1.333333\r\n            2020-12-20    1.750000\r\n2020-12-27  2020-12-27    3.000000\r\n            2020-12-27    3.500000\r\n            2020-12-27    3.000000\r\n            2020-12-27    3.250000\r\nName: value, Length: 836, dtype: float64\r\n```"
+  }
+]

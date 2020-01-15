@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/38859100",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/6723#issuecomment-38859100",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6723",
+    "id": 38859100,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4ODU5MTAw",
+    "user": {
+      "login": "WLazar",
+      "id": 5933020,
+      "node_id": "MDQ6VXNlcjU5MzMwMjA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5933020?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WLazar",
+      "html_url": "https://github.com/WLazar",
+      "followers_url": "https://api.github.com/users/WLazar/followers",
+      "following_url": "https://api.github.com/users/WLazar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WLazar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WLazar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WLazar/subscriptions",
+      "organizations_url": "https://api.github.com/users/WLazar/orgs",
+      "repos_url": "https://api.github.com/users/WLazar/repos",
+      "events_url": "https://api.github.com/users/WLazar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WLazar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-27T20:52:26Z",
+    "updated_at": "2014-03-27T20:52:26Z",
+    "author_association": "NONE",
+    "body": "Nevermind, it appears that the seriessorted function requires a new format for series (now subclasses). The answer is best explained on stack overflow here: http://stackoverflow.com/questions/22669208/attributeerror-series-object-has-no-attribute-searchsorted-pandas\n"
+  }
+]

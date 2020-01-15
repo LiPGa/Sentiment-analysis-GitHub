@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/434976564",
+    "html_url": "https://github.com/grpc/grpc/issues/17067#issuecomment-434976564",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17067",
+    "id": 434976564,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNDk3NjU2NA==",
+    "user": {
+      "login": "AliAfsharii",
+      "id": 21364820,
+      "node_id": "MDQ6VXNlcjIxMzY0ODIw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/21364820?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AliAfsharii",
+      "html_url": "https://github.com/AliAfsharii",
+      "followers_url": "https://api.github.com/users/AliAfsharii/followers",
+      "following_url": "https://api.github.com/users/AliAfsharii/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AliAfsharii/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AliAfsharii/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AliAfsharii/subscriptions",
+      "organizations_url": "https://api.github.com/users/AliAfsharii/orgs",
+      "repos_url": "https://api.github.com/users/AliAfsharii/repos",
+      "events_url": "https://api.github.com/users/AliAfsharii/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AliAfsharii/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-01T09:00:47Z",
+    "updated_at": "2018-11-01T09:00:47Z",
+    "author_association": "NONE",
+    "body": "I solved this problem. It needs to change \"Internet Access\" in player settings to \"required\". when unity analytics is active it changes this setting automatically"
+  }
+]

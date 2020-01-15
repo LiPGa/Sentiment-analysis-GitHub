@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/31212180",
+    "html_url": "https://github.com/ipython/ipython/issues/4667#issuecomment-31212180",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4667",
+    "id": 31212180,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMjEyMTgw",
+    "user": {
+      "login": "bernardofire",
+      "id": 824254,
+      "node_id": "MDQ6VXNlcjgyNDI1NA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/824254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bernardofire",
+      "html_url": "https://github.com/bernardofire",
+      "followers_url": "https://api.github.com/users/bernardofire/followers",
+      "following_url": "https://api.github.com/users/bernardofire/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bernardofire/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bernardofire/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bernardofire/subscriptions",
+      "organizations_url": "https://api.github.com/users/bernardofire/orgs",
+      "repos_url": "https://api.github.com/users/bernardofire/repos",
+      "events_url": "https://api.github.com/users/bernardofire/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bernardofire/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-12-26T05:51:04Z",
+    "updated_at": "2013-12-26T05:51:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "`future_statements` are primarily compile-time gimmicks, and your import happens long after the compiler is done. That is, by the time you do the import, the semantics in effect for the module are already a done deal. \n"
+  }
+]

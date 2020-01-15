@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/356160329",
+    "html_url": "https://github.com/grpc/grpc/issues/13502#issuecomment-356160329",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13502",
+    "id": 356160329,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NjE2MDMyOQ==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-09T02:26:53Z",
+    "updated_at": "2018-01-09T02:26:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "FTR for the second point,\r\n\r\n> Follow through with a change like #13468\r\n\r\nthat is done in https://github.com/grpc/grpc/pull/13561"
+  }
+]

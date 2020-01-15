@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/474875506",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25800#issuecomment-474875506",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25800",
+    "id": 474875506,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NDg3NTUwNg==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-20T15:10:58Z",
+    "updated_at": "2019-03-20T15:10:58Z",
+    "author_association": "MEMBER",
+    "body": "Please refer to the contributing guide on opening bug reports - the key thing here is to provide something minimal:\r\n\r\nhttps://pandas.pydata.org/pandas-docs/stable/development/contributing.html#bug-reports-and-enhancement-requests\r\n\r\nFWIW you have a lot of custom code therein which may be the confounding factor, but again tough to say as the example isn't minimal. If you are trying to write multiple sheets to excel you should follow the instructions in the `to_excel` documentation:\r\n\r\nhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_excel.html#pandas-dataframe-to-excel\r\n\r\nClosing for now but if the above doesn't work and you can isolate to a minimal example feel free to reopen"
+  }
+]

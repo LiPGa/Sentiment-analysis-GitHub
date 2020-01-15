@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/147974851",
+    "html_url": "https://github.com/ipython/ipython/issues/8906#issuecomment-147974851",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8906",
+    "id": 147974851,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0Nzk3NDg1MQ==",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-14T08:37:33Z",
+    "updated_at": "2015-10-14T08:37:33Z",
+    "author_association": "MEMBER",
+    "body": "There is an [example](https://github.com/jupyter/jupyterhub/blob/0.2.0/examples/cull-idle/cull_idle_servers.py) demonstrating the culling of idle servers. The Hub tracks the information about last activity, but doesn't act on it. External services can be run to perform actions like this, though.\n"
+  }
+]

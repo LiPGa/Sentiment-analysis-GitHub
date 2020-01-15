@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/104711537",
+    "html_url": "https://github.com/ipython/ipython/issues/8460#issuecomment-104711537",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8460",
+    "id": 104711537,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNDcxMTUzNw==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-22T16:50:22Z",
+    "updated_at": "2015-05-22T16:50:22Z",
+    "author_association": "MEMBER",
+    "body": "That does sound like a good approach, but with one caveat. Some objects (especially proxies for remote objects) will claim to have any attribute, auto-creating a proxy for each attribute which isn't resolved until you call it. We've talked before about checking for an attribute like `_this_attribute_should_never_exist` in order to detect such objects.\n"
+  }
+]

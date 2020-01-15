@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/305345564",
+    "html_url": "https://github.com/grpc/grpc/issues/11350#issuecomment-305345564",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11350",
+    "id": 305345564,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNTM0NTU2NA==",
+    "user": {
+      "login": "tmatsuo",
+      "id": 41815,
+      "node_id": "MDQ6VXNlcjQxODE1",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/41815?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tmatsuo",
+      "html_url": "https://github.com/tmatsuo",
+      "followers_url": "https://api.github.com/users/tmatsuo/followers",
+      "following_url": "https://api.github.com/users/tmatsuo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tmatsuo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tmatsuo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tmatsuo/subscriptions",
+      "organizations_url": "https://api.github.com/users/tmatsuo/orgs",
+      "repos_url": "https://api.github.com/users/tmatsuo/repos",
+      "events_url": "https://api.github.com/users/tmatsuo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tmatsuo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-31T23:20:16Z",
+    "updated_at": "2017-05-31T23:20:16Z",
+    "author_association": "NONE",
+    "body": "cl.exe is failing too.\r\n\r\nIs this a workaroud for it?\r\nhttps://stackoverflow.com/questions/30805590/the-command-line-is-too-long-when-linking-obj-files-in-windows-command-prompt"
+  }
+]

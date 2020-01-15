@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/113665116",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10394#issuecomment-113665116",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10394",
+    "id": 113665116,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMzY2NTExNg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-19T22:57:02Z",
+    "updated_at": "2015-06-19T22:57:02Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "well, what you are doing is not thread-safe at all. The `groupby` itself would need to be protected by the locks, but more importantly, ATM, you will find NO improvement because all of this code needs the global-interpreter-lock (GIL). I have a PR that will address this, see #10199 \n\nbut what you are doing is actually quite a tricky problem. You should look at [dask](https://dask.readthedocs.org/en/latest/) to solve this. This uses the GIL releasing code under the hood (and schedulers) to make multi-threading work quite nicely.\n"
+  }
+]

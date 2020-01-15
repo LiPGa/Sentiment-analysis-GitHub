@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/358615808",
+    "html_url": "https://github.com/ipython/ipython/pull/10978#issuecomment-358615808",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10978",
+    "id": 358615808,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1ODYxNTgwOA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-18T11:12:36Z",
+    "updated_at": "2018-01-18T11:12:36Z",
+    "author_association": "MEMBER",
+    "body": "I did have another idea how to achieve this: send plain text with some metadata identifying the language, and let the frontend do the highlighting if it can: https://github.com/jupyter/nbconvert/issues/363\r\n\r\nThat proposal is more elegant: it only sends the data once, it allows frontends to highlight in formats the kernel many not know about, and it works nicely for converting to formats like rst and markdown, which don't include highlighted code themselves, but may be rendered into a format which does.\r\n\r\nHowever, this idea can be implemented in IPython and be useful immediately, whereas the other one requires changes to several different projects."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/278106808",
+    "html_url": "https://github.com/ipython/ipython/issues/10238#issuecomment-278106808",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10238",
+    "id": 278106808,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3ODEwNjgwOA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-07T19:05:52Z",
+    "updated_at": "2017-02-07T19:05:52Z",
+    "author_association": "MEMBER",
+    "body": "Yes we are kinda aware of this. \r\nThis is because there are a slow effort to highlight things using Pygments. Unfortunately:\r\nOld version of pygments do not really support short escape sequences that map your terminal setting. \r\nAnd even if Pygments support it, most coloring themes do not use these short escape sequences.\r\n\r\nThe problem is in these case we can't get the \"Correct\" color as it depends on the system\r\n\r\n![colors](https://cloud.githubusercontent.com/assets/335567/22706745/4afe0692-ed25-11e6-8937-05d10a2105e1.gif)\r\n\r\n\r\nMarking as \"wishlist\" as it requires a lot of refactoring to be able to get short escape sequences everywhere. "
+  }
+]

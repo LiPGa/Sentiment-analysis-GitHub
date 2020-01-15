@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/12460653",
+    "html_url": "https://github.com/ipython/ipython/issues/2556#issuecomment-12460653",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2556",
+    "id": 12460653,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNDYwNjUz",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-19T20:32:19Z",
+    "updated_at": "2013-01-19T20:32:19Z",
+    "author_association": "MEMBER",
+    "body": "This was added in PR #1735.  I presume you want this change for nbviewer?  It makes more sense in nbviewer for it to act like a regular page, but in interactive mode you pretty much never want links to navigate away from the notebook page.\n"
+  }
+]

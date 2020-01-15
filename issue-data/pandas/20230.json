@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/403324442",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/20230#issuecomment-403324442",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20230",
+    "id": 403324442,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMzMyNDQ0Mg==",
+    "user": {
+      "login": "datapythonista",
+      "id": 10058240,
+      "node_id": "MDQ6VXNlcjEwMDU4MjQw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10058240?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/datapythonista",
+      "html_url": "https://github.com/datapythonista",
+      "followers_url": "https://api.github.com/users/datapythonista/followers",
+      "following_url": "https://api.github.com/users/datapythonista/following{/other_user}",
+      "gists_url": "https://api.github.com/users/datapythonista/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/datapythonista/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/datapythonista/subscriptions",
+      "organizations_url": "https://api.github.com/users/datapythonista/orgs",
+      "repos_url": "https://api.github.com/users/datapythonista/repos",
+      "events_url": "https://api.github.com/users/datapythonista/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/datapythonista/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-08T23:06:51Z",
+    "updated_at": "2018-07-08T23:06:51Z",
+    "author_association": "MEMBER",
+    "body": "Closing in favor of #21823 (the original fork/branch don't exist and can't fix the conflict in this PR).\r\n\r\nThanks @koaning for the contribution, and sorry for the delay."
+  }
+]

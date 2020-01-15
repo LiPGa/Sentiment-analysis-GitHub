@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/299910824",
+    "html_url": "https://github.com/grpc/grpc/issues/10974#issuecomment-299910824",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10974",
+    "id": 299910824,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5OTkxMDgyNA==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-08T16:02:44Z",
+    "updated_at": "2017-05-08T16:02:44Z",
+    "author_association": "MEMBER",
+    "body": "Your `responses` object has a `cancel` method.\r\n\r\nBut reading your question as a whole, I'm not certain that cancelling your RPC is the best thing to do. You are able to pass _any iterator of request messages_ as your `req_iterator` object - so why not pass an instance of some class completely under your control that is able to respond and change as it needs to respond and change over the course of your RPC? In particular, your statement \"To change the subscription (modify the `req_iterator`) it is required to terminate the current subscription and to request a new subscription with the updated `req_iterator`\" is simply not true - your `req_iterator` is always an object completely under your control at all times; the only thing gRPC Python does with it is ask it to emit request messages."
+  }
+]

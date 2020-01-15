@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/454885559",
+    "html_url": "https://github.com/grpc/grpc/issues/17703#issuecomment-454885559",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17703",
+    "id": 454885559,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NDg4NTU1OQ==",
+    "user": {
+      "login": "lidizheng",
+      "id": 7394928,
+      "node_id": "MDQ6VXNlcjczOTQ5Mjg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7394928?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lidizheng",
+      "html_url": "https://github.com/lidizheng",
+      "followers_url": "https://api.github.com/users/lidizheng/followers",
+      "following_url": "https://api.github.com/users/lidizheng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lidizheng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lidizheng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lidizheng/subscriptions",
+      "organizations_url": "https://api.github.com/users/lidizheng/orgs",
+      "repos_url": "https://api.github.com/users/lidizheng/repos",
+      "events_url": "https://api.github.com/users/lidizheng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lidizheng/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-16T18:21:45Z",
+    "updated_at": "2019-01-16T18:23:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This behavior is introduced by https://github.com/soltanmm/grpc/commit/ebf81e7a0540a01079ac03661426cd3771664de7#diff-32f55eef2dbde5450848d136fa65ba7b. I agree with you that if the command exit with non-zero code, it should not be just a warning."
+  }
+]

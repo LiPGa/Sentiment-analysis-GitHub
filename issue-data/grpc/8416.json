@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/254976954",
+    "html_url": "https://github.com/grpc/grpc/issues/8416#issuecomment-254976954",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8416",
+    "id": 254976954,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NDk3Njk1NA==",
+    "user": {
+      "login": "aguerere",
+      "id": 14084214,
+      "node_id": "MDQ6VXNlcjE0MDg0MjE0",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14084214?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aguerere",
+      "html_url": "https://github.com/aguerere",
+      "followers_url": "https://api.github.com/users/aguerere/followers",
+      "following_url": "https://api.github.com/users/aguerere/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aguerere/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aguerere/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aguerere/subscriptions",
+      "organizations_url": "https://api.github.com/users/aguerere/orgs",
+      "repos_url": "https://api.github.com/users/aguerere/repos",
+      "events_url": "https://api.github.com/users/aguerere/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aguerere/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-20T00:18:26Z",
+    "updated_at": "2016-10-20T00:18:26Z",
+    "author_association": "NONE",
+    "body": "Nevermind, all this error means is that the .proto file is not found.\nSolved it by indicating the correct path for my .proto file. \n"
+  }
+]

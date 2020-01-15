@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/327551454",
+    "html_url": "https://github.com/grpc/grpc/issues/11219#issuecomment-327551454",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11219",
+    "id": 327551454,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNzU1MTQ1NA==",
+    "user": {
+      "login": "adelez",
+      "id": 14932100,
+      "node_id": "MDQ6VXNlcjE0OTMyMTAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14932100?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adelez",
+      "html_url": "https://github.com/adelez",
+      "followers_url": "https://api.github.com/users/adelez/followers",
+      "following_url": "https://api.github.com/users/adelez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adelez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adelez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adelez/subscriptions",
+      "organizations_url": "https://api.github.com/users/adelez/orgs",
+      "repos_url": "https://api.github.com/users/adelez/repos",
+      "events_url": "https://api.github.com/users/adelez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adelez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-06T17:11:34Z",
+    "updated_at": "2017-09-06T17:11:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The error \"System.InvalidOperationException: The Application Default Credentials are not available.\" seems a transient error in the setup. "
+  }
+]

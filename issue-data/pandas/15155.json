@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/273563892",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15155#issuecomment-273563892",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15155",
+    "id": 273563892,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MzU2Mzg5Mg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-18T18:46:45Z",
+    "updated_at": "2017-01-18T18:46:45Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is a bug, which is hidden because of this missing method on ``CategoricalIndex``. If you would like to do a PR which adds this (and tests of course).\r\n\r\n```\r\ndiff --git a/pandas/indexes/category.py b/pandas/indexes/category.py\r\nindex 2c89f72..e3ffa40 100644\r\n--- a/pandas/indexes/category.py\r\n+++ b/pandas/indexes/category.py\r\n@@ -255,6 +255,9 @@ class CategoricalIndex(Index, base.PandasDelegate):\r\n     def ordered(self):\r\n         return self._data.ordered\r\n \r\n+    def _reverse_indexer(self):\r\n+        return self._data._reverse_indexer()\r\n+\r\n     def __contains__(self, key):\r\n         hash(key)\r\n         return key in self.values\r\n```"
+  }
+]

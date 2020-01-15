@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/29812090",
+    "html_url": "https://github.com/ipython/ipython/pull/4640#issuecomment-29812090",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4640",
+    "id": 29812090,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5ODEyMDkw",
+    "user": {
+      "login": "mdboom",
+      "id": 38294,
+      "node_id": "MDQ6VXNlcjM4Mjk0",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/38294?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mdboom",
+      "html_url": "https://github.com/mdboom",
+      "followers_url": "https://api.github.com/users/mdboom/followers",
+      "following_url": "https://api.github.com/users/mdboom/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mdboom/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mdboom/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mdboom/subscriptions",
+      "organizations_url": "https://api.github.com/users/mdboom/orgs",
+      "repos_url": "https://api.github.com/users/mdboom/repos",
+      "events_url": "https://api.github.com/users/mdboom/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mdboom/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-12-04T15:09:50Z",
+    "updated_at": "2013-12-04T15:09:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "https://github.com/matplotlib/matplotlib/pull/2646 is also required to prevent crashing on the matplotlib side.\n"
+  }
+]

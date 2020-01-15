@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/480770322",
+    "html_url": "https://github.com/grpc/grpc/issues/18654#issuecomment-480770322",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18654",
+    "id": 480770322,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDc3MDMyMg==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-08T10:09:58Z",
+    "updated_at": "2019-04-08T10:09:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Returning null as a response message was always meant to me illegal, we just started enforcing that more strictly. The problem with null messages is that grpc as a protocol actually doesn't support them. \r\nIt is of course possible to send a zero-length message, which translates to a byte buffer of length zero, but a \"null\" message is illegal (see https://github.com/grpc/grpc/blob/master/doc/PROTOCOL-HTTP2.md). It seems like it's something that just happened to work in your case, but it's not a supported use case, so I'd strongly recommend to stop trying to use \"null\" payloads (\r\nand use \"empty\" messages that serialize to a zero-length byte array instead). \r\n\r\nThe workaround you're suggesting seems fragile - if you really need to support null responses, why don't you just wrap the response in another layer of protobuf message that allows a nested message to be null, but will never be null itself?\r\n\r\n```\r\nmessage NullableResponse\r\n{\r\n    MyResponse myResponse = 1;\r\n}\r\n```\r\n\r\nBtw, because of the way the proto binary format works, if myResponse = null, the message will still serialize as an empty byte array (= you won't waste any bandwidth)."
+  }
+]

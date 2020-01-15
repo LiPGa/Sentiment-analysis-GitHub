@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/365568894",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19693#issuecomment-365568894",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19693",
+    "id": 365568894,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NTU2ODg5NA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-14T11:00:41Z",
+    "updated_at": "2018-02-14T11:00:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "you need to localize. despite its name ``datetime.utcnow()`` does not return a tz-aware value. this is a standard library problem where there is no concrete impementation of timezones.\r\n\r\n```\r\nIn [4]: df.dtypes\r\nOut[4]: \r\ntime    datetime64[ns, UTC]\r\nnow          datetime64[ns]\r\ndtype: object\r\n```\r\n\r\n```\r\nIn [10]: df['now'].dt.tz_localize('UTC')\r\nOut[10]: \r\n0     2018-02-14 10:59:27.808468+00:00\r\n1     2018-02-14 10:59:27.808468+00:00\r\n2     2018-02-14 10:59:27.808468+00:00\r\n3     2018-02-14 10:59:27.808468+00:00\r\n4     2018-02-14 10:59:27.808468+00:00\r\n5     2018-02-14 10:59:27.808468+00:00\r\n                    ...               \r\n360   2018-02-14 10:59:27.808468+00:00\r\n361   2018-02-14 10:59:27.808468+00:00\r\n362   2018-02-14 10:59:27.808468+00:00\r\n363   2018-02-14 10:59:27.808468+00:00\r\n364   2018-02-14 10:59:27.808468+00:00\r\n365   2018-02-14 10:59:27.808468+00:00\r\nName: now, Length: 366, dtype: datetime64[ns, UTC]\r\n\r\n````"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/4968410",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/152#issuecomment-4968410",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/152",
+    "id": 4968410,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5Njg0MTA=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-05T04:34:05Z",
+    "updated_at": "2012-04-05T04:34:05Z",
+    "author_association": "MEMBER",
+    "body": "speed of current OHLC function can be improved:\n\n```\ndef translate_grouping(how):\n    if set(how) == set('ohlc'):\n        return {'open'  : lambda arr: arr[0],\n                'low'   : lambda arr: arr.min(),\n                'high'  : lambda arr: arr.max(),\n                'close' : lambda arr: arr[-1]}\n\n    if how in 'last':\n        def picker(arr):\n            return arr[-1] if arr is not None and len(arr) else np.nan\n        return picker\n\n    raise ValueError(\"Unrecognized method: %s\" % how)\n```\n"
+  }
+]

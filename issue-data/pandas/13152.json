@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/218747686",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13152#issuecomment-218747686",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13152",
+    "id": 218747686,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxODc0NzY4Ng==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-12T12:52:25Z",
+    "updated_at": "2016-05-12T12:52:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Actually I recall this a bit see here: https://github.com/pydata/pandas/blob/master/pandas/core/groupby.py#L1974\n\n`BinGrouper` (which is used in the time-based groupbys) exposes it differently.\n\nI don't think this is actually used anywhere. As even though `.groups` is public it internally is just exposed to the user.\n\nOk if you'd like to see what the problem / fix would be great.\n"
+  }
+]

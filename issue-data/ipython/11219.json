@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/445424181",
+    "html_url": "https://github.com/ipython/ipython/issues/11219#issuecomment-445424181",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11219",
+    "id": 445424181,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NTQyNDE4MQ==",
+    "user": {
+      "login": "tdpetrou",
+      "id": 7226751,
+      "node_id": "MDQ6VXNlcjcyMjY3NTE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7226751?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tdpetrou",
+      "html_url": "https://github.com/tdpetrou",
+      "followers_url": "https://api.github.com/users/tdpetrou/followers",
+      "following_url": "https://api.github.com/users/tdpetrou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tdpetrou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tdpetrou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tdpetrou/subscriptions",
+      "organizations_url": "https://api.github.com/users/tdpetrou/orgs",
+      "repos_url": "https://api.github.com/users/tdpetrou/repos",
+      "events_url": "https://api.github.com/users/tdpetrou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tdpetrou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-08T02:49:26Z",
+    "updated_at": "2018-12-08T02:49:26Z",
+    "author_association": "NONE",
+    "body": "Would really like an answer to this as well."
+  }
+]

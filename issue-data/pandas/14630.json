@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/259718986",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14630#issuecomment-259718986",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14630",
+    "id": 259718986,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1OTcxODk4Ng==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-10T15:27:06Z",
+    "updated_at": "2016-11-10T15:27:06Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Please make this a reproducible example - the data you posted works fine - you probably some other identifier than `'inf'` in your data.\n\n``` python\nfrom io import StringIO\ndata = \"\"\"31 1.159451e+261\n32 8.804630e+291\n33 1.355031e+293\n34 2.288852e+303\n35 inf\n36 4.439159e+261\n37 1.809108e+282\n38 2.257864e+250\n39 8.623610e+295\n\"\"\"\ndf = pd.read_csv(StringIO(data), header=None, sep=' ', dtype=float)\n\ndf\nOut[34]: \n      0              1\n0  31.0  1.159451e+261\n1  32.0  8.804630e+291\n2  33.0  1.355031e+293\n3  34.0  2.288852e+303\n4  35.0            inf\n5  36.0  4.439159e+261\n6  37.0  1.809108e+282\n7  38.0  2.257864e+250\n8  39.0  8.623610e+295\n\ndf.dtypes\nOut[35]: \n0    float64\n1    float64\ndtype: object\n```\n"
+  }
+]

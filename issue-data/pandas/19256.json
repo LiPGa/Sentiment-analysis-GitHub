@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/357791408",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19256#issuecomment-357791408",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19256",
+    "id": 357791408,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1Nzc5MTQwOA==",
+    "user": {
+      "login": "Apeder",
+      "id": 7852527,
+      "node_id": "MDQ6VXNlcjc4NTI1Mjc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7852527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Apeder",
+      "html_url": "https://github.com/Apeder",
+      "followers_url": "https://api.github.com/users/Apeder/followers",
+      "following_url": "https://api.github.com/users/Apeder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Apeder/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Apeder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Apeder/subscriptions",
+      "organizations_url": "https://api.github.com/users/Apeder/orgs",
+      "repos_url": "https://api.github.com/users/Apeder/repos",
+      "events_url": "https://api.github.com/users/Apeder/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Apeder/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-15T21:19:15Z",
+    "updated_at": "2018-01-15T21:19:15Z",
+    "author_association": "NONE",
+    "body": "Ah, turns out the issue was using pd.NaT rather than np.NaN.  Le sigh."
+  }
+]

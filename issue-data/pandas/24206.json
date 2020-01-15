@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/445993336",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24206#issuecomment-445993336",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24206",
+    "id": 445993336,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NTk5MzMzNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-10T22:09:37Z",
+    "updated_at": "2018-12-10T22:09:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Note that this is fixed for Datetime-like https://github.com/pandas-dev/pandas/pull/24024/files#diff-1e79abbbdd150d4771b91ea60a4e1cc7R4203\r\n\r\nI'm not sure what a general solution would look like."
+  }
+]

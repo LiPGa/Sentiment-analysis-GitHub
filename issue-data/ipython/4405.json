@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/26654612",
+    "html_url": "https://github.com/ipython/ipython/pull/4405#issuecomment-26654612",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4405",
+    "id": 26654612,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NjU0NjEy",
+    "user": {
+      "login": "rkern",
+      "id": 46135,
+      "node_id": "MDQ6VXNlcjQ2MTM1",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/46135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rkern",
+      "html_url": "https://github.com/rkern",
+      "followers_url": "https://api.github.com/users/rkern/followers",
+      "following_url": "https://api.github.com/users/rkern/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rkern/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rkern/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rkern/subscriptions",
+      "organizations_url": "https://api.github.com/users/rkern/orgs",
+      "repos_url": "https://api.github.com/users/rkern/repos",
+      "events_url": "https://api.github.com/users/rkern/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rkern/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-10-19T17:26:10Z",
+    "updated_at": "2013-10-19T17:26:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "LGTM.\n"
+  }
+]

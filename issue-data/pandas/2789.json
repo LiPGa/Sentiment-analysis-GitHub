@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/12983481",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2789#issuecomment-12983481",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2789",
+    "id": 12983481,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyOTgzNDgx",
+    "user": {
+      "login": "stephenwlin",
+      "id": 2342637,
+      "node_id": "MDQ6VXNlcjIzNDI2Mzc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2342637?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stephenwlin",
+      "html_url": "https://github.com/stephenwlin",
+      "followers_url": "https://api.github.com/users/stephenwlin/followers",
+      "following_url": "https://api.github.com/users/stephenwlin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stephenwlin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stephenwlin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stephenwlin/subscriptions",
+      "organizations_url": "https://api.github.com/users/stephenwlin/orgs",
+      "repos_url": "https://api.github.com/users/stephenwlin/repos",
+      "events_url": "https://api.github.com/users/stephenwlin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stephenwlin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-02-01T07:24:37Z",
+    "updated_at": "2013-02-01T07:24:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "after fix:\n\n``` python\nIn [1]: from pandas import Timestamp as ts, DataFrame as df\nIn [2]: from datetime import datetime as dt\nIn [3]: from pytz import timezone as tz\nIn [4]: UTC='UTC'\nIn [5]: EST='US/Eastern'\nIn [6]: CST='US/Central'\nIn [7]: # all the following should have the same timestamp value\nIn [8]: tss=[ts(\"2012-01-02 01:00:00+00:00\"),\n   ...:      ts(\"2012-01-02 01:00:00+00:00\", tz=EST),\n   ...:      ts(\"2012-01-01 20:00:00\", tz=EST),\n   ...:      ts(dt(2012,1,1,20,0,0,tzinfo=tz(EST))),\n   ...:      ts(dt(2012,1,1,19,0,0,tzinfo=tz(CST))),\n   ...:      ts(dt(2012,1,1,20,0,0,tzinfo=tz(EST)), tz=EST),\n   ...:      ts(dt(2012,1,1,19,0,0,tzinfo=tz(CST)), tz=EST),\n   ...:      ts(\"2012-01-01 20:00:00-05:00\"),\n   ...:      ts(\"2012-01-01 19:00:00-06:00\"),\n   ...:      ts(\"2012-01-01 20:00:00-05:00\", tz=EST),\n   ...:      ts(\"2012-01-01 19:00:00-06:00\", tz=EST),\n   ...:      ts(1325466000000000000, tz=UTC),\n   ...:      ts(1325466000000000000, tz=EST)]\n\nIn [9]: strs = [str(ts) for ts in tss]\nIn [10]: vals = [(ts.value/1000000000000) for ts in tss]\nIn [11]: df({'strs' : strs, 'vals' : vals})\nOut[11]: \n                         strs     vals\n0   2012-01-02 01:00:00+00:00  1325466\n1   2012-01-01 20:00:00-05:00  1325466\n2   2012-01-01 20:00:00-05:00  1325466\n3   2012-01-01 20:00:00-05:00  1325466\n4   2012-01-01 19:00:00-06:00  1325466\n5   2012-01-01 20:00:00-05:00  1325466\n6   2012-01-01 20:00:00-05:00  1325466\n7   2012-01-01 20:00:00-05:00  1325466\n8   2012-01-01 19:00:00-06:00  1325466\n9   2012-01-01 20:00:00-05:00  1325466\n10  2012-01-01 20:00:00-05:00  1325466\n11  2012-01-02 01:00:00+00:00  1325466\n12  2012-01-01 20:00:00-05:00  1325466\n```\n"
+  }
+]

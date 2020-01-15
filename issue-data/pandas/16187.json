@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/298460130",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16187#issuecomment-298460130",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16187",
+    "id": 298460130,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5ODQ2MDEzMA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-01T23:33:33Z",
+    "updated_at": "2017-05-01T23:33:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is shown as an example in the docs\r\nhttp://pandas.pydata.org/pandas-docs/stable/indexing.html#basics and is as expected\r\n\r\nthe axes align by definition "
+  }
+]

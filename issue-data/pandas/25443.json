@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/467299240",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25443#issuecomment-467299240",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25443",
+    "id": 467299240,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NzI5OTI0MA==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-26T05:20:31Z",
+    "updated_at": "2019-02-26T05:20:31Z",
+    "author_association": "MEMBER",
+    "body": "You’d have to explicitly close or save your ExcelWriter for the object to persist, though best way to do this is using the context manager as shown in its documentation:\n\nhttps://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.ExcelWriter.html#pandas.ExcelWriter\n\nSent from my iPhone\n\n> On Feb 25, 2019, at 7:59 PM, alvipranandha <notifications@github.com> wrote:\n> \n> Code Sample, a copy-pastable example if possible\n> \n> file_A.shape\n> writer = pd.ExcelWriter(filename, engine='xlsxwriter', options={'strings_to_urls': False})\n> file_A.to_excel(writer)\n> Problem description\n> \n> Hi i have an issue that related to pd.ExcelWriter (the code example above). I can't write the output of excel file using that pandas. I Thought this is kind of bug, I have tried to reinstall jupyter notebook but it didn't well and still the same.\n> \n> Expected Output\n> \n> result.xlsx\n> \n> Output of pd.show_versions()\n> \n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub, or mute the thread.\n"
+  }
+]

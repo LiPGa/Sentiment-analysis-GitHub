@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/289441714",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15816#issuecomment-289441714",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15816",
+    "id": 289441714,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4OTQ0MTcxNA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-27T12:42:17Z",
+    "updated_at": "2017-03-27T12:42:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is ``min_periods``, part of the ``.rolling`` doc-string\r\n\r\n```\r\nmin_periods : int, default None\r\n    Minimum number of observations in window required to have a value\r\n    (otherwise result is NA). For a window that is specified by an offset,\r\n    this will default to 1.\r\n```\r\n\r\n```\r\nIn [12]: df.rolling(3)['a'].sum()\r\nOut[12]: \r\n0   NaN\r\n1   NaN\r\n2   NaN\r\nName: a, dtype: float64\r\n\r\nIn [13]: df.rolling(3, min_periods=1)['a'].sum()\r\nOut[13]: \r\n0    NaN\r\n1    2.0\r\n2    5.0\r\nName: a, dtype: float64\r\n```"
+  }
+]

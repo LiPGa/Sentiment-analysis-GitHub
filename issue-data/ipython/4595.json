@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/29190123",
+    "html_url": "https://github.com/ipython/ipython/issues/4595#issuecomment-29190123",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4595",
+    "id": 29190123,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MTkwMTIz",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-11-25T10:17:23Z",
+    "updated_at": "2013-11-25T10:17:23Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, \n\nActually this is expected because markdown is a superset of HTML. So if you write `<script>alert(1)</script>` in a markdown cell, it is, as expected, executed when rendered. Markdown cell just go quickly through a rendered state when converting to codecell hence the observed behavior.\n\n> \"Cell->Markdown(or other)\"\n\nNot Raw Cells, but all other are subclass of markdown\n\nThis is something we are aware of, and that people rely on, there are also many other way to execute javascript in the notebook, mainly by using `from IPython import HTML,Javascript` that respectively inject Javascript/HTML into the application.\n\nWe might at some point try to avoid that,at user discretion , but the point of notebook **is** to allow arbitrary code execution form the user so you have to trust a notebook before using it.\n"
+  }
+]

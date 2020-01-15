@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/148895381",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9647#issuecomment-148895381",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9647",
+    "id": 148895381,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0ODg5NTM4MQ==",
+    "user": {
+      "login": "pi99y",
+      "id": 10639257,
+      "node_id": "MDQ6VXNlcjEwNjM5MjU3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10639257?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pi99y",
+      "html_url": "https://github.com/pi99y",
+      "followers_url": "https://api.github.com/users/pi99y/followers",
+      "following_url": "https://api.github.com/users/pi99y/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pi99y/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pi99y/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pi99y/subscriptions",
+      "organizations_url": "https://api.github.com/users/pi99y/orgs",
+      "repos_url": "https://api.github.com/users/pi99y/repos",
+      "events_url": "https://api.github.com/users/pi99y/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pi99y/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-17T08:25:50Z",
+    "updated_at": "2015-10-17T08:25:50Z",
+    "author_association": "NONE",
+    "body": "Also, if the coil is manually powered down with \"Power mode\" (the \"X\" hotkey) shock troopers still \"attach\" to the coil and try to power it but the coil remains offline. I think it's OK that coil remains without power but they should not try to power it since it was manually shut down.\n"
+  }
+]

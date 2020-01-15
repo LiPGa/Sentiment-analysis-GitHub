@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/397691133",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21498#issuecomment-397691133",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21498",
+    "id": 397691133,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NzY5MTEzMw==",
+    "user": {
+      "login": "zfrenchee",
+      "id": 2761597,
+      "node_id": "MDQ6VXNlcjI3NjE1OTc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2761597?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zfrenchee",
+      "html_url": "https://github.com/zfrenchee",
+      "followers_url": "https://api.github.com/users/zfrenchee/followers",
+      "following_url": "https://api.github.com/users/zfrenchee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zfrenchee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zfrenchee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zfrenchee/subscriptions",
+      "organizations_url": "https://api.github.com/users/zfrenchee/orgs",
+      "repos_url": "https://api.github.com/users/zfrenchee/repos",
+      "events_url": "https://api.github.com/users/zfrenchee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zfrenchee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-15T17:32:45Z",
+    "updated_at": "2018-06-15T20:58:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I see now that this is documented in the [DataFrame.values](http://pandas.pydata.org/pandas-docs/version/0.22/generated/pandas.DataFrame.values.html) docs: \r\n\r\n> The dtype will be a lower-common-denominator dtype (implicit upcasting); that is to say if the dtypes (even of numeric types) are mixed, the one that accommodates all will be chosen. Use this with care if you are not dealing with the blocks.\r\n>\r\n> e.g. If the dtypes are float16 and float32, dtype will be upcast to float32. If dtypes are int32 and uint8, dtype will be upcast to int32. By numpy.find_common_type convention, mixing int64 and uint64 will result in a flot64 dtype.\r\n\r\n"
+  }
+]

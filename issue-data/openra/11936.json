@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/244021848",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11936#issuecomment-244021848",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11936",
+    "id": 244021848,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NDAyMTg0OA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-01T09:11:42Z",
+    "updated_at": "2016-09-01T09:13:14Z",
+    "author_association": "MEMBER",
+    "body": "Thanks for bringing this up, it does indeed look like a real issue.\n\nThe Dictionary loading/saving code is relatively recent and I don't think FieldSaver dictionary case has ever actually been used.  This really shouldn't have made it past code review...\n\nMy gut feeling is that your suggested fix won't be enough, because there will be a variable amount of indentation steps (in general it _won't_ be two tabs) that need to be added to the sub-keys depending on where in the output yaml tree the dictionary lives.  The block there probably should be throwing a NotImplementedException (or maybe a more friendlier empty string), and the dictionary formatting handled at a higher level where there is a tree abstraction that the values can be inserted into directly.\n"
+  }
+]

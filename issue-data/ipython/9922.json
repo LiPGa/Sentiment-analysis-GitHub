@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/243681428",
+    "html_url": "https://github.com/ipython/ipython/issues/9922#issuecomment-243681428",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9922",
+    "id": 243681428,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MzY4MTQyOA==",
+    "user": {
+      "login": "dimaqq",
+      "id": 662249,
+      "node_id": "MDQ6VXNlcjY2MjI0OQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/662249?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dimaqq",
+      "html_url": "https://github.com/dimaqq",
+      "followers_url": "https://api.github.com/users/dimaqq/followers",
+      "following_url": "https://api.github.com/users/dimaqq/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dimaqq/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dimaqq/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dimaqq/subscriptions",
+      "organizations_url": "https://api.github.com/users/dimaqq/orgs",
+      "repos_url": "https://api.github.com/users/dimaqq/repos",
+      "events_url": "https://api.github.com/users/dimaqq/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dimaqq/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-31T07:28:28Z",
+    "updated_at": "2016-08-31T07:28:28Z",
+    "author_association": "NONE",
+    "body": "I was able to reproduce in pure CPython too: http://bugs.python.org/issue27908\n\nI suppose ipython ticket can be closed.\n"
+  }
+]

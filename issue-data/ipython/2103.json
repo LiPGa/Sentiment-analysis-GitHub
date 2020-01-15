@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/6784333",
+    "html_url": "https://github.com/ipython/ipython/issues/2103#issuecomment-6784333",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2103",
+    "id": 6784333,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3ODQzMzM=",
+    "user": {
+      "login": "fperez",
+      "id": 57394,
+      "node_id": "MDQ6VXNlcjU3Mzk0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fperez",
+      "html_url": "https://github.com/fperez",
+      "followers_url": "https://api.github.com/users/fperez/followers",
+      "following_url": "https://api.github.com/users/fperez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fperez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fperez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fperez/subscriptions",
+      "organizations_url": "https://api.github.com/users/fperez/orgs",
+      "repos_url": "https://api.github.com/users/fperez/repos",
+      "events_url": "https://api.github.com/users/fperez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fperez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-07-05T16:59:07Z",
+    "updated_at": "2012-07-05T16:59:07Z",
+    "author_association": "MEMBER",
+    "body": "The notebook server is a completely separate application from the terminal client, and it would introduce a significant amount of complexity to tangle the terminal client into firing up the notebook server.  So I'm afraid it's not reasonable to make this kind of change, given the current architecture.  Given a from-scratch design I'm inclined to agree with you that it would be a good idea, but it's not realistic with the actual codebase we have (which evolved historically in a different direction).  Sorry about that.\n"
+  }
+]

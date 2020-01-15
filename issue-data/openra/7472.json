@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/74486705",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7472#issuecomment-74486705",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7472",
+    "id": 74486705,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc0NDg2NzA1",
+    "user": {
+      "login": "pevers",
+      "id": 3428649,
+      "node_id": "MDQ6VXNlcjM0Mjg2NDk=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3428649?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pevers",
+      "html_url": "https://github.com/pevers",
+      "followers_url": "https://api.github.com/users/pevers/followers",
+      "following_url": "https://api.github.com/users/pevers/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pevers/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pevers/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pevers/subscriptions",
+      "organizations_url": "https://api.github.com/users/pevers/orgs",
+      "repos_url": "https://api.github.com/users/pevers/repos",
+      "events_url": "https://api.github.com/users/pevers/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pevers/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-16T10:21:31Z",
+    "updated_at": "2015-02-16T10:21:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I was playing around with the OpenRA code and fixed this. I'll come with a PR very soon.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/345957252",
+    "html_url": "https://github.com/grpc/grpc/issues/13323#issuecomment-345957252",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13323",
+    "id": 345957252,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0NTk1NzI1Mg==",
+    "user": {
+      "login": "zsojma",
+      "id": 28751135,
+      "node_id": "MDQ6VXNlcjI4NzUxMTM1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/28751135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zsojma",
+      "html_url": "https://github.com/zsojma",
+      "followers_url": "https://api.github.com/users/zsojma/followers",
+      "following_url": "https://api.github.com/users/zsojma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zsojma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zsojma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zsojma/subscriptions",
+      "organizations_url": "https://api.github.com/users/zsojma/orgs",
+      "repos_url": "https://api.github.com/users/zsojma/repos",
+      "events_url": "https://api.github.com/users/zsojma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zsojma/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-21T08:50:13Z",
+    "updated_at": "2017-11-21T08:50:13Z",
+    "author_association": "NONE",
+    "body": "I can use `Environment.SetEnvironmentVariable(\"no_proxy\", <http_proxy_host>);` in client's current process. So it solves the issue."
+  }
+]

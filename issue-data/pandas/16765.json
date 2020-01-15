@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/310709994",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16765#issuecomment-310709994",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16765",
+    "id": 310709994,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMDcwOTk5NA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-23T16:20:42Z",
+    "updated_at": "2017-06-23T16:21:27Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is a numpy thing you need to watch out for. The float `np.nan` is coereced to a string `'nan'` by the `np.array` constructor.\r\n\r\n```python\r\nIn [18]: x = np.array([np.nan, 'asdf'])\r\n\r\nIn [21]: x\r\nOut[21]:\r\narray(['nan', 'asdf'],\r\n      dtype='<U32')\r\n\r\nIn [22]: type(x[0])\r\nOut[22]: numpy.str_\r\n```\r\n\r\nYou need to pass the dtype if you want to disable the type inference numpy does:\r\n\r\n```\r\nIn [29]: x = np.array([np.nan, 'asdf'], dtype=object)\r\n\r\nIn [30]: x\r\nOut[30]: array([nan, 'asdf'], dtype=object)\r\n\r\nIn [31]: pd.isnull(x)\r\nOut[31]: array([ True, False], dtype=bool)\r\n```"
+  }
+]

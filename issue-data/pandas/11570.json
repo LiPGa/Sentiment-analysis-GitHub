@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/155831044",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11570#issuecomment-155831044",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11570",
+    "id": 155831044,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NTgzMTA0NA==",
+    "user": {
+      "login": "rowanv",
+      "id": 7131826,
+      "node_id": "MDQ6VXNlcjcxMzE4MjY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7131826?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rowanv",
+      "html_url": "https://github.com/rowanv",
+      "followers_url": "https://api.github.com/users/rowanv/followers",
+      "following_url": "https://api.github.com/users/rowanv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rowanv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rowanv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rowanv/subscriptions",
+      "organizations_url": "https://api.github.com/users/rowanv/orgs",
+      "repos_url": "https://api.github.com/users/rowanv/repos",
+      "events_url": "https://api.github.com/users/rowanv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rowanv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-11T16:14:26Z",
+    "updated_at": "2015-11-11T16:14:26Z",
+    "author_association": "NONE",
+    "body": "Looks like this was a memory issue. Upped the available memory and was able to successfully install pandas.\n"
+  }
+]

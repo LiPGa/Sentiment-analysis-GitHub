@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/250940430",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/14331#issuecomment-250940430",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14331",
+    "id": 250940430,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MDk0MDQzMA==",
+    "user": {
+      "login": "codecov-io",
+      "id": 8655789,
+      "node_id": "MDQ6VXNlcjg2NTU3ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8655789?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codecov-io",
+      "html_url": "https://github.com/codecov-io",
+      "followers_url": "https://api.github.com/users/codecov-io/followers",
+      "following_url": "https://api.github.com/users/codecov-io/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codecov-io/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codecov-io/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codecov-io/subscriptions",
+      "organizations_url": "https://api.github.com/users/codecov-io/orgs",
+      "repos_url": "https://api.github.com/users/codecov-io/repos",
+      "events_url": "https://api.github.com/users/codecov-io/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codecov-io/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-01T22:05:10Z",
+    "updated_at": "2016-10-01T22:05:10Z",
+    "author_association": "NONE",
+    "body": "## [Current coverage](https://codecov.io/gh/pydata/pandas/pull/14331?src=pr) is 85.26% (diff: 100%)\n\n> Merging [#14331](https://codecov.io/gh/pydata/pandas/pull/14331?src=pr) into [master](https://codecov.io/gh/pydata/pandas/branch/master?src=pr) will not change coverage\n\n``` diff\n@@             master     #14331   diff @@\n==========================================\n  Files           140        140          \n  Lines         50630      50630          \n  Methods           0          0          \n  Messages          0          0          \n  Branches          0          0          \n==========================================\n  Hits          43169      43169          \n  Misses         7461       7461          \n  Partials          0          0          \n```\n\n> Powered by [Codecov](https://codecov.io?src=pr). Last update [6dcc238...e39754e](https://codecov.io/gh/pydata/pandas/compare/6dcc23862b6b60ce2a67436b4a278fbe4c05490f...e39754e5cf95d7f65862947b25322c7ff39f0ca7?src=pr)\n"
+  }
+]

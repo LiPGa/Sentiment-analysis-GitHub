@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/317700111",
+    "html_url": "https://github.com/ipython/ipython/issues/10710#issuecomment-317700111",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10710",
+    "id": 317700111,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzcwMDExMQ==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-25T10:43:51Z",
+    "updated_at": "2017-07-25T10:43:51Z",
+    "author_association": "MEMBER",
+    "body": "The GUI integration in terminal IPython is not compatible with `--simple-prompt`, because it relies on prompt_toolkit. It works with `jupyter console --simple-prompt`, because that is using the separate GUI integration for IPython's *kernel* interface. From the point of view of the kernel, it doesn't matter whether you use `--simple-prompt` for the frontend, or even which frontend you use."
+  }
+]

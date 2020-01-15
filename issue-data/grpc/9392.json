@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/278457627",
+    "html_url": "https://github.com/grpc/grpc/pull/9392#issuecomment-278457627",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9392",
+    "id": 278457627,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3ODQ1NzYyNw==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-08T20:51:16Z",
+    "updated_at": "2017-02-08T20:51:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Two problems with this PR:\r\n1. is seems that the units tests didn't run at all (only CLA check has run so things look green, but they arent).\r\n2. the change has probably broken C# benchmarks (#9587 and #9499) - see inline comment."
+  }
+]

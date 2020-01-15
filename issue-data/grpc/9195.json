@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/268913179",
+    "html_url": "https://github.com/grpc/grpc/issues/9195#issuecomment-268913179",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9195",
+    "id": 268913179,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2ODkxMzE3OQ==",
+    "user": {
+      "login": "aikijw",
+      "id": 1995730,
+      "node_id": "MDQ6VXNlcjE5OTU3MzA=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1995730?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aikijw",
+      "html_url": "https://github.com/aikijw",
+      "followers_url": "https://api.github.com/users/aikijw/followers",
+      "following_url": "https://api.github.com/users/aikijw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aikijw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aikijw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aikijw/subscriptions",
+      "organizations_url": "https://api.github.com/users/aikijw/orgs",
+      "repos_url": "https://api.github.com/users/aikijw/repos",
+      "events_url": "https://api.github.com/users/aikijw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aikijw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-22T23:26:07Z",
+    "updated_at": "2016-12-22T23:26:07Z",
+    "author_association": "NONE",
+    "body": "After digging through previous issues (many still open), fiddling with cmake (which also failed), I went back and looked at what I'd done to clone source from the repo...  There is a document at http://www.grpc.io/docs/quickstart/cpp.html that instructs folks that are interested in building for use with C++ to do the following: \"git clone -b v1.0.0 https://github.com/grpc/grpc\".  Is the v1.0.0 branch broken, perhaps?  When I pull without the specific tag, I'm able to build successfully, it appears (haven't tested yet, but the build finished successfully)..."
+  }
+]

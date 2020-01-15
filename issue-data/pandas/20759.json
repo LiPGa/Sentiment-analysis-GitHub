@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/383791626",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20759#issuecomment-383791626",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20759",
+    "id": 383791626,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4Mzc5MTYyNg==",
+    "user": {
+      "login": "javadnoorb",
+      "id": 26352146,
+      "node_id": "MDQ6VXNlcjI2MzUyMTQ2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26352146?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/javadnoorb",
+      "html_url": "https://github.com/javadnoorb",
+      "followers_url": "https://api.github.com/users/javadnoorb/followers",
+      "following_url": "https://api.github.com/users/javadnoorb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/javadnoorb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/javadnoorb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/javadnoorb/subscriptions",
+      "organizations_url": "https://api.github.com/users/javadnoorb/orgs",
+      "repos_url": "https://api.github.com/users/javadnoorb/repos",
+      "events_url": "https://api.github.com/users/javadnoorb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/javadnoorb/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-24T03:25:59Z",
+    "updated_at": "2018-04-24T03:27:07Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The issue as you mentioned is because in the last line of `_handle_shared_axes` the axis ends up with multiple siblings and its labels are removed. But just as a workaround this seems to work:\r\n\r\n```python\r\nimport matplotlib.pyplot as plt\r\nimport pandas as pd\r\n\r\ndf1 = pd.DataFrame([1, 2, 3])\r\ndf2 = pd.DataFrame([4, 5, 6])\r\n\r\nfig, axes = plt.subplots(nrows=1, ncols=2)\r\ndf1.plot(ax=axes[0])\r\nax_twin = axes[1].twiny()\r\ndf1.plot(ax=axes[1])\r\ndf2.plot(ax=ax_twin)\r\n[vis.set_visible(True) for vis in axes[1].yaxis.get_majorticklabels()];\r\n[vis.set_visible(True) for vis in axes[1].yaxis.get_minorticklabels()];\r\n```\r\n\r\n![image](https://user-images.githubusercontent.com/26352146/39164373-3ce3c9f6-474d-11e8-8503-af96c6e637a7.png)\r\n"
+  }
+]

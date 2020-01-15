@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/477269574",
+    "html_url": "https://github.com/grpc/grpc/issues/18472#issuecomment-477269574",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18472",
+    "id": 477269574,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NzI2OTU3NA==",
+    "user": {
+      "login": "ppLorins",
+      "id": 5534049,
+      "node_id": "MDQ6VXNlcjU1MzQwNDk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5534049?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ppLorins",
+      "html_url": "https://github.com/ppLorins",
+      "followers_url": "https://api.github.com/users/ppLorins/followers",
+      "following_url": "https://api.github.com/users/ppLorins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ppLorins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ppLorins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ppLorins/subscriptions",
+      "organizations_url": "https://api.github.com/users/ppLorins/orgs",
+      "repos_url": "https://api.github.com/users/ppLorins/repos",
+      "events_url": "https://api.github.com/users/ppLorins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ppLorins/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-27T17:31:59Z",
+    "updated_at": "2019-03-27T17:56:30Z",
+    "author_association": "NONE",
+    "body": "Today , I faced this issue again, this time it's even more excessive :\r\n\r\nEnvironment are the same as above . With 3 servers and 1 client, they are all located on the same machine , so no timing deviation could exist. \r\n\r\n#### Bug reproduce:\r\n1> Prepare a lightweight rpc interface which usually response in tens of milliseconds.\r\n2> In the client side , set a very long timeout value  for `AsyncNext` which is 20s to ensure the client can receive all the response from the backend servers.\r\n3> Run the above client for several time.\r\n\r\n*What I observed* :  Sometimes(now always) , one of the backend servers will receive client request **always 10 seconds later** than the normal backend servers . \r\n\r\n#### Besides:\r\n1> If I set a greater timeout value than 10s, like 20s,or 50s,or 100s ,the delayed time always being 10 seconds. \r\n2> If I set a smaller timeout  value than 10s ,like 5s, then the backend server cannot receive client request and `AsyncNext` timing out. \r\n\r\n** So  I am wondering that if that 10s value is a threshold for something ?  **\r\n\r\nEven regardless of that 10s problem. I often observed a big delay for one server out of the others , resulting in an extremely bad performance on throughput .I doubt if this is a bug in `AsyncNext` or `Next`'s inner design.\r\n\r\nNow , I think I've to either update grpc versions or just give it up.\r\n"
+  }
+]

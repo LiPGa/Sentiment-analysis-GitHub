@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/136686359",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10959#issuecomment-136686359",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10959",
+    "id": 136686359,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNjY4NjM1OQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-01T11:52:48Z",
+    "updated_at": "2015-09-01T11:52:48Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "pls report `pd.show_versions()` as well the results of the statements.\n\nin any event this seems to work on master\n\n```\nIn [9]: df = pd.DataFrame(np.arange(20).reshape(4,5))\n\nIn [10]: df.apply(lambda x:pd.cut(x,2))\nOut[10]: \n               0             1             2              3              4\n0  (-0.015, 7.5]  (0.985, 8.5]  (1.985, 9.5]  (2.985, 10.5]  (3.985, 11.5]\n1  (-0.015, 7.5]  (0.985, 8.5]  (1.985, 9.5]  (2.985, 10.5]  (3.985, 11.5]\n2      (7.5, 15]     (8.5, 16]     (9.5, 17]     (10.5, 18]     (11.5, 19]\n3      (7.5, 15]     (8.5, 16]     (9.5, 17]     (10.5, 18]     (11.5, 19]\n\nIn [11]: df.astype(float).apply(lambda x:pd.cut(x,2))\nOut[11]: \n               0             1             2              3              4\n0  (-0.015, 7.5]  (0.985, 8.5]  (1.985, 9.5]  (2.985, 10.5]  (3.985, 11.5]\n1  (-0.015, 7.5]  (0.985, 8.5]  (1.985, 9.5]  (2.985, 10.5]  (3.985, 11.5]\n2      (7.5, 15]     (8.5, 16]     (9.5, 17]     (10.5, 18]     (11.5, 19]\n3      (7.5, 15]     (8.5, 16]     (9.5, 17]     (10.5, 18]     (11.5, 19]\n\nIn [13]: pd.__version__\nOut[13]: '0.16.2+497.g12df3ea'\n\n```\n"
+  }
+]

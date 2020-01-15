@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/36554802",
+    "html_url": "https://github.com/ipython/ipython/pull/5241#issuecomment-36554802",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5241",
+    "id": 36554802,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NTU0ODAy",
+    "user": {
+      "login": "ellisonbg",
+      "id": 27600,
+      "node_id": "MDQ6VXNlcjI3NjAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ellisonbg",
+      "html_url": "https://github.com/ellisonbg",
+      "followers_url": "https://api.github.com/users/ellisonbg/followers",
+      "following_url": "https://api.github.com/users/ellisonbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ellisonbg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ellisonbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ellisonbg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ellisonbg/orgs",
+      "repos_url": "https://api.github.com/users/ellisonbg/repos",
+      "events_url": "https://api.github.com/users/ellisonbg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ellisonbg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-03T20:23:01Z",
+    "updated_at": "2014-03-03T20:23:01Z",
+    "author_association": "MEMBER",
+    "body": "I think this looks good, but I will wait to see if anyone wants to look at it further.\n"
+  }
+]

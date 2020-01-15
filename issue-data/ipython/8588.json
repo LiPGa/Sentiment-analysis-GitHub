@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/116764888",
+    "html_url": "https://github.com/ipython/ipython/pull/8588#issuecomment-116764888",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8588",
+    "id": 116764888,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNjc2NDg4OA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-29T17:13:11Z",
+    "updated_at": "2015-06-29T17:13:11Z",
+    "author_association": "MEMBER",
+    "body": "I thought we had already done this... ah, no, we talked about it in #578, but [I found](https://github.com/ipython/ipython/pull/578#issuecomment-1574614) that when `functools.wraps()` is used, `__wrapped__` appears to point directly to the end of the chain, so we didn't bother. Evidently there are other things that set `__wrapped__` that don't do that, so this does make sense.\n\nBack then I was concerned that there might be things that always provided a spurious `__wrapped__` attribute, but searching the codebase now, I see at least two places where we dereference it without worrying about that (`IPython.utils.signatures` and `traitlets.utils.getargspec`), so I think this is OK. Hopefully by now objects doing clever things with `getattr` know to exclude special methods from that.\n"
+  }
+]

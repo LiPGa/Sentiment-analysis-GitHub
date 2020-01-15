@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/20689041",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4179#issuecomment-20689041",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4179",
+    "id": 20689041,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNjg5MDQx",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-09T16:59:56Z",
+    "updated_at": "2013-07-09T17:04:23Z",
+    "author_association": "MEMBER",
+    "body": "@cpcloud Strange, it is exactly the test that I introduced in PR #4166  and which should be fixed by that PR that is failing. Did you rebuild the cython files?\n\nBecause the Timestamp in the Error message is exactly the Timestamp you get before my fix, so it seems the fix was not applied on your system.\n"
+  }
+]

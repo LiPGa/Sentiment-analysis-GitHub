@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/68016487",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9142#issuecomment-68016487",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9142",
+    "id": 68016487,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4MDE2NDg3",
+    "user": {
+      "login": "dalejung",
+      "id": 610115,
+      "node_id": "MDQ6VXNlcjYxMDExNQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/610115?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dalejung",
+      "html_url": "https://github.com/dalejung",
+      "followers_url": "https://api.github.com/users/dalejung/followers",
+      "following_url": "https://api.github.com/users/dalejung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dalejung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dalejung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dalejung/subscriptions",
+      "organizations_url": "https://api.github.com/users/dalejung/orgs",
+      "repos_url": "https://api.github.com/users/dalejung/repos",
+      "events_url": "https://api.github.com/users/dalejung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dalejung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-24T01:18:19Z",
+    "updated_at": "2014-12-24T01:18:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "wow, how'd I miss the issue right before this. #9140 \n\nclosing since this is a dupe.\n"
+  }
+]

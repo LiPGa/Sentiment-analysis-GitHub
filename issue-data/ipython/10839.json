@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/369631043",
+    "html_url": "https://github.com/ipython/ipython/issues/10839#issuecomment-369631043",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10839",
+    "id": 369631043,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2OTYzMTA0Mw==",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-01T15:37:52Z",
+    "updated_at": "2018-03-01T15:37:52Z",
+    "author_association": "MEMBER",
+    "body": "this doesn't really matter for dev versions, but it is fixable if we follow the conventions adopted by most of our other packages at this point, which is to pull in setuptools unconditionally in setup.py and just blacklist the implicit egg-install."
+  }
+]

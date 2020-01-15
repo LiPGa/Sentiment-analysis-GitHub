@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/414019488",
+    "html_url": "https://github.com/grpc/grpc/issues/16393#issuecomment-414019488",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16393",
+    "id": 414019488,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNDAxOTQ4OA==",
+    "user": {
+      "login": "calder",
+      "id": 52222,
+      "node_id": "MDQ6VXNlcjUyMjIy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/52222?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/calder",
+      "html_url": "https://github.com/calder",
+      "followers_url": "https://api.github.com/users/calder/followers",
+      "following_url": "https://api.github.com/users/calder/following{/other_user}",
+      "gists_url": "https://api.github.com/users/calder/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/calder/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/calder/subscriptions",
+      "organizations_url": "https://api.github.com/users/calder/orgs",
+      "repos_url": "https://api.github.com/users/calder/repos",
+      "events_url": "https://api.github.com/users/calder/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/calder/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-18T00:42:19Z",
+    "updated_at": "2018-08-18T00:42:19Z",
+    "author_association": "NONE",
+    "body": "Derp, I had set:\r\n\r\n```sh\r\nexport CC=/usr/bin/clang++-6.0\r\n```\r\n\r\nrather than\r\n\r\n```sh\r\nexport CC=/usr/bin/clang-6.0\r\n```\r\n\r\nClosing. :-)"
+  }
+]

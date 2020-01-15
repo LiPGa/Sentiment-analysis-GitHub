@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/187604766",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12422#issuecomment-187604766",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12422",
+    "id": 187604766,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NzYwNDc2Ng==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-23T08:50:12Z",
+    "updated_at": "2016-02-23T08:51:18Z",
+    "author_association": "MEMBER",
+    "body": "@syzhjjw It is not really clear what you are reporting here. Is it the problem that there is a SettingWithCopyWarning raised? \nIf so, it is quite possible this is correct to raise in that case.\n\nCan you please provide a reproducible example? And indicate in which line you think there is a bug and what the expected output would be?\n"
+  }
+]

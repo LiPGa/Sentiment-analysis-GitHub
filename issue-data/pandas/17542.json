@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/329800188",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17542#issuecomment-329800188",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17542",
+    "id": 329800188,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyOTgwMDE4OA==",
+    "user": {
+      "login": "nayriz",
+      "id": 26421195,
+      "node_id": "MDQ6VXNlcjI2NDIxMTk1",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26421195?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nayriz",
+      "html_url": "https://github.com/nayriz",
+      "followers_url": "https://api.github.com/users/nayriz/followers",
+      "following_url": "https://api.github.com/users/nayriz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nayriz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nayriz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nayriz/subscriptions",
+      "organizations_url": "https://api.github.com/users/nayriz/orgs",
+      "repos_url": "https://api.github.com/users/nayriz/repos",
+      "events_url": "https://api.github.com/users/nayriz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nayriz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-15T14:33:49Z",
+    "updated_at": "2017-09-15T14:33:49Z",
+    "author_association": "NONE",
+    "body": "You should not have \".head()\" after the get_dummies call..."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/122701487",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8750#issuecomment-122701487",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8750",
+    "id": 122701487,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMjcwMTQ4Nw==",
+    "user": {
+      "login": "abcdefg30",
+      "id": 7704140,
+      "node_id": "MDQ6VXNlcjc3MDQxNDA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7704140?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abcdefg30",
+      "html_url": "https://github.com/abcdefg30",
+      "followers_url": "https://api.github.com/users/abcdefg30/followers",
+      "following_url": "https://api.github.com/users/abcdefg30/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abcdefg30/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abcdefg30/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abcdefg30/subscriptions",
+      "organizations_url": "https://api.github.com/users/abcdefg30/orgs",
+      "repos_url": "https://api.github.com/users/abcdefg30/repos",
+      "events_url": "https://api.github.com/users/abcdefg30/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abcdefg30/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-19T20:29:23Z",
+    "updated_at": "2015-07-19T20:29:23Z",
+    "author_association": "MEMBER",
+    "body": "My guess is that the second inactive power is shown.\n(Yes, there are two `ChronoshiftPower`s: [structures.yaml](https://github.com/OpenRA/OpenRA/blob/4792ff336b89c2b18672a01583657dc3d574236d/mods/ra/rules/structures.yaml#L338-L366))\n"
+  }
+]

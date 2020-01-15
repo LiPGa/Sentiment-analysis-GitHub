@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/57872057",
+    "html_url": "https://github.com/ipython/ipython/issues/5847#issuecomment-57872057",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5847",
+    "id": 57872057,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU3ODcyMDU3",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-03T22:37:03Z",
+    "updated_at": "2014-10-03T22:37:03Z",
+    "author_association": "MEMBER",
+    "body": "Not with a command-line arg, but a custom nbconvert template and filter could get you line numbers with pygments.\n\nTo get pygments HTML with line numbers, specify the `linenos` argument to the HTMLFormatter:\n\n``` python\nformatter = pygments.formatters.get_formatter_by_name('html', linenos='inline')\n```\n\n[for example](http://nbviewer.ipython.org/gist/minrk/64a24daafbd6e98baa50)\n"
+  }
+]

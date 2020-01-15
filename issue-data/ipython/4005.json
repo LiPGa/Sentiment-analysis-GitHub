@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/22545987",
+    "html_url": "https://github.com/ipython/ipython/issues/4005#issuecomment-22545987",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4005",
+    "id": 22545987,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNTQ1OTg3",
+    "user": {
+      "login": "andreabedini",
+      "id": 69135,
+      "node_id": "MDQ6VXNlcjY5MTM1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/69135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andreabedini",
+      "html_url": "https://github.com/andreabedini",
+      "followers_url": "https://api.github.com/users/andreabedini/followers",
+      "following_url": "https://api.github.com/users/andreabedini/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andreabedini/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andreabedini/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andreabedini/subscriptions",
+      "organizations_url": "https://api.github.com/users/andreabedini/orgs",
+      "repos_url": "https://api.github.com/users/andreabedini/repos",
+      "events_url": "https://api.github.com/users/andreabedini/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andreabedini/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-08-13T06:42:45Z",
+    "updated_at": "2013-08-13T06:42:45Z",
+    "author_association": "NONE",
+    "body": "related to the work done in #3538, most likely IPKernelApp had been left out.\n"
+  }
+]

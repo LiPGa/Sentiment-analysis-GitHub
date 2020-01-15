@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/131802762",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10819#issuecomment-131802762",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10819",
+    "id": 131802762,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzMTgwMjc2Mg==",
+    "user": {
+      "login": "sinhrks",
+      "id": 1696302,
+      "node_id": "MDQ6VXNlcjE2OTYzMDI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1696302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sinhrks",
+      "html_url": "https://github.com/sinhrks",
+      "followers_url": "https://api.github.com/users/sinhrks/followers",
+      "following_url": "https://api.github.com/users/sinhrks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sinhrks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sinhrks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sinhrks/subscriptions",
+      "organizations_url": "https://api.github.com/users/sinhrks/orgs",
+      "repos_url": "https://api.github.com/users/sinhrks/repos",
+      "events_url": "https://api.github.com/users/sinhrks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sinhrks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-17T12:42:52Z",
+    "updated_at": "2015-08-17T12:42:52Z",
+    "author_association": "MEMBER",
+    "body": "Thanks for the report. \n\n```\ndf3.plot(x='A', y='B', ax=ax2)\n#   File \"pandas/tools/plotting.py\", line 3335, in _handle_shared_axes\n#     layout[ax.rowNum, ax.colNum] = ax.get_visible()\n# IndexError: index 4 is out of bounds for axis 0 with size 3\n```\n\nIt looks using `ax.rowNum`, `ax.colNum` as indices is not a good idea. Indices must meet the shape of `layout`. PR is appreciated:)\n\nhttps://github.com/pydata/pandas/blob/master/pandas/tools/plotting.py#L3335\n"
+  }
+]

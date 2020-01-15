@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/10046134",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/2170#issuecomment-10046134",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2170",
+    "id": 10046134,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDQ2MTM0",
+    "user": {
+      "login": "changhiskhan",
+      "id": 759245,
+      "node_id": "MDQ6VXNlcjc1OTI0NQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/759245?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/changhiskhan",
+      "html_url": "https://github.com/changhiskhan",
+      "followers_url": "https://api.github.com/users/changhiskhan/followers",
+      "following_url": "https://api.github.com/users/changhiskhan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/changhiskhan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/changhiskhan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/changhiskhan/subscriptions",
+      "organizations_url": "https://api.github.com/users/changhiskhan/orgs",
+      "repos_url": "https://api.github.com/users/changhiskhan/repos",
+      "events_url": "https://api.github.com/users/changhiskhan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/changhiskhan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-11-04T00:48:56Z",
+    "updated_at": "2012-11-04T00:48:56Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "ok how about this:\n\nstart_time : starting second\nend_time : ending second\nto_timestamp : defaults to 'D' freq for week or longer and 'S' otherwise. The logic here is to make it more convenient for cases like monthly_period.to_timestamp(how='e') to get 'M' freq and monthly_period.to_timestamp() to get 'MS' freq. \n\nThe alternative is to always default to 'S' so for that whole class of use case above you would need to remember to specify 'D' as the freq (e.g., annual_period.to_timestamp('D', how='e'))\n\nWhat do you think? Consistency vs convenience\n"
+  }
+]

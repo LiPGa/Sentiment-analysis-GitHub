@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/25306592",
+    "html_url": "https://github.com/ipython/ipython/issues/1093#issuecomment-25306592",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1093",
+    "id": 25306592,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MzA2NTky",
+    "user": {
+      "login": "mgaitan",
+      "id": 2355719,
+      "node_id": "MDQ6VXNlcjIzNTU3MTk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2355719?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mgaitan",
+      "html_url": "https://github.com/mgaitan",
+      "followers_url": "https://api.github.com/users/mgaitan/followers",
+      "following_url": "https://api.github.com/users/mgaitan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mgaitan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mgaitan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mgaitan/subscriptions",
+      "organizations_url": "https://api.github.com/users/mgaitan/orgs",
+      "repos_url": "https://api.github.com/users/mgaitan/repos",
+      "events_url": "https://api.github.com/users/mgaitan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mgaitan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-09-28T19:18:30Z",
+    "updated_at": "2013-09-28T19:18:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi Fernando, \n\nI was diving into this because it seems to be accessible to be my first contribution to the ipython core.\n\nLooking what you mention I found the `extract_hist_ranges` function. \n\nhttps://github.com/ipython/ipython/blob/f62c4ca09914872755677bd84a26705522fe6bf3/IPython/core/history.py#L759\n\nbut isn't it heavily oriented to the history lookup?  For example, which would be the meaning of `%load -r ~5/8-~2/3`?\n\nMay be it's a better idea to refactor this function or made a new one without \"session\" , right?\n\n```\n(?P<start>\\d+)?\n((?P<sep>[\\-:])\n (?P<end>\\d+))?\n```\n"
+  }
+]

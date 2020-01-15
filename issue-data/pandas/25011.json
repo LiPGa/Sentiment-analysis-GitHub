@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/459351416",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25011#issuecomment-459351416",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25011",
+    "id": 459351416,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1OTM1MTQxNg==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-31T13:52:51Z",
+    "updated_at": "2019-01-31T13:52:51Z",
+    "author_association": "MEMBER",
+    "body": "Thanks for the report. I think the problem here is a conflict between the `as_index` keyword and how we are piecing together the result of multiple `agg` function applications.\r\n\r\nSpecifically, this is fine:\r\n\r\n```python\r\nend_result = test_df.groupby('shouldnt be index',as_index=False).agg(min) \r\n```\r\n\r\nbut this would reproduce the error you are seeing:\r\n\r\n```python\r\nend_result = test_df.groupby('shouldnt be index',as_index=False).agg([min])\r\n```\r\n\r\nInvestigation and PRs would certainly be welcome"
+  }
+]

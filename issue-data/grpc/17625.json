@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/452806259",
+    "html_url": "https://github.com/grpc/grpc/issues/17625#issuecomment-452806259",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17625",
+    "id": 452806259,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjgwNjI1OQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-09T18:34:33Z",
+    "updated_at": "2019-01-09T18:34:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "AFAIK this is caused by  multiple docker image builds running in parallel and they race when trying to create the `jenkins-docker` ref.\r\nhttps://github.com/grpc/grpc/blob/97453a3d81185c76cc870e732af3c72438e620f0/tools/run_tests/dockerize/build_interop_image.sh#L94\r\n\r\nI think `git branch -f jenkins-docker` is there to silence the warning that we are in detached mode (and thus shorten the logs).\r\n\r\nI think this problem happens very rarely, but I might get to fixing this at some point."
+  }
+]

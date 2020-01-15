@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/340621308",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18039#issuecomment-340621308",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18039",
+    "id": 340621308,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MDYyMTMwOA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-31T00:08:41Z",
+    "updated_at": "2017-10-31T00:08:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "by default this doesn't work. see SO: https://stackoverflow.com/questions/29587179/load-pickle-filecomes-from-python3-in-python2\r\n\r\nhowever in pandas 0.21.0, you can pass a protocol parameter to allow this\r\n\r\n```\r\n(pandas) bash-3.2$ ipython\r\nPython 3.6.1 |Continuum Analytics, Inc.| (default, Mar 22 2017, 19:25:17) \r\nType 'copyright', 'credits' or 'license' for more information\r\nIPython 6.0.0 -- An enhanced Interactive Python. Type '?' for help.\r\nIn [3]: df.to_pickle?\r\nSignature: df.to_pickle(path, compression='infer', protocol=4)\r\nDocstring:\r\nPickle (serialize) object to input file path.\r\n\r\nParameters\r\n----------\r\npath : string\r\n    File path\r\ncompression : {'infer', 'gzip', 'bz2', 'xz', None}, default 'infer'\r\n    a string representing the compression to use in the output file\r\n\r\n    .. versionadded:: 0.20.0\r\nprotocol : int\r\n    Int which indicates which protocol should be used by the pickler,\r\n    default HIGHEST_PROTOCOL (see [1], paragraph 12.1.2). The possible\r\n    values for this parameter depend on the version of Python. For\r\n    Python 2.x, possible values are 0, 1, 2. For Python>=3.0, 3 is a\r\n    valid value. For Python >= 3.4, 4 is a valid value.A negative value\r\n    for the protocol parameter is equivalent to setting its value to\r\n    HIGHEST_PROTOCOL.\r\n\r\n    .. [1] https://docs.python.org/3/library/pickle.html\r\n    .. versionadded:: 0.21.0\r\nFile:      ~/miniconda3/envs/pandas/lib/python3.6/site-packages/pandas/core/generic.py\r\nType:      method\r\n\r\nIn [4]: df.to_pickle('foo.pkl', protocol=2)\r\n```\r\n\r\n```\r\n(py2.7) bash-3.2$ ipython\r\nPython 2.7.12 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:43:17) \r\nType \"copyright\", \"credits\" or \"license\" for more information.\r\n\r\nIPython 5.1.0 -- An enhanced Interactive Python.\r\n?         -> Introduction and overview of IPython's features.\r\n%quickref -> Quick reference.\r\nhelp      -> Python's own help system.\r\nobject?   -> Details about 'object', use 'object??' for extra details.\r\npd.e\r\nIn [1]: pd.read_pickle('foo.pkl')\r\nOut[1]: \r\nEmpty DataFrame\r\nColumns: []\r\nIndex: []\r\n```\r\n\r\n\r\n\r\n"
+  }
+]

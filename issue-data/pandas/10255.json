@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/108590633",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10255#issuecomment-108590633",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10255",
+    "id": 108590633,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwODU5MDYzMw==",
+    "user": {
+      "login": "artemyk",
+      "id": 833768,
+      "node_id": "MDQ6VXNlcjgzMzc2OA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/833768?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/artemyk",
+      "html_url": "https://github.com/artemyk",
+      "followers_url": "https://api.github.com/users/artemyk/followers",
+      "following_url": "https://api.github.com/users/artemyk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/artemyk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/artemyk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/artemyk/subscriptions",
+      "organizations_url": "https://api.github.com/users/artemyk/orgs",
+      "repos_url": "https://api.github.com/users/artemyk/repos",
+      "events_url": "https://api.github.com/users/artemyk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/artemyk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-03T19:35:18Z",
+    "updated_at": "2015-06-03T19:35:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@jorisvandenbossche Whoops!  I saw the following : \"Identifiers may begin with a digit but unless quoted may not consist solely of digits\" but did not pay attention to the \"unless quoted\".  Submitting a PR now.\n"
+  }
+]

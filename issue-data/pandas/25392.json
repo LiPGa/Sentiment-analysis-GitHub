@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/465900222",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25392#issuecomment-465900222",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25392",
+    "id": 465900222,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NTkwMDIyMg==",
+    "user": {
+      "login": "tdamsma",
+      "id": 7870803,
+      "node_id": "MDQ6VXNlcjc4NzA4MDM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7870803?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tdamsma",
+      "html_url": "https://github.com/tdamsma",
+      "followers_url": "https://api.github.com/users/tdamsma/followers",
+      "following_url": "https://api.github.com/users/tdamsma/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tdamsma/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tdamsma/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tdamsma/subscriptions",
+      "organizations_url": "https://api.github.com/users/tdamsma/orgs",
+      "repos_url": "https://api.github.com/users/tdamsma/repos",
+      "events_url": "https://api.github.com/users/tdamsma/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tdamsma/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-21T08:02:18Z",
+    "updated_at": "2019-02-21T08:02:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The behaviour of iterrows to not preserve tdypes is actually documented: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iterrows.html"
+  }
+]

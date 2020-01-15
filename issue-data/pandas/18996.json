@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/354893344",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18996#issuecomment-354893344",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18996",
+    "id": 354893344,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NDg5MzM0NA==",
+    "user": {
+      "login": "davetlewis-van",
+      "id": 23486608,
+      "node_id": "MDQ6VXNlcjIzNDg2NjA4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/23486608?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davetlewis-van",
+      "html_url": "https://github.com/davetlewis-van",
+      "followers_url": "https://api.github.com/users/davetlewis-van/followers",
+      "following_url": "https://api.github.com/users/davetlewis-van/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davetlewis-van/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davetlewis-van/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davetlewis-van/subscriptions",
+      "organizations_url": "https://api.github.com/users/davetlewis-van/orgs",
+      "repos_url": "https://api.github.com/users/davetlewis-van/repos",
+      "events_url": "https://api.github.com/users/davetlewis-van/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davetlewis-van/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-02T22:33:55Z",
+    "updated_at": "2018-01-02T22:33:55Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi. I'd like to pick this one up as my first contribution."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/431955625",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/23277#issuecomment-431955625",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23277",
+    "id": 431955625,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMTk1NTYyNQ==",
+    "user": {
+      "login": "pep8speaks",
+      "id": 24736507,
+      "node_id": "MDQ6VXNlcjI0NzM2NTA3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24736507?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pep8speaks",
+      "html_url": "https://github.com/pep8speaks",
+      "followers_url": "https://api.github.com/users/pep8speaks/followers",
+      "following_url": "https://api.github.com/users/pep8speaks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pep8speaks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pep8speaks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pep8speaks/subscriptions",
+      "organizations_url": "https://api.github.com/users/pep8speaks/orgs",
+      "repos_url": "https://api.github.com/users/pep8speaks/repos",
+      "events_url": "https://api.github.com/users/pep8speaks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pep8speaks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-22T19:45:50Z",
+    "updated_at": "2018-10-22T19:45:50Z",
+    "author_association": "NONE",
+    "body": "Hello @alansammarone! Thanks for submitting the PR.\n\n - There are no PEP8 issues in the file [`pandas/__init__.py`](https://github.com/alansammarone/pandas/blob/786e43f96d1b7583e8e400f5f89854a9e4c3e523/pandas/__init__.py) !\n\n"
+  }
+]

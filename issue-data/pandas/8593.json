@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/101245141",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8593#issuecomment-101245141",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8593",
+    "id": 101245141,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMTI0NTE0MQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-12T11:26:22Z",
+    "updated_at": "2015-05-13T10:29:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@shoyer heres my use-case. This is a specification engine (similar in concept to `pd.Grouper`), to enable one to easily specify ordering of output summary values (e.g. no need for dict-like), and to bind meta-data to the function, (mostly _name_), w/o too much boilerplate). Should be fully back-compat.\n\n```\nS = pd.Summary\n\n# 8593\ndf.groupby('A').agg([S('mean',name='nth(1)']))\n\n# 10100\ndfAggregated = grouped.agg([np.mean,np.std,S(lambda v: v.mean()/v.max(),name='normalized mean'])\n\n# 9052\ndf.groupby('B').agg({ 'A': [S('mean',name='mean1'),S('median',name='med1')],\n                      'C': [S('mean',name='mean2'),S('median',name='med2')],\n                    })\n\n# maybe could also do\ndf.groupby('B').agg([ S('mean',column='A',name='mean1'),\n                      S('median',column='A',name='med1'),\n                      S('mean',columns='C',name='mean2'),\n                      S('median',columns='C',name='med2')   \n              ])\n\n```\n"
+  }
+]

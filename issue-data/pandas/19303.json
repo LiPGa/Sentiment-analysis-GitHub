@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/358775324",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19303#issuecomment-358775324",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19303",
+    "id": 358775324,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1ODc3NTMyNA==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-18T20:42:10Z",
+    "updated_at": "2018-01-18T20:42:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I agree this should raise, and I think where you pointed (`TimeGrouper.__init__` ) is the right spot to do it.  \r\n\r\nI also agree that `closed` can & should be checked.  `convention` looks like it raises an error eventually.\r\n```python\r\ndf.index = df.index.to_period()\r\ndf.resample('h', convention='junk').mean().tail()\r\nValueError: How must be one of S or E\r\n```\r\n\r\nSo a PR is definitely welcome!"
+  }
+]

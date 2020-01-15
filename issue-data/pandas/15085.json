@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/271308304",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15085#issuecomment-271308304",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15085",
+    "id": 271308304,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MTMwODMwNA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-09T15:10:53Z",
+    "updated_at": "2017-01-09T15:10:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "the purpose of this is to allow a ``df.rolling(..).apply(...)`` to work on numeric columns and just return the other columns. So it has to ignore internal ``TypeErrors``. I suppose it could raise for a Series though.\r\n\r\nPR's are welcome."
+  }
+]

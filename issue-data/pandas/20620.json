@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/379287191",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20620#issuecomment-379287191",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20620",
+    "id": 379287191,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3OTI4NzE5MQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-06T15:22:08Z",
+    "updated_at": "2018-04-06T15:22:08Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Your exact error is in the less than comparison.\r\n\r\n```python\r\nIn [5]: series.index < datetime.datetime(year=2018, month=1, day=2)\r\n   ...:\r\n   ...:\r\n---------------------------------------------------------------------------\r\nTypeError                                 Traceback (most recent call last)\r\n<ipython-input-5-1504c4ec0be0> in <module>()\r\n----> 1 series.index < datetime.datetime(year=2018, month=1, day=2)\r\n      2\r\n\r\n~/sandbox/pandas/pandas/core/indexes/datetimes.py in wrapper(self, other)\r\n    113             if isinstance(other, datetime):\r\n    114                 # GH#18435 strings get a pass from tzawareness compat\r\n--> 115                 self._assert_tzawareness_compat(other)\r\n    116\r\n    117             other = _to_m8(other, tz=self.tz)\r\n\r\n~/sandbox/pandas/pandas/core/indexes/datetimes.py in _assert_tzawareness_compat(self, other)\r\n    673                                 'datetime-like objects.')\r\n    674         elif other_tz is None:\r\n--> 675             raise TypeError('Cannot compare tz-naive and tz-aware '\r\n    676                             'datetime-like objects')\r\n    677\r\n\r\nTypeError: Cannot compare tz-naive and tz-aware datetime-like objects\r\n```\r\n\r\nWhich I think makes more sense. Compare to a tz-aware datetime\r\n\r\n```python\r\nIn [20]: series.index < pd.Timestamp('2018-01-02', tz=series.index.tz)\r\nOut[20]: array([ True,  True,  True, ..., False, False, False])\r\n```\r\n\r\nSo that works. But coincidentally, we hit that error again, this time in drop. Which looks to be a duplicate of https://github.com/pandas-dev/pandas/issues/18031."
+  }
+]

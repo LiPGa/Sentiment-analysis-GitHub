@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/425798259",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22895#issuecomment-425798259",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22895",
+    "id": 425798259,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNTc5ODI1OQ==",
+    "user": {
+      "login": "bkjchoi72",
+      "id": 7416343,
+      "node_id": "MDQ6VXNlcjc0MTYzNDM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7416343?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkjchoi72",
+      "html_url": "https://github.com/bkjchoi72",
+      "followers_url": "https://api.github.com/users/bkjchoi72/followers",
+      "following_url": "https://api.github.com/users/bkjchoi72/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkjchoi72/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkjchoi72/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkjchoi72/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkjchoi72/orgs",
+      "repos_url": "https://api.github.com/users/bkjchoi72/repos",
+      "events_url": "https://api.github.com/users/bkjchoi72/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkjchoi72/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-01T06:04:23Z",
+    "updated_at": "2018-10-01T06:04:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'll give this one a try"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/446415262",
+    "html_url": "https://github.com/ipython/ipython/issues/11527#issuecomment-446415262",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11527",
+    "id": 446415262,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NjQxNTI2Mg==",
+    "user": {
+      "login": "jwidner",
+      "id": 23409530,
+      "node_id": "MDQ6VXNlcjIzNDA5NTMw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23409530?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jwidner",
+      "html_url": "https://github.com/jwidner",
+      "followers_url": "https://api.github.com/users/jwidner/followers",
+      "following_url": "https://api.github.com/users/jwidner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwidner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jwidner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwidner/subscriptions",
+      "organizations_url": "https://api.github.com/users/jwidner/orgs",
+      "repos_url": "https://api.github.com/users/jwidner/repos",
+      "events_url": "https://api.github.com/users/jwidner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jwidner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-12T00:27:14Z",
+    "updated_at": "2018-12-12T00:27:14Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It seems like this can be fixed by adding\r\n`self.init_alias()`\r\nat line 1435 of core/interactiveshell.py under the reset function after\r\n`# Restore the default and user aliases`\r\n`self.alias_manager.clear_aliases()`\r\n`self.alias_manager.init_aliases()`\r\n\r\nMy only qualm with recommending this fix is that I don't know what the intended behavior here is (as I haven't contributed to this repo before). In the meantime, you can always get around this bug by using `!clear` instead of `%clear` if that helps."
+  }
+]

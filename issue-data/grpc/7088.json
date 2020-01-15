@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/228871325",
+    "html_url": "https://github.com/grpc/grpc/issues/7088#issuecomment-228871325",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7088",
+    "id": 228871325,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyODg3MTMyNQ==",
+    "user": {
+      "login": "bgilmore",
+      "id": 90837,
+      "node_id": "MDQ6VXNlcjkwODM3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/90837?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bgilmore",
+      "html_url": "https://github.com/bgilmore",
+      "followers_url": "https://api.github.com/users/bgilmore/followers",
+      "following_url": "https://api.github.com/users/bgilmore/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bgilmore/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bgilmore/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bgilmore/subscriptions",
+      "organizations_url": "https://api.github.com/users/bgilmore/orgs",
+      "repos_url": "https://api.github.com/users/bgilmore/repos",
+      "events_url": "https://api.github.com/users/bgilmore/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bgilmore/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-27T20:51:03Z",
+    "updated_at": "2016-06-27T20:51:03Z",
+    "author_association": "NONE",
+    "body": "Notably also here: https://github.com/grpc/grpc/blob/master/examples/python/helloworld/run_codegen.sh\nAnd here: https://github.com/grpc/grpc/blob/master/examples/python/route_guide/run_codegen.sh\n"
+  }
+]

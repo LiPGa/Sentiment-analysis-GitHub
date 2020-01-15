@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/155961471",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11573#issuecomment-155961471",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11573",
+    "id": 155961471,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NTk2MTQ3MQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-12T00:51:09Z",
+    "updated_at": "2015-11-12T00:51:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "See the following example.\n\nconverting to `object` dtype, does not stringify, rather it makes the items _into_ objects, they are now a collection of ints that are marked as object dtype.\n\nWhen you read from a csv this is done for you in one step, e.g. they are starting as strings, we are just preserveing them, rather than coercing to another dtype. \n\n```\nIn [1]: data = \"\"\"City,State,Zip\n   ...: Omaha,NE,68134\n   ...: Chicago,IL,60290\n   ...: Atlanta,GA,30303\"\"\"\n\nIn [2]: df = read_csv(StringIO(data))\n\nIn [3]: df\nOut[3]: \n      City State    Zip\n0    Omaha    NE  68134\n1  Chicago    IL  60290\n2  Atlanta    GA  30303\n\nIn [4]: df.dtypes\nOut[4]: \nCity     object\nState    object\nZip       int64\ndtype: object\n\nIn [5]: df.Zip.astype(str).str.len()\nOut[5]: \n0    5\n1    5\n2    5\nName: Zip, dtype: int64\n\nIn [6]: df.Zip.astype(object).str.len()\nOut[6]: \n0   NaN\n1   NaN\n2   NaN\nName: Zip, dtype: float64\n\nIn [7]: df.Zip.astype(str).values   \nOut[7]: array(['68134', '60290', '30303'], dtype=object)\n\nIn [8]: df.Zip.astype(object).values   \n```\n"
+  }
+]

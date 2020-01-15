@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/326289780",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17396#issuecomment-326289780",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17396",
+    "id": 326289780,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjI4OTc4MA==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-31T13:07:53Z",
+    "updated_at": "2017-08-31T13:07:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "docs here if you haven't seen them, we don't support a non-native byteorder.  The reason it comes up with more columns is the truncated representation requires an indexing operation, which is what is failing.\r\nhttps://pandas.pydata.org/pandas-docs/stable/gotchas.html#byte-ordering-issues\r\n\r\nI agree it would be much better to check on construction, open issue about that #4737, PR welcome!"
+  }
+]

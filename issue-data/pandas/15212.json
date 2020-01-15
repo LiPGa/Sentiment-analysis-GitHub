@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/274904281",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15212#issuecomment-274904281",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15212",
+    "id": 274904281,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NDkwNDI4MQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-24T19:10:23Z",
+    "updated_at": "2017-01-24T19:10:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is indicated in the doc-string (read Notes). NamedTuples do not support these identifier.\r\n```\r\nIn [1]: DataFrame.itertuples?\r\nSignature: DataFrame.itertuples(self, index=True, name='Pandas')\r\nDocstring:\r\nIterate over DataFrame rows as namedtuples, with index value as first\r\nelement of the tuple.\r\n\r\nParameters\r\n----------\r\nindex : boolean, default True\r\n    If True, return the index as the first element of the tuple.\r\nname : string, default \"Pandas\"\r\n    The name of the returned namedtuples or None to return regular\r\n    tuples.\r\n\r\nNotes\r\n-----\r\nThe column names will be renamed to positional names if they are\r\ninvalid Python identifiers, repeated, or start with an underscore.\r\nWith a large number of columns (>255), regular tuples are returned.\r\n\r\nSee also\r\n--------\r\niterrows : Iterate over DataFrame rows as (index, Series) pairs.\r\niteritems : Iterate over (column name, Series) pairs.\r\n\r\nExamples\r\n--------\r\n\r\n>>> df = pd.DataFrame({'col1': [1, 2], 'col2': [0.1, 0.2]},\r\n                      index=['a', 'b'])\r\n>>> df\r\n   col1  col2\r\na     1   0.1\r\nb     2   0.2\r\n>>> for row in df.itertuples():\r\n...     print(row)\r\n...\r\nPandas(Index='a', col1=1, col2=0.10000000000000001)\r\nPandas(Index='b', col1=2, col2=0.20000000000000001)\r\nFile:      ~/pandas/pandas/core/frame.py\r\nType:      function\r\n```"
+  }
+]

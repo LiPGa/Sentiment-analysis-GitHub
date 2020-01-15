@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/360134908",
+    "html_url": "https://github.com/grpc/grpc/issues/14141#issuecomment-360134908",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14141",
+    "id": 360134908,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MDEzNDkwOA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-24T13:33:59Z",
+    "updated_at": "2018-01-24T13:33:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'd try cleaning and rebuilding your project from scratch. \r\nthe `grpcsharp_batch_context_reset` function was added to the native library grpc_csharp_ext.dll  in v1.8.x as it seems that you still have and old version of the dll in your output directory.\r\nOtherwise, I'm pretty sure the function is there as our continuous tests work and no one else had this problem so far (if the issue was real, gRPC C# wouldn't work at all for anyone)."
+  }
+]

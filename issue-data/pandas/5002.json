@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/25214323",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5002#issuecomment-25214323",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5002",
+    "id": 25214323,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MjE0MzIz",
+    "user": {
+      "login": "davidjagoe",
+      "id": 54669,
+      "node_id": "MDQ6VXNlcjU0NjY5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/54669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/davidjagoe",
+      "html_url": "https://github.com/davidjagoe",
+      "followers_url": "https://api.github.com/users/davidjagoe/followers",
+      "following_url": "https://api.github.com/users/davidjagoe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/davidjagoe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/davidjagoe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/davidjagoe/subscriptions",
+      "organizations_url": "https://api.github.com/users/davidjagoe/orgs",
+      "repos_url": "https://api.github.com/users/davidjagoe/repos",
+      "events_url": "https://api.github.com/users/davidjagoe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/davidjagoe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-09-27T00:20:56Z",
+    "updated_at": "2013-09-27T00:20:56Z",
+    "author_association": "NONE",
+    "body": "Actually this has nothing to do with the data selection - it appears to be something to do with the timespan in the frame when doing the resampling. I will investigate and open another bug if necessary.\n"
+  }
+]

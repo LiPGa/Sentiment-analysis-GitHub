@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/114616103",
+    "html_url": "https://github.com/ipython/ipython/issues/8565#issuecomment-114616103",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8565",
+    "id": 114616103,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNDYxNjEwMw==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-23T19:24:10Z",
+    "updated_at": "2015-06-23T19:24:10Z",
+    "author_association": "MEMBER",
+    "body": "I could see putting a `len(r)` cutoff in there, though I worry that then we'd end up with a 'super verbose' mode for when people want to see that info.\n\nI'm also hoping to get time to work on HTML tracebacks for the notebook, which will have more information than is initially shown, and you can click to get more detail on specific bits.\n"
+  }
+]

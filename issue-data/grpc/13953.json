@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/356959648",
+    "html_url": "https://github.com/grpc/grpc/issues/13953#issuecomment-356959648",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13953",
+    "id": 356959648,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1Njk1OTY0OA==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-11T15:00:49Z",
+    "updated_at": "2018-01-11T15:00:49Z",
+    "author_association": "MEMBER",
+    "body": "Also seen for:\r\n\r\nbins/dbg/h2_proxy_test filter_status_code GRPC_POLL_STRATEGY=epoll1 \r\n\r\nhttps://sponge.corp.google.com/target?id=ca454bb9-0f4f-48d2-a17e-4a83ef6b5194&target=github/grpc/c_linux_dbg_native&searchFor=&show=ALL&sortBy=STATUS\r\n\r\nI suspect this is a problem for any proxy framework and any polling engine."
+  }
+]

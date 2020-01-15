@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/319436740",
+    "html_url": "https://github.com/grpc/grpc/issues/11456#issuecomment-319436740",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11456",
+    "id": 319436740,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTQzNjc0MA==",
+    "user": {
+      "login": "fengli79",
+      "id": 20803483,
+      "node_id": "MDQ6VXNlcjIwODAzNDgz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20803483?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fengli79",
+      "html_url": "https://github.com/fengli79",
+      "followers_url": "https://api.github.com/users/fengli79/followers",
+      "following_url": "https://api.github.com/users/fengli79/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fengli79/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fengli79/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fengli79/subscriptions",
+      "organizations_url": "https://api.github.com/users/fengli79/orgs",
+      "repos_url": "https://api.github.com/users/fengli79/repos",
+      "events_url": "https://api.github.com/users/fengli79/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fengli79/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-01T17:17:21Z",
+    "updated_at": "2017-08-01T17:24:02Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It's not a Google Cloud client library specific environment variable. Instead, it's defined and interpreted by Google Auth client libraries.\r\nhttps://github.com/GoogleCloudPlatform/google-auth-library-python/blob/b33b8021117db0d9ef80988cc7bb8ad58ecccf18/google/auth/environment_vars.py#L32\r\n\r\nAlso, gRPC c core interpret it here:\r\nhttps://github.com/grpc/grpc/blob/a461f0d46ccf03bc8e107a7038296e237089d179/src/core/lib/security/credentials/google_default/google_default_credentials.c#L241"
+  }
+]

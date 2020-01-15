@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/100551482",
+    "html_url": "https://github.com/ipython/ipython/issues/7134#issuecomment-100551482",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7134",
+    "id": 100551482,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDU1MTQ4Mg==",
+    "user": {
+      "login": "douglas-larocca",
+      "id": 5607827,
+      "node_id": "MDQ6VXNlcjU2MDc4Mjc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5607827?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/douglas-larocca",
+      "html_url": "https://github.com/douglas-larocca",
+      "followers_url": "https://api.github.com/users/douglas-larocca/followers",
+      "following_url": "https://api.github.com/users/douglas-larocca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/douglas-larocca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/douglas-larocca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/douglas-larocca/subscriptions",
+      "organizations_url": "https://api.github.com/users/douglas-larocca/orgs",
+      "repos_url": "https://api.github.com/users/douglas-larocca/repos",
+      "events_url": "https://api.github.com/users/douglas-larocca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/douglas-larocca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-09T21:38:04Z",
+    "updated_at": "2015-05-09T21:38:04Z",
+    "author_association": "NONE",
+    "body": "A related issue I'm having is that the completer goes \"up\" outside the viewport window. Here's a screenshot showing the full viewport, invoking the completer on `IPython.`.\n\n![completer_dialog](https://cloud.githubusercontent.com/assets/5607827/7552116/f8b8b118-f670-11e4-8938-c3ff228ae58b.png)\n\nI have some custom css going on but I don't think this the problem. IIRC the issue started after an upgrade but I didn't do anything about it at the time...\n\nIt's a minor annoyance but happens often because leaving edit mode moves the page so the top of the selected cell is flush with the top of the viewport. Sometimes I even guess ('probably third in the list...') to avoid reaching for the mouse!\n"
+  }
+]

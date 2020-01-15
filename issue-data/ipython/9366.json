@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/203020175",
+    "html_url": "https://github.com/ipython/ipython/issues/9366#issuecomment-203020175",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9366",
+    "id": 203020175,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMzAyMDE3NQ==",
+    "user": {
+      "login": "mehdigmira",
+      "id": 13655536,
+      "node_id": "MDQ6VXNlcjEzNjU1NTM2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/13655536?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehdigmira",
+      "html_url": "https://github.com/mehdigmira",
+      "followers_url": "https://api.github.com/users/mehdigmira/followers",
+      "following_url": "https://api.github.com/users/mehdigmira/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehdigmira/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehdigmira/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehdigmira/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehdigmira/orgs",
+      "repos_url": "https://api.github.com/users/mehdigmira/repos",
+      "events_url": "https://api.github.com/users/mehdigmira/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehdigmira/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-29T17:39:46Z",
+    "updated_at": "2016-03-29T17:39:46Z",
+    "author_association": "NONE",
+    "body": "same problem happened when using the regular python shell. Probably something related to pandas (though it does appear a lot more often when using ipython). Closing this for now.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/3223926",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/513#issuecomment-3223926",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/513",
+    "id": 3223926,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMjM5MjY=",
+    "user": {
+      "login": "bshanks",
+      "id": 586225,
+      "node_id": "MDQ6VXNlcjU4NjIyNQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/586225?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bshanks",
+      "html_url": "https://github.com/bshanks",
+      "followers_url": "https://api.github.com/users/bshanks/followers",
+      "following_url": "https://api.github.com/users/bshanks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bshanks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bshanks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bshanks/subscriptions",
+      "organizations_url": "https://api.github.com/users/bshanks/orgs",
+      "repos_url": "https://api.github.com/users/bshanks/repos",
+      "events_url": "https://api.github.com/users/bshanks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bshanks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-12-20T19:32:47Z",
+    "updated_at": "2011-12-20T19:32:47Z",
+    "author_association": "NONE",
+    "body": "i think this is what datetime64 does (from https://github.com/numpy/numpy/blob/master/numpy/core/tests/test_datetime.py):\n\n``` python\n        # Construction from datetime.datetime\n        assert_equal(np.datetime64('1980-01-25T14:36:22.5Z'),\n                     np.datetime64(datetime.datetime(1980,1,25,\n                                                14,36,22,500000)))\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/184702386",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12347#issuecomment-184702386",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12347",
+    "id": 184702386,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NDcwMjM4Ng==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-16T14:32:35Z",
+    "updated_at": "2016-02-16T14:32:35Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "looks like you asked already on [SO](http://stackoverflow.com/questions/35434668/how-to-remove-the-punctuation-using-to-csv-method-in-pandas).\n\nyou are keeping a space delimited field in a dataframe, which is not recommended, but if you want then you cannot use a spec delimited output file w/o quoting. you can use a different output separator.\n"
+  }
+]

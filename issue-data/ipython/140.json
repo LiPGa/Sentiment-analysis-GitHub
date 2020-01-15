@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/865177",
+    "html_url": "https://github.com/ipython/ipython/issues/140#issuecomment-865177",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/140",
+    "id": 865177,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg2NTE3Nw==",
+    "user": {
+      "login": "fperez",
+      "id": 57394,
+      "node_id": "MDQ6VXNlcjU3Mzk0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fperez",
+      "html_url": "https://github.com/fperez",
+      "followers_url": "https://api.github.com/users/fperez/followers",
+      "following_url": "https://api.github.com/users/fperez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fperez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fperez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fperez/subscriptions",
+      "organizations_url": "https://api.github.com/users/fperez/orgs",
+      "repos_url": "https://api.github.com/users/fperez/repos",
+      "events_url": "https://api.github.com/users/fperez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fperez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-03-13T06:10:52Z",
+    "updated_at": "2011-03-13T06:10:52Z",
+    "author_association": "MEMBER",
+    "body": "Unfortunately this is a bug either in numpy or in python itself, ipython just happens to trigger it.  We don't have any pure C code, so this is coming either from the readline code inside python itself (most likely) or perhaps from numpy.\n\nClosing here, as it's not an ipython issue.\n"
+  }
+]

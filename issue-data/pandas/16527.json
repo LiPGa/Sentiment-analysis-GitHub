@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/304536979",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16527#issuecomment-304536979",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16527",
+    "id": 304536979,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNDUzNjk3OQ==",
+    "user": {
+      "login": "neirbowj",
+      "id": 1879063,
+      "node_id": "MDQ6VXNlcjE4NzkwNjM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1879063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/neirbowj",
+      "html_url": "https://github.com/neirbowj",
+      "followers_url": "https://api.github.com/users/neirbowj/followers",
+      "following_url": "https://api.github.com/users/neirbowj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/neirbowj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/neirbowj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/neirbowj/subscriptions",
+      "organizations_url": "https://api.github.com/users/neirbowj/orgs",
+      "repos_url": "https://api.github.com/users/neirbowj/repos",
+      "events_url": "https://api.github.com/users/neirbowj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/neirbowj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-28T20:05:47Z",
+    "updated_at": "2017-05-28T20:05:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I looked for a way to get SQLAlchemy to enumerate the currently supported drivers and came up dry. In order to skip this test less often, I think it would be necessary to hard code a list of known drivers, which would need to be maintained, try importing them in turn to find one that isn't installed, and skip only in the unlikely event that all drivers are available. That seemed out of proportion, so I elected to just skip if `pg8000` is present."
+  }
+]

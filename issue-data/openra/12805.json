@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/280922442",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12805#issuecomment-280922442",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12805",
+    "id": 280922442,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MDkyMjQ0Mg==",
+    "user": {
+      "login": "SoScared",
+      "id": 2715583,
+      "node_id": "MDQ6VXNlcjI3MTU1ODM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2715583?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SoScared",
+      "html_url": "https://github.com/SoScared",
+      "followers_url": "https://api.github.com/users/SoScared/followers",
+      "following_url": "https://api.github.com/users/SoScared/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SoScared/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SoScared/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SoScared/subscriptions",
+      "organizations_url": "https://api.github.com/users/SoScared/orgs",
+      "repos_url": "https://api.github.com/users/SoScared/repos",
+      "events_url": "https://api.github.com/users/SoScared/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SoScared/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-19T14:26:54Z",
+    "updated_at": "2017-02-19T14:26:54Z",
+    "author_association": "MEMBER",
+    "body": "Posted this at the appropriate repository: https://github.com/OpenRA/OpenRA-Resources/issues/295"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/446728426",
+    "html_url": "https://github.com/grpc/grpc/issues/17469#issuecomment-446728426",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17469",
+    "id": 446728426,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NjcyODQyNg==",
+    "user": {
+      "login": "maxw",
+      "id": 396729,
+      "node_id": "MDQ6VXNlcjM5NjcyOQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/396729?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maxw",
+      "html_url": "https://github.com/maxw",
+      "followers_url": "https://api.github.com/users/maxw/followers",
+      "following_url": "https://api.github.com/users/maxw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maxw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maxw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maxw/subscriptions",
+      "organizations_url": "https://api.github.com/users/maxw/orgs",
+      "repos_url": "https://api.github.com/users/maxw/repos",
+      "events_url": "https://api.github.com/users/maxw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maxw/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-12T20:15:20Z",
+    "updated_at": "2018-12-12T20:15:20Z",
+    "author_association": "NONE",
+    "body": "I had a stray -all_load flag in my build which was causing the duplicate symbol error. Closing."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/8398171",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/1684#issuecomment-8398171",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1684",
+    "id": 8398171,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgzOTgxNzE=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-09-08T21:30:01Z",
+    "updated_at": "2012-09-08T21:30:01Z",
+    "author_association": "MEMBER",
+    "body": "This looks good to me. Cherry-picked the commit and am leaving #1796 open\n"
+  }
+]

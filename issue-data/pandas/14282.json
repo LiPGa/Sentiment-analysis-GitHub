@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/248980768",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14282#issuecomment-248980768",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14282",
+    "id": 248980768,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0ODk4MDc2OA==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-22T18:04:02Z",
+    "updated_at": "2016-09-22T18:04:02Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "No, this is essentially impossible, for the same reason you can't concatenate numpy arrays without a copy - see  http://stackoverflow.com/a/7869472/3657742.\n\nIf you know how big the result is going to be your best bet is probably to pre-allocate numpy array(s) of the full size, place values into it, and construct the `DataFrame` from the single large array.\n"
+  }
+]

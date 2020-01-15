@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/325968648",
+    "html_url": "https://github.com/grpc/grpc/issues/7428#issuecomment-325968648",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7428",
+    "id": 325968648,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNTk2ODY0OA==",
+    "user": {
+      "login": "jassi14",
+      "id": 7600486,
+      "node_id": "MDQ6VXNlcjc2MDA0ODY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7600486?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jassi14",
+      "html_url": "https://github.com/jassi14",
+      "followers_url": "https://api.github.com/users/jassi14/followers",
+      "following_url": "https://api.github.com/users/jassi14/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jassi14/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jassi14/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jassi14/subscriptions",
+      "organizations_url": "https://api.github.com/users/jassi14/orgs",
+      "repos_url": "https://api.github.com/users/jassi14/repos",
+      "events_url": "https://api.github.com/users/jassi14/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jassi14/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-30T11:58:31Z",
+    "updated_at": "2017-08-30T11:58:31Z",
+    "author_association": "NONE",
+    "body": "Hi @jorgeolivero .. I'm also getting the same issue in my app ... Have you found any solution or do u get your app working after this issue. Please suggest if found any solution over this issue.\r\nThanks."
+  }
+]

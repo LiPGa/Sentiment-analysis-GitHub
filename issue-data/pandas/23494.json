@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/435721827",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23494#issuecomment-435721827",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23494",
+    "id": 435721827,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTcyMTgyNw==",
+    "user": {
+      "login": "timdef",
+      "id": 13793236,
+      "node_id": "MDQ6VXNlcjEzNzkzMjM2",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13793236?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/timdef",
+      "html_url": "https://github.com/timdef",
+      "followers_url": "https://api.github.com/users/timdef/followers",
+      "following_url": "https://api.github.com/users/timdef/following{/other_user}",
+      "gists_url": "https://api.github.com/users/timdef/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/timdef/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/timdef/subscriptions",
+      "organizations_url": "https://api.github.com/users/timdef/orgs",
+      "repos_url": "https://api.github.com/users/timdef/repos",
+      "events_url": "https://api.github.com/users/timdef/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/timdef/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-05T00:08:04Z",
+    "updated_at": "2018-11-05T00:08:04Z",
+    "author_association": "NONE",
+    "body": "@datapythonista Just got my development environment set up and am working on this. :thumbsup:\r\n"
+  }
+]

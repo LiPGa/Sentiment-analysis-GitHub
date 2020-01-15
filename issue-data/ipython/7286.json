@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/67929754",
+    "html_url": "https://github.com/ipython/ipython/issues/7286#issuecomment-67929754",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7286",
+    "id": 67929754,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3OTI5NzU0",
+    "user": {
+      "login": "mforbes",
+      "id": 1028433,
+      "node_id": "MDQ6VXNlcjEwMjg0MzM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1028433?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mforbes",
+      "html_url": "https://github.com/mforbes",
+      "followers_url": "https://api.github.com/users/mforbes/followers",
+      "following_url": "https://api.github.com/users/mforbes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mforbes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mforbes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mforbes/subscriptions",
+      "organizations_url": "https://api.github.com/users/mforbes/orgs",
+      "repos_url": "https://api.github.com/users/mforbes/repos",
+      "events_url": "https://api.github.com/users/mforbes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mforbes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-23T08:14:33Z",
+    "updated_at": "2014-12-23T08:14:33Z",
+    "author_association": "NONE",
+    "body": "This was a problem with a stale version of `build/lib/IPython/html/static/components/codemirror/mode/meta.js` in the dev `build` directory.  Removing this and rebuilding fixed the issue.\n\n```\nrm -rf build\ngit checkout -f origin/master\npip install -e .[notebook,qtconsole,nbconvert]\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/291977913",
+    "html_url": "https://github.com/grpc/grpc/issues/10486#issuecomment-291977913",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10486",
+    "id": 291977913,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MTk3NzkxMw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-05T19:54:03Z",
+    "updated_at": "2017-04-05T19:54:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "it looks like permissions needed for using perf are missing on that machine. \r\n\r\nthe run #3, on `grpc-performance-gce2` works. but the broken one is on `grpc-performance-gce1`, with \r\n\r\nlogs of:\r\n```\r\n2017-04-05 05:54:53,285 START: perf\r\n2017-04-05 05:54:53,296 WAITING: 19 queued, 1 jobs running, 0 complete, 0 failed\r\n2017-04-05 05:54:53,442 WARNING: Kernel address maps (/proc/{kallsyms,modules}) are restricted,\r\ncheck /proc/sys/kernel/kptr_restrict.\r\n\r\nSamples in kernel functions may not be resolved if a suitable vmlinux\r\nfile is not found in the buildid cache or in the vmlinux path.\r\n\r\nSamples in kernel modules won't be resolved at all.\r\n\r\nIf some relocation was applied (e.g. kexec) symbols may be misresolved\r\neven with a suitable vmlinux or kallsyms file.\r\n\r\nCannot read kernel map\r\nError:\r\nYou may not have permission to collect stats.\r\nConsider tweaking /proc/sys/kernel/perf_event_paranoid:\r\n -1 - Not paranoid at all\r\n  0 - Disallow raw tracepoint access for unpriv\r\n  1 - Disallow cpu events for unpriv\r\n  2 - Disallow kernel profiling for unpriv\r\n\r\n2017-04-05 05:54:53,442 FAILED: perf [ret=255, pid=4815]\r\n```\r\n\r\npermissions from the init script didn't seem to have been applied. just reran the part of the init script needed, I think it should work now."
+  }
+]

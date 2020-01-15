@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/310154648",
+    "html_url": "https://github.com/grpc/grpc/issues/11551#issuecomment-310154648",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11551",
+    "id": 310154648,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMDE1NDY0OA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-21T17:47:00Z",
+    "updated_at": "2017-06-21T17:47:00Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Two things:\r\n- Please use the issue template for new issues.\r\n- According to the issue template text, usage question should go to a grpc.io forum, not filed as \"issues\". Please respect that.\r\n\r\nstreaming calls objects in C# have a Cancel() method. Also, disposing the call before the call finishes has the effect of cancelling it.\r\n"
+  }
+]

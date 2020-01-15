@@ -1,0 +1,13 @@
+name1,name2,period,score1,score2,consist_cnt,inconsist_cnt,pos_consist_cnt,neg_consist_cnt,issue_cnt,cmt_cnt
+alteredq,fabricasapiens,20101,0.0,1.0,0,1,0,0,1,4
+alteredq,gero3,20101,0.0,1.0,0,0,0,0,1,5
+alteredq,mrdoob,20101,0.0,0.83,1,1,0,1,1,7
+alteredq,pyrotechnick,20101,0.0,1.0,0,2,0,0,1,16
+fabricasapiens,gero3,20101,1.0,1.0,8,0,0,0,1,7
+fabricasapiens,mrdoob,20101,1.0,0.83,9,1,1,0,1,9
+fabricasapiens,pyrotechnick,20101,1.0,1.0,28,0,2,0,1,18
+gero3,mrdoob,20101,1.0,0.83,16,0,0,0,1,10
+gero3,pyrotechnick,20101,1.0,1.0,52,0,0,0,1,19
+kapilreddy,mrdoob,20101,1.0,1.0,1,0,1,0,1,4
+kapilreddy,pyrotechnick,20101,1.0,1.0,0,0,0,0,1,2
+mrdoob,pyrotechnick,20101,0.915,1.0,56,2,2,0,2,25

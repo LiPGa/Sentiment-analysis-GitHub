@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/267658692",
+    "html_url": "https://github.com/ipython/ipython/issues/10092#issuecomment-267658692",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10092",
+    "id": 267658692,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NzY1ODY5Mg==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-16T18:09:53Z",
+    "updated_at": "2016-12-16T18:09:53Z",
+    "author_association": "MEMBER",
+    "body": "Is it possible to share a copy of the file you're trying to open? It looks like something has gone wrong when saving it; did you save it from Jupyter, or were you editing it in some other application?"
+  }
+]

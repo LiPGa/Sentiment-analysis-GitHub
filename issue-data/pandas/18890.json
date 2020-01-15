@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/353369597",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18890#issuecomment-353369597",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18890",
+    "id": 353369597,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1MzM2OTU5Nw==",
+    "user": {
+      "login": "bobhaffner",
+      "id": 8531623,
+      "node_id": "MDQ6VXNlcjg1MzE2MjM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8531623?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bobhaffner",
+      "html_url": "https://github.com/bobhaffner",
+      "followers_url": "https://api.github.com/users/bobhaffner/followers",
+      "following_url": "https://api.github.com/users/bobhaffner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bobhaffner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bobhaffner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bobhaffner/subscriptions",
+      "organizations_url": "https://api.github.com/users/bobhaffner/orgs",
+      "repos_url": "https://api.github.com/users/bobhaffner/repos",
+      "events_url": "https://api.github.com/users/bobhaffner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bobhaffner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-21T14:50:36Z",
+    "updated_at": "2017-12-21T14:50:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You can check out https://pandas.pydata.org/pandas-docs/stable/options.html#frequently-used-options   for some options\r\n\r\nIn particular, `display.expand_frame_repr`"
+  }
+]

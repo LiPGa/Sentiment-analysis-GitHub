@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/220837997",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11339#issuecomment-220837997",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11339",
+    "id": 220837997,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMDgzNzk5Nw==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-22T15:21:26Z",
+    "updated_at": "2016-05-22T16:04:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You need to run `make version VERSION=release-20160508` after compiling.\n\nEdit: if you have cloned the git repository, just a `make version` would suffice, but there is no version information in the .tar.gz downloads from github.\n"
+  }
+]

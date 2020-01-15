@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/36976932",
+    "html_url": "https://github.com/ipython/ipython/issues/5270#issuecomment-36976932",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5270",
+    "id": 36976932,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2OTc2OTMy",
+    "user": {
+      "login": "dawehner",
+      "id": 29678,
+      "node_id": "MDQ6VXNlcjI5Njc4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/29678?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dawehner",
+      "html_url": "https://github.com/dawehner",
+      "followers_url": "https://api.github.com/users/dawehner/followers",
+      "following_url": "https://api.github.com/users/dawehner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dawehner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dawehner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dawehner/subscriptions",
+      "organizations_url": "https://api.github.com/users/dawehner/orgs",
+      "repos_url": "https://api.github.com/users/dawehner/repos",
+      "events_url": "https://api.github.com/users/dawehner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dawehner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-07T08:31:58Z",
+    "updated_at": "2014-03-07T08:31:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This sounds like a good usecase for the widgets/interact feature of ipython2\n"
+  }
+]

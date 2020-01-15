@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/5199191",
+    "html_url": "https://github.com/ipython/ipython/issues/1622#issuecomment-5199191",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1622",
+    "id": 5199191,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxOTkxOTE=",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-18T14:05:37Z",
+    "updated_at": "2012-04-18T14:05:37Z",
+    "author_association": "MEMBER",
+    "body": "Also, looking at the signature of `IPython.lib.deepreload.reload`, you can pass a list of modules to `exclude`, but doing so wipes out the default list of exclusions (including `os.path`). There should probably be a way to add to the exclude list without having to re-enter the default exclusions.\n"
+  }
+]

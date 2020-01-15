@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/398966406",
+    "html_url": "https://github.com/grpc/grpc/issues/15831#issuecomment-398966406",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15831",
+    "id": 398966406,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5ODk2NjQwNg==",
+    "user": {
+      "login": "ZhouyihaiDing",
+      "id": 28968539,
+      "node_id": "MDQ6VXNlcjI4OTY4NTM5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/28968539?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ZhouyihaiDing",
+      "html_url": "https://github.com/ZhouyihaiDing",
+      "followers_url": "https://api.github.com/users/ZhouyihaiDing/followers",
+      "following_url": "https://api.github.com/users/ZhouyihaiDing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ZhouyihaiDing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ZhouyihaiDing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ZhouyihaiDing/subscriptions",
+      "organizations_url": "https://api.github.com/users/ZhouyihaiDing/orgs",
+      "repos_url": "https://api.github.com/users/ZhouyihaiDing/repos",
+      "events_url": "https://api.github.com/users/ZhouyihaiDing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ZhouyihaiDing/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-21T03:40:18Z",
+    "updated_at": "2018-06-21T03:40:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Seems all languages failed with `csharpcoreclr_server` test.\r\n```\r\n2018-06-18 17:08:53,412 FAILED: cloud_to_cloud:java:csharpcoreclr_server:ping_pong [ret=1, pid=6624, time=2.6sec]\r\n```"
+  }
+]

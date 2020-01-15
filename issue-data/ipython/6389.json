@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/54016070",
+    "html_url": "https://github.com/ipython/ipython/issues/6389#issuecomment-54016070",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6389",
+    "id": 54016070,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0MDE2MDcw",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-01T05:19:23Z",
+    "updated_at": "2014-09-01T05:19:23Z",
+    "author_association": "MEMBER",
+    "body": "Asked on https://github.com/ipython/nbviewer/issues/330\n\nIs it possible to run all cells once automanticlly when I start an .ipynb project?\nNo, this is a security risk, but if you want to doit you can write some javascript in custom.js that does it.\n\nCan I hide my code with only displaying its output in my project?\nNo but there are extensions that can do it.\n"
+  }
+]

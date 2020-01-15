@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/304848160",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16519#issuecomment-304848160",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16519",
+    "id": 304848160,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNDg0ODE2MA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-30T11:18:37Z",
+    "updated_at": "2017-05-30T11:18:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is related to #16394 and needs the same fix, along with some tests; ensuring that nothing else breaks.\r\n\r\n```\r\ndiff --git a/pandas/core/algorithms.py b/pandas/core/algorithms.py\r\nindex 77d79c9..9cfaf04 100644\r\n--- a/pandas/core/algorithms.py\r\n+++ b/pandas/core/algorithms.py\r\n@@ -163,7 +163,7 @@ def _ensure_arraylike(values):\r\n                                ABCIndexClass, ABCSeries)):\r\n         inferred = lib.infer_dtype(values)\r\n         if inferred in ['mixed', 'string', 'unicode']:\r\n-            values = np.asarray(values, dtype=object)\r\n+            values = lib.list_to_object_array(values)\r\n         else:\r\n             values = np.asarray(values)\r\n     return values\r\n```"
+  }
+]

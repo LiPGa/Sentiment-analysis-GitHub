@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/2472232",
+    "html_url": "https://github.com/ipython/ipython/issues/900#issuecomment-2472232",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/900",
+    "id": 2472232,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NzIyMzI=",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-10-20T18:17:08Z",
+    "updated_at": "2011-10-20T18:17:08Z",
+    "author_association": "MEMBER",
+    "body": "#513 isn't actually other issues, it's exactly this.  It was misunderstood as the wrong number of spaces because tabs align with tab-stops, so vary in width.\n\nI added a fix to the qtconsole-menu PR, as it's two lines. Should close both issues.\n\nNow that tabs=4sp is so standard, you might think the Python interpreter would stop reading tabs as _8_ spaces with respect to indentation:\n\n```\nexec \"def foo():\\n\\ta=5\\n        return a\\nprint foo()\"\n```\n"
+  }
+]

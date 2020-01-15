@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/163264874",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11802#issuecomment-163264874",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11802",
+    "id": 163264874,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MzI2NDg3NA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-09T14:35:15Z",
+    "updated_at": "2015-12-09T14:36:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is the same issue as in #9946 (same because the same underlying cython routine is used)\n\nyou will notice that using `lambda x: x.copy()` is the same result.\n\npandas is trying to infer whether you have mutated things (or not), by comparing indexes. This is prob a bug, but this is a bit of a rabbit hole as I think the best thing to do would actually to ban this entirely (mutation). So the outputs can be more predictible. You are welcome to dig-in!.\n"
+  }
+]

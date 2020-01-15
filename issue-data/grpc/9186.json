@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/270761200",
+    "html_url": "https://github.com/grpc/grpc/issues/9186#issuecomment-270761200",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9186",
+    "id": 270761200,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MDc2MTIwMA==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-05T21:22:10Z",
+    "updated_at": "2017-01-05T21:22:10Z",
+    "author_association": "MEMBER",
+    "body": "Seen in [build 1126](https://grpc-testing.appspot.com/job/gRPC_master_windows/1126/testReport/junit/(root)/c_windows_dbg/vsprojects_Debug_connection_refused_test_exe/)."
+  }
+]

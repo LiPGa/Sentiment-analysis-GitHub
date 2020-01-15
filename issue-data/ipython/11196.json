@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/399115637",
+    "html_url": "https://github.com/ipython/ipython/issues/11196#issuecomment-399115637",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11196",
+    "id": 399115637,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5OTExNTYzNw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-21T14:06:15Z",
+    "updated_at": "2018-06-21T14:06:15Z",
+    "author_association": "MEMBER",
+    "body": "Yes, when you turn warning into errors, things emitting warnings will raise errors.\r\nSo any IPython functionality that use deprecated functionality will stop working. You need to use more advance warning filtering techniques for example add the following to make sure critical functionality still work:\r\n\r\n```\r\nwarnings.filterwarnings('ignore', message='.*Completer.complete.*',\r\n                            category=PendingDeprecationWarning, module='.*')\r\n```\r\n\r\nClosing as this work as expected."
+  }
+]

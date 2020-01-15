@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/136140415",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/10940#issuecomment-136140415",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10940",
+    "id": 136140415,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNjE0MDQxNQ==",
+    "user": {
+      "login": "springcoil",
+      "id": 983944,
+      "node_id": "MDQ6VXNlcjk4Mzk0NA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/983944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/springcoil",
+      "html_url": "https://github.com/springcoil",
+      "followers_url": "https://api.github.com/users/springcoil/followers",
+      "following_url": "https://api.github.com/users/springcoil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/springcoil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/springcoil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/springcoil/subscriptions",
+      "organizations_url": "https://api.github.com/users/springcoil/orgs",
+      "repos_url": "https://api.github.com/users/springcoil/repos",
+      "events_url": "https://api.github.com/users/springcoil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/springcoil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-30T14:02:58Z",
+    "updated_at": "2015-08-30T14:02:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Actually closing this\n"
+  }
+]

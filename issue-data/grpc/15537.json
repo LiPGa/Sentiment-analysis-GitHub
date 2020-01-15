@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/449545822",
+    "html_url": "https://github.com/grpc/grpc/issues/15537#issuecomment-449545822",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15537",
+    "id": 449545822,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0OTU0NTgyMg==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-22T05:08:33Z",
+    "updated_at": "2018-12-22T05:08:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The examples are already using channel.close(), and now the tests are as well. Marking this fixed."
+  }
+]

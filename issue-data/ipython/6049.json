@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/47385808",
+    "html_url": "https://github.com/ipython/ipython/issues/6049#issuecomment-47385808",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6049",
+    "id": 47385808,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3Mzg1ODA4",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-27T18:42:55Z",
+    "updated_at": "2014-06-27T18:42:55Z",
+    "author_association": "MEMBER",
+    "body": "On Linux, the application icon depends on putting a file in `/usr/share/applications`, which we can't practically do from Python package installation - that's up to distro packagers. The Debian/Ubuntu packages for IPython seem to have this sorted out correctly.\n\nI think it should be possible on Windows, but I don't know what's required.\n"
+  }
+]

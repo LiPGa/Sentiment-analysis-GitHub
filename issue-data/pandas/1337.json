@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/234755471",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1337#issuecomment-234755471",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1337",
+    "id": 234755471,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNDc1NTQ3MQ==",
+    "user": {
+      "login": "sinhrks",
+      "id": 1696302,
+      "node_id": "MDQ6VXNlcjE2OTYzMDI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1696302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sinhrks",
+      "html_url": "https://github.com/sinhrks",
+      "followers_url": "https://api.github.com/users/sinhrks/followers",
+      "following_url": "https://api.github.com/users/sinhrks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sinhrks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sinhrks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sinhrks/subscriptions",
+      "organizations_url": "https://api.github.com/users/sinhrks/orgs",
+      "repos_url": "https://api.github.com/users/sinhrks/repos",
+      "events_url": "https://api.github.com/users/sinhrks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sinhrks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-24T03:41:34Z",
+    "updated_at": "2016-07-24T03:41:34Z",
+    "author_association": "MEMBER",
+    "body": "Because required normalization depends on use-cases (exclude holidays, etc), using property access should be simpler.\n\n```\nidx = pd.date_range('2016-02-01', '2016-03-01', freq='D')\nidx\n# DatetimeIndex(['2016-02-01', '2016-02-02', '2016-02-03', '2016-02-04',\n#                '2016-02-05', '2016-02-06', '2016-02-07', '2016-02-08',\n#                '2016-02-09', '2016-02-10', '2016-02-11', '2016-02-12',\n#                '2016-02-13', '2016-02-14', '2016-02-15', '2016-02-16',\n#                '2016-02-17', '2016-02-18', '2016-02-19', '2016-02-20',\n#                '2016-02-21', '2016-02-22', '2016-02-23', '2016-02-24',\n#                '2016-02-25', '2016-02-26', '2016-02-27', '2016-02-28',\n#                '2016-02-29', '2016-03-01'],\n#               dtype='datetime64[ns]', freq='D')\n\nidx[~((idx.day == 29) & (idx.month == 2))]\n# DatetimeIndex(['2016-02-01', '2016-02-02', '2016-02-03', '2016-02-04',\n#                '2016-02-05', '2016-02-06', '2016-02-07', '2016-02-08',\n#                '2016-02-09', '2016-02-10', '2016-02-11', '2016-02-12',\n#                '2016-02-13', '2016-02-14', '2016-02-15', '2016-02-16',\n#                '2016-02-17', '2016-02-18', '2016-02-19', '2016-02-20',\n#                '2016-02-21', '2016-02-22', '2016-02-23', '2016-02-24',\n#                '2016-02-25', '2016-02-26', '2016-02-27', '2016-02-28',\n#                '2016-03-01'],\n#               dtype='datetime64[ns]', freq=None)\n```\n\n If the separate function is actually needed, please provide detailed spec.\n"
+  }
+]

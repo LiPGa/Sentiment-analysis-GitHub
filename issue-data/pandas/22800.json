@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/423581857",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22800#issuecomment-423581857",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22800",
+    "id": 423581857,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMzU4MTg1Nw==",
+    "user": {
+      "login": "Twizzledrizzle",
+      "id": 6655099,
+      "node_id": "MDQ6VXNlcjY2NTUwOTk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6655099?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Twizzledrizzle",
+      "html_url": "https://github.com/Twizzledrizzle",
+      "followers_url": "https://api.github.com/users/Twizzledrizzle/followers",
+      "following_url": "https://api.github.com/users/Twizzledrizzle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Twizzledrizzle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Twizzledrizzle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Twizzledrizzle/subscriptions",
+      "organizations_url": "https://api.github.com/users/Twizzledrizzle/orgs",
+      "repos_url": "https://api.github.com/users/Twizzledrizzle/repos",
+      "events_url": "https://api.github.com/users/Twizzledrizzle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Twizzledrizzle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-21T15:50:11Z",
+    "updated_at": "2018-09-21T15:50:11Z",
+    "author_association": "NONE",
+    "body": "Fixed in the version I referred to, not broken. Anaconda has not upgraded to the new pandas yet :("
+  }
+]

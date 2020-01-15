@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/216473046",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13063#issuecomment-216473046",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13063",
+    "id": 216473046,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNjQ3MzA0Ng==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-03T09:02:37Z",
+    "updated_at": "2016-05-03T09:03:49Z",
+    "author_association": "MEMBER",
+    "body": "I suppose this related to the SO question: http://stackoverflow.com/questions/36998540/pd-read-csv-not-correctly-parsing-date-month-field-when-set-parse-date-colum\n\nAs was commented over there by `ajcr`, this is not a bug. The date format you are using (\"dd/mm/yy\") is not an international standard format (but a European one), and the default of the parser is to try to parse such dates as \"mm/dd/yy\" (more an American format I think). However, if this gives an error, it will try the other format. This is the reason you get inconsistent results between the rows in the csv.\n\nYou can pass `dayfirst=True` to `to_datetime`, and then the preference will be given to \"dd/mm/yy\" instead of to \"mm/dd/yy\".\n\nTypically you can also use `format=\"%d/%m/%y\"`, however (as you note) this will not work with the \"//1994\" dates (since this is another format).\n"
+  }
+]

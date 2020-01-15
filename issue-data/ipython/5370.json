@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/37897451",
+    "html_url": "https://github.com/ipython/ipython/issues/5370#issuecomment-37897451",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5370",
+    "id": 37897451,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3ODk3NDUx",
+    "user": {
+      "login": "JohnGriffiths",
+      "id": 397826,
+      "node_id": "MDQ6VXNlcjM5NzgyNg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/397826?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JohnGriffiths",
+      "html_url": "https://github.com/JohnGriffiths",
+      "followers_url": "https://api.github.com/users/JohnGriffiths/followers",
+      "following_url": "https://api.github.com/users/JohnGriffiths/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JohnGriffiths/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JohnGriffiths/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JohnGriffiths/subscriptions",
+      "organizations_url": "https://api.github.com/users/JohnGriffiths/orgs",
+      "repos_url": "https://api.github.com/users/JohnGriffiths/repos",
+      "events_url": "https://api.github.com/users/JohnGriffiths/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JohnGriffiths/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-18T03:54:05Z",
+    "updated_at": "2014-03-18T03:54:05Z",
+    "author_association": "NONE",
+    "body": "Done it. \n\nPR [here](https://github.com/ipython/ipython/pull/5373)  (my very first :)  )\n\nExample notebook [here](https://github.com/JohnGriffiths/nbconvert-examples/blob/enh/nbc_natbib_citations/citations/extended_natbib_citation_handling.ipynb)\n\n...not sure how to write a proper test; hopefully that will suffice. \n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/359853552",
+    "html_url": "https://github.com/grpc/grpc/issues/12381#issuecomment-359853552",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12381",
+    "id": 359853552,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1OTg1MzU1Mg==",
+    "user": {
+      "login": "drigz",
+      "id": 632207,
+      "node_id": "MDQ6VXNlcjYzMjIwNw==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/632207?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drigz",
+      "html_url": "https://github.com/drigz",
+      "followers_url": "https://api.github.com/users/drigz/followers",
+      "following_url": "https://api.github.com/users/drigz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drigz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drigz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drigz/subscriptions",
+      "organizations_url": "https://api.github.com/users/drigz/orgs",
+      "repos_url": "https://api.github.com/users/drigz/repos",
+      "events_url": "https://api.github.com/users/drigz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drigz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-23T16:46:23Z",
+    "updated_at": "2018-08-20T15:50:36Z",
+    "author_association": "NONE",
+    "body": "It appears that `proto_only` makes `cc_grpc_library` behave (slightly) like `cc_proto_library`. It's not clear to me why it duplicates the functionality of `cc_proto_library`."
+  }
+]

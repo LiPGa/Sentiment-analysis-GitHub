@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/94418702",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9949#issuecomment-94418702",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9949",
+    "id": 94418702,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk0NDE4NzAy",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-20T10:38:42Z",
+    "updated_at": "2015-04-20T10:38:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "you are violating guarantees by reaching in an doing an assignment by using the internals. Almost all pandas operations return a copy as they are pure functions (exceptions are indexing assignment and _in-place_ operations).\n\nYou can pass `copy=False` when constructing a `DataFrame` with a 2-d numpy array to have no-copy semantics. This is also possible with a 1-d numpy array to a `Series`. Note that this is not a 100% guarantee on some dtypes, e.g. `object` and `datetimelikes`.\n\nAssigning to column of a frame always generates a copy. You can investigate `concat` with a `copy=False` flag if you want.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/281151387",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15447#issuecomment-281151387",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15447",
+    "id": 281151387,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MTE1MTM4Nw==",
+    "user": {
+      "login": "toobaz",
+      "id": 1224492,
+      "node_id": "MDQ6VXNlcjEyMjQ0OTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1224492?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toobaz",
+      "html_url": "https://github.com/toobaz",
+      "followers_url": "https://api.github.com/users/toobaz/followers",
+      "following_url": "https://api.github.com/users/toobaz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toobaz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toobaz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toobaz/subscriptions",
+      "organizations_url": "https://api.github.com/users/toobaz/orgs",
+      "repos_url": "https://api.github.com/users/toobaz/repos",
+      "events_url": "https://api.github.com/users/toobaz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toobaz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-20T18:31:28Z",
+    "updated_at": "2017-02-20T18:31:28Z",
+    "author_association": "MEMBER",
+    "body": "The bug actually comes from ``SparseSeries.reindex()``\r\n\r\n``` python\r\nIn [8]: sparse.reindex(['A'], level=0)\r\nOut[8]: \r\nA   NaN\r\ndtype: float64\r\nBlockIndex\r\nBlock locations: array([], dtype=int32)\r\nBlock lengths: array([], dtype=int32)\r\n```\r\n\r\nPR on its way."
+  }
+]

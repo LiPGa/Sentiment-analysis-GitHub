@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/346220122",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18235#issuecomment-346220122",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18235",
+    "id": 346220122,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0NjIyMDEyMg==",
+    "user": {
+      "login": "jbrockmendel",
+      "id": 8078968,
+      "node_id": "MDQ6VXNlcjgwNzg5Njg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8078968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbrockmendel",
+      "html_url": "https://github.com/jbrockmendel",
+      "followers_url": "https://api.github.com/users/jbrockmendel/followers",
+      "following_url": "https://api.github.com/users/jbrockmendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbrockmendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbrockmendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbrockmendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbrockmendel/orgs",
+      "repos_url": "https://api.github.com/users/jbrockmendel/repos",
+      "events_url": "https://api.github.com/users/jbrockmendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbrockmendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-22T01:59:56Z",
+    "updated_at": "2017-11-22T01:59:56Z",
+    "author_association": "MEMBER",
+    "body": "On a closer look, it appears that the behavior is correct but misleading.  `QuarterEnd(startingMonth=2)` is an offset for quarters that start on Feb 1, May 1, Aug 1, Nov 1.  I assumed that `QuarterEnd(startingMonth=2)` would be an offset corresponding to the ends of those same quarters.  That is incorrect.  `QuarterEnd(startingMonth=2)` is an offset for quarters that end on Feb 2[89], May 31, Aug 31, Nov 30.\r\n\r\nI'm not the first to make this mistake or otherwise end up confused:\r\n- #5307  Parameter Name of startingMonth for QuarterEnd is Misleading\r\n- #8435 DEPR: QuarterBegin and BQuarterBegin return days that are not quarter beginnings\r\n- #17787 DOC: Anchored Offset Starting Quarter and Year defaults to JAN not DEC\r\n- #2885 Default for \"Q\" is not the same default for QuarterEnd\r\n\r\nI suggest the following:\r\n- `startingMonth` should be replaced with something non-camelCase anyway, so let's take the opportunity to replace a problematic kwarg with a clear one.\r\n- Just brainstorming here: `q1start_month=2` means Q1 begins Feb1 and ends Apr 30 (\\pm business days)\r\n- Methods of the form `to_qtr_end`, `to_qtr_business_begin`, `to_year_end` (hopefully its obvious what they would do).\r\n\r\nThoughts?  I'm happy to implement+test, but would like to get buy-in first."
+  }
+]

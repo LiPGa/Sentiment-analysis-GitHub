@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/439203912",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/15824#issuecomment-439203912",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15824",
+    "id": 439203912,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzOTIwMzkxMg==",
+    "user": {
+      "login": "alialias",
+      "id": 20455759,
+      "node_id": "MDQ6VXNlcjIwNDU1NzU5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20455759?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alialias",
+      "html_url": "https://github.com/alialias",
+      "followers_url": "https://api.github.com/users/alialias/followers",
+      "following_url": "https://api.github.com/users/alialias/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alialias/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alialias/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alialias/subscriptions",
+      "organizations_url": "https://api.github.com/users/alialias/orgs",
+      "repos_url": "https://api.github.com/users/alialias/repos",
+      "events_url": "https://api.github.com/users/alialias/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alialias/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-15T21:53:38Z",
+    "updated_at": "2018-11-15T21:53:38Z",
+    "author_association": "NONE",
+    "body": "I was browsing around and found the OpenRA Red Alert 2 page, where there is a recommendation to have Mono installed. I followed the instructions to install it, and the game now works. \r\n\r\nClosing issue."
+  }
+]

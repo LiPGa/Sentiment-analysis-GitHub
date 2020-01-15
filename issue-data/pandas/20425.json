@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/374748039",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20425#issuecomment-374748039",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20425",
+    "id": 374748039,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3NDc0ODAzOQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-20T20:37:51Z",
+    "updated_at": "2018-03-20T20:39:08Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Sorry about that, already fixed in master, https://github.com/pandas-dev/pandas/pull/16339 I think. We're hoping to have a release out in a couple weeks.\r\n\r\nFor now, you can work around by ensuring that your unordered categories have the same categories order. (if they have different categories, that's fine too. This is only an issue when the categories are unordered, the same set, but in a different order).\r\n\r\n`cat2 = cat2.set_categories(cat1.categories)`"
+  }
+]

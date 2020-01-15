@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/475908024",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25850#issuecomment-475908024",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25850",
+    "id": 475908024,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NTkwODAyNA==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-23T21:55:48Z",
+    "updated_at": "2019-03-23T21:55:48Z",
+    "author_association": "MEMBER",
+    "body": "There's a lot going on here and it's not immediately apparent what the issue is. I also wasn't able to reproduce what you've provided at the end.\r\n\r\nIf you are just starting out be sure to check out the docs on indexing and assignment:\r\n\r\nhttp://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html\r\n\r\nIf you have usage questions you are better off asking on StackOverflow and then migrating to here if you can identify a bug or have an enhancement idea"
+  }
+]

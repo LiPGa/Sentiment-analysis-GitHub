@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/462869998",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25283#issuecomment-462869998",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25283",
+    "id": 462869998,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2Mjg2OTk5OA==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-12T18:08:18Z",
+    "updated_at": "2019-02-12T18:13:02Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, the cause the error looks to be in `IntervalDtype` when a close but invalid string is passed:\r\n```python\r\nIn [1]: import pandas as pd; pd.__version__\r\nOut[1]: '0.25.0.dev0+86.g1d1b14c7e'\r\n\r\nIn [2]: pd.api.types.IntervalDtype('IntervalA')\r\n---------------------------------------------------------------------------\r\nRecursionError: maximum recursion depth exceeded in __instancecheck__\r\n\r\nIn [3]: pd.api.types.IntervalDtype.construct_from_string('IntervalA')\r\n---------------------------------------------------------------------------\r\nRecursionError: maximum recursion depth exceeded while calling a Python object\r\n\r\nIn [4]: pd.api.types.IntervalDtype.is_dtype('IntervalA')\r\n---------------------------------------------------------------------------\r\nRecursionError: maximum recursion depth exceeded\r\n```\r\nThe correct output is: `[2]` and `[3]` should raise, and `[4]` should return `False`.\r\n\r\nThe fix is to more strongly enforce what the `IntervalDtype` looks for when parsing strings.  The valid string representations for an `IntervalDtype` are `'interval'` or `'interval[<subtype>]'` (e.g. `'interval[int64]'`) with the leading 'i' optionally being capitalized.\r\n\r\nThe `RecursionError` in `IntervalDtype` itself is a bug that was present in 0.23.4 and it looks like some changes in 0.24.0 surfaced this bug in the code responsible for filtering."
+  }
+]

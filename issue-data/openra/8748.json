@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/122678679",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8748#issuecomment-122678679",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8748",
+    "id": 122678679,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMjY3ODY3OQ==",
+    "user": {
+      "login": "Phrohdoh",
+      "id": 4861023,
+      "node_id": "MDQ6VXNlcjQ4NjEwMjM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4861023?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Phrohdoh",
+      "html_url": "https://github.com/Phrohdoh",
+      "followers_url": "https://api.github.com/users/Phrohdoh/followers",
+      "following_url": "https://api.github.com/users/Phrohdoh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Phrohdoh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Phrohdoh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Phrohdoh/subscriptions",
+      "organizations_url": "https://api.github.com/users/Phrohdoh/orgs",
+      "repos_url": "https://api.github.com/users/Phrohdoh/repos",
+      "events_url": "https://api.github.com/users/Phrohdoh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Phrohdoh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-19T16:29:46Z",
+    "updated_at": "2015-07-19T16:29:46Z",
+    "author_association": "MEMBER",
+    "body": "Correct, we will need their `syncreport.log`s, also.\n\nIf anyone has restarted OpenRA since the crash the logs will be cleared.\n"
+  }
+]

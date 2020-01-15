@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/174888338",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10604#issuecomment-174888338",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10604",
+    "id": 174888338,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NDg4ODMzOA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T08:26:28Z",
+    "updated_at": "2016-01-26T08:26:28Z",
+    "author_association": "MEMBER",
+    "body": "No.  Android support is not planned.  The limitations of mono on Android (and iOS) mean that it probably isn't possible.\n"
+  }
+]

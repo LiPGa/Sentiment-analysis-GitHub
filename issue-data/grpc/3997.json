@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/152254348",
+    "html_url": "https://github.com/grpc/grpc/pull/3997#issuecomment-152254348",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/3997",
+    "id": 152254348,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MjI1NDM0OA==",
+    "user": {
+      "login": "a-veitch",
+      "id": 10503072,
+      "node_id": "MDQ6VXNlcjEwNTAzMDcy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10503072?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/a-veitch",
+      "html_url": "https://github.com/a-veitch",
+      "followers_url": "https://api.github.com/users/a-veitch/followers",
+      "following_url": "https://api.github.com/users/a-veitch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/a-veitch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/a-veitch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/a-veitch/subscriptions",
+      "organizations_url": "https://api.github.com/users/a-veitch/orgs",
+      "repos_url": "https://api.github.com/users/a-veitch/repos",
+      "events_url": "https://api.github.com/users/a-veitch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/a-veitch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-29T17:17:28Z",
+    "updated_at": "2015-10-29T17:17:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "On my linux workstation, prior to this fix:\n\ntime ./bins/tsan/gpr_cpu_test\nD1028 14:27:10.358874865    9756 test_config.c:155]          test slowdown: machine=1.000000 build=10.000000 total=10.000000\nSaw cores [0,1,2,3,4,5,6,7,8,9,10,11,](12/12)\n\nreal    4m26.233s\nuser    42m47.855s\nsys 0m3.674s\n\n(no wonder it was timing out...)\n\nAnd after:\n\ntime ./bins/tsan/gpr_cpu_test\nD1029 10:06:52.988625265   31257 test_config.c:155]          test slowdown: machine=1.000000 build=10.000000 total=10.000000\nSaw cores [0,1,2,3,4,5,6,7,8,9,10,11,](12/12)\n\nreal    0m8.637s\nuser    1m17.743s\nsys 0m0.471s\n"
+  }
+]

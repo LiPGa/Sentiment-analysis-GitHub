@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/6253929",
+    "html_url": "https://github.com/ipython/ipython/pull/1911#issuecomment-6253929",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1911",
+    "id": 6253929,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYyNTM5Mjk=",
+    "user": {
+      "login": "fperez",
+      "id": 57394,
+      "node_id": "MDQ6VXNlcjU3Mzk0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fperez",
+      "html_url": "https://github.com/fperez",
+      "followers_url": "https://api.github.com/users/fperez/followers",
+      "following_url": "https://api.github.com/users/fperez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fperez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fperez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fperez/subscriptions",
+      "organizations_url": "https://api.github.com/users/fperez/orgs",
+      "repos_url": "https://api.github.com/users/fperez/repos",
+      "events_url": "https://api.github.com/users/fperez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fperez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-06-11T19:44:07Z",
+    "updated_at": "2012-06-11T19:44:07Z",
+    "author_association": "MEMBER",
+    "body": "OK, I've made #1912 so we don't lose track of the issue (FIXMES in code we tend to forget about, though obviously it's good you put it in).  Merging now, thanks for the swift action; code looks good.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/382279520",
+    "html_url": "https://github.com/grpc/grpc/issues/15095#issuecomment-382279520",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15095",
+    "id": 382279520,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4MjI3OTUyMA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-18T06:41:42Z",
+    "updated_at": "2018-04-18T06:42:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Copy pasting the explanation given offline:\r\n\r\n_I believe things are working as expected. Copying of the native libraries under netstandard1.5 is handled by dotnet directly (the targets file build\\net45\\Grpc.Core.targets  is only needed for .NET45 as this version doesn't have support for native libraries in nugets) and libraries under runtimes\\*\\native should be automatically made available.\r\nWe have some continuous tests that are verifying this is the case and they are passing consistently, do you have any evidence in the contrary? If so, please file an issue at https://github.com/grpc/grpc/issues and we can follow up from there._"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/264342823",
+    "html_url": "https://github.com/grpc/grpc/issues/8711#issuecomment-264342823",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8711",
+    "id": 264342823,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NDM0MjgyMw==",
+    "user": {
+      "login": "muxi",
+      "id": 1054404,
+      "node_id": "MDQ6VXNlcjEwNTQ0MDQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1054404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muxi",
+      "html_url": "https://github.com/muxi",
+      "followers_url": "https://api.github.com/users/muxi/followers",
+      "following_url": "https://api.github.com/users/muxi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muxi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muxi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muxi/subscriptions",
+      "organizations_url": "https://api.github.com/users/muxi/orgs",
+      "repos_url": "https://api.github.com/users/muxi/repos",
+      "events_url": "https://api.github.com/users/muxi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muxi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-02T00:56:39Z",
+    "updated_at": "2016-12-02T00:56:39Z",
+    "author_association": "MEMBER",
+    "body": "Hi, can you elaborate your question please? We are not quite sure what you mean by \"certificate adaptation\" and what you would like to achieve.\r\n\r\nFor those two mechods, if you want to use gRPC without TLS security, you can use useInsecureConnectionsForHost. If you do want TLS you use setTLSPEMRootCerts."
+  }
+]

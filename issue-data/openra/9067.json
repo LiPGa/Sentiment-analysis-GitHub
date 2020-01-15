@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/131577479",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9067#issuecomment-131577479",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9067",
+    "id": 131577479,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzMTU3NzQ3OQ==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-16T16:08:45Z",
+    "updated_at": "2015-08-16T16:08:45Z",
+    "author_association": "MEMBER",
+    "body": "We already support generic tooltip names https://github.com/OpenRA/OpenRA/pull/6613 so we can have both:\n\n``` yaml\nTooltip:\n        Name: Westwood Studios\n        GenericName: Civilian Building\n```\n\nIn fact all those civilian buildings had names attached: http://nyerguds.arsaneus-design.com/cnc95upd/inirules/structs.ini\n"
+  }
+]

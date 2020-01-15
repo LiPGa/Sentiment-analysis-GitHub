@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/71881379",
+    "html_url": "https://github.com/ipython/ipython/issues/7617#issuecomment-71881379",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7617",
+    "id": 71881379,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcxODgxMzc5",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-28T17:51:53Z",
+    "updated_at": "2015-01-28T17:51:53Z",
+    "author_association": "MEMBER",
+    "body": "The reason is that IPython tries to handle code copied and pasted from an interactive prompt, like this:\n\n```\n>>> a = \"\"\"\n... 123\"\"\"\n```\n\nPeople often start selecting after the `>>>` prompt, so if the second line starts with `...`, it assumes that it's copied from an interactive session.\n\nIn IPython 2.x, it matches anything starting with `...`; #6027 made it a bit more specific, so that it matches `...` followed by either a space or the end of the line. That will make the example you gave work correctly in IPython 3.0.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/384982416",
+    "html_url": "https://github.com/ipython/ipython/issues/11037#issuecomment-384982416",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11037",
+    "id": 384982416,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NDk4MjQxNg==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-27T14:12:53Z",
+    "updated_at": "2018-04-27T14:12:53Z",
+    "author_association": "MEMBER",
+    "body": "This would probably belong on https://github.com/jupyter/notebook , but I don't think there's anything we can do about it from Jupyter/IPython. I don't think you can control the context Javascript will run in when you add it to the page as part of some HTML.\r\n\r\nOne option for you might be to include in your HTML an empty div with a unique ID, and use that to display errors. Or you might just let the errors go to the Javascript console in the browser; that's where we generally expect to see Javascript errors reported."
+  }
+]

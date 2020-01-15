@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/320629577",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17189#issuecomment-320629577",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17189",
+    "id": 320629577,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDYyOTU3Nw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-07T10:34:34Z",
+    "updated_at": "2017-08-07T10:34:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "what you are doing is inherently ambiguous; these timezones are not aliases of each other, rather distinct.\r\n\r\n```\r\nIn [32]: pytz.FixedOffset(120) == pytz.timezone('Europe/Berlin')\r\nOut[32]: False\r\n```\r\n\r\nThis is not a bug, rather you need to convert the tz.\r\n\r\ne.g.\r\n\r\n```\r\nIn [27]: pd.date_range(start='2017-06-01 00:00:00+02:00',\r\n    ...:               end='2017-08-01 00:00:00+02:00',\r\n    ...:               freq='15min').tz_convert('Europe/Berlin')\r\n    ...:               \r\n    ...:               \r\nOut[27]: \r\nDatetimeIndex(['2017-06-01 00:00:00+02:00', '2017-06-01 00:15:00+02:00',\r\n               '2017-06-01 00:30:00+02:00', '2017-06-01 00:45:00+02:00',\r\n               '2017-06-01 01:00:00+02:00', '2017-06-01 01:15:00+02:00',\r\n               '2017-06-01 01:30:00+02:00', '2017-06-01 01:45:00+02:00',\r\n               '2017-06-01 02:00:00+02:00', '2017-06-01 02:15:00+02:00',\r\n               ...\r\n               '2017-07-31 21:45:00+02:00', '2017-07-31 22:00:00+02:00',\r\n               '2017-07-31 22:15:00+02:00', '2017-07-31 22:30:00+02:00',\r\n               '2017-07-31 22:45:00+02:00', '2017-07-31 23:00:00+02:00',\r\n               '2017-07-31 23:15:00+02:00', '2017-07-31 23:30:00+02:00',\r\n               '2017-07-31 23:45:00+02:00', '2017-08-01 00:00:00+02:00'],\r\n              dtype='datetime64[ns, Europe/Berlin]', length=5857, freq='15T')\r\n```"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/240381993",
+    "html_url": "https://github.com/ipython/ipython/issues/9880#issuecomment-240381993",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9880",
+    "id": 240381993,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MDM4MTk5Mw==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-17T11:12:34Z",
+    "updated_at": "2016-08-17T11:12:34Z",
+    "author_association": "MEMBER",
+    "body": "Sorry, it won't process the completion request until it finishes with the execution request. I think it does some very simple completions in the frontend (i.e. for words you've already used), but the full completions rely on the kernel responding to a message. We'll keep it in mind, but it would require big changes that aren't likely to happen any time soon.\n"
+  }
+]

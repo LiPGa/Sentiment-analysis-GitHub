@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/314191386",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16875#issuecomment-314191386",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16875",
+    "id": 314191386,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNDE5MTM4Ng==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-10T18:20:16Z",
+    "updated_at": "2017-07-10T18:20:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looks essentially the same as #10972, which was closed by #15430, but apparently didn't capture this case.  `apply` does do the right inference here:\r\n\r\n```\r\nIn [2]: df.groupby('B').A.apply(lambda x: True)\r\nOut[2]:\r\nB\r\n1    True\r\n2    True\r\nName: A, dtype: bool\r\n```"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/224526729",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13396#issuecomment-224526729",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13396",
+    "id": 224526729,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNDUyNjcyOQ==",
+    "user": {
+      "login": "jluttine",
+      "id": 2195834,
+      "node_id": "MDQ6VXNlcjIxOTU4MzQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2195834?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jluttine",
+      "html_url": "https://github.com/jluttine",
+      "followers_url": "https://api.github.com/users/jluttine/followers",
+      "following_url": "https://api.github.com/users/jluttine/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jluttine/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jluttine/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jluttine/subscriptions",
+      "organizations_url": "https://api.github.com/users/jluttine/orgs",
+      "repos_url": "https://api.github.com/users/jluttine/repos",
+      "events_url": "https://api.github.com/users/jluttine/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jluttine/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-08T08:44:04Z",
+    "updated_at": "2016-06-08T08:44:04Z",
+    "author_association": "NONE",
+    "body": "Ooohps, duplicate of https://github.com/pydata/pandas/issues/9351\n"
+  }
+]

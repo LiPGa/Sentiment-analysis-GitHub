@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/318770122",
+    "html_url": "https://github.com/grpc/grpc/issues/11974#issuecomment-318770122",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11974",
+    "id": 318770122,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxODc3MDEyMg==",
+    "user": {
+      "login": "adelez",
+      "id": 14932100,
+      "node_id": "MDQ6VXNlcjE0OTMyMTAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14932100?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adelez",
+      "html_url": "https://github.com/adelez",
+      "followers_url": "https://api.github.com/users/adelez/followers",
+      "following_url": "https://api.github.com/users/adelez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adelez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adelez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adelez/subscriptions",
+      "organizations_url": "https://api.github.com/users/adelez/orgs",
+      "repos_url": "https://api.github.com/users/adelez/repos",
+      "events_url": "https://api.github.com/users/adelez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adelez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-28T21:51:14Z",
+    "updated_at": "2017-07-28T21:51:14Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Duplicate of #10763"
+  }
+]

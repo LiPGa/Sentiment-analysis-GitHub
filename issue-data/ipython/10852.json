@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/335007493",
+    "html_url": "https://github.com/ipython/ipython/issues/10852#issuecomment-335007493",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10852",
+    "id": 335007493,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzNTAwNzQ5Mw==",
+    "user": {
+      "login": "parmentelat",
+      "id": 4519227,
+      "node_id": "MDQ6VXNlcjQ1MTkyMjc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4519227?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/parmentelat",
+      "html_url": "https://github.com/parmentelat",
+      "followers_url": "https://api.github.com/users/parmentelat/followers",
+      "following_url": "https://api.github.com/users/parmentelat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/parmentelat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/parmentelat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/parmentelat/subscriptions",
+      "organizations_url": "https://api.github.com/users/parmentelat/orgs",
+      "repos_url": "https://api.github.com/users/parmentelat/repos",
+      "events_url": "https://api.github.com/users/parmentelat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/parmentelat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-08T13:42:56Z",
+    "updated_at": "2017-10-08T13:42:56Z",
+    "author_association": "NONE",
+    "body": "I can confirm that using an older image release has fixed my problem.\r\n\r\nSo I'm closing this issue here and will open an issue in the docker-stacks repo instead.\r\n\r\nsorry for the noise \r\nfor the record, here are the versions of the images that I"
+  }
+]

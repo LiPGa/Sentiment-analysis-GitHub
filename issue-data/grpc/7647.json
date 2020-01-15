@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/237990631",
+    "html_url": "https://github.com/grpc/grpc/issues/7647#issuecomment-237990631",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7647",
+    "id": 237990631,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNzk5MDYzMQ==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-05T23:45:57Z",
+    "updated_at": "2016-08-05T23:45:57Z",
+    "author_association": "MEMBER",
+    "body": "https://github.com/grpc/grpc/blob/master/src/core/lib/iomgr/ev_epoll_linux.c#L1867 is supposed to do just that.\n"
+  }
+]

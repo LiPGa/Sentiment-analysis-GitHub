@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/303614104",
+    "html_url": "https://github.com/ipython/ipython/pull/10590#issuecomment-303614104",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10590",
+    "id": 303614104,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMzYxNDEwNA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-24T04:24:36Z",
+    "updated_at": "2017-05-24T04:24:36Z",
+    "author_association": "MEMBER",
+    "body": "There is a reminding bytes+str/str+bytes warning if you run \r\n\r\n```bash\r\n$ mypy IPython/core/completer.py --ignore-missing-imports  --follow-import skip\r\n```"
+  }
+]

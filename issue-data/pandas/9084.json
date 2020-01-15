@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/211439731",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9084#issuecomment-211439731",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9084",
+    "id": 211439731,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxMTQzOTczMQ==",
+    "user": {
+      "login": "trbs",
+      "id": 65552,
+      "node_id": "MDQ6VXNlcjY1NTUy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/65552?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/trbs",
+      "html_url": "https://github.com/trbs",
+      "followers_url": "https://api.github.com/users/trbs/followers",
+      "following_url": "https://api.github.com/users/trbs/following{/other_user}",
+      "gists_url": "https://api.github.com/users/trbs/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/trbs/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/trbs/subscriptions",
+      "organizations_url": "https://api.github.com/users/trbs/orgs",
+      "repos_url": "https://api.github.com/users/trbs/repos",
+      "events_url": "https://api.github.com/users/trbs/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/trbs/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-18T15:47:00Z",
+    "updated_at": "2016-04-18T15:47:00Z",
+    "author_association": "NONE",
+    "body": "I can create a PR for this if wanted.\n\nWould we want the patch (i assume so) to be backwards compatible with `index=False` as the default for `get_schema` or have the PR conform to the default `index=True` value as is used in other places else. (meanly `to_sql`)\n"
+  }
+]

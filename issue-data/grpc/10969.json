@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/299061975",
+    "html_url": "https://github.com/grpc/grpc/issues/10969#issuecomment-299061975",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10969",
+    "id": 299061975,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5OTA2MTk3NQ==",
+    "user": {
+      "login": "matt-kwong",
+      "id": 22083734,
+      "node_id": "MDQ6VXNlcjIyMDgzNzM0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22083734?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matt-kwong",
+      "html_url": "https://github.com/matt-kwong",
+      "followers_url": "https://api.github.com/users/matt-kwong/followers",
+      "following_url": "https://api.github.com/users/matt-kwong/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matt-kwong/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matt-kwong/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matt-kwong/subscriptions",
+      "organizations_url": "https://api.github.com/users/matt-kwong/orgs",
+      "repos_url": "https://api.github.com/users/matt-kwong/repos",
+      "events_url": "https://api.github.com/users/matt-kwong/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matt-kwong/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-03T23:17:56Z",
+    "updated_at": "2017-05-03T23:17:56Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I fixed the first issue described by cleaning up the VM (not enough space). The second issue is tracked by #10839"
+  }
+]

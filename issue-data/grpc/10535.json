@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/292752788",
+    "html_url": "https://github.com/grpc/grpc/issues/10535#issuecomment-292752788",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10535",
+    "id": 292752788,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5Mjc1Mjc4OA==",
+    "user": {
+      "login": "sreecha",
+      "id": 2754995,
+      "node_id": "MDQ6VXNlcjI3NTQ5OTU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2754995?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sreecha",
+      "html_url": "https://github.com/sreecha",
+      "followers_url": "https://api.github.com/users/sreecha/followers",
+      "following_url": "https://api.github.com/users/sreecha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sreecha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sreecha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sreecha/subscriptions",
+      "organizations_url": "https://api.github.com/users/sreecha/orgs",
+      "repos_url": "https://api.github.com/users/sreecha/repos",
+      "events_url": "https://api.github.com/users/sreecha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sreecha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-08T23:30:16Z",
+    "updated_at": "2017-04-08T23:30:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is a dup of issue #10530  and the fix is in PR #10531 "
+  }
+]

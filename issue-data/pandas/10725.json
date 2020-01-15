@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/127146943",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10725#issuecomment-127146943",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10725",
+    "id": 127146943,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNzE0Njk0Mw==",
+    "user": {
+      "login": "cel4",
+      "id": 3819470,
+      "node_id": "MDQ6VXNlcjM4MTk0NzA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3819470?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cel4",
+      "html_url": "https://github.com/cel4",
+      "followers_url": "https://api.github.com/users/cel4/followers",
+      "following_url": "https://api.github.com/users/cel4/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cel4/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cel4/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cel4/subscriptions",
+      "organizations_url": "https://api.github.com/users/cel4/orgs",
+      "repos_url": "https://api.github.com/users/cel4/repos",
+      "events_url": "https://api.github.com/users/cel4/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cel4/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-03T07:25:04Z",
+    "updated_at": "2015-08-03T07:25:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I have put together a short proof of principle notebook: https://gist.github.com/cel4/efd78f79c4dbcb3acfd3\n\nIn principle this should just be a simple postprocessing step.\n"
+  }
+]

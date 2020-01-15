@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/39027312",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4069#issuecomment-39027312",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4069",
+    "id": 39027312,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDI3MzEy",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-30T14:54:10Z",
+    "updated_at": "2014-03-30T14:54:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\nIn [17]: d\nOut[17]: datetime.datetime(2013, 6, 28, 8, 10)\n\nIn [18]: d + BDay()\nOut[18]: Timestamp('2013-07-01 08:10:00')\n\nIn [19]: d + BDay(0)\nOut[19]: Timestamp('2013-06-28 08:10:00')\n\nIn [20]: d + BMonthEnd(0)\nOut[20]: Timestamp('2013-06-28 00:00:00')\n\nIn [21]: d + BMonthEnd(1)\nOut[21]: datetime.datetime(2013, 7, 31, 0, 0)\n```\n\nI think this is correct, it is advancing to the _next_ month end (you can specify 0 if you don't want that).\n\nexposed a different issue though, this should be returning Timestamps.....\n"
+  }
+]

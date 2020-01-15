@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/371992903",
+    "html_url": "https://github.com/grpc/grpc/issues/14602#issuecomment-371992903",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14602",
+    "id": 371992903,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MTk5MjkwMw==",
+    "user": {
+      "login": "sreecha",
+      "id": 2754995,
+      "node_id": "MDQ6VXNlcjI3NTQ5OTU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2754995?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sreecha",
+      "html_url": "https://github.com/sreecha",
+      "followers_url": "https://api.github.com/users/sreecha/followers",
+      "following_url": "https://api.github.com/users/sreecha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sreecha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sreecha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sreecha/subscriptions",
+      "organizations_url": "https://api.github.com/users/sreecha/orgs",
+      "repos_url": "https://api.github.com/users/sreecha/repos",
+      "events_url": "https://api.github.com/users/sreecha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sreecha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-10T01:53:28Z",
+    "updated_at": "2018-03-10T01:53:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi @hongliping7 ,\r\n\r\nFor the example you mentioned, if the server crashes, your write operation from the client also should fail (since the connection is broken, it is detected and that cancels all pending calls on that channel and destroys it). You should receive an event on the completion queue saying your operation failed.\r\n\r\nHowever, if you are doing a read from the client side but the server crashed (but it was not detected yet), you can always pass a 'deadline' to the completion-queue-next call (see [here](https://github.com/grpc/grpc/blob/v1.10.0/include/grpcpp/impl/codegen/completion_queue.h#L186)) and then cancel your call if the deadline passed.\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/377591377",
+    "html_url": "https://github.com/grpc/grpc/issues/14757#issuecomment-377591377",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14757",
+    "id": 377591377,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3NzU5MTM3Nw==",
+    "user": {
+      "login": "danieltahara",
+      "id": 1313465,
+      "node_id": "MDQ6VXNlcjEzMTM0NjU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1313465?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danieltahara",
+      "html_url": "https://github.com/danieltahara",
+      "followers_url": "https://api.github.com/users/danieltahara/followers",
+      "following_url": "https://api.github.com/users/danieltahara/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danieltahara/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danieltahara/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danieltahara/subscriptions",
+      "organizations_url": "https://api.github.com/users/danieltahara/orgs",
+      "repos_url": "https://api.github.com/users/danieltahara/repos",
+      "events_url": "https://api.github.com/users/danieltahara/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danieltahara/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-30T18:32:48Z",
+    "updated_at": "2018-03-30T18:32:48Z",
+    "author_association": "NONE",
+    "body": "Closing as a grpc-go seems a more appropriate place for the FR. https://github.com/grpc/grpc-go/issues/1956"
+  }
+]

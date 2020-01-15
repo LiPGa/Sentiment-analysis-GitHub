@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/271362484",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/15083#issuecomment-271362484",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15083",
+    "id": 271362484,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MTM2MjQ4NA==",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-09T18:22:22Z",
+    "updated_at": "2017-01-09T18:22:22Z",
+    "author_association": "NONE",
+    "body": "Closing this pull request since it does not resolve the issue."
+  }
+]

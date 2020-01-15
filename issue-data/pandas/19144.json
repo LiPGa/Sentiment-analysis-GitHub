@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/356150801",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19144#issuecomment-356150801",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19144",
+    "id": 356150801,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NjE1MDgwMQ==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-01-09T01:28:05Z",
+    "updated_at": "2018-01-09T01:50:04Z",
+    "author_association": "MEMBER",
+    "body": "To expand slightly:  this only appears to be an issue with `Float64Index`, other indexes appear to be behaving properly.\r\n\r\nThe FutureWarning for partial matches also does not appear to be working for `Float64Index`:\r\n```python\r\nIn [2]: s = pd.Series(['foo', 'bar', 'baz'], index=pd.Float64Index([0, 1, 2]))\r\n\r\nIn [3]: s\r\nOut[3]:\r\n0.0    foo\r\n1.0    bar\r\n2.0    baz\r\ndtype: object\r\n\r\nIn [4]: s.loc[[2.0, 3.0]]\r\nOut[4]:\r\n2.0    baz\r\n3.0    NaN\r\ndtype: object\r\n```\r\n\r\nWhereas the FutureWarning works for other types of index, e.g. `RangeIndex`:\r\n```python\r\nIn [5]: s2 = pd.Series(['foo', 'bar', 'baz'])\r\n\r\nIn [6]: s2\r\nOut[6]:\r\n0    foo\r\n1    bar\r\n2    baz\r\ndtype: object\r\n\r\nIn [7]: s2.loc[[2, 3]]\r\nFutureWarning:\r\nPassing list-likes to .loc or [] with any missing label will raise\r\nKeyError in the future, you can use .reindex() as an alternative.\r\n\r\nSee the documentation here:\r\nhttps://pandas.pydata.org/pandas-docs/stable/indexing.html#deprecate-loc-reindex-listlike\r\n  if __name__ == '__main__':\r\nOut[7]:\r\n2    baz\r\n3    NaN\r\ndtype: object\r\n```\r\n  \r\n  "
+  }
+]

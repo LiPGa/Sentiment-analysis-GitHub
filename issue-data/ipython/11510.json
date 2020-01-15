@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/443291703",
+    "html_url": "https://github.com/ipython/ipython/issues/11510#issuecomment-443291703",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11510",
+    "id": 443291703,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MzI5MTcwMw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-30T18:15:56Z",
+    "updated_at": "2018-11-30T18:15:56Z",
+    "author_association": "MEMBER",
+    "body": "Those are ANSI escape code, they should be `\\` instead of `#` and should not be visible. They are due to prompt_toolkit. \r\n\r\nIn your terminal if you issue a `$ infocmp`, it should tell you which capabilities your terminal has. \r\nFor example mine:\r\n\r\n```\r\n$ infocmp\r\n#\tReconstructed via infocmp from file: /Users/mbussonnier/miniconda3/share/terminfo/78/xterm-256color\r\nxterm-256color|xterm with 256 colors,\r\n\tam, bce, ccc, km, mc5i, mir, msgr, npc, xenl,\r\n\tcolors#0x100, cols#80, it#8, lines#24, pairs#0x10000,\r\n\tacsc=``aaffggiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~,\r\n\tbel=^G, blink=\\E[5m, bold=\\E[1m, cbt=\\E[Z, civis=\\E[?25l,\r\n\tclear=\\E[H\\E[2J, cnorm=\\E[?12l\\E[?25h, cr=\\r\r\n        ....\r\n```\r\n\r\nTell me that I can enable \"blink\" with `\\E[5m`, make the cursor invisible with `civis=\\E[?25l`.\r\n\r\nAs said above this is likely not done by IPython, but prompt toolkit. \r\n\r\nIf you are running IPython as a subprocess, you likely want to use `--simple-prompt` option that deactivate all the bells and whistles as well as remove those cursor movement and coloration sequences. "
+  }
+]

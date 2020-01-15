@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/4458495",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/874#issuecomment-4458495",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/874",
+    "id": 4458495,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NTg0OTU=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-03-12T18:32:58Z",
+    "updated_at": "2012-03-12T18:32:58Z",
+    "author_association": "MEMBER",
+    "body": "@changhiskhan take a look. added first/min/max tiebreak handling options via a `method` argument to Series and DataFrame rank\n"
+  }
+]

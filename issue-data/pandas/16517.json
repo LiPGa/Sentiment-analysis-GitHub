@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/304364225",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16517#issuecomment-304364225",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16517",
+    "id": 304364225,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNDM2NDIyNQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-26T19:05:59Z",
+    "updated_at": "2017-05-26T19:05:59Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "``.values`` constructs a consolidated (single) dtyped np.array. since you have object dtypes (strings), this is ``object``. It is newly constructed each time. So hashing doesn't work\r\n\r\n```\r\nIn [3]: id(df.values)\r\nOut[3]: 4545762848\r\n\r\nIn [4]: id(df.values)\r\nOut[4]: 4546427680\r\n```\r\n\r\nHowever, you *can* as of 0.20.1, use the included hashing functions which are public (though minimal documentation, except for doc-string), to efficiently hash data. These are a pure data hash and are based on siphashing with a common scheme.\r\n```\r\nIn [5]: from pandas.util import hash_pandas_object\r\n\r\nIn [6]: hash_pandas_object(df)\r\nOut[6]: \r\n0     9162640643739096251\r\n1    10885429402166970872\r\n2    13102355359759172147\r\ndtype: uint64\r\n\r\nIn [7]: hash_pandas_object(df)\r\nOut[7]: \r\n0     9162640643739096251\r\n1    10885429402166970872\r\n2    13102355359759172147\r\ndtype: uint64\r\n\r\n```"
+  }
+]

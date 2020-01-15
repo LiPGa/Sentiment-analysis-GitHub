@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/471750336",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25674#issuecomment-471750336",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25674",
+    "id": 471750336,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MTc1MDMzNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-11T21:54:42Z",
+    "updated_at": "2019-03-11T21:54:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Seems to be fixed on master.\r\n\r\n```python\r\nIn [10]: import pandas as pd\r\n    ...: import numpy as np\r\n    ...:\r\n    ...: data1 = pd.DataFrame.from_dict({\r\n    ...:     'id': [1],\r\n    ...:     'A' : [np.nan]\r\n    ...:     }).astype({'id':\"int64\", \"A\":\"Int64\"})\r\n    ...:\r\n    ...: data2 = pd.DataFrame.from_dict({\r\n    ...:     'id': [1],\r\n    ...:     'B' : [3]\r\n    ...:     }).astype({'id':\"int64\", \"B\":\"Int64\"})\r\n    ...:\r\n    ...: data1.merge(data2, on=\"id\")\r\n    ...:\r\nOut[10]:\r\n   id    A  B\r\n0   1  NaN  3\r\n\r\nIn [11]: _.dtypes\r\nOut[11]:\r\nid    int64\r\nA     Int64\r\nB     Int64\r\ndtype: object\r\n```"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/21677731",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4387#issuecomment-21677731",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4387",
+    "id": 21677731,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNjc3NzMx",
+    "user": {
+      "login": "tesla1060",
+      "id": 1774378,
+      "node_id": "MDQ6VXNlcjE3NzQzNzg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1774378?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tesla1060",
+      "html_url": "https://github.com/tesla1060",
+      "followers_url": "https://api.github.com/users/tesla1060/followers",
+      "following_url": "https://api.github.com/users/tesla1060/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tesla1060/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tesla1060/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tesla1060/subscriptions",
+      "organizations_url": "https://api.github.com/users/tesla1060/orgs",
+      "repos_url": "https://api.github.com/users/tesla1060/repos",
+      "events_url": "https://api.github.com/users/tesla1060/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tesla1060/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-28T06:00:10Z",
+    "updated_at": "2013-07-28T06:00:10Z",
+    "author_association": "NONE",
+    "body": "Update:\nIt seems because they are share x axis.\nThe below wont work if `sharex=True` is not removed.\n\n```\n f, axarr = plt.subplots(2, sharex=True)\ndf.A.plot(legend=True, style='r', ax=axarr[0])\ndf.B.plot(ax=axarr[1], kind='bar', legend=True)\nplt.show()\n```\n"
+  }
+]

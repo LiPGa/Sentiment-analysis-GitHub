@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/478342867",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25919#issuecomment-478342867",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25919",
+    "id": 478342867,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODM0Mjg2Nw==",
+    "user": {
+      "login": "simonjayhawkins",
+      "id": 13159005,
+      "node_id": "MDQ6VXNlcjEzMTU5MDA1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13159005?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/simonjayhawkins",
+      "html_url": "https://github.com/simonjayhawkins",
+      "followers_url": "https://api.github.com/users/simonjayhawkins/followers",
+      "following_url": "https://api.github.com/users/simonjayhawkins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/simonjayhawkins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/simonjayhawkins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/simonjayhawkins/subscriptions",
+      "organizations_url": "https://api.github.com/users/simonjayhawkins/orgs",
+      "repos_url": "https://api.github.com/users/simonjayhawkins/repos",
+      "events_url": "https://api.github.com/users/simonjayhawkins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/simonjayhawkins/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-31T13:38:24Z",
+    "updated_at": "2019-03-31T13:38:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "see also #13021"
+  }
+]

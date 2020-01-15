@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/65118523",
+    "html_url": "https://github.com/ipython/ipython/pull/7041#issuecomment-65118523",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7041",
+    "id": 65118523,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY1MTE4NTIz",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-01T19:17:11Z",
+    "updated_at": "2014-12-01T19:17:11Z",
+    "author_association": "MEMBER",
+    "body": "I once again ran into the issue where setting a traitlet causes the default value to be calculated, so this PR now also implements something @minrk and I were discussing last week: if a traitlet is set before using it, the default value is not calculated, and the trait changed notification callbacks are called with `None` as the old value.\n\nI found only two traitlets in our codebase that broke with this change, and I fixed both of them.\n"
+  }
+]

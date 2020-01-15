@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/6747236",
+    "html_url": "https://github.com/ipython/ipython/issues/2091#issuecomment-6747236",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2091",
+    "id": 6747236,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3NDcyMzY=",
+    "user": {
+      "login": "bfroehle",
+      "id": 204333,
+      "node_id": "MDQ6VXNlcjIwNDMzMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/204333?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bfroehle",
+      "html_url": "https://github.com/bfroehle",
+      "followers_url": "https://api.github.com/users/bfroehle/followers",
+      "following_url": "https://api.github.com/users/bfroehle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bfroehle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bfroehle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bfroehle/subscriptions",
+      "organizations_url": "https://api.github.com/users/bfroehle/orgs",
+      "repos_url": "https://api.github.com/users/bfroehle/repos",
+      "events_url": "https://api.github.com/users/bfroehle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bfroehle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-07-03T21:38:10Z",
+    "updated_at": "2012-07-03T21:38:10Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It seems that `%prun` changes the `stream` attribute to redirect output into a `StringIO` buffer.\n\n```\nIn [25]: p = %prun -r print(\"hello\")\nhello\n         2 function calls in 0.000 seconds\n\n   Ordered by: internal time\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.000    0.000    0.000    0.000 <string>:1(<module>)\n        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}\n\n\nIn [26]: p.print_stats()\nOut[26]: <pstats.Stats instance at 0x3aa25a8>\n\nIn [27]: p.stream = sys.stdout\n\nIn [28]: p.print_stats()\n         2 function calls in 0.000 seconds\n\n   Ordered by: internal time\n\n   ncalls  tottime  percall  cumtime  percall filename:lineno(function)\n        1    0.000    0.000    0.000    0.000 <string>:1(<module>)\n        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}\n\n\nOut[28]: <pstats.Stats instance at 0x3aa25a8>\n```\n"
+  }
+]

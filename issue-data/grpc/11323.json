@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/354374048",
+    "html_url": "https://github.com/grpc/grpc/issues/11323#issuecomment-354374048",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11323",
+    "id": 354374048,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NDM3NDA0OA==",
+    "user": {
+      "login": "michaelbausor",
+      "id": 14846209,
+      "node_id": "MDQ6VXNlcjE0ODQ2MjA5",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/14846209?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/michaelbausor",
+      "html_url": "https://github.com/michaelbausor",
+      "followers_url": "https://api.github.com/users/michaelbausor/followers",
+      "following_url": "https://api.github.com/users/michaelbausor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/michaelbausor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/michaelbausor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/michaelbausor/subscriptions",
+      "organizations_url": "https://api.github.com/users/michaelbausor/orgs",
+      "repos_url": "https://api.github.com/users/michaelbausor/repos",
+      "events_url": "https://api.github.com/users/michaelbausor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/michaelbausor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-28T23:29:09Z",
+    "updated_at": "2017-12-28T23:29:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@stanley-cheung - what is the status of this issue? Is there any plan to update streaming classes for PHP? If there is a design, we could potentially help with the implementation."
+  }
+]

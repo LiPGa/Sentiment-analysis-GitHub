@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/121661501",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10581#issuecomment-121661501",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10581",
+    "id": 121661501,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMTY2MTUwMQ==",
+    "user": {
+      "login": "ruidc",
+      "id": 849427,
+      "node_id": "MDQ6VXNlcjg0OTQyNw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/849427?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ruidc",
+      "html_url": "https://github.com/ruidc",
+      "followers_url": "https://api.github.com/users/ruidc/followers",
+      "following_url": "https://api.github.com/users/ruidc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ruidc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ruidc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ruidc/subscriptions",
+      "organizations_url": "https://api.github.com/users/ruidc/orgs",
+      "repos_url": "https://api.github.com/users/ruidc/repos",
+      "events_url": "https://api.github.com/users/ruidc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ruidc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-15T16:00:59Z",
+    "updated_at": "2015-07-23T08:28:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "On Py2.7, even after making this change, this surprisingly raises a UnicodeDecodeError in msgpack.cpp:\n\n```\npandas.read_msgpack(pandas.DataFrame([[401L, u'a']], index=[0], columns=['k', 'v']).to_msgpack(encoding='utf8'), encoding='utf8')\n```\n\nbut i'm having trouble stepping through as my PyCharm environment crashes on me when inspecting.\ncuriously, some small changes like changing the 401L to 40L doesn't raise the error though.\n"
+  }
+]

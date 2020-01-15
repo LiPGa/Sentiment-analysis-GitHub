@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/3038915",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/415#issuecomment-3038915",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/415",
+    "id": 3038915,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMzg5MTU=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-12-06T21:18:33Z",
+    "updated_at": "2011-12-06T21:18:33Z",
+    "author_association": "MEMBER",
+    "body": "@jseabold suggested a solution like this on the ML\n\n```\n# make some age variables 15-70\nage = np.random.randint(15, 71, size=100)\n\n# bin them into groups 15-24, 25-34, 35-70.\nbin_idx = np.digitize(age, [25, 35, 71])\n\n# make dummy variables\nimport scikits.statsmodels.api as sm\nage_dummy, labels = sm.categorical(bin_idx, drop=True, dictnames=True)\n```\n"
+  }
+]

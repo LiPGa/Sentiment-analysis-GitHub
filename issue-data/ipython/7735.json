@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/73926817",
+    "html_url": "https://github.com/ipython/ipython/issues/7735#issuecomment-73926817",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7735",
+    "id": 73926817,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDczOTI2ODE3",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-11T17:43:02Z",
+    "updated_at": "2015-02-11T17:43:02Z",
+    "author_association": "MEMBER",
+    "body": "You know, if we dropped support for everything besides Firefox until they all caught up, we could start using default function arguments and `function (foo, ...args)` today, with no polyfill. :wink: \n\nOr if we only supported IE technical preview with experimental features enabled, we could start using ES6 classes.\n\nSource: http://kangax.github.io/compat-table/es6/\n"
+  }
+]

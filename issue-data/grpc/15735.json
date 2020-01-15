@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/398530509",
+    "html_url": "https://github.com/grpc/grpc/issues/15735#issuecomment-398530509",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15735",
+    "id": 398530509,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5ODUzMDUwOQ==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-19T20:15:26Z",
+    "updated_at": "2018-06-19T20:15:26Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We are definitely happy to review PRs that implement this, as we have on the server side.  I don't foresee we'll have resources in immediate term to tackle this problem ourselves though."
+  }
+]

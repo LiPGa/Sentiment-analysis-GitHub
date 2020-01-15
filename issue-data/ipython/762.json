@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/2031670",
+    "html_url": "https://github.com/ipython/ipython/pull/762#issuecomment-2031670",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/762",
+    "id": 2031670,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMzE2NzA=",
+    "user": {
+      "login": "epatters",
+      "id": 316610,
+      "node_id": "MDQ6VXNlcjMxNjYxMA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/316610?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/epatters",
+      "html_url": "https://github.com/epatters",
+      "followers_url": "https://api.github.com/users/epatters/followers",
+      "following_url": "https://api.github.com/users/epatters/following{/other_user}",
+      "gists_url": "https://api.github.com/users/epatters/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/epatters/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/epatters/subscriptions",
+      "organizations_url": "https://api.github.com/users/epatters/orgs",
+      "repos_url": "https://api.github.com/users/epatters/repos",
+      "events_url": "https://api.github.com/users/epatters/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/epatters/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-09-07T18:01:14Z",
+    "updated_at": "2011-09-07T18:01:14Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Using %run to execute a file seems like the only reasonable thing to do. It's a shame that escaping the quotes doesn't work better, but what can you do?\n\nAnyway, thanks for the fix.\n"
+  }
+]

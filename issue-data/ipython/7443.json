@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/70050545",
+    "html_url": "https://github.com/ipython/ipython/pull/7443#issuecomment-70050545",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7443",
+    "id": 70050545,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwMDUwNTQ1",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-15T07:47:59Z",
+    "updated_at": "2015-01-15T07:47:59Z",
+    "author_association": "MEMBER",
+    "body": "Works, tried with https://github.com/ipython/ipython/pull/7242#issuecomment-67518631 (`cd nonexistantdir in midnight commander)` Merging.\n"
+  }
+]

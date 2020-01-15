@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/246881486",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14217#issuecomment-246881486",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14217",
+    "id": 246881486,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0Njg4MTQ4Ng==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-14T01:48:19Z",
+    "updated_at": "2016-09-14T01:48:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "There was a similar issue about this somewhat recently, can't find it ATM though.\n\nBasically `.apply` tries to be smart about the return type, but in this case it's wrong. It's the fact that `check.loc[0, 'list'] == shape[0]` that's throwing things off, so you get\n\n``` python\n\nIn [35]: check.apply(list_to_list, axis = 1)\nOut[35]:\n  id list\n0  1    2\n1  1    2\n```\n\nwhich can't be assigned into a series.\n\nYou're probably better off writing a vectorized function and calling that on `check['list']` directly if possible, or doing the iteration yourself manually with `df.itertuples`, something like\n\n``` python\nIn [49]: def list_to_list(row):\n    ...:     return row.list\n    ...:\n    ...:\n\nIn [50]: pd.Series(list_to_list(v) for v in check.itertuples())\nOut[50]:\n0    [1, 2]\n1    [1, 2]\ndtype: object\n```\n\nLet me know if you have any specific usage questions on your actual example.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/6738804",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1563#issuecomment-6738804",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1563",
+    "id": 6738804,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3Mzg4MDQ=",
+    "user": {
+      "login": "mattknoxca",
+      "id": 373455,
+      "node_id": "MDQ6VXNlcjM3MzQ1NQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/373455?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mattknoxca",
+      "html_url": "https://github.com/mattknoxca",
+      "followers_url": "https://api.github.com/users/mattknoxca/followers",
+      "following_url": "https://api.github.com/users/mattknoxca/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mattknoxca/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mattknoxca/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mattknoxca/subscriptions",
+      "organizations_url": "https://api.github.com/users/mattknoxca/orgs",
+      "repos_url": "https://api.github.com/users/mattknoxca/repos",
+      "events_url": "https://api.github.com/users/mattknoxca/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mattknoxca/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-07-03T16:14:05Z",
+    "updated_at": "2012-07-03T16:14:05Z",
+    "author_association": "NONE",
+    "body": "Based on Wes' comment that Timestamp is in fact a subclass of datetime (which I wasn't aware of when I wrote the original post), this is no longer necessary from my point of view. The results of .to_timestamp can be used everywhere that I thought I needed datetime objects.\n\nAnd the sql_tuples expression can be simplified to: \n\nsql_tuples = zip(ts.index.to_timestamp(), ts)\n\nWhich is also a lot simpler than my original expression. It might be nice to have something more generally that creates a list of tuples for Series or DataFrame objects which includes the index as the first column. That would seem like the natural representation for exporting to sql in my mind. But that is a separate issue.\n"
+  }
+]

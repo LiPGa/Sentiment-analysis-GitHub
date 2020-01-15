@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/256900556",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/14527#issuecomment-256900556",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14527",
+    "id": 256900556,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NjkwMDU1Ng==",
+    "user": {
+      "login": "codecov-io",
+      "id": 8655789,
+      "node_id": "MDQ6VXNlcjg2NTU3ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8655789?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codecov-io",
+      "html_url": "https://github.com/codecov-io",
+      "followers_url": "https://api.github.com/users/codecov-io/followers",
+      "following_url": "https://api.github.com/users/codecov-io/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codecov-io/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codecov-io/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codecov-io/subscriptions",
+      "organizations_url": "https://api.github.com/users/codecov-io/orgs",
+      "repos_url": "https://api.github.com/users/codecov-io/repos",
+      "events_url": "https://api.github.com/users/codecov-io/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codecov-io/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-28T11:46:50Z",
+    "updated_at": "2016-10-28T12:20:21Z",
+    "author_association": "NONE",
+    "body": "## [Current coverage](https://codecov.io/gh/pandas-dev/pandas/pull/14527?src=pr) is 85.26% (diff: 100%)\n\n> No coverage report found for **master** at 096d886.\n> \n> Powered by [Codecov](https://codecov.io?src=pr). Last update [096d886...67f6189](https://codecov.io/gh/pandas-dev/pandas/compare/096d8866a90c8cbb44ab8243320e811fc24190bd...67f61896d8606673b23f1c0d0505c54cd05c732b?src=pr)\n"
+  }
+]

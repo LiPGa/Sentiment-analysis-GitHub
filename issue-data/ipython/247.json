@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/683547",
+    "html_url": "https://github.com/ipython/ipython/issues/247#issuecomment-683547",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/247",
+    "id": 683547,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4MzU0Nw==",
+    "user": {
+      "login": "kura",
+      "id": 109507,
+      "node_id": "MDQ6VXNlcjEwOTUwNw==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/109507?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kura",
+      "html_url": "https://github.com/kura",
+      "followers_url": "https://api.github.com/users/kura/followers",
+      "following_url": "https://api.github.com/users/kura/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kura/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kura/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kura/subscriptions",
+      "organizations_url": "https://api.github.com/users/kura/orgs",
+      "repos_url": "https://api.github.com/users/kura/repos",
+      "events_url": "https://api.github.com/users/kura/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kura/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-01-17T14:05:20Z",
+    "updated_at": "2011-01-17T14:05:20Z",
+    "author_association": "NONE",
+    "body": "Works by default, I was a noob and forgot to compile readline in.\n"
+  }
+]

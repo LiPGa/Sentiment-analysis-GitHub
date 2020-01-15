@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/129849749",
+    "html_url": "https://github.com/grpc/grpc/issues/2614#issuecomment-129849749",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2614",
+    "id": 129849749,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyOTg0OTc0OQ==",
+    "user": {
+      "login": "tbetbetbe",
+      "id": 9272342,
+      "node_id": "MDQ6VXNlcjkyNzIzNDI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9272342?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tbetbetbe",
+      "html_url": "https://github.com/tbetbetbe",
+      "followers_url": "https://api.github.com/users/tbetbetbe/followers",
+      "following_url": "https://api.github.com/users/tbetbetbe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbetbetbe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tbetbetbe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbetbetbe/subscriptions",
+      "organizations_url": "https://api.github.com/users/tbetbetbe/orgs",
+      "repos_url": "https://api.github.com/users/tbetbetbe/repos",
+      "events_url": "https://api.github.com/users/tbetbetbe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tbetbetbe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-08-11T11:57:44Z",
+    "updated_at": "2015-08-11T11:57:44Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'd like this issue and similar ones to get feedback from our internal ruby API reviewers.\n- The API as is already idiomatic for ruby/node/php/python etc.\n- The default insecure sentinel object being proposed in a idiom from other programming languages\n"
+  }
+]

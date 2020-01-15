@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/270918130",
+    "html_url": "https://github.com/ipython/ipython/issues/10128#issuecomment-270918130",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10128",
+    "id": 270918130,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MDkxODEzMA==",
+    "user": {
+      "login": "tacaswell",
+      "id": 199813,
+      "node_id": "MDQ6VXNlcjE5OTgxMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/199813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tacaswell",
+      "html_url": "https://github.com/tacaswell",
+      "followers_url": "https://api.github.com/users/tacaswell/followers",
+      "following_url": "https://api.github.com/users/tacaswell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tacaswell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tacaswell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tacaswell/subscriptions",
+      "organizations_url": "https://api.github.com/users/tacaswell/orgs",
+      "repos_url": "https://api.github.com/users/tacaswell/repos",
+      "events_url": "https://api.github.com/users/tacaswell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tacaswell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-06T14:49:40Z",
+    "updated_at": "2017-01-06T14:49:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I realized what was going on here while falling asleep last night, see http://matplotlib.org/2.0.0rc2/users/dflt_style_changes.html#figure-size-font-size-and-screen-dpi\r\n\r\nWe changed the default figure size (smalle]) and dpi (higher) to keep the same figure size in pixels."
+  }
+]

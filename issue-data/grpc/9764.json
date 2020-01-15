@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/296831271",
+    "html_url": "https://github.com/grpc/grpc/issues/9764#issuecomment-296831271",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9764",
+    "id": 296831271,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NjgzMTI3MQ==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-24T21:45:18Z",
+    "updated_at": "2017-04-24T21:45:18Z",
+    "author_association": "MEMBER",
+    "body": "It looks like this test is now broken under Linux.  Specifically, the `test_ping()` code now fails.  I suspect that something got broken and the breakage wasn't caught due to the test being disabled."
+  }
+]

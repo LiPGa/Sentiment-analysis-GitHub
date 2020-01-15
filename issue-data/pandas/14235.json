@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/247541815",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14235#issuecomment-247541815",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14235",
+    "id": 247541815,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NzU0MTgxNQ==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-16T08:02:56Z",
+    "updated_at": "2016-09-16T08:02:56Z",
+    "author_association": "MEMBER",
+    "body": "I agree it is confusing, but as you said, it is the documented behaviour (for iteration: http://pandas.pydata.org/pandas-docs/stable/basics.html#iteration, membership test: http://pandas.pydata.org/pandas-docs/stable/gotchas.html#using-the-in-operator although the argument that series is dict-like so it checks the keys/index and not the values, is not applied in the iteration case ...). \nChanging this will break users code, so is probably not going to happen soon (we could consider it in 2.0, but still it is not clear what would be the best solution: both checking values, or both checking index). But if you have suggestions to improve clarity in the docs, certainly welcome!\n"
+  }
+]

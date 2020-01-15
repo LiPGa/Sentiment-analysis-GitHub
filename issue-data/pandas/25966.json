@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/479270501",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25966#issuecomment-479270501",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25966",
+    "id": 479270501,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3OTI3MDUwMQ==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-03T00:29:01Z",
+    "updated_at": "2019-04-03T00:30:11Z",
+    "author_association": "MEMBER",
+    "body": "`str.contains` uses regex by default, and `?` has a special meaning in regex, so you'll need to either use the `regex=False` keyword, or escape the question mark.\r\n```python\r\nIn [1]: import pandas as pd\r\n\r\nIn [2]: s = pd.Series(['foo', 'foo?', 'ba?r', 'baz'])\r\n\r\nIn [3]: s.str.contains('?', regex=False)\r\nOut[3]:\r\n0    False\r\n1     True\r\n2     True\r\n3    False\r\ndtype: bool\r\n\r\nIn [4]: s.str.contains('\\?')\r\nOut[4]:\r\n0    False\r\n1     True\r\n2     True\r\n3    False\r\ndtype: bool\r\n```\r\nSee the documentation for [`str.contains`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.contains.html) for additional details."
+  }
+]

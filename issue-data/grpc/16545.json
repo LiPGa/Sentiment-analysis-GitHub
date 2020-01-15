@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/419080635",
+    "html_url": "https://github.com/grpc/grpc/issues/16545#issuecomment-419080635",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16545",
+    "id": 419080635,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxOTA4MDYzNQ==",
+    "user": {
+      "login": "lucifercr07",
+      "id": 13472823,
+      "node_id": "MDQ6VXNlcjEzNDcyODIz",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13472823?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lucifercr07",
+      "html_url": "https://github.com/lucifercr07",
+      "followers_url": "https://api.github.com/users/lucifercr07/followers",
+      "following_url": "https://api.github.com/users/lucifercr07/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lucifercr07/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lucifercr07/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lucifercr07/subscriptions",
+      "organizations_url": "https://api.github.com/users/lucifercr07/orgs",
+      "repos_url": "https://api.github.com/users/lucifercr07/repos",
+      "events_url": "https://api.github.com/users/lucifercr07/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lucifercr07/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-06T12:48:55Z",
+    "updated_at": "2018-09-06T12:48:55Z",
+    "author_association": "NONE",
+    "body": "The client connection closed was from the server side. No issues in GRPC code 👍 "
+  }
+]

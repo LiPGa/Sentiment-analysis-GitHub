@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/234753282",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11690#issuecomment-234753282",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11690",
+    "id": 234753282,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNDc1MzI4Mg==",
+    "user": {
+      "login": "SoScared",
+      "id": 2715583,
+      "node_id": "MDQ6VXNlcjI3MTU1ODM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2715583?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SoScared",
+      "html_url": "https://github.com/SoScared",
+      "followers_url": "https://api.github.com/users/SoScared/followers",
+      "following_url": "https://api.github.com/users/SoScared/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SoScared/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SoScared/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SoScared/subscriptions",
+      "organizations_url": "https://api.github.com/users/SoScared/orgs",
+      "repos_url": "https://api.github.com/users/SoScared/repos",
+      "events_url": "https://api.github.com/users/SoScared/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SoScared/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-24T02:35:09Z",
+    "updated_at": "2016-07-24T02:35:09Z",
+    "author_association": "MEMBER",
+    "body": "All maps added to pull request #11698\n"
+  }
+]

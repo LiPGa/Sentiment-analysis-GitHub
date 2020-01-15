@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/346445182",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10755#issuecomment-346445182",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10755",
+    "id": 346445182,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0NjQ0NTE4Mg==",
+    "user": {
+      "login": "jrb0001",
+      "id": 2380263,
+      "node_id": "MDQ6VXNlcjIzODAyNjM=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2380263?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jrb0001",
+      "html_url": "https://github.com/jrb0001",
+      "followers_url": "https://api.github.com/users/jrb0001/followers",
+      "following_url": "https://api.github.com/users/jrb0001/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jrb0001/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jrb0001/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jrb0001/subscriptions",
+      "organizations_url": "https://api.github.com/users/jrb0001/orgs",
+      "repos_url": "https://api.github.com/users/jrb0001/repos",
+      "events_url": "https://api.github.com/users/jrb0001/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jrb0001/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-22T19:04:25Z",
+    "updated_at": "2017-11-22T19:04:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This bug also affects CD and is easier to trigger there because of downstream changes. The only requirement is to start multiple constructions of a buildlimited unit in the same frame and then have enough money until the constructions finish."
+  }
+]

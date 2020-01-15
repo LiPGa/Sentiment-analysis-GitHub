@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/330047206",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17558#issuecomment-330047206",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17558",
+    "id": 330047206,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMDA0NzIwNg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-17T13:58:34Z",
+    "updated_at": "2017-09-17T13:58:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This does look buggy. Though looking at the result in numpy space is pretty useless. Numpy does really odd things with tz, IOW it display in *local* tz (so this makes it really hard to read your example).\r\n\r\n```\r\nIn [18]: dt\r\nOut[18]: DatetimeIndex(['2017-01-01 00:00:00-05:00'], dtype='datetime64[ns, US/Eastern]', freq=None)\r\n\r\nIn [19]: dt + td_np[0]\r\nOut[19]: DatetimeIndex(['2017-01-01 00:00:00.000000001-05:00'], dtype='datetime64[ns, US/Eastern]', freq=None)\r\n\r\nIn [20]: dt + td_np\r\nOut[20]: DatetimeIndex(['2017-01-01 05:00:00.000000001-05:00'], dtype='datetime64[ns, US/Eastern]', freq=None)\r\n```\r\n\r\n[19] and [20] should be the same\r\n\r\nFurther, generally it is a good idea to be very explict, IOW\r\n\r\n```\r\nIn [21]: dt = pd.DatetimeIndex([pd.Timestamp(\"2017/01/01\")]).tz_localize('US/Eastern')\r\n\r\nIn [22]: dt\r\nOut[22]: DatetimeIndex(['2017-01-01 00:00:00-05:00'], dtype='datetime64[ns, US/Eastern]', freq=None)\r\n```\r\n\r\nThis is way more explicit that we are localizing.\r\n\r\nBut this is a small bug, happy to have a PR to fix."
+  }
+]

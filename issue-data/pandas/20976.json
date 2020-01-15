@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/387649625",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20976#issuecomment-387649625",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20976",
+    "id": 387649625,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NzY0OTYyNQ==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-09T07:37:38Z",
+    "updated_at": "2018-05-09T07:44:29Z",
+    "author_association": "MEMBER",
+    "body": "Thinking about this some more, I don't think this behavior makes sense for `bdate_range` either; the only distinguishing feature from `date_range` is the support for custom business day logic, and the default freq being 'B', both of which imply a frequency.\r\n\r\nUpdated the title and modified the original post accordingly.\r\n\r\nI suppose this _could_ be implemented easily enough for `bdate_range` but the linspace behavior would be identical to that of `date_range`."
+  }
+]

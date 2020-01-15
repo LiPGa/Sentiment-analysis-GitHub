@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/476596184",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25879#issuecomment-476596184",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25879",
+    "id": 476596184,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NjU5NjE4NA==",
+    "user": {
+      "login": "rampDD",
+      "id": 47013228,
+      "node_id": "MDQ6VXNlcjQ3MDEzMjI4",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/47013228?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rampDD",
+      "html_url": "https://github.com/rampDD",
+      "followers_url": "https://api.github.com/users/rampDD/followers",
+      "following_url": "https://api.github.com/users/rampDD/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rampDD/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rampDD/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rampDD/subscriptions",
+      "organizations_url": "https://api.github.com/users/rampDD/orgs",
+      "repos_url": "https://api.github.com/users/rampDD/repos",
+      "events_url": "https://api.github.com/users/rampDD/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rampDD/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-26T12:05:02Z",
+    "updated_at": "2019-03-26T12:05:02Z",
+    "author_association": "NONE",
+    "body": "Issues was fault of excel interpreting this column as datetime.\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/12106823",
+    "html_url": "https://github.com/ipython/ipython/issues/2767#issuecomment-12106823",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2767",
+    "id": 12106823,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMTA2ODIz",
+    "user": {
+      "login": "ellisonbg",
+      "id": 27600,
+      "node_id": "MDQ6VXNlcjI3NjAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ellisonbg",
+      "html_url": "https://github.com/ellisonbg",
+      "followers_url": "https://api.github.com/users/ellisonbg/followers",
+      "following_url": "https://api.github.com/users/ellisonbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ellisonbg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ellisonbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ellisonbg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ellisonbg/orgs",
+      "repos_url": "https://api.github.com/users/ellisonbg/repos",
+      "events_url": "https://api.github.com/users/ellisonbg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ellisonbg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-10T17:00:11Z",
+    "updated_at": "2013-01-10T17:00:11Z",
+    "author_association": "MEMBER",
+    "body": "I am fine with removing it.\n\nOn Thu, Jan 10, 2013 at 12:00 AM, Bradley M. Froehle <\nnotifications@github.com> wrote:\n\n> Can we delete IPython.utils.upgradedir? It doesn't appear to be used by\n> anything except one import test:\n> \n> def test_import_upgradedir():\n>     from IPython.utils import upgradedir\n> \n> $ egrep -rl upgradedir *\n> IPython/utils/tests/test_imports.py\n> \n>  —\n> Reply to this email directly or view it on GitHubhttps://github.com/ipython/ipython/issues/2767.\n\n## \n\nBrian E. Granger\nCal Poly State University, San Luis Obispo\nbgranger@calpoly.edu and ellisonbg@gmail.com\n"
+  }
+]

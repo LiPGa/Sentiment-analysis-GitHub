@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/362169926",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/19487#issuecomment-362169926",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19487",
+    "id": 362169926,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2MjE2OTkyNg==",
+    "user": {
+      "login": "jbrockmendel",
+      "id": 8078968,
+      "node_id": "MDQ6VXNlcjgwNzg5Njg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8078968?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbrockmendel",
+      "html_url": "https://github.com/jbrockmendel",
+      "followers_url": "https://api.github.com/users/jbrockmendel/followers",
+      "following_url": "https://api.github.com/users/jbrockmendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbrockmendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbrockmendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbrockmendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbrockmendel/orgs",
+      "repos_url": "https://api.github.com/users/jbrockmendel/repos",
+      "events_url": "https://api.github.com/users/jbrockmendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbrockmendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-01T06:18:36Z",
+    "updated_at": "2018-02-01T06:18:36Z",
+    "author_association": "MEMBER",
+    "body": "```\r\nIn [4]: arr = np.arange(1, 100000, dtype='datetime64[h]')\r\nIn [6]: func = pd._libs.tslibs.conversion.ensure_datetime64ns\r\nIn [7]: %timeit func(arr)\r\n```\r\n\r\nMaster:\r\n```\r\nIn [8]: %timeit func(arr)\r\n100 loops, best of 3: 3.55 ms per loop\r\n\r\nIn [9]: %timeit func(arr)\r\n100 loops, best of 3: 3.58 ms per loop\r\n\r\nIn [10]: %timeit func(arr)\r\n100 loops, best of 3: 3.58 ms per loop\r\n```\r\n\r\nPR:\r\n```\r\nIn [8]: %timeit func(arr)\r\n100 loops, best of 3: 2.28 ms per loop\r\n\r\nIn [9]: %timeit func(arr)\r\n100 loops, best of 3: 2.28 ms per loop\r\n\r\nIn [10]: %timeit func(arr)\r\n100 loops, best of 3: 2.28 ms per loop\r\n```\r\n\r\nBut the year is about 6x slower and the month currently has a bug (that only got exposed when profiling, so apparently there is no test) so closing for now."
+  }
+]

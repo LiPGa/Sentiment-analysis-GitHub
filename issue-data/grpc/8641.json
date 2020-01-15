@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/258881777",
+    "html_url": "https://github.com/grpc/grpc/pull/8641#issuecomment-258881777",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8641",
+    "id": 258881777,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1ODg4MTc3Nw==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-07T16:19:01Z",
+    "updated_at": "2016-11-07T16:19:01Z",
+    "author_association": "MEMBER",
+    "body": "LGTM\n\n---\n\nReviewed 6 of 6 files at r1, 1 of 1 files at r3.\nReview status: all files reviewed at latest revision, 1 unresolved discussion, some commit checks failed.\n\n---\n\n_[src/core/lib/iomgr/resource_quota.c, line 453 at r3](https://reviewable.io:443/reviews/grpc/grpc/8641#-KVz_5iTsOH-xwAyTSbC:-KVz_5iTsOH-xwAyTSbD:b-3umtl9) ([raw file](https://github.com/grpc/grpc/blob/fe6350d3b0fa66ec114d45fba9f104f2f228ea16/src/core/lib/iomgr/resource_quota.c#L453)):_\n\n>   grpc_exec_ctx_sched(exec_ctx, resource_user->reclaimers[0],\n>                       GRPC_ERROR_CANCELLED, NULL);\n>   grpc_exec_ctx_sched(exec_ctx, resource_user->reclaimers[1],\n>                       GRPC_ERROR_CANCELLED, NULL);\n\nDoes this imply that a properly behaving reclaimer callback will try to free all remaining allocated memory when it sees GRPC_ERROR_CANCELLED?  If so, perhaps document that in the .h file?\n\n---\n\n_Comments from [Reviewable](https://reviewable.io:443/reviews/grpc/grpc/8641#-:-KVz_PuK7yq4QcsWS2qK:bb6ywmx)_\n\n<!-- Sent from Reviewable.io -->\n"
+  }
+]

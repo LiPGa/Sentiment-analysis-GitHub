@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/337779017",
+    "html_url": "https://github.com/grpc/grpc/pull/13055#issuecomment-337779017",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13055",
+    "id": 337779017,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzNzc3OTAxNw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-19T02:09:29Z",
+    "updated_at": "2017-10-19T02:09:45Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "tests failures appear to be kokoro infrastructure failures related to this branch\r\n\r\nportability tests failed with: `ssh_exchange_identification: Connection closed by remote host`\r\nall failures outside of the mac tests failed with a `com.google.devtools.kokoro.config.ConfigException`\r\n\r\nmac tests failed with `Homebrew must be run under Ruby 2.3!`\r\n\r\n\r\nsanity checks passed though"
+  }
+]

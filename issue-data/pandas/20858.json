@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/385238432",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/20858#issuecomment-385238432",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20858",
+    "id": 385238432,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NTIzODQzMg==",
+    "user": {
+      "login": "samuelsinayoko",
+      "id": 17543358,
+      "node_id": "MDQ6VXNlcjE3NTQzMzU4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17543358?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/samuelsinayoko",
+      "html_url": "https://github.com/samuelsinayoko",
+      "followers_url": "https://api.github.com/users/samuelsinayoko/followers",
+      "following_url": "https://api.github.com/users/samuelsinayoko/following{/other_user}",
+      "gists_url": "https://api.github.com/users/samuelsinayoko/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/samuelsinayoko/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/samuelsinayoko/subscriptions",
+      "organizations_url": "https://api.github.com/users/samuelsinayoko/orgs",
+      "repos_url": "https://api.github.com/users/samuelsinayoko/repos",
+      "events_url": "https://api.github.com/users/samuelsinayoko/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/samuelsinayoko/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-29T09:36:17Z",
+    "updated_at": "2018-04-29T09:36:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Sorry didn't mean to reopen this PR. Has already been merged as #20430"
+  }
+]

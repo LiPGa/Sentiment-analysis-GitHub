@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/100273092",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8110#issuecomment-100273092",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8110",
+    "id": 100273092,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDI3MzA5Mg==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-08T15:28:22Z",
+    "updated_at": "2015-05-08T15:28:22Z",
+    "author_association": "MEMBER",
+    "body": "```\n16:22 < deniz1a> why are travis and make script results different?\n16:22 <+Scott`> csc doesn't even warn for a bunch of things\n16:23 <+Scott`> travis doesn't use make.cmd\n16:23 < deniz1a> but shouldnt they have the same result? then change make \n                 script to match travis?\n16:23 <+Scott`> because csc\n16:24 < deniz1a> because it cant be done?\n16:24 <+Scott`> the compilers are different\n16:24 <+Scott`> they behave differently\n16:24 < deniz1a> but the compiler on windows cant show unused variables?\n16:24 <+Scott`> it's not really up to us to fix this\n16:24 <+Scott`> yes\n16:24 <+Scott`> it's weird about that\n16:24 < deniz1a> oh ok\n16:24 <+pchote> Scott`: really? wow\n16:25 <+Scott`> pchote: yes\n16:25 <+pchote> seems like a weird blind spot for an otherwise awesome compiler \n                to have\n16:25 <+Scott`> hopefully roslyn will pick up more things\n16:25 <+Scott`> which is like\n16:25 < penev> sounds suspicious to me\n16:25 <+Scott`> awesome x 2\n```\n"
+  }
+]

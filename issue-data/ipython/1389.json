@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/3905767",
+    "html_url": "https://github.com/ipython/ipython/issues/1389#issuecomment-3905767",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1389",
+    "id": 3905767,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDU3Njc=",
+    "user": {
+      "login": "ohe",
+      "id": 111823,
+      "node_id": "MDQ6VXNlcjExMTgyMw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/111823?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ohe",
+      "html_url": "https://github.com/ohe",
+      "followers_url": "https://api.github.com/users/ohe/followers",
+      "following_url": "https://api.github.com/users/ohe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ohe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ohe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ohe/subscriptions",
+      "organizations_url": "https://api.github.com/users/ohe/orgs",
+      "repos_url": "https://api.github.com/users/ohe/repos",
+      "events_url": "https://api.github.com/users/ohe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ohe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-02-10T13:11:21Z",
+    "updated_at": "2012-02-10T13:11:21Z",
+    "author_association": "NONE",
+    "body": "After some investigation ... this seems like a problem with my setup. However, uncomment the following lines makes things works.\n\n``` python\n# XXX For now leave this commented out, but depending on discussions with\n# mpl-dev, we may be able to allow interactive switching...\n#import matplotlib.pyplot\n#matplotlib.pyplot.switch_backend(backend)\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/299239664",
+    "html_url": "https://github.com/ipython/ipython/pull/10500#issuecomment-299239664",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10500",
+    "id": 299239664,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5OTIzOTY2NA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-04T16:33:55Z",
+    "updated_at": "2017-05-04T16:33:55Z",
+    "author_association": "MEMBER",
+    "body": "@meeseeksdev merge\n\n+1, maybe a line in the docs somewhere in a subsequent PR with an example\nif someone read this.\n\nOn May 4, 2017 08:25, \"Thomas Kluyver\" <notifications@github.com> wrote:\n\n> As suggested on gh-10498 <https://github.com/ipython/ipython/issues/10498>\n> ------------------------------\n> You can view, comment on, or merge this pull request online at:\n>\n>   https://github.com/ipython/ipython/pull/10500\n> Commit Summary\n>\n>    - Allow configuring a function to handle return in the terminal\n>\n> File Changes\n>\n>    - *M* IPython/terminal/interactiveshell.py\n>    <https://github.com/ipython/ipython/pull/10500/files#diff-0> (11)\n>    - *M* IPython/terminal/shortcuts.py\n>    <https://github.com/ipython/ipython/pull/10500/files#diff-1> (7)\n>\n> Patch Links:\n>\n>    - https://github.com/ipython/ipython/pull/10500.patch\n>    - https://github.com/ipython/ipython/pull/10500.diff\n>\n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/ipython/ipython/pull/10500>, or mute the thread\n> <https://github.com/notifications/unsubscribe-auth/AAUez8p0IzGttW-cI4yLuVjYvsFr-W7-ks5r2e28gaJpZM4NQ1Mr>\n> .\n>\n"
+  }
+]

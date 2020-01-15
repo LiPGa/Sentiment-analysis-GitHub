@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/313230687",
+    "html_url": "https://github.com/grpc/grpc/issues/11687#issuecomment-313230687",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11687",
+    "id": 313230687,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMzIzMDY4Nw==",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-05T21:22:14Z",
+    "updated_at": "2017-07-05T21:22:14Z",
+    "author_association": "MEMBER",
+    "body": "I think that if you have a proto file with a dependency on another file with that kind of filename, you'll see the same issue in the regular `_pb.js` file. In fact, I think that the referenced `discovery_pb.js` should have that issue. If you could confirm that and report the issue in the protobuf repository, that would be helpful. I'd prefer to follow how they solve this if relevant."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/389447449",
+    "html_url": "https://github.com/ipython/ipython/issues/9183#issuecomment-389447449",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9183",
+    "id": 389447449,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTQ0NzQ0OQ==",
+    "user": {
+      "login": "lucainnocenti",
+      "id": 10957113,
+      "node_id": "MDQ6VXNlcjEwOTU3MTEz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10957113?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lucainnocenti",
+      "html_url": "https://github.com/lucainnocenti",
+      "followers_url": "https://api.github.com/users/lucainnocenti/followers",
+      "following_url": "https://api.github.com/users/lucainnocenti/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lucainnocenti/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lucainnocenti/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lucainnocenti/subscriptions",
+      "organizations_url": "https://api.github.com/users/lucainnocenti/orgs",
+      "repos_url": "https://api.github.com/users/lucainnocenti/repos",
+      "events_url": "https://api.github.com/users/lucainnocenti/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lucainnocenti/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-16T08:59:44Z",
+    "updated_at": "2018-05-16T08:59:44Z",
+    "author_association": "NONE",
+    "body": "is this still an open issue? The linked one was closed as fixed"
+  }
+]

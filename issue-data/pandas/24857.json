@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/456051054",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24857#issuecomment-456051054",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24857",
+    "id": 456051054,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NjA1MTA1NA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-21T12:02:44Z",
+    "updated_at": "2019-01-21T12:02:44Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I can't reproduce locally on pandas master with the same matplotlib.\n\nCan you debug it any further?\n\nOn Mon, Jan 21, 2019 at 12:15 AM Kurt Peek <notifications@github.com> wrote:\n\n> Code Sample, a copy-pastable example if possible\n>\n> import randomimport dateutil.parserimport pandas as pdimport matplotlib.pyplot as plt\n>\n> start = dateutil.parser.parse(\"1 January 2019\")\n> end = dateutil.parser.parse(\"3 January 2019\")\n>\n> data = [start + (end - start) * random.random() for _ in range(100)]\n>\n> df = pd.DataFrame(data, columns=['Time'])\n>\n> hist = df.hist(column='Time')\n> # df['Time'].hist()\n>\n> plt.show()\n>\n> Problem description\n>\n> When I try to run the code snippet above, I get the following error\n> message:\n>\n> $ python3 pandas_histogram.py\n> Traceback (most recent call last):\n>   File \"pandas_histogram.py\", line 13, in <module>\n>     hist = df.hist(column='Time')\n>   File \"/usr/local/lib/python3.7/site-packages/pandas/plotting/_core.py\", line 2408, in hist_frame\n>     layout=layout)\n>   File \"/usr/local/lib/python3.7/site-packages/pandas/plotting/_tools.py\", line 238, in _subplots\n>     ax0 = fig.add_subplot(nrows, ncols, 1, **subplot_kw)\n>   File \"/usr/local/lib/python3.7/site-packages/matplotlib/figure.py\", line 1367, in add_subplot\n>     a = subplot_class_factory(projection_class)(self, *args, **kwargs)\n>   File \"/usr/local/lib/python3.7/site-packages/matplotlib/axes/_subplots.py\", line 60, in __init__\n>     ).format(maxn=rows*cols, num=num))\n> ValueError: num must be 1 <= num <= 0, not 1\n>\n> Expected Output\n>\n> If I run df['Time'].hist() instead (the commented-out line in the\n> snippet), it works fine and I see a histogram:\n>\n> [image: image]\n> <https://user-images.githubusercontent.com/6617594/51455849-4ec13080-1d00-11e9-9fad-250a953fbe14.png>\n> Output of pd.show_versions()\n>\n> [paste the output of pd.show_versions() here below this line]\n> In [2]: pd.show_versions()\n> INSTALLED VERSIONS\n>\n> commit: None\n> python: 3.7.1.final.0\n> python-bits: 64\n> OS: Darwin\n> OS-release: 17.7.0\n> machine: x86_64\n> processor: i386\n> byteorder: little\n> LC_ALL: None\n> LANG: en_US.UTF-8\n> LOCALE: en_US.UTF-8\n>\n> pandas: 0.23.4\n> pytest: 4.0.2\n> pip: 18.1\n> setuptools: 40.5.0\n> Cython: None\n> numpy: 1.16.0\n> scipy: None\n> pyarrow: None\n> xarray: None\n> IPython: 7.2.0\n> sphinx: None\n> patsy: None\n> dateutil: 2.7.5\n> pytz: 2018.9\n> blosc: None\n> bottleneck: None\n> tables: None\n> numexpr: None\n> feather: None\n> matplotlib: 3.0.2\n> openpyxl: None\n> xlrd: None\n> xlwt: None\n> xlsxwriter: None\n> lxml: None\n> bs4: None\n> html5lib: None\n> sqlalchemy: None\n> pymysql: None\n> psycopg2: None\n> jinja2: None\n> s3fs: None\n> fastparquet: None\n> pandas_gbq: None\n> pandas_datareader: None\n>\n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/pandas-dev/pandas/issues/24857>, or mute the thread\n> <https://github.com/notifications/unsubscribe-auth/ABQHIjjFtJfowYGMHssENYNKO53YGMqQks5vFVsPgaJpZM4aKKwX>\n> .\n>\n"
+  }
+]

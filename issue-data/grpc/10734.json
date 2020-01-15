@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/301928045",
+    "html_url": "https://github.com/grpc/grpc/issues/10734#issuecomment-301928045",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10734",
+    "id": 301928045,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMTkyODA0NQ==",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-16T21:59:31Z",
+    "updated_at": "2017-05-16T21:59:31Z",
+    "author_association": "MEMBER",
+    "body": "Seen again on master, with different output: https://grpc-testing.appspot.com/job/gRPC_master_linux/2389/testReport/junit/(root)/c_linux_dbg_native/bins_dbg_h2_full_nosec_test_cancel_after_invoke_GRPC_POLL_STRATEGY_epollsig/\r\n\r\n```\r\nD0514 04:26:53.641582046   22266 dns_resolver.c:316]         Using native dns resolver\r\nI0514 04:26:53.641628671   22266 cancel_after_invoke.c:56]   Running test: test_cancel_after_invoke/chttp2/fullstack/cancel [3 ops]\r\nI0514 04:26:53.644300328   22266 cancel_after_invoke.c:56]   Running test: test_cancel_after_invoke/chttp2/fullstack/deadline [3 ops]\r\nI0514 04:26:58.647961745   22266 cancel_after_invoke.c:56]   Running test: test_cancel_after_invoke/chttp2/fullstack/cancel [4 ops]\r\nI0514 04:26:58.651865266   22266 cancel_after_invoke.c:56]   Running test: test_cancel_after_invoke/chttp2/fullstack/deadline [4 ops]\r\nE0514 04:27:08.663555758   22266 cq_verifier.c:228]          no event received, but expected:\r\n0x1 GRPC_OP_COMPLETE success=1 test/core/end2end/tests/cancel_after_invoke.c:179\r\n\r\n*******************************\r\nCaught signal SIGABRT\r\nbins/dbg/h2_full_nosec_test[0x4d8b72]\r\n/lib/x86_64-linux-gnu/libpthread.so.0(+0xf890)[0x7fd8d3883890]\r\n/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x37)[0x7fd8d34fe067]\r\n/lib/x86_64-linux-gnu/libc.so.6(abort+0x148)[0x7fd8d34ff448]\r\nbins/dbg/h2_full_nosec_test[0x431b21]\r\nbins/dbg/h2_full_nosec_test[0x431ccb]\r\nbins/dbg/h2_full_nosec_test[0x4092c4]\r\nbins/dbg/h2_full_nosec_test[0x409414]\r\nbins/dbg/h2_full_nosec_test[0x403bda]\r\nbins/dbg/h2_full_nosec_test[0x40328b]\r\n/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5)[0x7fd8d34eab45]\r\nbins/dbg/h2_full_nosec_test[0x402f19]\r\nCommand terminated by signal 6\r\n```"
+  }
+]

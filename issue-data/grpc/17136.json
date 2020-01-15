@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/438381992",
+    "html_url": "https://github.com/grpc/grpc/issues/17136#issuecomment-438381992",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17136",
+    "id": 438381992,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzODM4MTk5Mg==",
+    "user": {
+      "login": "mpoullet",
+      "id": 40737,
+      "node_id": "MDQ6VXNlcjQwNzM3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/40737?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mpoullet",
+      "html_url": "https://github.com/mpoullet",
+      "followers_url": "https://api.github.com/users/mpoullet/followers",
+      "following_url": "https://api.github.com/users/mpoullet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mpoullet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mpoullet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mpoullet/subscriptions",
+      "organizations_url": "https://api.github.com/users/mpoullet/orgs",
+      "repos_url": "https://api.github.com/users/mpoullet/repos",
+      "events_url": "https://api.github.com/users/mpoullet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mpoullet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-13T18:22:47Z",
+    "updated_at": "2018-11-14T08:53:26Z",
+    "author_association": "NONE",
+    "body": "I've done a `git bisect` between the tags `v1.14.0` and `v1.15.0` ([full logs here](https://travis-ci.org/mpoullet/grpc/builds)) and found out that the commit 894745dfe39185620cf644508fd6fec8510b22bd is responsible for breaking the build on Ubuntu 14.04. So it's a regression between `protobuf` `v3.5.2` and `v3.6.0`. As it is not an issue with `gRPC` per se I'd close this issue here and start investigating in the [`protobuf`](https://github.com/protocolbuffers/protobuf) repo instead. @jtattermusch as the commit author maybe do you have any idea that could help me further?"
+  }
+]

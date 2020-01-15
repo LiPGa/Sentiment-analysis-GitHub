@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/437281405",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23576#issuecomment-437281405",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23576",
+    "id": 437281405,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNzI4MTQwNQ==",
+    "user": {
+      "login": "qwhelan",
+      "id": 440095,
+      "node_id": "MDQ6VXNlcjQ0MDA5NQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/440095?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/qwhelan",
+      "html_url": "https://github.com/qwhelan",
+      "followers_url": "https://api.github.com/users/qwhelan/followers",
+      "following_url": "https://api.github.com/users/qwhelan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/qwhelan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/qwhelan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/qwhelan/subscriptions",
+      "organizations_url": "https://api.github.com/users/qwhelan/orgs",
+      "repos_url": "https://api.github.com/users/qwhelan/repos",
+      "events_url": "https://api.github.com/users/qwhelan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/qwhelan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-09T08:06:01Z",
+    "updated_at": "2018-11-09T08:06:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks for creating this issue @TomAugspurger - I think I've resolved it in #23591 "
+  }
+]

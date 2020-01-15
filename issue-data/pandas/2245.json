@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/60066554",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2245#issuecomment-60066554",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2245",
+    "id": 60066554,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYwMDY2NTU0",
+    "user": {
+      "login": "gbakalian",
+      "id": 1969965,
+      "node_id": "MDQ6VXNlcjE5Njk5NjU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1969965?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gbakalian",
+      "html_url": "https://github.com/gbakalian",
+      "followers_url": "https://api.github.com/users/gbakalian/followers",
+      "following_url": "https://api.github.com/users/gbakalian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gbakalian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gbakalian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gbakalian/subscriptions",
+      "organizations_url": "https://api.github.com/users/gbakalian/orgs",
+      "repos_url": "https://api.github.com/users/gbakalian/repos",
+      "events_url": "https://api.github.com/users/gbakalian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gbakalian/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-10-22T10:44:50Z",
+    "updated_at": "2014-10-22T10:46:09Z",
+    "author_association": "NONE",
+    "body": "Having a similar issue \n\nidx = date_range('2014-10-08 00:00','2014-10-09 00:00', freq='D', tz='Europe/Berlin')\npd.Series(5, idx).resample('MS')\n\nCrashed, \n\nWhile if I remove the tz : \n\nidx = date_range('2014-10-08 00:00','2014-10-09 00:00', freq='D')\npd.Series(5, idx).resample('MS')\n\nthat works perfectly \n\nversion :  '0.15.0rc1'\n"
+  }
+]

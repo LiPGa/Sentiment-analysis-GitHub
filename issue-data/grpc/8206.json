@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/249661013",
+    "html_url": "https://github.com/grpc/grpc/issues/8206#issuecomment-249661013",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8206",
+    "id": 249661013,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0OTY2MTAxMw==",
+    "user": {
+      "login": "murgatroid99",
+      "id": 961599,
+      "node_id": "MDQ6VXNlcjk2MTU5OQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/961599?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/murgatroid99",
+      "html_url": "https://github.com/murgatroid99",
+      "followers_url": "https://api.github.com/users/murgatroid99/followers",
+      "following_url": "https://api.github.com/users/murgatroid99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/murgatroid99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/murgatroid99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/murgatroid99/subscriptions",
+      "organizations_url": "https://api.github.com/users/murgatroid99/orgs",
+      "repos_url": "https://api.github.com/users/murgatroid99/repos",
+      "events_url": "https://api.github.com/users/murgatroid99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/murgatroid99/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-26T18:48:15Z",
+    "updated_at": "2016-09-26T18:48:15Z",
+    "author_association": "MEMBER",
+    "body": "We use `node-pre-gyp` for three different tasks. It's used to build the binary packages, which we need during development, to install the binary packages, which we need at installation time, and to load the binary packages, which we need at run time.\n\nIt is true that the runtime use only uses a very small part of the library, and we could probably duplicate the logic and dispose of the dependency there, but we still need it when installing the package, and I don't know of a way to have a dependency only during installation.\n"
+  }
+]

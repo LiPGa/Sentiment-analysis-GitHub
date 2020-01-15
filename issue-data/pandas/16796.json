@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/311979796",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16796#issuecomment-311979796",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16796",
+    "id": 311979796,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMTk3OTc5Ng==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-29T14:14:54Z",
+    "updated_at": "2017-06-29T14:14:54Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Maybe take a look at the matplotlib docs: http://matplotlib.org/api/_as_gen/matplotlib.axes.Axes.boxplot.html\r\n\r\nboxplot doesn't plot the mean or standard deviation. It plots the median (red) and IQR (so 75 and 25 percentiles) in blue."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/462906744",
+    "html_url": "https://github.com/grpc/grpc/pull/18018#issuecomment-462906744",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18018",
+    "id": 462906744,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MjkwNjc0NA==",
+    "user": {
+      "login": "hcaseyal",
+      "id": 8952658,
+      "node_id": "MDQ6VXNlcjg5NTI2NTg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8952658?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hcaseyal",
+      "html_url": "https://github.com/hcaseyal",
+      "followers_url": "https://api.github.com/users/hcaseyal/followers",
+      "following_url": "https://api.github.com/users/hcaseyal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hcaseyal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hcaseyal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hcaseyal/subscriptions",
+      "organizations_url": "https://api.github.com/users/hcaseyal/orgs",
+      "repos_url": "https://api.github.com/users/hcaseyal/repos",
+      "events_url": "https://api.github.com/users/hcaseyal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hcaseyal/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-12T19:46:25Z",
+    "updated_at": "2019-02-12T19:46:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@vjpai , I saw your comment on the last bug about this change, but could you document the reasoning somewhere that's visible to users (especially new users)? Maybe wherever users go to learn the sync API? It would be useful for users to know that the sync api doesn't support set buffer hint except for last message"
+  }
+]

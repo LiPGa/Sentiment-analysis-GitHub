@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/170268584",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10455#issuecomment-170268584",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10455",
+    "id": 170268584,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MDI2ODU4NA==",
+    "user": {
+      "login": "RoosterDragon",
+      "id": 3399086,
+      "node_id": "MDQ6VXNlcjMzOTkwODY=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3399086?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RoosterDragon",
+      "html_url": "https://github.com/RoosterDragon",
+      "followers_url": "https://api.github.com/users/RoosterDragon/followers",
+      "following_url": "https://api.github.com/users/RoosterDragon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RoosterDragon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RoosterDragon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RoosterDragon/subscriptions",
+      "organizations_url": "https://api.github.com/users/RoosterDragon/orgs",
+      "repos_url": "https://api.github.com/users/RoosterDragon/repos",
+      "events_url": "https://api.github.com/users/RoosterDragon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RoosterDragon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-09T18:40:45Z",
+    "updated_at": "2016-01-09T18:40:45Z",
+    "author_association": "MEMBER",
+    "body": "Duplicate of #9783, fixed in #9786. The fix didn't make it into release-20151224, but it will be in for the next playtest/release.\n"
+  }
+]

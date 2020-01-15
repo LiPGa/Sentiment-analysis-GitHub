@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/83219491",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9679#issuecomment-83219491",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9679",
+    "id": 83219491,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgzMjE5NDkx",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-18T23:05:56Z",
+    "updated_at": "2015-03-18T23:07:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "``` python\ndef func(x):\n    r = x.High - x.Close\n    r[x.Open <= x.Close] = np.nan\n    return r\n\nf['new_columns'] = func(f)\n```\n\nshould do it for you.\n`DataFrame.applymap` applies a function to each element in the DataFrame. You want to apply a function to each row essentially. With pandas/numpy this operation will be automatically broadcast across the rows.\n"
+  }
+]

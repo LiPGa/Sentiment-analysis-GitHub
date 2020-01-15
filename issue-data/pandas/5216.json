@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/26260254",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5216#issuecomment-26260254",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5216",
+    "id": 26260254,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2MjYwMjU0",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-10-14T14:47:51Z",
+    "updated_at": "2013-10-14T14:47:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\nIn [40]: pd.__version__\nOut[40]: '0.12.0-852-gb76b265'\n```\n\nThat is an invalid assignment because its chained, see [here](http://pandas.pydata.org/pandas-docs/dev/indexing.html#indexing-view-versus-copy)\n\n```\nIn [34]: df2\nOut[34]: \n            x         y         z\n0 0  0.286564  0.050018  0.111550\n  1  0.964252  0.691074  0.336067\n1 0  0.536750  0.368807  0.199002\n  1  0.826987  0.316490  0.574972\n2 0  0.547737  0.663395  0.312058\n  1  0.925936  0.279883  0.926590\n3 0  0.701851  0.320985  0.462495\n  1  0.062629  0.471302  0.438546\n4 0  0.156002  0.314738  0.756440\n  1  0.763509  0.858044  0.403415\n\nIn [35]: df2.loc[(0,0),'z'] = 1\n\nIn [38]: df2.loc[0,'z'].iloc[1] = 2\n\nIn [39]: df2\nOut[39]: \n            x         y         z\n0 0  0.286564  0.050018  1.000000\n  1  0.964252  0.691074  2.000000\n1 0  0.536750  0.368807  0.199002\n  1  0.826987  0.316490  0.574972\n2 0  0.547737  0.663395  0.312058\n  1  0.925936  0.279883  0.926590\n3 0  0.701851  0.320985  0.462495\n  1  0.062629  0.471302  0.438546\n4 0  0.156002  0.314738  0.756440\n  1  0.763509  0.858044  0.403415\n```\n\n35 is the way to do this guaranteed; 38 works, but is chained (though happens to work)\n\nSeparately I will looks at the exception....\n"
+  }
+]

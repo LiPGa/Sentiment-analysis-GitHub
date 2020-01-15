@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/175007041",
+    "html_url": "https://github.com/ipython/ipython/issues/8904#issuecomment-175007041",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8904",
+    "id": 175007041,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NTAwNzA0MQ==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T13:16:10Z",
+    "updated_at": "2016-01-26T13:16:10Z",
+    "author_association": "MEMBER",
+    "body": "There is now some information on templating here: http://nbconvert.readthedocs.org/en/latest/customizing.html\n\nIt could still use improvement. Hopefully, over time, our newer docs will rise up past old versions in search rankings.\n"
+  }
+]

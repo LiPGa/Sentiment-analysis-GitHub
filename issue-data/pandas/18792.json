@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/365957855",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18792#issuecomment-365957855",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18792",
+    "id": 365957855,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NTk1Nzg1NQ==",
+    "user": {
+      "login": "Leobouloc",
+      "id": 7846153,
+      "node_id": "MDQ6VXNlcjc4NDYxNTM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7846153?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Leobouloc",
+      "html_url": "https://github.com/Leobouloc",
+      "followers_url": "https://api.github.com/users/Leobouloc/followers",
+      "following_url": "https://api.github.com/users/Leobouloc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Leobouloc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Leobouloc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Leobouloc/subscriptions",
+      "organizations_url": "https://api.github.com/users/Leobouloc/orgs",
+      "repos_url": "https://api.github.com/users/Leobouloc/repos",
+      "events_url": "https://api.github.com/users/Leobouloc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Leobouloc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-15T15:16:52Z",
+    "updated_at": "2018-02-15T15:16:52Z",
+    "author_association": "NONE",
+    "body": "Re-read my issue; I believe this should be tagged as a bug.\r\n\r\nCheers!"
+  }
+]

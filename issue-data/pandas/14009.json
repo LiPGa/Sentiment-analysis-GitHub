@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/240077366",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14009#issuecomment-240077366",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14009",
+    "id": 240077366,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MDA3NzM2Ng==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-16T11:37:25Z",
+    "updated_at": "2016-08-16T11:37:25Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Probably related to https://github.com/pydata/pandas/issues/13918\n\nYou should use `df['items']` for accessing columns, `df.items` is a convenient shortcut, but may conflict with DataFrame methods. This one is a bit special since it's IIRC `.items` is a method on py3 but not py2.\n"
+  }
+]

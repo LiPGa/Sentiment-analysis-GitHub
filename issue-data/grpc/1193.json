@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/89440098",
+    "html_url": "https://github.com/grpc/grpc/pull/1193#issuecomment-89440098",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1193",
+    "id": 89440098,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg5NDQwMDk4",
+    "user": {
+      "login": "jcanizales",
+      "id": 5120183,
+      "node_id": "MDQ6VXNlcjUxMjAxODM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5120183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jcanizales",
+      "html_url": "https://github.com/jcanizales",
+      "followers_url": "https://api.github.com/users/jcanizales/followers",
+      "following_url": "https://api.github.com/users/jcanizales/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jcanizales/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jcanizales/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jcanizales/subscriptions",
+      "organizations_url": "https://api.github.com/users/jcanizales/orgs",
+      "repos_url": "https://api.github.com/users/jcanizales/repos",
+      "events_url": "https://api.github.com/users/jcanizales/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jcanizales/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-03T22:45:28Z",
+    "updated_at": "2015-04-03T22:45:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The failures on node and ruby don't seem related to this change; probably carried on from a previously-merged PR (as the build in master is currently red).\n"
+  }
+]

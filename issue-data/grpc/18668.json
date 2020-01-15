@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/480421672",
+    "html_url": "https://github.com/grpc/grpc/pull/18668#issuecomment-480421672",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18668",
+    "id": 480421672,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDQyMTY3Mg==",
+    "user": {
+      "login": "stanley-cheung",
+      "id": 11674202,
+      "node_id": "MDQ6VXNlcjExNjc0MjAy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11674202?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stanley-cheung",
+      "html_url": "https://github.com/stanley-cheung",
+      "followers_url": "https://api.github.com/users/stanley-cheung/followers",
+      "following_url": "https://api.github.com/users/stanley-cheung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stanley-cheung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stanley-cheung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stanley-cheung/subscriptions",
+      "organizations_url": "https://api.github.com/users/stanley-cheung/orgs",
+      "repos_url": "https://api.github.com/users/stanley-cheung/repos",
+      "events_url": "https://api.github.com/users/stanley-cheung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stanley-cheung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-05T21:04:27Z",
+    "updated_at": "2019-04-05T21:04:27Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "re: whole bunch of test failure:\r\n\r\nLooks like one of the `third_party` symlink is gone\r\n\r\n```\r\nfatal: no matching remote head\r\n80\r\nFetched in submodule path 'third_party/protoc-gen-validate', but it did not contain e143189bf6f37b3957fb31743df6a1bcf4a8c685. Direct fetching of that commit failed.\r\n```"
+  }
+]

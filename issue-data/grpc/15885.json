@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/411643488",
+    "html_url": "https://github.com/grpc/grpc/issues/15885#issuecomment-411643488",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15885",
+    "id": 411643488,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTY0MzQ4OA==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-09T05:43:54Z",
+    "updated_at": "2018-08-09T05:43:54Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "possibly related UBSAN failure in a different configuration of this test:\r\n\r\n```\r\nexec ${PAGER:-/usr/bin/less} \"$0\" || exit 1\r\nExecuting tests from //test/core/end2end:h2_fakesec_test@write_buffering_at_end@poller=epollex\r\n-----------------------------------------------------------------------------\r\nD0808 22:39:26.869593610      18 test_config.cc:391]         test slowdown factor: sanitizer=1, fixture=1, poller=1, total=1\r\nsrc/core/ext/filters/client_channel/lb_policy/subchannel_list.h:536:31: runtime error: downcast of address 0x7f7bb4001b60 which does not point to an object of type 'grpc_core::(anonymous namespace)::PickFirst::PickFirstSubchannelList'\r\n0x7f7bb4001b60: note: object is of type 'grpc_core::SubchannelList<grpc_core::(anonymous namespace)::PickFirst::PickFirstSubchannelList, grpc_core::(anonymous namespace)::PickFirst::PickFirstSubchannelData>'\r\n 7b 7f 00 00  58 cb 32 01 00 00 00 00  28 4c 0c 02 00 00 00 00  01 00 00 00 00 00 00 00  90 17 00 b4\r\n              ^~~~~~~~~~~~~~~~~~~~~~~\r\n              vptr for 'grpc_core::SubchannelList<grpc_core::(anonymous namespace)::PickFirst::PickFirstSubchannelList, grpc_core::(anonymous namespace)::PickFirst::PickFirstSubchannelData>'\r\nE0808 22:39:26.873282947      18 cq_verifier.cc:235]         actual success does not match expected: tag(1) GRPC_OP_COMPLETE success=1 test/core/end2end/tests/write_buffering_at_end.cc:144\r\n*******************************\r\nCaught signal SIGABRT\r\ntest/core/end2end/h2_fakesec_test[0x10eada4]\r\n/lib/x86_64-linux-gnu/libpthread.so.0(+0x11390)[0x7f7bc579d390]\r\n/lib/x86_64-linux-gnu/libc.so.6(gsignal+0x38)[0x7f7bc474a428]\r\n/lib/x86_64-linux-gnu/libc.so.6(abort+0x16a)[0x7f7bc474c02a]\r\ntest/core/end2end/h2_fakesec_test[0x697ccb]\r\ntest/core/end2end/h2_fakesec_test(_Z9cq_verifyP11cq_verifier+0x356)[0x694356]\r\ntest/core/end2end/h2_fakesec_test[0x547990]\r\ntest/core/end2end/h2_fakesec_test(_Z22write_buffering_at_end24grpc_end2end_test_config+0x4f)[0x546cdf]\r\ntest/core/end2end/h2_fakesec_test(_Z18grpc_end2end_testsiPPc24grpc_end2end_test_config+0x9a50)[0x546b00]\r\ntest/core/end2end/h2_fakesec_test(main+0x126)[0x53bf76]\r\n/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f7bc4735830]\r\ntest/core/end2end/h2_fakesec_test(_start+0x29)[0x51c7a9]\r\nAborted (core dumped)\r\n```\r\n\r\nhttps://source.cloud.google.com/results/invocations/aedbbce2-a46b-42b9-9c47-23dc0945c9cb/targets/%2F%2Ftest%2Fcore%2Fend2end:h2_fakesec_test@write_buffering_at_end@poller%3Depollex/log"
+  }
+]

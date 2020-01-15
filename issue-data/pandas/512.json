@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/3680464",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/512#issuecomment-3680464",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/512",
+    "id": 3680464,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2ODA0NjQ=",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-01-27T01:24:12Z",
+    "updated_at": "2012-01-27T01:26:16Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this actually is unsupported in the current implementation of the table read/write of a table, definition requires the index to be a TimeCol64, so you must currently pass a datetime object (which is converted via mktime(value.timetuple()) to the required value for comparison - I believe what you show in your example doesn't work because the passed value is not a datetime, it generates a string comparison on the 'index' column (and this generates the error)\n\nit would be possible to add another table format with say a float index (figuring out written data is easy via the pandas attribute recorded in the table, but specifiying which table format you want would require an option passed via append)\n\nI tend to use columns when I have a panel of the form: items x time x tickers...which lends itself to the current format\n"
+  }
+]

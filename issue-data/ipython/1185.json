@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/3232526",
+    "html_url": "https://github.com/ipython/ipython/issues/1185#issuecomment-3232526",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1185",
+    "id": 3232526,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMzI1MjY=",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-12-21T11:19:26Z",
+    "updated_at": "2011-12-21T11:19:26Z",
+    "author_association": "MEMBER",
+    "body": "As far as I know, you can't really do that. The 'real' stdout belongs to the kernel, which is in a separate process to the frontend you're using. It might even be on a different computer. The cost of this approach is that you can't use stdout as a raw tty device.\n\nAs a hack, you might be able to use `sys.__stdout__`, but note that it will write to stdout where you started the kernel, not necessarily where you started the frontend.\n\nI'm going to close this issue, because I don't think there's anything we can do about it. Feel free to discuss things on the ipython-user mailing list.\n"
+  }
+]

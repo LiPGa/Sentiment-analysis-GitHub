@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/388917347",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21035#issuecomment-388917347",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21035",
+    "id": 388917347,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4ODkxNzM0Nw==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-14T18:30:49Z",
+    "updated_at": "2018-05-14T18:30:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is a windows quirk - `prn` is reserved from long ago.\r\nhttps://superuser.com/questions/613313/why-cant-we-make-con-prn-null-folder-in-windows\r\n\r\n```python-traceback\r\nIn [4]: with open('prn.csv', 'wt') as f:\r\n   ...:     f.write('stuff')\r\n---------------------------------------------------------------------------\r\nPermissionError                           Traceback (most recent call last)\r\n<ipython-input-4-1cdb70a485d2> in <module>()\r\n----> 1 with open('prn.csv', 'wt') as f:\r\n      2     f.write('stuff')\r\n\r\nPermissionError: [Errno 13] Permission denied: 'prn.csv'\r\n```\r\n\r\n\r\n"
+  }
+]

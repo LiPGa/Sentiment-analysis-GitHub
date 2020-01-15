@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/69615216",
+    "html_url": "https://github.com/ipython/ipython/issues/7424#issuecomment-69615216",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7424",
+    "id": 69615216,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5NjE1MjE2",
+    "user": {
+      "login": "ellisonbg",
+      "id": 27600,
+      "node_id": "MDQ6VXNlcjI3NjAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ellisonbg",
+      "html_url": "https://github.com/ellisonbg",
+      "followers_url": "https://api.github.com/users/ellisonbg/followers",
+      "following_url": "https://api.github.com/users/ellisonbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ellisonbg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ellisonbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ellisonbg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ellisonbg/orgs",
+      "repos_url": "https://api.github.com/users/ellisonbg/repos",
+      "events_url": "https://api.github.com/users/ellisonbg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ellisonbg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-12T18:06:35Z",
+    "updated_at": "2015-01-12T18:06:35Z",
+    "author_association": "MEMBER",
+    "body": "The documentation in master has a much better separation of the python and general stuff. At the same time, it is likely that we will continue to _demonstrate_ the features of the notebook (such as widgets, output, etc.) using Python code.\n\nThis is where the notebook help link should point:\n\nhttp://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/Notebook/Index.ipynb\n\nThis is where the kernelspec help for python should point for the (notebook part) of the python kernel docs:\n\nhttp://nbviewer.ipython.org/github/ipython/ipython/blob/master/examples/IPython%20Kernel/Index.ipynb\n"
+  }
+]

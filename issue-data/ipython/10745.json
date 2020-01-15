@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/322641401",
+    "html_url": "https://github.com/ipython/ipython/issues/10745#issuecomment-322641401",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10745",
+    "id": 322641401,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMjY0MTQwMQ==",
+    "user": {
+      "login": "matthew-brett",
+      "id": 67612,
+      "node_id": "MDQ6VXNlcjY3NjEy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/67612?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/matthew-brett",
+      "html_url": "https://github.com/matthew-brett",
+      "followers_url": "https://api.github.com/users/matthew-brett/followers",
+      "following_url": "https://api.github.com/users/matthew-brett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/matthew-brett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/matthew-brett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/matthew-brett/subscriptions",
+      "organizations_url": "https://api.github.com/users/matthew-brett/orgs",
+      "repos_url": "https://api.github.com/users/matthew-brett/repos",
+      "events_url": "https://api.github.com/users/matthew-brett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/matthew-brett/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-16T01:56:24Z",
+    "updated_at": "2017-08-16T01:56:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks Matthias.  The context is my [nb2plots project](https://github.com/matthew-brett/nb2plots).  At the moment I use something like the matplotlib `plot_directive` to house code cells, and I use doctest markup to distinguish code and outputs.  But now I want to be able to follow the Notebook method more directly, where the last RHS in the code block gives the output, and the output is shown in pretty format, such as HTML, LaTex and so-on."
+  }
+]

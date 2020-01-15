@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/307854915",
+    "html_url": "https://github.com/grpc/grpc/issues/9175#issuecomment-307854915",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9175",
+    "id": 307854915,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNzg1NDkxNQ==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-12T17:13:01Z",
+    "updated_at": "2017-06-12T17:13:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks for the feedback! Protobuf (including `protoc`) is really a separate package that is separately distributed and should be installed by the user as they see fit. The plugins are, however, gRPC specific and are part of the gRPC project and that is why they are installed.\r\n\r\nWe are always trying to improve the gRPC user experience and may consider exploring different packaging strategies to simplify things for the user."
+  }
+]

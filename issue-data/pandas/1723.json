@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/7608943",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1723#issuecomment-7608943",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1723",
+    "id": 7608943,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc2MDg5NDM=",
+    "user": {
+      "login": "dhirschfeld",
+      "id": 881019,
+      "node_id": "MDQ6VXNlcjg4MTAxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/881019?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dhirschfeld",
+      "html_url": "https://github.com/dhirschfeld",
+      "followers_url": "https://api.github.com/users/dhirschfeld/followers",
+      "following_url": "https://api.github.com/users/dhirschfeld/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dhirschfeld/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dhirschfeld/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dhirschfeld/subscriptions",
+      "organizations_url": "https://api.github.com/users/dhirschfeld/orgs",
+      "repos_url": "https://api.github.com/users/dhirschfeld/repos",
+      "events_url": "https://api.github.com/users/dhirschfeld/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dhirschfeld/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-08-09T09:02:11Z",
+    "updated_at": "2012-08-09T09:02:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@wesm just wondering what the appropriate forum is to bring up issues which may or may not be bugs since I'm still learning the package. Is it best to bring them up on the ML first and let you create issues if required or should I open the issues directly (like I did this one) and let you triage them if they turn out to be... non-issues?\n"
+  }
+]

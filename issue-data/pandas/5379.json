@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/41277783",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5379#issuecomment-41277783",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5379",
+    "id": 41277783,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjc3Nzgz",
+    "user": {
+      "login": "jankatins",
+      "id": 890156,
+      "node_id": "MDQ6VXNlcjg5MDE1Ng==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/890156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jankatins",
+      "html_url": "https://github.com/jankatins",
+      "followers_url": "https://api.github.com/users/jankatins/followers",
+      "following_url": "https://api.github.com/users/jankatins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jankatins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jankatins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jankatins/subscriptions",
+      "organizations_url": "https://api.github.com/users/jankatins/orgs",
+      "repos_url": "https://api.github.com/users/jankatins/repos",
+      "events_url": "https://api.github.com/users/jankatins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jankatins/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-24T13:12:25Z",
+    "updated_at": "2014-04-24T13:24:15Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "ggplot has some similar code which can be used similar to matplotlibs `@image_comparison`decorator or via a `assert_same_ggplot` function: https://github.com/yhat/ggplot/blob/master/ggplot/tests/__init__.py\n\nTesting is very easy:\n\n```\nfrom . import get_assert_same_ggplot, cleanup\nassert_same_ggplot = get_assert_same_ggplot(__file__)\n\n@cleanup\ndef test_geom_density():\n    df = _build_testing_df()\n    gg = ggplot(aes(x=\"x\", color=\"c\"), data=df)\n    gg = gg + geom_density() + xlab(\"x label\") + ylab(\"y label\")\n    assert_same_ggplot(gg, \"geom_density\")\n```\n\nor via the decorator:\n\n```\nfrom . import image_comparison\n\n@image_comparison(baseline_images=['theme_mpl_all_before', 'theme_mpl_all_after'])\ndef test_theme_matplotlib4():\n    gg = ggplot(aes(x='date', y='beef'), data=meat) + \\\n        geom_point(color='lightblue') + \\\n        stat_smooth(span=.15, color='black', se=True) + \\\n        ggtitle(\"Beef: It's What's for Dinner\") + \\\n        xlab(\"Date\") + \\\n        ylab(\"Head of Cattle Slaughtered\")\n    print(gg + theme_matplotlib())\n    print(gg+theme_matplotlib({\"font.family\": \"serif\"}, matplotlib_defaults=False))\n```\n\nIt will compare the current images to once which are in `<dir where the tests are>/baseline_images/<testfile without \".py\">/`. Running the tests will copy the baseline images to a \"result_images\" dir and adding the current images and comparing them. Generating baseline images can be done via running the tests and copying the images from `result_images/test_xyz` to `.../baseline_images/test_xyz`.\n\nThe fork of the decorator was needed for two reasons: using it outside of matplotlib can only be done after matplotlib 1.1.1 (which we test against) and we also wanted to change some antialising settings which were hardcoded in matplotlib. I also changed the code to only produce/compare png images (https://github.com/yhat/ggplot/commit/901f049863f02cc6bdc64074fe99abd6cac0eb3f).\n\nggplot also has a https://github.com/yhat/ggplot/blob/master/visual_tests.py which generates a browser page which can be used to visually compare the images.\n"
+  }
+]

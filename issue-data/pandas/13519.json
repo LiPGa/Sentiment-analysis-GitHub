@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/330111709",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13519#issuecomment-330111709",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13519",
+    "id": 330111709,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMDExMTcwOQ==",
+    "user": {
+      "login": "halfmoonhalf",
+      "id": 10101515,
+      "node_id": "MDQ6VXNlcjEwMTAxNTE1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10101515?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/halfmoonhalf",
+      "html_url": "https://github.com/halfmoonhalf",
+      "followers_url": "https://api.github.com/users/halfmoonhalf/followers",
+      "following_url": "https://api.github.com/users/halfmoonhalf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/halfmoonhalf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/halfmoonhalf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/halfmoonhalf/subscriptions",
+      "organizations_url": "https://api.github.com/users/halfmoonhalf/orgs",
+      "repos_url": "https://api.github.com/users/halfmoonhalf/repos",
+      "events_url": "https://api.github.com/users/halfmoonhalf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/halfmoonhalf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-18T02:07:27Z",
+    "updated_at": "2017-09-18T02:10:32Z",
+    "author_association": "NONE",
+    "body": "I found the same issue with groupby.shift and groupby.apply. Depending on different arg, the result is pretty confusing: sometimes the groupby columns is dropped, sometimes it is still a column.\r\ncode:\r\n```\r\nimport pandas as pd\r\n\r\ndf = pd.DataFrame({\r\n    'name': ['a', 'a', 'b', 'b'],\r\n    'col_1': [0, 1, 2, 3],\r\n    'col_2': [4, 5, 6, 7]\r\n})\r\n\r\nprint df\r\n\r\nprint '+++++++++++++++++++++++++++++++++++++++++++++++++++'\r\nprint '+++++++++++++++++++++++++++++++++++++++++++++++++++'\r\n\r\n\r\ndef f(group):\r\n    return group.ewm(alpha=0.5).mean()\r\n\r\n\r\nprint df.groupby('name', as_index=True).apply(f)\r\nprint '-' * 20\r\nprint df.groupby('name', as_index=False).apply(f)\r\nprint '-' * 20\r\nprint df.groupby('name', as_index=True)['col_1'].apply(f)\r\nprint '-' * 20\r\nprint df.groupby('name', as_index=False)['col_1'].apply(f)\r\n\r\nprint '+++++++++++++++++++++++++++++++++++++++++++++++++++'\r\nprint '+++++++++++++++++++++++++++++++++++++++++++++++++++'\r\n\r\nprint df.groupby('name', as_index=True).shift(1)\r\nprint '-' * 20\r\nprint df.groupby('name', as_index=False).shift(1)\r\nprint '-' * 20\r\nprint df.groupby('name', as_index=True)['col_1'].shift(1)\r\nprint '-' * 20\r\nprint df.groupby('name', as_index=False)['col_1'].shift(1)\r\nprint '-' * 20\r\n```\r\noutput is: \r\n\r\n```\r\n   col_1  col_2 name\r\n0      0      4    a\r\n1      1      5    a\r\n2      2      6    b\r\n3      3      7    b\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++\r\n      col_1     col_2 name  # <<-------------------------------name is still a column?\r\n0  0.000000  4.000000    a\r\n1  0.666667  4.666667    a\r\n2  2.000000  6.000000    b\r\n3  2.666667  6.666667    b\r\n--------------------\r\n      col_1     col_2 name\r\n0  0.000000  4.000000    a\r\n1  0.666667  4.666667    a\r\n2  2.000000  6.000000    b\r\n3  2.666667  6.666667    b\r\n--------------------\r\n0    0.000000  # <<-------------------------------name should be an index?\r\n1    0.666667\r\n2    2.000000\r\n3    2.666667\r\nName: col_1, dtype: float64\r\n--------------------\r\n0  0    0.000000  # <<-------------------------------multiindex now?\r\n   1    0.666667\r\n1  2    2.000000\r\n   3    2.666667\r\nName: col_1, dtype: float64\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++\r\n+++++++++++++++++++++++++++++++++++++++++++++++++++\r\n   col_1  col_2\r\n0    NaN    NaN\r\n1    0.0    4.0\r\n2    NaN    NaN\r\n3    2.0    6.0\r\n--------------------\r\n   col_1  col_2\r\n0    NaN    NaN\r\n1    0.0    4.0\r\n2    NaN    NaN\r\n3    2.0    6.0\r\n--------------------\r\n0    NaN\r\n1    0.0\r\n2    NaN\r\n3    2.0\r\nName: col_1, dtype: float64\r\n--------------------\r\n   col_1  # <<-------------------------------why is this a dataframe?\r\n0    NaN\r\n1    0.0\r\n2    NaN\r\n3    2.0\r\n--------------------\r\n```\r\n\r\n\r\n\r\npd.show_versions()\r\n\r\n```\r\nINSTALLED VERSIONS\r\n------------------\r\ncommit: None\r\npython: 2.7.13.final.0\r\npython-bits: 64\r\nOS: Darwin\r\nOS-release: 14.5.0\r\nmachine: x86_64\r\nprocessor: i386\r\nbyteorder: little\r\nLC_ALL: en_US.UTF-8\r\nLANG: en_US.UTF-8\r\nLOCALE: None.None\r\n\r\npandas: 0.20.3\r\npytest: 2.8.5\r\npip: 9.0.1\r\nsetuptools: 20.3\r\nCython: 0.23.4\r\nnumpy: 1.13.1\r\nscipy: 0.19.1\r\nxarray: None\r\nIPython: 4.1.2\r\nsphinx: 1.3.5\r\npatsy: 0.4.0\r\ndateutil: 2.5.1\r\npytz: 2016.2\r\nblosc: None\r\nbottleneck: 1.0.0\r\ntables: 3.2.2\r\nnumexpr: 2.6.2\r\nfeather: None\r\nmatplotlib: 2.0.2\r\nopenpyxl: 2.3.2\r\nxlrd: 0.9.4\r\nxlwt: 1.0.0\r\nxlsxwriter: 0.8.4\r\nlxml: 3.6.0\r\nbs4: 4.4.1\r\nhtml5lib: None\r\nsqlalchemy: 1.0.12\r\npymysql: None\r\npsycopg2: None\r\njinja2: 2.8\r\ns3fs: None\r\npandas_gbq: None\r\npandas_datareader: None\r\n```\r\n"
+  }
+]

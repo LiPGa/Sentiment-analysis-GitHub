@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/24554507",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4601#issuecomment-24554507",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4601",
+    "id": 24554507,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NTU0NTA3",
+    "user": {
+      "login": "danbirken",
+      "id": 91798,
+      "node_id": "MDQ6VXNlcjkxNzk4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/91798?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/danbirken",
+      "html_url": "https://github.com/danbirken",
+      "followers_url": "https://api.github.com/users/danbirken/followers",
+      "following_url": "https://api.github.com/users/danbirken/following{/other_user}",
+      "gists_url": "https://api.github.com/users/danbirken/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/danbirken/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/danbirken/subscriptions",
+      "organizations_url": "https://api.github.com/users/danbirken/orgs",
+      "repos_url": "https://api.github.com/users/danbirken/repos",
+      "events_url": "https://api.github.com/users/danbirken/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/danbirken/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-09-16T23:55:50Z",
+    "updated_at": "2013-09-16T23:55:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The real root of this problem is that dateutil.parse() is really liberal about parsing weird values into datetimes.  So I think the two best strategies are:\n\n1) Stop using dateutil for datetime parsing, because it is too liberal.  Have more constrained rules for what is acceptable as a datetime and change pandas to only parse those.\nor\n2) Add additional filtering before dateutil to hopefully provide more sane behavior\n\nThis change is an attempt at (2).  The benefits of (2) are that it is much less of a BC break, and hopefully it is more user-friendly [though this isn't a given - the current dateutil behavior can output some surprising results, like this bug].  I think (1) has a lot of merits as well, but my guess is (2) is more in the spirit of pandas.\n\nSo this change basically just moves the pre-filtering for dateutil into a new module, pandas.utils.datetime_parsing, and then just calls that before using dateutil.  There is little performance concern, because dateutil.parse() is much slower than this and this will only involve code paths that are eventually getting to dateutil.\n\nI think this is also nice in that it moves the dateutil pre-filtering into one spot with testing, so if we wanted to go more down this path of pre-filtering dateutil, we have a good place for it.  Previously there was already a slight amount of dateutil pre-filtering in the cython.\n"
+  }
+]

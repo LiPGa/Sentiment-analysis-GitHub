@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/258206902",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14574#issuecomment-258206902",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14574",
+    "id": 258206902,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1ODIwNjkwMg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-03T17:04:11Z",
+    "updated_at": "2016-11-03T17:04:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this doesn't work on master regardless of whether there are duplicates in the list or not. a list is not hashable and so the index cannot be created. It is completely non-idiomatic to use lists as elements anyhow. \n\nso this is simply not recommended; I suppose it could be worked around, but not worth it.\n\nclosing as won't fix.\n"
+  }
+]

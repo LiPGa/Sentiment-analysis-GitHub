@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/435631106",
+    "html_url": "https://github.com/grpc/grpc/issues/17092#issuecomment-435631106",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17092",
+    "id": 435631106,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTYzMTEwNg==",
+    "user": {
+      "login": "nicolasnoble",
+      "id": 7281574,
+      "node_id": "MDQ6VXNlcjcyODE1NzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7281574?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicolasnoble",
+      "html_url": "https://github.com/nicolasnoble",
+      "followers_url": "https://api.github.com/users/nicolasnoble/followers",
+      "following_url": "https://api.github.com/users/nicolasnoble/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicolasnoble/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicolasnoble/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicolasnoble/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicolasnoble/orgs",
+      "repos_url": "https://api.github.com/users/nicolasnoble/repos",
+      "events_url": "https://api.github.com/users/nicolasnoble/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicolasnoble/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-04T00:11:36Z",
+    "updated_at": "2018-11-04T00:11:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "As stated in #11446, we'd rather have the users git cloning from the release tags themselves. There's very little difference at that point between doing a \"download of a source release file\" and a \"git recursive clone of a tag\", so the additional amount of work you're requesting us to do per release isn't really worth it.\r\n\r\nI'd rather wish github would simply allow us to remove the automatic tarball links so we stop having people creating these issues."
+  }
+]

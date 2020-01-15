@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/234759239",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11700#issuecomment-234759239",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11700",
+    "id": 234759239,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNDc1OTIzOQ==",
+    "user": {
+      "login": "SoScared",
+      "id": 2715583,
+      "node_id": "MDQ6VXNlcjI3MTU1ODM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2715583?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SoScared",
+      "html_url": "https://github.com/SoScared",
+      "followers_url": "https://api.github.com/users/SoScared/followers",
+      "following_url": "https://api.github.com/users/SoScared/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SoScared/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SoScared/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SoScared/subscriptions",
+      "organizations_url": "https://api.github.com/users/SoScared/orgs",
+      "repos_url": "https://api.github.com/users/SoScared/repos",
+      "events_url": "https://api.github.com/users/SoScared/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SoScared/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-24T05:44:25Z",
+    "updated_at": "2016-07-24T05:44:25Z",
+    "author_association": "MEMBER",
+    "body": "Although I've recently delved in the powers of pull requests I'll keep posting these as issue tickets until #11143 is done for consistency sake.\n"
+  }
+]

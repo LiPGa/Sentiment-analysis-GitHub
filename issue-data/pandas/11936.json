@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/431631382",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11936#issuecomment-431631382",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11936",
+    "id": 431631382,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMTYzMTM4Mg==",
+    "user": {
+      "login": "mroeschke",
+      "id": 10647082,
+      "node_id": "MDQ6VXNlcjEwNjQ3MDgy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10647082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mroeschke",
+      "html_url": "https://github.com/mroeschke",
+      "followers_url": "https://api.github.com/users/mroeschke/followers",
+      "following_url": "https://api.github.com/users/mroeschke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mroeschke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mroeschke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mroeschke/subscriptions",
+      "organizations_url": "https://api.github.com/users/mroeschke/orgs",
+      "repos_url": "https://api.github.com/users/mroeschke/repos",
+      "events_url": "https://api.github.com/users/mroeschke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mroeschke/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-21T01:40:56Z",
+    "updated_at": "2018-10-21T01:40:56Z",
+    "author_association": "MEMBER",
+    "body": "The default behavior of `limit=None` and a `limit_direction` is now to go to the end of the sequence:\r\n\r\n```\r\nIn [70]: ser.interpolate(limit_direction='backward', limit=None)\r\nOut[70]:\r\n0     5.000000\r\n1     5.000000\r\n2     5.000000\r\n3     7.666667\r\n4    10.333333\r\n5    13.000000\r\n6          NaN\r\n7          NaN\r\ndtype: float64\r\n\r\nIn [71]: ser.interpolate(limit_direction='both', limit=None)\r\nOut[71]:\r\n0     5.000000\r\n1     5.000000\r\n2     5.000000\r\n3     7.666667\r\n4    10.333333\r\n5    13.000000\r\n6    13.000000\r\n7    13.000000\r\ndtype: float64\r\n\r\nIn [72]: pd.__version__\r\nOut[72]: '0.24.0.dev0+780.g145c2275e'\r\n```"
+  }
+]

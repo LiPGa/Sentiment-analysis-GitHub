@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/474125147",
+    "html_url": "https://github.com/ipython/ipython/issues/11651#issuecomment-474125147",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11651",
+    "id": 474125147,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NDEyNTE0Nw==",
+    "user": {
+      "login": "liquidcarbon",
+      "id": 47034358,
+      "node_id": "MDQ6VXNlcjQ3MDM0MzU4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/47034358?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/liquidcarbon",
+      "html_url": "https://github.com/liquidcarbon",
+      "followers_url": "https://api.github.com/users/liquidcarbon/followers",
+      "following_url": "https://api.github.com/users/liquidcarbon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/liquidcarbon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/liquidcarbon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/liquidcarbon/subscriptions",
+      "organizations_url": "https://api.github.com/users/liquidcarbon/orgs",
+      "repos_url": "https://api.github.com/users/liquidcarbon/repos",
+      "events_url": "https://api.github.com/users/liquidcarbon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/liquidcarbon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-18T22:25:54Z",
+    "updated_at": "2019-03-18T22:25:54Z",
+    "author_association": "NONE",
+    "body": "Came down to the firewall policy dropping TCP traffic by default, except for specified ports.\r\n\r\nAdding this to `/etc/sysconfig/iptables` followed by `systemctl restart iptables` fixed the issue.\r\n\r\n    -A INPUT -p tcp -m tcp -s localhost --dport 32768:65535 -m state --state NEW -m comment --comment \"Jupyter ZeroMQ\" -j ACCEPT\r\n\r\n Note that [Jupyter documentation asks for port range 49152:65535 for the ZeroMQ communication][1].  In fact, the port range it picks is wider, therefore start at 32768.\r\n\r\n  [1]: https://jupyter-notebook.readthedocs.io/en/latest/public_server.html"
+  }
+]

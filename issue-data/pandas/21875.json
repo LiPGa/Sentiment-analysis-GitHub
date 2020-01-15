@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/404499279",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21875#issuecomment-404499279",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21875",
+    "id": 404499279,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNDQ5OTI3OQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-12T12:44:35Z",
+    "updated_at": "2018-07-12T12:44:35Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "`subset` takes the columns to apply it to. It looks like you're passing a DataFrame.\r\n\r\nAlso, `df.style.applymap(color_negative_red, subset = df.iloc[:, i])` is going to return a Styler, not a DataFrame, so I don't think your `while` loop is doing what you're hoping.\r\n\r\nYou might try making a smaller example and asking on StackOverflow, since I don't think there's a bug here."
+  }
+]

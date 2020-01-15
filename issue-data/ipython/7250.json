@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/67186453",
+    "html_url": "https://github.com/ipython/ipython/pull/7250#issuecomment-67186453",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7250",
+    "id": 67186453,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3MTg2NDUz",
+    "user": {
+      "login": "dsblank",
+      "id": 168568,
+      "node_id": "MDQ6VXNlcjE2ODU2OA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/168568?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dsblank",
+      "html_url": "https://github.com/dsblank",
+      "followers_url": "https://api.github.com/users/dsblank/followers",
+      "following_url": "https://api.github.com/users/dsblank/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dsblank/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dsblank/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dsblank/subscriptions",
+      "organizations_url": "https://api.github.com/users/dsblank/orgs",
+      "repos_url": "https://api.github.com/users/dsblank/repos",
+      "events_url": "https://api.github.com/users/dsblank/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dsblank/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-16T16:25:24Z",
+    "updated_at": "2014-12-16T16:25:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Yes, indeed, this does fix the issue I was seeing under jupyterhub. Thanks!\n"
+  }
+]

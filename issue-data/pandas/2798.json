@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/15297679",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2798#issuecomment-15297679",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2798",
+    "id": 15297679,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1Mjk3Njc5",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-03-22T13:55:16Z",
+    "updated_at": "2013-03-22T13:55:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You have different dtypes for these series.\n\n```\nIn [9]: nans\nOut[9]: \n0   NaN\n1   NaN\ndtype: float64\n\nIn [10]: nones\nOut[10]: \n0    None\n1    None\ndtype: object\n\nIn [11]: bools\nOut[11]: \n0     True\n1    False\ndtype: bool\n\n```\n\n `Nones` are are _not_ treated like `np.nan`, they are an object type (like a string). \n\nThey will be coered into `np.nan` in a constructor if there are other types.\n\n```\nn [12]: Series([None,1])\nOut[12]: \n0   NaN\n1     1\ndtype: float64\n```\n\nhowever in your example, they are left as `object` because pandas doesn't know what to do with them (similary to how mixed types are handled)\n\nThe return type for a binary operation (e.g. `*` here), is whatever numpy says it is, which is the first type, maybe upcasted (e.g. an int \\* float == float type, unless the float is equiv to an int)\n\nyour last example blows up because the return type is `bool`, which you can't do any operations on except for comparison to other `bool` types\n\nthe `bools * nans` is a special case in numpy I think where you get `NaN` output, not sure why\n"
+  }
+]

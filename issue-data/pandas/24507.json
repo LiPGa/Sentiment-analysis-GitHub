@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/451002451",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24507#issuecomment-451002451",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24507",
+    "id": 451002451,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MTAwMjQ1MQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-02T22:16:27Z",
+    "updated_at": "2019-01-02T22:16:27Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I might support moving all the extension arrays to a single page, but I\nhaven't looked closely at what we have right now.\n\nWe could include PandasArray on that page.\n\nOn Sun, Dec 30, 2018 at 4:26 PM Marc Garcia <notifications@github.com>\nwrote:\n\n> We've got warning in sphinx because we don't have the PandasArray methods\n> in the API:\n>\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.all.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.any.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.kurt.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.max.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.mean.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.median.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.min.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.prod.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.sem.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.skew.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.std.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.sum.rst: WARNING: document isn't included in any toctree\n> /home/mgarcia/src/pandas/doc/source/api/generated/pandas.arrays.PandasArray.var.rst: WARNING: document isn't included in any toctree\n>\n> I guess those are public and should be added. But I'm not quite sure where\n> we should have them, we have some related stuff in two different places:\n>\n>    -\n>    https://pandas-docs.github.io/pandas-docs-travis/api/series.html#arrays\n>    - https://pandas-docs.github.io/pandas-docs-travis/api/extensions.html\n>\n> Not sure if we need to reorganize those. @TomAugspurger\n> <https://github.com/TomAugspurger>\n>\n> —\n> You are receiving this because you were mentioned.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/pandas-dev/pandas/issues/24507>, or mute the thread\n> <https://github.com/notifications/unsubscribe-auth/ABQHIuBzMej6KDNyWhOLE6d6PfXtPvLiks5u-T18gaJpZM4ZlGIT>\n> .\n>\n"
+  }
+]

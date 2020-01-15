@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/452291314",
+    "html_url": "https://github.com/grpc/grpc/pull/17656#issuecomment-452291314",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17656",
+    "id": 452291314,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjI5MTMxNA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T13:06:21Z",
+    "updated_at": "2019-01-08T13:06:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Clang format check is failing, I'll reformat once I have a bit of free time.\r\n```\r\n+ tools/dockerfile/grpc_clang_format/clang_format_all_the_things.sh\r\n--- /var/local/git/grpc/src/ruby/ext/grpc/rb_channel.c\t2019-01-08 10:55:24.091937361 +0000\r\n+++ /tmp/tmp.MiMPkCroej\t2019-01-08 10:57:44.967937361 +0000\r\n@@ -327,8 +327,8 @@\r\n   void* success = (void*)0;\r\n   gpr_mu_lock(&global_connection_polling_mu);\r\n-  // it's unsafe to do a \"watch\" after \"channel polling abort\" because the cq has\r\n-  // been shut down.\r\n+  // it's unsafe to do a \"watch\" after \"channel polling abort\" because the cq\r\n+  // has been shut down.\r\n   if (abort_channel_polling || stack->bg_wrapped->channel_destroyed) {\r\n     gpr_mu_unlock(&global_connection_polling_mu);\r\n     return (void*)0;\r\n```"
+  }
+]

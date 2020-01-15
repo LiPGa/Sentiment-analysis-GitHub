@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/304723979",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16471#issuecomment-304723979",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16471",
+    "id": 304723979,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNDcyMzk3OQ==",
+    "user": {
+      "login": "OlegShteynbuk",
+      "id": 15165966,
+      "node_id": "MDQ6VXNlcjE1MTY1OTY2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15165966?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/OlegShteynbuk",
+      "html_url": "https://github.com/OlegShteynbuk",
+      "followers_url": "https://api.github.com/users/OlegShteynbuk/followers",
+      "following_url": "https://api.github.com/users/OlegShteynbuk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OlegShteynbuk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/OlegShteynbuk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OlegShteynbuk/subscriptions",
+      "organizations_url": "https://api.github.com/users/OlegShteynbuk/orgs",
+      "repos_url": "https://api.github.com/users/OlegShteynbuk/repos",
+      "events_url": "https://api.github.com/users/OlegShteynbuk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/OlegShteynbuk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-29T20:07:29Z",
+    "updated_at": "2017-06-05T01:09:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "fixed, made a pull request \r\nhttps://github.com/pandas-dev/pandas/pull/16534\r\n"
+  }
+]

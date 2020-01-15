@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/388664347",
+    "html_url": "https://github.com/ipython/ipython/issues/11136#issuecomment-388664347",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11136",
+    "id": 388664347,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4ODY2NDM0Nw==",
+    "user": {
+      "login": "Albert65",
+      "id": 10393403,
+      "node_id": "MDQ6VXNlcjEwMzkzNDAz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10393403?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Albert65",
+      "html_url": "https://github.com/Albert65",
+      "followers_url": "https://api.github.com/users/Albert65/followers",
+      "following_url": "https://api.github.com/users/Albert65/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Albert65/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Albert65/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Albert65/subscriptions",
+      "organizations_url": "https://api.github.com/users/Albert65/orgs",
+      "repos_url": "https://api.github.com/users/Albert65/repos",
+      "events_url": "https://api.github.com/users/Albert65/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Albert65/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-13T23:40:38Z",
+    "updated_at": "2018-05-13T23:41:42Z",
+    "author_association": "NONE",
+    "body": "It turns out to be a pip3 dependency problem (one can see \"spyder\" in the path to default.css file).\r\nAfter uninstalling python3 in homebrew and manually removing all python related files, I managed to get normally working ipython (and spyder3 btw) in fresh installation. Closing this issue. "
+  }
+]

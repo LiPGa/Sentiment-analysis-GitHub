@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/226445716",
+    "html_url": "https://github.com/grpc/grpc/issues/6928#issuecomment-226445716",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6928",
+    "id": 226445716,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNjQ0NTcxNg==",
+    "user": {
+      "login": "zs2hx",
+      "id": 12977874,
+      "node_id": "MDQ6VXNlcjEyOTc3ODc0",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12977874?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zs2hx",
+      "html_url": "https://github.com/zs2hx",
+      "followers_url": "https://api.github.com/users/zs2hx/followers",
+      "following_url": "https://api.github.com/users/zs2hx/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zs2hx/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zs2hx/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zs2hx/subscriptions",
+      "organizations_url": "https://api.github.com/users/zs2hx/orgs",
+      "repos_url": "https://api.github.com/users/zs2hx/repos",
+      "events_url": "https://api.github.com/users/zs2hx/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zs2hx/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-16T10:18:43Z",
+    "updated_at": "2016-06-16T10:18:43Z",
+    "author_association": "NONE",
+    "body": "This does not qualify as an issue with GRPC - its purely for record keeping - hopefully it saves someone else hours of digging.\n"
+  }
+]

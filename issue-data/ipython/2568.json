@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/10336108",
+    "html_url": "https://github.com/ipython/ipython/issues/2568#issuecomment-10336108",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2568",
+    "id": 10336108,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMzM2MTA4",
+    "user": {
+      "login": "ellisonbg",
+      "id": 27600,
+      "node_id": "MDQ6VXNlcjI3NjAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ellisonbg",
+      "html_url": "https://github.com/ellisonbg",
+      "followers_url": "https://api.github.com/users/ellisonbg/followers",
+      "following_url": "https://api.github.com/users/ellisonbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ellisonbg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ellisonbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ellisonbg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ellisonbg/orgs",
+      "repos_url": "https://api.github.com/users/ellisonbg/repos",
+      "events_url": "https://api.github.com/users/ellisonbg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ellisonbg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-11-13T18:05:20Z",
+    "updated_at": "2012-11-13T18:05:20Z",
+    "author_association": "MEMBER",
+    "body": "It looks like we are going to remove the Javascript object altogether because of security concerns.  We can leave this open in the meantime though, but I don't think we will fix it.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/88878350",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9788#issuecomment-88878350",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9788",
+    "id": 88878350,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg4ODc4MzUw",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-02T11:59:47Z",
+    "updated_at": "2015-04-02T11:59:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this was fixed in 0.16.0, see #9311, #6620\n\n```\nIn [1]: import datetime as dt; import pandas as pd\n\nIn [2]: d2 = dt.datetime(2015, 4, 2, 12, 23, 12, 567000)\n\nIn [3]: df = pd.DataFrame([['Bar', d2]], columns=['name', 'date'])\n\nIn [4]: df2 = df.sort('date').groupby('name').last().reset_index()\n\nIn [5]: df2\nOut[5]: \n  name                       date\n0  Bar 2015-04-02 12:23:12.567000\n\nIn [6]: df2.iloc[0,1]\nOut[6]: Timestamp('2015-04-02 12:23:12.567000')\n\nIn [7]: df2.iloc[0,1].value\nOut[7]: 1427977392567000000\n```\n"
+  }
+]

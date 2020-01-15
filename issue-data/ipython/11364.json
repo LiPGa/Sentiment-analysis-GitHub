@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/428247492",
+    "html_url": "https://github.com/ipython/ipython/issues/11364#issuecomment-428247492",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11364",
+    "id": 428247492,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyODI0NzQ5Mg==",
+    "user": {
+      "login": "jeffbaena",
+      "id": 18122010,
+      "node_id": "MDQ6VXNlcjE4MTIyMDEw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18122010?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jeffbaena",
+      "html_url": "https://github.com/jeffbaena",
+      "followers_url": "https://api.github.com/users/jeffbaena/followers",
+      "following_url": "https://api.github.com/users/jeffbaena/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jeffbaena/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jeffbaena/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jeffbaena/subscriptions",
+      "organizations_url": "https://api.github.com/users/jeffbaena/orgs",
+      "repos_url": "https://api.github.com/users/jeffbaena/repos",
+      "events_url": "https://api.github.com/users/jeffbaena/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jeffbaena/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-09T15:53:21Z",
+    "updated_at": "2018-10-09T15:53:21Z",
+    "author_association": "NONE",
+    "body": "Another example of logs:\r\n\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/core/history.py\", line 87, in catch_corrupt_db\r\n    return f(self, *a, **kw)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/core/history.py\", line 257, in init_db\r\n    end timestamp, num_cmds integer, remark text)\"\"\")\r\nsqlite3.OperationalError: database is locked\r\n\r\nDuring handling of the above exception, another exception occurred:\r\n\r\nTraceback (most recent call last):\r\n  File \"/home/academic/ssavian/anaconda3/bin/ipython\", line 11, in <module>\r\n    sys.exit(start_ipython())\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/__init__.py\", line 125, in start_ipython\r\n    return launch_new_instance(argv=argv, **kwargs)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/traitlets/config/application.py\", line 657, in launch_instance\r\n    app.initialize(argv)\r\n  File \"<decorator-gen-112>\", line 2, in initialize\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/traitlets/config/application.py\", line 87, in catch_config_error\r\n    return method(app, *args, **kwargs)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/terminal/ipapp.py\", line 317, in initialize\r\n    self.init_shell()\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/terminal/ipapp.py\", line 333, in init_shell\r\n    ipython_dir=self.ipython_dir, user_ns=self.user_ns)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/traitlets/config/configurable.py\", line 412, in instance\r\n    inst = cls(*args, **kwargs)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/terminal/interactiveshell.py\", line 430, in __init__\r\n    super(TerminalInteractiveShell, self).__init__(*args, **kwargs)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py\", line 501, in __init__\r\n    self.init_history()\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/core/interactiveshell.py\", line 1621, in init_history\r\n    self.history_manager = HistoryManager(shell=self, parent=self)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/core/history.py\", line 537, in __init__\r\n    **traits)\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/core/history.py\", line 229, in __init__\r\n    self.init_db()\r\n  File \"<decorator-gen-15>\", line 2, in init_db\r\n  File \"/home/academic/ssavian/anaconda3/lib/python3.7/site-packages/IPython/core/history.py\", line 87, in catch_corrupt_db\r\n    return f(self, *a, **kw)\r\nKeyboardInterrupt\r\n\r\nIf you suspect this is an IPython bug, please report it at:\r\n    https://github.com/ipython/ipython/issues\r\nor send an email to the mailing list at ipython-dev@python.org\r\n\r\nYou can print a more detailed traceback right now with \"%tb\", or use \"%debug\"\r\nto interactively debug it.\r\n\r\nExtra-detailed tracebacks for bug-reporting purposes can be enabled via:\r\n    c.Application.verbose_crash=True"
+  }
+]

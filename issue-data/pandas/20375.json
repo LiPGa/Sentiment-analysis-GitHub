@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/373608780",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20375#issuecomment-373608780",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20375",
+    "id": 373608780,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MzYwODc4MA==",
+    "user": {
+      "login": "yupitsme",
+      "id": 12009186,
+      "node_id": "MDQ6VXNlcjEyMDA5MTg2",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12009186?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yupitsme",
+      "html_url": "https://github.com/yupitsme",
+      "followers_url": "https://api.github.com/users/yupitsme/followers",
+      "following_url": "https://api.github.com/users/yupitsme/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yupitsme/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yupitsme/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yupitsme/subscriptions",
+      "organizations_url": "https://api.github.com/users/yupitsme/orgs",
+      "repos_url": "https://api.github.com/users/yupitsme/repos",
+      "events_url": "https://api.github.com/users/yupitsme/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yupitsme/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-16T05:37:11Z",
+    "updated_at": "2018-03-16T05:37:11Z",
+    "author_association": "NONE",
+    "body": "Issue could not be replicated"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/37943287",
+    "html_url": "https://github.com/ipython/ipython/pull/5374#issuecomment-37943287",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5374",
+    "id": 37943287,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3OTQzMjg3",
+    "user": {
+      "login": "ivanov",
+      "id": 118211,
+      "node_id": "MDQ6VXNlcjExODIxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/118211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivanov",
+      "html_url": "https://github.com/ivanov",
+      "followers_url": "https://api.github.com/users/ivanov/followers",
+      "following_url": "https://api.github.com/users/ivanov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivanov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivanov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivanov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivanov/orgs",
+      "repos_url": "https://api.github.com/users/ivanov/repos",
+      "events_url": "https://api.github.com/users/ivanov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivanov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-18T15:03:59Z",
+    "updated_at": "2014-03-18T15:03:59Z",
+    "author_association": "MEMBER",
+    "body": "thanks for your contribution, @dvska , but we do not accept whole large \"cleanup\" changes which do not address any specific bug. This includes trailing whitespace, PEP8, etc. One of the reasons is that, as you can see, our test suite is now failing on Travis CI with your changes. This might not be a real bug, that you've introduced, but in general such massive cleanup provide plenty of opportunities to introduce new and subtle bugs. We need to communicate this better, and I have added an item to our dev meeting agenda for this week to [discuss how to do this better](https://hackpad.com/2014-IPython-Weekly-Development-Meetings-v8bNV6EmqVd#:h=March-20,-2014).\n\nNever the less, having looked over some of the changes, several of them do add clarity - so we will try to incorporate these as we work on fixing bugs in those parts of the code. If you have fixed some bugs here, could you open a new small and self-contained PR so we keep this code-wide cleanup diff around? \n"
+  }
+]

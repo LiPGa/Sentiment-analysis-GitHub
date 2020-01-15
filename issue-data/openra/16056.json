@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/453727718",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/16056#issuecomment-453727718",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16056",
+    "id": 453727718,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzcyNzcxOA==",
+    "user": {
+      "login": "evgeniysergeev",
+      "id": 3105609,
+      "node_id": "MDQ6VXNlcjMxMDU2MDk=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3105609?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/evgeniysergeev",
+      "html_url": "https://github.com/evgeniysergeev",
+      "followers_url": "https://api.github.com/users/evgeniysergeev/followers",
+      "following_url": "https://api.github.com/users/evgeniysergeev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/evgeniysergeev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/evgeniysergeev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/evgeniysergeev/subscriptions",
+      "organizations_url": "https://api.github.com/users/evgeniysergeev/orgs",
+      "repos_url": "https://api.github.com/users/evgeniysergeev/repos",
+      "events_url": "https://api.github.com/users/evgeniysergeev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/evgeniysergeev/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-12T07:44:01Z",
+    "updated_at": "2019-01-12T07:44:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Not actually needed. Drawing during placement can be implemented in another Trait. Closing for now"
+  }
+]

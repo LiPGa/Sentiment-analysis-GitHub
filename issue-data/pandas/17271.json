@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/323155967",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17271#issuecomment-323155967",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17271",
+    "id": 323155967,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMzE1NTk2Nw==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-17T18:28:59Z",
+    "updated_at": "2017-08-17T18:28:59Z",
+    "author_association": "MEMBER",
+    "body": "\r\nThis issue appears to be due to an invalid ternary statement in [pandas/core/indexes/base.py](https://github.com/pandas-dev/pandas/blob/master/pandas/core/indexes/base.py#L3451-L3457):\r\n\r\n```python\r\nelif self.is_monotonic_decreasing:\r\n    # np.searchsorted expects ascending sort order, have to reverse\r\n    # everything for it to work (element ordering, search side and\r\n    # resulting value).\r\n    pos = self[::-1].searchsorted(label, side='right' if side == 'left'\r\n                                  else 'right')\r\n    return len(self) - pos\r\n```\r\n\r\nNote that the ternary statement `side='right' if side == 'left' else 'right'` always evaluates to `'right'`.  The fix is to end it with `else 'left'`.  I'll submit a PR shortly."
+  }
+]

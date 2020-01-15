@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/303358107",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16448#issuecomment-303358107",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16448",
+    "id": 303358107,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMzM1ODEwNw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-23T10:30:52Z",
+    "updated_at": "2017-05-23T10:30:52Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Mixing timezones within a single Series is not performant and not supported. You are best off converting to a single timezone. (either UTC or a local) and simply adding.\r\n```\r\nIn [40]: pd.to_datetime(datelist)\r\nOut[40]: DatetimeIndex(['2017-02-25 02:21:49', '2017-02-25 02:21:49', '2017-02-25 01:21:49'], dtype='datetime64[ns]', freq=None)\r\n\r\nIn [41]: Series(pd.to_datetime(datelist).tz_localize('UTC').tz_convert('US/Pacific'))\r\nOut[41]: \r\n0   2017-02-24 18:21:49-08:00\r\n1   2017-02-24 18:21:49-08:00\r\n2   2017-02-24 17:21:49-08:00\r\ndtype: datetime64[ns, US/Pacific]\r\n\r\nIn [42]: Series(pd.to_datetime(datelist).tz_localize('UTC').tz_convert('US/Pacific')) + pd.to_timedelta([1, 2, 3], unit='ms')\r\nOut[42]: \r\n0   2017-02-24 18:21:49.001000-08:00\r\n1   2017-02-24 18:21:49.002000-08:00\r\n2   2017-02-24 17:21:49.003000-08:00\r\ndtype: datetime64[ns, US/Pacific]\r\n\r\n```"
+  }
+]

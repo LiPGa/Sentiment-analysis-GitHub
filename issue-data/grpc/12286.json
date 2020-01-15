@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/324703780",
+    "html_url": "https://github.com/grpc/grpc/issues/12286#issuecomment-324703780",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12286",
+    "id": 324703780,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNDcwMzc4MA==",
+    "user": {
+      "login": "menghanl",
+      "id": 960845,
+      "node_id": "MDQ6VXNlcjk2MDg0NQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/960845?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/menghanl",
+      "html_url": "https://github.com/menghanl",
+      "followers_url": "https://api.github.com/users/menghanl/followers",
+      "following_url": "https://api.github.com/users/menghanl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/menghanl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/menghanl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/menghanl/subscriptions",
+      "organizations_url": "https://api.github.com/users/menghanl/orgs",
+      "repos_url": "https://api.github.com/users/menghanl/repos",
+      "events_url": "https://api.github.com/users/menghanl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/menghanl/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-24T17:32:48Z",
+    "updated_at": "2017-08-24T17:32:48Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It failed to go get package `golang.org/x/text/unicode/norm`:\r\n```\r\nget \"golang.org/x/text/unicode/norm\": found meta tag main.metaImport{Prefix:\"golang.org/x/text\", VCS:\"git\", RepoRoot:\"https://go.googlesource.com/text\"} at https://golang.org/x/text/unicode/norm?go-get=1\r\nget \"golang.org/x/text/unicode/norm\": verifying non-authoritative meta tag\r\npackage golang.org/x/text/unicode/norm: cannot find package \"golang.org/x/text/unicode/norm\" in any of:\r\n\t/usr/local/go/src/golang.org/x/text/unicode/norm (from $GOROOT)\r\n\t/go/src/golang.org/x/text/unicode/norm (from $GOPATH)\r\n```\r\n\r\nRoot cause could be\r\n```\r\nfatal: unable to access 'https://go.googlesource.com/text/': Failed to connect to go.googlesource.com port 443: Connection timed out\r\n```\r\n\r\nThis failure should go away in a new build."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/388636031",
+    "html_url": "https://github.com/ipython/ipython/issues/11132#issuecomment-388636031",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11132",
+    "id": 388636031,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4ODYzNjAzMQ==",
+    "user": {
+      "login": "manrajgrover",
+      "id": 5673050,
+      "node_id": "MDQ6VXNlcjU2NzMwNTA=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5673050?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/manrajgrover",
+      "html_url": "https://github.com/manrajgrover",
+      "followers_url": "https://api.github.com/users/manrajgrover/followers",
+      "following_url": "https://api.github.com/users/manrajgrover/following{/other_user}",
+      "gists_url": "https://api.github.com/users/manrajgrover/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/manrajgrover/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/manrajgrover/subscriptions",
+      "organizations_url": "https://api.github.com/users/manrajgrover/orgs",
+      "repos_url": "https://api.github.com/users/manrajgrover/repos",
+      "events_url": "https://api.github.com/users/manrajgrover/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/manrajgrover/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-13T15:42:13Z",
+    "updated_at": "2018-05-13T15:42:13Z",
+    "author_association": "NONE",
+    "body": "I just got it to work with [callbacks](http://ipython.readthedocs.io/en/stable/config/callbacks.html). Closing this."
+  }
+]

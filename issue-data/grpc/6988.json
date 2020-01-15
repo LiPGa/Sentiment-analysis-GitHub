@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/227949202",
+    "html_url": "https://github.com/grpc/grpc/issues/6988#issuecomment-227949202",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6988",
+    "id": 227949202,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNzk0OTIwMg==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-23T04:50:17Z",
+    "updated_at": "2016-06-23T04:50:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I went through all relevant documentation on grpc.io and there weren't many occurences of \"stub\". I adjusted the wording to prevent confusion (https://github.com/grpc/grpc.github.io/pull/213)\n"
+  }
+]

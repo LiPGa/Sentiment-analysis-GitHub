@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/276041839",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15261#issuecomment-276041839",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15261",
+    "id": 276041839,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NjA0MTgzOQ==",
+    "user": {
+      "login": "colinmorris",
+      "id": 695907,
+      "node_id": "MDQ6VXNlcjY5NTkwNw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/695907?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/colinmorris",
+      "html_url": "https://github.com/colinmorris",
+      "followers_url": "https://api.github.com/users/colinmorris/followers",
+      "following_url": "https://api.github.com/users/colinmorris/following{/other_user}",
+      "gists_url": "https://api.github.com/users/colinmorris/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/colinmorris/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/colinmorris/subscriptions",
+      "organizations_url": "https://api.github.com/users/colinmorris/orgs",
+      "repos_url": "https://api.github.com/users/colinmorris/repos",
+      "events_url": "https://api.github.com/users/colinmorris/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/colinmorris/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-30T11:40:55Z",
+    "updated_at": "2017-01-30T11:40:55Z",
+    "author_association": "NONE",
+    "body": "Actually, I'm going to retract this, since it seems like there are lots of ways in which the current output isn't legal XHTML, and there's no great argument for making the output XHTML compliant in this particular respect but not the others."
+  }
+]

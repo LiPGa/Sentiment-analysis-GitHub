@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/366367457",
+    "html_url": "https://github.com/grpc/grpc/issues/14454#issuecomment-366367457",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14454",
+    "id": 366367457,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NjM2NzQ1Nw==",
+    "user": {
+      "login": "photex",
+      "id": 301903,
+      "node_id": "MDQ6VXNlcjMwMTkwMw==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/301903?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/photex",
+      "html_url": "https://github.com/photex",
+      "followers_url": "https://api.github.com/users/photex/followers",
+      "following_url": "https://api.github.com/users/photex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/photex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/photex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/photex/subscriptions",
+      "organizations_url": "https://api.github.com/users/photex/orgs",
+      "repos_url": "https://api.github.com/users/photex/repos",
+      "events_url": "https://api.github.com/users/photex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/photex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-16T21:46:44Z",
+    "updated_at": "2018-02-16T21:46:44Z",
+    "author_association": "NONE",
+    "body": "I just found: https://github.com/bazelbuild/bazel/issues/4572 and https://github.com/bazelbuild/bazel/issues/3977\r\n\r\nIf I use `export CC=gcc` and build then things work as expected."
+  }
+]

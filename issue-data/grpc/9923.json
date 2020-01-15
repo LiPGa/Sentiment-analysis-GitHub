@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/283876893",
+    "html_url": "https://github.com/grpc/grpc/issues/9923#issuecomment-283876893",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9923",
+    "id": 283876893,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4Mzg3Njg5Mw==",
+    "user": {
+      "login": "stanley-cheung",
+      "id": 11674202,
+      "node_id": "MDQ6VXNlcjExNjc0MjAy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11674202?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stanley-cheung",
+      "html_url": "https://github.com/stanley-cheung",
+      "followers_url": "https://api.github.com/users/stanley-cheung/followers",
+      "following_url": "https://api.github.com/users/stanley-cheung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stanley-cheung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stanley-cheung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stanley-cheung/subscriptions",
+      "organizations_url": "https://api.github.com/users/stanley-cheung/orgs",
+      "repos_url": "https://api.github.com/users/stanley-cheung/repos",
+      "events_url": "https://api.github.com/users/stanley-cheung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stanley-cheung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-03T06:29:13Z",
+    "updated_at": "2017-03-03T06:29:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This has been fixed in the 1.1.0 release. #9340 "
+  }
+]

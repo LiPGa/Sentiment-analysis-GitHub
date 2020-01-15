@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/21409196",
+    "html_url": "https://github.com/ipython/ipython/issues/3737#issuecomment-21409196",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3737",
+    "id": 21409196,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNDA5MTk2",
+    "user": {
+      "login": "p3trus",
+      "id": 1489787,
+      "node_id": "MDQ6VXNlcjE0ODk3ODc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1489787?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/p3trus",
+      "html_url": "https://github.com/p3trus",
+      "followers_url": "https://api.github.com/users/p3trus/followers",
+      "following_url": "https://api.github.com/users/p3trus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/p3trus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/p3trus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/p3trus/subscriptions",
+      "organizations_url": "https://api.github.com/users/p3trus/orgs",
+      "repos_url": "https://api.github.com/users/p3trus/repos",
+      "events_url": "https://api.github.com/users/p3trus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/p3trus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-23T12:00:54Z",
+    "updated_at": "2013-07-23T12:00:54Z",
+    "author_association": "NONE",
+    "body": "Seems to be the same as #3719 . Closing it.\n"
+  }
+]

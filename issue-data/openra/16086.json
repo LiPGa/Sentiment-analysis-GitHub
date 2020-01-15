@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/466175395",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/16086#issuecomment-466175395",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16086",
+    "id": 466175395,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NjE3NTM5NQ==",
+    "user": {
+      "login": "anvilvapre",
+      "id": 12512948,
+      "node_id": "MDQ6VXNlcjEyNTEyOTQ4",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12512948?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/anvilvapre",
+      "html_url": "https://github.com/anvilvapre",
+      "followers_url": "https://api.github.com/users/anvilvapre/followers",
+      "following_url": "https://api.github.com/users/anvilvapre/following{/other_user}",
+      "gists_url": "https://api.github.com/users/anvilvapre/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/anvilvapre/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/anvilvapre/subscriptions",
+      "organizations_url": "https://api.github.com/users/anvilvapre/orgs",
+      "repos_url": "https://api.github.com/users/anvilvapre/repos",
+      "events_url": "https://api.github.com/users/anvilvapre/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/anvilvapre/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-21T21:33:00Z",
+    "updated_at": "2019-02-21T21:33:54Z",
+    "author_association": "NONE",
+    "body": "if so - please add a \"wake up\" button to the lobby that rings some alert sound. or a \"ready up count down\" button, giving players x second to ready up or to become candidates to be kicked.\r\nplayers waiting in lobby often switch to other windows - which is fine. they won't notice until the lobby is full until someone makes many short typing messages - to make a sound that is different from normal chat.\r\n\r\ndisabling copy pasting in game - after lobby - might be a good idea. it avoids many people from pasting spam in game. asumming that copy paste seems to work under Windows.\r\n"
+  }
+]

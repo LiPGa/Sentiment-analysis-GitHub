@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/96866598",
+    "html_url": "https://github.com/grpc/grpc/issues/1179#issuecomment-96866598",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1179",
+    "id": 96866598,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk2ODY2NTk4",
+    "user": {
+      "login": "soltanmm",
+      "id": 4889063,
+      "node_id": "MDQ6VXNlcjQ4ODkwNjM=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4889063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soltanmm",
+      "html_url": "https://github.com/soltanmm",
+      "followers_url": "https://api.github.com/users/soltanmm/followers",
+      "following_url": "https://api.github.com/users/soltanmm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soltanmm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soltanmm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soltanmm/subscriptions",
+      "organizations_url": "https://api.github.com/users/soltanmm/orgs",
+      "repos_url": "https://api.github.com/users/soltanmm/repos",
+      "events_url": "https://api.github.com/users/soltanmm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soltanmm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-28T01:12:05Z",
+    "updated_at": "2015-04-28T01:12:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I don't see this error, rather I get a build error (which I've addressed in #1385). With that PR, `make shared_cxx` executes fine on my MacBook (Mac OS 10.9.5, XCode 6.2).\n"
+  }
+]

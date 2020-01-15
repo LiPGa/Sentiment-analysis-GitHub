@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/480253212",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25984#issuecomment-480253212",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25984",
+    "id": 480253212,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDI1MzIxMg==",
+    "user": {
+      "login": "simonjayhawkins",
+      "id": 13159005,
+      "node_id": "MDQ6VXNlcjEzMTU5MDA1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13159005?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/simonjayhawkins",
+      "html_url": "https://github.com/simonjayhawkins",
+      "followers_url": "https://api.github.com/users/simonjayhawkins/followers",
+      "following_url": "https://api.github.com/users/simonjayhawkins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/simonjayhawkins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/simonjayhawkins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/simonjayhawkins/subscriptions",
+      "organizations_url": "https://api.github.com/users/simonjayhawkins/orgs",
+      "repos_url": "https://api.github.com/users/simonjayhawkins/repos",
+      "events_url": "https://api.github.com/users/simonjayhawkins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/simonjayhawkins/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-05T12:13:03Z",
+    "updated_at": "2019-04-05T12:13:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@jschendel : in 0.23.4 the missing values were displayed as `nan` in an `IntervalIndex` and the repr of the index itself and only print as `NaN` in a column of values with dtype `object`\r\n\r\n```python\r\n>>> import numpy as np; import pandas as pd; pd.__version__\r\n'0.23.4'\r\n>>> ii = pd.IntervalIndex.from_tuples([(0, 1), np.nan, (2, 3)])\r\n>>> pd.Series(list('abc'), index=ii)\r\n(0.0, 1.0]    a\r\nnan           b\r\n(2.0, 3.0]    c\r\ndtype: object\r\n>>> pd.Series(ii)\r\n0    (0.0, 1.0]\r\n1           NaN\r\n2    (2.0, 3.0]\r\ndtype: object\r\n>>> ii\r\nIntervalIndex([(0.0, 1.0], nan, (2.0, 3.0]]\r\n              closed='right',\r\n              dtype='interval[float64]')\r\n```\r\n\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/68152240",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9152#issuecomment-68152240",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9152",
+    "id": 68152240,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4MTUyMjQw",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-26T18:28:37Z",
+    "updated_at": "2014-12-26T18:28:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "looks like its trying to call a shell command (you usually need ! to do that).\n\n```\nIn [16]: valid = np.array([100,0,300])\n\nIn [17]: lab = Series([-1,2,-1],[100,200,300])\n\nIn [18]: lab[lab.index.map(lambda x: x in valid)]\nOut[18]: \n100   -1\n300   -1\ndtype: int64\n\n# you should just do this in any event\nIn [19]: lab[lab.index.isin(valid)]\nOut[19]: \n100   -1\n300   -1\ndtype: int64\n```\n"
+  }
+]

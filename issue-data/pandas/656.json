@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/3599745",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/656#issuecomment-3599745",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/656",
+    "id": 3599745,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1OTk3NDU=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-01-21T23:13:48Z",
+    "updated_at": "2012-01-21T23:13:48Z",
+    "author_association": "MEMBER",
+    "body": "This actually is the behavior I would expect and you've identified a pathological ambiguous case where it's very hard for the code to know what's the right thing to do. `ix` uses location-based indexing whenever a sequence of integers is passed _as long as the index is not integers_. But in this case of course:\n\n```\n\nIn [1]: s = Series([0, 1, 2], index=['a', 0, 1])\n\nIn [2]: s\nOut[2]: \na    0\n0    1\n1    2\n\nIn [3]: s.index.inferred_type\nOut[3]: 'mixed'\n```\n\nYou can force _exact_ label-indexing using the `reindex` function. That is actually the best way to guarantee exact label-based indexing:\n\n```\nIn [4]: s.reindex([0, 1])\nOut[4]: \n0    1\n1    2\n```\n"
+  }
+]

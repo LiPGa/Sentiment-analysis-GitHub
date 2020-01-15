@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/412948802",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22348#issuecomment-412948802",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22348",
+    "id": 412948802,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMjk0ODgwMg==",
+    "user": {
+      "login": "jbencina",
+      "id": 5510940,
+      "node_id": "MDQ6VXNlcjU1MTA5NDA=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5510940?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jbencina",
+      "html_url": "https://github.com/jbencina",
+      "followers_url": "https://api.github.com/users/jbencina/followers",
+      "following_url": "https://api.github.com/users/jbencina/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jbencina/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jbencina/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jbencina/subscriptions",
+      "organizations_url": "https://api.github.com/users/jbencina/orgs",
+      "repos_url": "https://api.github.com/users/jbencina/repos",
+      "events_url": "https://api.github.com/users/jbencina/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jbencina/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-14T17:17:46Z",
+    "updated_at": "2018-08-14T17:17:46Z",
+    "author_association": "NONE",
+    "body": "Sorry, found out this is already known http://pandas-docs.github.io/pandas-docs-travis/timeseries.html#timestamp-limitations"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/52689390",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8057#issuecomment-52689390",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8057",
+    "id": 52689390,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUyNjg5Mzkw",
+    "user": {
+      "login": "JnyJny",
+      "id": 876947,
+      "node_id": "MDQ6VXNlcjg3Njk0Nw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/876947?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JnyJny",
+      "html_url": "https://github.com/JnyJny",
+      "followers_url": "https://api.github.com/users/JnyJny/followers",
+      "following_url": "https://api.github.com/users/JnyJny/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JnyJny/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JnyJny/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JnyJny/subscriptions",
+      "organizations_url": "https://api.github.com/users/JnyJny/orgs",
+      "repos_url": "https://api.github.com/users/JnyJny/repos",
+      "events_url": "https://api.github.com/users/JnyJny/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JnyJny/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-08-19T19:55:20Z",
+    "updated_at": "2014-08-19T19:55:20Z",
+    "author_association": "NONE",
+    "body": "Fixed.  Thank you.\n"
+  }
+]

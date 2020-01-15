@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/147113772",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9587#issuecomment-147113772",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9587",
+    "id": 147113772,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0NzExMzc3Mg==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-10T18:17:57Z",
+    "updated_at": "2015-10-10T18:17:57Z",
+    "author_association": "MEMBER",
+    "body": "Confirmed the regression.  Git blames #8028.\n\n```\nfb0cab74819002c676652da68ba2a3e99f85a4f9 is the first bad commit\ncommit fb0cab74819002c676652da68ba2a3e99f85a4f9\nAuthor: RoosterDragon <RoosterDragon@outlook.com>\nDate:   Mon Apr 20 23:48:00 2015 +0100\n\n    Cache results of TraitsImplementing calls.\n\n    If a class is caching the TraitsImplementing enumerable, instead cache the results of enumerating it to an array. The avoids having to enumerate the sequence each time it is needed.\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/341537501",
+    "html_url": "https://github.com/grpc/grpc/issues/13242#issuecomment-341537501",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13242",
+    "id": 341537501,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTUzNzUwMQ==",
+    "user": {
+      "login": "yashykt",
+      "id": 4181124,
+      "node_id": "MDQ6VXNlcjQxODExMjQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4181124?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yashykt",
+      "html_url": "https://github.com/yashykt",
+      "followers_url": "https://api.github.com/users/yashykt/followers",
+      "following_url": "https://api.github.com/users/yashykt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yashykt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yashykt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yashykt/subscriptions",
+      "organizations_url": "https://api.github.com/users/yashykt/orgs",
+      "repos_url": "https://api.github.com/users/yashykt/repos",
+      "events_url": "https://api.github.com/users/yashykt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yashykt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-02T19:48:27Z",
+    "updated_at": "2017-11-02T19:49:11Z",
+    "author_association": "MEMBER",
+    "body": "Not sure if it is related but tools\\run_tests\\helper_scripts\\run_node.bat  fails too with\r\n```\r\nFailure\r\nNow using node v8.9.0 (npm v5.5.1)\r\n+ CONFIG=dbg\r\n++ dirname tools/run_tests/helper_scripts/run_node.sh\r\n+ cd tools/run_tests/helper_scripts/../../..\r\n++ pwd\r\n+ root=/var/local/git/grpc\r\n+ test_directory=src/node/test\r\n+ timeout=8000\r\n+ '[' dbg = gcov ']'\r\n+ JUNIT_REPORT_PATH=src/node/report.xml\r\n+ JUNIT_REPORT_STACK=1\r\n+ ./node_modules/.bin/mocha --timeout 8000 --reporter mocha-jenkins-reporter src/node/test\r\n\r\n  Async functionality\r\n       should not hang: 17ms\r\n\r\n  Suite duration: 0.023 s, Tests: 1\r\nnode: ../deps/uv/src/unix/core.c:250: uv__finish_close: Assertion `handle->flags & UV_CLOSING' failed.\r\ntools/run_tests/helper_scripts/run_node.sh: line 48:  9950 Aborted                 (core dumped) JUNIT_REPORT_PATH=src/node/report.xml JUNIT_REPORT_STACK=1 ./node_modules/.bin/mocha --timeout $timeout --reporter mocha-jenkins-reporter $test_directory\r\n```"
+  }
+]

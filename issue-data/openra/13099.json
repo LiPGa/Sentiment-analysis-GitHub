@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/293211009",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/13099#issuecomment-293211009",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/13099",
+    "id": 293211009,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MzIxMTAwOQ==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-11T10:01:28Z",
+    "updated_at": "2017-04-11T10:01:28Z",
+    "author_association": "MEMBER",
+    "body": "As mentioned in IRC, I consider a hidden `Graphics.DisableWindowsDPIScaling` setting (that must be manually added to settings.yaml) to be sufficient.  If we added it to the ingame settings menu then we would need to deal with the different behaviour on windows/osx/linux which would turn a simple patch into a monster."
+  }
+]

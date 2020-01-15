@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/72751590",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9408#issuecomment-72751590",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9408",
+    "id": 72751590,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcyNzUxNTkw",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-03T22:41:00Z",
+    "updated_at": "2015-02-03T22:41:00Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Well, not sure if the behavior of 0.11 is correct (IIRC it doesn't handle certain edge cases), but in any event this seems pretty good to me. After all this is almost always a 1-time cost. You should not be generating dates like this many times.\n\n```\nIn [140]: %timeit pandas.date_range(start='1/1/1995', end='2/3/2015', freq='B')\n10 loops, best of 3: 49 ms per loop\n```\n\nIf you really wanted to do it faster, you can do this.\n\n```\nIn [138]: def f():\n   .....:     dr = pandas.date_range(start='1/1/1995', end='2/3/2015', freq='D')\n   .....:     return dr[dr.weekday<5]\n   .....: \n\nIn [139]: %timeit f()\n100 loops, best of 3: 2.02 ms per loop\n\n\n```\n"
+  }
+]

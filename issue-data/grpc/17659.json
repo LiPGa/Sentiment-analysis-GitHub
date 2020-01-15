@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/453232816",
+    "html_url": "https://github.com/grpc/grpc/issues/17659#issuecomment-453232816",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17659",
+    "id": 453232816,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MzIzMjgxNg==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-10T19:58:31Z",
+    "updated_at": "2019-01-10T19:58:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Thanks for reporting this. It appears that our gevent code does not respect/set `SO_REUSEPORT`, as seen [here](https://github.com/grpc/grpc/blob/a554f44579b52a61891b19e3d77b23adc5e6a336/src/python/grpcio/grpc/_cython/_cygrpc/grpc_gevent.pyx.pxi#L243). I don't think the fact that `multiprocessing` is involved makes any difference: I modified your example code to `gevent.spawn` two gRPC servers in the same process and observed the same \"Address already in use\" error message.\r\n\r\nOur gevent support has a number of open bugs, and I will add this to the list. I have some time set aside this quarter to audit our gevent code and open issues, and will update this as part of that process."
+  }
+]

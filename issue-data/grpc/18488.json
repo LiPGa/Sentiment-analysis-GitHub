@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/476344333",
+    "html_url": "https://github.com/grpc/grpc/pull/18488#issuecomment-476344333",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18488",
+    "id": 476344333,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NjM0NDMzMw==",
+    "user": {
+      "login": "lidizheng",
+      "id": 7394928,
+      "node_id": "MDQ6VXNlcjczOTQ5Mjg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7394928?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lidizheng",
+      "html_url": "https://github.com/lidizheng",
+      "followers_url": "https://api.github.com/users/lidizheng/followers",
+      "following_url": "https://api.github.com/users/lidizheng/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lidizheng/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lidizheng/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lidizheng/subscriptions",
+      "organizations_url": "https://api.github.com/users/lidizheng/orgs",
+      "repos_url": "https://api.github.com/users/lidizheng/repos",
+      "events_url": "https://api.github.com/users/lidizheng/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lidizheng/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-25T19:30:13Z",
+    "updated_at": "2019-03-25T19:30:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@gnossen Thanks for reviewing, PTAL. I have adopted your suggestions:\r\n\r\n* Add a unit test.\r\n* Integrate with Bazel.\r\n* Utilize `logging` package.\r\n* Update the `README.md`.\r\n* Unbind the server address and actual logic.\r\n\r\nThis example's integration with Bazel is more complex because of the Bazel Python 3 namespace package resolving bug, see https://github.com/bazelbuild/bazel/issues/6844."
+  }
+]

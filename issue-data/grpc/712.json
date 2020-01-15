@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/75467738",
+    "html_url": "https://github.com/grpc/grpc/issues/712#issuecomment-75467738",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/712",
+    "id": 75467738,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1NDY3NzM4",
+    "user": {
+      "login": "soltanmm",
+      "id": 4889063,
+      "node_id": "MDQ6VXNlcjQ4ODkwNjM=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4889063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/soltanmm",
+      "html_url": "https://github.com/soltanmm",
+      "followers_url": "https://api.github.com/users/soltanmm/followers",
+      "following_url": "https://api.github.com/users/soltanmm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/soltanmm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/soltanmm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/soltanmm/subscriptions",
+      "organizations_url": "https://api.github.com/users/soltanmm/orgs",
+      "repos_url": "https://api.github.com/users/soltanmm/repos",
+      "events_url": "https://api.github.com/users/soltanmm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/soltanmm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-22T22:41:32Z",
+    "updated_at": "2015-02-22T22:41:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Going into third_party/protobuf and `make install`ing there, followed by `make`ing at GRPC's root directory resulted in a lot of missing symbols, e.g.:\n\n```\n//usr/local/lib/libprotobuf.a(substitute.o): In function `google::protobuf::ascii_isdigit(char)':\n/usr/local/google/home/atash/src/grpc/third_party/protobuf/src/./google/protobuf/stubs/strutil.h:70: undefined reference to `__msan_param_tls'\n/usr/local/google/home/atash/src/grpc/third_party/protobuf/src/./google/protobuf/stubs/strutil.h:70: undefined reference to `__msan_param_origin_tls'\n/usr/local/google/home/atash/src/grpc/third_party/protobuf/src/./google/protobuf/stubs/strutil.h:72: undefined reference to `__msan_retval_tls'\n/usr/local/google/home/atash/src/grpc/third_party/protobuf/src/./google/protobuf/stubs/strutil.h:72: undefined reference to `__msan_retval_origin_tls'\n```\n\nThey all look like that. 90% sure that there're build hygiene issues with respect to compiling for msan followed by compiling normally. Possible confounding factors include whether or not `make` was invoked to `install` or not at various points.\n"
+  }
+]

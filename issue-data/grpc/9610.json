@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/282384114",
+    "html_url": "https://github.com/grpc/grpc/issues/9610#issuecomment-282384114",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9610",
+    "id": 282384114,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MjM4NDExNA==",
+    "user": {
+      "login": "dwittmer",
+      "id": 26012020,
+      "node_id": "MDQ6VXNlcjI2MDEyMDIw",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26012020?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dwittmer",
+      "html_url": "https://github.com/dwittmer",
+      "followers_url": "https://api.github.com/users/dwittmer/followers",
+      "following_url": "https://api.github.com/users/dwittmer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dwittmer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dwittmer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dwittmer/subscriptions",
+      "organizations_url": "https://api.github.com/users/dwittmer/orgs",
+      "repos_url": "https://api.github.com/users/dwittmer/repos",
+      "events_url": "https://api.github.com/users/dwittmer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dwittmer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-24T19:36:19Z",
+    "updated_at": "2017-02-24T19:36:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "+1 for addressing the referenced TODO in GRXConcurrentWriteable. Having the callbacks occur on the main thread has the potential for being a significant performance hit."
+  }
+]

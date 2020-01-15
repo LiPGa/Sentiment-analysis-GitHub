@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/26676180",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/5281#issuecomment-26676180",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5281",
+    "id": 26676180,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2Njc2MTgw",
+    "user": {
+      "login": "cancan101",
+      "id": 51059,
+      "node_id": "MDQ6VXNlcjUxMDU5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/51059?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cancan101",
+      "html_url": "https://github.com/cancan101",
+      "followers_url": "https://api.github.com/users/cancan101/followers",
+      "following_url": "https://api.github.com/users/cancan101/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cancan101/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cancan101/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cancan101/subscriptions",
+      "organizations_url": "https://api.github.com/users/cancan101/orgs",
+      "repos_url": "https://api.github.com/users/cancan101/repos",
+      "events_url": "https://api.github.com/users/cancan101/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cancan101/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-10-20T16:17:44Z",
+    "updated_at": "2013-10-20T16:17:44Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@jtratner \n"
+  }
+]

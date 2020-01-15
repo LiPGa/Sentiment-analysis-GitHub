@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/235473932",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11711#issuecomment-235473932",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11711",
+    "id": 235473932,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNTQ3MzkzMg==",
+    "user": {
+      "login": "chrisforbes",
+      "id": 128877,
+      "node_id": "MDQ6VXNlcjEyODg3Nw==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/128877?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisforbes",
+      "html_url": "https://github.com/chrisforbes",
+      "followers_url": "https://api.github.com/users/chrisforbes/followers",
+      "following_url": "https://api.github.com/users/chrisforbes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisforbes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisforbes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisforbes/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisforbes/orgs",
+      "repos_url": "https://api.github.com/users/chrisforbes/repos",
+      "events_url": "https://api.github.com/users/chrisforbes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisforbes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-27T03:22:37Z",
+    "updated_at": "2016-07-27T03:22:37Z",
+    "author_association": "MEMBER",
+    "body": "I like this a lot better, but I still think this map is a bit of a disaster.\n\nSpawn D (in the revised version) is particularly awful, with the bridges\nchoking off ore access. The mine below spawn H is also not good -- that\npatch grows unusually slowly due to a lot of the random walks failing.\n\nOn Mon, Jul 25, 2016 at 9:34 PM, Jonas A. Lind notifications@github.com\nwrote:\n\n> Not happy about the ore patches. Will revise.\n> \n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> https://github.com/OpenRA/OpenRA/issues/11711#issuecomment-234906382,\n> or mute the thread\n> https://github.com/notifications/unsubscribe-auth/AAH3bTP8MjQ5muboOSEoLiArOXLJsBWlks5qZIM1gaJpZM4JT3Ho\n> .\n"
+  }
+]

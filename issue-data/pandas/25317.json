@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/463700659",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25317#issuecomment-463700659",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25317",
+    "id": 463700659,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MzcwMDY1OQ==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-14T16:46:50Z",
+    "updated_at": "2019-02-14T16:46:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Yeah, looks like this broke from `0.23.4` - cc @jbrockmendel "
+  }
+]

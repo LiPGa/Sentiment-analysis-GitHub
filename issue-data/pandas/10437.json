@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/115369399",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10437#issuecomment-115369399",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10437",
+    "id": 115369399,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNTM2OTM5OQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-25T19:24:09Z",
+    "updated_at": "2015-06-25T19:24:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You don't have a multi-index in the first place. You need to create one explicity.\n\n```\nIn [46]: wp = pd.Panel(pd.randn(4, 5, 4), items=pd.MultiIndex.from_product([range(2),range(2)]),major_axis=['a','b','c','d','e'],minor_axis=['A', 'B', 'C', 'D'])\n\nIn [47]: wp\nOut[47]: \n<class 'pandas.core.panel.Panel'>\nDimensions: 4 (items) x 5 (major_axis) x 4 (minor_axis)\nItems axis: (0, 0) to (1, 1)\nMajor_axis axis: a to e\nMinor_axis axis: A to D\n\nIn [48]: wp.loc[(0,0)]\nOut[48]: \n          A         B         C         D\na -0.084994 -0.653210 -0.404298 -2.500130\nb  0.907593  0.078896 -0.998117 -1.167685\nc -0.776501 -0.298755 -0.601618 -0.140084\nd  0.370016  1.158117 -0.162282 -1.613040\ne  0.852059  0.973698  0.757224 -0.621917\n\nIn [49]: wp.loc[(0,1)]          \nOut[49]: \n          A         B         C         D\na -0.020449  1.094973 -1.252915  0.460252\nb -1.749595 -0.312298 -0.116360  1.205130\nc  1.421608  0.982935 -1.430015 -0.854789\nd  1.044343  0.786917  1.527114 -1.098493\ne  0.037582  0.744138  0.080397 -0.594863\n\nIn [50]: wp2 = wp.reindex(items=[(0,1),(0,0),(1,0),(1,1)])\n\nIn [52]: wp2.iloc[0]\nOut[52]: \n          A         B         C         D\na -0.020449  1.094973 -1.252915  0.460252\nb -1.749595 -0.312298 -0.116360  1.205130\nc  1.421608  0.982935 -1.430015 -0.854789\nd  1.044343  0.786917  1.527114 -1.098493\ne  0.037582  0.744138  0.080397 -0.594863\n```\n\nFurther, I would for sure name these levels. And what you are doing is going to require explicty\ntuple accessors always, e.g. `wp.loc[(0,0)]`\n"
+  }
+]

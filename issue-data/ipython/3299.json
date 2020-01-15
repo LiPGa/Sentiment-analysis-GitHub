@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/17696055",
+    "html_url": "https://github.com/ipython/ipython/issues/3299#issuecomment-17696055",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3299",
+    "id": 17696055,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3Njk2MDU1",
+    "user": {
+      "login": "bfroehle",
+      "id": 204333,
+      "node_id": "MDQ6VXNlcjIwNDMzMw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/204333?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bfroehle",
+      "html_url": "https://github.com/bfroehle",
+      "followers_url": "https://api.github.com/users/bfroehle/followers",
+      "following_url": "https://api.github.com/users/bfroehle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bfroehle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bfroehle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bfroehle/subscriptions",
+      "organizations_url": "https://api.github.com/users/bfroehle/orgs",
+      "repos_url": "https://api.github.com/users/bfroehle/repos",
+      "events_url": "https://api.github.com/users/bfroehle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bfroehle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-05-09T23:24:12Z",
+    "updated_at": "2013-05-09T23:24:12Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "You ran into a bit of IPython magic here.  Please see http://ipython.org/ipython-doc/dev/interactive/reference.html#output-caching-system\n"
+  }
+]

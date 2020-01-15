@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/431609912",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23228#issuecomment-431609912",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23228",
+    "id": 431609912,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMTYwOTkxMg==",
+    "user": {
+      "login": "kprestel",
+      "id": 14278318,
+      "node_id": "MDQ6VXNlcjE0Mjc4MzE4",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/14278318?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kprestel",
+      "html_url": "https://github.com/kprestel",
+      "followers_url": "https://api.github.com/users/kprestel/followers",
+      "following_url": "https://api.github.com/users/kprestel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kprestel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kprestel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kprestel/subscriptions",
+      "organizations_url": "https://api.github.com/users/kprestel/orgs",
+      "repos_url": "https://api.github.com/users/kprestel/repos",
+      "events_url": "https://api.github.com/users/kprestel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kprestel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-20T19:10:24Z",
+    "updated_at": "2018-10-20T19:10:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I think I have a fix for the fix part of this issue. \r\n\r\nI will create a PR and continue working on the second part of the issue. "
+  }
+]

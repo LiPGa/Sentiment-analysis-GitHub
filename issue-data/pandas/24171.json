@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/446094755",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24171#issuecomment-446094755",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24171",
+    "id": 446094755,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NjA5NDc1NQ==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-11T07:04:25Z",
+    "updated_at": "2018-12-11T07:04:25Z",
+    "author_association": "MEMBER",
+    "body": "This isn't a pandas bug per se. You simply can't store NA values mixed with integers in NumPy land.\r\n\r\nWe are working on allowing that with the IntegerNA work being done, though it doesn't look like this is supported at the moment:\r\n\r\n```python\r\nIn [34]: df = pd.DataFrame({'a': np.arange(1,6), \r\n    ...:                    'b': np.arange(1,6)+2, \r\n    ...:                    'c': np.arange(1,6)**2}, dtype='Int64') \r\nIn [35]: df.iloc[1,1] = np.nan \r\nIn [36]: df.diff() \r\n\r\nTypeError: data type not understood\r\n```\r\n\r\nI've repurposed the title to reflect that"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/247851126",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14244#issuecomment-247851126",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14244",
+    "id": 247851126,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0Nzg1MTEyNg==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-18T14:33:38Z",
+    "updated_at": "2016-09-18T14:33:38Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The good news is that the tests seem to pass :) I'd love to hear suggestions for how to search for other cases like this: Test classes inheriting from TestCase that have yield fixtures.\n"
+  }
+]

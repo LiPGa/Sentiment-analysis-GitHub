@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/300572545",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16321#issuecomment-300572545",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16321",
+    "id": 300572545,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMDU3MjU0NQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-10T18:29:08Z",
+    "updated_at": "2017-05-10T18:29:08Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "See https://github.com/pandas-dev/pandas/issues/15628 and issues linking to / from that.\r\n\r\nThe short-version is `DataFrame.apply` tries to infer an output based on the result. The result of your output is inferred to be a DataFrame with the same columns.\r\n\r\nYou're probably better off with something like\r\n\r\n```python\r\nIn [51]: pd.Series([list(x) for x in t.itertuples(index=False)])\r\nOut[51]:\r\n0        [hello, 1, GOOD, long.kw]\r\n1      [1.2, chipotle, nan, bingo]\r\n2    [various, nan, 3000, 123.456]\r\ndtype: object\r\n\r\n```"
+  }
+]

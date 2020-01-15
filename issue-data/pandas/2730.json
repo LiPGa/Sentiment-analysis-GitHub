@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/12902331",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/2730#issuecomment-12902331",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2730",
+    "id": 12902331,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyOTAyMzMx",
+    "user": {
+      "login": "stephenwlin",
+      "id": 2342637,
+      "node_id": "MDQ6VXNlcjIzNDI2Mzc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2342637?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stephenwlin",
+      "html_url": "https://github.com/stephenwlin",
+      "followers_url": "https://api.github.com/users/stephenwlin/followers",
+      "following_url": "https://api.github.com/users/stephenwlin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stephenwlin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stephenwlin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stephenwlin/subscriptions",
+      "organizations_url": "https://api.github.com/users/stephenwlin/orgs",
+      "repos_url": "https://api.github.com/users/stephenwlin/repos",
+      "events_url": "https://api.github.com/users/stephenwlin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stephenwlin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-30T17:45:52Z",
+    "updated_at": "2013-01-30T17:45:52Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "rebased to #2777 for commit log cleanliness\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/300585587",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/13272#issuecomment-300585587",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/13272",
+    "id": 300585587,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMDU4NTU4Nw==",
+    "user": {
+      "login": "reaperrr",
+      "id": 2857877,
+      "node_id": "MDQ6VXNlcjI4NTc4Nzc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2857877?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reaperrr",
+      "html_url": "https://github.com/reaperrr",
+      "followers_url": "https://api.github.com/users/reaperrr/followers",
+      "following_url": "https://api.github.com/users/reaperrr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reaperrr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reaperrr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reaperrr/subscriptions",
+      "organizations_url": "https://api.github.com/users/reaperrr/orgs",
+      "repos_url": "https://api.github.com/users/reaperrr/repos",
+      "events_url": "https://api.github.com/users/reaperrr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reaperrr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-10T19:18:34Z",
+    "updated_at": "2017-05-10T19:18:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is definitely the HiDPI scaling at work.\r\n\r\nFor a temporary solution, see @pchote's first comment on #13170.\r\n\r\nI guess for our next release we need to disable this by default, at least on Windows."
+  }
+]

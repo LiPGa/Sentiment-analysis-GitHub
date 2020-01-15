@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/265032516",
+    "html_url": "https://github.com/grpc/grpc/issues/8946#issuecomment-265032516",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8946",
+    "id": 265032516,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NTAzMjUxNg==",
+    "user": {
+      "login": "KevinDai",
+      "id": 845309,
+      "node_id": "MDQ6VXNlcjg0NTMwOQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/845309?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/KevinDai",
+      "html_url": "https://github.com/KevinDai",
+      "followers_url": "https://api.github.com/users/KevinDai/followers",
+      "following_url": "https://api.github.com/users/KevinDai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/KevinDai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/KevinDai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/KevinDai/subscriptions",
+      "organizations_url": "https://api.github.com/users/KevinDai/orgs",
+      "repos_url": "https://api.github.com/users/KevinDai/repos",
+      "events_url": "https://api.github.com/users/KevinDai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/KevinDai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-06T01:23:00Z",
+    "updated_at": "2016-12-06T01:23:00Z",
+    "author_association": "NONE",
+    "body": "I found a new point to intercept, wapper the handle when ServerServiceDefinition.Builder AddMethod."
+  }
+]

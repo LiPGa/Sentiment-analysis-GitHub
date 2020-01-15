@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/109066615",
+    "html_url": "https://github.com/grpc/grpc/issues/1913#issuecomment-109066615",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1913",
+    "id": 109066615,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwOTA2NjYxNQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-04T21:52:19Z",
+    "updated_at": "2015-06-04T21:52:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@nicolasnoble, do we need this message for debugging purposes (in which case rephrasing would make sense) or we can just remove it?\n\ngpr_log(GPR_ERROR, \"ReadFile overlapped error: %s\", utf8_message);\n\ngpr_log(GPR_ERROR, \"WSASend overlapped error: %s\", utf8_message);\n\ngpr_log(GPR_ERROR, \"WSASend error: %s\", utf8_message);\n"
+  }
+]

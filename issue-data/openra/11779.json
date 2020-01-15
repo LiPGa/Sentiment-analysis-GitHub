@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/238057597",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11779#issuecomment-238057597",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11779",
+    "id": 238057597,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzODA1NzU5Nw==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-07T01:22:40Z",
+    "updated_at": "2016-08-07T01:23:22Z",
+    "author_association": "MEMBER",
+    "body": "Duplicate of #11252 which was fixed by #11757.\n\nDeleting your settings.yaml (or just the sound engine line from inside it) will work around the problem until the next release.\n"
+  }
+]

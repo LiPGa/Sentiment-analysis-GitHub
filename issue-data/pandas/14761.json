@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/265496865",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14761#issuecomment-265496865",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14761",
+    "id": 265496865,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NTQ5Njg2NQ==",
+    "user": {
+      "login": "m-charlton",
+      "id": 7031487,
+      "node_id": "MDQ6VXNlcjcwMzE0ODc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7031487?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/m-charlton",
+      "html_url": "https://github.com/m-charlton",
+      "followers_url": "https://api.github.com/users/m-charlton/followers",
+      "following_url": "https://api.github.com/users/m-charlton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/m-charlton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/m-charlton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/m-charlton/subscriptions",
+      "organizations_url": "https://api.github.com/users/m-charlton/orgs",
+      "repos_url": "https://api.github.com/users/m-charlton/repos",
+      "events_url": "https://api.github.com/users/m-charlton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/m-charlton/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-07T16:33:04Z",
+    "updated_at": "2016-12-07T16:33:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'm willing to do this. I'm assuming that the next major release is 0.20.0. If \r\nso the files that need changing are \r\n\r\n```\r\ndocs/source/basics.rst\r\ndocs/source/whatsnew/v0.20.0.txt\r\n```\r\n\r\nI intend to replace the existing section [see](http://pandas.pydata.org/pandas-docs/stable/basics.html#astype)\r\n\r\nConvert a subset of columns to a specified type using astype()\r\n```\r\nIn [318]: dft = pd.DataFrame({'a': [1,2,3], 'b': [4,5,6], 'c': [7, 8, 9]})\r\n\r\nIn [319]: dft[['a','b']] = dft[['a','b']].astype(np.uint8)\r\n\r\nIn [320]: dft\r\nOut[320]: \r\n   a  b  c\r\n0  1  4  7\r\n1  2  5  8\r\n2  3  6  9\r\n\r\nIn [321]: dft.dtypes\r\nOut[321]: \r\na    uint8\r\nb    uint8\r\nc    int64\r\ndtype: object\r\n```\r\n\r\nWith the following:\r\n\r\nConvert a subset of columns to a specified type by passing a dictionary, \r\nmapping the column name to the type for that column, to astype()\r\n```\r\nIn [318]: dft = pd.DataFrame({'a': [1,2,3], 'b': [4,5,6], 'c': [7, 8, 9]})\r\n\r\nIn [319]: dft = dft.astype({'a':np.float64, 'c': np.uint8})\r\n\r\nIn [320]: dft\r\nOut[320]: \r\n     a  b  c\r\n0  1.0  4  7\r\n1  2.0  5  8\r\n2  3.0  6  9\r\n\r\nIn [321]: dft.dtypes\r\nOut[321]: \r\na    float64\r\nb      int64\r\nc      uint8\r\ndtype: object\r\n```\r\n\r\nJust to confirm, this enhancement maps a column name to a desired data type for \r\nthat column. The original text mentioned a column index, If I use an index, I \r\nget a KeyError.\r\n\r\nCheers\r\n\r\nMichael.\r\n"
+  }
+]

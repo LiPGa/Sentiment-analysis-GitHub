@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/12236433",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2693#issuecomment-12236433",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2693",
+    "id": 12236433,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMjM2NDMz",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-14T19:54:10Z",
+    "updated_at": "2013-01-14T19:54:55Z",
+    "author_association": "MEMBER",
+    "body": "This is actually the correct behavior. You could try doing `df[1:3]` to have Python row-selection semantics. The issue is that `ix` _prefers_ label-based indexing and you have an integer index.\n"
+  }
+]

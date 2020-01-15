@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/326288419",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17397#issuecomment-326288419",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17397",
+    "id": 326288419,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjI4ODQxOQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-31T13:02:28Z",
+    "updated_at": "2017-08-31T13:02:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "See the second section [here](https://pandas.pydata.org/pandas-docs/stable/dsintro.html#series) about from a dictionary. The keys are interpreted as the index, and the values are the values of the `Series`, so you get a `Series` with a single row, `A`, and then reindex it. Essentially:\r\n\r\n```python\r\nIn [3]: pd.Series([[1, 2, 3, 3, 5]], index=['A'])\r\nOut[3]:\r\nA    [1, 2, 3, 3, 5]\r\ndtype: object\r\n\r\nIn [4]: pd.Series([[1, 2, 3, 3, 5]], index=['A']).reindex([1, 2, 3, 4, 5])\r\nOut[4]:\r\n1    NaN\r\n2    NaN\r\n3    NaN\r\n4    NaN\r\n5    NaN\r\ndtype: object\r\n```\r\n\r\nThe docstring could probably use some examples, but we have other issues for that so I'm going to close this one."
+  }
+]

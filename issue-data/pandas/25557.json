@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/470440249",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25557#issuecomment-470440249",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25557",
+    "id": 470440249,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDQ0MDI0OQ==",
+    "user": {
+      "login": "sighingnow",
+      "id": 7144772,
+      "node_id": "MDQ6VXNlcjcxNDQ3NzI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7144772?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sighingnow",
+      "html_url": "https://github.com/sighingnow",
+      "followers_url": "https://api.github.com/users/sighingnow/followers",
+      "following_url": "https://api.github.com/users/sighingnow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sighingnow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sighingnow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sighingnow/subscriptions",
+      "organizations_url": "https://api.github.com/users/sighingnow/orgs",
+      "repos_url": "https://api.github.com/users/sighingnow/repos",
+      "events_url": "https://api.github.com/users/sighingnow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sighingnow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-07T08:55:19Z",
+    "updated_at": "2019-03-07T08:55:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I will look at this issue."
+  }
+]

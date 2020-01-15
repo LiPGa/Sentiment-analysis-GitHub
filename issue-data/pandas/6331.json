@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/34946494",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/6331#issuecomment-34946494",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6331",
+    "id": 34946494,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0OTQ2NDk0",
+    "user": {
+      "login": "cpcloud",
+      "id": 417981,
+      "node_id": "MDQ6VXNlcjQxNzk4MQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/417981?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cpcloud",
+      "html_url": "https://github.com/cpcloud",
+      "followers_url": "https://api.github.com/users/cpcloud/followers",
+      "following_url": "https://api.github.com/users/cpcloud/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cpcloud/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cpcloud/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cpcloud/subscriptions",
+      "organizations_url": "https://api.github.com/users/cpcloud/orgs",
+      "repos_url": "https://api.github.com/users/cpcloud/repos",
+      "events_url": "https://api.github.com/users/cpcloud/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cpcloud/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-02-13T04:04:10Z",
+    "updated_at": "2014-02-13T04:04:10Z",
+    "author_association": "MEMBER",
+    "body": "This is probably best left as a class that you create yourself. The CSV functions are already bursting at the seams with arguments, and while this may be occasionally useful, I'm not sure it's general enough for pandas.\n"
+  }
+]

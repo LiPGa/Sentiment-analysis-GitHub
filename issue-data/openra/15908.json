@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/447586243",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/15908#issuecomment-447586243",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15908",
+    "id": 447586243,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NzU4NjI0Mw==",
+    "user": {
+      "login": "wolfbyte",
+      "id": 5306796,
+      "node_id": "MDQ6VXNlcjUzMDY3OTY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5306796?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wolfbyte",
+      "html_url": "https://github.com/wolfbyte",
+      "followers_url": "https://api.github.com/users/wolfbyte/followers",
+      "following_url": "https://api.github.com/users/wolfbyte/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wolfbyte/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wolfbyte/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wolfbyte/subscriptions",
+      "organizations_url": "https://api.github.com/users/wolfbyte/orgs",
+      "repos_url": "https://api.github.com/users/wolfbyte/repos",
+      "events_url": "https://api.github.com/users/wolfbyte/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wolfbyte/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-15T17:57:46Z",
+    "updated_at": "2018-12-15T17:57:46Z",
+    "author_association": "NONE",
+    "body": "Noticed some issues in the pull request. I'm working on fixing them now. "
+  }
+]

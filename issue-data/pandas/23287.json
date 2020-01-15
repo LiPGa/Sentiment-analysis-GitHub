@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/432103967",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23287#issuecomment-432103967",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23287",
+    "id": 432103967,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMjEwMzk2Nw==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-23T05:59:20Z",
+    "updated_at": "2018-10-23T05:59:20Z",
+    "author_association": "MEMBER",
+    "body": "There are at least already tests for Series with scalar (but not Series/Series or Series/array), it seems:\r\n\r\nhttps://github.com/pandas-dev/pandas/blob/8d8955e54bd5fc8fae070dd862f104dc17bee0b7/pandas/tests/extension/base/ops.py#L89-L96\r\n"
+  }
+]

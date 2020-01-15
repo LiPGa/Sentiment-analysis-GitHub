@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/392573875",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21211#issuecomment-392573875",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21211",
+    "id": 392573875,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MjU3Mzg3NQ==",
+    "user": {
+      "login": "MikeBeller",
+      "id": 1700778,
+      "node_id": "MDQ6VXNlcjE3MDA3Nzg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1700778?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MikeBeller",
+      "html_url": "https://github.com/MikeBeller",
+      "followers_url": "https://api.github.com/users/MikeBeller/followers",
+      "following_url": "https://api.github.com/users/MikeBeller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MikeBeller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MikeBeller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MikeBeller/subscriptions",
+      "organizations_url": "https://api.github.com/users/MikeBeller/orgs",
+      "repos_url": "https://api.github.com/users/MikeBeller/repos",
+      "events_url": "https://api.github.com/users/MikeBeller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MikeBeller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-28T17:21:46Z",
+    "updated_at": "2018-05-28T17:21:46Z",
+    "author_association": "NONE",
+    "body": "A bit more info -- the problem does not manifest if I add **engine='python'** to the call to read_csv.  (But of course the read takes much longer.)  This reinforces that the behavior above is a bug.\r\n"
+  }
+]

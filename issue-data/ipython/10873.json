@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/340307208",
+    "html_url": "https://github.com/ipython/ipython/issues/10873#issuecomment-340307208",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10873",
+    "id": 340307208,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MDMwNzIwOA==",
+    "user": {
+      "login": "shoeffner",
+      "id": 1836815,
+      "node_id": "MDQ6VXNlcjE4MzY4MTU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1836815?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shoeffner",
+      "html_url": "https://github.com/shoeffner",
+      "followers_url": "https://api.github.com/users/shoeffner/followers",
+      "following_url": "https://api.github.com/users/shoeffner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shoeffner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shoeffner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shoeffner/subscriptions",
+      "organizations_url": "https://api.github.com/users/shoeffner/orgs",
+      "repos_url": "https://api.github.com/users/shoeffner/repos",
+      "events_url": "https://api.github.com/users/shoeffner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shoeffner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-29T22:15:41Z",
+    "updated_at": "2017-10-29T22:15:41Z",
+    "author_association": "NONE",
+    "body": "@krumnack made some deeper analysis of the underlying problems here: https://github.com/shoeffner/cvloop/issues/20#issuecomment-340292628"
+  }
+]

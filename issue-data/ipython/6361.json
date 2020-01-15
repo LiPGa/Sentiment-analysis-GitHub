@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/53482269",
+    "html_url": "https://github.com/ipython/ipython/pull/6361#issuecomment-53482269",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6361",
+    "id": 53482269,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzNDgyMjY5",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-08-26T20:12:51Z",
+    "updated_at": "2014-08-26T20:12:51Z",
+    "author_association": "MEMBER",
+    "body": "Did you submit this by mistake ? It seem to be only a request to merge 2.x into master without modification.\n\nIf you are new to git/github and/or need some help, feel free to ask. \n\nI'm going to close this but you can still comment on it if necessary, and it is always possible to reopen in case. \n\nThanks\n"
+  }
+]

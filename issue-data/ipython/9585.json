@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/224754920",
+    "html_url": "https://github.com/ipython/ipython/issues/9585#issuecomment-224754920",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9585",
+    "id": 224754920,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNDc1NDkyMA==",
+    "user": {
+      "login": "michaelaye",
+      "id": 69774,
+      "node_id": "MDQ6VXNlcjY5Nzc0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/69774?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/michaelaye",
+      "html_url": "https://github.com/michaelaye",
+      "followers_url": "https://api.github.com/users/michaelaye/followers",
+      "following_url": "https://api.github.com/users/michaelaye/following{/other_user}",
+      "gists_url": "https://api.github.com/users/michaelaye/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/michaelaye/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/michaelaye/subscriptions",
+      "organizations_url": "https://api.github.com/users/michaelaye/orgs",
+      "repos_url": "https://api.github.com/users/michaelaye/repos",
+      "events_url": "https://api.github.com/users/michaelaye/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/michaelaye/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-08T22:50:54Z",
+    "updated_at": "2016-06-08T22:50:54Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "already fixed on master i hear. closing.\n"
+  }
+]

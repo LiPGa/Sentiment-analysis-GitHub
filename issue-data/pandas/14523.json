@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/257023880",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14523#issuecomment-257023880",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14523",
+    "id": 257023880,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NzAyMzg4MA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-28T20:45:26Z",
+    "updated_at": "2016-10-28T20:46:52Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "fixed by #13583, in 0.19.0\n\n```\nIn [1]: pd.__version__\nOut[1]: '0.19.0'\n\nIn [2]: import datetime\n   ...: from dateutil import tz\n   ...: import pandas as pd\n   ...: dates1 = [datetime.datetime(2013, 9, 20,13,00, tzinfo=tz.tzlocal()) + datetime.timedelta(minutes=100*i) for i in range(10)]\n   ...: dates2 = [datetime.datetime(2013, 9, 20,13,00, tzinfo=tz.tzutc()) + datetime.timedelta(minutes=100*i) for i in range(10)]\n   ...: df = pd.DataFrame({\"start1\": dates1, \"start2\": dates2})\n   ...: delta = [datetime.timedelta(seconds=x) for x in range(10)]\n   ...: df['end1'] = df['start1'] + delta\n   ...: df['end2'] = df['start2'] + delta\n   ...: df\n   ...: \nOut[2]: \n                     start1                    start2                      end1                      end2\n0 2013-09-20 13:00:00-04:00 2013-09-20 13:00:00+00:00 2013-09-20 13:00:00-04:00 2013-09-20 13:00:00+00:00\n1 2013-09-20 14:40:00-04:00 2013-09-20 14:40:00+00:00 2013-09-20 14:40:01-04:00 2013-09-20 14:40:01+00:00\n2 2013-09-20 16:20:00-04:00 2013-09-20 16:20:00+00:00 2013-09-20 16:20:02-04:00 2013-09-20 16:20:02+00:00\n3 2013-09-20 18:00:00-04:00 2013-09-20 18:00:00+00:00 2013-09-20 18:00:03-04:00 2013-09-20 18:00:03+00:00\n4 2013-09-20 19:40:00-04:00 2013-09-20 19:40:00+00:00 2013-09-20 19:40:04-04:00 2013-09-20 19:40:04+00:00\n5 2013-09-20 21:20:00-04:00 2013-09-20 21:20:00+00:00 2013-09-20 21:20:05-04:00 2013-09-20 21:20:05+00:00\n6 2013-09-20 23:00:00-04:00 2013-09-20 23:00:00+00:00 2013-09-20 23:00:06-04:00 2013-09-20 23:00:06+00:00\n7 2013-09-21 00:40:00-04:00 2013-09-21 00:40:00+00:00 2013-09-21 00:40:07-04:00 2013-09-21 00:40:07+00:00\n8 2013-09-21 02:20:00-04:00 2013-09-21 02:20:00+00:00 2013-09-21 02:20:08-04:00 2013-09-21 02:20:08+00:00\n9 2013-09-21 04:00:00-04:00 2013-09-21 04:00:00+00:00 2013-09-21 04:00:09-04:00 2013-09-21 04:00:09+00:00\n\n```\n"
+  }
+]

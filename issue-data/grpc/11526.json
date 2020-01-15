@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/309586048",
+    "html_url": "https://github.com/grpc/grpc/issues/11526#issuecomment-309586048",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11526",
+    "id": 309586048,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwOTU4NjA0OA==",
+    "user": {
+      "login": "nicolasnoble",
+      "id": 7281574,
+      "node_id": "MDQ6VXNlcjcyODE1NzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7281574?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicolasnoble",
+      "html_url": "https://github.com/nicolasnoble",
+      "followers_url": "https://api.github.com/users/nicolasnoble/followers",
+      "following_url": "https://api.github.com/users/nicolasnoble/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicolasnoble/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicolasnoble/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicolasnoble/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicolasnoble/orgs",
+      "repos_url": "https://api.github.com/users/nicolasnoble/repos",
+      "events_url": "https://api.github.com/users/nicolasnoble/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicolasnoble/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-19T22:00:40Z",
+    "updated_at": "2017-06-19T22:00:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "So, I'd need more information about what you're trying to achieve, and you're missing the point of the \"Anything else we should know about your project / environment\" question.\r\n\r\nRight now if I run `bazel build :all` on my branch, it works fine. If I run `bazel test test/...` I am getting one broken test, but the rest seems fine too. So that doesn't really fit a \"it's all broken\" status.\r\n\r\nGiven you're trying to run `bazel fetch`, I am guessing you're trying to somehow grab remote modules. But we don't specify any in our `WORKSPACE` file at the moment, so while this may change in the future, running a fetch right now is kind of useless.\r\n\r\nI'm tempted to file this as a case for Dr. Kromkheit, but I'm willing to hear more of your actual usage case that leads you to run a `bazel fetch` on gRPC even though it's not actually necessary to, aside from being future-proof for the potential case we start using remote bazel modules."
+  }
+]

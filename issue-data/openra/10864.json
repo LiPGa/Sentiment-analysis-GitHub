@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/277546676",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10864#issuecomment-277546676",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10864",
+    "id": 277546676,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NzU0NjY3Ng==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-05T20:29:16Z",
+    "updated_at": "2017-02-05T20:29:16Z",
+    "author_association": "MEMBER",
+    "body": "Do you have a specific list of things to fix to resolve this issue?\r\nThe projectile trailts have been done, but `SmokeTrailWhenDamaged` still needs fixing."
+  }
+]

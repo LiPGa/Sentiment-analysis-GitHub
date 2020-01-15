@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5804170",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1208#issuecomment-5804170",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1208",
+    "id": 5804170,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU4MDQxNzA=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-19T19:24:51Z",
+    "updated_at": "2012-05-19T19:24:51Z",
+    "author_association": "MEMBER",
+    "body": "I glanced through the docs, there are not too many references remaining-- we'll take care of anything further in 0.8.0 docs cleanup\n"
+  }
+]

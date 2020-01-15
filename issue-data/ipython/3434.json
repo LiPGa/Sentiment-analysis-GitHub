@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/19499457",
+    "html_url": "https://github.com/ipython/ipython/issues/3434#issuecomment-19499457",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3434",
+    "id": 19499457,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5NDk5NDU3",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-06-15T16:48:06Z",
+    "updated_at": "2013-06-15T16:48:06Z",
+    "author_association": "MEMBER",
+    "body": "Yes, genutils was split out into multiple modules in IPython.utils a couple of years ago (before 0.11). I don't know a `Term` class, but you might want to try the coloransi module.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/11799619",
+    "html_url": "https://github.com/ipython/ipython/issues/1572#issuecomment-11799619",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1572",
+    "id": 11799619,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNzk5NjE5",
+    "user": {
+      "login": "alexlouden",
+      "id": 1332954,
+      "node_id": "MDQ6VXNlcjEzMzI5NTQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1332954?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexlouden",
+      "html_url": "https://github.com/alexlouden",
+      "followers_url": "https://api.github.com/users/alexlouden/followers",
+      "following_url": "https://api.github.com/users/alexlouden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexlouden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexlouden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexlouden/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexlouden/orgs",
+      "repos_url": "https://api.github.com/users/alexlouden/repos",
+      "events_url": "https://api.github.com/users/alexlouden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexlouden/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-02T03:43:04Z",
+    "updated_at": "2013-01-02T03:43:04Z",
+    "author_association": "NONE",
+    "body": "I just installed the latest version on Windows XP 32-bit (ugh) with pip:\n\n```\n> pip freeze\npyreadline==1.5\nipython==0.13.1\n```\n\nGetting the same error as above:\n\n```\n...\nhlen_b4_cell = self.readline.get_current_history_length()\nAttributeError: 'module' object has no attribute 'get_current_history_length'\n```\n\nI updated pyreadline (pyreadline==2.0-dev1), which fixed it. \n"
+  }
+]

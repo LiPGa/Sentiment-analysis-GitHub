@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/79778049",
+    "html_url": "https://github.com/ipython/ipython/pull/8051#issuecomment-79778049",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8051",
+    "id": 79778049,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc5Nzc4MDQ5",
+    "user": {
+      "login": "Tillsten",
+      "id": 189880,
+      "node_id": "MDQ6VXNlcjE4OTg4MA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/189880?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Tillsten",
+      "html_url": "https://github.com/Tillsten",
+      "followers_url": "https://api.github.com/users/Tillsten/followers",
+      "following_url": "https://api.github.com/users/Tillsten/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Tillsten/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Tillsten/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Tillsten/subscriptions",
+      "organizations_url": "https://api.github.com/users/Tillsten/orgs",
+      "repos_url": "https://api.github.com/users/Tillsten/repos",
+      "events_url": "https://api.github.com/users/Tillsten/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Tillsten/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-14T03:23:43Z",
+    "updated_at": "2015-03-14T03:23:43Z",
+    "author_association": "NONE",
+    "body": "Could you also mention the changes to rcparams? https://github.com/matplotlib/matplotlib/issues/4102#issuecomment-74774717\n"
+  }
+]

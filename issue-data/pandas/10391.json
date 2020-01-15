@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/113747258",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10391#issuecomment-113747258",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10391",
+    "id": 113747258,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMzc0NzI1OA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-20T11:16:53Z",
+    "updated_at": "2015-06-20T11:16:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I don't think this is valid, as by definition a custom class needs to have at least 1 comparison method defined (e.g. `__lt__`). So the raise is correct here.\n\nWe DO try to sort things even in python 3, the main 'object' that can be sorted are strings and numbers. (In general having mixed types is not a great idea in any event).\nIn [7]: pd.show_versions()\n\n```\nIn [4]: class B:\n   ...:     def __lt__(self, other):\n   ...:         return True\n   ...:     \n\nIn [5]: df = pd.DataFrame([[B(), i, i**2] for i in range(10)])\n\nIn [6]: for x in df.groupby(0,1):                                              \n        print(x)\n   ...:     \n(<__main__.B object at 0x108a393c8>,                                     0\n0  <__main__.B object at 0x108a393c8>\n1  <__main__.B object at 0x108a39400>\n2  <__main__.B object at 0x108a39438>\n3  <__main__.B object at 0x108a39470>\n4  <__main__.B object at 0x108a394a8>\n5  <__main__.B object at 0x108a394e0>\n6  <__main__.B object at 0x108a39518>\n7  <__main__.B object at 0x108a39550>\n8  <__main__.B object at 0x108a39588>\n9  <__main__.B object at 0x108a395c0>)\n(<__main__.B object at 0x108a39400>,    1\n0  0\n1  1\n2  2\n3  3\n4  4\n5  5\n6  6\n7  7\n8  8\n9  9)\n(<__main__.B object at 0x108a39438>,     2\n0   0\n1   1\n2   4\n3   9\n4  16\n5  25\n6  36\n7  49\n8  64\n9  81)\n```\n"
+  }
+]

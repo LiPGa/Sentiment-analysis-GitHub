@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/440045280",
+    "html_url": "https://github.com/ipython/ipython/issues/11500#issuecomment-440045280",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11500",
+    "id": 440045280,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MDA0NTI4MA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-19T21:19:51Z",
+    "updated_at": "2018-11-19T21:19:51Z",
+    "author_association": "MEMBER",
+    "body": "This is a question for jupyter/notebook, not ipython/ipython. \r\n\r\nIn general if permission is `denied` it is different than something already listening. It mean that your user has not enough permission, or that an antivirus/firewall is restricting access. \r\n\r\nClosing for now as this is unrelated to IPython, but feel free to keep commenting. "
+  }
+]

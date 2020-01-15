@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/198225123",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2138#issuecomment-198225123",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2138",
+    "id": 198225123,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5ODIyNTEyMw==",
+    "user": {
+      "login": "VelizarVESSELINOV",
+      "id": 8209940,
+      "node_id": "MDQ6VXNlcjgyMDk5NDA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8209940?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/VelizarVESSELINOV",
+      "html_url": "https://github.com/VelizarVESSELINOV",
+      "followers_url": "https://api.github.com/users/VelizarVESSELINOV/followers",
+      "following_url": "https://api.github.com/users/VelizarVESSELINOV/following{/other_user}",
+      "gists_url": "https://api.github.com/users/VelizarVESSELINOV/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/VelizarVESSELINOV/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/VelizarVESSELINOV/subscriptions",
+      "organizations_url": "https://api.github.com/users/VelizarVESSELINOV/orgs",
+      "repos_url": "https://api.github.com/users/VelizarVESSELINOV/repos",
+      "events_url": "https://api.github.com/users/VelizarVESSELINOV/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/VelizarVESSELINOV/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-18T06:21:24Z",
+    "updated_at": "2016-03-18T06:21:24Z",
+    "author_association": "NONE",
+    "body": ":+1: fillna limit = number of samples is a very simplistic solution.\n\nVery often the limit should be applied to the index values, especially when the index is not regular sampled like TimeStamp or distance.\n\nExample of limit 20 seconds or 20 centimeters, not 20 samples because the index is not mandatory to be constant.\n\n`interpolate` is partially managing some of the resampling method are using the index value, but the limit is still integrer with number of samples.\n"
+  }
+]

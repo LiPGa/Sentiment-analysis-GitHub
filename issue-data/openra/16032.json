@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/452047328",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/16032#issuecomment-452047328",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16032",
+    "id": 452047328,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjA0NzMyOA==",
+    "user": {
+      "login": "Muh-Muh",
+      "id": 35904111,
+      "node_id": "MDQ6VXNlcjM1OTA0MTEx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35904111?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Muh-Muh",
+      "html_url": "https://github.com/Muh-Muh",
+      "followers_url": "https://api.github.com/users/Muh-Muh/followers",
+      "following_url": "https://api.github.com/users/Muh-Muh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Muh-Muh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Muh-Muh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Muh-Muh/subscriptions",
+      "organizations_url": "https://api.github.com/users/Muh-Muh/orgs",
+      "repos_url": "https://api.github.com/users/Muh-Muh/repos",
+      "events_url": "https://api.github.com/users/Muh-Muh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Muh-Muh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-07T19:12:32Z",
+    "updated_at": "2019-01-07T19:12:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I assume this is because there is a missing check whether the mammoth tank is alive in the lua script.\r\n\r\n```\r\nSendPatrol = function(mammoth)  \r\n     mammoth.Patrol(MammothPath, true, 20)\r\n```\r\nshould be \r\n```\r\nSendPatrol = function(mammoth)  \r\n     if mammoth.IsDead then\r\n          return\r\n     else\r\n          mammoth.Patrol(MammothPath, true, 20)\r\n```\r\n\r\nShould fix this (I think). "
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/367889139",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19855#issuecomment-367889139",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19855",
+    "id": 367889139,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2Nzg4OTEzOQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-23T02:18:39Z",
+    "updated_at": "2018-02-23T02:18:39Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This was changed here: https://github.com/pandas-dev/pandas/pull/13894\r\n\r\nuse a shorter sequence just to make this fit in a reasonable amount of space\r\n```\r\nIn [38]: s = s[0:5]\r\n\r\nIn [39]: s\r\nOut[39]: \r\n0    1\r\n1    2\r\n2    3\r\n3    1\r\n4    2\r\ndtype: int64\r\n\r\nIn [40]: a = s[1:]\r\n\r\nIn [41]: b = s[:-1]\r\n\r\nIn [42]: a\r\nOut[42]: \r\n1    2\r\n2    3\r\n3    1\r\n4    2\r\ndtype: int64\r\n\r\nIn [43]: b\r\nOut[43]: \r\n0    1\r\n1    2\r\n2    3\r\n3    1\r\ndtype: int64\r\n```\r\n\r\nthese align, meaning that they are reindexed to the union of the series\r\n```\r\nIn [44]: a, b = a.align(b)\r\n\r\nIn [45]: a\r\nOut[45]: \r\n0    NaN\r\n1    2.0\r\n2    3.0\r\n3    1.0\r\n4    2.0\r\ndtype: float64\r\n\r\nIn [46]: b\r\nOut[46]: \r\n0    1.0\r\n1    2.0\r\n2    3.0\r\n3    1.0\r\n4    NaN\r\ndtype: float64\r\n```\r\n\r\nThe comparison is then clear (== for clarity here)\r\n```\r\nIn [47]: a == b\r\nOut[47]: \r\n0    False\r\n1     True\r\n2     True\r\n3     True\r\n4    False\r\ndtype: bool\r\n```"
+  }
+]

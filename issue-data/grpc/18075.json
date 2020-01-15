@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/464295413",
+    "html_url": "https://github.com/grpc/grpc/issues/18075#issuecomment-464295413",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18075",
+    "id": 464295413,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NDI5NTQxMw==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-16T05:41:32Z",
+    "updated_at": "2019-02-16T05:41:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I was able to reproduce the issue in a locally running docker container matching our kokoro test runs. It took repeated runs of the new fork tests for a couple hours to produce the first hang, but artificially increasing CPU load on my desktop seemed to make it much easier to reproduce, which would help explain why it happens so frequently on our CI builds but was hard to reproduce locally.\r\n\r\nThe backtrace from attaching to one of the hanging processes:\r\n\r\n```\r\n#0  futex_wait_cancelable (private=0, expected=0, futex_word=0x8a6bfc <_PyRuntime+1340>)\r\n    at ../sysdeps/unix/sysv/linux/futex-internal.h:88\r\n#1  __pthread_cond_wait_common (abstime=0x0, mutex=0x8a6c00 <_PyRuntime+1344>, cond=0x8a6bd0 <_PyRuntime+1296>)\r\n    at pthread_cond_wait.c:502\r\n#2  __pthread_cond_wait (cond=0x8a6bd0 <_PyRuntime+1296>, mutex=0x8a6c00 <_PyRuntime+1344>)\r\n    at pthread_cond_wait.c:655\r\n#3  0x000000000054ccb1 in drop_gil.lto_priv () at ../Python/ceval_gil.h:183\r\n#4  0x0000000000553fd1 in _PyEval_EvalFrameDefault () at ../Python/ceval.c:979\r\n#5  0x000000000054a8d2 in PyEval_EvalFrameEx (throwflag=0, f=0x7f79f5b785d0) at ../Python/ceval.c:547\r\n#6  _PyEval_EvalCodeWithName () at ../Python/ceval.c:3930\r\n#7  0x00000000005d7750 in _PyFunction_FastCallDict () at ../Objects/call.c:367\r\n#8  0x00000000005910b3 in _PyObject_FastCallDict (kwargs=0x0, nargs=1, args=0x7ffe6be3cbf0, \r\n    callable=0x7f79f5b38268) at ../Objects/call.c:98\r\n#9  _PyObject_Call_Prepend (kwargs=0x0, args=0x7f79f6308048, obj=<optimized out>, callable=0x7f79f5b38268)\r\n    at ../Objects/call.c:904\r\n#10 slot_tp_init () at ../Objects/typeobject.c:6610\r\n#11 0x0000000000597231 in type_call.lto_priv () at ../Objects/typeobject.c:949\r\n#12 0x00007f79f539a2a4 in __Pyx_PyObject_Call (kw=0x0, arg=0x7f79f6308048, func=0xce4138)\r\n    at src/python/grpcio/grpc/_cython/cygrpc.cpp:68112\r\n#13 __Pyx_PyObject_CallNoArg (func=0xce4138) at src/python/grpcio/grpc/_cython/cygrpc.cpp:3178\r\n#14 0x00007f79f53d2406 in __pyx_f_4grpc_7_cython_6cygrpc___postfork_child ()\r\n    at src/python/grpcio/grpc/_cython/cygrpc.cpp:50541\r\n#15 0x00007f79f6484008 in __run_fork_handlers (who=who@entry=atfork_run_child) at register-atfork.c:134\r\n#16 0x00007f79f6443b9a in __libc_fork () at ../sysdeps/nptl/fork.c:137\r\n#17 0x000000000060794b in os_fork_impl (module=<optimized out>) at ../Modules/posixmodule.c:5438\r\n```\r\n\r\n##14 is our Python postfork handler (cygrpc.cpp:50541), and this code is part of the block that corresponds with the following line of [`fork_posix.pyx.pxi`](https://github.com/grpc/grpc/blob/db38d4ca9b7684e9793a8b5edd626ed8d3f76d1b/src/python/grpcio/grpc/_cython/_cygrpc/fork_posix.pyx.pxi#L72):\r\n\r\n```\r\n            _fork_state.active_thread_count = _ActiveThreadCount()\r\n```\r\n\r\nThe stack trace proceeds to [`drop_gil.lto_priv ()` at `../Python/ceval_gil.h:183`](https://github.com/python/cpython/blob/6f352199e4447764bc472e34352d0dff4db8a52d/Python/ceval_gil.h#L183) and the hang occurs.\r\n\r\nFrom the above file's \"Notes on the implementation\" (of the CPython GIL, which I would think is always a bad sign if your stack trace leads you there...):\r\n\r\n>    - When a thread releases the GIL and gil_drop_request is set, that thread\r\n     ensures that another GIL-awaiting thread gets scheduled.\r\n     It does so by waiting on a condition variable (switch_cond) until\r\n     the value of last_holder is changed to something else than its\r\n     own thread state pointer, indicating that another thread was able to\r\n     take the GIL.\r\n\r\nThat certainly makes it sound like the thread is waiting until another thread grabs the GIL and notifies the condition variable - unfortunately, since we just forked, there is no other thread. It would appear that the hang occurs when the parent process has a Python thread which sets the GIL's `gil_drop_request` to true just before forking, which triggers the hang when the sole surviving thread post-fork attempts to dutifully yield the GIL to the requester.\r\n\r\nIn conversation with @gnossen today, it came up that our handling of the `_consume_request_iterator` thread in `_channel.py` on fork may not be 100% safe - since this gRPC Python thread may block indefinitely in user-code, we have to ignore it for fork accounting purposes via `cygrpc.enter_user_request_generator()` and `cygrpc.return_from_user_request_generator()`, so this thread may not be actually blocking on anything - other than user-provided code - at fork time. It's possible that this explains the not-quite-always failing tests, if the hang depends on where the consume request iterator has reached when fork is invoked. I will update the tests to guarantee this thread is blocking when fork is invoked and see if that has any impact on the deadlock. However, the test has previously deadlocked on non-bidi-streaming tests, which suggest that the existence of any other threads when fork is called, regardless of whether they are blocking or not, is unsafe."
+  }
+]

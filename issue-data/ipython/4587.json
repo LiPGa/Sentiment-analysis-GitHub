@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/29149242",
+    "html_url": "https://github.com/ipython/ipython/issues/4587#issuecomment-29149242",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4587",
+    "id": 29149242,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MTQ5MjQy",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-11-24T05:19:48Z",
+    "updated_at": "2013-11-24T05:19:48Z",
+    "author_association": "MEMBER",
+    "body": "I think this is an important part of the second stage of the widget work. Right now, we are getting interactive widgets working in the first place, with widgets talking to the kernel.  The next steps would be:\n1. persisting widget state to the notebook, so they can be reloaded in the live notebook\n2. using that information to produce interactive elements in nbconvert HTML export (obviously without kernel-callback portion)\n\nOne of the important pieces of this is making sure that it's easy to draw the line between what's interactive UI, and what requires the kernel access.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/349147177",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18638#issuecomment-349147177",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18638",
+    "id": 349147177,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0OTE0NzE3Nw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-04T23:50:41Z",
+    "updated_at": "2017-12-04T23:50:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "IIRC this is fixed in 0.20.3, but this is from 0.21.0\r\n\r\n```\r\nIn [2]: df = pd.DataFrame({'a': [1, 10, 8, 11, -1],\r\n   ...:                 'b': [1.0, 2.0, 3.0, 3.0, 4.0]})\r\n   ...: df.nlargest(3, 'b')\r\n   ...: \r\nOut[2]: \r\n    a    b\r\n4  -1  4.0\r\n2   8  3.0\r\n3  11  3.0\r\n```"
+  }
+]

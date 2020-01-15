@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/221842282",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13291#issuecomment-221842282",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13291",
+    "id": 221842282,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMTg0MjI4Mg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-26T11:07:20Z",
+    "updated_at": "2016-05-26T11:07:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "`format` is not a defined parameter to `HDFStore`; only to `put/append`. So I'll mark this as an issue to raise an exception if `format` is passed. We accept `**kwargs` becuase we need to pass args to the file handle open function.\n\n```\nIn [1]: pd.HDFStore?\nInit signature: pd.HDFStore(self, path, mode=None, complevel=None, complib=None, fletcher32=False, **kwargs)\nDocstring:\ndict-like IO interface for storing pandas objects in PyTables\neither Fixed or Table format.\n\nParameters\n----------\npath : string\n    File path to HDF5 file\nmode : {'a', 'w', 'r', 'r+'}, default 'a'\n\n    ``'r'``\n        Read-only; no data can be modified.\n    ``'w'``\n        Write; a new file is created (an existing file with the same\n        name would be deleted).\n    ``'a'``\n        Append; an existing file is opened for reading and writing,\n        and if the file does not exist it is created.\n    ``'r+'``\n        It is similar to ``'a'``, but the file must already exist.\ncomplevel : int, 1-9, default 0\n        If a complib is specified compression will be applied\n        where possible\ncomplib : {'zlib', 'bzip2', 'lzo', 'blosc', None}, default None\n        If complevel is > 0 apply compression to objects written\n        in the store wherever possible\nfletcher32 : bool, default False\n        If applying compression use the fletcher32 checksum\n\nExamples\n--------\n>>> from pandas import DataFrame\n>>> from numpy.random import randn\n>>> bar = DataFrame(randn(10, 4))\n>>> store = HDFStore('test.h5')\n>>> store['foo'] = bar   # write to HDF5\n>>> bar = store['foo']   # retrieve\n>>> store.close()\nFile:           ~/pandas/pandas/io/pytables.py\nType:           type\n```\n"
+  }
+]

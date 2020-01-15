@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/148921389",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11353#issuecomment-148921389",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11353",
+    "id": 148921389,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0ODkyMTM4OQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-17T14:50:34Z",
+    "updated_at": "2015-10-17T14:50:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\nIn [4]: df = DataFrame({'A' : ['foo','bar','baz']})\n\nIn [5]: df[df.A!='bar']\nOut[5]: \n     A\n0  foo\n2  baz\n\nIn [6]: df[df.A!='bar'][1]\nKeyError: 1\n```\n\nyou are looking up a value that is not represented, so this is as expected. Generally don't use the chain syntax for multiple selections, `df.loc[df.A!='bar',1]` is the canonical method.\n"
+  }
+]

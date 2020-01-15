@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/266544484",
+    "html_url": "https://github.com/ipython/ipython/issues/10086#issuecomment-266544484",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10086",
+    "id": 266544484,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NjU0NDQ4NA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-12T20:33:12Z",
+    "updated_at": "2016-12-12T20:33:12Z",
+    "author_association": "MEMBER",
+    "body": "I think adding `b` is the right thing to do. The issue is that although XML is a text-based format, the encoding is declared inside the file, so you have to start reading the file as binary data to find what it is. Presumably minidom does the right thing with the encoding when we parse it."
+  }
+]

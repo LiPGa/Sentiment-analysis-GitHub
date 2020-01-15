@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/162327534",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/11775#issuecomment-162327534",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11775",
+    "id": 162327534,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MjMyNzUzNA==",
+    "user": {
+      "login": "multiloc",
+      "id": 12200702,
+      "node_id": "MDQ6VXNlcjEyMjAwNzAy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12200702?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/multiloc",
+      "html_url": "https://github.com/multiloc",
+      "followers_url": "https://api.github.com/users/multiloc/followers",
+      "following_url": "https://api.github.com/users/multiloc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/multiloc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/multiloc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/multiloc/subscriptions",
+      "organizations_url": "https://api.github.com/users/multiloc/orgs",
+      "repos_url": "https://api.github.com/users/multiloc/repos",
+      "events_url": "https://api.github.com/users/multiloc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/multiloc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-06T16:36:10Z",
+    "updated_at": "2015-12-06T16:39:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "NVM, appears fixed in 0.17.1:\n\n``` python\nIn [3]: ser = pd.Series([pd.NaT, pd.Timestamp('2015/01/01', tz='UTC')])\n\nIn [4]: ser.replace(pd.NaT, pd.Timestamp.min)\nOut[4]: \n0    1677-09-22 00:12:43.145225\n1     2015-01-01 00:00:00+00:00\ndtype: object\n\nIn [5]: ser = pd.Series([pd.NaT, pd.Timestamp('2015/01/01')])\n\nIn [6]: ser.replace(pd.NaT, pd.Timestamp.min)\nOut[6]: \n0   1677-09-22 00:12:43.145225\n1   2015-01-01 00:00:00.000000\ndtype: datetime64[ns]\n```\n"
+  }
+]

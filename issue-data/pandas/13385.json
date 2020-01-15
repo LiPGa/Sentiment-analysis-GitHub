@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/224343854",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13385#issuecomment-224343854",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13385",
+    "id": 224343854,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNDM0Mzg1NA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-07T16:53:58Z",
+    "updated_at": "2016-06-07T16:53:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "`.fillna` by de-finition will not recast the series from float, unless you are explicit\n\n```\nIn [5]: s1.fillna(False,downcast='infer')\nOut[5]: \n0    0\n1    0\n2    0\ndtype: int64\n```\n\n (and this is the result, bools pretty much drop out because they are an inefficiently store type).\n\nThis is the best that can be done w/o killing perf.\n"
+  }
+]

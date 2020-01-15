@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/228551336",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11525#issuecomment-228551336",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11525",
+    "id": 228551336,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyODU1MTMzNg==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-25T15:43:32Z",
+    "updated_at": "2016-06-25T15:43:32Z",
+    "author_association": "MEMBER",
+    "body": "Files to remove:\n- The hacked RA scores.mix shipped with the old asset downloads.\n- TD movies-gdi.mix and movies-nod.mix\n- pre-1.06 D2K DATA.R8 when we implement #2344.\n"
+  }
+]

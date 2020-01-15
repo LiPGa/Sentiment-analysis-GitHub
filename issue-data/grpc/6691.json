@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/237080085",
+    "html_url": "https://github.com/grpc/grpc/issues/6691#issuecomment-237080085",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6691",
+    "id": 237080085,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNzA4MDA4NQ==",
+    "user": {
+      "login": "ejona86",
+      "id": 2811396,
+      "node_id": "MDQ6VXNlcjI4MTEzOTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2811396?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ejona86",
+      "html_url": "https://github.com/ejona86",
+      "followers_url": "https://api.github.com/users/ejona86/followers",
+      "following_url": "https://api.github.com/users/ejona86/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ejona86/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ejona86/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ejona86/subscriptions",
+      "organizations_url": "https://api.github.com/users/ejona86/orgs",
+      "repos_url": "https://api.github.com/users/ejona86/repos",
+      "events_url": "https://api.github.com/users/ejona86/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ejona86/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-02T23:23:04Z",
+    "updated_at": "2016-08-02T23:23:04Z",
+    "author_association": "MEMBER",
+    "body": "For Android clients, you should be using Google Play Services Dynamic Security Provider. That provides an up-to-date TLS implementation even on old devices. Even on new devices, there are known bugs that are fixed if you use the dynamic security provider.\n\nEven when TSI_OPENSSL_ALPN_SUPPORT is 1 it will still fallback to NPN if the client doesn't support ALPN. So there shouldn't be any need to change that value.\n"
+  }
+]

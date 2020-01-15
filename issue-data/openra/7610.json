@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/77689687",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7610#issuecomment-77689687",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7610",
+    "id": 77689687,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3Njg5Njg3",
+    "user": {
+      "login": "Rydra",
+      "id": 5826108,
+      "node_id": "MDQ6VXNlcjU4MjYxMDg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5826108?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Rydra",
+      "html_url": "https://github.com/Rydra",
+      "followers_url": "https://api.github.com/users/Rydra/followers",
+      "following_url": "https://api.github.com/users/Rydra/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Rydra/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Rydra/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Rydra/subscriptions",
+      "organizations_url": "https://api.github.com/users/Rydra/orgs",
+      "repos_url": "https://api.github.com/users/Rydra/repos",
+      "events_url": "https://api.github.com/users/Rydra/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Rydra/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-07T13:40:44Z",
+    "updated_at": "2015-03-07T13:40:44Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Ok I've detected the reason. I changed momentarily the function \"GetConnections(CPos position)\" from the file openra.mods.common\\pathfinder\\pathgraph.cs to return the eight neighbors instead of calculating a neighbor index. Given that the harvester heuristic doesn't take distances into account, it's possible that that small changed I applied in my own code created a change for circular reference. Resetting back my temporal changes in the GetConnections function to work as it is right now in bleed makes it work back again and couldn't reproduce the error.\n\nYet this is a sign that the harvesters' heuristic needs a serious redesign and rethink.\n\nI close this issue.\n"
+  }
+]

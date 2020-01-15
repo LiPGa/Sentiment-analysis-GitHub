@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/107299145",
+    "html_url": "https://github.com/grpc/grpc/pull/1848#issuecomment-107299145",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/1848",
+    "id": 107299145,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNzI5OTE0NQ==",
+    "user": {
+      "login": "jcanizales",
+      "id": 5120183,
+      "node_id": "MDQ6VXNlcjUxMjAxODM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5120183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jcanizales",
+      "html_url": "https://github.com/jcanizales",
+      "followers_url": "https://api.github.com/users/jcanizales/followers",
+      "following_url": "https://api.github.com/users/jcanizales/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jcanizales/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jcanizales/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jcanizales/subscriptions",
+      "organizations_url": "https://api.github.com/users/jcanizales/orgs",
+      "repos_url": "https://api.github.com/users/jcanizales/repos",
+      "events_url": "https://api.github.com/users/jcanizales/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jcanizales/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-01T03:42:50Z",
+    "updated_at": "2015-06-01T03:42:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The sample app looks like this now, instead of a blank screen:\n![screen shot 2015-05-31 at 7 53 21 pm](https://cloud.githubusercontent.com/assets/5120183/7905902/8487355a-07d5-11e5-8835-3030778f199f.png)\n"
+  }
+]

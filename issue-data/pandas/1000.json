@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/7504517",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1000#issuecomment-7504517",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1000",
+    "id": 7504517,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1MDQ1MTc=",
+    "user": {
+      "login": "vincentarelbundock",
+      "id": 987057,
+      "node_id": "MDQ6VXNlcjk4NzA1Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/987057?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vincentarelbundock",
+      "html_url": "https://github.com/vincentarelbundock",
+      "followers_url": "https://api.github.com/users/vincentarelbundock/followers",
+      "following_url": "https://api.github.com/users/vincentarelbundock/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vincentarelbundock/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vincentarelbundock/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vincentarelbundock/subscriptions",
+      "organizations_url": "https://api.github.com/users/vincentarelbundock/orgs",
+      "repos_url": "https://api.github.com/users/vincentarelbundock/repos",
+      "events_url": "https://api.github.com/users/vincentarelbundock/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vincentarelbundock/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-08-04T18:57:58Z",
+    "updated_at": "2012-08-04T18:59:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I can confirm that this bug also affects `to_string()`. Using pandas 0.8.1 I get this: \n\n```\nIn [1]: import numpy as np\n\nIn [2]: import pandas as pd\n\nIn [3]: df = pd.DataFrame(np.random.random(size=(3,3)))\n\nIn [4]: print df.to_string(col_space=2)\n          0         1         2\n0  0.972671  0.735920  0.186650\n1  0.092195  0.544714  0.750312\n2  0.534684  0.685200  0.887377\n\nIn [5]: print df.to_string(col_space=5)\n          0         1         2\n0  0.972671  0.735920  0.186650\n1  0.092195  0.544714  0.750312\n2  0.534684  0.685200  0.887377\n\nIn [6]: print df.to_string(col_space=10)\n          0         1         2\n0  0.972671  0.735920  0.186650\n1  0.092195  0.544714  0.750312\n2  0.534684  0.685200  0.887377\n\n```\n"
+  }
+]

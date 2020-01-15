@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/286731307",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/12754#issuecomment-286731307",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12754",
+    "id": 286731307,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NjczMTMwNw==",
+    "user": {
+      "login": "yokaiboy",
+      "id": 17709219,
+      "node_id": "MDQ6VXNlcjE3NzA5MjE5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17709219?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yokaiboy",
+      "html_url": "https://github.com/yokaiboy",
+      "followers_url": "https://api.github.com/users/yokaiboy/followers",
+      "following_url": "https://api.github.com/users/yokaiboy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yokaiboy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yokaiboy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yokaiboy/subscriptions",
+      "organizations_url": "https://api.github.com/users/yokaiboy/orgs",
+      "repos_url": "https://api.github.com/users/yokaiboy/repos",
+      "events_url": "https://api.github.com/users/yokaiboy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yokaiboy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-15T12:48:58Z",
+    "updated_at": "2017-03-15T12:48:58Z",
+    "author_association": "NONE",
+    "body": "I have made a two part fix for this bug:\r\nPlaceBuilding.cs line 79\r\n\r\nforeach (var t in BuildingUtils.GetLineBuildCells(w, order.TargetLocation, order.TargetString, buildingInfo))\r\n                    {\r\n                        if (self.World.CanPlaceBuilding(order.TargetString, buildingInfo, t, null) &&buildingInfo.IsCloseEnoughToBase(self.World, order.Player, order.TargetString, t))\r\n                        {\r\n                            var building = w.CreateActor(order.TargetString, new TypeDictionary\r\n                        {\r\n                            new LocationInit(t),\r\n                            new OwnerInit(order.Player),\r\n                            new FactionInit(faction)\r\n                        });\r\n\r\n-> linebuildings are only placed inside your area of influence (Incomplete walls are still build if they are only partialy outside of your area of influence)\r\n\r\nBuildingUtils.cs line 70\r\n\r\n\t\t\t\t\tvar cell = topLeft + i * vecs[d];\r\n                    bool influence = false;\r\n                    for(int j=0;j< world.Players.Length; j++)\r\n                    {\r\n                        if(bi.IsCloseEnoughToBase(world, world.Players[j],name,cell))\r\n                        {\r\n                            influence = true;\r\n                        }\r\n                    }\r\n\t\t\t\t\tif (world.IsCellBuildable(cell, bi)&&influence)\r\n\t\t\t\t\t\tcontinue; // Cell is empty; continue search\r\n\r\nfixes the problem completly, by changing how GetLineBuildCells are generated, cells that are in no ones area of influence are treated as an obstacle (any player, because of local bots)"
+  }
+]

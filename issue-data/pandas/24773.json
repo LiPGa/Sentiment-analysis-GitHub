@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/454174844",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24773#issuecomment-454174844",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24773",
+    "id": 454174844,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NDE3NDg0NA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-14T21:50:18Z",
+    "updated_at": "2019-01-14T21:50:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Yes, it should return an ExtensionArray when passed an ExtensionDtype.\r\n\r\nThis ends up making `.astype` quite complicated in practice. Pandas should provide some helpers here (though we had an issue for that, but couldn't quickly find one).\r\n\r\nIn the meantime, the EA docs / code should recommend a few things\r\n\r\n1. Use `pandas_dtype(dtype)` to convert strings like `Period[D]` to the ExtensionDtype or numba dtype\r\n2. For extension types, recommending `dtype.construct_array_type()._from_sequence` *may* make sense, but I'm not sure. That's supposed to take sequences of the scalar, so in theory it'll only work when you have to different ExtensionDtypes for the same scalar type. Not sure how common that'll be."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/205009506",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12782#issuecomment-205009506",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12782",
+    "id": 205009506,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNTAwOTUwNg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-03T17:00:21Z",
+    "updated_at": "2016-04-03T17:00:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "well you have 2 issues.\n\n1) `groupby(..).rolling(..)` is not implemented (it will be in 0.18.1, but is not in 0.18.0), see #12743 \n2) `pd.rolling_corr` is deprecated as the message says, see [the whatsnew](http://pandas.pydata.org/pandas-docs/stable/whatsnew.html#window-functions-are-now-methods)\n\nso as the mesasge says\n\n`df.groupby(..).apply(lambda x: x.rolling(...).corr())` is the soln.\n"
+  }
+]

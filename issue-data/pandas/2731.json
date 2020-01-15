@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/12620112",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/2731#issuecomment-12620112",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2731",
+    "id": 12620112,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNjIwMTEy",
+    "user": {
+      "login": "stephenwlin",
+      "id": 2342637,
+      "node_id": "MDQ6VXNlcjIzNDI2Mzc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2342637?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stephenwlin",
+      "html_url": "https://github.com/stephenwlin",
+      "followers_url": "https://api.github.com/users/stephenwlin/followers",
+      "following_url": "https://api.github.com/users/stephenwlin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stephenwlin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stephenwlin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stephenwlin/subscriptions",
+      "organizations_url": "https://api.github.com/users/stephenwlin/orgs",
+      "repos_url": "https://api.github.com/users/stephenwlin/repos",
+      "events_url": "https://api.github.com/users/stephenwlin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stephenwlin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-23T20:20:33Z",
+    "updated_at": "2013-01-23T20:20:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Never mind, looked into this and this is probably too risky to change...DataFrame can't adopt Index behavior without potentially breaking a lot of client code, and Index can't adopt DataFrame without breaking a lot of internals (including lots of tests)...\n"
+  }
+]

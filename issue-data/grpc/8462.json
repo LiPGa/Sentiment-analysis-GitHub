@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/256377537",
+    "html_url": "https://github.com/grpc/grpc/pull/8462#issuecomment-256377537",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8462",
+    "id": 256377537,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NjM3NzUzNw==",
+    "user": {
+      "login": "dgquintas",
+      "id": 120217,
+      "node_id": "MDQ6VXNlcjEyMDIxNw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/120217?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dgquintas",
+      "html_url": "https://github.com/dgquintas",
+      "followers_url": "https://api.github.com/users/dgquintas/followers",
+      "following_url": "https://api.github.com/users/dgquintas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dgquintas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dgquintas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dgquintas/subscriptions",
+      "organizations_url": "https://api.github.com/users/dgquintas/orgs",
+      "repos_url": "https://api.github.com/users/dgquintas/repos",
+      "events_url": "https://api.github.com/users/dgquintas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dgquintas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-26T15:10:32Z",
+    "updated_at": "2016-10-26T15:10:32Z",
+    "author_association": "NONE",
+    "body": "It seems there are conflicts. Having this PR merged would make me happy and allow me to fix a memory leak in my WIP for grpclb.\n"
+  }
+]

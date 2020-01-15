@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/409586978",
+    "html_url": "https://github.com/grpc/grpc/issues/14085#issuecomment-409586978",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14085",
+    "id": 409586978,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwOTU4Njk3OA==",
+    "user": {
+      "login": "markdroth",
+      "id": 18664614,
+      "node_id": "MDQ6VXNlcjE4NjY0NjE0",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18664614?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/markdroth",
+      "html_url": "https://github.com/markdroth",
+      "followers_url": "https://api.github.com/users/markdroth/followers",
+      "following_url": "https://api.github.com/users/markdroth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/markdroth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/markdroth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/markdroth/subscriptions",
+      "organizations_url": "https://api.github.com/users/markdroth/orgs",
+      "repos_url": "https://api.github.com/users/markdroth/repos",
+      "events_url": "https://api.github.com/users/markdroth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/markdroth/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-01T14:06:28Z",
+    "updated_at": "2018-08-01T14:06:28Z",
+    "author_association": "MEMBER",
+    "body": "Let's make sure we have a check that will catch the undefined behavior warning triggered when #16167 was imported:\r\n\r\n```\r\nundefined behavior, destination object type 'grpc_core::LoadBalancingPolicy::PickState' is not TriviallyCopyable\r\n```\r\n\r\nSee comment in the PR pointing to the affected code."
+  }
+]

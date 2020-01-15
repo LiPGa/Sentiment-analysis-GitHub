@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/30475993",
+    "html_url": "https://github.com/ipython/ipython/issues/4683#issuecomment-30475993",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4683",
+    "id": 30475993,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNDc1OTkz",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-12-13T00:21:43Z",
+    "updated_at": "2013-12-13T00:21:43Z",
+    "author_association": "MEMBER",
+    "body": "So the easy way to achieve this is to include `-` as a delimiter for readline, but then we lose the ability to tab complete filenames with dashes. Our tab completion machinery is in need of an overhaul - which was proposed as [IPEP 11](https://github.com/ipython/ipython/wiki/IPEP-11%3A-Tab-Completion-System-Refactor), but kind of stalled.\n"
+  }
+]

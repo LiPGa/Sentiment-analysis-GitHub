@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/332474646",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17693#issuecomment-332474646",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17693",
+    "id": 332474646,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMjQ3NDY0Ng==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-27T10:08:30Z",
+    "updated_at": "2017-09-27T10:08:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "itertating by rows forces conversion to a singular for that row. generally you *can* convert uint64 to float64 (as you can int64), so this is as expected. If you don't want explicit conversion, then you can ``.astype(object)`` a-priori, of course this introduces a large performance penalty (but you are getting that anyways by iterating).\r\n\r\n```\r\nIn [18]: df.iloc[0]\r\nOut[18]: \r\na    1.000000e+00\r\nb    1.844674e+19\r\nName: 0, dtype: float64\r\n\r\nIn [19]: df.iloc[1]\r\nOut[19]: \r\na     2.0\r\nb    18.0\r\nName: 1, dtype: float64\r\n\r\nIn [20]: df.astype(object).iloc[0]\r\nOut[20]: \r\na                       1\r\nb    18446744073709551615\r\nName: 0, dtype: object\r\n\r\nIn [21]: df.astype(object).iloc[1]\r\nOut[21]: \r\na     2\r\nb    18\r\nName: 1, dtype: object\r\n\r\n```"
+  }
+]

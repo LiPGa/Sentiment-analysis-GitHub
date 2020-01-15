@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/236548232",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11754#issuecomment-236548232",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11754",
+    "id": 236548232,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNjU0ODIzMg==",
+    "user": {
+      "login": "Aquilar",
+      "id": 20759278,
+      "node_id": "MDQ6VXNlcjIwNzU5Mjc4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/20759278?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Aquilar",
+      "html_url": "https://github.com/Aquilar",
+      "followers_url": "https://api.github.com/users/Aquilar/followers",
+      "following_url": "https://api.github.com/users/Aquilar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Aquilar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Aquilar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Aquilar/subscriptions",
+      "organizations_url": "https://api.github.com/users/Aquilar/orgs",
+      "repos_url": "https://api.github.com/users/Aquilar/repos",
+      "events_url": "https://api.github.com/users/Aquilar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Aquilar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-01T10:44:16Z",
+    "updated_at": "2016-08-01T10:44:16Z",
+    "author_association": "NONE",
+    "body": "Don't worry I figured it out on my own, I forgot to set up the voice traits in the unit's code.\n"
+  }
+]

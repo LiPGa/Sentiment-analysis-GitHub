@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/330984048",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17606#issuecomment-330984048",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17606",
+    "id": 330984048,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMDk4NDA0OA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-20T21:18:40Z",
+    "updated_at": "2017-09-20T21:18:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "That's because you're indexes don't match.\r\n\r\n```python\r\nIn [21]: df_hour.index\r\nOut[21]: RangeIndex(start=0, stop=4, step=1)\r\n\r\nIn [22]: data_df.index\r\n    ...:\r\n    ...:\r\nOut[22]:\r\nDatetimeIndex(['2016-01-01 00:00:00', '2016-01-01 00:00:00',\r\n               '2016-01-01 00:02:00', '2016-01-01 00:02:00'],\r\n              dtype='datetime64[ns]', name='datetime', freq=None)\r\n\r\nIn [23]: data_df['foo'] = df_hour\r\n\r\nIn [24]: data_df['foo']\r\nOut[24]:\r\ndatetime\r\n2016-01-01 00:00:00   NaN\r\n2016-01-01 00:00:00   NaN\r\n2016-01-01 00:02:00   NaN\r\n2016-01-01 00:02:00   NaN\r\nName: foo, dtype: float64\r\n```\r\n\r\n`.assign` is doing the same thing (you can check the source, it's quite short), so all the usual alignment rules apply. `df_hour` is aligned to the original index, and `NaNs` are inserted. Your best bet is to set `df_hour.index = data_df.index` before assigning."
+  }
+]

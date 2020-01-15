@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5067559",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1023#issuecomment-5067559",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1023",
+    "id": 5067559,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwNjc1NTk=",
+    "user": {
+      "login": "elpres",
+      "id": 408526,
+      "node_id": "MDQ6VXNlcjQwODUyNg==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/408526?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/elpres",
+      "html_url": "https://github.com/elpres",
+      "followers_url": "https://api.github.com/users/elpres/followers",
+      "following_url": "https://api.github.com/users/elpres/following{/other_user}",
+      "gists_url": "https://api.github.com/users/elpres/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/elpres/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/elpres/subscriptions",
+      "organizations_url": "https://api.github.com/users/elpres/orgs",
+      "repos_url": "https://api.github.com/users/elpres/repos",
+      "events_url": "https://api.github.com/users/elpres/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/elpres/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-11T12:31:17Z",
+    "updated_at": "2012-04-11T12:31:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Sorry, I've posted this, couldn't find the issue later and posted about it again (#1024), with better examples.\n"
+  }
+]

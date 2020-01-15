@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/452230536",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22921#issuecomment-452230536",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22921",
+    "id": 452230536,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1MjIzMDUzNg==",
+    "user": {
+      "login": "DanielFEvans",
+      "id": 41120183,
+      "node_id": "MDQ6VXNlcjQxMTIwMTgz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/41120183?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DanielFEvans",
+      "html_url": "https://github.com/DanielFEvans",
+      "followers_url": "https://api.github.com/users/DanielFEvans/followers",
+      "following_url": "https://api.github.com/users/DanielFEvans/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DanielFEvans/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DanielFEvans/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DanielFEvans/subscriptions",
+      "organizations_url": "https://api.github.com/users/DanielFEvans/orgs",
+      "repos_url": "https://api.github.com/users/DanielFEvans/repos",
+      "events_url": "https://api.github.com/users/DanielFEvans/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DanielFEvans/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-08T09:26:04Z",
+    "updated_at": "2019-01-08T09:26:04Z",
+    "author_association": "NONE",
+    "body": "I note that pandas 0.23 now gives a FutureWarning (which will eventually become an Error) when subsequently merging with a DataFrame that results from this bug, although the final result is actually as expected:\r\n\r\n```\r\ndf_index = pd.DataFrame(columns=[\"a\", \"b\"], data=[[1, 2]]).set_index(\"a\")\r\ndf_cols_empty = pd.DataFrame(columns=[\"a\", \"c\"], data=[])\r\ndf_empty_merge = df_cols_empty.merge(df_index, left_on=\"a\", right_index=True)\r\ndf_other = pd.DataFrame(columns=[\"a\", \"b\"], data=[[1, 2]])\r\n\r\npd.merge(df_empty_merge, df_other)\r\n# sys:1: FutureWarning: 'a' is both an index level and a column label.\r\n# Defaulting to column, but this will raise an ambiguity error in a future version\r\n# Empty DataFrame\r\n# Columns: [c, a, b]\r\n# Index: []\r\n```"
+  }
+]

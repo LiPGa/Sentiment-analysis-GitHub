@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/6923295",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1560#issuecomment-6923295",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1560",
+    "id": 6923295,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5MjMyOTU=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-07-11T23:45:32Z",
+    "updated_at": "2012-07-11T23:45:32Z",
+    "author_association": "MEMBER",
+    "body": "Hi Hans-Martin, this appears to have been fixed in the last few days with 4f49001. We're working to get a bugfix release out within the next week or so\n"
+  }
+]

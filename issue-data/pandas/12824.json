@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/207423015",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12824#issuecomment-207423015",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12824",
+    "id": 207423015,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNzQyMzAxNQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-08T13:00:58Z",
+    "updated_at": "2016-04-08T13:00:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "yeah that prob should look at the non-Nones to infer what is going on. This is done in the other `_wrap_applied_output` for `NDFrame` so you can copy the same pattern.\n\nwant to do a pull-request?\n"
+  }
+]

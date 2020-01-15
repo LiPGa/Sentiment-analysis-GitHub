@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/240600293",
+    "html_url": "https://github.com/grpc/grpc/issues/7662#issuecomment-240600293",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7662",
+    "id": 240600293,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MDYwMDI5Mw==",
+    "user": {
+      "login": "kpayson64",
+      "id": 18316330,
+      "node_id": "MDQ6VXNlcjE4MzE2MzMw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/18316330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kpayson64",
+      "html_url": "https://github.com/kpayson64",
+      "followers_url": "https://api.github.com/users/kpayson64/followers",
+      "following_url": "https://api.github.com/users/kpayson64/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kpayson64/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kpayson64/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kpayson64/subscriptions",
+      "organizations_url": "https://api.github.com/users/kpayson64/orgs",
+      "repos_url": "https://api.github.com/users/kpayson64/repos",
+      "events_url": "https://api.github.com/users/kpayson64/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kpayson64/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-18T01:39:51Z",
+    "updated_at": "2016-08-18T01:39:51Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It looks like this has already been addressed in the GA docs, which should be released shortly:\nhttps://github.com/grpc/grpc.github.io/blob/GA/docs/tutorials/basic/node.md\n"
+  }
+]

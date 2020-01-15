@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/148132960",
+    "html_url": "https://github.com/grpc/grpc/issues/3823#issuecomment-148132960",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/3823",
+    "id": 148132960,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0ODEzMjk2MA==",
+    "user": {
+      "login": "stanley-cheung",
+      "id": 11674202,
+      "node_id": "MDQ6VXNlcjExNjc0MjAy",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11674202?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stanley-cheung",
+      "html_url": "https://github.com/stanley-cheung",
+      "followers_url": "https://api.github.com/users/stanley-cheung/followers",
+      "following_url": "https://api.github.com/users/stanley-cheung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stanley-cheung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stanley-cheung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stanley-cheung/subscriptions",
+      "organizations_url": "https://api.github.com/users/stanley-cheung/orgs",
+      "repos_url": "https://api.github.com/users/stanley-cheung/repos",
+      "events_url": "https://api.github.com/users/stanley-cheung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stanley-cheung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-14T17:48:23Z",
+    "updated_at": "2015-10-14T17:48:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Not sure if they are related, but I see a slightly different error on the interop test Jenkins build: https://grpc-testing.appspot.com/job/gRPC_interop_pull_requests/94/console\n\n```\ngyp info it worked if it ends with ok\ngyp info using node-gyp@3.0.3\ngyp info using node@0.12.7 | linux | x64\ngyp http GET https://nodejs.org/dist/v0.12.7/node-v0.12.7.tar.gz\ngyp WARN install got an error, rolling back install\ngyp ERR! configure error \ngyp ERR! stack Error: read ECONNRESET\ngyp ERR! stack     at exports._errnoException (util.js:746:11)\ngyp ERR! stack     at TCP.onread (net.js:559:26)\ngyp ERR! System Linux 3.16.0-0.bpo.4-amd64\ngyp ERR! command \"node\" \"/root/.nvm/versions/node/v0.12.7/bin/node-gyp\" \"rebuild\"\ngyp ERR! cwd /var/local/git/grpc\ngyp ERR! node -v v0.12.7\ngyp ERR! node-gyp -v v3.0.3\ngyp ERR! not ok \n+ EXITCODE=1\n```\n"
+  }
+]

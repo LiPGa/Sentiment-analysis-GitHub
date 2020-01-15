@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/462503645",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20915#issuecomment-462503645",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20915",
+    "id": 462503645,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2MjUwMzY0NQ==",
+    "user": {
+      "login": "simonjayhawkins",
+      "id": 13159005,
+      "node_id": "MDQ6VXNlcjEzMTU5MDA1",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13159005?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/simonjayhawkins",
+      "html_url": "https://github.com/simonjayhawkins",
+      "followers_url": "https://api.github.com/users/simonjayhawkins/followers",
+      "following_url": "https://api.github.com/users/simonjayhawkins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/simonjayhawkins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/simonjayhawkins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/simonjayhawkins/subscriptions",
+      "organizations_url": "https://api.github.com/users/simonjayhawkins/orgs",
+      "repos_url": "https://api.github.com/users/simonjayhawkins/repos",
+      "events_url": "https://api.github.com/users/simonjayhawkins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/simonjayhawkins/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-11T21:34:47Z",
+    "updated_at": "2019-02-11T21:34:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "the `TypeError` message was added in #4850\r\n\r\nhttps://github.com/jreback/pandas/blob/60efe85bc2ce9578e8f5e0c88907c5cc6b6b7b31/pandas/core/index.py#L526-L531\r\n\r\nand has since been removed. int slicing with floats is now allowed."
+  }
+]

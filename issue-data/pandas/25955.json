@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/480130259",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25955#issuecomment-480130259",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25955",
+    "id": 480130259,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDEzMDI1OQ==",
+    "user": {
+      "login": "aaalex5",
+      "id": 26657830,
+      "node_id": "MDQ6VXNlcjI2NjU3ODMw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26657830?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aaalex5",
+      "html_url": "https://github.com/aaalex5",
+      "followers_url": "https://api.github.com/users/aaalex5/followers",
+      "following_url": "https://api.github.com/users/aaalex5/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aaalex5/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aaalex5/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aaalex5/subscriptions",
+      "organizations_url": "https://api.github.com/users/aaalex5/orgs",
+      "repos_url": "https://api.github.com/users/aaalex5/repos",
+      "events_url": "https://api.github.com/users/aaalex5/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aaalex5/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-05T02:44:04Z",
+    "updated_at": "2019-04-05T02:44:04Z",
+    "author_association": "NONE",
+    "body": "Would this be an issue that I could attempt to work on? I would be a first time contributor, but none of the good-first-issue posts are available at the moment."
+  }
+]

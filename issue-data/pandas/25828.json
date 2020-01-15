@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/475671061",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25828#issuecomment-475671061",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25828",
+    "id": 475671061,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NTY3MTA2MQ==",
+    "user": {
+      "login": "Batalex",
+      "id": 11004857,
+      "node_id": "MDQ6VXNlcjExMDA0ODU3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11004857?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Batalex",
+      "html_url": "https://github.com/Batalex",
+      "followers_url": "https://api.github.com/users/Batalex/followers",
+      "following_url": "https://api.github.com/users/Batalex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Batalex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Batalex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Batalex/subscriptions",
+      "organizations_url": "https://api.github.com/users/Batalex/orgs",
+      "repos_url": "https://api.github.com/users/Batalex/repos",
+      "events_url": "https://api.github.com/users/Batalex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Batalex/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-22T15:44:09Z",
+    "updated_at": "2019-03-22T15:44:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Hi,\r\nI would like to give it a try as a first contribution.\r\nIt does not seem to be very complex when looking at the contributing guide"
+  }
+]

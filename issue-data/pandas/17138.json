@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/319301616",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17138#issuecomment-319301616",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17138",
+    "id": 319301616,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxOTMwMTYxNg==",
+    "user": {
+      "login": "mficek",
+      "id": 9933817,
+      "node_id": "MDQ6VXNlcjk5MzM4MTc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9933817?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mficek",
+      "html_url": "https://github.com/mficek",
+      "followers_url": "https://api.github.com/users/mficek/followers",
+      "following_url": "https://api.github.com/users/mficek/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mficek/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mficek/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mficek/subscriptions",
+      "organizations_url": "https://api.github.com/users/mficek/orgs",
+      "repos_url": "https://api.github.com/users/mficek/repos",
+      "events_url": "https://api.github.com/users/mficek/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mficek/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-01T08:17:18Z",
+    "updated_at": "2017-08-01T08:17:18Z",
+    "author_association": "NONE",
+    "body": "Hm... after some effort I accidentally found this behaviour to be a bug already issued:  #16995"
+  }
+]

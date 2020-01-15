@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/209990923",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12861#issuecomment-209990923",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12861",
+    "id": 209990923,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwOTk5MDkyMw==",
+    "user": {
+      "login": "cchrysostomou",
+      "id": 2927161,
+      "node_id": "MDQ6VXNlcjI5MjcxNjE=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2927161?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cchrysostomou",
+      "html_url": "https://github.com/cchrysostomou",
+      "followers_url": "https://api.github.com/users/cchrysostomou/followers",
+      "following_url": "https://api.github.com/users/cchrysostomou/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cchrysostomou/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cchrysostomou/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cchrysostomou/subscriptions",
+      "organizations_url": "https://api.github.com/users/cchrysostomou/orgs",
+      "repos_url": "https://api.github.com/users/cchrysostomou/repos",
+      "events_url": "https://api.github.com/users/cchrysostomou/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cchrysostomou/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-14T15:09:02Z",
+    "updated_at": "2016-04-14T15:11:13Z",
+    "author_association": "NONE",
+    "body": "I have been looking into this bug, and I found a change I could make in internals.py that did not raise any Value Errors and appeared to slice as expected; but I am not sure this is the safest change to make. The change I made resulted from me noticing that the transpose of each block within block manager did not seem to return the proper dimensions that would be expected from the boolean conditional dataframe. \n\nHeres what I did:\nIn Internals.py -> where():\n\n 1) Line 1186, rather than take the transpose of the values, I took the transpose of cond\n\n```\nif transpose:\n            #values = values.T\n            cond = cond.T\n```\n\n  2) Since I am not taking the transpose of values, then I commented out the following lines (1234-1235) where result is transposed\n\n```\nif self._can_hold_na or self.ndim == 1:\n\n            #if transpose:\n            #    result = result.T\n\n            # try to cast if requested\n            if try_cast:\n                result = self._try_cast_result(result)\n```\n\n#### Now this did not solve the issue completely because I have found some additional bugs with the category dataframe keeping its format as category and not an object:\n\n##### First note the following, using the changes above, and performing the following:\n\n```\ndf = pd.DataFrame([list('ddddedddddddddcdddddddf'),list('cddddddddddddddddddddde')])\ndf2 = df.apply(lambda x: x.astype('category',categories=np.sort(pd.unique(df.values.ravel()))))\ndf[df=='d']  # this still works as expected\ndf2[df2=='d']  # this now returns a \"mixture\" of objects and categories\ndf2.info()\n```\n\nI have followed this bug into the following location: expressions.py/_where_standard()\n\n```\nnp.where(_values_from_object(cond), _values_from_object(a),\n                    _values_from_object(b))\n```\n\nIf \"a\" is a category, then after performing this function, the result is converted to an object. \n\n##### Second, I have noticed a similar bug when performing a transpose on categorical data (results are returned as objects):\n\n```\ndf = pd.DataFrame([list('ddddedddddddddcdddddddf'),list('cddddddddddddddddddddde')])\ndf2 = df.apply(lambda x: x.astype('category',categories=np.sort(pd.unique(df.values.ravel()))))\ndf2.info()  # data format is categories\ndf2.transpose().transpose().info()  # data format becomes objects\n```\n"
+  }
+]

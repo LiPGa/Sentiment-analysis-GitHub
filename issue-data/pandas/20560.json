@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/377641631",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20560#issuecomment-377641631",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20560",
+    "id": 377641631,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3NzY0MTYzMQ==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-30T22:57:59Z",
+    "updated_at": "2018-03-30T22:57:59Z",
+    "author_association": "MEMBER",
+    "body": "I assume you aren't facing any issue from an end user perspective but are questioning whether or not this internal method serves a purpose right? If so, do you have a suggestion on what you think it should be doing?"
+  }
+]

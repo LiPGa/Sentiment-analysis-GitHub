@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/465421438",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25379#issuecomment-465421438",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25379",
+    "id": 465421438,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NTQyMTQzOA==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-02-20T04:44:12Z",
+    "updated_at": "2019-02-20T04:44:12Z",
+    "author_association": "MEMBER",
+    "body": "Thanks - I wasn't even aware of this. I think this is an interesting idea and would agree that the datatype annotations seems like a logical starting point.\r\n\r\nPRs are always welcome if you have an idea on how to implement"
+  }
+]

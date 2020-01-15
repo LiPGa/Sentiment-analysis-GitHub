@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/150847890",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9750#issuecomment-150847890",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9750",
+    "id": 150847890,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MDg0Nzg5MA==",
+    "user": {
+      "login": "AoAGeneral",
+      "id": 7693928,
+      "node_id": "MDQ6VXNlcjc2OTM5Mjg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7693928?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AoAGeneral",
+      "html_url": "https://github.com/AoAGeneral",
+      "followers_url": "https://api.github.com/users/AoAGeneral/followers",
+      "following_url": "https://api.github.com/users/AoAGeneral/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AoAGeneral/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AoAGeneral/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AoAGeneral/subscriptions",
+      "organizations_url": "https://api.github.com/users/AoAGeneral/orgs",
+      "repos_url": "https://api.github.com/users/AoAGeneral/repos",
+      "events_url": "https://api.github.com/users/AoAGeneral/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AoAGeneral/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-24T20:27:37Z",
+    "updated_at": "2015-10-24T20:27:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This tends to happen in TD but in a different way. Aircraft can also exploit the outside map bounds and be used to shoot units or structures. Units inside the map do not target such units because they don't have them in their sights. Defense structures however will shoot at such units.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5752038",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1106#issuecomment-5752038",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1106",
+    "id": 5752038,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU3NTIwMzg=",
+    "user": {
+      "login": "tkf",
+      "id": 29282,
+      "node_id": "MDQ6VXNlcjI5Mjgy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/29282?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tkf",
+      "html_url": "https://github.com/tkf",
+      "followers_url": "https://api.github.com/users/tkf/followers",
+      "following_url": "https://api.github.com/users/tkf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tkf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tkf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tkf/subscriptions",
+      "organizations_url": "https://api.github.com/users/tkf/orgs",
+      "repos_url": "https://api.github.com/users/tkf/repos",
+      "events_url": "https://api.github.com/users/tkf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tkf/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-16T21:06:23Z",
+    "updated_at": "2012-05-16T21:06:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Fixed by da8bc6c47a3d1f772d3e5cec00966b58c646a800. Thanks for merging it!\n"
+  }
+]

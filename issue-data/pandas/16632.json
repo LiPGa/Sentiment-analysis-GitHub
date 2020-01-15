@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/307157913",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16632#issuecomment-307157913",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16632",
+    "id": 307157913,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNzE1NzkxMw==",
+    "user": {
+      "login": "dsm054",
+      "id": 980054,
+      "node_id": "MDQ6VXNlcjk4MDA1NA==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/980054?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dsm054",
+      "html_url": "https://github.com/dsm054",
+      "followers_url": "https://api.github.com/users/dsm054/followers",
+      "following_url": "https://api.github.com/users/dsm054/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dsm054/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dsm054/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dsm054/subscriptions",
+      "organizations_url": "https://api.github.com/users/dsm054/orgs",
+      "repos_url": "https://api.github.com/users/dsm054/repos",
+      "events_url": "https://api.github.com/users/dsm054/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dsm054/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-08T16:33:35Z",
+    "updated_at": "2017-06-08T16:34:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "It works for numpy nans -- it just only works for the _same_ numpy nan.  The problem boils down to\r\n\r\n```\r\nIn [10]: pd._libs.hashtable.duplicated_object(np.array([1,2,2], dtype=object))\r\nOut[10]: array([False, False,  True], dtype=bool)\r\n\r\nIn [11]: pd._libs.hashtable.duplicated_object(np.array([1,np.nan, np.nan], dtype=object))\r\nOut[11]: array([False, False,  True], dtype=bool)\r\n\r\nIn [12]: f = float(\"nan\")\r\n\r\nIn [13]: pd._libs.hashtable.duplicated_object(np.array([1, f, f], dtype=object))\r\nOut[13]: array([False, False,  True], dtype=bool)\r\n\r\nIn [14]: pd._libs.hashtable.duplicated_object(np.array([1, float('nan'), float('nan')], dtype=object))\r\nOut[14]: array([False, False, False], dtype=bool)\r\n\r\n```\r\n\r\nwhich happens because we're only working with _identity_:\r\n\r\n```\r\n                  kh_put_pymap(table, <PyObject*> values[i], &ret)\r\n```\r\n\r\nIt would be probably be straightforward to canonicalize anything null in `_libs/hashtable_func_helper.pxi.in` before insertion.\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/223006253",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/13343#issuecomment-223006253",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13343",
+    "id": 223006253,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMzAwNjI1Mw==",
+    "user": {
+      "login": "codecov-io",
+      "id": 8655789,
+      "node_id": "MDQ6VXNlcjg2NTU3ODk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8655789?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/codecov-io",
+      "html_url": "https://github.com/codecov-io",
+      "followers_url": "https://api.github.com/users/codecov-io/followers",
+      "following_url": "https://api.github.com/users/codecov-io/following{/other_user}",
+      "gists_url": "https://api.github.com/users/codecov-io/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/codecov-io/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/codecov-io/subscriptions",
+      "organizations_url": "https://api.github.com/users/codecov-io/orgs",
+      "repos_url": "https://api.github.com/users/codecov-io/repos",
+      "events_url": "https://api.github.com/users/codecov-io/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/codecov-io/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-01T14:16:59Z",
+    "updated_at": "2016-06-01T14:16:59Z",
+    "author_association": "NONE",
+    "body": "## [Current coverage](https://codecov.io/gh/pydata/pandas/pull/13343?src=pr) is **84.23%**\n\n> Merging [#13343](https://codecov.io/gh/pydata/pandas/pull/13343?src=pr) into [master](https://codecov.io/gh/pydata/pandas/branch/master?src=pr) will decrease coverage by **<.01%**\n\n``` diff\n@@             master     #13343   diff @@\n==========================================\n  Files           138        138          \n  Lines         50713      50713          \n  Methods           0          0          \n  Messages          0          0          \n  Branches          0          0          \n==========================================\n- Hits          42715      42714     -1   \n- Misses         7998       7999     +1   \n  Partials          0          0          \n```\n\n> Powered by [Codecov](https://codecov.io?src=pr). Last updated by [fcd73ad...902352c](https://codecov.io/gh/pydata/pandas/compare/fcd73ad2e7482414b61d47056c6c9c220b11702c...902352c659276e2ea9c05e5af88b637cbf6918ee)\n"
+  }
+]

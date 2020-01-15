@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5589439",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1219#issuecomment-5589439",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1219",
+    "id": 5589439,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1ODk0Mzk=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-08T23:39:57Z",
+    "updated_at": "2012-05-08T23:39:57Z",
+    "author_association": "MEMBER",
+    "body": "@changhiskhan this is a red herring, caused by some changes I made in the Series constructor causing `Series([0, 1, 2])` to return `int64` instead of platform int (int32 on 32-bit). It's harmless, I'll just change the unit test\n"
+  }
+]

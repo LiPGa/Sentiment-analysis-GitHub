@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/106989342",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8291#issuecomment-106989342",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8291",
+    "id": 106989342,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNjk4OTM0Mg==",
+    "user": {
+      "login": "Raymond-cnc",
+      "id": 8732657,
+      "node_id": "MDQ6VXNlcjg3MzI2NTc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/8732657?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Raymond-cnc",
+      "html_url": "https://github.com/Raymond-cnc",
+      "followers_url": "https://api.github.com/users/Raymond-cnc/followers",
+      "following_url": "https://api.github.com/users/Raymond-cnc/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Raymond-cnc/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Raymond-cnc/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Raymond-cnc/subscriptions",
+      "organizations_url": "https://api.github.com/users/Raymond-cnc/orgs",
+      "repos_url": "https://api.github.com/users/Raymond-cnc/repos",
+      "events_url": "https://api.github.com/users/Raymond-cnc/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Raymond-cnc/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-30T04:49:52Z",
+    "updated_at": "2015-05-30T04:49:52Z",
+    "author_association": "NONE",
+    "body": "![shock](https://cloud.githubusercontent.com/assets/8732657/7895600/c75bd6e0-0665-11e5-8191-1316c3327b19.png)\n"
+  }
+]

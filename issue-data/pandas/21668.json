@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/401501954",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21668#issuecomment-401501954",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21668",
+    "id": 401501954,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMTUwMTk1NA==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-30T00:04:42Z",
+    "updated_at": "2018-06-30T00:04:42Z",
+    "author_association": "MEMBER",
+    "body": "Just for a little more clarity on where I think this originates, here's the GroupBy iteration behavior below:\r\n\r\n```python\r\nIn [19]: df = pd.DataFrame([[True, True, True]], columns=['key', 'a', 'a'])\r\nIn [20]: grp = df.groupby('key')\r\nIn [21]: grp_iter = grp._iterate_slices()\r\n\r\nIn [22]: next(grp_iter)\r\nOut[22]: \r\n('a',       a     a\r\n 0  True  True)\r\n\r\nIn [23]: next(grp_iter)\r\nOut[23]: \r\n('a',       a     a\r\n 0  True  True)\r\n\r\nIn [24]: next(grp_iter)\r\nStopIteration\r\n```\r\n\r\nThe duplicated names causes the slices to be multi-dimensional and repetitive. Not sure if this causes problems elsewhere in the code base but is at least responsible for the issue in the original post\r\n"
+  }
+]

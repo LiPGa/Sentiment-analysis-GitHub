@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/74789812",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9506#issuecomment-74789812",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9506",
+    "id": 74789812,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc0Nzg5ODEy",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-18T00:56:37Z",
+    "updated_at": "2015-02-18T00:56:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "dealing with `uint64` is somewhat tricky; its not well-supported. In any event you should do this:\n(this doesn't fix the problem but is a more efficient way of accessing that doesn't involve chain indexing).\n\n```\nIn [16]: type(uintDF.ix[0,'Numbers'])\nOut[16]: numpy.uint64\n\nIn [17]: type(uintDF.ix[2,'Numbers'])\nOut[17]: numpy.uint64\n```\n"
+  }
+]

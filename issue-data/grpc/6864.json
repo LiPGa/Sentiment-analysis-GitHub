@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/225305276",
+    "html_url": "https://github.com/grpc/grpc/pull/6864#issuecomment-225305276",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6864",
+    "id": 225305276,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNTMwNTI3Ng==",
+    "user": {
+      "login": "dgquintas",
+      "id": 120217,
+      "node_id": "MDQ6VXNlcjEyMDIxNw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/120217?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dgquintas",
+      "html_url": "https://github.com/dgquintas",
+      "followers_url": "https://api.github.com/users/dgquintas/followers",
+      "following_url": "https://api.github.com/users/dgquintas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dgquintas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dgquintas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dgquintas/subscriptions",
+      "organizations_url": "https://api.github.com/users/dgquintas/orgs",
+      "repos_url": "https://api.github.com/users/dgquintas/repos",
+      "events_url": "https://api.github.com/users/dgquintas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dgquintas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-10T21:53:49Z",
+    "updated_at": "2016-06-10T21:53:49Z",
+    "author_association": "NONE",
+    "body": "LGTM. A new (unrelated) issue has showed up in the tests: https://grpc-testing.appspot.com/job/gRPC_pull_requests/9759/config=dbg,language=c,platform=windows/testReport/junit/(root)/tests/vsprojects_Debug_h2_full_trace_test_exe_connectivity/\n"
+  }
+]

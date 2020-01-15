@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/69507184",
+    "html_url": "https://github.com/ipython/ipython/issues/7384#issuecomment-69507184",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7384",
+    "id": 69507184,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5NTA3MTg0",
+    "user": {
+      "login": "cancan101",
+      "id": 51059,
+      "node_id": "MDQ6VXNlcjUxMDU5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/51059?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cancan101",
+      "html_url": "https://github.com/cancan101",
+      "followers_url": "https://api.github.com/users/cancan101/followers",
+      "following_url": "https://api.github.com/users/cancan101/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cancan101/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cancan101/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cancan101/subscriptions",
+      "organizations_url": "https://api.github.com/users/cancan101/orgs",
+      "repos_url": "https://api.github.com/users/cancan101/repos",
+      "events_url": "https://api.github.com/users/cancan101/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cancan101/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-11T19:25:46Z",
+    "updated_at": "2015-01-11T19:25:46Z",
+    "author_association": "NONE",
+    "body": "Duplicate of #6369\n"
+  }
+]

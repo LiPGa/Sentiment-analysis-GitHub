@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/456625453",
+    "html_url": "https://github.com/ipython/ipython/issues/11560#issuecomment-456625453",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11560",
+    "id": 456625453,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NjYyNTQ1Mw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-23T01:01:19Z",
+    "updated_at": "2019-01-23T01:01:19Z",
+    "author_association": "MEMBER",
+    "body": "Hi @PallaviBodepudi \r\n\r\nThanks for your question. Just to let you know that this is not a general Python to ask questions about learning Python, but more specifically about the development of the IPython software. I would suggest trying for example https://www.reddit.com/r/learnpython/ if you are starting with Python. \r\n\r\nTo take a screenshot I would though advise to google for \"Python and Selenium\", Selenium will help you to control what is known as a headless web-browser. \r\n\r\nI'm going to close the issue as there no actionable item from my side, but feel free to keep commenting. \r\n\r\n"
+  }
+]

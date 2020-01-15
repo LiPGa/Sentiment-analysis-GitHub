@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/244036039",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14133#issuecomment-244036039",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14133",
+    "id": 244036039,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NDAzNjAzOQ==",
+    "user": {
+      "login": "Gijs-Koot",
+      "id": 4848325,
+      "node_id": "MDQ6VXNlcjQ4NDgzMjU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4848325?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gijs-Koot",
+      "html_url": "https://github.com/Gijs-Koot",
+      "followers_url": "https://api.github.com/users/Gijs-Koot/followers",
+      "following_url": "https://api.github.com/users/Gijs-Koot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gijs-Koot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gijs-Koot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gijs-Koot/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gijs-Koot/orgs",
+      "repos_url": "https://api.github.com/users/Gijs-Koot/repos",
+      "events_url": "https://api.github.com/users/Gijs-Koot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gijs-Koot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-01T10:11:58Z",
+    "updated_at": "2016-09-01T10:11:58Z",
+    "author_association": "NONE",
+    "body": "Someone did read TFM, see http://stackoverflow.com/questions/39268147/understand-pandas-groupby-apply-behaviour/39268538#39268538. \n\n```\nIn the current implementation apply calls func twice on the first column/row to decide whether it can take a fast or slow code path. This can lead to unexpected behavior if func has side-effects, as they will take effect twice for the first column/row.\n```\n"
+  }
+]

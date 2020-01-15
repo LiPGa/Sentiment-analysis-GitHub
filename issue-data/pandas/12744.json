@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/203441736",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12744#issuecomment-203441736",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12744",
+    "id": 203441736,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMzQ0MTczNg==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-30T13:48:40Z",
+    "updated_at": "2016-03-30T13:49:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "so I ran on almost the exact same setup. same cpu / linux, with numpy 1.11, both pandas 0.18.0 & master. my only difference is using python 2.7.11.final. didn't have any faults. (ran many times).\n\nwhat you are doing looks perfectly fine. \n\nassume you are NOT trying to do anything with theads. if so then that is a no-no as this is certainly not threadsafe.\n\nif you manage to have a more repro will certainly take a look.\n\njust make sure that you are indeed running under this exact environment (e.g. if you had `numexpr` installed that DOES use threads).\n\nI also setup the env with `conda` (though pip installed all deps).\n"
+  }
+]

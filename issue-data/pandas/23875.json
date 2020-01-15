@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/441391551",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23875#issuecomment-441391551",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23875",
+    "id": 441391551,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MTM5MTU1MQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-24T19:51:32Z",
+    "updated_at": "2018-11-24T19:51:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "When you `apply` a function to the rows, pandas passes each row as a Series.\r\n\r\nSo `transform` gets series like\r\n\r\n```python\r\nIn [27]: df.iloc[0]\r\nOut[27]:\r\na    0\r\nb    0\r\nName: 0, dtype: object\r\n```\r\n\r\nAs you can se, that's object dtype, so the type information isn't available any more, regardless of what `transform` does."
+  }
+]

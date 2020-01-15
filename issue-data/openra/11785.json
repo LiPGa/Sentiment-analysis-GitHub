@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/238112021",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11785#issuecomment-238112021",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11785",
+    "id": 238112021,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzODExMjAyMQ==",
+    "user": {
+      "login": "johnweven",
+      "id": 20881221,
+      "node_id": "MDQ6VXNlcjIwODgxMjIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20881221?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/johnweven",
+      "html_url": "https://github.com/johnweven",
+      "followers_url": "https://api.github.com/users/johnweven/followers",
+      "following_url": "https://api.github.com/users/johnweven/following{/other_user}",
+      "gists_url": "https://api.github.com/users/johnweven/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/johnweven/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/johnweven/subscriptions",
+      "organizations_url": "https://api.github.com/users/johnweven/orgs",
+      "repos_url": "https://api.github.com/users/johnweven/repos",
+      "events_url": "https://api.github.com/users/johnweven/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/johnweven/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-07T22:15:40Z",
+    "updated_at": "2016-08-07T22:15:40Z",
+    "author_association": "NONE",
+    "body": "I can confirm the bug. The Grenadier is crawling in position.\n"
+  }
+]

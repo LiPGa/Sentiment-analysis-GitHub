@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/8637700",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1885#issuecomment-8637700",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1885",
+    "id": 8637700,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg2Mzc3MDA=",
+    "user": {
+      "login": "changhiskhan",
+      "id": 759245,
+      "node_id": "MDQ6VXNlcjc1OTI0NQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/759245?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/changhiskhan",
+      "html_url": "https://github.com/changhiskhan",
+      "followers_url": "https://api.github.com/users/changhiskhan/followers",
+      "following_url": "https://api.github.com/users/changhiskhan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/changhiskhan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/changhiskhan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/changhiskhan/subscriptions",
+      "organizations_url": "https://api.github.com/users/changhiskhan/orgs",
+      "repos_url": "https://api.github.com/users/changhiskhan/repos",
+      "events_url": "https://api.github.com/users/changhiskhan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/changhiskhan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-09-18T02:17:42Z",
+    "updated_at": "2012-09-20T16:49:01Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\nIn [4]: df\nOut[4]: \n   foo     bar\n     1  2    1\n0    2  3    9\n1    3  2    7\n2    4  8    5\n\nIn [5]: df.set_index(df.columns[0])\nOut[5]: \n            foo  bar\n              2    1\n('foo', 1)          \n2             3    9\n3             2    7\n4             8    5\n```\n"
+  }
+]

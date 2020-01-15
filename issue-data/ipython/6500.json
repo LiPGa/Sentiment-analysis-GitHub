@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/56142581",
+    "html_url": "https://github.com/ipython/ipython/issues/6500#issuecomment-56142581",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6500",
+    "id": 56142581,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTQyNTgx",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-19T07:01:29Z",
+    "updated_at": "2014-09-19T07:01:29Z",
+    "author_association": "MEMBER",
+    "body": "Hi, thanks for the proposition, this has already been asked in #4055 and require a bit of refactor. I'll let you read the discussion in linked issue, and close this one so that we can focus only on one place.\n"
+  }
+]

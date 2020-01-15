@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/335886121",
+    "html_url": "https://github.com/grpc/grpc/pull/12943#issuecomment-335886121",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12943",
+    "id": 335886121,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzNTg4NjEyMQ==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-11T17:29:35Z",
+    "updated_at": "2017-10-11T17:29:35Z",
+    "author_association": "MEMBER",
+    "body": "Meta-score is the wrong way to evaluate.\n\nWe need to get thread jumps in each of the benchmarks to where we would\nexpect (orthogonally to this, also syscall count).\n\nOnce we get there, meta score is about CPU throughput improvement and\ncontention improvement.\nUntil we get there anything we do might be undone by later changes.\n\nOn Wed, Oct 11, 2017 at 10:25 AM kpayson64 <notifications@github.com> wrote:\n\n> *@kpayson64* commented on this pull request.\n> ------------------------------\n>\n> In src/core/lib/iomgr/ev_epoll1_linux.cc\n> <https://github.com/grpc/grpc/pull/12943#discussion_r144079376>:\n>\n> > @@ -1228,6 +1284,7 @@ static const grpc_event_engine_vtable vtable = {\n>      pollset_set_add_fd,\n>      pollset_set_del_fd,\n>\n> +    workqueue_scheduler,\n>\n> This was just a POC so I could get some experimental numbers. In the case\n> of epoll1 it looks like we would ignore the fd anyways.\n>\n> I didn't see much improvement (0.841 Meta-score).\n>\n> —\n> You are receiving this because you commented.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/grpc/grpc/pull/12943#discussion_r144079376>, or mute\n> the thread\n> <https://github.com/notifications/unsubscribe-auth/AJpuddQcy9UViGNs8MSX6AQFOXYwfF2Yks5srPoMgaJpZM4P0rGu>\n> .\n>\n"
+  }
+]

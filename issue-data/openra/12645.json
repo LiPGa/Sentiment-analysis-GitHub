@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/275931713",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/12645#issuecomment-275931713",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/12645",
+    "id": 275931713,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NTkzMTcxMw==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-29T17:48:03Z",
+    "updated_at": "2017-01-29T17:48:03Z",
+    "author_association": "MEMBER",
+    "body": "[Changelog](https://github.com/OpenRA/OpenRA/wiki/Changelog-(bleed)/_compare/50092dcbaa2b06c4495284c664d72d91649bdc41...1ae04a57af2c5a130b956f59fe401d8b0b5a2ff9)"
+  }
+]

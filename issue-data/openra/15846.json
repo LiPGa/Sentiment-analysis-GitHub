@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/441046529",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/15846#issuecomment-441046529",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15846",
+    "id": 441046529,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MTA0NjUyOQ==",
+    "user": {
+      "login": "reaperrr",
+      "id": 2857877,
+      "node_id": "MDQ6VXNlcjI4NTc4Nzc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2857877?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reaperrr",
+      "html_url": "https://github.com/reaperrr",
+      "followers_url": "https://api.github.com/users/reaperrr/followers",
+      "following_url": "https://api.github.com/users/reaperrr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reaperrr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reaperrr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reaperrr/subscriptions",
+      "organizations_url": "https://api.github.com/users/reaperrr/orgs",
+      "repos_url": "https://api.github.com/users/reaperrr/repos",
+      "events_url": "https://api.github.com/users/reaperrr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reaperrr/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-22T14:27:37Z",
+    "updated_at": "2018-11-22T14:37:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "~False alarm, looks like in my testcase they were simply too close to spice already.~\r\n\r\nI was right, afterall. Calling when full to return always works, but calling to be transported to spice only works the first time. Something doesn't reset properly, it seems."
+  }
+]

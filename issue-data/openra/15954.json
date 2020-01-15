@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/478289388",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/15954#issuecomment-478289388",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15954",
+    "id": 478289388,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODI4OTM4OA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-30T21:06:22Z",
+    "updated_at": "2019-03-30T21:07:35Z",
+    "author_association": "MEMBER",
+    "body": "#16345 marked the completion of the first major phase to support this - we can now safely assume that all players will have a runtime that supports .NET standard 2.0.\r\n\r\nPhase 2 is to merge and upgrade our windows and mono build processes, using `msbuild` and the newer vs2017-format csproj. The new csproj format trims all the fat and rivals the Makefile in terms of conciseness and readability (i.e. still a bit weird and obtuse, but good enough) so we shouldn't lose anything by doing this.  I have a local prototype which I aim to clean up and PR during this release cycle.\r\n\r\nPhase 2.5 should be to replace our custom dependency fetching scripts with nuget references. I don't like Nuget, but we can't justify not using it at this point - and its mandatory if we want to switch over to .NET core in the future. Research and tests will be required here to work out how to handle our platform-specific dependencies.\r\n\r\nPhase 3 is to remove the last uses of non-standard-2.0 code so so that we can switch to `<TargetFramework>netstandard2.0</TargetFramework>`:\r\n* https://github.com/OpenRA/OpenRA/blob/f69c6ab3fb833bcf307a63b26e45a64b5124f549/OpenRA.Mods.Common/Widgets/Logic/Installation/InstallFromDiscLogic.cs#L498 should be easy enough to solve.\r\n* Pretty much all of https://github.com/OpenRA/OpenRA/blob/bleed/OpenRA.Game/Sync.cs, which is going to be harder. Nuget has packages for [System.Reflection.Emit.ILGeneration](https://www.nuget.org/packages/System.Reflection.Emit.ILGeneration/4.6.0-preview3.19128.7) and [System.Reflection.Emit.Lightweight](https://www.nuget.org/packages/System.Reflection.Emit.Lightweight/4.6.0-preview3.19128.7), but these throw a runtime `System.PlatformNotSupportedException` on mono.\r\n\r\nThe game seems to otherwise run fine after hacking these out, so I don't expect any other major problems.  This is a good motivation to investigate using Roslyn or another tool to compile the sync metadata during compilation, which I suspect will also help reduce the virus scanner false positives on Windows and reduce our load times."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/174995172",
+    "html_url": "https://github.com/ipython/ipython/issues/8949#issuecomment-174995172",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8949",
+    "id": 174995172,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NDk5NTE3Mg==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T12:43:21Z",
+    "updated_at": "2016-01-26T12:43:21Z",
+    "author_association": "MEMBER",
+    "body": "The short answer: if you're using non-ascii characters, you should use Unicode strings. `u'一'` should give you the correct Unicode code point. In Python 3, non-ascii sequences in byte strings have to escaped (i.e. `b'一'` would give a SyntaxError).\n\nLonger: I can waffle about this all day if required. When we get code from the user, we can hand it to Python either as a series of bytes or a series of unicode code points. In the former case, unicode literals in the code are ambiguous - what code points do those bytes represent? In the latter case, non-ascii bytes literals are ambiguous - what bytes do those code points represent? We do the latter, because:\n- If you're using non-ascii characters, you should probably put them in unicode literals anyway.\n- On Python 3, non-ascii characters aren't allowed in bytes literals, so it's unambiguous.\n- It so happens that the default guess Python makes when you give it unicode is what you expect for bytes literals on ~all modern Linux and Mac systems. The default guess when you give it bytes is mostly what you expect for unicode literals on Windows in a Western European locale.\n"
+  }
+]

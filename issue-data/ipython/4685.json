@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/34785568",
+    "html_url": "https://github.com/ipython/ipython/issues/4685#issuecomment-34785568",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4685",
+    "id": 34785568,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0Nzg1NTY4",
+    "user": {
+      "login": "capnrefsmmat",
+      "id": 711629,
+      "node_id": "MDQ6VXNlcjcxMTYyOQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/711629?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/capnrefsmmat",
+      "html_url": "https://github.com/capnrefsmmat",
+      "followers_url": "https://api.github.com/users/capnrefsmmat/followers",
+      "following_url": "https://api.github.com/users/capnrefsmmat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/capnrefsmmat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/capnrefsmmat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/capnrefsmmat/subscriptions",
+      "organizations_url": "https://api.github.com/users/capnrefsmmat/orgs",
+      "repos_url": "https://api.github.com/users/capnrefsmmat/repos",
+      "events_url": "https://api.github.com/users/capnrefsmmat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/capnrefsmmat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-02-11T18:08:59Z",
+    "updated_at": "2014-02-11T18:08:59Z",
+    "author_association": "NONE",
+    "body": "Incidentally, this breaks nbconvert when IPython Notebook is set up to use retina (2x) graphics. The converted notebook displays all images at twice their size instead of scaling them down.\n\nI reproduced this with IPython 1.1.0.\n"
+  }
+]

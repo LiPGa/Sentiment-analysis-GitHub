@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/106174720",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8269#issuecomment-106174720",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8269",
+    "id": 106174720,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNjE3NDcyMA==",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-28T05:22:02Z",
+    "updated_at": "2015-05-28T05:22:02Z",
+    "author_association": "MEMBER",
+    "body": "I will start working on this once https://github.com/OpenRA/OpenRA/pull/8154 is merged.\n"
+  }
+]

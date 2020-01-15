@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/5350370",
+    "html_url": "https://github.com/ipython/ipython/pull/1656#issuecomment-5350370",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/1656",
+    "id": 5350370,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzNTAzNzA=",
+    "user": {
+      "login": "jenshnielsen",
+      "id": 548266,
+      "node_id": "MDQ6VXNlcjU0ODI2Ng==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/548266?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jenshnielsen",
+      "html_url": "https://github.com/jenshnielsen",
+      "followers_url": "https://api.github.com/users/jenshnielsen/followers",
+      "following_url": "https://api.github.com/users/jenshnielsen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jenshnielsen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jenshnielsen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jenshnielsen/subscriptions",
+      "organizations_url": "https://api.github.com/users/jenshnielsen/orgs",
+      "repos_url": "https://api.github.com/users/jenshnielsen/repos",
+      "events_url": "https://api.github.com/users/jenshnielsen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jenshnielsen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-26T06:25:52Z",
+    "updated_at": "2012-04-26T06:25:52Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This solves the problem for me on both python3.2 and python2.7 on Ubuntu 12.04\n"
+  }
+]

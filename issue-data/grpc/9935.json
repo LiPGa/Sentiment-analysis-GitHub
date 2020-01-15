@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/283554213",
+    "html_url": "https://github.com/grpc/grpc/issues/9935#issuecomment-283554213",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9935",
+    "id": 283554213,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MzU1NDIxMw==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-02T04:37:57Z",
+    "updated_at": "2017-03-02T04:39:14Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "seeing more but differnet objc interop failures\r\n```\r\nF/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk/Developer/Library/Frameworks'\r\n\t Executed 8 tests, with 0 failures (0 unexpected) in 0.585 (0.593) seconds\r\n\t Executed 12 tests, with 0 failures (0 unexpected) in 0.113 (0.121) seconds\r\n\t Executed 13 tests, with 0 failures (0 unexpected) in 2.877 (2.884) seconds\r\n/jenkins/workspace/gRPC_pull_requests_macos/workspace_objc_macos_opt_native/src/objective-c/tests/InteropTests.m:152: error: -[InteropTestsRemote testLargeUnaryRPC] : Asynchronous wait failed: Exceeded timeout of 32 seconds, with unfulfilled expectations: \"LargeUnary\".\r\nTest Case '-[InteropTestsRemote testLargeUnaryRPC]' failed (32.160 seconds).\r\nTest Suite 'InteropTestsRemote' failed at 2017-02-27 15:17:30.858.\r\n\t Executed 12 tests, with 1 failure (0 unexpected) in 52.800 (52.807) seconds\r\n\t Executed 8 tests, with 0 failures (0 unexpected) in 0.003 (0.007) seconds\r\nTest Suite 'AllTests.xctest' failed at 2017-02-27 15:17:30.866.\r\n\t Executed 53 tests, with 1 failure (0 unexpected) in 56.377 (56.418) seconds\r\n[0227/151737.349467:ERROR:dns_config_service_posix.cc(213)] DNS config watch failed to start.\r\nE0227 15:17:57.998129000 4602049280 chttp2_server.c:83]                Handshaking failed: \"No Error\"\r\nE0227 15:18:03.118445000 4602049280 chttp2_server.c:83]                Handshaking failed: \"No Error\"\r\nE0227 15:18:08.165624000 4602049280 chttp2_server.c:83]                Handshaking failed: \"No Error\"\r\nE0227 15:18:08.177476000 4602049280 chttp2_server.c:83]                Handshaking failed: \"No Error\"\r\n\t Executed 41 tests, with 0 failures (0 unexpected) in 97.616 (100.640) seconds\r\n\t Executed 41 tests, with 0 failures (0 unexpected) in 97.616 (100.641) seconds\r\n[0227/151942.417235:ERROR:dns_config_service_posix.cc(213)] DNS config watch failed to start.\r\n[0227/151944.325197:ERROR:ssl_client_socket_impl.cc(1134)] handshake failed; returned -1, SSL error code 1, net_error -100\r\n\t Executed 2 tests, with 0 failures (0 unexpected) in 5.128 (13.775) seconds\r\n\t Executed 2 tests, with 0 failures (0 unexpected) in 5.128 (13.776) seconds\r\nkill -9 `jobs -p`\r\n```\r\n\r\nalso on native configuration:\r\n```\r\n[0227/152032.011914:ERROR:dns_config_service_posix.cc(213)] DNS config watch failed to start.\r\n/jenkins/workspace/gRPC_pull_requests_macos/workspace_objc_macos_dbg_native/src/objective-c/tests/InteropTests.m:164: error: -[InteropTestsRemoteWithCronet test4MBResponsesAreAccepted] : ((error) == nil) failed: \"Error Domain=io.grpc Code=3 \"Received message larger than max (4194316 vs. 4194304)\" UserInfo={io.grpc.TrailersKey={\r\n}}\" - Finished with unexpected error: Error Domain=io.grpc Code=3 \"Received message larger than max (4194316 vs. 4194304)\" UserInfo={io.grpc.TrailersKey={\r\nTest Case '-[InteropTestsRemoteWithCronet test4MBResponsesAreAccepted]' failed (2.144 seconds).\r\n```\r\n\r\nhttps://github.com/grpc/grpc/pull/9894 against master\r\n\r\nhttps://grpc-testing.appspot.com/job/gRPC_pull_requests_macos/3024/"
+  }
+]

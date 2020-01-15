@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/245091225",
+    "html_url": "https://github.com/grpc/grpc/pull/7995#issuecomment-245091225",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7995",
+    "id": 245091225,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NTA5MTIyNQ==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-06T21:05:13Z",
+    "updated_at": "2016-09-06T21:05:13Z",
+    "author_association": "MEMBER",
+    "body": "Why would I want to propagate thread local storage to threads I spawn?\nIn general gRPC does not own thread creation for applications, and so this will miss more threads than it hits.\n"
+  }
+]

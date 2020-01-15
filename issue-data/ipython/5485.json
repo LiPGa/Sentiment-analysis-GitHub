@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/39286996",
+    "html_url": "https://github.com/ipython/ipython/issues/5485#issuecomment-39286996",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5485",
+    "id": 39286996,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5Mjg2OTk2",
+    "user": {
+      "login": "zhangxaochen",
+      "id": 3416677,
+      "node_id": "MDQ6VXNlcjM0MTY2Nzc=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/3416677?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zhangxaochen",
+      "html_url": "https://github.com/zhangxaochen",
+      "followers_url": "https://api.github.com/users/zhangxaochen/followers",
+      "following_url": "https://api.github.com/users/zhangxaochen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zhangxaochen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zhangxaochen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zhangxaochen/subscriptions",
+      "organizations_url": "https://api.github.com/users/zhangxaochen/orgs",
+      "repos_url": "https://api.github.com/users/zhangxaochen/repos",
+      "events_url": "https://api.github.com/users/zhangxaochen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zhangxaochen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-02T04:06:28Z",
+    "updated_at": "2014-04-02T04:08:46Z",
+    "author_association": "NONE",
+    "body": "besides, is it possible to generate `pdf` file with the generated `tex` file using bash command? I'm on Windows with `cygwin` installed, and now when I try `pdftex CSMATH-hw1.tex`, seems the tex file is not recognized correctly (sorry I'm not quite familiar with the tex grammar and not sure where the problem is):\n\n```\nD:\\Documents\\Desktop> pdftex CSMATH-hw1.tex\nThis is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Cygwin)\n restricted \\write18 enabled.\nentering extended mode\n(./CSMATH-hw1.tex\n! Undefined control sequence.\nl.10     \\documentclass\n                       [letterpaper,10pt,english]{d:/Anaconda/lib/site-packa...\n\n?\n! Undefined control sequence.\nl.13     \\usepackage\n                    [utf8]{inputenc}\n?\n! Undefined control sequence.\nl.14     \\DeclareUnicodeCharacter\n                                 {00A0}{\\\\nobreakspace}\n?\n! Argument of \\\\ has an extra }.\n<inserted text>\n                \\par\n<to be read again>\n                   }\nl.14 ...lareUnicodeCharacter{00A0}{\\\\nobreakspace}\n\n?\nRunaway argument?\nnobreakspace\n! Paragraph ended before \\\\ was complete.\n<to be read again>\n                   \\par\n<to be read again>\n                   }\nl.14 ...lareUnicodeCharacter{00A0}{\\\\nobreakspace}\n\n?\n```\n"
+  }
+]

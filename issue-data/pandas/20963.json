@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/386854898",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20963#issuecomment-386854898",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20963",
+    "id": 386854898,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4Njg1NDg5OA==",
+    "user": {
+      "login": "cc7768",
+      "id": 1828449,
+      "node_id": "MDQ6VXNlcjE4Mjg0NDk=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1828449?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cc7768",
+      "html_url": "https://github.com/cc7768",
+      "followers_url": "https://api.github.com/users/cc7768/followers",
+      "following_url": "https://api.github.com/users/cc7768/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cc7768/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cc7768/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cc7768/subscriptions",
+      "organizations_url": "https://api.github.com/users/cc7768/orgs",
+      "repos_url": "https://api.github.com/users/cc7768/repos",
+      "events_url": "https://api.github.com/users/cc7768/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cc7768/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-06T05:23:17Z",
+    "updated_at": "2018-05-06T05:23:17Z",
+    "author_association": "NONE",
+    "body": "Just finished building master in new environment. Error is resolved -- Closing issue."
+  }
+]

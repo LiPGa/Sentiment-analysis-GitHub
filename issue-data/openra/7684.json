@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/100656217",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7684#issuecomment-100656217",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7684",
+    "id": 100656217,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDY1NjIxNw==",
+    "user": {
+      "login": "deniz1a",
+      "id": 6599106,
+      "node_id": "MDQ6VXNlcjY1OTkxMDY=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/6599106?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/deniz1a",
+      "html_url": "https://github.com/deniz1a",
+      "followers_url": "https://api.github.com/users/deniz1a/followers",
+      "following_url": "https://api.github.com/users/deniz1a/following{/other_user}",
+      "gists_url": "https://api.github.com/users/deniz1a/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/deniz1a/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/deniz1a/subscriptions",
+      "organizations_url": "https://api.github.com/users/deniz1a/orgs",
+      "repos_url": "https://api.github.com/users/deniz1a/repos",
+      "events_url": "https://api.github.com/users/deniz1a/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/deniz1a/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-10T15:35:19Z",
+    "updated_at": "2015-05-10T15:35:19Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "OK this is a bit silly and clutters issue queue so I'm closing it.\n"
+  }
+]

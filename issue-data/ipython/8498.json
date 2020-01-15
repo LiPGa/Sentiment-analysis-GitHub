@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/107657204",
+    "html_url": "https://github.com/ipython/ipython/pull/8498#issuecomment-107657204",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8498",
+    "id": 107657204,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNzY1NzIwNA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-01T18:05:49Z",
+    "updated_at": "2015-06-01T18:05:49Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, but:\n- This is a new feature, I don't think it should be backported to a 3.x bugfix release.\n- We have a tool to backport PRs automatically, there's no need to resubmit them.\n\nCrosslink #8493 \n"
+  }
+]

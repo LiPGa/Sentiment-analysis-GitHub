@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/394656921",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21326#issuecomment-394656921",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21326",
+    "id": 394656921,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDY1NjkyMQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-05T10:14:21Z",
+    "updated_at": "2018-06-05T10:14:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is logically consistent with numpy (in fact what it is doing under the hood)\r\n```\r\nIn [6]: pd.DataFrame(columns=list('ABC')).values.ravel().any()\r\nOut[6]: False\r\n\r\nIn [7]: pd.DataFrame(columns=list('ABC')).values.ravel().all()\r\nOut[7]: True\r\n\r\nIn [9]: np.array([]).any()\r\nOut[9]: False\r\n\r\nIn [10]: np.array([]).all()\r\nOut[10]: True\r\n\r\n```"
+  }
+]

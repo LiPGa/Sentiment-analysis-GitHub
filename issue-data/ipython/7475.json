@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/70071896",
+    "html_url": "https://github.com/ipython/ipython/issues/7475#issuecomment-70071896",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7475",
+    "id": 70071896,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwMDcxODk2",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-15T11:19:12Z",
+    "updated_at": "2015-01-15T11:19:12Z",
+    "author_association": "MEMBER",
+    "body": "Ouh, nasty. #7476 should take care of that.\n\n> By the way, mistakenly cutting more than one cell happens regardless of this issue (human error). Am I correct in thinking that in such a situation, the only thing that can be done currently is to shutdown the notebook before it auto-saves (or not rely on auto-saves but checkpoints instead)?\n\nYou could disable autosave, or rely on checkpoint, yes. \nThere have been attempt at undo history:\n\nhttps://github.com/ipython/ipython/pull/6779\n"
+  }
+]

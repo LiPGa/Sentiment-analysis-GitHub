@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/418504489",
+    "html_url": "https://github.com/ipython/ipython/issues/11262#issuecomment-418504489",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11262",
+    "id": 418504489,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxODUwNDQ4OQ==",
+    "user": {
+      "login": "andportnoy",
+      "id": 9360340,
+      "node_id": "MDQ6VXNlcjkzNjAzNDA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9360340?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andportnoy",
+      "html_url": "https://github.com/andportnoy",
+      "followers_url": "https://api.github.com/users/andportnoy/followers",
+      "following_url": "https://api.github.com/users/andportnoy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andportnoy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andportnoy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andportnoy/subscriptions",
+      "organizations_url": "https://api.github.com/users/andportnoy/orgs",
+      "repos_url": "https://api.github.com/users/andportnoy/repos",
+      "events_url": "https://api.github.com/users/andportnoy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andportnoy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-04T20:20:23Z",
+    "updated_at": "2018-09-04T20:20:31Z",
+    "author_association": "NONE",
+    "body": "@themightyoarfish This is a duplicate of #10627."
+  }
+]

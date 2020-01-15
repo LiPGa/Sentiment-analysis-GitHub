@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/66539555",
+    "html_url": "https://github.com/ipython/ipython/pull/7145#issuecomment-66539555",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/7145",
+    "id": 66539555,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY2NTM5NTU1",
+    "user": {
+      "login": "ssanderson",
+      "id": 1588357,
+      "node_id": "MDQ6VXNlcjE1ODgzNTc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1588357?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ssanderson",
+      "html_url": "https://github.com/ssanderson",
+      "followers_url": "https://api.github.com/users/ssanderson/followers",
+      "following_url": "https://api.github.com/users/ssanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ssanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ssanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ssanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/ssanderson/orgs",
+      "repos_url": "https://api.github.com/users/ssanderson/repos",
+      "events_url": "https://api.github.com/users/ssanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ssanderson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-10T22:50:30Z",
+    "updated_at": "2014-12-10T22:50:55Z",
+    "author_association": "MEMBER",
+    "body": "Sorry, I missed this ping earlier.  I appreciate the heads-up.\n\n> There's no reason to have the suffix to avoid collision, since it's not a language keyword.\n\nEven if it's not a language keyword, shadowing `type` inside the function will have unfortunate side-effects if you want to use the `type` builtin inside one of these functions.  You can always use `__builtin__.type` if you need it but that's a real reason to avoid doing this if possible.\n\nIn this case, however, I do agree that consistency with the model keys is probably more important.\n"
+  }
+]

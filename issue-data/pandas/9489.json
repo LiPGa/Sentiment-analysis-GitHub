@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/74442870",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9489#issuecomment-74442870",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9489",
+    "id": 74442870,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc0NDQyODcw",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-15T23:12:12Z",
+    "updated_at": "2015-02-15T23:12:12Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "There is logic in place to see if a UDF mutates the passed in frame. If it does not then the results of the groupby can be done in a different (faster) way.\n\nI think you might be throwing this off somehow.\n\nIn general, mutating inside of a groupby is not a good idea. Further it is not efficient at all.\n\nYou are welcome to debug if you want/can but would have to have a simple example.\n\nTry using `.filter()` then doing a groupby. or use non-nested groupbys.\n"
+  }
+]

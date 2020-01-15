@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/341392264",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18064#issuecomment-341392264",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18064",
+    "id": 341392264,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MTM5MjI2NA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-02T11:23:33Z",
+    "updated_at": "2017-11-02T11:23:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this fixes\r\n\r\n```\r\n(pandas) bash-3.2$ git diff\r\ndiff --git a/pandas/_libs/src/inference.pyx b/pandas/_libs/src/inference.pyx\r\nindex 5d550148b..7dcb94b14 100644\r\n--- a/pandas/_libs/src/inference.pyx\r\n+++ b/pandas/_libs/src/inference.pyx\r\n@@ -612,7 +612,7 @@ cdef class Validator:\r\n         self.dtype = dtype\r\n         self.skipna = skipna\r\n \r\n-    cdef bint validate(self, object[:] values) except -1:\r\n+    cdef bint validate(self, ndarray values) except -1:\r\n         if not self.n:\r\n             return False\r\n \r\n@@ -628,7 +628,7 @@ cdef class Validator:\r\n \r\n     @cython.wraparound(False)\r\n     @cython.boundscheck(False)\r\n-    cdef bint _validate(self, object[:] values) except -1:\r\n+    cdef bint _validate(self, ndarray values) except -1:\r\n         cdef:\r\n             Py_ssize_t i\r\n             Py_ssize_t n = self.n\r\n@@ -641,7 +641,7 @@ cdef class Validator:\r\n \r\n     @cython.wraparound(False)\r\n     @cython.boundscheck(False)\r\n-    cdef bint _validate_skipna(self, object[:] values) except -1:\r\n+    cdef bint _validate_skipna(self, ndarray values) except -1:\r\n         cdef:\r\n             Py_ssize_t i\r\n             Py_ssize_t n = self.n\r\n```"
+  }
+]

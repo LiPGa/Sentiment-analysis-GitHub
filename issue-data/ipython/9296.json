@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/192627959",
+    "html_url": "https://github.com/ipython/ipython/issues/9296#issuecomment-192627959",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9296",
+    "id": 192627959,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MjYyNzk1OQ==",
+    "user": {
+      "login": "remones",
+      "id": 4456014,
+      "node_id": "MDQ6VXNlcjQ0NTYwMTQ=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4456014?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/remones",
+      "html_url": "https://github.com/remones",
+      "followers_url": "https://api.github.com/users/remones/followers",
+      "following_url": "https://api.github.com/users/remones/following{/other_user}",
+      "gists_url": "https://api.github.com/users/remones/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/remones/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/remones/subscriptions",
+      "organizations_url": "https://api.github.com/users/remones/orgs",
+      "repos_url": "https://api.github.com/users/remones/repos",
+      "events_url": "https://api.github.com/users/remones/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/remones/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-05T12:14:02Z",
+    "updated_at": "2016-03-05T12:32:56Z",
+    "author_association": "NONE",
+    "body": "I wrote this code in a .py file, but the result is True.\nSo I learn more about \"interned\" of PyStringObject,  therefore I realized  this is a \nuseless issue, so close it.\n"
+  }
+]

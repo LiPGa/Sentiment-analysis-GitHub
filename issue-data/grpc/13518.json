@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/347637159",
+    "html_url": "https://github.com/grpc/grpc/issues/13518#issuecomment-347637159",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13518",
+    "id": 347637159,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0NzYzNzE1OQ==",
+    "user": {
+      "login": "vjpai",
+      "id": 8864912,
+      "node_id": "MDQ6VXNlcjg4NjQ5MTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8864912?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vjpai",
+      "html_url": "https://github.com/vjpai",
+      "followers_url": "https://api.github.com/users/vjpai/followers",
+      "following_url": "https://api.github.com/users/vjpai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vjpai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vjpai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vjpai/subscriptions",
+      "organizations_url": "https://api.github.com/users/vjpai/orgs",
+      "repos_url": "https://api.github.com/users/vjpai/repos",
+      "events_url": "https://api.github.com/users/vjpai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vjpai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-28T19:30:46Z",
+    "updated_at": "2017-11-28T19:33:16Z",
+    "author_association": "MEMBER",
+    "body": "Further investigation: cc_grpc_library only allows targets to depend on `grpc++` rather than `grpc++_unsecure` . Seeing if this is even needed as the purpose of cc_grpc_library is to generate classes from a proto file"
+  }
+]

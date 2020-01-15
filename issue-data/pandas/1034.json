@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5093306",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1034#issuecomment-5093306",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1034",
+    "id": 5093306,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwOTMzMDY=",
+    "user": {
+      "login": "yarikoptic",
+      "id": 39889,
+      "node_id": "MDQ6VXNlcjM5ODg5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yarikoptic",
+      "html_url": "https://github.com/yarikoptic",
+      "followers_url": "https://api.github.com/users/yarikoptic/followers",
+      "following_url": "https://api.github.com/users/yarikoptic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yarikoptic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yarikoptic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yarikoptic/subscriptions",
+      "organizations_url": "https://api.github.com/users/yarikoptic/orgs",
+      "repos_url": "https://api.github.com/users/yarikoptic/repos",
+      "events_url": "https://api.github.com/users/yarikoptic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yarikoptic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-12T15:19:36Z",
+    "updated_at": "2012-04-12T15:19:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "yeap -- tested with openpyxl 1.5.8 -- seems to work, so nothing to be done on pandas side I guess\nupdating openpyxl package in (Neuro)Debian\n"
+  }
+]

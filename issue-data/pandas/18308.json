@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/408632278",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/18308#issuecomment-408632278",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18308",
+    "id": 408632278,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwODYzMjI3OA==",
+    "user": {
+      "login": "mroeschke",
+      "id": 10647082,
+      "node_id": "MDQ6VXNlcjEwNjQ3MDgy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10647082?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mroeschke",
+      "html_url": "https://github.com/mroeschke",
+      "followers_url": "https://api.github.com/users/mroeschke/followers",
+      "following_url": "https://api.github.com/users/mroeschke/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mroeschke/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mroeschke/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mroeschke/subscriptions",
+      "organizations_url": "https://api.github.com/users/mroeschke/orgs",
+      "repos_url": "https://api.github.com/users/mroeschke/repos",
+      "events_url": "https://api.github.com/users/mroeschke/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mroeschke/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-28T20:13:45Z",
+    "updated_at": "2018-07-28T20:13:45Z",
+    "author_association": "MEMBER",
+    "body": "This looks fixed on master if anyone wants to put up a test:\r\n\r\n```\r\nIn [21]: pd.__version__\r\nOut[21]: '0.24.0.dev0+371.g0b7a08b70'\r\n\r\nIn [22]: start_date = pd.Timestamp('2017-09-27 00:00:00+0200', tz='Europe/Madrid')\r\n    ...: end_date = pd.Timestamp('2017-09-30 00:00:00+0100', tz='Europe/Madrid')\r\n    ...:\r\n    ...: df = pd.DataFrame(index=pd.date_range(start_date, end_date, closed='left', freq=\"10T\"), columns=['value'])\r\n    ...: df.index\r\n    ...:\r\n    ...: # set value for non existing index creates new row\r\n    ...: df.loc[pd.Timestamp('2016-10-10 03:00:00', tz='Europe/Madrid'), 'value'] = 12\r\n    ...:\r\n    ...:\r\n\r\nIn [23]: df.tail()\r\nOut[23]:\r\n                          value\r\n2017-09-30 00:20:00+02:00   NaN\r\n2017-09-30 00:30:00+02:00   NaN\r\n2017-09-30 00:40:00+02:00   NaN\r\n2017-09-30 00:50:00+02:00   NaN\r\n2016-10-10 03:00:00+02:00    12\r\n```"
+  }
+]

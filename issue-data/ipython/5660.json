@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/40770566",
+    "html_url": "https://github.com/ipython/ipython/issues/5660#issuecomment-40770566",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5660",
+    "id": 40770566,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNzcwNTY2",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-17T22:35:31Z",
+    "updated_at": "2014-04-17T22:35:31Z",
+    "author_association": "MEMBER",
+    "body": "GitPython [defines](https://gitorious.org/git-python/mainline/source/5eb7fd3f0dd99dc6c49da6fd7e78a392c4ef1b33:git/remote.py#L296) a `__getattr__` method, which is presumably where `url` is coming from. IPython can't introspect that without some help from the object. If the class defines a `__dir__` method returning a list of names, tab completion will use that. [Python docs](https://docs.python.org/3/reference/datamodel.html#object.__dir__).\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/472142110",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25692#issuecomment-472142110",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25692",
+    "id": 472142110,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MjE0MjExMA==",
+    "user": {
+      "login": "alexander-ponomaroff",
+      "id": 33966871,
+      "node_id": "MDQ6VXNlcjMzOTY2ODcx",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33966871?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexander-ponomaroff",
+      "html_url": "https://github.com/alexander-ponomaroff",
+      "followers_url": "https://api.github.com/users/alexander-ponomaroff/followers",
+      "following_url": "https://api.github.com/users/alexander-ponomaroff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexander-ponomaroff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexander-ponomaroff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexander-ponomaroff/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexander-ponomaroff/orgs",
+      "repos_url": "https://api.github.com/users/alexander-ponomaroff/repos",
+      "events_url": "https://api.github.com/users/alexander-ponomaroff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexander-ponomaroff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-12T19:12:13Z",
+    "updated_at": "2019-03-12T19:12:13Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Since I've already been working with this, I will also continue with this issue. I'll make a simple WIP PR right now and will continue working on it. I'm thinking of changing the simple dicts to OrderedDicts in the aggregation functions of groupby and writing some tests in order to test the ordering."
+  }
+]

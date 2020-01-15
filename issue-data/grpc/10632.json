@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/297549292",
+    "html_url": "https://github.com/grpc/grpc/issues/10632#issuecomment-297549292",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10632",
+    "id": 297549292,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NzU0OTI5Mg==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-26T21:39:57Z",
+    "updated_at": "2017-04-26T21:39:57Z",
+    "author_association": "MEMBER",
+    "body": "This sounds like a very valid feature request... in the wrong issue tracker. While you encountered the need for this while using gRPC, this appears to be more about Protocol Buffers. Please refile your request [over there](https://github.com/google/protobuf/issues)?\r\n\r\nI apologize for the reroute. Also consider including sample code in your report?"
+  }
+]

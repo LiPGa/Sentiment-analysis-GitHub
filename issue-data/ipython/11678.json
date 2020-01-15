@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/480727104",
+    "html_url": "https://github.com/ipython/ipython/issues/11678#issuecomment-480727104",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11678",
+    "id": 480727104,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDcyNzEwNA==",
+    "user": {
+      "login": "keisuke-yanagisawa",
+      "id": 6902135,
+      "node_id": "MDQ6VXNlcjY5MDIxMzU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6902135?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/keisuke-yanagisawa",
+      "html_url": "https://github.com/keisuke-yanagisawa",
+      "followers_url": "https://api.github.com/users/keisuke-yanagisawa/followers",
+      "following_url": "https://api.github.com/users/keisuke-yanagisawa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/keisuke-yanagisawa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/keisuke-yanagisawa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/keisuke-yanagisawa/subscriptions",
+      "organizations_url": "https://api.github.com/users/keisuke-yanagisawa/orgs",
+      "repos_url": "https://api.github.com/users/keisuke-yanagisawa/repos",
+      "events_url": "https://api.github.com/users/keisuke-yanagisawa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/keisuke-yanagisawa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-08T08:02:04Z",
+    "updated_at": "2019-04-08T08:02:04Z",
+    "author_association": "NONE",
+    "body": "Now we found `vers=3` in `/etc/fstab` is probably the cause. Is there any way to avoid the problem without modification of `/etc/fstab`? (Because I do not have permission...)"
+  }
+]

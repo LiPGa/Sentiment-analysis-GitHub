@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/284639338",
+    "html_url": "https://github.com/grpc/grpc/issues/9999#issuecomment-284639338",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9999",
+    "id": 284639338,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NDYzOTMzOA==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-03-07T07:03:02Z",
+    "updated_at": "2017-03-07T07:03:02Z",
+    "author_association": "MEMBER",
+    "body": "Prefer dropping in a grpc-message into the generated error to expanding\ngrpc_error_get_status: error generation is on the slow path, turning an\nerror into a status is on the fast path.\n\nOn Mon, Mar 6, 2017, 2:52 PM Yang Gao <notifications@github.com> wrote:\n\n> Currently the user only see \"OS Error\" while we have error details about\n> the call and error details. This might require some change in\n> grpc_error_get_status.\n>\n> —\n> You are receiving this because you are subscribed to this thread.\n> Reply to this email directly, view it on GitHub\n> <https://github.com/grpc/grpc/issues/9999>, or mute the thread\n> <https://github.com/notifications/unsubscribe-auth/AJpudXKzQ8-HuOqAkrAz86k7CKZoGYyIks5rjI4vgaJpZM4MUzmm>\n> .\n>\n"
+  }
+]

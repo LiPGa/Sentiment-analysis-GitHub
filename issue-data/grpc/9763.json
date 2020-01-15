@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/280719450",
+    "html_url": "https://github.com/grpc/grpc/pull/9763#issuecomment-280719450",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9763",
+    "id": 280719450,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MDcxOTQ1MA==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-17T17:50:29Z",
+    "updated_at": "2017-02-17T17:50:29Z",
+    "author_association": "MEMBER",
+    "body": "Looks good, though I would lean heavily to just dropping grpc_completion_queue_create now and biting the bullet on doing an API transition."
+  }
+]

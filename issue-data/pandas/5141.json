@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/25811653",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5141#issuecomment-25811653",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5141",
+    "id": 25811653,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1ODExNjUz",
+    "user": {
+      "login": "yarikoptic",
+      "id": 39889,
+      "node_id": "MDQ6VXNlcjM5ODg5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yarikoptic",
+      "html_url": "https://github.com/yarikoptic",
+      "followers_url": "https://api.github.com/users/yarikoptic/followers",
+      "following_url": "https://api.github.com/users/yarikoptic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yarikoptic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yarikoptic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yarikoptic/subscriptions",
+      "organizations_url": "https://api.github.com/users/yarikoptic/orgs",
+      "repos_url": "https://api.github.com/users/yarikoptic/repos",
+      "events_url": "https://api.github.com/users/yarikoptic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yarikoptic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-10-07T14:16:30Z",
+    "updated_at": "2013-10-07T14:16:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "FWIW -- the same with pyhon3.2 in wheezy\nhttp://nipy.bic.berkeley.edu/builders/pandas-py3.x-wheezy-sparc/builds/168/steps/shell_4/logs/stdio\n"
+  }
+]

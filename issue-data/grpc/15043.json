@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/389352346",
+    "html_url": "https://github.com/grpc/grpc/issues/15043#issuecomment-389352346",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15043",
+    "id": 389352346,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTM1MjM0Ng==",
+    "user": {
+      "login": "vjpai",
+      "id": 8864912,
+      "node_id": "MDQ6VXNlcjg4NjQ5MTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8864912?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vjpai",
+      "html_url": "https://github.com/vjpai",
+      "followers_url": "https://api.github.com/users/vjpai/followers",
+      "following_url": "https://api.github.com/users/vjpai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vjpai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vjpai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vjpai/subscriptions",
+      "organizations_url": "https://api.github.com/users/vjpai/orgs",
+      "repos_url": "https://api.github.com/users/vjpai/repos",
+      "events_url": "https://api.github.com/users/vjpai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vjpai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-16T00:03:25Z",
+    "updated_at": "2018-05-16T00:03:25Z",
+    "author_association": "MEMBER",
+    "body": "This style of service design may be inadvisable; we generally recommend the use of a small number of methods per service, ideally just 1 method type per service. But I don't know of a specific style guide recommendation for this. I'm closing it since workarounds exist.\r\n\r\n"
+  }
+]

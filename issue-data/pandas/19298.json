@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/403999783",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19298#issuecomment-403999783",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19298",
+    "id": 403999783,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMzk5OTc4Mw==",
+    "user": {
+      "login": "tliu30",
+      "id": 1294416,
+      "node_id": "MDQ6VXNlcjEyOTQ0MTY=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1294416?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tliu30",
+      "html_url": "https://github.com/tliu30",
+      "followers_url": "https://api.github.com/users/tliu30/followers",
+      "following_url": "https://api.github.com/users/tliu30/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tliu30/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tliu30/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tliu30/subscriptions",
+      "organizations_url": "https://api.github.com/users/tliu30/orgs",
+      "repos_url": "https://api.github.com/users/tliu30/repos",
+      "events_url": "https://api.github.com/users/tliu30/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tliu30/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-10T23:43:13Z",
+    "updated_at": "2018-07-10T23:43:13Z",
+    "author_association": "NONE",
+    "body": "Hi! Would love to make this a reality...\r\n\r\nI took a first look at how this could work for `diff` for Series, and it seems pretty simple (will attach a possible solution in a pull request shortly).\r\n\r\nFor DataFrames...\r\n* when `axis=0` i think we can get away with the same hack (also in pull request)\r\n* when `axis=1`...maybe we just don't allow them to use multiple periods if `axis=1`?\r\n\r\n(for shift, could apply a similar if-else block for `pandas.core.generic.NDFrame.shift`)"
+  }
+]

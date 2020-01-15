@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/449485220",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24389#issuecomment-449485220",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24389",
+    "id": 449485220,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0OTQ4NTIyMA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-21T20:01:32Z",
+    "updated_at": "2018-12-21T20:01:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Whoops, my Out[5] was on the wrong branch. On master it matches from_records, which makes my life in #24387 harder.\r\n\r\n```python\r\n\r\nIn [9]: pd.DataFrame(columns=['a', 'a', 'b'])\r\nOut[9]:\r\nEmpty DataFrame\r\nColumns: [a, a, b]\r\nIndex: []\r\n```"
+  }
+]

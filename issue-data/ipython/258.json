@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/735400",
+    "html_url": "https://github.com/ipython/ipython/issues/258#issuecomment-735400",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/258",
+    "id": 735400,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDczNTQwMA==",
+    "user": {
+      "login": "gazzar",
+      "id": 131836,
+      "node_id": "MDQ6VXNlcjEzMTgzNg==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/131836?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gazzar",
+      "html_url": "https://github.com/gazzar",
+      "followers_url": "https://api.github.com/users/gazzar/followers",
+      "following_url": "https://api.github.com/users/gazzar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gazzar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gazzar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gazzar/subscriptions",
+      "organizations_url": "https://api.github.com/users/gazzar/orgs",
+      "repos_url": "https://api.github.com/users/gazzar/repos",
+      "events_url": "https://api.github.com/users/gazzar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gazzar/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-02-03T10:54:58Z",
+    "updated_at": "2011-02-03T10:54:58Z",
+    "author_association": "NONE",
+    "body": "This is a dupe of (wishlist) issue 257\n"
+  }
+]

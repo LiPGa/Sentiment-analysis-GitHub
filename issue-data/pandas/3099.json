@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/15196066",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/3099#issuecomment-15196066",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/3099",
+    "id": 15196066,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MTk2MDY2",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-03-20T18:55:28Z",
+    "updated_at": "2013-03-20T18:55:28Z",
+    "author_association": "NONE",
+    "body": "fixed via 64f35e8c.\nfyi @jreback \n- edit setup.py, uncomment BUILD_CACHE_DIR at top\n- create the dir\n- run tox / prll_tox.sh\n- first run will warm up the cache\n- subsequent runs will skip the cython/compile step \n\nmuch faster then using travis on my quad core.\n"
+  }
+]

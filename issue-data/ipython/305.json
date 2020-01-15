@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/917984",
+    "html_url": "https://github.com/ipython/ipython/issues/305#issuecomment-917984",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/305",
+    "id": 917984,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkxNzk4NA==",
+    "user": {
+      "login": "epatters",
+      "id": 316610,
+      "node_id": "MDQ6VXNlcjMxNjYxMA==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/316610?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/epatters",
+      "html_url": "https://github.com/epatters",
+      "followers_url": "https://api.github.com/users/epatters/followers",
+      "following_url": "https://api.github.com/users/epatters/following{/other_user}",
+      "gists_url": "https://api.github.com/users/epatters/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/epatters/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/epatters/subscriptions",
+      "organizations_url": "https://api.github.com/users/epatters/orgs",
+      "repos_url": "https://api.github.com/users/epatters/repos",
+      "events_url": "https://api.github.com/users/epatters/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/epatters/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-03-25T18:01:33Z",
+    "updated_at": "2011-03-25T18:01:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Added Ctrl+H and Ctrl+U shortcuts to Qt console.\n\nClosed by c1f30b6c64f358c6be172e360a8c3a7de7c366cd.\n"
+  }
+]

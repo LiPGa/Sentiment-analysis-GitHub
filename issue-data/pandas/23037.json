@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/427833949",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23037#issuecomment-427833949",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23037",
+    "id": 427833949,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNzgzMzk0OQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-08T13:31:40Z",
+    "updated_at": "2018-10-08T13:31:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I think the issue is in the DataFrame constructor?\r\n\r\n```python\r\nIn [48]: df1.dtypes\r\nOut[48]:\r\n0    datetime64[ns]\r\ndtype: object\r\n\r\n```\r\n\r\nThat said, there's no way for the constructor to infer `datetime64[ns, UTC]` as the correct dtype. You would need `df1 = pd.DataFrame([[ts1]], dtype='datetime64[ns, UTC]')`\r\n\r\n"
+  }
+]

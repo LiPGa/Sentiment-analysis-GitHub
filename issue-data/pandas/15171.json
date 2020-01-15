@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/273895470",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15171#issuecomment-273895470",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15171",
+    "id": 273895470,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3Mzg5NTQ3MA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-19T20:54:14Z",
+    "updated_at": "2017-01-19T20:54:14Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "``Decimal`` in general are not very well supported as a dtype; they are purely ``object`` dtype, and thus pretty second-class. This would take some effort to even support inference at display time.  So if you want to propose a patch, by all means, but in this would take a champion to provide anything more than trivial support.\r\n\r\nFurthermore ``Decimal`` is completely non-performant, so generally using this is not recommeded. I get that there are *some* cases where this is necessary, so as I say, patches are welcome."
+  }
+]

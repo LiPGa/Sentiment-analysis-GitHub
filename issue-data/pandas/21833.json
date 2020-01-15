@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/403563959",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21833#issuecomment-403563959",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21833",
+    "id": 403563959,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMzU2Mzk1OQ==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-09T17:50:28Z",
+    "updated_at": "2018-07-09T17:50:28Z",
+    "author_association": "MEMBER",
+    "body": "I couldn't reproduce your original issue so I'm guessing you may be on an older version. Please upgrade to the latest release and try again. If that doesn't work feel free to re-open and provide `pd.show_versions()` as outlined in the contributing guide:\r\n\r\nhttps://pandas.pydata.org/pandas-docs/stable/contributing.html#bug-reports-and-enhancement-requests"
+  }
+]

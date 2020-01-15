@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/29565573",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/5626#issuecomment-29565573",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5626",
+    "id": 29565573,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NTY1NTcz",
+    "user": {
+      "login": "jtratner",
+      "id": 1598379,
+      "node_id": "MDQ6VXNlcjE1OTgzNzk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1598379?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtratner",
+      "html_url": "https://github.com/jtratner",
+      "followers_url": "https://api.github.com/users/jtratner/followers",
+      "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtratner/orgs",
+      "repos_url": "https://api.github.com/users/jtratner/repos",
+      "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtratner/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-12-01T01:59:28Z",
+    "updated_at": "2013-12-01T01:59:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@changhiskhan can we bump the 0.13rc version post-this-commit? Otherwise test suite is going to segfault on certain systems (possibly many versions of OS X?)\n"
+  }
+]

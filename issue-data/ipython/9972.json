@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/250959723",
+    "html_url": "https://github.com/ipython/ipython/issues/9972#issuecomment-250959723",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9972",
+    "id": 250959723,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MDk1OTcyMw==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-02T08:18:31Z",
+    "updated_at": "2016-10-02T08:18:31Z",
+    "author_association": "MEMBER",
+    "body": "I'm inclined to say that's a bug in the [pathlib2 backport](https://github.com/mcmtroffaes/pathlib2). Paths on Windows are natively unicode, so it should be valid to pass in a unicode string for a path.\n\nIn general, if you're using unicode paths on Windows, we strongly recommend using Python 3.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/298213336",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16175#issuecomment-298213336",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16175",
+    "id": 298213336,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5ODIxMzMzNg==",
+    "user": {
+      "login": "shoyer",
+      "id": 1217238,
+      "node_id": "MDQ6VXNlcjEyMTcyMzg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1217238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shoyer",
+      "html_url": "https://github.com/shoyer",
+      "followers_url": "https://api.github.com/users/shoyer/followers",
+      "following_url": "https://api.github.com/users/shoyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shoyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shoyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shoyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/shoyer/orgs",
+      "repos_url": "https://api.github.com/users/shoyer/repos",
+      "events_url": "https://api.github.com/users/shoyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shoyer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-30T05:58:26Z",
+    "updated_at": "2017-04-30T05:58:26Z",
+    "author_association": "MEMBER",
+    "body": "I'm sorry, but this is too niche / domain specific for pandas. Try [geopandas](https://github.com/geopandas/geopandas)?\r\n\r\nAlso, consider just using `reindex` with the `method='nearest'` and setting `tolerance`: http://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.reindex.html#pandas.Series.reindex"
+  }
+]

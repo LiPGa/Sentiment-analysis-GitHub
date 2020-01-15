@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/305196559",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/13412#issuecomment-305196559",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/13412",
+    "id": 305196559,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNTE5NjU1OQ==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-31T14:03:46Z",
+    "updated_at": "2017-05-31T14:04:05Z",
+    "author_association": "MEMBER",
+    "body": "Can you link to an example map on the resource center that has this problem?  It's not clear from the description exactly what you mean.\r\n\r\nWhen creating a map with destroyed bridges you must use the special \"destroyed bridge\" water tiles to connect them.  If you use regular water tiles then the bridge will not be repairable."
+  }
+]

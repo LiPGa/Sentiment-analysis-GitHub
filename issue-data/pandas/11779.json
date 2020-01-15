@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/162486355",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/11779#issuecomment-162486355",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/11779",
+    "id": 162486355,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MjQ4NjM1NQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-12-07T11:11:04Z",
+    "updated_at": "2015-12-07T11:11:04Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "merged via https://github.com/pydata/pandas/commit/4fbf5e51f920dd1019360495e7eecd94016a7a9d\n\nthanks!\n"
+  }
+]

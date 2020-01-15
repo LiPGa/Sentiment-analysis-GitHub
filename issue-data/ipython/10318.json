@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/281754780",
+    "html_url": "https://github.com/ipython/ipython/pull/10318#issuecomment-281754780",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10318",
+    "id": 281754780,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MTc1NDc4MA==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-22T18:17:49Z",
+    "updated_at": "2017-02-22T18:17:49Z",
+    "author_association": "MEMBER",
+    "body": "> I'd like to find a way to exclude all standard library modules from deepreload(), but I don't know of a good way to check if something's in the stdlib.\r\n\r\nThere isn't. And AFAICT Core python does not see any interest in doing it. We _could_ check early-python-modules that have the specific file `_bootstrap_external_something`.\r\n\r\nI've looked as to where the `NotImplementedError` but that's too far down in CPython, I I don't understand the real reason why it hits this spot. And `exclude` does not work, because it work on module names, and the current code fails when trying to get the modulename (via find_spec), so it does not have a chance to exclude it... \r\n\r\nI honestly think it might be a Bug in CPython itself. But it would be nice to even have a band-aid potentially opening an issue to investigate later. "
+  }
+]

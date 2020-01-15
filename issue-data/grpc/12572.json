@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/329529047",
+    "html_url": "https://github.com/grpc/grpc/pull/12572#issuecomment-329529047",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12572",
+    "id": 329529047,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyOTUyOTA0Nw==",
+    "user": {
+      "login": "vjpai",
+      "id": 8864912,
+      "node_id": "MDQ6VXNlcjg4NjQ5MTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8864912?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vjpai",
+      "html_url": "https://github.com/vjpai",
+      "followers_url": "https://api.github.com/users/vjpai/followers",
+      "following_url": "https://api.github.com/users/vjpai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vjpai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vjpai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vjpai/subscriptions",
+      "organizations_url": "https://api.github.com/users/vjpai/orgs",
+      "repos_url": "https://api.github.com/users/vjpai/repos",
+      "events_url": "https://api.github.com/users/vjpai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vjpai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-14T16:01:33Z",
+    "updated_at": "2017-09-14T16:01:33Z",
+    "author_association": "MEMBER",
+    "body": "Ok, template metaprogramming gone bad. Will check this out.\r\n"
+  }
+]

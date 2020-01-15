@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/143266088",
+    "html_url": "https://github.com/ipython/ipython/pull/8834#issuecomment-143266088",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8834",
+    "id": 143266088,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0MzI2NjA4OA==",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-25T16:17:02Z",
+    "updated_at": "2015-09-25T16:17:02Z",
+    "author_association": "MEMBER",
+    "body": "> One outstanding question: if the user requests the \"qt\" GUI, should that be allowed to import Qt5 if Qt4 is not available? \n\nIt seems like picking up Qt5 if it's there makes sense.\n"
+  }
+]

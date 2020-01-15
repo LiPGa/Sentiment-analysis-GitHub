@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/15840475",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/3249#issuecomment-15840475",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/3249",
+    "id": 15840475,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1ODQwNDc1",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-04-03T14:39:53Z",
+    "updated_at": "2013-04-03T14:39:53Z",
+    "author_association": "NONE",
+    "body": "That seems like reasonable behvaior to me, you got what you asked for....\n\nThe behavior you asked about is doable like so:\n\n``` python\nIn [35]: s=StringIO(\"\"\"indexcol, anothercol, yetanothercol\n    ...: 1, 'first', 1\n    ...: 1, 'second', 3\n    ...: 1, 'third', 3\n    ...: 2, 1, 2\"\"\")\n    ...: pd.read_csv(s).drop_duplicates('indexcol',take_last=False).set_index('indexcol')\nOut[35]: \n          anothercol   yetanothercol\nindexcol                            \n1            'first'               1\n2                  1               2\n\nIn [36]: s=StringIO(\"\"\"indexcol, anothercol, yetanothercol\n    ...: 1, 'first', 1\n    ...: 1, 'second', 3\n    ...: 1, 'third', 3\n    ...: 2, 1, 2\"\"\")\n    ...: pd.read_csv(s).drop_duplicates('indexcol',take_last=True).set_index('indexcol')\nOut[36]: \n          anothercol   yetanothercol\nindexcol                            \n1            'third'               3\n2                  1               2\n```\n\nPlease close if that solves your problem.\n"
+  }
+]

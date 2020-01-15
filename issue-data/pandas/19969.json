@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/370047011",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/19969#issuecomment-370047011",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/19969",
+    "id": 370047011,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3MDA0NzAxMQ==",
+    "user": {
+      "login": "gfyoung",
+      "id": 9273653,
+      "node_id": "MDQ6VXNlcjkyNzM2NTM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9273653?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gfyoung",
+      "html_url": "https://github.com/gfyoung",
+      "followers_url": "https://api.github.com/users/gfyoung/followers",
+      "following_url": "https://api.github.com/users/gfyoung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gfyoung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gfyoung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gfyoung/subscriptions",
+      "organizations_url": "https://api.github.com/users/gfyoung/orgs",
+      "repos_url": "https://api.github.com/users/gfyoung/repos",
+      "events_url": "https://api.github.com/users/gfyoung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gfyoung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-03-02T20:44:05Z",
+    "updated_at": "2018-03-02T20:44:05Z",
+    "author_association": "MEMBER",
+    "body": "@frior2 : Thanks for submitting this.  I'm a little confused what you're trying to do, given that you don't have actual code to provide.  Could you provide code to setup the `DataFrame` you're trying to write?"
+  }
+]

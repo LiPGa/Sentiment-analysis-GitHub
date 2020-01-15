@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/205477472",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11045#issuecomment-205477472",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11045",
+    "id": 205477472,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNTQ3NzQ3Mg==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-04T20:19:03Z",
+    "updated_at": "2016-04-04T20:19:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'm gonna go out on a limb here and blame 82f23210d99b20caa0e815bf1608e8e8692951a2 from #10972.\n"
+  }
+]

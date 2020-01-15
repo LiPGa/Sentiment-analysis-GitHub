@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/12279324",
+    "html_url": "https://github.com/ipython/ipython/issues/2794#issuecomment-12279324",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2794",
+    "id": 12279324,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMjc5MzI0",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-15T17:38:23Z",
+    "updated_at": "2013-01-15T17:38:23Z",
+    "author_association": "MEMBER",
+    "body": "OS X:\n\n``` python\nIn [3]: os.system(\"true\")\nOut[3]: 0\n\nIn [4]: Popen(\"true\", shell=True).wait()\nOut[4]: 0\n\nIn [5]: os.system(\"false\")\nOut[5]: 256\n\nIn [6]: Popen(\"false\", shell=True).wait()\nOut[6]: 1\n\nIn [7]: os.system(\"notfound\")\nsh: notfound: command not found\nOut[7]: 32512\n\nIn [8]: Popen(\"notfound\", shell=True).wait()\n/bin/sh: notfound: command not found\nOut[8]: 127\n```\n\nWhich suggests what you have described elsewhere - the return of os.system is 256 \\* returncode\n"
+  }
+]

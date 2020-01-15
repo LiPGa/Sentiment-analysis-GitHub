@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/212645467",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12937#issuecomment-212645467",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12937",
+    "id": 212645467,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxMjY0NTQ2Nw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-20T23:02:53Z",
+    "updated_at": "2016-04-20T23:02:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is not a bug, but the limits of float precision. Not sure how you can exactly match a label. So with a float index you must use a slice, or  you can do something like this to specify precision (this works at the default, just showing how)\n\n```\nIn [18]: df.reindex([139.075],method='nearest',tolerance=.0001)\nOut[18]: \n            noise\n139.075  0.604928\n```\n\nI suppose you could have a doc-update [here](http://pandas.pydata.org/pandas-docs/stable/advanced.html#float64index) to show an example of how to do this\n\nthis will also be addressed at some point by: https://github.com/pydata/pandas/issues/9817\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/394420712",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21311#issuecomment-394420712",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21311",
+    "id": 394420712,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDQyMDcxMg==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-04T16:40:54Z",
+    "updated_at": "2018-06-04T16:40:54Z",
+    "author_association": "MEMBER",
+    "body": "xref https://github.com/pandas-dev/pandas/pull/21254#discussion_r191658787\r\n\r\nMeant to create an issue similar to this for the `Categorical` --> `Interval` case:\r\n```python\r\nIn [2]: cat = pd.Categorical([pd.Interval(0, 1), pd.Interval(1, 2), pd.Interval(0, 1)])\r\n\r\nIn [3]: pd.Index(cat, dtype='interval')\r\nOut[3]: CategoricalIndex([(0, 1], (1, 2], (0, 1]], categories=[(0, 1], (1, 2]], ordered=False, dtype='category')\r\n```\r\n\r\nThis happens because the `Index` code is structured so that categorical takes precedence over interval:\r\nhttps://github.com/pandas-dev/pandas/blob/c85ab083919b59ce84c220d5baf7d34ff4a0bcf2/pandas/core/indexes/base.py#L262-L273\r\n\r\nThe code above could be restructured so that the `dtype` argument, if present, takes precedence over the type of `data`.\r\n\r\nNot immediately sure what the fix for other scenarios entails, as `Categorical` and `Interval` are a bit of a special case."
+  }
+]

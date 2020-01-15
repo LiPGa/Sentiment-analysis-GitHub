@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/307362204",
+    "html_url": "https://github.com/grpc/grpc/issues/11328#issuecomment-307362204",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/11328",
+    "id": 307362204,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNzM2MjIwNA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-09T11:12:18Z",
+    "updated_at": "2017-06-09T11:12:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "What you are seeing is basically a Visual Studio debugger feature - any exception being thrown in the application is noticed by VS as a \"first-chance exception\". \r\nSee https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/07/understanding-exceptions-while-debugging-with-visual-studio/.\r\nWhen you run the app stand-alone without VS, you won't see these messages being printed.\r\n\r\nA bit more detail: These exceptions are actually being thrown in the code as part of https://github.com/grpc/grpc/pull/11021/files, but they are expected & handled properly. It's really just a VS feature that they get printed."
+  }
+]

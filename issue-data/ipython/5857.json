@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/43363589",
+    "html_url": "https://github.com/ipython/ipython/issues/5857#issuecomment-43363589",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5857",
+    "id": 43363589,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMzYzNTg5",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-05-16T18:25:07Z",
+    "updated_at": "2014-05-16T18:25:07Z",
+    "author_association": "MEMBER",
+    "body": "The relevant issues:\n- The kernel relies on the context of an execute_request to forward raw_input to the requesting frontend.\n- Arguments like `-m` are just forwarded to the kernel, and ignored by the qtconsole.\n- Therefore, the kernel executes the script without the usual parent_header, forwarded input context, so it doesn't send raw_input to the frontend.\n\nI think the fix for this would be for frontends to intercept and interpret `-m` and `script.py` arguments, and send them to the kernel as execute requests, rather than letting the kernels run them at startup.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/35933829",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/6464#issuecomment-35933829",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6464",
+    "id": 35933829,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1OTMzODI5",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-02-24T20:44:33Z",
+    "updated_at": "2014-02-24T20:44:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "works on master; I do recall fixing this recently.\n\nIn the future, pls supply an easily creatable example that can but cut and pasted\n\nas well as your pandas/numpy versions.\n\nthanks for the reports\n\n```\nIn [10]: index = MultiIndex.from_tuples([('bar','one',1),('bar','two',1),('baz','one',1),('baz','three',2)],names=['first','seconds','third'])\n\nIn [11]: df = DataFrame(np.arange(16).reshape(4,4),index=index,columns=list('ABCD'))\n\nIn [12]: df\nOut[12]: \n                      A   B   C   D\nfirst seconds third                \nbar   one     1       0   1   2   3\n      two     1       4   5   6   7\nbaz   one     1       8   9  10  11\n      three   2      12  13  14  15\n\n[4 rows x 4 columns]\n\nIn [13]: df.xs('one', level=1)\nOut[13]: \n             A  B   C   D\nfirst third              \nbar   1      0  1   2   3\nbaz   1      8  9  10  11\n\n[2 rows x 4 columns]\n\nIn [14]: df[['A']].xs('one', level=1)\nOut[14]: \n             A\nfirst third   \nbar   1      0\nbaz   1      8\n\n[2 rows x 1 columns]\n\nIn [15]: df['A'].xs('one', level=1)\nOut[15]: \nfirst  third\nbar    1        0\nbaz    1        8\nName: A, dtype: int64\n\n```\n"
+  }
+]

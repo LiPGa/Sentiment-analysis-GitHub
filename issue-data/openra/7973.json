@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/94167592",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7973#issuecomment-94167592",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7973",
+    "id": 94167592,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk0MTY3NTky",
+    "user": {
+      "login": "Mailaender",
+      "id": 756669,
+      "node_id": "MDQ6VXNlcjc1NjY2OQ==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/756669?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mailaender",
+      "html_url": "https://github.com/Mailaender",
+      "followers_url": "https://api.github.com/users/Mailaender/followers",
+      "following_url": "https://api.github.com/users/Mailaender/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mailaender/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mailaender/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mailaender/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mailaender/orgs",
+      "repos_url": "https://api.github.com/users/Mailaender/repos",
+      "events_url": "https://api.github.com/users/Mailaender/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mailaender/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-18T14:18:09Z",
+    "updated_at": "2015-04-18T14:18:21Z",
+    "author_association": "MEMBER",
+    "body": "The correct fix would be to remove the temperat trees and replace them with desert ones in those maps. We already fixed the editor in https://github.com/OpenRA/OpenRA/pull/5372.\n"
+  }
+]

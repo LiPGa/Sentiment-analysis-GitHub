@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/318172186",
+    "html_url": "https://github.com/grpc/grpc/issues/6835#issuecomment-318172186",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6835",
+    "id": 318172186,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxODE3MjE4Ng==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-26T20:26:30Z",
+    "updated_at": "2017-07-26T20:26:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This problem seems to be fixed with the latest grpc-ruby-protoc plugins (tried a few `grpc-tools` packages with a `version >= 1.0.0`).\r\n\r\nAs in the example above, \r\nused a `message.proto` that looks like:\r\n\r\n```\r\nsyntax = \"proto3\";\r\n \r\npackage razzleberry.messages;\r\n\r\nmessage MemberId {\r\n      string id = 1;\r\n}\r\n```\r\n\r\nand a `service.proto` that looks like:\r\n\r\n```\r\nsyntax = \"proto3\";\r\n\r\npackage razzleberry.services;\r\n\r\nimport \"message.proto\";\r\n\r\nservice Claims {\r\n      rpc GetSummaryListFor(razzleberry.messages.MemberId) returns (razzleberry.messages.MemberId {}\r\n}\r\n```\r\n\r\ncompiled with: `grpc_tools_ruby_protoc -I . --ruby_out=repro_lib --grpc_out=repro_lib message.proto service.proto`\r\n\r\nand the resulting `repro_lib/services_services_pb.rb` contains:\r\n\r\n```\r\nrpc :GetSummaryListFor, Razzleberry::Messages::MemberId, Razzleberry::Messages::MemberId\r\n```\r\n\r\nPlease reopen if you're still seeing this issue recent `grpc-tools` packages."
+  }
+]

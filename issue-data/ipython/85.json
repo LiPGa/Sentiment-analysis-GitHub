@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/233795859",
+    "html_url": "https://github.com/ipython/ipython/issues/85#issuecomment-233795859",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/85",
+    "id": 233795859,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMzc5NTg1OQ==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-19T23:22:29Z",
+    "updated_at": "2016-07-19T23:22:29Z",
+    "author_association": "MEMBER",
+    "body": "This is available in the notebook with Shift-Tab. There is a general consensus that completion and introspection should kind-of be merged, even in the terminal. \n\nI doubt this issue with be taken care of directly, and it is 1/2 a decade old, so I'm going to close it. \n\nPlease open a new issue is needed. \n\nThanks. \n"
+  }
+]

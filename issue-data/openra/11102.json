@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/208520715",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/11102#issuecomment-208520715",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11102",
+    "id": 208520715,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwODUyMDcxNQ==",
+    "user": {
+      "login": "GraionDilach",
+      "id": 1136302,
+      "node_id": "MDQ6VXNlcjExMzYzMDI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1136302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GraionDilach",
+      "html_url": "https://github.com/GraionDilach",
+      "followers_url": "https://api.github.com/users/GraionDilach/followers",
+      "following_url": "https://api.github.com/users/GraionDilach/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GraionDilach/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GraionDilach/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GraionDilach/subscriptions",
+      "organizations_url": "https://api.github.com/users/GraionDilach/orgs",
+      "repos_url": "https://api.github.com/users/GraionDilach/repos",
+      "events_url": "https://api.github.com/users/GraionDilach/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GraionDilach/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-11T19:38:23Z",
+    "updated_at": "2016-04-11T19:38:23Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "That doesn't solve anything at all itself. The original request was to make them work like in Generals and beyond C&Cs, to have an option for these to be only heard by their owner **alone** which you guys decided should be prerequisited with the whole Stance enum being expanded beforehand.\n"
+  }
+]

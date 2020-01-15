@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/427735521",
+    "html_url": "https://github.com/grpc/grpc/issues/16799#issuecomment-427735521",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16799",
+    "id": 427735521,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNzczNTUyMQ==",
+    "user": {
+      "login": "lucifercr07",
+      "id": 13472823,
+      "node_id": "MDQ6VXNlcjEzNDcyODIz",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13472823?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lucifercr07",
+      "html_url": "https://github.com/lucifercr07",
+      "followers_url": "https://api.github.com/users/lucifercr07/followers",
+      "following_url": "https://api.github.com/users/lucifercr07/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lucifercr07/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lucifercr07/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lucifercr07/subscriptions",
+      "organizations_url": "https://api.github.com/users/lucifercr07/orgs",
+      "repos_url": "https://api.github.com/users/lucifercr07/repos",
+      "events_url": "https://api.github.com/users/lucifercr07/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lucifercr07/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-08T06:50:49Z",
+    "updated_at": "2018-10-08T06:50:49Z",
+    "author_association": "NONE",
+    "body": "Was able to have a workaround by removing `-Werror` from MakeFile line 330"
+  }
+]

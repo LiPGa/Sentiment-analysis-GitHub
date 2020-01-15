@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/336026014",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/17848#issuecomment-336026014",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17848",
+    "id": 336026014,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzNjAyNjAxNA==",
+    "user": {
+      "login": "pep8speaks",
+      "id": 24736507,
+      "node_id": "MDQ6VXNlcjI0NzM2NTA3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24736507?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pep8speaks",
+      "html_url": "https://github.com/pep8speaks",
+      "followers_url": "https://api.github.com/users/pep8speaks/followers",
+      "following_url": "https://api.github.com/users/pep8speaks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pep8speaks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pep8speaks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pep8speaks/subscriptions",
+      "organizations_url": "https://api.github.com/users/pep8speaks/orgs",
+      "repos_url": "https://api.github.com/users/pep8speaks/repos",
+      "events_url": "https://api.github.com/users/pep8speaks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pep8speaks/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-12T05:38:07Z",
+    "updated_at": "2017-10-12T05:45:48Z",
+    "author_association": "NONE",
+    "body": "Hello @gloryfromca! Thanks for updating the PR.\n\n\n\n - In the file [`pandas/tests/series/test_indexing.py`](https://github.com/pandas-dev/pandas/blob/528d2046262534b442a8b3aec5017357d8b679b0/pandas/tests/series/test_indexing.py), following are the PEP8 issues :\n\n> [Line 562:1](https://github.com/pandas-dev/pandas/blob/528d2046262534b442a8b3aec5017357d8b679b0/pandas/tests/series/test_indexing.py#L562): [W293](https://duckduckgo.com/?q=pep8%20W293) blank line contains whitespace\n\n\n\n##### Comment last updated on October 12, 2017 at 05:45 Hours UTC"
+  }
+]

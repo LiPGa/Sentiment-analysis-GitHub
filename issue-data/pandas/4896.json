@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/191383692",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4896#issuecomment-191383692",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4896",
+    "id": 191383692,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MTM4MzY5Mg==",
+    "user": {
+      "login": "kokes",
+      "id": 8451755,
+      "node_id": "MDQ6VXNlcjg0NTE3NTU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8451755?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kokes",
+      "html_url": "https://github.com/kokes",
+      "followers_url": "https://api.github.com/users/kokes/followers",
+      "following_url": "https://api.github.com/users/kokes/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kokes/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kokes/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kokes/subscriptions",
+      "organizations_url": "https://api.github.com/users/kokes/orgs",
+      "repos_url": "https://api.github.com/users/kokes/repos",
+      "events_url": "https://api.github.com/users/kokes/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kokes/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-02T19:23:29Z",
+    "updated_at": "2016-03-02T19:23:29Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Duplicated in #10344, [fixed in 0.17.0](http://pandas.pydata.org/pandas-docs/stable/whatsnew.html#whatsnew-0170-bug-fixes). (Check out this [gist](https://gist.github.com/kokes/af3caf88e24f3830be3e) that replicates your code.)\n"
+  }
+]

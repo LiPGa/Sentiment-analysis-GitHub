@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/270003847",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15038#issuecomment-270003847",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15038",
+    "id": 270003847,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MDAwMzg0Nw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-02T18:08:17Z",
+    "updated_at": "2017-01-02T18:08:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "lists are not hashable (nor is ``list`` a real datatype in pandas anyhow).\r\n\r\nbut you can use tuples\r\n```\r\nIn [7]: df['c'] = df['b'].apply(tuple)\r\n\r\nIn [8]: df\r\nOut[8]: \r\n    a       b       c\r\n0  10  [a, b]  (a, b)\r\n1  10  [a, b]  (a, b)\r\n2  10  [x, y]  (x, y)\r\n3  11  [a, b]  (a, b)\r\n4  12  [x, y]  (x, y)\r\n\r\nIn [9]: df.drop_duplicates(subset=['c'])\r\nOut[9]: \r\n    a       b       c\r\n0  10  [a, b]  (a, b)\r\n2  10  [x, y]  (x, y)\r\n\r\nIn [12]: df.drop_duplicates(subset=['a', 'c'])\r\nOut[12]: \r\n    a       b       c\r\n0  10  [a, b]  (a, b)\r\n2  10  [x, y]  (x, y)\r\n3  11  [a, b]  (a, b)\r\n4  12  [x, y]  (x, y)\r\n```"
+  }
+]

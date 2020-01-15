@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/228030716",
+    "html_url": "https://github.com/ipython/ipython/issues/9654#issuecomment-228030716",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/9654",
+    "id": 228030716,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyODAzMDcxNg==",
+    "user": {
+      "login": "krishnachaitanyareddy",
+      "id": 13764487,
+      "node_id": "MDQ6VXNlcjEzNzY0NDg3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13764487?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/krishnachaitanyareddy",
+      "html_url": "https://github.com/krishnachaitanyareddy",
+      "followers_url": "https://api.github.com/users/krishnachaitanyareddy/followers",
+      "following_url": "https://api.github.com/users/krishnachaitanyareddy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/krishnachaitanyareddy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/krishnachaitanyareddy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/krishnachaitanyareddy/subscriptions",
+      "organizations_url": "https://api.github.com/users/krishnachaitanyareddy/orgs",
+      "repos_url": "https://api.github.com/users/krishnachaitanyareddy/repos",
+      "events_url": "https://api.github.com/users/krishnachaitanyareddy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/krishnachaitanyareddy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-23T12:09:22Z",
+    "updated_at": "2016-06-23T12:09:22Z",
+    "author_association": "NONE",
+    "body": "Sorry its my kernal file mistake i forgot to add exact path. now its resolved\n`{\n \"display_name\": \"pySpark (Spark 1.6.0)\",\n \"language\": \"python\",\n \"argv\": [\n  \"/opt/anaconda2/bin/**python2.7**\",\n  \"-m\",\n  \"IPython.kernel\",\n  \"-f\",\n  \"{connection_file}\"\n ],\n \"env\": {\n  \"SPARK_HOME\": \"/opt/cloudera/parcels/CDH/lib/spark/\",\n  \"PYTHONPATH\": \"/opt/cloudera/parcels/CDH/lib/spark/python/:/opt/cloudera/parcels/CDH/lib/spark/python/lib/py4j-0.9-src.zip\",\n  \"PYTHONSTARTUP\": \"/opt/cloudera/parcels/CDH/lib/spark/python/pyspark/shell.py\",\n  \"PYSPARK_SUBMIT_ARGS\":\"--master yarn --deploy-mode client --num-executors 24 --executor-memory 10g --executor-cores 5\"\n }\n}\n`\n"
+  }
+]

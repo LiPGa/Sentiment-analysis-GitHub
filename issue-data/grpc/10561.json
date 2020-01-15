@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/293337395",
+    "html_url": "https://github.com/grpc/grpc/issues/10561#issuecomment-293337395",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10561",
+    "id": 293337395,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MzMzNzM5NQ==",
+    "user": {
+      "login": "bshaffer",
+      "id": 103941,
+      "node_id": "MDQ6VXNlcjEwMzk0MQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/103941?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bshaffer",
+      "html_url": "https://github.com/bshaffer",
+      "followers_url": "https://api.github.com/users/bshaffer/followers",
+      "following_url": "https://api.github.com/users/bshaffer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bshaffer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bshaffer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bshaffer/subscriptions",
+      "organizations_url": "https://api.github.com/users/bshaffer/orgs",
+      "repos_url": "https://api.github.com/users/bshaffer/repos",
+      "events_url": "https://api.github.com/users/bshaffer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bshaffer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-04-11T17:29:03Z",
+    "updated_at": "2017-04-11T17:31:17Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This can be fixed by using Ubuntu 14.04 instead of 12.04. Add the following to `.travis.yaml`:\r\n\r\n```yaml\r\ndist: trusty\r\nsudo: required\r\n```\r\n\r\n"
+  }
+]

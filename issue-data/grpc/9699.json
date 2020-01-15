@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/279604224",
+    "html_url": "https://github.com/grpc/grpc/pull/9699#issuecomment-279604224",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9699",
+    "id": 279604224,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3OTYwNDIyNA==",
+    "user": {
+      "login": "ctiller",
+      "id": 10120821,
+      "node_id": "MDQ6VXNlcjEwMTIwODIx",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10120821?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ctiller",
+      "html_url": "https://github.com/ctiller",
+      "followers_url": "https://api.github.com/users/ctiller/followers",
+      "following_url": "https://api.github.com/users/ctiller/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ctiller/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ctiller/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ctiller/subscriptions",
+      "organizations_url": "https://api.github.com/users/ctiller/orgs",
+      "repos_url": "https://api.github.com/users/ctiller/repos",
+      "events_url": "https://api.github.com/users/ctiller/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ctiller/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-14T04:21:27Z",
+    "updated_at": "2017-02-14T04:21:27Z",
+    "author_association": "MEMBER",
+    "body": "Yep, it fails. I'll do another round tomorrow.\n\nOn Mon, Feb 13, 2017, 8:04 PM apolcyn <notifications@github.com> wrote:\n\n> *@apolcyn* commented on this pull request.\n> ------------------------------\n>\n> In tools/run_tests/run_microbenchmark.py\n> <https://github.com/grpc/grpc/pull/9699#pullrequestreview-21673462>:\n>\n> > @@ -133,11 +133,9 @@ def collect_perf(bm_name, args):\n>                             'bins/mutrace/%s' % bm_name,\n>                             '--benchmark_filter=^%s$' % line,\n>                             '--benchmark_min_time=20'])\n> -    with open('bm.perf', 'w') as f:\n> -      f.write(subprocess.check_output(['sudo', 'perf', 'script', '-i', 'perf.data']))\n> -    with open('bm.folded', 'w') as f:\n> -      f.write(subprocess.check_output([\n> -          '%s/stackcollapse-perf.pl\n>\n> ' % flamegraph_dir, 'bm.perf']))\n> +    subprocess.check_call(['sudo', 'perf', 'script', '-i', 'perf.data', '>', 'bm.perf'], shell=True)\n> +    subprocess.check_call([\n> +        '%s/stackcollapse-perf.pl' % flamegraph_dir, 'bm.perf', '>', 'bm.folded'], shell=True)\n>\n> Actually AFAIK I don't think the python.sub_process recognizes this?\n>\n> —\n> You are receiving this because you modified the open/close state.\n>\n>\n> Reply to this email directly, view it on GitHub\n> <https://github.com/grpc/grpc/pull/9699#pullrequestreview-21673462>, or mute\n> the thread\n> <https://github.com/notifications/unsubscribe-auth/AJpudVBy6559vQXvMF9l-f1sSMtEetdzks5rcSfagaJpZM4MABMH>\n> .\n>\n"
+  }
+]

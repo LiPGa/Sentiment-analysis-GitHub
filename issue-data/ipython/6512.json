@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/56389637",
+    "html_url": "https://github.com/ipython/ipython/pull/6512#issuecomment-56389637",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6512",
+    "id": 56389637,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2Mzg5NjM3",
+    "user": {
+      "login": "ellisonbg",
+      "id": 27600,
+      "node_id": "MDQ6VXNlcjI3NjAw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/27600?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ellisonbg",
+      "html_url": "https://github.com/ellisonbg",
+      "followers_url": "https://api.github.com/users/ellisonbg/followers",
+      "following_url": "https://api.github.com/users/ellisonbg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ellisonbg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ellisonbg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ellisonbg/subscriptions",
+      "organizations_url": "https://api.github.com/users/ellisonbg/orgs",
+      "repos_url": "https://api.github.com/users/ellisonbg/repos",
+      "events_url": "https://api.github.com/users/ellisonbg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ellisonbg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-09-22T15:22:28Z",
+    "updated_at": "2014-09-22T15:22:28Z",
+    "author_association": "MEMBER",
+    "body": "I don't have any doc work happen ing - let's merge this\n\nSent from my iPad\n\n> On Sep 21, 2014, at 6:52 AM, Matthias Bussonnier notifications@github.com wrote:\n> \n> just add class=\"btn btn-default btn-xs\" and fa fa-xxx to all <buttons><i></i><button>.\n> \n> Closes #6417\n> \n> @ellisonbg if you work on docs, you might want to cherry-pick that so that there is no conflict !\n> \n> You can merge this Pull Request by running\n> \n>   git pull https://github.com/Carreau/ipython fix-6417\n> Or view, comment on, or merge it at:\n> \n>   https://github.com/ipython/ipython/pull/6512\n> \n> Commit Summary\n> \n> Fix font-awesome icons in examples notebook\n> File Changes\n> \n> M examples/Notebook/Notebook Basics.ipynb (15)\n> M examples/Notebook/Running Code.ipynb (80)\n> Patch Links:\n> \n> https://github.com/ipython/ipython/pull/6512.patch\n> https://github.com/ipython/ipython/pull/6512.diff\n> —\n> Reply to this email directly or view it on GitHub.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/193782687",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12558#issuecomment-193782687",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12558",
+    "id": 193782687,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5Mzc4MjY4Nw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-08T13:20:53Z",
+    "updated_at": "2016-03-08T13:20:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "yeh, looks like its not respecting `dropna`\n\n```\nIn [3]: s.value_counts(normalize=True,dropna=False)\nOut[3]: \nNaN     0.500000\n 3.0    0.166667\n 2.0    0.166667\n 1.0    0.166667\ndtype: float64\n\nIn [4]: s.value_counts(normalize=True,dropna=True)\nOut[4]: \n3.0    0.166667\n2.0    0.166667\n1.0    0.166667\ndtype: float64\n```\n"
+  }
+]

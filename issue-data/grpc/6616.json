@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/219907571",
+    "html_url": "https://github.com/grpc/grpc/pull/6616#issuecomment-219907571",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6616",
+    "id": 219907571,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxOTkwNzU3MQ==",
+    "user": {
+      "login": "dgquintas",
+      "id": 120217,
+      "node_id": "MDQ6VXNlcjEyMDIxNw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/120217?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dgquintas",
+      "html_url": "https://github.com/dgquintas",
+      "followers_url": "https://api.github.com/users/dgquintas/followers",
+      "following_url": "https://api.github.com/users/dgquintas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dgquintas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dgquintas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dgquintas/subscriptions",
+      "organizations_url": "https://api.github.com/users/dgquintas/orgs",
+      "repos_url": "https://api.github.com/users/dgquintas/repos",
+      "events_url": "https://api.github.com/users/dgquintas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dgquintas/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-18T02:17:43Z",
+    "updated_at": "2016-05-18T02:17:43Z",
+    "author_association": "NONE",
+    "body": "This PR is now part of https://github.com/grpc/grpc/pull/6481\n"
+  }
+]

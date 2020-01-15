@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/2725732",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/301#issuecomment-2725732",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/301",
+    "id": 2725732,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjU3MzI=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-11-14T01:15:06Z",
+    "updated_at": "2011-11-14T01:15:06Z",
+    "author_association": "MEMBER",
+    "body": "This was addressed by the new `orient` option in `Panel.from_dict`\n"
+  }
+]

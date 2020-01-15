@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/339500100",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17973#issuecomment-339500100",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17973",
+    "id": 339500100,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzOTUwMDEwMA==",
+    "user": {
+      "login": "AdamShamlian",
+      "id": 11970876,
+      "node_id": "MDQ6VXNlcjExOTcwODc2",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11970876?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AdamShamlian",
+      "html_url": "https://github.com/AdamShamlian",
+      "followers_url": "https://api.github.com/users/AdamShamlian/followers",
+      "following_url": "https://api.github.com/users/AdamShamlian/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AdamShamlian/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AdamShamlian/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AdamShamlian/subscriptions",
+      "organizations_url": "https://api.github.com/users/AdamShamlian/orgs",
+      "repos_url": "https://api.github.com/users/AdamShamlian/repos",
+      "events_url": "https://api.github.com/users/AdamShamlian/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AdamShamlian/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-25T23:01:36Z",
+    "updated_at": "2017-10-25T23:01:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'd gladly chip in on the docstring, but I hesitate to contribute a larger handling of \"the triple-headed monster.\" I'd rather leave that to a) another PR against general DOCS and b) someone with much greater context for where pandas has been and where its headed in that regard.\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/443499814",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/24020#issuecomment-443499814",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/24020",
+    "id": 443499814,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MzQ5OTgxNA==",
+    "user": {
+      "login": "h-vetinari",
+      "id": 33685575,
+      "node_id": "MDQ6VXNlcjMzNjg1NTc1",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33685575?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/h-vetinari",
+      "html_url": "https://github.com/h-vetinari",
+      "followers_url": "https://api.github.com/users/h-vetinari/followers",
+      "following_url": "https://api.github.com/users/h-vetinari/following{/other_user}",
+      "gists_url": "https://api.github.com/users/h-vetinari/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/h-vetinari/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/h-vetinari/subscriptions",
+      "organizations_url": "https://api.github.com/users/h-vetinari/orgs",
+      "repos_url": "https://api.github.com/users/h-vetinari/repos",
+      "events_url": "https://api.github.com/users/h-vetinari/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/h-vetinari/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-02T11:18:57Z",
+    "updated_at": "2018-12-02T11:18:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This seems like it might fit the method `pandas.core.dtypes.cast.maybe_promote`, which does effectively that. It's quite broken and needs a major overhaul anyway - I've started by writing a docstring and tests for it in #23982"
+  }
+]

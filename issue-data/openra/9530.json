@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/145337411",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9530#issuecomment-145337411",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9530",
+    "id": 145337411,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0NTMzNzQxMQ==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-04T11:20:30Z",
+    "updated_at": "2015-10-04T11:20:30Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Your report is confusing for several reasons:\n1. when you're playing yourself, while the game is running, `RenderPlayer` should never be `null`, except if you have cheats enabled and shroud disabled.\n2. The code you linked to has nothing to do with the Home key. 'Home' centers the screen on the selection, it does not cycle between base buildings (that's the 'H' key).\n3. Both 'Home' and 'H' work for me on bleed.\n"
+  }
+]

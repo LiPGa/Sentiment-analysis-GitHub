@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/314068008",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16868#issuecomment-314068008",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16868",
+    "id": 314068008,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNDA2ODAwOA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-10T10:29:58Z",
+    "updated_at": "2017-07-10T10:29:58Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I suppose this could be added. However, generally this is not useful *across* columns as you have mixed dtypes (which you do in this case), so this would be pretty inefficient. I'll mark it as an enhancement if you or others would like to do a PR. The impl would be pretty much a .T. drop_duplicates, then .T"
+  }
+]

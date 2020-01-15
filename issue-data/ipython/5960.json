@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/45652686",
+    "html_url": "https://github.com/ipython/ipython/issues/5960#issuecomment-45652686",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5960",
+    "id": 45652686,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NjUyNjg2",
+    "user": {
+      "login": "David-Alkalai",
+      "id": 7840018,
+      "node_id": "MDQ6VXNlcjc4NDAwMTg=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7840018?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/David-Alkalai",
+      "html_url": "https://github.com/David-Alkalai",
+      "followers_url": "https://api.github.com/users/David-Alkalai/followers",
+      "following_url": "https://api.github.com/users/David-Alkalai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/David-Alkalai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/David-Alkalai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/David-Alkalai/subscriptions",
+      "organizations_url": "https://api.github.com/users/David-Alkalai/orgs",
+      "repos_url": "https://api.github.com/users/David-Alkalai/repos",
+      "events_url": "https://api.github.com/users/David-Alkalai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/David-Alkalai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-06-10T18:29:01Z",
+    "updated_at": "2014-06-10T18:29:45Z",
+    "author_association": "NONE",
+    "body": "After testing the same in several other applications it's clear this behaviour\nis not unique to IPython. I'm guessing this is what the unicode bidi algorithm dictates.\nIt makes it painful to mix RTL scripts into code but if that's the standard what are \nyou gonna do....\n\nSorry for the noise.\n"
+  }
+]

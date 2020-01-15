@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/152396031",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9787#issuecomment-152396031",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9787",
+    "id": 152396031,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MjM5NjAzMQ==",
+    "user": {
+      "login": "Phrohdoh",
+      "id": 4861023,
+      "node_id": "MDQ6VXNlcjQ4NjEwMjM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4861023?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Phrohdoh",
+      "html_url": "https://github.com/Phrohdoh",
+      "followers_url": "https://api.github.com/users/Phrohdoh/followers",
+      "following_url": "https://api.github.com/users/Phrohdoh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Phrohdoh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Phrohdoh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Phrohdoh/subscriptions",
+      "organizations_url": "https://api.github.com/users/Phrohdoh/orgs",
+      "repos_url": "https://api.github.com/users/Phrohdoh/repos",
+      "events_url": "https://api.github.com/users/Phrohdoh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Phrohdoh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-10-30T02:47:56Z",
+    "updated_at": "2015-10-30T02:47:56Z",
+    "author_association": "MEMBER",
+    "body": "Revisiting this mentally, we already do this in Aircraft, but perhaps this logic could be pulled out into general reservation methods.\n"
+  }
+]

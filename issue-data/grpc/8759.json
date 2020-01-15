@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/307483254",
+    "html_url": "https://github.com/grpc/grpc/issues/8759#issuecomment-307483254",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8759",
+    "id": 307483254,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNzQ4MzI1NA==",
+    "user": {
+      "login": "mehrdada",
+      "id": 900411,
+      "node_id": "MDQ6VXNlcjkwMDQxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/900411?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mehrdada",
+      "html_url": "https://github.com/mehrdada",
+      "followers_url": "https://api.github.com/users/mehrdada/followers",
+      "following_url": "https://api.github.com/users/mehrdada/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mehrdada/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mehrdada/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mehrdada/subscriptions",
+      "organizations_url": "https://api.github.com/users/mehrdada/orgs",
+      "repos_url": "https://api.github.com/users/mehrdada/repos",
+      "events_url": "https://api.github.com/users/mehrdada/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mehrdada/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-09T19:48:26Z",
+    "updated_at": "2017-06-09T19:48:26Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "We are cleaning up the gRPC issue backlog and are unable to address this issue with the current information. It seems like the current information on the new README (with `libtool` and `shtool` installation before `make`) work on macOS. If you are still experiencing issues with the updated instructions/repo, please re-open the issue with information on how to reproduce."
+  }
+]

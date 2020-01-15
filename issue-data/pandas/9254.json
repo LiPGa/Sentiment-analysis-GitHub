@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/69981057",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9254#issuecomment-69981057",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9254",
+    "id": 69981057,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5OTgxMDU3",
+    "user": {
+      "login": "arijun",
+      "id": 4633429,
+      "node_id": "MDQ6VXNlcjQ2MzM0Mjk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4633429?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arijun",
+      "html_url": "https://github.com/arijun",
+      "followers_url": "https://api.github.com/users/arijun/followers",
+      "following_url": "https://api.github.com/users/arijun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arijun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arijun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arijun/subscriptions",
+      "organizations_url": "https://api.github.com/users/arijun/orgs",
+      "repos_url": "https://api.github.com/users/arijun/repos",
+      "events_url": "https://api.github.com/users/arijun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arijun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-01-14T20:00:22Z",
+    "updated_at": "2015-01-14T20:00:22Z",
+    "author_association": "NONE",
+    "body": "Scratch that, turns out another user somehow managed to install a different version of pandas that clobbered the conda version. So when I thought I was using 0.15.2 I was in fact using 0.15.0. This issue doesn't come up in latest.\n"
+  }
+]

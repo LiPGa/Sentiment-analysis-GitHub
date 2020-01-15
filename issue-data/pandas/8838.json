@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/63283865",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8838#issuecomment-63283865",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8838",
+    "id": 63283865,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYzMjgzODY1",
+    "user": {
+      "login": "edrevo",
+      "id": 1845771,
+      "node_id": "MDQ6VXNlcjE4NDU3NzE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1845771?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/edrevo",
+      "html_url": "https://github.com/edrevo",
+      "followers_url": "https://api.github.com/users/edrevo/followers",
+      "following_url": "https://api.github.com/users/edrevo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/edrevo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/edrevo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/edrevo/subscriptions",
+      "organizations_url": "https://api.github.com/users/edrevo/orgs",
+      "repos_url": "https://api.github.com/users/edrevo/repos",
+      "events_url": "https://api.github.com/users/edrevo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/edrevo/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-11-17T10:16:01Z",
+    "updated_at": "2014-11-17T10:16:10Z",
+    "author_association": "NONE",
+    "body": "I just saw there's a bug in my code... :facepalm: Sorry about the bad bug report!\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/88686189",
+    "html_url": "https://github.com/ipython/ipython/issues/8193#issuecomment-88686189",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8193",
+    "id": 88686189,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg4Njg2MTg5",
+    "user": {
+      "login": "denfromufa",
+      "id": 7870949,
+      "node_id": "MDQ6VXNlcjc4NzA5NDk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7870949?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/denfromufa",
+      "html_url": "https://github.com/denfromufa",
+      "followers_url": "https://api.github.com/users/denfromufa/followers",
+      "following_url": "https://api.github.com/users/denfromufa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/denfromufa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/denfromufa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/denfromufa/subscriptions",
+      "organizations_url": "https://api.github.com/users/denfromufa/orgs",
+      "repos_url": "https://api.github.com/users/denfromufa/repos",
+      "events_url": "https://api.github.com/users/denfromufa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/denfromufa/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-04-02T01:44:23Z",
+    "updated_at": "2015-04-02T01:44:44Z",
+    "author_association": "NONE",
+    "body": "This does not display shortcuts in ipython/jupyter 3:\n\nhttp://nbviewer.ipython.org/github/adrn/ipython/blob/2.x/examples/Notebook/User%20Interface.ipynb\n\n```\nfrom IPython.display import Javascript, display, HTML\n\nt = \"\"\"var help = IPython.quick_help.build_{0}_help();\nhelp.children().first().remove();\nthis.append_output({{output_type: 'display_data', html: help.html()}});\"\"\"\n\ndef display_command_shortcuts():\n    display(Javascript(t.format('command')))\n\ndef display_edit_shortcuts():\n    display(Javascript(t.format('edit')))\n\ndisplay(HTML(\"\"\"\n<style>\n.shortcut_key {display: inline-block; width: 15ex; text-align: right; font-family: monospace;}\n.shortcut_descr {display: inline-block;}\ndiv.quickhelp {float: none; width: 100%;}\n</style>\n\"\"\"))\n\n\ndisplay_command_shortcuts() # supposed to show list of shortcuts!\n```\n"
+  }
+]

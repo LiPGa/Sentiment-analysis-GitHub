@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/20702194",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/4178#issuecomment-20702194",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4178",
+    "id": 20702194,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNzAyMTk0",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-09T20:16:46Z",
+    "updated_at": "2013-07-09T20:16:46Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "no....that has to do with the _format_ of the attributes and such (will bump if we ever need to actually change it); I think I did once between 0.10 and 0.10.1\n\nThis pr just fixed a display issue I think. was actually writing the unicode (rather than bytes) for pandas_type,pandas_version (because I decode them and the variable was being passed around). It actually doesn't make any difference and you would not even be able to know except if you do `ptdump -av` the (and you are not using PyTable 3.0.0), then these attribues look like string (e.g. 'appendable_frame'), while in PyTables 3.0.0 (even if you are not using it, but have the ptdump installed), they are bytes (b'appendable_frame')\n\nsomehow they were getting pickled (rather than written as strings), but this was all transparent (just a bit inconcistent that's all). You should be able to read/write something from an older version with a newer version (of PyTables) and vice-versa\n\nif you try out 0.12rc1 you can see these (as compared to master)...install PyTables 3.0.0, write a store and do ptdump on it (then install master) and do the same thing\n"
+  }
+]

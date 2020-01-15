@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/244773568",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11978#issuecomment-244773568",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11978",
+    "id": 244773568,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NDc3MzU2OA==",
+    "user": {
+      "login": "jaZzKCS",
+      "id": 2698113,
+      "node_id": "MDQ6VXNlcjI2OTgxMTM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2698113?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jaZzKCS",
+      "html_url": "https://github.com/jaZzKCS",
+      "followers_url": "https://api.github.com/users/jaZzKCS/followers",
+      "following_url": "https://api.github.com/users/jaZzKCS/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jaZzKCS/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jaZzKCS/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jaZzKCS/subscriptions",
+      "organizations_url": "https://api.github.com/users/jaZzKCS/orgs",
+      "repos_url": "https://api.github.com/users/jaZzKCS/repos",
+      "events_url": "https://api.github.com/users/jaZzKCS/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jaZzKCS/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-09-05T15:37:22Z",
+    "updated_at": "2016-09-05T15:37:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Up until this point you can either manually kick/ban single specs, or disable specs, effectively kicking/banning all at once\n"
+  }
+]

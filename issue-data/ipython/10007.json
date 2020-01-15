@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/254009103",
+    "html_url": "https://github.com/ipython/ipython/issues/10007#issuecomment-254009103",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10007",
+    "id": 254009103,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NDAwOTEwMw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-15T20:28:05Z",
+    "updated_at": "2016-10-15T20:28:05Z",
+    "author_association": "MEMBER",
+    "body": "THis [has been fixed upstream a month an a half ago](https://github.com/jonathanslenders/python-prompt-toolkit/commit/99fa7fae61c9b4ed9767ead3b4f9b1318cfa875d). you can try to update prompt_toolkit, and if it does not work, as a work around set your TERM environment variable to empty string should fix this. \n"
+  }
+]

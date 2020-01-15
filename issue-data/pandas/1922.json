@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/8635947",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1922#issuecomment-8635947",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1922",
+    "id": 8635947,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg2MzU5NDc=",
+    "user": {
+      "login": "bf0",
+      "id": 692804,
+      "node_id": "MDQ6VXNlcjY5MjgwNA==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/692804?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bf0",
+      "html_url": "https://github.com/bf0",
+      "followers_url": "https://api.github.com/users/bf0/followers",
+      "following_url": "https://api.github.com/users/bf0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bf0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bf0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bf0/subscriptions",
+      "organizations_url": "https://api.github.com/users/bf0/orgs",
+      "repos_url": "https://api.github.com/users/bf0/repos",
+      "events_url": "https://api.github.com/users/bf0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bf0/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-09-18T00:36:18Z",
+    "updated_at": "2012-09-18T00:42:33Z",
+    "author_association": "NONE",
+    "body": "Sweet. Verified on latest / my use-case works now. Thanks!\n"
+  }
+]

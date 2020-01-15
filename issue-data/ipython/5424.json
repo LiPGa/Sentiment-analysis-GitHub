@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/38532631",
+    "html_url": "https://github.com/ipython/ipython/issues/5424#issuecomment-38532631",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5424",
+    "id": 38532631,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NTMyNjMx",
+    "user": {
+      "login": "John-Jumper",
+      "id": 4306211,
+      "node_id": "MDQ6VXNlcjQzMDYyMTE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4306211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/John-Jumper",
+      "html_url": "https://github.com/John-Jumper",
+      "followers_url": "https://api.github.com/users/John-Jumper/followers",
+      "following_url": "https://api.github.com/users/John-Jumper/following{/other_user}",
+      "gists_url": "https://api.github.com/users/John-Jumper/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/John-Jumper/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/John-Jumper/subscriptions",
+      "organizations_url": "https://api.github.com/users/John-Jumper/orgs",
+      "repos_url": "https://api.github.com/users/John-Jumper/repos",
+      "events_url": "https://api.github.com/users/John-Jumper/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/John-Jumper/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-25T05:42:51Z",
+    "updated_at": "2014-03-25T05:42:51Z",
+    "author_association": "NONE",
+    "body": "Just notices that this duplicates #4140 \n"
+  }
+]

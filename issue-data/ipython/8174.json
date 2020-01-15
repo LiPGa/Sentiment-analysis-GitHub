@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/87108562",
+    "html_url": "https://github.com/ipython/ipython/pull/8174#issuecomment-87108562",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8174",
+    "id": 87108562,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg3MTA4NTYy",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-27T22:33:04Z",
+    "updated_at": "2015-03-27T22:33:04Z",
+    "author_association": "MEMBER",
+    "body": "+1, once travis is happy. \nNeed to request a feature from github. 'merge if test pass'\n"
+  }
+]

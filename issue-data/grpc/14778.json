@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/378037765",
+    "html_url": "https://github.com/grpc/grpc/issues/14778#issuecomment-378037765",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14778",
+    "id": 378037765,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3ODAzNzc2NQ==",
+    "user": {
+      "login": "nathanielmanistaatgoogle",
+      "id": 10131044,
+      "node_id": "MDQ6VXNlcjEwMTMxMDQ0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10131044?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nathanielmanistaatgoogle",
+      "html_url": "https://github.com/nathanielmanistaatgoogle",
+      "followers_url": "https://api.github.com/users/nathanielmanistaatgoogle/followers",
+      "following_url": "https://api.github.com/users/nathanielmanistaatgoogle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nathanielmanistaatgoogle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nathanielmanistaatgoogle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nathanielmanistaatgoogle/subscriptions",
+      "organizations_url": "https://api.github.com/users/nathanielmanistaatgoogle/orgs",
+      "repos_url": "https://api.github.com/users/nathanielmanistaatgoogle/repos",
+      "events_url": "https://api.github.com/users/nathanielmanistaatgoogle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nathanielmanistaatgoogle/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-02T20:41:46Z",
+    "updated_at": "2018-04-02T20:41:46Z",
+    "author_association": "MEMBER",
+    "body": "This is something we considered and deliberately decided against, because we (1) don't like APIs that give to the user something they already have (the channel, in this case) and (2) your ellipsis captures too much; it's not the channel that the `Future` is \"computing\" but rather the \"readiness of the channel\" (which is more of a \"state of the world\" than a simple value that can be returned).\r\n\r\nSomething that's worth exploring is how much the semantics of the object returned by `channel_ready_future` really matter - when we were building gRPC Python the forecast was that channel connectivity would be something of an edge case and that the vast majority of users would, wanting to make an RPC but not having a channel, just construct a channel and use it to invoke an RPC without intermediately waiting for the channel to be ready. Help us understand what you're doing and why you need to block until the channel is ready in a separate statement of code?"
+  }
+]

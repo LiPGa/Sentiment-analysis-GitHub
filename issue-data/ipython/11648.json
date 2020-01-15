@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/475440383",
+    "html_url": "https://github.com/ipython/ipython/issues/11648#issuecomment-475440383",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11648",
+    "id": 475440383,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NTQ0MDM4Mw==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-21T23:25:58Z",
+    "updated_at": "2019-03-21T23:25:58Z",
+    "author_association": "MEMBER",
+    "body": "Closing as this issue is not in IPython itself and if still problematic and relevant should be opened on the right repository if this is an actual bug or code proposal. For general help use [discourse](https://discourse.jupyter.org).  This will allow to keep the number of opened issue on the IPython repo under control and allow you to get faster response."
+  }
+]

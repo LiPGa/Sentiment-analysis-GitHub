@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/104926466",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8219#issuecomment-104926466",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8219",
+    "id": 104926466,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNDkyNjQ2Ng==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-23T17:11:39Z",
+    "updated_at": "2015-05-23T17:31:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The bridge thing happens because the bridge isn't in fact dead, it's just critical (sure looks dead to me, though). It's got 10 of 1000 HP left. Now to find out what #7475 changed that caused that.\n\n![screenshot from 2015-05-23 19 06 47](https://cloud.githubusercontent.com/assets/4331210/7785052/1c29e004-017f-11e5-9fb5-271c8c12cabd.png)\n\nEdit: The problem is [this line](https://github.com/OpenRA/OpenRA/pull/7475/files#diff-5fdda582d1413a32cbea147ba360d0b4R47). The broken bridges correctly get a `HealthInit` with 0 for the value. The `Health` trait however see the 0 and replaces it with `MaxHP /100`. MaxHP is 1000, so the result is 10, and the bridge ends up as Critical instead of Dead.\n"
+  }
+]

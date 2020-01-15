@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/481759995",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/16395#issuecomment-481759995",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16395",
+    "id": 481759995,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MTc1OTk5NQ==",
+    "user": {
+      "login": "Punsho",
+      "id": 37534529,
+      "node_id": "MDQ6VXNlcjM3NTM0NTI5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37534529?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Punsho",
+      "html_url": "https://github.com/Punsho",
+      "followers_url": "https://api.github.com/users/Punsho/followers",
+      "following_url": "https://api.github.com/users/Punsho/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Punsho/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Punsho/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Punsho/subscriptions",
+      "organizations_url": "https://api.github.com/users/Punsho/orgs",
+      "repos_url": "https://api.github.com/users/Punsho/repos",
+      "events_url": "https://api.github.com/users/Punsho/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Punsho/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-10T16:19:18Z",
+    "updated_at": "2019-04-10T16:19:18Z",
+    "author_association": "NONE",
+    "body": "There can be an unlimited amount of admins.\r\nIt happens when multiple people enter an empty server at the same time"
+  }
+]

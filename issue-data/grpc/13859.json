@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/421245189",
+    "html_url": "https://github.com/grpc/grpc/issues/13859#issuecomment-421245189",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13859",
+    "id": 421245189,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMTI0NTE4OQ==",
+    "user": {
+      "login": "wataori",
+      "id": 6727837,
+      "node_id": "MDQ6VXNlcjY3Mjc4Mzc=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6727837?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wataori",
+      "html_url": "https://github.com/wataori",
+      "followers_url": "https://api.github.com/users/wataori/followers",
+      "following_url": "https://api.github.com/users/wataori/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wataori/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wataori/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wataori/subscriptions",
+      "organizations_url": "https://api.github.com/users/wataori/orgs",
+      "repos_url": "https://api.github.com/users/wataori/repos",
+      "events_url": "https://api.github.com/users/wataori/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wataori/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-14T06:29:26Z",
+    "updated_at": "2018-09-14T06:29:26Z",
+    "author_association": "NONE",
+    "body": "Any updates? I think I'm also in same trouble. `grpc_cli` skips enum values. I use macOS High Sierra(10.13.6) and gRPC 1.14.2.\r\n\r\n```proto\r\nEnum Sex {\r\n  MALE = 0;\r\n  FEMALE = 1;\r\n}\r\n\r\nmessage UserResponse {\r\n  uint32 id = 0;\r\n  string name = 1;\r\n  string email = 2;\r\n  Sex sex = 3;\r\n  uint32 age = 4;\r\n}\r\n\r\nmessage UserRequest {\r\n  uint32 id = 0;\r\n}\r\n\r\nservice UserService {\r\n  rpc GetUser(UserRequest) return (UserResponse);\r\n}\r\n```\r\n\r\n```sh\r\n$ grpc_cli call 0.0.0.0:8080 UserService.GetUser 'id: 1'\r\nconnecting to 0.0.0.0:8080\r\nid: 1\r\nname: \"Alex\"\r\nemail: \"abc@example.com\"\r\nage: 30\r\n\r\nRpc succeeded with OK status\r\n```"
+  }
+]

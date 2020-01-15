@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/415545872",
+    "html_url": "https://github.com/grpc/grpc/issues/10425#issuecomment-415545872",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/10425",
+    "id": 415545872,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNTU0NTg3Mg==",
+    "user": {
+      "login": "sreecha",
+      "id": 2754995,
+      "node_id": "MDQ6VXNlcjI3NTQ5OTU=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2754995?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sreecha",
+      "html_url": "https://github.com/sreecha",
+      "followers_url": "https://api.github.com/users/sreecha/followers",
+      "following_url": "https://api.github.com/users/sreecha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sreecha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sreecha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sreecha/subscriptions",
+      "organizations_url": "https://api.github.com/users/sreecha/orgs",
+      "repos_url": "https://api.github.com/users/sreecha/repos",
+      "events_url": "https://api.github.com/users/sreecha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sreecha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-23T19:39:58Z",
+    "updated_at": "2018-08-23T19:41:11Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "If `ok` is not true, the idea is that you can get the error from the RPC status. \r\n\r\nPreviously there were some cases where on the server we returned `ok = false` for some incoming RPCs..this is fixed now (i.e now when ok == false, it means either that the RPC failed - in which case you can get the status from the specific call...or the completion queue was shutdown..in which case even `cq_->Next` would return false)\r\n\r\n--\r\n\r\nPlease open a gRFC with a proposal (https://github.com/grpc/proposal) if you think there are other cases where passing the error would be helpful "
+  }
+]

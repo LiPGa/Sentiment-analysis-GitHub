@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/39867812",
+    "html_url": "https://github.com/ipython/ipython/issues/5557#issuecomment-39867812",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5557",
+    "id": 39867812,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5ODY3ODEy",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-08T16:10:27Z",
+    "updated_at": "2014-04-08T16:10:27Z",
+    "author_association": "MEMBER",
+    "body": "Hi Vishal. We've changed all the shortcuts - we think the new interface is better, but we know it takes some getting used to. Have a look at 'Keyboard shortcuts' and 'User interface tour' in the help menu for more information.\n"
+  }
+]

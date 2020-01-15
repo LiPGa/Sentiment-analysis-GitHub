@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/21109022",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/4275#issuecomment-21109022",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/4275",
+    "id": 21109022,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxMTA5MDIy",
+    "user": {
+      "login": "yarikoptic",
+      "id": 39889,
+      "node_id": "MDQ6VXNlcjM5ODg5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yarikoptic",
+      "html_url": "https://github.com/yarikoptic",
+      "followers_url": "https://api.github.com/users/yarikoptic/followers",
+      "following_url": "https://api.github.com/users/yarikoptic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yarikoptic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yarikoptic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yarikoptic/subscriptions",
+      "organizations_url": "https://api.github.com/users/yarikoptic/orgs",
+      "repos_url": "https://api.github.com/users/yarikoptic/repos",
+      "events_url": "https://api.github.com/users/yarikoptic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yarikoptic/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-17T12:23:18Z",
+    "updated_at": "2013-07-17T12:23:18Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "and 1 more which probably belongs here as well\n\n```\n======================================================================\nERROR: pandas.io.tests.test_html.test_bs4_finds_tables\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/usr/lib/python3/dist-packages/nose/case.py\", line 198, in runTest\n    self.test(*self.arg)\n  File \"/home/yoh/deb/gits/pkg-exppsy/build-area/pandas-0.12.0~rc1+git101-gd070a1f/debian/tmp/usr/lib/python3/dist-packages/pandas/io/tests/test_html.py\", line 479, in test_bs4_finds_tables\n    assert get_elements_from_url(filepath, 'table')\n  File \"/home/yoh/deb/gits/pkg-exppsy/build-area/pandas-0.12.0~rc1+git101-gd070a1f/debian/tmp/usr/lib/python3/dist-packages/pandas/io/tests/test_html.py\", line 470, in get_elements_from_url\n    soup = BeautifulSoup(f, features='html5lib')\n  File \"/usr/lib/python3/dist-packages/bs4/__init__.py\", line 155, in __init__\n    % \",\".join(features))\nbs4.FeatureNotFound: Couldn't find a tree builder with the features you requested: html5lib. Do you need to install a parser library?\n```\n"
+  }
+]

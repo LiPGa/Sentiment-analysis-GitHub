@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/437878961",
+    "html_url": "https://github.com/grpc/grpc/issues/16786#issuecomment-437878961",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16786",
+    "id": 437878961,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNzg3ODk2MQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-12T13:25:57Z",
+    "updated_at": "2018-11-12T13:25:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "If an RPC finished with status code other than OK, gRPC doesn't guarantee delivering the response message.\r\n\r\nI think what you want to do is to attach additional error info as a binary trailer (the best is to use a serializer protocol buffer message as that additional info).\r\nAn example for C# is here: https://github.com/grpc/grpc/blob/master/src/csharp/Grpc.IntegrationTesting/CustomErrorDetailsTest.cs\r\n\r\nIn your case that means that the `Errors` message will be sent as part or response trailers rather than as part of the response.\r\n\r\nAlternatively, you could also redefine your semantics to return OK is some error cases too and always inspect the \"Errors\" part of the response to look for errors and treat that accordingly if there are any.\r\n\r\n\r\n"
+  }
+]

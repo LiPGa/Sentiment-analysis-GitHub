@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/175101660",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10540#issuecomment-175101660",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10540",
+    "id": 175101660,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NTEwMTY2MA==",
+    "user": {
+      "login": "Apollo-X",
+      "id": 16901747,
+      "node_id": "MDQ6VXNlcjE2OTAxNzQ3",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16901747?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Apollo-X",
+      "html_url": "https://github.com/Apollo-X",
+      "followers_url": "https://api.github.com/users/Apollo-X/followers",
+      "following_url": "https://api.github.com/users/Apollo-X/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Apollo-X/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Apollo-X/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Apollo-X/subscriptions",
+      "organizations_url": "https://api.github.com/users/Apollo-X/orgs",
+      "repos_url": "https://api.github.com/users/Apollo-X/repos",
+      "events_url": "https://api.github.com/users/Apollo-X/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Apollo-X/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T16:25:45Z",
+    "updated_at": "2016-01-26T16:25:45Z",
+    "author_association": "NONE",
+    "body": "This is some kinda process to build wav header for audio.bag files of RA2? Either way that fmt size looks out of spec for wav.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/30847670",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/5728#issuecomment-30847670",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/5728",
+    "id": 30847670,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwODQ3Njcw",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-12-18T14:57:21Z",
+    "updated_at": "2013-12-18T14:57:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "without any detail it is impossible to see what is the issue. not sure what version you are coming from, or which you you are trying. pandas spends inordinate amounts of time ensuring backwards compatibility. its is broken only with very good reason. `np.datetime64` act quite closely to `datetime.datetime` objects. IIRC `np.datetime64` have been the datelike object since at least v0.8.0 when major ANNOUNCED changes were made: http://pandas.pydata.org/pandas-docs/dev/whatsnew.html#v0-8-0-june-29-2012\n"
+  }
+]

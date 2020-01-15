@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/119401105",
+    "html_url": "https://github.com/grpc/grpc/issues/2296#issuecomment-119401105",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2296",
+    "id": 119401105,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExOTQwMTEwNQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-08T02:23:00Z",
+    "updated_at": "2015-07-08T02:23:00Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looks like this was fixed by https://github.com/grpc/grpc/pull/2208 (commit \"Guard against double pollset shutdown completion\")\n"
+  }
+]

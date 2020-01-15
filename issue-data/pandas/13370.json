@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/223836611",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/13370#issuecomment-223836611",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/13370",
+    "id": 223836611,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMzgzNjYxMQ==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-06-05T20:46:32Z",
+    "updated_at": "2016-06-05T20:46:32Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "utilties to create testing data frames\n\n```\nIn [2]: from pandas.util import testing as tm\n\nIn [3]: tm.make\ntm.makeBoolIndex               tm.makeDateIndex               tm.makeMissingDataframe        tm.makePeriodFrame             tm.makeStringIndex             tm.makeUnicodeIndex\ntm.makeCategoricalIndex        tm.makeFloatIndex              tm.makeMixedDataFrame          tm.makePeriodIndex             tm.makeStringSeries            \ntm.makeCustomDataframe         tm.makeFloatSeries             tm.makeObjectSeries            tm.makePeriodPanel             tm.makeTimeDataFrame           \ntm.makeCustomIndex             tm.makeIntIndex                tm.makePanel                   tm.makePeriodSeries            tm.makeTimeSeries              \ntm.makeDataFrame               tm.makeMissingCustomDataframe  tm.makePanel4D                 tm.makeRangeIndex              tm.makeTimedeltaIndex          \n\nIn [3]: tm.makeTi\ntm.makeTimeDataFrame   tm.makeTimeSeries      tm.makeTimedeltaIndex  \n\nIn [3]: tm.makeTimeDataFrame()\nOut[3]: \n                   A         B         C         D\n2000-01-03 -1.460311 -0.464734 -2.198671  0.768434\n2000-01-04  0.192514  0.745945 -0.260240  0.553494\n2000-01-05 -0.204317 -2.100117  0.482762 -0.680113\n2000-01-06 -0.257809  2.904980 -1.054702 -0.855462\n2000-01-07 -1.090030 -0.116390 -0.989414 -0.161191\n2000-01-10 -0.045753  0.755095 -2.231809  0.599142\n2000-01-11  0.015389  1.179409 -0.445605 -1.492777\n2000-01-12 -1.097981  1.166901 -0.780713  0.049721\n2000-01-13  0.806519  0.144259 -2.395092  0.879999\n2000-01-14 -0.889756 -1.055778 -0.185147 -1.756858\n2000-01-17 -0.085666 -0.343939  0.931116 -0.583236\n2000-01-18 -0.429107 -0.961781  0.314267 -0.694172\n2000-01-19  0.534720 -0.600291  2.361877 -1.413320\n2000-01-20  0.494076 -1.397031 -0.156358 -1.913547\n2000-01-21  0.923212 -0.519801 -0.193719  1.696393\n2000-01-24 -0.409085 -0.120944 -0.273425 -0.403138\n2000-01-25 -0.331534  1.530272  0.950747  1.584787\n2000-01-26 -0.010242  0.438478  1.375064  1.307261\n2000-01-27 -0.142622 -1.617633 -0.698369 -0.661196\n2000-01-28 -0.059855 -1.075170  0.230901  0.587383\n2000-01-31 -0.702173 -0.525622  0.556386 -0.943545\n2000-02-01  0.548121 -0.268657  0.525702 -1.105843\n2000-02-02  1.259266 -0.333930  0.161058 -0.097886\n2000-02-03  0.122023  0.858570  0.919913  0.667828\n2000-02-04  0.520518 -0.089728 -0.527429  0.441597\n2000-02-07 -1.537155  0.574092  0.934734  0.635218\n2000-02-08  0.148688 -2.635006 -0.380072 -1.152498\n2000-02-09 -0.099199  1.136776  1.684748  0.592334\n2000-02-10 -0.354402  1.569423  0.971752 -0.273893\n2000-02-11 -0.613365  0.095510  1.174081  0.131692\n```\n"
+  }
+]

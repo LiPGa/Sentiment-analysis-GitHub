@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/269153845",
+    "html_url": "https://github.com/grpc/grpc/issues/9201#issuecomment-269153845",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9201",
+    "id": 269153845,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2OTE1Mzg0NQ==",
+    "user": {
+      "login": "bootstraponline",
+      "id": 1173057,
+      "node_id": "MDQ6VXNlcjExNzMwNTc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1173057?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bootstraponline",
+      "html_url": "https://github.com/bootstraponline",
+      "followers_url": "https://api.github.com/users/bootstraponline/followers",
+      "following_url": "https://api.github.com/users/bootstraponline/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bootstraponline/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bootstraponline/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bootstraponline/subscriptions",
+      "organizations_url": "https://api.github.com/users/bootstraponline/orgs",
+      "repos_url": "https://api.github.com/users/bootstraponline/repos",
+      "events_url": "https://api.github.com/users/bootstraponline/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bootstraponline/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-26T03:17:57Z",
+    "updated_at": "2016-12-26T03:17:57Z",
+    "author_association": "NONE",
+    "body": "I figured it out. #7927\r\n\r\n```c#\r\n        public static void runServer()\r\n        {\r\n            int Port = 50051;\r\n            string Host = \"localhost\";\r\n\r\n            var options = new List<ChannelOption>\r\n            {\r\n                 new ChannelOption(ChannelOptions.MaxMessageLength, int.MaxValue)\r\n            };\r\n\r\n            Server server = new Server(options)\r\n            {\r\n                Services = { Example.BindService(new ExampleImpl()) },\r\n                Ports = { new ServerPort(Host, Port, ServerCredentials.Insecure) }\r\n            };\r\n\r\n            server.Start();\r\n```"
+  }
+]

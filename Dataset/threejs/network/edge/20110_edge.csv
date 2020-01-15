@@ -1,0 +1,13 @@
+name1,name2,period,score1,score2,consist_cnt,inconsist_cnt,pos_consist_cnt,neg_consist_cnt,issue_cnt,cmt_cnt
+alteredq,anilshanbhag,20110,0.5,1.0,1,0,0,0,1,3
+alteredq,jsermeno,20110,0.5,1.0,5,0,0,0,1,7
+alteredq,mrdoob,20110,0.5,1.0,4,0,0,0,1,6
+alteredq,rdad,20110,0.5,1.0,4,1,0,0,1,7
+anilshanbhag,jsermeno,20110,1.0,1.0,5,0,0,0,1,6
+anilshanbhag,mrdoob,20110,1.0,1.0,4,0,0,0,1,5
+anilshanbhag,rdad,20110,1.0,1.0,4,0,0,0,1,6
+fabricasapiens,WaZz2,20110,1.0,1.0,2,0,0,0,1,4
+jsermeno,mrdoob,20110,1.0,1.0,20,0,0,0,1,9
+jsermeno,rdad,20110,1.0,1.0,20,0,0,0,1,10
+kapilreddy,mrdoob,20110,1.0,1.0,24,0,0,0,1,10
+mrdoob,rdad,20110,1.0,1.0,16,0,0,0,2,11

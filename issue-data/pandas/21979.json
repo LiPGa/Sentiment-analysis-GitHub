@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/406334245",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21979#issuecomment-406334245",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21979",
+    "id": 406334245,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNjMzNDI0NQ==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-19T16:19:14Z",
+    "updated_at": "2018-07-19T16:19:14Z",
+    "author_association": "MEMBER",
+    "body": "Not sure I entirely understand what you are looking for but you have quite a few options at your disposal. The best is probably to build a list of the values you want and construct the DataFrame from there at the very end instead of trying to insert values one by one\r\n\r\nThat said, this is more of a usage question so you'd be better off asking this on a Q&A site like StackOverflow. This issue tracker is used for bug reports and enhancement requests"
+  }
+]

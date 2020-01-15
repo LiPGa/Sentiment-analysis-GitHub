@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/257859561",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14562#issuecomment-257859561",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14562",
+    "id": 257859561,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1Nzg1OTU2MQ==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-11-02T13:10:44Z",
+    "updated_at": "2016-11-02T13:10:44Z",
+    "author_association": "MEMBER",
+    "body": "Original comment of @jreback \n\n> I meant move ALL of this; the nanops do everything (based on dtype), are basically ufuncs per-dtype. Its ok for now if you want to merge (to fix the bug). But let's open a new issue to move this code. All of the rest of it is there (for other ops). We don't do very much inside the block managers, mainly just assemble blocks, actual calculations are pushed to other routines (numpy or pandas)\n\nThe reason that it is not just a copy paste, is that the current implementation makes use of the `_try_coerce_args`, `_na_value` and `_try_coerce_result` methods of the `Block`, which you have to replace (but there is also functionality for that in nanops).\n"
+  }
+]

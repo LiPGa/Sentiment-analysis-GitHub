@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/417351304",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14177#issuecomment-417351304",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14177",
+    "id": 417351304,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNzM1MTMwNA==",
+    "user": {
+      "login": "Dr-Irv",
+      "id": 15113894,
+      "node_id": "MDQ6VXNlcjE1MTEzODk0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15113894?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dr-Irv",
+      "html_url": "https://github.com/Dr-Irv",
+      "followers_url": "https://api.github.com/users/Dr-Irv/followers",
+      "following_url": "https://api.github.com/users/Dr-Irv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Dr-Irv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Dr-Irv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Dr-Irv/subscriptions",
+      "organizations_url": "https://api.github.com/users/Dr-Irv/orgs",
+      "repos_url": "https://api.github.com/users/Dr-Irv/repos",
+      "events_url": "https://api.github.com/users/Dr-Irv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Dr-Irv/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-30T15:00:39Z",
+    "updated_at": "2018-08-30T15:00:39Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "So I looked at the discussion in #13767 where @sinhrks had implemented the `union_categoricals=True` option to `pd.concat()`, and we need this option in our project.\r\n\r\nHere's the use case.  I have all the data sitting in a MySQL database.  There are columns that would be better handled as categorical columns.  We have a complex SQL join creating a simple 5 column table of 33 million rows.  3 of the columns should be categorical.  Reading the table from CSV, pandas takes 1.5GB, before converting the 3 columns to categories.  Reading the table using standard MySQL connectors and SQL alchemy takes 14.5GB.  There is an option to SQL Alchemy that causes the server to chunk the data, and that reduces the memory footprint to 6.5GB.  If I could then use the `chunksize` argument on `pd.read_sql()`, where I convert the 3 columns of each chunk to category dtype, and pass the resulting generator from `read_sql()` to `pd.concat()` with `union_categoricals=True`, then I could let the categories be dynamically defined as the data is read in from the SQL database.\r\n\r\nI'm willing to look at what @sinhrks did and make a PR so we can get the memory usage down, or maybe we can just have him put that functionality in a PR to support this use case.\r\n"
+  }
+]

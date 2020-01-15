@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/308720572",
+    "html_url": "https://github.com/grpc/grpc/issues/8739#issuecomment-308720572",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8739",
+    "id": 308720572,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwODcyMDU3Mg==",
+    "user": {
+      "login": "osechet",
+      "id": 462377,
+      "node_id": "MDQ6VXNlcjQ2MjM3Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/462377?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/osechet",
+      "html_url": "https://github.com/osechet",
+      "followers_url": "https://api.github.com/users/osechet/followers",
+      "following_url": "https://api.github.com/users/osechet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/osechet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/osechet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/osechet/subscriptions",
+      "organizations_url": "https://api.github.com/users/osechet/orgs",
+      "repos_url": "https://api.github.com/users/osechet/repos",
+      "events_url": "https://api.github.com/users/osechet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/osechet/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-06-15T12:51:51Z",
+    "updated_at": "2017-06-15T12:51:51Z",
+    "author_association": "NONE",
+    "body": "The problem is due to an `include_directories()` call in the zlib's `CMakeLists.txt`. It does:\r\n```\r\ninclude_directories(${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_SOURCE_DIR})\r\n```\r\nWhen building zlib alone, we get:\r\n```\r\n-I/path/to/build-zlib -I/path/to/grpc/third_party/zlib\r\n```\r\nBut when building grpc, it gives:\r\n```\r\n-I/path/to/build-grpc/third_party/zlib -I/path/to/grpc\r\n```\r\n\r\nThus it cannot find the `zlib.h` file.\r\n\r\nTo fix the issue, the `include_directories` should be changed to:\r\n```\r\ninclude_directories(${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_CURRENT_SOURCE_DIR})\r\n```\r\n\r\nThis issue is described in madler/zlib#218."
+  }
+]

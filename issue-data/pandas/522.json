@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5542167",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/522#issuecomment-5542167",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/522",
+    "id": 5542167,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1NDIxNjc=",
+    "user": {
+      "login": "changhiskhan",
+      "id": 759245,
+      "node_id": "MDQ6VXNlcjc1OTI0NQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/759245?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/changhiskhan",
+      "html_url": "https://github.com/changhiskhan",
+      "followers_url": "https://api.github.com/users/changhiskhan/followers",
+      "following_url": "https://api.github.com/users/changhiskhan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/changhiskhan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/changhiskhan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/changhiskhan/subscriptions",
+      "organizations_url": "https://api.github.com/users/changhiskhan/orgs",
+      "repos_url": "https://api.github.com/users/changhiskhan/repos",
+      "events_url": "https://api.github.com/users/changhiskhan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/changhiskhan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-07T00:27:20Z",
+    "updated_at": "2012-05-07T00:27:20Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looks like this has been fixed on master already.\n\nIn [8]: df = pandas.DataFrame([[1,2], [3,4], [numpy.nan,numpy.nan], [7,8], [9,10]], columns=['a', 'b'], index=[100.0, 101.0, numpy.nan, 102.0, 103.0])\n\nIn [9]: df\nOut[9]: \n       a   b\n 100   1   2\n 101   3   4\nNaN  NaN NaN\n 102   7   8\n 103   9  10\n\nIn [10]: \n\nIn [10]: df.reindex(index=[101.0, 102.0, 103.0])\nOut[10]: \n     a   b\n101  3   4\n102  7   8\n103  9  10\n\nIn [11]: df.reindex(index=[103.0])\nOut[11]: \n     a   b\n103  9  10\n\nIn [12]: df.reindex(index=[101.0])\nOut[12]: \n     a  b\n101  3  4\n"
+  }
+]

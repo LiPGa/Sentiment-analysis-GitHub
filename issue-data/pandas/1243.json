@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5804458",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1243#issuecomment-5804458",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1243",
+    "id": 5804458,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU4MDQ0NTg=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-19T20:15:34Z",
+    "updated_at": "2012-05-19T20:15:34Z",
+    "author_association": "MEMBER",
+    "body": "You spotted a bug that I fixed earlier today. This should have raised an exception:\n\n```\nIn [4]: a.apply(lambda x: int(x[0]), axis=1)\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\n/home/wesm/code/pandas/<ipython-input-4-77655858a2f4> in <module>()\n----> 1 a.apply(lambda x: int(x[0]), axis=1)\n\n/home/wesm/code/pandas/pandas/core/frame.pyc in apply(self, func, axis, broadcast, raw, args, **kwds)\n   3346                     return self._apply_raw(f, axis)\n   3347                 else:\n-> 3348                     return self._apply_standard(f, axis)\n   3349             else:\n   3350                 return self._apply_broadcast(f, axis)\n\n/home/wesm/code/pandas/pandas/core/frame.pyc in _apply_standard(self, func, axis, ignore_failures)\n   3401             try:\n   3402                 for k, v in series_gen:\n-> 3403                     results[k] = func(v)\n   3404             except Exception, e:\n   3405                 try:\n\n/home/wesm/code/pandas/<ipython-input-4-77655858a2f4> in <lambda>(x)\n----> 1 a.apply(lambda x: int(x[0]), axis=1)\n\nTypeError: (\"int() argument must be a string or a number, not 'NoneType'\", 'occurred at index 2')\n```\n\nI'm unsure about propagating NAs silently. Going to table it for future work\n"
+  }
+]

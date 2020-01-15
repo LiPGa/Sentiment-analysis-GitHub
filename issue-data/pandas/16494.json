@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/304008078",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16494#issuecomment-304008078",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16494",
+    "id": 304008078,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNDAwODA3OA==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-25T13:19:28Z",
+    "updated_at": "2017-05-25T13:19:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "From the traceback, this seems to be unrelated to pandas. You might try https://www.sqlalchemy.org/support.html, looks like they recommend the docs and StackOverflow as first stops."
+  }
+]

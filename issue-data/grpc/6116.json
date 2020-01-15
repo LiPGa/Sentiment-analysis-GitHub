@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/216969363",
+    "html_url": "https://github.com/grpc/grpc/issues/6116#issuecomment-216969363",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6116",
+    "id": 216969363,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNjk2OTM2Mw==",
+    "user": {
+      "login": "chrsmith",
+      "id": 4029847,
+      "node_id": "MDQ6VXNlcjQwMjk4NDc=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4029847?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrsmith",
+      "html_url": "https://github.com/chrsmith",
+      "followers_url": "https://api.github.com/users/chrsmith/followers",
+      "following_url": "https://api.github.com/users/chrsmith/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrsmith/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrsmith/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrsmith/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrsmith/orgs",
+      "repos_url": "https://api.github.com/users/chrsmith/repos",
+      "events_url": "https://api.github.com/users/chrsmith/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrsmith/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-05-04T19:08:03Z",
+    "updated_at": "2016-05-04T19:08:03Z",
+    "author_association": "NONE",
+    "body": "Another sample message that is unwanted:\n\n```\nD5/4/2016 12:06:00 PM 0 c:\\jenkins\\workspace\\gRPC_build_artifacts\\architecture\\x86\\language\\csharp\\platform\\windows\\vsprojects\\..\\src\\core\\transport\\chttp2_transport.c:698: got goaway [0]: 73 65 73 73 69 6f 6e 5f 74 69 6d 65 64 5f 6f 75 74 'session_timed_out'\n```\n"
+  }
+]

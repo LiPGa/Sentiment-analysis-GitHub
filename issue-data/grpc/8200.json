@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/252927439",
+    "html_url": "https://github.com/grpc/grpc/issues/8200#issuecomment-252927439",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8200",
+    "id": 252927439,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MjkyNzQzOQ==",
+    "user": {
+      "login": "drigz",
+      "id": 632207,
+      "node_id": "MDQ6VXNlcjYzMjIwNw==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/632207?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drigz",
+      "html_url": "https://github.com/drigz",
+      "followers_url": "https://api.github.com/users/drigz/followers",
+      "following_url": "https://api.github.com/users/drigz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drigz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drigz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drigz/subscriptions",
+      "organizations_url": "https://api.github.com/users/drigz/orgs",
+      "repos_url": "https://api.github.com/users/drigz/repos",
+      "events_url": "https://api.github.com/users/drigz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drigz/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-11T14:08:55Z",
+    "updated_at": "2016-10-11T14:08:55Z",
+    "author_association": "NONE",
+    "body": "I was able resolve the issue with:\n\n``` shell\nsudo apt-get install libgflags-dev\n```\n\nIs this the right solution, or should it be able to build from the copy in third_party?\n\nIf the former, should there be a [dep check in Makefile.template](https://github.com/grpc/grpc/blob/062ba7b8baefdc76f74fffb9aa3e2134ba047ea6/templates/Makefile.template#L745)?\n"
+  }
+]

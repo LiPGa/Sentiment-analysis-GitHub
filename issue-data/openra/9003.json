@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/137062652",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/9003#issuecomment-137062652",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/9003",
+    "id": 137062652,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNzA2MjY1Mg==",
+    "user": {
+      "login": "penev92",
+      "id": 7137365,
+      "node_id": "MDQ6VXNlcjcxMzczNjU=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7137365?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/penev92",
+      "html_url": "https://github.com/penev92",
+      "followers_url": "https://api.github.com/users/penev92/followers",
+      "following_url": "https://api.github.com/users/penev92/following{/other_user}",
+      "gists_url": "https://api.github.com/users/penev92/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/penev92/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/penev92/subscriptions",
+      "organizations_url": "https://api.github.com/users/penev92/orgs",
+      "repos_url": "https://api.github.com/users/penev92/repos",
+      "events_url": "https://api.github.com/users/penev92/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/penev92/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-02T12:46:35Z",
+    "updated_at": "2015-09-02T12:46:35Z",
+    "author_association": "MEMBER",
+    "body": "I will leave this issue closed as it was very specific, but the same problem is present with other structures, most noticeably the Temple of Nod.\n"
+  }
+]

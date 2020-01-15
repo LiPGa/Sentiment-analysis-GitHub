@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/19185896",
+    "html_url": "https://github.com/ipython/ipython/pull/3410#issuecomment-19185896",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3410",
+    "id": 19185896,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MTg1ODk2",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-06-10T08:20:48Z",
+    "updated_at": "2013-06-10T08:20:48Z",
+    "author_association": "MEMBER",
+    "body": "Hi, \n\nThis kind of modification have already been proposed in #2846 and the discussion there recap most of the reason we don't want to do it. If you find the action too deep in menu, it is not too hard to make a toolbar button that restart the kernel and run all cell in one click.\n\nI hope that when we will have time to refactor the keyboard stuff this would be monkey-patchable in `custom.js`\n\nI'm gooing to close, but we can still discuss and reopen if people have change their mind.\n\nThanks.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/12451083",
+    "html_url": "https://github.com/ipython/ipython/issues/2673#issuecomment-12451083",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2673",
+    "id": 12451083,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNDUxMDgz",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-01-19T06:06:28Z",
+    "updated_at": "2013-01-19T06:06:28Z",
+    "author_association": "MEMBER",
+    "body": "That part of traitlets is inherited from traits, so I don't think we should change it.  Plus, I think maybe someday getting the wrong article once in a while is not as bad as the sentence structure we would have to use every time to avoid articles.\n\nThanks for the thorough suggestion, though!\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/201224476",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10974#issuecomment-201224476",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10974",
+    "id": 201224476,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMTIyNDQ3Ng==",
+    "user": {
+      "login": "RoosterDragon",
+      "id": 3399086,
+      "node_id": "MDQ6VXNlcjMzOTkwODY=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3399086?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RoosterDragon",
+      "html_url": "https://github.com/RoosterDragon",
+      "followers_url": "https://api.github.com/users/RoosterDragon/followers",
+      "following_url": "https://api.github.com/users/RoosterDragon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RoosterDragon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RoosterDragon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RoosterDragon/subscriptions",
+      "organizations_url": "https://api.github.com/users/RoosterDragon/orgs",
+      "repos_url": "https://api.github.com/users/RoosterDragon/repos",
+      "events_url": "https://api.github.com/users/RoosterDragon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RoosterDragon/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-25T09:56:27Z",
+    "updated_at": "2016-03-25T09:56:27Z",
+    "author_association": "MEMBER",
+    "body": "Duplicate of #10338.\n"
+  }
+]

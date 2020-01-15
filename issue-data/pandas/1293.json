@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5973755",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1293#issuecomment-5973755",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1293",
+    "id": 5973755,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU5NzM3NTU=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-05-29T00:12:10Z",
+    "updated_at": "2012-05-29T00:12:10Z",
+    "author_association": "MEMBER",
+    "body": "It depends on the data set, actually. Take a look at this one:\n\n```\nN = 100000\nngroups = 100\n\ndef get_test_data(ngroups=100, n=N):\n    unique_groups = range(ngroups)\n    arr = np.asarray(np.tile(unique_groups, n / ngroups), dtype=object)\n\n    if len(arr) < n:\n        arr = np.asarray(list(arr) + unique_groups[:n - len(arr)],\n                         dtype=object)\n\n    random.shuffle(arr)\n    return arr\n\n# aggregate multiple columns\ndf = DataFrame({'key1' : get_test_data(ngroups=ngroups),\n                'key2' : get_test_data(ngroups=ngroups),\n                'data1' : np.random.randn(N),\n                'data2' : np.random.randn(N)})\n```\n\nand we have in the single-key case:\n\n```\nIn [11]: timeit df.groupby('key1').size()\n100 loops, best of 3: 7.92 ms per loop\n\nIn [12]: timeit df.groupby('key1').agg(len)\n10 loops, best of 3: 35.9 ms per loop\n\nIn [13]: timeit df.groupby('key1')['data1'].size()\n100 loops, best of 3: 7.74 ms per loop\n\nIn [14]: timeit df.groupby('key1')['data1'].agg(len)\n^[[A100 loops, best of 3: 9.11 ms per loop\n\nIn [15]: timeit df.groupby('key1')['data1'].agg(np.size)\n100 loops, best of 3: 9.08 ms per loop\n```\n\nAnd in the multi-key case:\n\n```\nIn [17]: timeit df.groupby(['key1', 'key2']).size()\n10 loops, best of 3: 22.4 ms per loop\n\nIn [18]: timeit df.groupby(['key1', 'key2']).agg(len)\n10 loops, best of 3: 33.8 ms per loop\n\nIn [19]: timeit df.groupby(['key1', 'key2'])['data1'].size()\n10 loops, best of 3: 22.6 ms per loop\n\nIn [20]: timeit df.groupby(['key1', 'key2'])['data1'].agg(len)\n10 loops, best of 3: 24.2 ms per loop\n\nIn [17]: timeit df.groupby(['key1', 'key2']).size()\n10 loops, best of 3: 22.4 ms per loop\n```\n\nThe issue with `.agg(len)` is that it requires chopping up the data set and producing intermediate objects, so you pay a much larger penalty.\n"
+  }
+]

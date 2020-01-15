@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/950221",
+    "html_url": "https://github.com/ipython/ipython/pull/331#issuecomment-950221",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/331",
+    "id": 950221,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk1MDIyMQ==",
+    "user": {
+      "login": "fperez",
+      "id": 57394,
+      "node_id": "MDQ6VXNlcjU3Mzk0",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57394?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fperez",
+      "html_url": "https://github.com/fperez",
+      "followers_url": "https://api.github.com/users/fperez/followers",
+      "following_url": "https://api.github.com/users/fperez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fperez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fperez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fperez/subscriptions",
+      "organizations_url": "https://api.github.com/users/fperez/orgs",
+      "repos_url": "https://api.github.com/users/fperez/repos",
+      "events_url": "https://api.github.com/users/fperez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fperez/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-04-03T02:41:12Z",
+    "updated_at": "2011-04-03T02:41:12Z",
+    "author_association": "MEMBER",
+    "body": "Go for it, this looks harmless enough.  And since Brian will be reworking the config stuff over the next few days, might as well have it pypy-ok so those guys can cleanly track our work and alert us of any incompatibilities.\n\nThanks, and also to @antocuni!\n\n@ellisonbg, just a heads-up that I think this is good to go as-is.  Remember to update off master for this small change any config work you might have; shouldn't cause any problems (famous last words :)\n"
+  }
+]

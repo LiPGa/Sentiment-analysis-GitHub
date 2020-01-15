@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/478003686",
+    "html_url": "https://github.com/grpc/grpc/issues/18299#issuecomment-478003686",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18299",
+    "id": 478003686,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODAwMzY4Ng==",
+    "user": {
+      "login": "novakmi",
+      "id": 3268450,
+      "node_id": "MDQ6VXNlcjMyNjg0NTA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3268450?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/novakmi",
+      "html_url": "https://github.com/novakmi",
+      "followers_url": "https://api.github.com/users/novakmi/followers",
+      "following_url": "https://api.github.com/users/novakmi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/novakmi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/novakmi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/novakmi/subscriptions",
+      "organizations_url": "https://api.github.com/users/novakmi/orgs",
+      "repos_url": "https://api.github.com/users/novakmi/repos",
+      "events_url": "https://api.github.com/users/novakmi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/novakmi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-29T13:47:56Z",
+    "updated_at": "2019-03-29T13:47:56Z",
+    "author_association": "NONE",
+    "body": "Using as workaroudn:\r\n`env CC=clang env CXXFLAGS=\"-Wno-tautological-compare -Wno-class-memaccess -Wno-ignored-qualifiers\" make `"
+  }
+]

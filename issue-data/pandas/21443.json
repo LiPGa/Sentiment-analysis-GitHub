@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/396703682",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21443#issuecomment-396703682",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21443",
+    "id": 396703682,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NjcwMzY4Mg==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-12T19:20:28Z",
+    "updated_at": "2018-06-12T19:20:28Z",
+    "author_association": "MEMBER",
+    "body": "Thanks!  I can confirm that this behavior is occurring on master.  Note that this isn't an issue specific to `Categorical` as a join key, as the same behavior occurs if you don't do the conversion to `Categorical`:\r\n```python\r\nIn [2]: pd.__version__\r\nOut[2]: '0.24.0.dev0+88.gdefdb34'\r\n\r\nIn [3]: df = pd.DataFrame([['A', 1],\r\n   ...:                    ['B', 2],\r\n   ...:                    ['B', 3],\r\n   ...:                    ['A', 4]], columns=['Col1', 'Col2'])\r\n   ...:\r\n\r\nIn [4]: pd.merge(df, df, on='Col1', how='inner')\r\nOut[4]:\r\n  Col1  Col2_x  Col2_y\r\n0    A       1       1\r\n1    A       1       4\r\n2    A       4       1\r\n3    A       4       4\r\n4    B       2       2\r\n5    B       2       3\r\n6    B       3       2\r\n7    B       3       3\r\n```\r\nAs such, this appears to be a duplicate of #18776"
+  }
+]

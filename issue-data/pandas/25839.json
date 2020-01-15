@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/478170118",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25839#issuecomment-478170118",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25839",
+    "id": 478170118,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3ODE3MDExOA==",
+    "user": {
+      "login": "dragoljub",
+      "id": 2701562,
+      "node_id": "MDQ6VXNlcjI3MDE1NjI=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2701562?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dragoljub",
+      "html_url": "https://github.com/dragoljub",
+      "followers_url": "https://api.github.com/users/dragoljub/followers",
+      "following_url": "https://api.github.com/users/dragoljub/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dragoljub/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dragoljub/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dragoljub/subscriptions",
+      "organizations_url": "https://api.github.com/users/dragoljub/orgs",
+      "repos_url": "https://api.github.com/users/dragoljub/repos",
+      "events_url": "https://api.github.com/users/dragoljub/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dragoljub/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-29T22:38:05Z",
+    "updated_at": "2019-03-29T22:38:05Z",
+    "author_association": "NONE",
+    "body": "@jreback any chance you can reproduce this slowness? It seems to happen with wide frames."
+  }
+]

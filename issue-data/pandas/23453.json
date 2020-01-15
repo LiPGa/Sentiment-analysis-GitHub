@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/435219819",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23453#issuecomment-435219819",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23453",
+    "id": 435219819,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTIxOTgxOQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-01T23:23:42Z",
+    "updated_at": "2018-11-01T23:23:42Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "From \r\nhttps://github.com/Microsoft/azure-pipelines-tasks/issues/1268#issuecomment-433056150\r\n\r\n```yaml\r\n- powershell: |\r\n    $junitXml = \"junit/unit-test.xml\"\r\n    $(Get-Content $junitXml | Out-String) -match 'failures=\"(.*?)\"'\r\n    if ($matches[1] -eq 0)\r\n    {\r\n      Write-Host \"No test failures\"\r\n    }\r\n    else\r\n    {\r\n      # note that this will produce $LASTEXITCODE=1\r\n      Write-Error \"$($matches[1]) tests failed\"\r\n    }\r\n  displayName: Check for test failures\r\n```\r\n\r\nwe'd need to change that to `test-data-single.xml` *and* `test-data-multi.xml` and exit with a failure if either of those contain failures *or* errors."
+  }
+]

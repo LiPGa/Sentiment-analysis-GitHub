@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/335079787",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17824#issuecomment-335079787",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17824",
+    "id": 335079787,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzNTA3OTc4Nw==",
+    "user": {
+      "login": "gfyoung",
+      "id": 9273653,
+      "node_id": "MDQ6VXNlcjkyNzM2NTM=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9273653?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gfyoung",
+      "html_url": "https://github.com/gfyoung",
+      "followers_url": "https://api.github.com/users/gfyoung/followers",
+      "following_url": "https://api.github.com/users/gfyoung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gfyoung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gfyoung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gfyoung/subscriptions",
+      "organizations_url": "https://api.github.com/users/gfyoung/orgs",
+      "repos_url": "https://api.github.com/users/gfyoung/repos",
+      "events_url": "https://api.github.com/users/gfyoung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gfyoung/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-10-09T07:09:13Z",
+    "updated_at": "2017-10-09T07:09:13Z",
+    "author_association": "MEMBER",
+    "body": "@jmwoloso : Thanks for reporting this!  `nosetests` is not recommended for running tests because we are using the `pytest` framework.  Give it a go with that tool first.\r\n\r\nAfterwards, I would suggest you ensure that you have your testing environment properly setup.  Sometimes local failures are due to machine differences (e.g. rounding precision), which are beyond our control in many cases.\r\n\r\nFinally, we do in fact have a test environment already for `3.6.3`, which you can find here:\r\n\r\nhttps://travis-ci.org/pandas-dev/pandas/jobs/285402021\r\n\r\nClosing as we do have this Python version covered.  However, we'll be happy to address further questions regarding your local setup if need be."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/457868391",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/16084#issuecomment-457868391",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16084",
+    "id": 457868391,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1Nzg2ODM5MQ==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-26T21:42:33Z",
+    "updated_at": "2019-01-26T21:42:33Z",
+    "author_association": "MEMBER",
+    "body": "https://github.com/OpenRA/OpenRA/wiki/Changelog/_compare/089f3e321f90f6713a99746fa9eb257dd9287bb0\r\n\r\n0df159e73ba9511167781281b19ff5cd009fff5c\r\na545b2e5fa97e1ce23c07eb8a3866fca5946bb31"
+  }
+]

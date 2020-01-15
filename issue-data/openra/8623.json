@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/118226190",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8623#issuecomment-118226190",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8623",
+    "id": 118226190,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExODIyNjE5MA==",
+    "user": {
+      "login": "Unit158",
+      "id": 706008,
+      "node_id": "MDQ6VXNlcjcwNjAwOA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/706008?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Unit158",
+      "html_url": "https://github.com/Unit158",
+      "followers_url": "https://api.github.com/users/Unit158/followers",
+      "following_url": "https://api.github.com/users/Unit158/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Unit158/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Unit158/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Unit158/subscriptions",
+      "organizations_url": "https://api.github.com/users/Unit158/orgs",
+      "repos_url": "https://api.github.com/users/Unit158/repos",
+      "events_url": "https://api.github.com/users/Unit158/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Unit158/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-03T04:04:33Z",
+    "updated_at": "2015-07-03T04:04:33Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is probably related to the fact that colour choice for the bots is ignored as well. (I can't find the pr)\n\nOn 2015-07-02, at 3:42 PM, abcdefg30 notifications@github.com wrote:\n\n> E.g. abcdefg30@6b393c3 gives me\n> \n> (I forced the Soviets team to 2 actually.)\n> \n> ―\n> Reply to this email directly or view it on GitHub.\n"
+  }
+]

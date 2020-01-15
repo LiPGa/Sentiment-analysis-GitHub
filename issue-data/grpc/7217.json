@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/241162144",
+    "html_url": "https://github.com/grpc/grpc/issues/7217#issuecomment-241162144",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7217",
+    "id": 241162144,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MTE2MjE0NA==",
+    "user": {
+      "login": "peterhuene",
+      "id": 509666,
+      "node_id": "MDQ6VXNlcjUwOTY2Ng==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/509666?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/peterhuene",
+      "html_url": "https://github.com/peterhuene",
+      "followers_url": "https://api.github.com/users/peterhuene/followers",
+      "following_url": "https://api.github.com/users/peterhuene/following{/other_user}",
+      "gists_url": "https://api.github.com/users/peterhuene/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/peterhuene/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/peterhuene/subscriptions",
+      "organizations_url": "https://api.github.com/users/peterhuene/orgs",
+      "repos_url": "https://api.github.com/users/peterhuene/repos",
+      "events_url": "https://api.github.com/users/peterhuene/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/peterhuene/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-19T23:50:45Z",
+    "updated_at": "2016-08-19T23:50:45Z",
+    "author_association": "NONE",
+    "body": "This appears fixed in 1.0.0.  Closing for now.\n"
+  }
+]

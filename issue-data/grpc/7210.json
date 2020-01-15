@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/364087327",
+    "html_url": "https://github.com/grpc/grpc/pull/7210#issuecomment-364087327",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7210",
+    "id": 364087327,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NDA4NzMyNw==",
+    "user": {
+      "login": "peihe",
+      "id": 10201797,
+      "node_id": "MDQ6VXNlcjEwMjAxNzk3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10201797?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/peihe",
+      "html_url": "https://github.com/peihe",
+      "followers_url": "https://api.github.com/users/peihe/followers",
+      "following_url": "https://api.github.com/users/peihe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/peihe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/peihe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/peihe/subscriptions",
+      "organizations_url": "https://api.github.com/users/peihe/orgs",
+      "repos_url": "https://api.github.com/users/peihe/repos",
+      "events_url": "https://api.github.com/users/peihe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/peihe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-08T11:44:25Z",
+    "updated_at": "2018-02-08T11:44:25Z",
+    "author_association": "NONE",
+    "body": "Any instructions on how to add a name resolver with zookeeper?\r\nIs there a way to compile the plugin separately, and dynamically load it from a grpc distribution? \r\n(we want to avoid maintain and re-compile the grpc)"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/52563639",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/8064#issuecomment-52563639",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/8064",
+    "id": 52563639,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUyNTYzNjM5",
+    "user": {
+      "login": "seth-p",
+      "id": 7441788,
+      "node_id": "MDQ6VXNlcjc0NDE3ODg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7441788?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/seth-p",
+      "html_url": "https://github.com/seth-p",
+      "followers_url": "https://api.github.com/users/seth-p/followers",
+      "following_url": "https://api.github.com/users/seth-p/following{/other_user}",
+      "gists_url": "https://api.github.com/users/seth-p/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/seth-p/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/seth-p/subscriptions",
+      "organizations_url": "https://api.github.com/users/seth-p/orgs",
+      "repos_url": "https://api.github.com/users/seth-p/repos",
+      "events_url": "https://api.github.com/users/seth-p/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/seth-p/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-08-18T22:18:09Z",
+    "updated_at": "2014-08-18T22:18:09Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "CCing @jaimefrio\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/431703678",
+    "html_url": "https://github.com/ipython/ipython/issues/11428#issuecomment-431703678",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11428",
+    "id": 431703678,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzMTcwMzY3OA==",
+    "user": {
+      "login": "asishm",
+      "id": 1978117,
+      "node_id": "MDQ6VXNlcjE5NzgxMTc=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1978117?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/asishm",
+      "html_url": "https://github.com/asishm",
+      "followers_url": "https://api.github.com/users/asishm/followers",
+      "following_url": "https://api.github.com/users/asishm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/asishm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/asishm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/asishm/subscriptions",
+      "organizations_url": "https://api.github.com/users/asishm/orgs",
+      "repos_url": "https://api.github.com/users/asishm/repos",
+      "events_url": "https://api.github.com/users/asishm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/asishm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-21T21:02:27Z",
+    "updated_at": "2018-10-21T21:02:27Z",
+    "author_association": "NONE",
+    "body": "NVM, my searching skills seem to be lacking.\r\n\r\nhttps://github.com/ipython/ipython/issues/11334"
+  }
+]

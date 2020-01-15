@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/38359351",
+    "html_url": "https://github.com/ipython/ipython/issues/5408#issuecomment-38359351",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5408",
+    "id": 38359351,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4MzU5MzUx",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-22T18:01:20Z",
+    "updated_at": "2014-03-22T18:01:20Z",
+    "author_association": "MEMBER",
+    "body": "I actually already wrote up a fix for this in the kernel, but ran right into #5407 when I did. We'll figure it out eventually.\n"
+  }
+]

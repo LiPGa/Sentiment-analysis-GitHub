@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/143688018",
+    "html_url": "https://github.com/ipython/ipython/issues/8835#issuecomment-143688018",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8835",
+    "id": 143688018,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0MzY4ODAxOA==",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-28T09:20:17Z",
+    "updated_at": "2015-09-28T09:20:17Z",
+    "author_association": "MEMBER",
+    "body": "@xiang-yu you may want to bring this up with matplotlib, since IPython isn't involved in any way. I was able to run your code without any problems, so it might also have to do with your latex installation.\n"
+  }
+]

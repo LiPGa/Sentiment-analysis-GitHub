@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/276725054",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15282#issuecomment-276725054",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15282",
+    "id": 276725054,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NjcyNTA1NA==",
+    "user": {
+      "login": "shoyer",
+      "id": 1217238,
+      "node_id": "MDQ6VXNlcjEyMTcyMzg=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1217238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shoyer",
+      "html_url": "https://github.com/shoyer",
+      "followers_url": "https://api.github.com/users/shoyer/followers",
+      "following_url": "https://api.github.com/users/shoyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shoyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shoyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shoyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/shoyer/orgs",
+      "repos_url": "https://api.github.com/users/shoyer/repos",
+      "events_url": "https://api.github.com/users/shoyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shoyer/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-02-01T17:35:58Z",
+    "updated_at": "2017-02-01T17:35:58Z",
+    "author_association": "MEMBER",
+    "body": "This was fixed a while ago, I think probably by https://github.com/pydata/xarray/issues/875 (in xarray v0.8.0)"
+  }
+]

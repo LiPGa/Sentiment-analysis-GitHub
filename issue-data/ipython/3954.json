@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/22311626",
+    "html_url": "https://github.com/ipython/ipython/issues/3954#issuecomment-22311626",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3954",
+    "id": 22311626,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMzExNjI2",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-08-08T09:14:04Z",
+    "updated_at": "2013-08-08T09:14:04Z",
+    "author_association": "MEMBER",
+    "body": "``` diff\ndiff --git a/IPython/html/static/notebook/js/completer.js b/IPython/html/static/notebook/js/completer.js\nindex 5386a4a..7f257dc 100644\n--- a/IPython/html/static/notebook/js/completer.js\n+++ b/IPython/html/static/notebook/js/completer.js\n@@ -102,7 +101,7 @@ var IPython = (function (IPython) {\n\n         // we need to check that we are still on a word boundary\n         // because while typing the completer is still reinvoking itself\n-        if (!/[0-9a-z._/\\\\:~-]/i.test(pre_cursor)) {\n+        if (!/[%0-9a-z._/\\\\:~-]/i.test(pre_cursor)) {\n             this.close();\n             return;\n```\n"
+  }
+]

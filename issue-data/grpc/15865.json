@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/400135560",
+    "html_url": "https://github.com/grpc/grpc/issues/15865#issuecomment-400135560",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15865",
+    "id": 400135560,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMDEzNTU2MA==",
+    "user": {
+      "login": "ZhouyihaiDing",
+      "id": 28968539,
+      "node_id": "MDQ6VXNlcjI4OTY4NTM5",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/28968539?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ZhouyihaiDing",
+      "html_url": "https://github.com/ZhouyihaiDing",
+      "followers_url": "https://api.github.com/users/ZhouyihaiDing/followers",
+      "following_url": "https://api.github.com/users/ZhouyihaiDing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ZhouyihaiDing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ZhouyihaiDing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ZhouyihaiDing/subscriptions",
+      "organizations_url": "https://api.github.com/users/ZhouyihaiDing/orgs",
+      "repos_url": "https://api.github.com/users/ZhouyihaiDing/repos",
+      "events_url": "https://api.github.com/users/ZhouyihaiDing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ZhouyihaiDing/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-26T00:18:03Z",
+    "updated_at": "2018-06-26T00:35:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "`package.xml` should have two `*.h` files, while it doesn't.\r\nI am trying to find out why buildgen doesn't generate those 2 header files from the template.\r\n\r\nPHP package contains all files included inside `package.xml`, which doesn't have those 2 files. In distribtest, it untars the package and tries to build without them."
+  }
+]

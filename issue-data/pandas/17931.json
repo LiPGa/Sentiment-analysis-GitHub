@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/366772176",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/17931#issuecomment-366772176",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/17931",
+    "id": 366772176,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2Njc3MjE3Ng==",
+    "user": {
+      "login": "chris-b1",
+      "id": 1924092,
+      "node_id": "MDQ6VXNlcjE5MjQwOTI=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1924092?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-b1",
+      "html_url": "https://github.com/chris-b1",
+      "followers_url": "https://api.github.com/users/chris-b1/followers",
+      "following_url": "https://api.github.com/users/chris-b1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-b1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-b1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-b1/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-b1/orgs",
+      "repos_url": "https://api.github.com/users/chris-b1/repos",
+      "events_url": "https://api.github.com/users/chris-b1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-b1/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-02-19T18:29:28Z",
+    "updated_at": "2018-02-19T18:29:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "copying my comment from #19771\r\n\r\nThere is a fundamental problem of a leaky internal detail - default sort puts missing data in the last position, but the integer coding backing a MultiIndex uses -1, so to be properly lexsorted, NA must be in the first position.\r\n"
+  }
+]

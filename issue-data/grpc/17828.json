@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/459062617",
+    "html_url": "https://github.com/grpc/grpc/issues/17828#issuecomment-459062617",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17828",
+    "id": 459062617,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1OTA2MjYxNw==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-30T18:49:41Z",
+    "updated_at": "2019-01-30T18:49:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "From the compile log, the command executed [here](https://github.com/gaoshun/errorlog/blob/master/make.log#L1836) is \"false\", which indicates the linker or some other command isn't being produced correctly by your buildtool.\r\n\r\nI hadn't heard of buildroot (https://buildroot.org/downloads/manual/manual.html#_infrastructure_for_python_packages) prior to this question, and I don't think anyone on gRPC team has expertise on building python via buildroot. The grpc-io mailing list would be a more appropriate place to ask this question, and it's likely to be seen by a broader audience who might be able to help: https://groups.google.com/forum/#!forum/grpc-io"
+  }
+]

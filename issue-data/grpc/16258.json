@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/413957551",
+    "html_url": "https://github.com/grpc/grpc/issues/16258#issuecomment-413957551",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/16258",
+    "id": 413957551,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMzk1NzU1MQ==",
+    "user": {
+      "login": "muxi",
+      "id": 1054404,
+      "node_id": "MDQ6VXNlcjEwNTQ0MDQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1054404?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/muxi",
+      "html_url": "https://github.com/muxi",
+      "followers_url": "https://api.github.com/users/muxi/followers",
+      "following_url": "https://api.github.com/users/muxi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/muxi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/muxi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/muxi/subscriptions",
+      "organizations_url": "https://api.github.com/users/muxi/orgs",
+      "repos_url": "https://api.github.com/users/muxi/repos",
+      "events_url": "https://api.github.com/users/muxi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/muxi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-17T18:51:38Z",
+    "updated_at": "2018-08-17T18:51:38Z",
+    "author_association": "MEMBER",
+    "body": "We likely will not have the resource for making such an example for now, but a good resource for this is the [local SSL interop test](https://github.com/grpc/grpc/blob/master/src/objective-c/tests/InteropTestsLocalSSL.m#L54) which does exactly that. The server side for this test is at https://github.com/grpc/grpc/tree/master/test/cpp/interop.\r\n\r\nI'll close the issue for now until an example is indeed needed."
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/126043425",
+    "html_url": "https://github.com/ipython/ipython/issues/8636#issuecomment-126043425",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8636",
+    "id": 126043425,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNjA0MzQyNQ==",
+    "user": {
+      "login": "jefsayshi",
+      "id": 12189393,
+      "node_id": "MDQ6VXNlcjEyMTg5Mzkz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12189393?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jefsayshi",
+      "html_url": "https://github.com/jefsayshi",
+      "followers_url": "https://api.github.com/users/jefsayshi/followers",
+      "following_url": "https://api.github.com/users/jefsayshi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jefsayshi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jefsayshi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jefsayshi/subscriptions",
+      "organizations_url": "https://api.github.com/users/jefsayshi/orgs",
+      "repos_url": "https://api.github.com/users/jefsayshi/repos",
+      "events_url": "https://api.github.com/users/jefsayshi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jefsayshi/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-29T18:06:18Z",
+    "updated_at": "2015-07-29T18:06:18Z",
+    "author_association": "NONE",
+    "body": "Closing and moving to ipywidgets repository:\nhttps://github.com/ipython/ipywidgets/issues/106\n"
+  }
+]

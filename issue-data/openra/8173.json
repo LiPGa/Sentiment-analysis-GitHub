@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/102600440",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/8173#issuecomment-102600440",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/8173",
+    "id": 102600440,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMjYwMDQ0MA==",
+    "user": {
+      "login": "pchote",
+      "id": 167819,
+      "node_id": "MDQ6VXNlcjE2NzgxOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/167819?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pchote",
+      "html_url": "https://github.com/pchote",
+      "followers_url": "https://api.github.com/users/pchote/followers",
+      "following_url": "https://api.github.com/users/pchote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pchote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pchote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pchote/subscriptions",
+      "organizations_url": "https://api.github.com/users/pchote/orgs",
+      "repos_url": "https://api.github.com/users/pchote/repos",
+      "events_url": "https://api.github.com/users/pchote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pchote/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-05-16T10:04:53Z",
+    "updated_at": "2015-05-16T10:04:53Z",
+    "author_association": "MEMBER",
+    "body": "Sorry, but we don't support the DOS version assets.  Please install the C&C95 assets, or use the ingame download option.\n"
+  }
+]

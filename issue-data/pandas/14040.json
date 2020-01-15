@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/240980354",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14040#issuecomment-240980354",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14040",
+    "id": 240980354,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MDk4MDM1NA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-19T10:08:21Z",
+    "updated_at": "2016-08-19T10:08:36Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "fixed by #13170 and will be in 0.19.0, coming soon. (it also preserves the dtype of the join keys)\n\n```\nIn [39]: pd.__version__\nOut[39]: '0.18.1+379.g5c955cb'\n\nIn [40]: df1\nOut[40]: \n   a  b  c\n0  0  1  2\n1  3  4  5\n2  6  7  8\n\nIn [41]: df3\nOut[41]: \n    a   d\n2  20  21\n3  22  23\n4  24  25\n\nIn [42]: pd.concat([df1, df3], axis=1, join='inner')\nOut[42]: \n   a  b  c   a   d\n2  6  7  8  20  21\n```\n"
+  }
+]

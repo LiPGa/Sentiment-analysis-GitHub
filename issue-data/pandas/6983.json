@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/41511156",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/6983#issuecomment-41511156",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6983",
+    "id": 41511156,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxNTExMTU2",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-04-27T22:15:28Z",
+    "updated_at": "2014-04-27T22:15:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "```\n-------------------------------------------------------------------------------\nTest name                                    | head[ms] | base[ms] |  ratio   |\n-------------------------------------------------------------------------------\npackers_read_pickle                          | 446.7856 | 2399.6547 |   0.1862 |\npackers_write_pickle                         | 784.3113 | 800.6363 |   0.9796 |\n-------------------------------------------------------------------------------\nTest name                                    | head[ms] | base[ms] |  ratio   |\n-------------------------------------------------------------------------------\n\nRatio < 1.0 means the target commit is faster then the baseline.\nSeed used: 1234\n\nTarget [0e90ef4] : PERF: improved performance of compatible pickles (GH6899)\nBase   [951f055] : Merge pull request #6986 from jreback/warnings2\n```\n\nCOMPAT: remove deprecated optinos from printing in test suite (GH6984)\n"
+  }
+]

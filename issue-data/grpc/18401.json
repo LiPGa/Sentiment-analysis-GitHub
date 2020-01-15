@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/474029177",
+    "html_url": "https://github.com/grpc/grpc/pull/18401#issuecomment-474029177",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/18401",
+    "id": 474029177,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NDAyOTE3Nw==",
+    "user": {
+      "login": "AspirinSJL",
+      "id": 3314176,
+      "node_id": "MDQ6VXNlcjMzMTQxNzY=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3314176?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AspirinSJL",
+      "html_url": "https://github.com/AspirinSJL",
+      "followers_url": "https://api.github.com/users/AspirinSJL/followers",
+      "following_url": "https://api.github.com/users/AspirinSJL/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AspirinSJL/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AspirinSJL/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AspirinSJL/subscriptions",
+      "organizations_url": "https://api.github.com/users/AspirinSJL/orgs",
+      "repos_url": "https://api.github.com/users/AspirinSJL/repos",
+      "events_url": "https://api.github.com/users/AspirinSJL/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AspirinSJL/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-18T17:49:49Z",
+    "updated_at": "2019-03-18T17:49:49Z",
+    "author_association": "MEMBER",
+    "body": "Basic Tests MacOS [dbg] (internal CI): https://github.com/grpc/grpc/issues/16392\r\nBasic Tests MacOS [opt] (internal CI): https://github.com/grpc/grpc/issues/16392\r\nInterop ALTS Tests (internal CI): https://github.com/grpc/grpc/issues/18111\r\nInterop Cloud-to-Cloud Tests (internal CI): https://github.com/grpc/grpc/issues/18404\r\nInterop Cloud-to-Prod Tests (internal CI): https://github.com/grpc/grpc/issues/18404\r\nTsan C++ (internal CI): https://github.com/grpc/grpc/issues/18142"
+  }
+]

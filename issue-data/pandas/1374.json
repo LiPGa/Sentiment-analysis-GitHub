@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/6087140",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1374#issuecomment-6087140",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1374",
+    "id": 6087140,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYwODcxNDA=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-06-03T17:11:58Z",
+    "updated_at": "2012-06-03T17:11:58Z",
+    "author_association": "MEMBER",
+    "body": "I put in a number of assorted hacks to make `icol` and `irow` work with duplicates. Will need to review the code at some point in the future to see if it's possible to clean up a bit more. \n"
+  }
+]

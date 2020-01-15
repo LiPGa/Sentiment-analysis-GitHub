@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/110620793",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/10323#issuecomment-110620793",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/10323",
+    "id": 110620793,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMDYyMDc5Mw==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-06-10T06:58:28Z",
+    "updated_at": "2015-06-10T06:58:28Z",
+    "author_association": "MEMBER",
+    "body": "This is already fixed in master (https://github.com/pydata/pandas/commit/03a39d9ca39b9d0b652b673d25736bce9d0e1b59). But thanks for the report!\n"
+  }
+]

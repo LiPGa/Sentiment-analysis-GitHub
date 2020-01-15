@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/239607631",
+    "html_url": "https://github.com/grpc/grpc/pull/7683#issuecomment-239607631",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/7683",
+    "id": 239607631,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzOTYwNzYzMQ==",
+    "user": {
+      "login": "dapengzhang0",
+      "id": 4779759,
+      "node_id": "MDQ6VXNlcjQ3Nzk3NTk=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4779759?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dapengzhang0",
+      "html_url": "https://github.com/dapengzhang0",
+      "followers_url": "https://api.github.com/users/dapengzhang0/followers",
+      "following_url": "https://api.github.com/users/dapengzhang0/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dapengzhang0/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dapengzhang0/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dapengzhang0/subscriptions",
+      "organizations_url": "https://api.github.com/users/dapengzhang0/orgs",
+      "repos_url": "https://api.github.com/users/dapengzhang0/repos",
+      "events_url": "https://api.github.com/users/dapengzhang0/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dapengzhang0/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-13T07:27:52Z",
+    "updated_at": "2016-08-13T07:27:52Z",
+    "author_association": "MEMBER",
+    "body": "Close this PR as the other PR #7697 is more informative\n"
+  }
+]

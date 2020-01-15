@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/333259342",
+    "html_url": "https://github.com/ipython/ipython/issues/10843#issuecomment-333259342",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/10843",
+    "id": 333259342,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMzI1OTM0Mg==",
+    "user": {
+      "login": "wjehenddher",
+      "id": 5215870,
+      "node_id": "MDQ6VXNlcjUyMTU4NzA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5215870?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wjehenddher",
+      "html_url": "https://github.com/wjehenddher",
+      "followers_url": "https://api.github.com/users/wjehenddher/followers",
+      "following_url": "https://api.github.com/users/wjehenddher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wjehenddher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wjehenddher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wjehenddher/subscriptions",
+      "organizations_url": "https://api.github.com/users/wjehenddher/orgs",
+      "repos_url": "https://api.github.com/users/wjehenddher/repos",
+      "events_url": "https://api.github.com/users/wjehenddher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wjehenddher/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-09-29T23:10:00Z",
+    "updated_at": "2017-09-29T23:10:00Z",
+    "author_association": "NONE",
+    "body": "Seems like this would do the trick if one needs to load content but not from URL and present it in a safe IFrame. However, I haven't tried it.\r\n\r\n@rschroll\r\nhttps://github.com/thedataincubator/ihtml\r\n\r\n"
+  }
+]

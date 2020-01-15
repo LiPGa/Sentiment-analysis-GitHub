@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/427645094",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/15679#issuecomment-427645094",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15679",
+    "id": 427645094,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNzY0NTA5NA==",
+    "user": {
+      "login": "MustaphaTR",
+      "id": 7933210,
+      "node_id": "MDQ6VXNlcjc5MzMyMTA=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7933210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MustaphaTR",
+      "html_url": "https://github.com/MustaphaTR",
+      "followers_url": "https://api.github.com/users/MustaphaTR/followers",
+      "following_url": "https://api.github.com/users/MustaphaTR/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MustaphaTR/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MustaphaTR/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MustaphaTR/subscriptions",
+      "organizations_url": "https://api.github.com/users/MustaphaTR/orgs",
+      "repos_url": "https://api.github.com/users/MustaphaTR/repos",
+      "events_url": "https://api.github.com/users/MustaphaTR/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MustaphaTR/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-07T11:15:07Z",
+    "updated_at": "2018-10-07T11:15:07Z",
+    "author_association": "MEMBER",
+    "body": "[Changelog](https://github.com/OpenRA/OpenRA/wiki/Changelog-(bleed)/_compare/626874a165f81c9c74789c73d454f7ffe35d7e3b...aed74932c8f64dc81ebd8bc0ecd57ab828273f4d)"
+  }
+]

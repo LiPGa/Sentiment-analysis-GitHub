@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/342724512",
+    "html_url": "https://github.com/grpc/grpc/issues/13249#issuecomment-342724512",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/13249",
+    "id": 342724512,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MjcyNDUxMg==",
+    "user": {
+      "login": "suhacen",
+      "id": 15252127,
+      "node_id": "MDQ6VXNlcjE1MjUyMTI3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15252127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/suhacen",
+      "html_url": "https://github.com/suhacen",
+      "followers_url": "https://api.github.com/users/suhacen/followers",
+      "following_url": "https://api.github.com/users/suhacen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/suhacen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/suhacen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/suhacen/subscriptions",
+      "organizations_url": "https://api.github.com/users/suhacen/orgs",
+      "repos_url": "https://api.github.com/users/suhacen/repos",
+      "events_url": "https://api.github.com/users/suhacen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/suhacen/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-11-08T06:36:59Z",
+    "updated_at": "2017-11-08T06:36:59Z",
+    "author_association": "NONE",
+    "body": "don't know why, but when I remove \"-lgrpc++_reflection\" from the demo Makefile, it works."
+  }
+]

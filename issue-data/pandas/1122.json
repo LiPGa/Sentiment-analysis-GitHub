@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/5327598",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1122#issuecomment-5327598",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1122",
+    "id": 5327598,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzMjc1OTg=",
+    "user": {
+      "login": "gerigk",
+      "id": 1327168,
+      "node_id": "MDQ6VXNlcjEzMjcxNjg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1327168?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gerigk",
+      "html_url": "https://github.com/gerigk",
+      "followers_url": "https://api.github.com/users/gerigk/followers",
+      "following_url": "https://api.github.com/users/gerigk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gerigk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gerigk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gerigk/subscriptions",
+      "organizations_url": "https://api.github.com/users/gerigk/orgs",
+      "repos_url": "https://api.github.com/users/gerigk/repos",
+      "events_url": "https://api.github.com/users/gerigk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gerigk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-04-25T09:42:23Z",
+    "updated_at": "2012-04-25T09:42:23Z",
+    "author_association": "NONE",
+    "body": "I just noticed that this is nonsense since in this self-contained example I am grouping by [0,1] instead of [0] and therefore shift is applied on each element and logically returns NaN.\nI will dive back into my example and try to spot where the error really came from. Sorry for that.\n"
+  }
+]

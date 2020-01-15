@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/272244031",
+    "html_url": "https://github.com/grpc/grpc/issues/9200#issuecomment-272244031",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/9200",
+    "id": 272244031,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MjI0NDAzMQ==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-01-12T18:35:28Z",
+    "updated_at": "2017-01-12T18:35:28Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "@aaron-lim though there's no API for examining the client cert in the server app's code, SSL/TLS client auth is supported.\r\n\r\nThis can be done by creating the proper `GRPC::Core::Credentials` object and passing it to your client stub's constructor.\r\n\r\nhttp://www.grpc.io/docs/guides/auth.html gives some example usage of the `GRPC::Core::Credentials` object for server auth.\r\n\r\nFor client auth, e.g. you could pass not only the root certs pem string to the constructor but also a private key and cert chain for the client to use.\r\n\r\nSome documentation pulled from the comment above the `Credentials`  (native) constructor implementation:\r\n```\r\n/*\r\n  call-seq:\r\n    creds1 = Credentials.new()\r\n    ...\r\n    creds2 = Credentials.new(pem_root_certs)\r\n    ...\r\n    creds3 = Credentials.new(pem_root_certs, pem_private_key,\r\n                             pem_cert_chain)\r\n    pem_root_certs: (optional) PEM encoding of the server root certificate\r\n    pem_private_key: (optional) PEM encoding of the client's private key\r\n    pem_cert_chain: (optional) PEM encoding of the client's cert chain\r\n```\r\n\r\ndoes this fit your use case?"
+  }
+]

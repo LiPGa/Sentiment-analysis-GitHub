@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/403212350",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21784#issuecomment-403212350",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21784",
+    "id": 403212350,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwMzIxMjM1MA==",
+    "user": {
+      "login": "datapythonista",
+      "id": 10058240,
+      "node_id": "MDQ6VXNlcjEwMDU4MjQw",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10058240?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/datapythonista",
+      "html_url": "https://github.com/datapythonista",
+      "followers_url": "https://api.github.com/users/datapythonista/followers",
+      "following_url": "https://api.github.com/users/datapythonista/following{/other_user}",
+      "gists_url": "https://api.github.com/users/datapythonista/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/datapythonista/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/datapythonista/subscriptions",
+      "organizations_url": "https://api.github.com/users/datapythonista/orgs",
+      "repos_url": "https://api.github.com/users/datapythonista/repos",
+      "events_url": "https://api.github.com/users/datapythonista/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/datapythonista/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-07-07T12:30:17Z",
+    "updated_at": "2018-07-07T12:30:17Z",
+    "author_association": "MEMBER",
+    "body": "+1\r\n\r\nI thought on this too. Not sure if there are more things that would benefit from a definition to have a glossary page in the doc."
+  }
+]

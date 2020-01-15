@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/390429733",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/21135#issuecomment-390429733",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21135",
+    "id": 390429733,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDQyOTczMw==",
+    "user": {
+      "login": "chalmerlowe",
+      "id": 7291104,
+      "node_id": "MDQ6VXNlcjcyOTExMDQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7291104?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chalmerlowe",
+      "html_url": "https://github.com/chalmerlowe",
+      "followers_url": "https://api.github.com/users/chalmerlowe/followers",
+      "following_url": "https://api.github.com/users/chalmerlowe/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chalmerlowe/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chalmerlowe/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chalmerlowe/subscriptions",
+      "organizations_url": "https://api.github.com/users/chalmerlowe/orgs",
+      "repos_url": "https://api.github.com/users/chalmerlowe/repos",
+      "events_url": "https://api.github.com/users/chalmerlowe/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chalmerlowe/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-19T20:13:41Z",
+    "updated_at": "2018-05-19T20:13:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "i did some looking at how to `git` rid of (pun intended) a bunch of the changes that are cluttering up the works.\r\nthink I am gonna just close this, try to submit a new pull request starting with a clean slate.\r\nSee PR #21138 "
+  }
+]

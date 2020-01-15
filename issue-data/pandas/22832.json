@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/427916802",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22832#issuecomment-427916802",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22832",
+    "id": 427916802,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyNzkxNjgwMg==",
+    "user": {
+      "login": "jolespin",
+      "id": 9061708,
+      "node_id": "MDQ6VXNlcjkwNjE3MDg=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9061708?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jolespin",
+      "html_url": "https://github.com/jolespin",
+      "followers_url": "https://api.github.com/users/jolespin/followers",
+      "following_url": "https://api.github.com/users/jolespin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jolespin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jolespin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jolespin/subscriptions",
+      "organizations_url": "https://api.github.com/users/jolespin/orgs",
+      "repos_url": "https://api.github.com/users/jolespin/repos",
+      "events_url": "https://api.github.com/users/jolespin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jolespin/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-08T17:29:21Z",
+    "updated_at": "2018-10-08T17:29:45Z",
+    "author_association": "NONE",
+    "body": "I ended up doing this a quick fix for version stability.  I wasn't sure what the problem was at first from the error message.  I ended up doing this which is compatible with both versions:\r\n\r\n## pandas v0.23.4\r\n```python\r\n >>> pd.__version__\r\n'0.23.4'\r\n>>> index_categorical = pd.Index([*map(frozenset, index)], dtype=\"category\")\r\n>>> dict(index_categorical[0])\r\n{'criterion': 'gini', 'max_features': 'log2', 'min_samples_leaf': 1}\r\n```\r\n## pandas v0.22.0\r\n```python\r\n >>> pd.__version__\r\n'0.22.0'\r\n>>> index_categorical = pd.Index([*map(frozenset, index)], dtype=\"category\")\r\n>>> dict(index_categorical[0])\r\n{'min_samples_leaf': 1, 'criterion': 'gini', 'max_features': 'log2'}\r\n```"
+  }
+]

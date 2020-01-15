@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/354525079",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/18983#issuecomment-354525079",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/18983",
+    "id": 354525079,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1NDUyNTA3OQ==",
+    "user": {
+      "login": "jorisvandenbossche",
+      "id": 1020496,
+      "node_id": "MDQ6VXNlcjEwMjA0OTY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1020496?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jorisvandenbossche",
+      "html_url": "https://github.com/jorisvandenbossche",
+      "followers_url": "https://api.github.com/users/jorisvandenbossche/followers",
+      "following_url": "https://api.github.com/users/jorisvandenbossche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jorisvandenbossche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jorisvandenbossche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jorisvandenbossche/subscriptions",
+      "organizations_url": "https://api.github.com/users/jorisvandenbossche/orgs",
+      "repos_url": "https://api.github.com/users/jorisvandenbossche/repos",
+      "events_url": "https://api.github.com/users/jorisvandenbossche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jorisvandenbossche/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-12-30T03:36:09Z",
+    "updated_at": "2017-12-30T03:36:09Z",
+    "author_association": "MEMBER",
+    "body": "@TomAugspurger Did you already tag? If not: should we add some language on that we recommend people not to use / support 0.21 ? \r\nEg if you have a library, show how you can specify that it is works with older and more recent versions but not 0.21 in `install_requires` specification."
+  }
+]

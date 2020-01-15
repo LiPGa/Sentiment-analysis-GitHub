@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/448990468",
+    "html_url": "https://github.com/grpc/grpc/issues/17201#issuecomment-448990468",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17201",
+    "id": 448990468,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0ODk5MDQ2OA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-12-20T12:56:34Z",
+    "updated_at": "2018-12-20T12:56:34Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I re-ran the query and the `streaming_from_client` scenarios don't seem to be flaky anymore:\r\nhere is the stats over last 7 days:\r\nhttps://docs.google.com/spreadsheets/d/1SW3k4ROoHFRfZNvtyPI5urrmBoaxlzjqXKbhMJ6mmR4/edit#gid=1239259815\r\n\r\n"
+  }
+]

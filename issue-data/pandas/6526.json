@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/36510254",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/6526#issuecomment-36510254",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6526",
+    "id": 36510254,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NTEwMjU0",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-03-03T13:37:53Z",
+    "updated_at": "2014-03-03T13:37:53Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This is already fixed in master (has to do with the selection and not the creation).\n\nBut this is never a good idea, keeping an ndarray INSIDE a frame. completely inefficient. don't do it.\n\n```\nIn [1]:  mytable = pd.DataFrame(data={'data':[np.array([1,2,3])]}, index=None, columns=None, dtype=object, copy=False)\n\nIn [2]: mytable.iloc[0][0]\nOut[2]: array([1, 2, 3])\n```\n"
+  }
+]

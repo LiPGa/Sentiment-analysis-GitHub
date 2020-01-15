@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/13602310",
+    "html_url": "https://github.com/ipython/ipython/issues/2935#issuecomment-13602310",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/2935",
+    "id": 13602310,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNjAyMzEw",
+    "user": {
+      "login": "mcooganj",
+      "id": 2217281,
+      "node_id": "MDQ6VXNlcjIyMTcyODE=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2217281?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mcooganj",
+      "html_url": "https://github.com/mcooganj",
+      "followers_url": "https://api.github.com/users/mcooganj/followers",
+      "following_url": "https://api.github.com/users/mcooganj/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mcooganj/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mcooganj/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mcooganj/subscriptions",
+      "organizations_url": "https://api.github.com/users/mcooganj/orgs",
+      "repos_url": "https://api.github.com/users/mcooganj/repos",
+      "events_url": "https://api.github.com/users/mcooganj/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mcooganj/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-02-15T11:20:24Z",
+    "updated_at": "2013-02-15T11:20:24Z",
+    "author_association": "NONE",
+    "body": "resolved by the following: \n\n$ brew uninstall python\nsudo rm -R ../python2.7/\ndownloading and installing setuptools egg\n$ brew install python --framework\n"
+  }
+]

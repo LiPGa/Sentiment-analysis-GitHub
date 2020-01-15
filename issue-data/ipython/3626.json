@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/20920053",
+    "html_url": "https://github.com/ipython/ipython/pull/3626#issuecomment-20920053",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3626",
+    "id": 20920053,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwOTIwMDUz",
+    "user": {
+      "login": "ivanov",
+      "id": 118211,
+      "node_id": "MDQ6VXNlcjExODIxMQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/118211?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ivanov",
+      "html_url": "https://github.com/ivanov",
+      "followers_url": "https://api.github.com/users/ivanov/followers",
+      "following_url": "https://api.github.com/users/ivanov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ivanov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ivanov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ivanov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ivanov/orgs",
+      "repos_url": "https://api.github.com/users/ivanov/repos",
+      "events_url": "https://api.github.com/users/ivanov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ivanov/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-07-13T13:43:27Z",
+    "updated_at": "2013-07-13T13:43:27Z",
+    "author_association": "MEMBER",
+    "body": "the reporter of #3625 tested this fix and verifed that it works\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/475126898",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/25814#issuecomment-475126898",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/25814",
+    "id": 475126898,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NTEyNjg5OA==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-03-21T06:44:23Z",
+    "updated_at": "2019-03-21T06:44:23Z",
+    "author_association": "MEMBER",
+    "body": "Thanks for the report.  I can confirm that this is broken on master:\r\n\r\n```python\r\nIn [1]: import numpy as np; import pandas as pd; pd.__version__\r\nOut[1]: '0.25.0.dev0+294.gfbe252333'\r\n\r\nIn [2]: df = pd.DataFrame({\"A\":[1, 1, 2, 2], \"B\":[1,2,3,4]}) \r\n   ...: df['C'] = pd.cut(df['A'],[0,2]) \r\n   ...: df\r\nOut[2]: \r\n   A  B       C\r\n0  1  1  (0, 2]\r\n1  1  2  (0, 2]\r\n2  2  3  (0, 2]\r\n3  2  4  (0, 2]\r\n\r\nIn [3]: df.pivot_table(index='C', values='B', aggfunc=np.sum)\r\n---------------------------------------------------------------------------\r\nTypeError: cannot determine next label for type <class 'str'>\r\n```\r\n\r\nInterestingly, this works when `df['C']` is a plain `IntervalArray`:\r\n```python\r\nIn [4]: df['C'] = pd.arrays.IntervalArray([pd.Interval(0, 2)] * 4)\r\n   ...: df\r\nOut[4]: \r\n   A  B       C\r\n0  1  1  (0, 2]\r\n1  1  2  (0, 2]\r\n2  2  3  (0, 2]\r\n3  2  4  (0, 2]\r\n\r\nIn [5]: df.pivot_table(index='C', values='B', aggfunc=np.sum)\r\nOut[5]: \r\n         B\r\nC         \r\n(0, 2]  10\r\n```\r\n\r\nI can also confirm that this worked on 0.23.4:\r\n```python\r\nIn [1]: import numpy as np; import pandas as pd; pd.__version__\r\nOut[1]: '0.23.4'\r\n\r\nIn [2]: df = pd.DataFrame({\"A\":[1, 1, 2, 2], \"B\":[1,2,3,4]}) \r\n   ...: df['C'] = pd.cut(df['A'],[0,2]) \r\n   ...: df\r\nOut[2]: \r\n   A  B       C\r\n0  1  1  (0, 2]\r\n1  1  2  (0, 2]\r\n2  2  3  (0, 2]\r\n3  2  4  (0, 2]\r\n\r\nIn [3]: df.pivot_table(index='C', values='B', aggfunc=np.sum)\r\nOut[3]: \r\n         B\r\nC         \r\n(0, 2]  10\r\n```"
+  }
+]

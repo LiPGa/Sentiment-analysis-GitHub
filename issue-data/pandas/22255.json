@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/411582314",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22255#issuecomment-411582314",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22255",
+    "id": 411582314,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTU4MjMxNA==",
+    "user": {
+      "login": "mhsekhavat",
+      "id": 767425,
+      "node_id": "MDQ6VXNlcjc2NzQyNQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/767425?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mhsekhavat",
+      "html_url": "https://github.com/mhsekhavat",
+      "followers_url": "https://api.github.com/users/mhsekhavat/followers",
+      "following_url": "https://api.github.com/users/mhsekhavat/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhsekhavat/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhsekhavat/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhsekhavat/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhsekhavat/orgs",
+      "repos_url": "https://api.github.com/users/mhsekhavat/repos",
+      "events_url": "https://api.github.com/users/mhsekhavat/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhsekhavat/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-08T23:08:27Z",
+    "updated_at": "2018-08-08T23:08:27Z",
+    "author_association": "NONE",
+    "body": "I just found out that pandas calls `__array_ufunc__` too, but it seems that I have to return an array **with same length** as input. Is it possible to let them return arbitrary objects?"
+  }
+]

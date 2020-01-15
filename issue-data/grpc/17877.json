@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/459534578",
+    "html_url": "https://github.com/grpc/grpc/issues/17877#issuecomment-459534578",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/17877",
+    "id": 459534578,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1OTUzNDU3OA==",
+    "user": {
+      "login": "andypost",
+      "id": 73713,
+      "node_id": "MDQ6VXNlcjczNzEz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/73713?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andypost",
+      "html_url": "https://github.com/andypost",
+      "followers_url": "https://api.github.com/users/andypost/followers",
+      "following_url": "https://api.github.com/users/andypost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andypost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andypost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andypost/subscriptions",
+      "organizations_url": "https://api.github.com/users/andypost/orgs",
+      "repos_url": "https://api.github.com/users/andypost/repos",
+      "events_url": "https://api.github.com/users/andypost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andypost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-31T22:40:39Z",
+    "updated_at": "2019-01-31T22:40:39Z",
+    "author_association": "NONE",
+    "body": "It fails on s390x as well, probably byte order effect cos both Little-endian"
+  }
+]

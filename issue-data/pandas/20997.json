@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/388011260",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/20997#issuecomment-388011260",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/20997",
+    "id": 388011260,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4ODAxMTI2MA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-05-10T10:05:41Z",
+    "updated_at": "2018-05-10T10:05:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "because you need a unit\r\n\r\nThis allows you to pass a unit (which defaults to ``ns``)\r\n```\r\nIn [7]: pd.to_datetime(pd.Index(val))\r\nOut[7]: DatetimeIndex(['2018-01-01'], dtype='datetime64[ns]', freq=None)\r\n```\r\n\r\nWe do allow an int64 array to be directly converted, it is assumed to be in ns\r\n```\r\nIn [11]: pd.DatetimeIndex(pd.Index(val).values)\r\nOut[11]: DatetimeIndex(['2018-01-01'], dtype='datetime64[ns]', freq=None)\r\n```\r\n\r\nSo no real objection to allowing an Int64Index in the DTI constructor. I suppose even in .astype it is ok. Though user facing conversions should always be in ``to_datetime``.\r\n"
+  }
+]

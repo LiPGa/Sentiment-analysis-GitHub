@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/139593875",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/7095#issuecomment-139593875",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/7095",
+    "id": 139593875,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzOTU5Mzg3NQ==",
+    "user": {
+      "login": "terrytangyuan",
+      "id": 4269898,
+      "node_id": "MDQ6VXNlcjQyNjk4OTg=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4269898?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/terrytangyuan",
+      "html_url": "https://github.com/terrytangyuan",
+      "followers_url": "https://api.github.com/users/terrytangyuan/followers",
+      "following_url": "https://api.github.com/users/terrytangyuan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/terrytangyuan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/terrytangyuan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/terrytangyuan/subscriptions",
+      "organizations_url": "https://api.github.com/users/terrytangyuan/orgs",
+      "repos_url": "https://api.github.com/users/terrytangyuan/repos",
+      "events_url": "https://api.github.com/users/terrytangyuan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/terrytangyuan/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-09-11T16:39:03Z",
+    "updated_at": "2015-09-11T16:39:03Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "So does this mean in `fillna`, `nan`'s cannot be replaced by non-numeric types? Any suggestions on how to go for this?\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/379935028",
+    "html_url": "https://github.com/grpc/grpc/issues/14996#issuecomment-379935028",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/14996",
+    "id": 379935028,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3OTkzNTAyOA==",
+    "user": {
+      "login": "oxoocoffee",
+      "id": 2259575,
+      "node_id": "MDQ6VXNlcjIyNTk1NzU=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2259575?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oxoocoffee",
+      "html_url": "https://github.com/oxoocoffee",
+      "followers_url": "https://api.github.com/users/oxoocoffee/followers",
+      "following_url": "https://api.github.com/users/oxoocoffee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oxoocoffee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oxoocoffee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oxoocoffee/subscriptions",
+      "organizations_url": "https://api.github.com/users/oxoocoffee/orgs",
+      "repos_url": "https://api.github.com/users/oxoocoffee/repos",
+      "events_url": "https://api.github.com/users/oxoocoffee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oxoocoffee/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-10T00:25:27Z",
+    "updated_at": "2018-04-10T01:11:19Z",
+    "author_association": "NONE",
+    "body": "Section about protoc on https://github.com/grpc/grpc/blob/master/INSTALL.md states that it will detect existing protobuf\r\n\"and it detects that you don't already have it installed\"\r\n\r\n[EDIT]\r\nSo I uninstantiated my protoc version and cloned grpc again and pulled submodules\r\nThis time check install worked fine. I did try to build cpp/helloworld but got issue with older protoc version installed with apt-get (part of ROs.org). But for some reason grpc version was not copied this time !!!!"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/24849319",
+    "html_url": "https://github.com/ipython/ipython/issues/4093#issuecomment-24849319",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/4093",
+    "id": 24849319,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0ODQ5MzE5",
+    "user": {
+      "login": "fyncor",
+      "id": 4812011,
+      "node_id": "MDQ6VXNlcjQ4MTIwMTE=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4812011?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fyncor",
+      "html_url": "https://github.com/fyncor",
+      "followers_url": "https://api.github.com/users/fyncor/followers",
+      "following_url": "https://api.github.com/users/fyncor/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fyncor/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fyncor/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fyncor/subscriptions",
+      "organizations_url": "https://api.github.com/users/fyncor/orgs",
+      "repos_url": "https://api.github.com/users/fyncor/repos",
+      "events_url": "https://api.github.com/users/fyncor/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fyncor/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-09-20T23:46:04Z",
+    "updated_at": "2013-09-20T23:46:04Z",
+    "author_association": "NONE",
+    "body": "`longlist` is supported in Python 3, but the displayed code isn't syntax-highlighted, which is a serious shortcoming when reading those big blocks of code. Any chance we can get syntax highlighting for `longlist`?\n"
+  }
+]

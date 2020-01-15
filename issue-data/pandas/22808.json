@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/423780388",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/22808#issuecomment-423780388",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/22808",
+    "id": 423780388,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMzc4MDM4OA==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-09-22T23:26:06Z",
+    "updated_at": "2018-09-22T23:26:06Z",
+    "author_association": "MEMBER",
+    "body": "Usage questions should be posted on StackOverflow; you'll get a faster response there.  The GitHub issue tracker is for bug reports and enhancement requests.\r\n\r\nYou need to put parentheses around your conditions:\r\n```python\r\nIn [2]: df = pd.DataFrame({'A': np.linspace(0, 10, 9)})\r\n\r\nIn [3]: df\r\nOut[3]: \r\n       A\r\n0   0.00\r\n1   1.25\r\n2   2.50\r\n3   3.75\r\n4   5.00\r\n5   6.25\r\n6   7.50\r\n7   8.75\r\n8  10.00\r\n\r\nIn [4]: df[(2.5 < df.A) & (df.A < 7)]\r\nOut[4]: \r\n      A\r\n3  3.75\r\n4  5.00\r\n5  6.25\r\n```\r\n\r\nWithout parenthesis raises:\r\n```python\r\nIn [5]: df[2.5 < df.A & df.A < 7]\r\n---------------------------------------------------------------------------\r\nTypeError: unsupported operand type(s) for &: 'float' and 'bool'\r\n```"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/397373756",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21480#issuecomment-397373756",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21480",
+    "id": 397373756,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NzM3Mzc1Ng==",
+    "user": {
+      "login": "WillAyd",
+      "id": 609873,
+      "node_id": "MDQ6VXNlcjYwOTg3Mw==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/609873?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/WillAyd",
+      "html_url": "https://github.com/WillAyd",
+      "followers_url": "https://api.github.com/users/WillAyd/followers",
+      "following_url": "https://api.github.com/users/WillAyd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/WillAyd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/WillAyd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/WillAyd/subscriptions",
+      "organizations_url": "https://api.github.com/users/WillAyd/orgs",
+      "repos_url": "https://api.github.com/users/WillAyd/repos",
+      "events_url": "https://api.github.com/users/WillAyd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/WillAyd/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-06-14T17:23:21Z",
+    "updated_at": "2018-06-14T17:23:21Z",
+    "author_association": "MEMBER",
+    "body": "For usage questions like this you are much better served using Stack Overflow. The issue tracker here is typically reserved for bug reports and enhancement requests"
+  }
+]

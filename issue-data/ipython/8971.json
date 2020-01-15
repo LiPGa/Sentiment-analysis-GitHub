@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/174979998",
+    "html_url": "https://github.com/ipython/ipython/issues/8971#issuecomment-174979998",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8971",
+    "id": 174979998,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NDk3OTk5OA==",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-01-26T12:26:53Z",
+    "updated_at": "2016-01-26T12:26:53Z",
+    "author_association": "MEMBER",
+    "body": "`PYTHONOPTIMIZE=2` strips docstrings out of code, which doesn't make much sense when using IPython, and it's hard to imagine that there's any significant speedup in doing so. However, IPython should still be able to start, and #9171 fixes this.\n"
+  }
+]

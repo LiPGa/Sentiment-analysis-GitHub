@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/119755888",
+    "html_url": "https://github.com/grpc/grpc/pull/2340#issuecomment-119755888",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/2340",
+    "id": 119755888,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExOTc1NTg4OA==",
+    "user": {
+      "login": "nicolasnoble",
+      "id": 7281574,
+      "node_id": "MDQ6VXNlcjcyODE1NzQ=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7281574?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nicolasnoble",
+      "html_url": "https://github.com/nicolasnoble",
+      "followers_url": "https://api.github.com/users/nicolasnoble/followers",
+      "following_url": "https://api.github.com/users/nicolasnoble/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nicolasnoble/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nicolasnoble/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nicolasnoble/subscriptions",
+      "organizations_url": "https://api.github.com/users/nicolasnoble/orgs",
+      "repos_url": "https://api.github.com/users/nicolasnoble/repos",
+      "events_url": "https://api.github.com/users/nicolasnoble/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nicolasnoble/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-07-08T23:11:41Z",
+    "updated_at": "2015-07-08T23:11:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "My two cents would be that if zlib decides not to compress, the resulting stream will be very much alike the incompressible input. Decompressing it will be basically doing a few memcpy for zlib's internals.\n\nIn fact, (and that'd be a not-so-horrible-hack), one could write a zlib \"decompressor\" that generates a slices array over the compressed data in the case the received data wasn't compressed.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/157275519",
+    "html_url": "https://github.com/ipython/ipython/issues/8994#issuecomment-157275519",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/8994",
+    "id": 157275519,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NzI3NTUxOQ==",
+    "user": {
+      "login": "Carreau",
+      "id": 335567,
+      "node_id": "MDQ6VXNlcjMzNTU2Nw==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/335567?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Carreau",
+      "html_url": "https://github.com/Carreau",
+      "followers_url": "https://api.github.com/users/Carreau/followers",
+      "following_url": "https://api.github.com/users/Carreau/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Carreau/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Carreau/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Carreau/subscriptions",
+      "organizations_url": "https://api.github.com/users/Carreau/orgs",
+      "repos_url": "https://api.github.com/users/Carreau/repos",
+      "events_url": "https://api.github.com/users/Carreau/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Carreau/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-11-17T05:35:26Z",
+    "updated_at": "2015-11-17T05:35:26Z",
+    "author_association": "MEMBER",
+    "body": "jupyter/notebook does not have notion of profile. \n\n`ipython help notebook` had still references to profile, this was an oversight of the `notebook` package that should have been fixed some time ago. The various `ipykernels` you have can have different profiles if you like, but the notebook itself does now know what a profile is. \n\nI would suggest installing a second kernel with a different name:\n\n```\n$ python -m ipykernel install --help\nusage: __main__.py [-h] [--user] [--name NAME] [--display-name DISPLAY_NAME]\n                   [--prefix PREFIX]\n\nInstall the IPython kernel spec.\n...\n```\n\nAnd having this kernel use a spark profile. \n"
+  }
+]

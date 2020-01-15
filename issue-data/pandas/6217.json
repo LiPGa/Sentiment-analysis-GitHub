@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/33866043",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/6217#issuecomment-33866043",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/6217",
+    "id": 33866043,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzODY2MDQz",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-02-01T07:56:00Z",
+    "updated_at": "2014-02-01T07:56:00Z",
+    "author_association": "NONE",
+    "body": "On second thought, only affects dev version strings anyway, pushing to 0.14.\n"
+  }
+]

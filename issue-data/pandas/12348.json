@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/184723310",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/12348#issuecomment-184723310",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12348",
+    "id": 184723310,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NDcyMzMxMA==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-02-16T15:15:22Z",
+    "updated_at": "2016-02-16T15:15:22Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this was just fixed in master (it broke 0.18.0rc1 as well), see the issue [here](https://github.com/pydata/pandas/issues/12332).\n\nso 0.18.0 will release soon\n"
+  }
+]

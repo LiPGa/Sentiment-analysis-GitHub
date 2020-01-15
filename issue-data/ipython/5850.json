@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/65529991",
+    "html_url": "https://github.com/ipython/ipython/issues/5850#issuecomment-65529991",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/5850",
+    "id": 65529991,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY1NTI5OTkx",
+    "user": {
+      "login": "jnothman",
+      "id": 78827,
+      "node_id": "MDQ6VXNlcjc4ODI3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/78827?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jnothman",
+      "html_url": "https://github.com/jnothman",
+      "followers_url": "https://api.github.com/users/jnothman/followers",
+      "following_url": "https://api.github.com/users/jnothman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jnothman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jnothman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jnothman/subscriptions",
+      "organizations_url": "https://api.github.com/users/jnothman/orgs",
+      "repos_url": "https://api.github.com/users/jnothman/repos",
+      "events_url": "https://api.github.com/users/jnothman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jnothman/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-12-04T02:48:47Z",
+    "updated_at": "2014-12-04T02:48:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The rough reason for handling only string dict keys is that they are the most likely and tractable (i.e. it's not a really huge dict) thing you'll want to complete, such as in JSON-blob fields. One does not often try to enter in a distinctive number from memory as a key. One does not often key dicts by floats.\n\nBut one may key dicts by a pair of strings or string and int. So yes, I think tuples would be a nice-to-have, except that there are two ways to enter tuple keys in dicts, multiplying the representation issue (i.e. `tupledict[1,1]`).\n"
+  }
+]

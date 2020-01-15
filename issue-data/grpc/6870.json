@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/230072858",
+    "html_url": "https://github.com/grpc/grpc/issues/6870#issuecomment-230072858",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/6870",
+    "id": 230072858,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMDA3Mjg1OA==",
+    "user": {
+      "login": "apolcyn",
+      "id": 9566254,
+      "node_id": "MDQ6VXNlcjk1NjYyNTQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9566254?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/apolcyn",
+      "html_url": "https://github.com/apolcyn",
+      "followers_url": "https://api.github.com/users/apolcyn/followers",
+      "following_url": "https://api.github.com/users/apolcyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/apolcyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/apolcyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/apolcyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/apolcyn/orgs",
+      "repos_url": "https://api.github.com/users/apolcyn/repos",
+      "events_url": "https://api.github.com/users/apolcyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/apolcyn/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-07-02T00:27:12Z",
+    "updated_at": "2016-07-02T01:22:41Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looking into this for the compression settings case so that the server can see the client's metadata and possibly adjust the metadata to send back. There are a few things that I think need to change in the ActiveCall and the ruby Server main loop. \nPlan right now as we partially talked about is:\n1. Have the ruby server main loop still first check availability and whether the method request is implemented, but don't send initial metadata yet if it can handle the request. This could wind up with the ruby server asking the core to do a \"send status\" before a \"send initial metadata\", both if one of the checks fail, or if the method handler fails before sending initial metadata. Currently, it looks like the ruby server protects this from happening, but from what I understand it's ok if it does happen.\n2. Allow the handler to optionally set or merge initial metadata on the ActiveCall. The server could still initialize the metadata of the active_call from the \"connect_md\" function before passing the active_call to the handler. When the handler tries to send a method on the active_call, have the active_call first send its initial metadata if it hasn't already, and have future attempts to change its metadata fail.\n"
+  }
+]

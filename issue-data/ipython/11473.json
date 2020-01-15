@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/434791224",
+    "html_url": "https://github.com/ipython/ipython/issues/11473#issuecomment-434791224",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11473",
+    "id": 434791224,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNDc5MTIyNA==",
+    "user": {
+      "login": "LuisBiaus",
+      "id": 38133903,
+      "node_id": "MDQ6VXNlcjM4MTMzOTAz",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/38133903?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/LuisBiaus",
+      "html_url": "https://github.com/LuisBiaus",
+      "followers_url": "https://api.github.com/users/LuisBiaus/followers",
+      "following_url": "https://api.github.com/users/LuisBiaus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/LuisBiaus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/LuisBiaus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/LuisBiaus/subscriptions",
+      "organizations_url": "https://api.github.com/users/LuisBiaus/orgs",
+      "repos_url": "https://api.github.com/users/LuisBiaus/repos",
+      "events_url": "https://api.github.com/users/LuisBiaus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/LuisBiaus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-10-31T18:08:17Z",
+    "updated_at": "2018-10-31T18:08:17Z",
+    "author_association": "NONE",
+    "body": "After days scratching my head around this I finally realized just 2 minutes after posting this that the problem was that I had a variable called \"run\" in most of my scripts. "
+  }
+]

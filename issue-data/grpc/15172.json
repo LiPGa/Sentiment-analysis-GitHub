@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/384933536",
+    "html_url": "https://github.com/grpc/grpc/issues/15172#issuecomment-384933536",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/15172",
+    "id": 384933536,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NDkzMzUzNg==",
+    "user": {
+      "login": "Green7",
+      "id": 11303447,
+      "node_id": "MDQ6VXNlcjExMzAzNDQ3",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11303447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Green7",
+      "html_url": "https://github.com/Green7",
+      "followers_url": "https://api.github.com/users/Green7/followers",
+      "following_url": "https://api.github.com/users/Green7/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Green7/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Green7/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Green7/subscriptions",
+      "organizations_url": "https://api.github.com/users/Green7/orgs",
+      "repos_url": "https://api.github.com/users/Green7/repos",
+      "events_url": "https://api.github.com/users/Green7/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Green7/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-04-27T10:37:59Z",
+    "updated_at": "2018-04-27T10:37:59Z",
+    "author_association": "NONE",
+    "body": "I had the same problem.\r\nYou can read details in c# by RpcException.Trailers field.\r\nDetails  are serialized as field in Status message defined in:\r\nhttps://github.com/grpc/grpc/blob/master/src/proto/grpc/status/status.proto\r\n\r\nHere is sample pseudo-code :\r\n```\r\ncatch (RpcException e)\r\n{\r\n   foreach (var entry in e.Trailers)\r\n   {\r\n     if (entry.Key == \"grpc-status-details-bin\")\r\n     {\r\n        var grpcStatus = Google.Rpc.Status.Parser.ParseFrom(entry.ValueBytes);\r\n        \r\n        // here you should have your Foo message in grpcStatus.Details[0].Value\r\n        // so you can deserialize it: \r\n        var f = Foo.Parser.ParseFrom(grpcStatus.Details[0].Value);\r\n     }\r\n  }\r\n}\r\n```\r\nPerhaps there is a simpler way but I did not find it :)\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/303180552",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/15953#issuecomment-303180552",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/15953",
+    "id": 303180552,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMzE4MDU1Mg==",
+    "user": {
+      "login": "JimStearns206",
+      "id": 9705309,
+      "node_id": "MDQ6VXNlcjk3MDUzMDk=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9705309?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JimStearns206",
+      "html_url": "https://github.com/JimStearns206",
+      "followers_url": "https://api.github.com/users/JimStearns206/followers",
+      "following_url": "https://api.github.com/users/JimStearns206/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JimStearns206/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JimStearns206/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JimStearns206/subscriptions",
+      "organizations_url": "https://api.github.com/users/JimStearns206/orgs",
+      "repos_url": "https://api.github.com/users/JimStearns206/repos",
+      "events_url": "https://api.github.com/users/JimStearns206/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JimStearns206/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-22T18:22:31Z",
+    "updated_at": "2017-05-22T18:22:31Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "I'll take a stab at this (I'm at PyCon sprint)."
+  }
+]

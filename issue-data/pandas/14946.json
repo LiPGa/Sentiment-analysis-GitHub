@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/268666453",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/14946#issuecomment-268666453",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/14946",
+    "id": 268666453,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2ODY2NjQ1Mw==",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-12-21T23:00:18Z",
+    "updated_at": "2016-12-21T23:00:57Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "this is quite subtle. When a boolean array is presented, ``.get_loc()`` should raise a ``TypeError`` if it cannot handle (and so this hits a different path). However, looks like the ``.get_loc`` on a ``TimedeltaIndex`` is wrong.\r\n\r\nThis patch makes it work. If you could do a PR with some tests and a 1-liner about why this is needed, would be great. The basic issue is that ``.get_loc`` should raise a ``TypeError`` if it cannot handle the type of the key (rather than erroring with a ValueError in this case).\r\n\r\n```\r\ndiff --git a/pandas/tseries/tdi.py b/pandas/tseries/tdi.py\r\nindex 1585aac..1e4986a 100644\r\n--- a/pandas/tseries/tdi.py\r\n+++ b/pandas/tseries/tdi.py\r\n@@ -14,7 +14,8 @@ from pandas.types.common import (_TD_DTYPE,\r\n                                  _ensure_int64)\r\n from pandas.types.missing import isnull\r\n from pandas.types.generic import ABCSeries\r\n-from pandas.core.common import _maybe_box, _values_from_object\r\n+from pandas.core.common import (_maybe_box, _values_from_object,\r\n+                                is_bool_indexer)\r\n \r\n from pandas.core.index import Index, Int64Index\r\n import pandas.compat as compat\r\n@@ -674,6 +675,9 @@ class TimedeltaIndex(DatetimeIndexOpsMixin, TimelikeOps, Int64Index):\r\n         loc : int\r\n         \"\"\"\r\n \r\n+        if is_bool_indexer(key):\r\n+            raise TypeError\r\n+\r\n         if isnull(key):\r\n             key = tslib.NaT\r\n```\r\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/252185565",
+    "html_url": "https://github.com/grpc/grpc/issues/8309#issuecomment-252185565",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8309",
+    "id": 252185565,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MjE4NTU2NQ==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-07T08:46:00Z",
+    "updated_at": "2016-10-07T08:46:00Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "What we are doing is safe. Every configuration is running in a separate docker container (and thus has a completely different workspace).\n\nBtw, on mac and windows we obviously don't have the luxury of separating with docker, but the parallel builds are isolated by running them in a different workspace\n(see https://github.com/grpc/grpc/blob/master/tools/run_tests/run_tests_in_workspace.sh if curious).\n\nThanks for being vigilant and pointing out potential issue!\n"
+  }
+]

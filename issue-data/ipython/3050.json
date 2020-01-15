@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/20231338",
+    "html_url": "https://github.com/ipython/ipython/issues/3050#issuecomment-20231338",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/3050",
+    "id": 20231338,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMjMxMzM4",
+    "user": {
+      "login": "takluyver",
+      "id": 327925,
+      "node_id": "MDQ6VXNlcjMyNzkyNQ==",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/327925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takluyver",
+      "html_url": "https://github.com/takluyver",
+      "followers_url": "https://api.github.com/users/takluyver/followers",
+      "following_url": "https://api.github.com/users/takluyver/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takluyver/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takluyver/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takluyver/subscriptions",
+      "organizations_url": "https://api.github.com/users/takluyver/orgs",
+      "repos_url": "https://api.github.com/users/takluyver/repos",
+      "events_url": "https://api.github.com/users/takluyver/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takluyver/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2013-06-29T15:04:03Z",
+    "updated_at": "2013-06-29T15:04:03Z",
+    "author_association": "MEMBER",
+    "body": "The stable version of the docs has the diagram working: http://ipython.org/ipython-doc/stable/api/generated/IPython.core.display.html\n\nIn the dev version, we no longer show an inheritance diagram there (I cut them back to only a few pages where they really seemed valuable): http://ipython.org/ipython-doc/dev/api/generated/IPython.core.display.html\n"
+  }
+]

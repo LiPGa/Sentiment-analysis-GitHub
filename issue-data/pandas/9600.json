@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/77554185",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/9600#issuecomment-77554185",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/9600",
+    "id": 77554185,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3NTU0MTg1",
+    "user": {
+      "login": "jreback",
+      "id": 953992,
+      "node_id": "MDQ6VXNlcjk1Mzk5Mg==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/953992?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jreback",
+      "html_url": "https://github.com/jreback",
+      "followers_url": "https://api.github.com/users/jreback/followers",
+      "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+      "organizations_url": "https://api.github.com/users/jreback/orgs",
+      "repos_url": "https://api.github.com/users/jreback/repos",
+      "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jreback/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-03-06T12:52:24Z",
+    "updated_at": "2015-03-06T12:52:24Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Looks like you have an older version\n\nin 0.15.2\n\nIIRC this was fixed in 0.14.1 (maybe 0.15.0)\n\n```\nIn [1]: dff = DataFrame({'A': np.arange(8), 'B': list('aabbbbcc')})\n\nIn [2]: dff['C'] = np.arange(8)\n\nIn [3]: dff.groupby('B').filter(lambda x: x['C'] == 6)\n---------------------------------------------------------------------------\nTypeError                                 Traceback (most recent call last)\n<ipython-input-3-e7a35021e8fa> in <module>()\n----> 1 dff.groupby('B').filter(lambda x: x['C'] == 6)\n\n/Users/jreback/pandas/pandas/core/groupby.pyc in filter(self, func, dropna, *args, **kwargs)\n   3109                 raise TypeError(\"filter function returned a %s, \"\n   3110                                 \"but expected a scalar bool\" %\n-> 3111                                 type(res).__name__)\n   3112 \n   3113         return self._apply_filter(indices, dropna)\n\nTypeError: filter function returned a Series, but expected a scalar bool\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/49637772",
+    "html_url": "https://github.com/ipython/ipython/issues/6176#issuecomment-49637772",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/6176",
+    "id": 49637772,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NjM3Nzcy",
+    "user": {
+      "login": "jk-northwestern",
+      "id": 8225629,
+      "node_id": "MDQ6VXNlcjgyMjU2Mjk=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8225629?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jk-northwestern",
+      "html_url": "https://github.com/jk-northwestern",
+      "followers_url": "https://api.github.com/users/jk-northwestern/followers",
+      "following_url": "https://api.github.com/users/jk-northwestern/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jk-northwestern/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jk-northwestern/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jk-northwestern/subscriptions",
+      "organizations_url": "https://api.github.com/users/jk-northwestern/orgs",
+      "repos_url": "https://api.github.com/users/jk-northwestern/repos",
+      "events_url": "https://api.github.com/users/jk-northwestern/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jk-northwestern/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2014-07-21T17:31:13Z",
+    "updated_at": "2014-07-21T17:31:13Z",
+    "author_association": "NONE",
+    "body": "Got it to work! Dropping the compiler flags was not the right move. (I did it because I got an error message when I put them there.) When I modify @dhirschfeld 's flags to `%%cython --compile-args=-fopenmp --link-args=-fopenmp --force` (dashes instead of slashes) then everything works for me.\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/1944217",
+    "html_url": "https://github.com/ipython/ipython/issues/747#issuecomment-1944217",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/747",
+    "id": 1944217,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5NDQyMTc=",
+    "user": {
+      "login": "minrk",
+      "id": 151929,
+      "node_id": "MDQ6VXNlcjE1MTkyOQ==",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/151929?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/minrk",
+      "html_url": "https://github.com/minrk",
+      "followers_url": "https://api.github.com/users/minrk/followers",
+      "following_url": "https://api.github.com/users/minrk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/minrk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/minrk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/minrk/subscriptions",
+      "organizations_url": "https://api.github.com/users/minrk/orgs",
+      "repos_url": "https://api.github.com/users/minrk/repos",
+      "events_url": "https://api.github.com/users/minrk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/minrk/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2011-08-30T16:37:34Z",
+    "updated_at": "2011-08-30T16:37:34Z",
+    "author_association": "MEMBER",
+    "body": "master _should_ check whether the dir is writable, and skip it if not.  But if it doesn't make sense for it to be the default, perhaps it should drop behind HOME.  I don't know much about Windows environments, but a quick skim of The Googles seems to suggest that HOMESHARE isn't ever right, and it should be %HOMESHARE%%HOMEPATH%, if we are using it.\n\nIf you want to set the IPython directory, you can always use the IPYTHON_DIR env variable.\n"
+  }
+]

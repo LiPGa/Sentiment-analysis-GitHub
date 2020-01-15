@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/313665329",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/16848#issuecomment-313665329",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/16848",
+    "id": 313665329,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMzY2NTMyOQ==",
+    "user": {
+      "login": "TomAugspurger",
+      "id": 1312546,
+      "node_id": "MDQ6VXNlcjEzMTI1NDY=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1312546?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TomAugspurger",
+      "html_url": "https://github.com/TomAugspurger",
+      "followers_url": "https://api.github.com/users/TomAugspurger/followers",
+      "following_url": "https://api.github.com/users/TomAugspurger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TomAugspurger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TomAugspurger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TomAugspurger/subscriptions",
+      "organizations_url": "https://api.github.com/users/TomAugspurger/orgs",
+      "repos_url": "https://api.github.com/users/TomAugspurger/repos",
+      "events_url": "https://api.github.com/users/TomAugspurger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TomAugspurger/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-07-07T12:15:02Z",
+    "updated_at": "2017-07-07T12:15:02Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "The underlying problem is in the call to `to_json`\r\n\r\n```python\r\nIn [4]: pd.Series([b'\\x00\\x00\\x00\\x00\\x00\\x01\\x82S']).to_json()\r\n```\r\n\r\n```pytb\r\n---------------------------------------------------------------------------\r\nUnicodeDecodeError                        Traceback (most recent call last)\r\n<ipython-input-4-13bdc7ec1cc6> in <module>()\r\n----> 1 pd.Series([b'\\x00\\x00\\x00\\x00\\x00\\x01\\x82S']).to_json()\r\n\r\n~/Envs/pandas-dev/lib/python3.6/site-packages/pandas/pandas/core/generic.py in to_json(self, path_or_buf, orient, date_format, double_precision, force_ascii, date_unit, default_handler, lines)\r\n   1250                             force_ascii=force_ascii, date_unit=date_unit,\r\n   1251                             default_handler=default_handler,\r\n-> 1252                             lines=lines)\r\n   1253\r\n   1254     def to_hdf(self, path_or_buf, key, **kwargs):\r\n\r\n~/Envs/pandas-dev/lib/python3.6/site-packages/pandas/pandas/io/json/json.py in to_json(path_or_buf, obj, orient, date_format, double_precision, force_ascii, date_unit, default_handler, lines)\r\n     46         obj, orient=orient, date_format=date_format,\r\n     47         double_precision=double_precision, ensure_ascii=force_ascii,\r\n---> 48         date_unit=date_unit, default_handler=default_handler).write()\r\n     49\r\n     50     if lines:\r\n\r\n~/Envs/pandas-dev/lib/python3.6/site-packages/pandas/pandas/io/json/json.py in write(self)\r\n     90             date_unit=self.date_unit,\r\n     91             iso_dates=self.date_format == 'iso',\r\n---> 92             default_handler=self.default_handler\r\n     93         )\r\n     94\r\n\r\nUnicodeDecodeError: 'utf-8' codec can't decode byte 0x82 in position 42: invalid start byte\r\n```\r\n\r\nI'm not sure how tricky it would be to pass through. The standard-library doesn't even try to serialze bytes\r\n\r\n```python\r\nimport json\r\nIn [9]: json.dumps(s[0])\r\n```\r\n```pytb\r\n---------------------------------------------------------------------------\r\nTypeError                                 Traceback (most recent call last)\r\n<ipython-input-9-4b0d6b435871> in <module>()\r\n----> 1 json.dumps(s[0])\r\n\r\n/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py in dumps(obj, skipkeys, ensure_ascii, check_circular, allow_nan, cls, indent, separators, default, sort_keys, **kw)\r\n    229         cls is None and indent is None and separators is None and\r\n    230         default is None and not sort_keys and not kw):\r\n--> 231         return _default_encoder.encode(obj)\r\n    232     if cls is None:\r\n    233         cls = JSONEncoder\r\n\r\n/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py in encode(self, o)\r\n    197         # exceptions aren't as detailed.  The list call should be roughly\r\n    198         # equivalent to the PySequence_Fast that ''.join() would do.\r\n--> 199         chunks = self.iterencode(o, _one_shot=True)\r\n    200         if not isinstance(chunks, (list, tuple)):\r\n    201             chunks = list(chunks)\r\n\r\n/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py in iterencode(self, o, _one_shot)\r\n    255                 self.key_separator, self.item_separator, self.sort_keys,\r\n    256                 self.skipkeys, _one_shot)\r\n--> 257         return _iterencode(o, 0)\r\n    258\r\n    259 def _make_iterencode(markers, _default, _encoder, _indent, _floatstr,\r\n\r\n/usr/local/Cellar/python3/3.6.1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py in default(self, o)\r\n    178         \"\"\"\r\n    179         raise TypeError(\"Object of type '%s' is not JSON serializable\" %\r\n--> 180                         o.__class__.__name__)\r\n    181\r\n    182     def encode(self, o):\r\n\r\nTypeError: Object of type 'bytes' is not JSON serializable\r\n```\r\n\r\nEither way, we don't want `_repr_table_schema_` failing here..."
+  }
+]

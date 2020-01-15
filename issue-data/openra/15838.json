@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/440427824",
+    "html_url": "https://github.com/OpenRA/OpenRA/pull/15838#issuecomment-440427824",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/15838",
+    "id": 440427824,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MDQyNzgyNA==",
+    "user": {
+      "login": "obrakmann",
+      "id": 4331210,
+      "node_id": "MDQ6VXNlcjQzMzEyMTA=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/4331210?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/obrakmann",
+      "html_url": "https://github.com/obrakmann",
+      "followers_url": "https://api.github.com/users/obrakmann/followers",
+      "following_url": "https://api.github.com/users/obrakmann/following{/other_user}",
+      "gists_url": "https://api.github.com/users/obrakmann/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/obrakmann/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/obrakmann/subscriptions",
+      "organizations_url": "https://api.github.com/users/obrakmann/orgs",
+      "repos_url": "https://api.github.com/users/obrakmann/repos",
+      "events_url": "https://api.github.com/users/obrakmann/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/obrakmann/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-20T21:00:50Z",
+    "updated_at": "2018-11-20T21:00:50Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "[Changelog](https://github.com/OpenRA/OpenRA/wiki/Changelog/_compare/c2daffd84c52150e879405deeb8290a85c757f73)\r\n\r\n[Prep commit](https://github.com/OpenRA/OpenRA/commit/987b236ab67ade832626e20d4526d40e518a0998)"
+  }
+]

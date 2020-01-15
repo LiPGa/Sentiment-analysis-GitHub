@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/74986676",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/7500#issuecomment-74986676",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/7500",
+    "id": 74986676,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc0OTg2Njc2",
+    "user": {
+      "login": "Phrohdoh",
+      "id": 4861023,
+      "node_id": "MDQ6VXNlcjQ4NjEwMjM=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4861023?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Phrohdoh",
+      "html_url": "https://github.com/Phrohdoh",
+      "followers_url": "https://api.github.com/users/Phrohdoh/followers",
+      "following_url": "https://api.github.com/users/Phrohdoh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Phrohdoh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Phrohdoh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Phrohdoh/subscriptions",
+      "organizations_url": "https://api.github.com/users/Phrohdoh/orgs",
+      "repos_url": "https://api.github.com/users/Phrohdoh/repos",
+      "events_url": "https://api.github.com/users/Phrohdoh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Phrohdoh/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2015-02-19T01:54:16Z",
+    "updated_at": "2015-02-19T01:54:16Z",
+    "author_association": "MEMBER",
+    "body": "This is fixed in the playtest.\n"
+  }
+]

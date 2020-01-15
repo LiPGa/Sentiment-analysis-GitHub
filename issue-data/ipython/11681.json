@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/ipython/ipython/issues/comments/480829479",
+    "html_url": "https://github.com/ipython/ipython/issues/11681#issuecomment-480829479",
+    "issue_url": "https://api.github.com/repos/ipython/ipython/issues/11681",
+    "id": 480829479,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4MDgyOTQ3OQ==",
+    "user": {
+      "login": "Manav-Sarvaiya",
+      "id": 48149002,
+      "node_id": "MDQ6VXNlcjQ4MTQ5MDAy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/48149002?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Manav-Sarvaiya",
+      "html_url": "https://github.com/Manav-Sarvaiya",
+      "followers_url": "https://api.github.com/users/Manav-Sarvaiya/followers",
+      "following_url": "https://api.github.com/users/Manav-Sarvaiya/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Manav-Sarvaiya/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Manav-Sarvaiya/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Manav-Sarvaiya/subscriptions",
+      "organizations_url": "https://api.github.com/users/Manav-Sarvaiya/orgs",
+      "repos_url": "https://api.github.com/users/Manav-Sarvaiya/repos",
+      "events_url": "https://api.github.com/users/Manav-Sarvaiya/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Manav-Sarvaiya/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-04-08T13:23:03Z",
+    "updated_at": "2019-04-08T13:24:15Z",
+    "author_association": "NONE",
+    "body": "How can I solve this TypeError??? I'm unable to open the shell. Please help me out."
+  }
+]

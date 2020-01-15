@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/8444007",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/1772#issuecomment-8444007",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/1772",
+    "id": 8444007,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg0NDQwMDc=",
+    "user": {
+      "login": "wesm",
+      "id": 329591,
+      "node_id": "MDQ6VXNlcjMyOTU5MQ==",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/329591?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wesm",
+      "html_url": "https://github.com/wesm",
+      "followers_url": "https://api.github.com/users/wesm/followers",
+      "following_url": "https://api.github.com/users/wesm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wesm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wesm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wesm/subscriptions",
+      "organizations_url": "https://api.github.com/users/wesm/orgs",
+      "repos_url": "https://api.github.com/users/wesm/repos",
+      "events_url": "https://api.github.com/users/wesm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wesm/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-09-11T01:13:58Z",
+    "updated_at": "2012-09-11T01:13:58Z",
+    "author_association": "MEMBER",
+    "body": "I think that any non-\"Tick\" offsets, (e.g. AS-DEC as you're doing there) should zero-out the start and end times. This fixes your test case-- all the other tests pass and I haven't thought through the ways this could cause other bugs (hopefully None). Your #1 point is one way to look at it-- when I thought about the date range API initially, I felt that the start and end times should be strict, with no dates generated outside them (roll forward start / roll back end). Requiring that the range include both endpoints is the other way (roll back start, roll forward end). Would be a difficult to change now...\n"
+  }
+]

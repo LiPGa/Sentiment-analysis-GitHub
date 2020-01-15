@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/302837848",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/13320#issuecomment-302837848",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/13320",
+    "id": 302837848,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwMjgzNzg0OA==",
+    "user": {
+      "login": "forcecore",
+      "id": 632278,
+      "node_id": "MDQ6VXNlcjYzMjI3OA==",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/632278?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/forcecore",
+      "html_url": "https://github.com/forcecore",
+      "followers_url": "https://api.github.com/users/forcecore/followers",
+      "following_url": "https://api.github.com/users/forcecore/following{/other_user}",
+      "gists_url": "https://api.github.com/users/forcecore/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/forcecore/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/forcecore/subscriptions",
+      "organizations_url": "https://api.github.com/users/forcecore/orgs",
+      "repos_url": "https://api.github.com/users/forcecore/repos",
+      "events_url": "https://api.github.com/users/forcecore/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/forcecore/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-05-20T00:23:40Z",
+    "updated_at": "2017-05-20T00:23:40Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Probably a good way to implement Firestorm Defense in TS."
+  }
+]

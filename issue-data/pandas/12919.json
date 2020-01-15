@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/214256435",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/12919#issuecomment-214256435",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/12919",
+    "id": 214256435,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNDI1NjQzNQ==",
+    "user": {
+      "login": "Winand",
+      "id": 53390,
+      "node_id": "MDQ6VXNlcjUzMzkw",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/53390?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Winand",
+      "html_url": "https://github.com/Winand",
+      "followers_url": "https://api.github.com/users/Winand/followers",
+      "following_url": "https://api.github.com/users/Winand/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Winand/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Winand/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Winand/subscriptions",
+      "organizations_url": "https://api.github.com/users/Winand/orgs",
+      "repos_url": "https://api.github.com/users/Winand/repos",
+      "events_url": "https://api.github.com/users/Winand/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Winand/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-04-25T10:33:11Z",
+    "updated_at": "2016-04-25T10:46:37Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "This image has New BSD license, doesn't it? i have set it to cc-by-sa-4.0 [on wikipedia](https://commons.wikimedia.org/wiki/File:Pandas_logo.png)\n"
+  }
+]

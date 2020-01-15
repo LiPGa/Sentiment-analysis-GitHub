@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/11112802",
+    "html_url": "https://github.com/pandas-dev/pandas/pull/2446#issuecomment-11112802",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/2446",
+    "id": 11112802,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMTEyODAy",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2012-12-07T00:24:51Z",
+    "updated_at": "2012-12-07T00:30:12Z",
+    "author_association": "NONE",
+    "body": "``` python\nIn [1]: from pandas.util.testing import makeCustomDataframe as mkdf\n   ...:   mkdf(5,3)\nOut[1]: \nC0      C_l0_g0 C_l0_g1 C_l0_g2\nR0                             \nR_l0_g0    R0C0    R0C1    R0C2\nR_l0_g1    R1C0    R1C1    R1C2\nR_l0_g2    R2C0    R2C1    R2C2\nR_l0_g3    R3C0    R3C1    R3C2\nR_l0_g4    R4C0    R4C1    R4C2\n\nIn [2]: from random import randint\nIn [2]: mkdf(5,3,data_gen_f=lambda r,c:randint(1,100))\nOut[9]: \nC0       C_l0_g0  C_l0_g1  C_l0_g2\nR0                                \nR_l0_g0       38        9       64\nR_l0_g1       42       45       94\nR_l0_g2       15       94       16\nR_l0_g3       80       39       33\nR_l0_g4       94       30       63\n\nIn [3]: mkdf(5,3,c_idx_names=False,r_idx_names=False,\n   ...:                              r_idx_type=\"dt\",c_idx_type=\"u\")\nOut[3]: \n           ס4ןדםבדפגמ ץי4ףצ8י1נ2 3מקףיזשד4ר\n2000-01-03       R0C0       R0C1       R0C2\n2000-01-04       R1C0       R1C1       R1C2\n2000-01-05       R2C0       R2C1       R2C2\n2000-01-06       R3C0       R3C1       R3C2\n2000-01-07       R4C0       R4C1       R4C2\n\nIn [4]: mkdf(5,3,r_idx_nlevels=2,r_ndupe_l=[2])\nOut[4]: \nC0              C_l0_g0 C_l0_g1 C_l0_g2\nR0      R1                             \nR_l0_g0 R_l1_g0    R0C0    R0C1    R0C2\n        R_l1_g1    R1C0    R1C1    R1C2\nR_l0_g1 R_l1_g2    R2C0    R2C1    R2C2\n        R_l1_g3    R3C0    R3C1    R3C2\nR_l0_g2 R_l1_g4    R4C0    R4C1    R4C2\n\nIn [5]: mkdf(5,3,r_idx_nlevels=4,\n   ...:                              r_idx_names=[\"FEE\",\"FI\",\"FO\",\"FAM\"],\n   ...:                              c_idx_nlevels=2)\nOut[5]: \nC0                              C_l0_g0 C_l0_g1 C_l0_g2\nC1                              C_l1_g0 C_l1_g1 C_l1_g2\nFEE     FI      FO      FAM                            \nR_l0_g0 R_l1_g0 R_l2_g0 R_l3_g0    R0C0    R0C1    R0C2\nR_l0_g1 R_l1_g1 R_l2_g1 R_l3_g1    R1C0    R1C1    R1C2\nR_l0_g2 R_l1_g2 R_l2_g2 R_l3_g2    R2C0    R2C1    R2C2\nR_l0_g3 R_l1_g3 R_l2_g3 R_l3_g3    R3C0    R3C1    R3C2\nR_l0_g4 R_l1_g4 R_l2_g4 R_l3_g4    R4C0    R4C1    R4C2\n\n```\n"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/457916011",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/16121#issuecomment-457916011",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/16121",
+    "id": 457916011,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NzkxNjAxMQ==",
+    "user": {
+      "login": "GraionDilach",
+      "id": 1136302,
+      "node_id": "MDQ6VXNlcjExMzYzMDI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1136302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GraionDilach",
+      "html_url": "https://github.com/GraionDilach",
+      "followers_url": "https://api.github.com/users/GraionDilach/followers",
+      "following_url": "https://api.github.com/users/GraionDilach/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GraionDilach/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GraionDilach/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GraionDilach/subscriptions",
+      "organizations_url": "https://api.github.com/users/GraionDilach/orgs",
+      "repos_url": "https://api.github.com/users/GraionDilach/repos",
+      "events_url": "https://api.github.com/users/GraionDilach/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GraionDilach/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2019-01-27T13:03:07Z",
+    "updated_at": "2019-01-27T13:03:07Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Duplicate of #16120."
+  }
+]

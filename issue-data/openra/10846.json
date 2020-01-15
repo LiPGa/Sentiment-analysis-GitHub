@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/193038783",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/10846#issuecomment-193038783",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/10846",
+    "id": 193038783,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MzAzODc4Mw==",
+    "user": {
+      "login": "AMHOL",
+      "id": 1582784,
+      "node_id": "MDQ6VXNlcjE1ODI3ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1582784?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AMHOL",
+      "html_url": "https://github.com/AMHOL",
+      "followers_url": "https://api.github.com/users/AMHOL/followers",
+      "following_url": "https://api.github.com/users/AMHOL/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AMHOL/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AMHOL/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AMHOL/subscriptions",
+      "organizations_url": "https://api.github.com/users/AMHOL/orgs",
+      "repos_url": "https://api.github.com/users/AMHOL/repos",
+      "events_url": "https://api.github.com/users/AMHOL/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AMHOL/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-03-07T01:34:49Z",
+    "updated_at": "2016-03-07T01:35:34Z",
+    "author_association": "NONE",
+    "body": "I was thinking about this, even when you get the \"flash\" from Tanya C4 they can still un-deploy and save it, I think players should be rewarded for noticing and un-deploying, I was thinking maybe the MCV could explode with some burst damage, enough to seriously harm or kill the tanya and maybe cause a bit of damage to nearby structures, like nearby powerplants, could end up with a powerdown from it.\n"
+  }
+]

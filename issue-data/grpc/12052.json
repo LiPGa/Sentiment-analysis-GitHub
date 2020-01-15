@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/323275231",
+    "html_url": "https://github.com/grpc/grpc/issues/12052#issuecomment-323275231",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12052",
+    "id": 323275231,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMzI3NTIzMQ==",
+    "user": {
+      "login": "ericgribkoff",
+      "id": 5067076,
+      "node_id": "MDQ6VXNlcjUwNjcwNzY=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5067076?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ericgribkoff",
+      "html_url": "https://github.com/ericgribkoff",
+      "followers_url": "https://api.github.com/users/ericgribkoff/followers",
+      "following_url": "https://api.github.com/users/ericgribkoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ericgribkoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ericgribkoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ericgribkoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/ericgribkoff/orgs",
+      "repos_url": "https://api.github.com/users/ericgribkoff/repos",
+      "events_url": "https://api.github.com/users/ericgribkoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ericgribkoff/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-18T06:54:49Z",
+    "updated_at": "2017-08-18T06:54:49Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Same root cause as reported in https://github.com/grpc/grpc/issues/10390, and now fixed with a larger timeout in the Java client (https://github.com/grpc/grpc-java/pull/3333)"
+  }
+]

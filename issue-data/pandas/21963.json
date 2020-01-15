@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/413516860",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/21963#issuecomment-413516860",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/21963",
+    "id": 413516860,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMzUxNjg2MA==",
+    "user": {
+      "login": "allieus",
+      "id": 13359,
+      "node_id": "MDQ6VXNlcjEzMzU5",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13359?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/allieus",
+      "html_url": "https://github.com/allieus",
+      "followers_url": "https://api.github.com/users/allieus/followers",
+      "following_url": "https://api.github.com/users/allieus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/allieus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/allieus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/allieus/subscriptions",
+      "organizations_url": "https://api.github.com/users/allieus/orgs",
+      "repos_url": "https://api.github.com/users/allieus/repos",
+      "events_url": "https://api.github.com/users/allieus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/allieus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-08-16T11:40:03Z",
+    "updated_at": "2018-08-16T11:40:03Z",
+    "author_association": "NONE",
+    "body": "In the code below, \"groupby apply function\" is called 3 times.\r\n\"groupby apply function\" is in `GroupByPlot.__getattr__('scatter')`.\r\nSo it seems to be `Plot` 3 times in total.\r\n\r\n```\r\n>>> df\r\n   x  y  cat\r\n0  1  2    1\r\n1  3  4    2\r\n2  5  6    1\r\n3  7  8    2\r\n```\r\n\r\n```python\r\ndf.groupby('cat').plot.scatter(x='x', y='y')\r\n```\r\n\r\nAnd, convert the result of groupby to a DataFrame. And, plot it.\r\n\r\n```python\r\ndef fn(series):\r\n    return series.max()\r\n\r\ndf2 = df.groupby('cat').apply(fn)\r\ndf2.plot.scatter(x='x', y='y')\r\n```"
+  }
+]

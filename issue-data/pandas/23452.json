@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/pandas-dev/pandas/issues/comments/435212004",
+    "html_url": "https://github.com/pandas-dev/pandas/issues/23452#issuecomment-435212004",
+    "issue_url": "https://api.github.com/repos/pandas-dev/pandas/issues/23452",
+    "id": 435212004,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNTIxMjAwNA==",
+    "user": {
+      "login": "jschendel",
+      "id": 5332445,
+      "node_id": "MDQ6VXNlcjUzMzI0NDU=",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5332445?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschendel",
+      "html_url": "https://github.com/jschendel",
+      "followers_url": "https://api.github.com/users/jschendel/followers",
+      "following_url": "https://api.github.com/users/jschendel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschendel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschendel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschendel/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschendel/orgs",
+      "repos_url": "https://api.github.com/users/jschendel/repos",
+      "events_url": "https://api.github.com/users/jschendel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschendel/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2018-11-01T22:44:07Z",
+    "updated_at": "2018-11-01T22:44:07Z",
+    "author_association": "MEMBER",
+    "body": "Thanks, I think the root cause of this issue is a bug in `IntervalIndex.get_indexer`, as `CategoricalIndex` eventually calls this if you trace through the code:\r\n```python\r\nIn [2]: ii1 = pd.interval_range(0, 3)\r\n\r\nIn [3]: ii1\r\nOut[3]:\r\nIntervalIndex([(0, 1], (1, 2], (2, 3]],\r\n              closed='right',\r\n              dtype='interval[int64]')\r\n\r\nIn [4]: ii2 = ii1[::-1]\r\n\r\nIn [5]: ii2\r\nOut[5]:\r\nIntervalIndex([(2, 3], (1, 2], (0, 1]],\r\n              closed='right',\r\n              dtype='interval[int64]')\r\n\r\nIn [6]: ii2.get_indexer(ii1)\r\nOut[6]: array([-1, -1, -1], dtype=int64)\r\n```\r\nThe output in `Out[6]` should be `[2, 1, 0]`.\r\n\r\nCoincidentally, I'm currently working on another issue that fixes the bug above (among other things), which does indeed fix the issue you've described.\r\n\r\nOn my WIP branch:\r\n```python\r\nIn [2]: ii1 = pd.interval_range(0, 3)\r\n\r\nIn [3]: ii2 = ii1[::-1]\r\n\r\nIn [4]: ii2.get_indexer(ii1)\r\nOut[4]: array([2, 1, 0], dtype=int64)\r\n\r\nIn [5]: e=pd.DataFrame(index=pd.CategoricalIndex([pd.Interval(0,1), pd.Interval(1,2), pd.Interval(2,3)],ordered=True),data={'x':[1,2,3]})\r\n   ...: e.index=e.index.reorder_categories(e.index.categories[::-1])\r\n   ...: e.sort_index()\r\n   ...:\r\nOut[5]:\r\n        x\r\n(2, 3]  3\r\n(1, 2]  2\r\n(0, 1]  1\r\n```\r\n\r\nNot quite ready to open up a PR yet, but I'm planning for my WIP branch to be incorporated in the next release (0.24.0), so this bug should be fixed then too."
+  }
+]

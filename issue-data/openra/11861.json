@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/OpenRA/OpenRA/issues/comments/241806680",
+    "html_url": "https://github.com/OpenRA/OpenRA/issues/11861#issuecomment-241806680",
+    "issue_url": "https://api.github.com/repos/OpenRA/OpenRA/issues/11861",
+    "id": 241806680,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0MTgwNjY4MA==",
+    "user": {
+      "login": "GraionDilach",
+      "id": 1136302,
+      "node_id": "MDQ6VXNlcjExMzYzMDI=",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1136302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GraionDilach",
+      "html_url": "https://github.com/GraionDilach",
+      "followers_url": "https://api.github.com/users/GraionDilach/followers",
+      "following_url": "https://api.github.com/users/GraionDilach/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GraionDilach/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GraionDilach/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GraionDilach/subscriptions",
+      "organizations_url": "https://api.github.com/users/GraionDilach/orgs",
+      "repos_url": "https://api.github.com/users/GraionDilach/repos",
+      "events_url": "https://api.github.com/users/GraionDilach/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GraionDilach/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-08-23T17:17:47Z",
+    "updated_at": "2016-08-23T17:17:47Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "Additional info:\n\nThis bug only happens with crates.\nThe visual position of the crates end up wrong, and no units can enter to the actual cell of the crate to pick it up.\n"
+  }
+]

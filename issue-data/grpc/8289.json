@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/251655158",
+    "html_url": "https://github.com/grpc/grpc/pull/8289#issuecomment-251655158",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/8289",
+    "id": 251655158,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MTY1NTE1OA==",
+    "user": {
+      "login": "jtattermusch",
+      "id": 9939684,
+      "node_id": "MDQ6VXNlcjk5Mzk2ODQ=",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9939684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jtattermusch",
+      "html_url": "https://github.com/jtattermusch",
+      "followers_url": "https://api.github.com/users/jtattermusch/followers",
+      "following_url": "https://api.github.com/users/jtattermusch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jtattermusch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jtattermusch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jtattermusch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jtattermusch/orgs",
+      "repos_url": "https://api.github.com/users/jtattermusch/repos",
+      "events_url": "https://api.github.com/users/jtattermusch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jtattermusch/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2016-10-05T12:02:21Z",
+    "updated_at": "2016-10-05T12:02:21Z",
+    "author_association": "CONTRIBUTOR",
+    "body": "tests are failing because the test scripts are not present in v1.0.x branch.  Interop tests are passing though and that's the important thing.\n"
+  }
+]

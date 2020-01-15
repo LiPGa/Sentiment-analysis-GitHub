@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://api.github.com/repos/grpc/grpc/issues/comments/324692525",
+    "html_url": "https://github.com/grpc/grpc/issues/12233#issuecomment-324692525",
+    "issue_url": "https://api.github.com/repos/grpc/grpc/issues/12233",
+    "id": 324692525,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNDY5MjUyNQ==",
+    "user": {
+      "login": "vjpai",
+      "id": 8864912,
+      "node_id": "MDQ6VXNlcjg4NjQ5MTI=",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8864912?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vjpai",
+      "html_url": "https://github.com/vjpai",
+      "followers_url": "https://api.github.com/users/vjpai/followers",
+      "following_url": "https://api.github.com/users/vjpai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vjpai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vjpai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vjpai/subscriptions",
+      "organizations_url": "https://api.github.com/users/vjpai/orgs",
+      "repos_url": "https://api.github.com/users/vjpai/repos",
+      "events_url": "https://api.github.com/users/vjpai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vjpai/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "created_at": "2017-08-24T16:49:21Z",
+    "updated_at": "2017-08-24T16:49:21Z",
+    "author_association": "MEMBER",
+    "body": "Hello,\r\nThe issue is that you are allocated `middle_container reply_tmp` on the stack in your server. As a result it gets destructed as soon as you pass out of the scope. At that time, you have called `Finish` but not yet waited for its result. Since this is an async server, the data must remain alive until you've received the tag back for it. This is why manually editing your destructor works in your case; you're basically nullifying the destructor (and leaking memory as a result).\r\n"
+  }
+]
