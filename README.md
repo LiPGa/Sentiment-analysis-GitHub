@@ -13,6 +13,7 @@ Soure code and dataset.
 ├── analysis.py
 ├── network.py
 ├── network_plot.py
+├── relationships.csv
 ├── issue-data/
 ├── Dataset/
     └── grpc/
@@ -24,6 +25,8 @@ Soure code and dataset.
 	    └── RQ2/
       └── RQ3/
       └── network/
+    ...
+    └── threejs/
 ├── SentiCR/
     └── classifier.pkl
     └── vector.pkl
@@ -71,9 +74,10 @@ this will group comments by issue, by week and by half-a-year period seperately.
 ```python collaboration.py --repo $repo_name ```
 ```python collaboration.py --plot True --path $figure_path ```
 this will perform t-test on collaborative relationships vs. non-collaborative relationships, and generate boxplot.
+if `plot` is true, this will merge relationships from 5 repos and generate a box plot.
 
 4. Correlation analysis (Q2)
-```python correlation.py --repo $repo_name --plot True```
+```python correlation.py --repo $repo_name、--plot True```
 this will perform correlation analysis on 3 factors and generate violin graph and scatter graph.
 
 5. Granger causality test (Q3/1)

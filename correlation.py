@@ -13,7 +13,8 @@ import matplotlib.font_manager as font_manager
 
 csv.field_size_limit(500 * 1024 * 1024)
 font = font_manager.FontProperties(weight='regular',size=28)
-# node degree of wach developer in network (weighted)
+
+# node degree of wach developer in network (not weighted)
 def get_everyone_degree(input_file): 
     res = {}
     df = pd.read_csv(input_file)
@@ -21,25 +22,54 @@ def get_everyone_degree(input_file):
         res[i] = res.get(i,0)+1
     for j in df['name2']:
         res[j] = res.get(j,0)+1
-    print ('No. of developers:', len(res.keys()))
+    # print ('No. of developers:', len(res.keys()))
+    return res
+
+def get_everyone_issues(issue_file):
+    df = pd.read_csv(issue_file)
+    res = {}
+    for index,line in df.iterrows():
+        name = line['name']
+        res[name] = res.get(name,0)+1
+    # print ('No. of developers:', len(res.keys()))
+    return res
+
+def get_everyone_comments(issue_file):
+    res = {}
+    df = pd.read_csv(issue_file)
+    for index,line in df.iterrows():
+        name = line['name']
+        comment_number = len(line['label'])
+        res[name] = res.get(name,0)+comment_number
+    # print ('No. of developers:', len(res.keys()))
     return res
 
 def get_everyone_score(polarity_file):
     csvfile = open(polarity_file, 'r',encoding='utf-8')
     reader = csv.reader(csvfile)
+    is_threejs = 'threejs' in polarity_file
     res2 = {}
     res = {}
     for line in reader:
         if (line[0] == 'name'): continue;
         a1 = line[0]
-        polarity = line[-1][2:-2]
+        if is_threejs:
+            polarity = line[-1][2:-2]
+        else:
+            polarity = line[-1]
         res[a1] = res.get(a1, []) + [polarity]
 
     for i, j in res.items():
-        res2[i] = round(float(j.count('positive')+j.count('neutral')) / len(j), 3)
+        positive_cnt = j.count('positive')
+        negative_cnt = j.count('negative')
+        neutral_cnt = j.count('neutral')
+        if positive_cnt==0 and negative_cnt ==0:
+            res2[i] = 0.0
+        else:
+            res2[i] = round((negative_cnt+neutral_cnt)/len(j),3)
     return res2
 
-def get_elements(input_file, polarity_file,output_file0):  
+def get_elements(input_file, polarity_file,issue_file, output_file0):  
     df = pd.read_csv(input_file)
 
     res1 = get_everyone_degree(input_file)
@@ -92,25 +122,33 @@ def group_collaborations_by_name(output_file0, output_file1):
     df3 = pd.merge(df1, df2, how='left', on=['name1', 'name2'])
     df3.to_csv(output_file1, mode='w', header=True)
 
-def plot(a,b, type,repo_name):
-    if (type == 'cmt'):
-        num = '2-1-1'
-        labelname = 'No. of comments'
-    if (type == 'issue'):
-        num = '2-1-2'
-        labelname = 'No. of issues'
-    if (type == 'score'):
-        num = '2-2'
-        labelname = 'Overall sentiment score'
-    if (type == 'influence'):
-        num = '2-3'
-        labelname = "Collaborators influence Dif."
-
+def plot(a,b,fig_type,repo_name):
+    nums = {'cmt':'2-1-1','issue':'2-1-2','score':'2-2','influence':'2-3'}
+    labels = {'cmt':'No. of comments','issue':'No. of issues','score':'Overall sentiment score','influence':"Collaborators Position Dif."}
+    num = nums[fig_type]
+    labelname=labels[fig_type]
+    # if (type == 'cmt'):
+    #     num = '2-1-1'
+    #     labelname = 'No. of comments'
+    # if (type == 'issue'):
+    #     num = '2-1-2'
+    #     labelname = 'No. of issues'
+    # if (type == 'score'):
+    #     num = '2-2'
+    #     labelname = 'Overall sentiment score'
+    # if (type == 'influence'):
+    #     num = '2-3'
+    #     labelname = "Collaborators Position Dif."
+    # else:
+    #     num = 'test'
+    #     labelname = "Collaborators Position Dif."
+    
     corr, pval = stats.spearmanr(a,b)
-    print ('{:<40}cor: {:<20}pval: {:<20}'.format(labelname,round(corr,3),round(pval,3) if round(pval,3)!=0.0 else pval ))
+    print ('{:<20}cor: {:<20}pval: {:<20}'.format(labelname,round(corr,3),round(pval,3) if round(pval,3)!=0.0 else pval ))
 
     if num=='2-1-1': return;
     if num=='2-1-2': return;
+
     z = np.polyfit(a, b, 1)
     p = np.poly1d(z)
     fig, ax = plt.subplots(figsize = (10,10))
@@ -131,7 +169,7 @@ def plot(a,b, type,repo_name):
     ax.set_xlabel('Sentiment Consistency', fontproperties=font)
     ax.set_ylabel(labelname, fontproperties=font)
 
-    plt.savefig('plots/'+num+'/' + repo_name +'.png',  bbox_inches='tight')
+    plt.savefig('plots/'+num+'/' + repo_name +'.png',  box_inches='tight')
     plt.cla()
 
 def correlation(outfile,repo_name):
@@ -173,10 +211,20 @@ def correlation(outfile,repo_name):
     averageSentiment = pd.Series(averageSentiment)
     influenceDifference = pd.Series(influenceDifference)
     sentimentConsistency = pd.Series(sentimentConsistency)
+
+    # test correlation between collaboration and position difference
+    # a = issueNumbers
+    # b = influenceDifference
+    # corr, pval = stats.spearmanr(a,b)
+    # print ('{:<40}cor: {:<20}pval: {:<20}'.format(repo_name,round(corr,3),round(pval,3) if round(pval,3)!=0.0 else pval ))
+    # fig, ax = plt.subplots(figsize = (10,10))
+    # ax.scatter(a,b,alpha=0.5)
+    # plt.savefig('plots/test/'+repo_name+'.png')
+
     # plot(sentimentConsistency,commentNumbers,'cmt',repo_name)
-    plot(sentimentConsistency,issueNumbers,'issue',repo_name)
+    # plot(sentimentConsistency,issueNumbers,'issue',repo_name)
     plot(sentimentConsistency,averageSentiment,'score',repo_name)
-    plot(sentimentConsistency,influenceDifference,'influence',repo_name)
+    # plot(sentimentConsistency,influenceDifference,'influence',repo_name)
 
 def plot_comment(repo_name,outfile):
     df = pd.read_csv(outfile)
@@ -258,7 +306,7 @@ def main():
     repo_names = ['threejs','pandas','ipython','grpc','openra']
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--repo', choices=repo_names, default='threejs')
+    parser.add_argument('--repo', choices=repo_names+['all'], default='all')
     parser.add_argument('--plot', choices=[True,False], default=True)
 
     if not os.path.exists('plots/2-1/'):
@@ -266,32 +314,49 @@ def main():
     if not os.path.exists('plots/2-2/'):
         os.makedirs('plots/2-2/')
     if not os.path.exists('plots/2-3/'):
-        os.makedirs('plots/2-3/')
+        os.makedirs('plots/2-3/')    
+    if not os.path.exists('plots/test/'):
+        os.makedirs('plots/test/')
 
     args = parser.parse_args()
-    repo_name = args.repo
     plot = args.plot
+    if args.repo!='all': candidates = []+[args.repo];
+    else: candidates = repo_names;
 
-    pre_path = 'Dataset/'+repo_name+'/'
-    if not os.path.exists(pre_path+'RQ2/'):
-        os.makedirs(pre_path+'RQ2')
+    for repo_name in candidates:
+        pre_path = 'Dataset/'+repo_name+'/'
+        if not os.path.exists(pre_path+'RQ2/'):
+            os.makedirs(pre_path+'RQ2')
+        polarity_file = 'Dataset/'+repo_name +'/'+repo_name+'_polarity.csv'
+        issue_file = 'Dataset/'+repo_name+'/'+repo_name+'_issue.csv'
+        input_file = pre_path + 'RQ2/query_result.csv' # generated by querying issue_file 
+        output_file0 = pre_path +'RQ2/collaboration0.csv'
+        output_file1 = pre_path +'RQ2/collaboration1.csv'
 
-    polarity_file = 'Dataset/'+repo_name +'/'+repo_name+'_polarity.csv'
-    input_file = pre_path + 'RQ2/query_result.csv' # generated by querying issue_file 
-    output_file0 = pre_path +'RQ2/collaboration0.csv'
-    output_file1 = pre_path +'RQ2/collaboration1.csv'
-
-    get_elements(input_file, polarity_file,output_file0)
-    group_collaborations_by_name(output_file0, output_file1)
-
-    # generate violin and scatter figures
-    if plot==True:
-        plot_comment(repo_name,output_file1)
-        plot_issue(repo_name,output_file1)
-        correlation(output_file1,repo_name)
+        # test correlation between degree and avg issue comment for individual
+        # res1 = get_everyone_comments(issue_file)
+        # res2 = get_everyone_issues(issue_file)
+        # res3 = get_everyone_degree(input_file)
+        # comment_list, issue_list, degree_list = [], [], []
+        # avg_issue_comment_list = []
+        # for n in res1.keys():
+        #     avg_issue_comment = float(res1[n])/res2[n]
+        #     avg_issue_comment_list.append(avg_issue_comment)
+        #     degree_list.append(res2.get(n,0))
+        # a = pd.Series(avg_issue_comment_list)
+        # b = pd.Series(degree_list)
+        # corr, pval = stats.spearmanr(a,b)
+        # print ('{:<40}cor: {:<20}pval: {:<20}'.format(repo_name,round(corr,3),round(pval,3) if round(pval,3)!=0.0 else pval ))
+    
+        get_elements(input_file, polarity_file,issue_file,output_file0)
+        group_collaborations_by_name(output_file0, output_file1)
+        
+        if plot==True: # generate violin and scatter figures
+            # plot_comment(repo_name,output_file1)
+            # plot_issue(repo_name,output_file1)  # times of collaboration 
+            correlation(output_file1,repo_name) # sentiment & position difference
 
 
 if __name__ == '__main__':
     main()
-
 

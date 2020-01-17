@@ -139,24 +139,8 @@ def plot_q1():
             if line['ncr_consistent_rate']>1: continue;
             writer.writerow([repo_name, 'non-collaborative', line['ncr_consistent_rate']])
 
-def box_plot_one():
-	plot_q1()
-	df = pd.read_csv('q1.csv')
-	plt.ylim(0,1)
-	fig, axes = plt.subplots(figsize=(23, 10))
-	sns.set_style("whitegrid")
-	sns.boxplot(x = 'repo',y='sentiment_consistency',data=df, hue='type',orient='v',
-				ax=axes,hue_order=['non-collaborative','collaborative'],palette="Set3",
-				width = 0.8,linewidth=3,whis=1.5,order=['threejs','pandas','ipython','grpc','openra'])
-	plt.xticks(fontproperties=font)
-	plt.yticks(fontproperties=font)
-	plt.legend(loc='lower right',fontsize=20)
-	axes.set_xlabel('Repo name',fontproperties=font)
-	axes.set_ylabel('Sentiment consistency rate',fontproperties=font)
-	fig.savefig('plots/q1.png')
-
 def merge_data_csv():
-	writer = csv.writer(open('q1.csv', 'w'))
+	writer = csv.writer(open('collaborations.csv', 'w'))
 	writer.writerow(['repo', 'type', 'sentiment_consistency'])
 
 	repos = ['grpc','threejs','ipython','openra','pandas']
@@ -176,20 +160,20 @@ def merge_data_csv():
 			writer.writerow([name, 'non-collaborator', round(line['ncr_consistent_rate'],2)])
 
 def box_plot_one(path):
-	font = font_manager.FontProperties(weight='regular',size=22)
-	df = pd.read_csv('q1.csv')
+	font = font_manager.FontProperties(weight='regular',size=20)
+	df = pd.read_csv('relationships.csv')
 	plt.ylim(0,1)
-	fig, axes = plt.subplots(figsize=(20, 7))
+	fig, axes = plt.subplots(figsize=(15, 7))
 	sns.set_style("whitegrid")
 
 	sns.boxplot(x = 'repo',y='sentiment_consistency',data=df, hue='type',orient='v',
-				ax=axes,hue_order=['non-collaborator','collaborator'],palette="Set3",
-				width = 0.75,linewidth=2,whis=1.5,order=['Three.js','Pandas','IPython','gRPC','OpenRA'])
+				ax=axes,hue_order=['non-collaborator','collaborator'],palette=["#ffffb3","#8dd3c7"],
+				width = 0.8,fliersize=0.01,linewidth=1.4,whis=0.2,order=['Three.js','Pandas','IPython','gRPC','OpenRA'])
 	plt.xticks(fontproperties=font)
 	plt.yticks(fontproperties=font)
-	plt.legend(loc='lower right',fontsize=20)
+	plt.legend(loc='lower right',fontsize=15)
 	axes.set_xlabel('Repository',fontproperties=font)
-	axes.set_ylabel('Sentiment consistency rate',fontproperties=font)
+	axes.set_ylabel('Sentiment Consistency',fontproperties=font)
 	plt.show()
 	fig.savefig(path)
 
@@ -204,14 +188,15 @@ def main():
 	args = parser.parse_args()
 	repo_name = args.repo
 	plot = args.plot
+	path = args.path
 
 	pre_path = 'Dataset/'+repo_name+'/'
 	filepath = pre_path +repo_name+'_polarity.csv'
 	cr_file = pre_path +'RQ1/'+ repo_name+ '_CR.csv'
 	ncr_file = pre_path +'RQ1/'+ repo_name+ '_NCR.csv'
 	print ('Processing ',repo_name + '...')
-	# data_process(filepath, cr_file, ncr_file)
-	# t_test(cr_file, ncr_file)
+	data_process(filepath, cr_file, ncr_file)
+	t_test(cr_file, ncr_file)
 	if plot:
 		merge_data_csv()
 		box_plot_one(path)
