@@ -1,0 +1,212 @@
+repo: threejs
+No. of developers: 1987
+8259
+Average Comment Count = 9
+Average Issue Count = 1
+1537 pairs of collaborative relationship
+No. of comments                         cor: 0.063               pval: 0.014               
+No. of issues                           cor: 0.116               pval: 5.179740157724445e-06
+Overall sentiment score                 cor: -0.347              pval: 1.0951033327231642e-44
+Collaborators influence Dif.            cor: 0.057               pval: 0.025     
+
+repo: pandas
+No. of developers: 5628
+23250
+Average Comment Count = 15
+Average Issue Count = 3
+2452 pairs of collaborative relationship
+No. of comments                         cor: 0.054               pval: 0.008               
+No. of issues                           cor: 0.062               pval: 0.002               
+Overall sentiment score                 cor: -0.437              pval: 3.4810594338285626e-115
+Collaborators influence Dif.            cor: 0.001               pval: 0.942   
+
+repo: ipython
+No. of developers: 3340
+15508
+Average Comment Count = 10
+Average Issue Count = 2
+1824 pairs of collaborative relationship
+No. of comments                         cor: 0.067               pval: 0.004               
+No. of issues                           cor: 0.122               pval: 1.9100076938177465e-07
+Overall sentiment score                 cor: -0.399              pval: 1.0634020429895614e-70
+Collaborators influence Dif.            cor: -0.035              pval: 0.132   
+
+repo: grpc
+No. of developers: 3033
+13831
+Average Comment Count = 12
+Average Issue Count = 2
+1524 pairs of collaborative relationship
+No. of comments                         cor: 0.153               pval: 2.094778397663113e-09
+No. of issues                           cor: 0.27                pval: 6.039910778645505e-27
+Overall sentiment score                 cor: -0.452              pval: 1.0682074356983289e-77
+Collaborators influence Dif.            cor: -0.227              pval: 2.871646441329685e-19
+
+repo: openra
+No. of developers: 676
+4195
+Average Comment Count = 23
+Average Issue Count = 5
+451 pairs of collaborative relationship
+No. of comments                         cor: 0.183               pval: 9.616431128736552e-05
+No. of issues                           cor: 0.233               pval: 5.873727188196217e-07
+Overall sentiment score                 cor: -0.539              pval: 2.820614107501884e-35
+Collaborators influence Dif.            cor: -0.076              pval: 0.107 
+
+
+threejs lag = 8
+pos: 64/129
+neg: 7/137
+consist: 67/128
+inconsist: 29/138
+
+
+pandas lag = 8
+pos: 103/214
+neg: 60/226
+consist: 119/205
+inconsist: 105/213
+
+
+ipython lag = 8
+pos: 113/227
+neg: 41/236
+consist: 133/221
+inconsist: 91/227
+
+grpc lag = 8
+pos: 49/216
+neg: 26/227
+consist: 83/200
+inconsist: 58/226
+
+openra lag = 8
+pos: 53/199
+neg: 39/202
+consist: 113/185
+inconsist: 55/196
+
+382 985
+173 1028
+515 939
+338 1000
+
+
+threejs lag = 4
+pos: 50/136
+neg: 7/145
+consist: 52/135
+inconsist: 21/146
+
+
+pandas lag = 4
+pos: 73/218
+neg: 47/231
+consist: 100/210
+inconsist: 83/217
+
+
+ipython lag = 4
+pos: 93/233
+neg: 36/242
+consist: 119/226
+inconsist: 69/233
+
+
+grpc lag = 4
+pos: 38/224
+neg: 18/236
+consist: 59/204
+inconsist: 41/235
+
+
+openra lag = 4
+pos: 42/209
+neg: 24/213
+consist: 85/194
+inconsist: 44/207
+
+
+296 1020
+132 1067
+415 969
+258 1038
+
+threejs lag = 2
+pos: 24/146
+neg: 15/151
+consist: 40/135
+inconsist: 26/145
+
+
+pandas lag = 2
+pos: 43/215
+neg: 29/217
+consist: 78/206
+inconsist: 55/218
+
+
+ipython lag = 2
+pos: 53/236
+neg: 51/244
+consist: 85/231
+inconsist: 64/242
+
+
+grpc lag = 2
+pos: 18/231
+neg: 15/238
+consist: 43/206
+inconsist: 12/236
+
+
+openra lag = 2
+pos: 12/213
+neg: 20/211
+consist: 64/194
+inconsist: 21/212
+
+
+Ttest_indResult(statistic=1.4539538493234994, pvalue=0.1461096756322917)
+Ttest_indResult(statistic=7.9304921302278695, pvalue=3.728977704950623e-15)
+
+threejs lag = 12
+pos: 39/124
+neg: 25/128
+consist: 66/116
+inconsist: 46/124
+
+
+pandas lag = 12
+pos: 82/198
+neg: 66/200
+consist: 128/192
+inconsist: 106/201
+
+
+ipython lag = 12
+pos: 95/216
+neg: 89/223
+consist: 144/215
+inconsist: 100/222
+
+
+grpc lag = 12
+pos: 47/205
+neg: 34/211
+consist: 89/187
+inconsist: 37/208
+
+
+openra lag = 12
+pos: 29/184
+neg: 37/182
+consist: 115/169
+inconsist: 46/183
+
+
+Ttest_indResult(statistic=2.340959407628411, pvalue=0.019339371219874)
+Ttest_indResult(statistic=11.441486364346831, pvalue=2.5906737960861007e-29)
+[Finished in 148.7s]
+
+
